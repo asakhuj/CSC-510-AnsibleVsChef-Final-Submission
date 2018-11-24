@@ -1,0 +1,23 @@
+#!/bin/bash
+
+VERSION=$1
+shift
+
+
+PROJECT_ROOT="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+VENV="$PROJECT_ROOT/.venv/$VERSION"
+
+if [ ! -e "$VENV" ]; then
+    virtualenv $VENV
+    source $VENV/bin/activate
+    pip install ansible==$VERSION
+    if [ $? -ne 0 ]; then
+        rm -rf $VENV
+        exit 1
+    fi
+fi
+
+if [ ! -z "$1" ]; then
+    source $VENV/bin/activate
+    $VENV/bin/ansible-playbook $*
+fi

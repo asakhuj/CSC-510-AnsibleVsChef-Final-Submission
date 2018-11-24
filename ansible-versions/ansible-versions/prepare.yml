@@ -1,0 +1,34 @@
+---
+- hosts: local
+  vars_files:
+  - vars/settings.yml
+
+  tasks:
+  - name: prepared directory
+    file:
+      path=prepared
+      state=directory
+
+  - name: prepared directories
+    file:
+      path=prepared/{{ item }}
+      state=directory
+    with_sequence: count={{ tests|count }}
+
+  - name: prepared templates
+    copy:
+      src=files/{{ item }}/template.j2
+      dest=prepared/{{ item }}/template.j2
+    with_sequence: count={{ tests|count }}
+
+  - name: prepared playbooks
+    template:
+      src=templates/{{ item }}/test.yml.j2
+      dest=prepared/{{ item }}/test.yml
+    with_sequence: count={{ tests|count }}
+
+  - name: prepared script
+    template:
+      src=templates/test.sh.j2
+      dest=prepared/test.sh
+      mode=0755
