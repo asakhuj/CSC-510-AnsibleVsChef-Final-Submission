@@ -1,0 +1,8 @@
+- hosts: local
+
+  tasks:
+{% set test = tests[item|int - 1] %}
+{% for i in range(test['executions']) %}
+  - shell: date
+    register: register{{ i }}
+{% endfor %}

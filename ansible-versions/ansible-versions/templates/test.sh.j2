@@ -1,0 +1,29 @@
+#!/bin/bash
+
+VERSION=("{{ '" "'.join(versions) }}")
+TESTS=("" "{{ '" "'.join(tests|map(attribute='name')) }}")
+
+cd {{ inventory_dir }}
+
+mkdir -p tmp
+
+# init .venv
+for version in "${VERSION[@]}"
+do
+    ./venv-ansible-playbook $version
+done
+
+for test in {1..{{ tests|count }}}
+do
+    TEST_DESC=${TESTS[$test]}
+    echo ""
+    echo "Test $test"
+    echo "Subject: $TEST_DESC"
+    echo "------------------------------------------------------"
+    for version in "${VERSION[@]}"
+    do
+        rm -f tmp/*
+        RES=$(/usr/bin/time -f "%E" /bin/bash -c "./venv-ansible-playbook $version -i hosts prepared/$test/test.yml > /dev/null 2>&1"  2>&1)
+        echo "v$version $RES"
+    done
+done

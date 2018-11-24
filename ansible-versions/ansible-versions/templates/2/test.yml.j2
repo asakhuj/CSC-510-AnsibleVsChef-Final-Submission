@@ -1,0 +1,13 @@
+- hosts: local
+  vars:
+    test_dict:
+{% set test = tests[item|int - 1] %}
+{% for i in range(test['vars']) %}
+      a{{ i }}: b{{ i }}
+{% endfor %}
+  tasks:
+{% for i in range(test['templates']) %}
+  - template:
+      src=template.j2
+      dest={{ inventory_dir }}/tmp/test.{{ i }}
+{% endfor %}
