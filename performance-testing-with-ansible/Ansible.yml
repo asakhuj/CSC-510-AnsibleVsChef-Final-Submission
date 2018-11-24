@@ -1,0 +1,157 @@
+- hosts: localhost
+  gather_facts: no
+  become: true
+  vars_prompt:          
+    - name: "path"
+      prompt: "Please enter the path of Centos 7 ios image"
+      private: no
+  ## Package installations    
+  tasks:
+#   - name: Define the VM
+ #    command: sudo virsh define HW3_VMM1.xml
+  # - name: Define VM2
+   #  command: sudo virsh define HW3_VMM2.xml
+   - name: Check for qemu-kvm
+     apt:
+       name: qemu-kvm
+       state: present
+   
+   - name: Check for ssh pass
+     apt:
+       name: sshpass
+       state: present
+
+   - name: Check for libvirt packages and ovs
+     apt:
+      name: "{{ item }}"
+      state: present
+     with_items:
+       - openvswitch-switch
+       - libvirt-bin
+       - virt-manager
+       - virt-viewer
+       - virtinst 
+  ##
+
+  ## Networking L3 NAT bridge
+   - name: Create an OVS NAT
+     openvswitch_bridge:
+      bridge: SW1-bridge
+      state: present
+  
+   - name: Define OVS NAT
+     virt_net:
+      command: define
+      name: SW1
+      xml: '{{ lookup("template", "SW1.xml") }}'
+   
+   - name: Start OVS NAT
+     virt_net:
+      command: create
+      name: SW1
+
+   - name: Assign IP to OVS NAT
+     command: sudo ip link set SW1-bridge up
+     command: sudo ip addr add 192.168.205.1/24 dev SW1-bridge
+     command: sudo iptables -t nat -A POSTROUTING -o ens3 -j MASQUERADE
+  ##
+
+
+  ## Networking L2 bridge
+   - name: Create an OvS bridge L2
+     openvswitch_bridge:
+      bridge: SW2-bridge
+      state: present
+
+   - name: Define a OVS L2
+     virt_net:
+      command: define
+      name: SW2
+      xml: '{{ lookup("template", "SW2.xml") }}'
+
+   - name: Start the OVS L2 network
+     virt_net:
+      command: create
+      name: SW2
+  
+   - name: Enable interface
+     command: sudo ip link set SW2-bridge up 
+   
+  ##
+
+  ## Networking Route bridge
+   - name: Create an OvS bridge Routed
+     openvswitch_bridge:
+      bridge: SW3-bridge
+      state: present
+
+   - name: Define a OVS bridge Routed
+     virt_net:
+      command: define
+      name: SW3
+      xml: '{{ lookup("template", "SW3.xml") }}'
+
+   - name: Start the OVS bridge routed network
+     virt_net:
+      command: create
+      name: SW3
+
+
+   - name: Assign IP to OVS bridge routed
+     command: sudo ip link set SW3-bridge up
+     command: sudo ip addr add 192.168.201.1/24 dev SW3-bridge
+  ##
+
+  ## Networking L3 Route other 
+   - name: Create an OvS bridge Routed others
+     openvswitch_bridge:
+      bridge: SW4-bridge
+      state: present
+
+
+   - name: Define a OVS bridge routed others
+     virt_net:
+      command: define
+      name: SW4
+      xml: '{{ lookup("template", "SW4.xml") }}'
+   
+   - name: Start the OVS bridge routed others network
+     virt_net:
+      command: create
+      name: SW4
+
+   - name: Assign IP to Ovs bridge routed others
+     command: sudo ip link set SW4-bridge up
+     command: sudo ip addr add 192.168.202.1/24 dev SW4-bridge
+  ##
+  ##
+  ## - copy: 
+    ##   src=/etc/libvirt/qemu/networks/HW3_template.xml
+     ##  dest=/etc/libvirt/qemu/networks/HW3_VMM1.xml
+   - name: Enable interfaces
+     command: sudo ./Enable_if.sh 
+ 
+  ##
+   - name: Install a VM-1
+     command: sudo virt-install  -n VMM1 --memory 2048 -f /var/lib/libvirt/images/VMM1.qcow,size=12,format=qcow2,bus=virtio,cache=none --vcpus=1 --os-type linux --os-variant centos7.0 --location "{{path}}" --extra-args='ks=file:/anaconda-ks.cfg console=tty0 console=ttyS0,115200n8' --keymap ja --initrd-inject ./anaconda-ks.cfg --network network=default --network network=SW2 
+     
+
+   - name: Define a VM2
+     virt:
+       name: VMM3
+       command: define
+       xml: "{{ lookup('template', 'VMM3.xml') }}"
+       uri: 'qemu:///system'
+
+   - name: Start the VM2
+     virt:
+       name: VMM3
+       state: running
+       uri: 'qemu:///system'
+  
+
+   - name: Run Host inventory population script
+     command: sudo ./create_invetory.sh
+
+   ##
+  

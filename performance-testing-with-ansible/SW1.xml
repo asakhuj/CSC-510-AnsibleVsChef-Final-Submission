@@ -1,0 +1,13 @@
+<!--
+WARNING: THIS IS AN AUTO-GENERATED FILE. CHANGES TO IT ARE LIKELY TO BE
+OVERWRITTEN AND LOST. Changes to this xml configuration should be made using:
+  virsh net-edit SW2
+or other application using the libvirt API.
+-->
+
+<network>
+  <name>SW1</name>
+  <forward mode='bridge'/>
+  <bridge name='SW1-bridge'/>
+  <virtualport type='openvswitch'/>
+</network>
