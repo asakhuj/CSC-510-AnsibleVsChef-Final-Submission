@@ -1,0 +1,12 @@
+- hosts: VM_IPs
+  gather_facts: no
+  become: true
+
+  tasks:
+   - name: Install Iperf and Wireshark
+     yum:
+      name: "{{ item }}"
+      state: present
+     with_items:
+       - iperf3
+       - wireshark
