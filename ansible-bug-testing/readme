@@ -1,0 +1,8 @@
+This section covers the bug testing analysis of ansible. Pylint was used as a primary bug-finding and code-smell detection tool.
+Tested on:
+  Python:2.7
+  OS:Windows 10
+
+Dependencies:
+To run this, one must ensure that Python 2 >=2.7.9 or Python 3 >=3.4 is installed. To install pylint use command:
+>>pip install pylint
