@@ -1,0 +1,31 @@
+************* Module lib.core_ci
+C: 39, 0: Line too long (113/100) (line-too-long)
+C: 98, 0: Line too long (117/100) (line-too-long)
+C:138, 0: Line too long (118/100) (line-too-long)
+C:143, 0: Line too long (118/100) (line-too-long)
+C:150, 0: Line too long (114/100) (line-too-long)
+C:178, 0: Line too long (115/100) (line-too-long)
+C:182, 0: Line too long (150/100) (line-too-long)
+C:185, 0: Line too long (123/100) (line-too-long)
+C:193, 0: Line too long (113/100) (line-too-long)
+C:226, 0: Line too long (113/100) (line-too-long)
+C:234, 0: Line too long (112/100) (line-too-long)
+C:240, 0: Line too long (112/100) (line-too-long)
+C:255, 0: Line too long (113/100) (line-too-long)
+C:329, 0: Line too long (122/100) (line-too-long)
+C:358, 0: Line too long (102/100) (line-too-long)
+C:499, 0: Line too long (107/100) (line-too-long)
+C:545, 0: Line too long (102/100) (line-too-long)
+R: 37, 0: Too many instance attributes (18/7) (too-many-instance-attributes)
+R: 39, 4: Too many arguments (9/5) (too-many-arguments)
+R: 39, 4: Too many branches (23/12) (too-many-branches)
+R: 39, 4: Too many statements (74/50) (too-many-statements)
+R:521, 0: Too few public methods (0/2) (too-few-public-methods)
+R:560, 4: Too many arguments (6/5) (too-many-arguments)
+R:558, 0: Too few public methods (1/2) (too-few-public-methods)
+W: 13, 0: Unused HttpResponse imported from lib.http (unused-import)
+W: 27, 0: Unused EnvironmentConfig imported from lib.config (unused-import)
+
+-----------------------------------
+Your code has been rated at 9.11/10
+

@@ -1,0 +1,26 @@
+************* Module ansible.modules.cloud.azure.azure_rm_networkinterface_facts
+C:143, 0: Wrong continued indentation (remove 1 space).
+                                                           )
+                                                          |^ (bad-continuation)
+C:182, 0: Line too long (104/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+W:111, 0: No exception type(s) specified (bare-except)
+E:109, 4: Unable to import 'msrestazure.azure_exceptions' (import-error)
+E:110, 4: Unable to import 'azure.common' (import-error)
+C:115, 0: Import "from ansible.module_utils.azure_rm_common import AzureRMModuleBase" should be placed at the top of the module (wrong-import-position)
+C:121, 0: Missing class docstring (missing-docstring)
+C:162, 4: Missing method docstring (missing-docstring)
+W:168, 8: No exception type(s) specified (bare-except)
+C:177, 4: Missing method docstring (missing-docstring)
+W:181,15: Catching too general exception Exception (broad-except)
+C:191, 4: Missing method docstring (missing-docstring)
+W:195,15: Catching too general exception Exception (broad-except)
+C:206, 0: Missing function docstring (missing-docstring)
+W:109, 4: Unused CloudError imported from msrestazure.azure_exceptions (unused-import)
+W:110, 4: Unused AzureHttpError imported from azure.common (unused-import)
+W:110, 4: Unused AzureMissingResourceHttpError imported from azure.common (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.25/10
+

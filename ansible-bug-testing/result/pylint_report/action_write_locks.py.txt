@@ -1,0 +1,9 @@
+************* Module ansible.executor.action_write_locks
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 30, 4: Constant name "action_write_locks" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 40, 4: Constant name "mods" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 6.36/10 (previous run: 6.36/10, +0.00)
+

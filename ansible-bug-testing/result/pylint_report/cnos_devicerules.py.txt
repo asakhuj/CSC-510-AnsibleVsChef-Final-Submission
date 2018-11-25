@@ -1,0 +1,56 @@
+************* Module ansible.module_utils.network.cnos.cnos_devicerules
+C: 36, 0: Unnecessary parens after 'if' keyword (superfluous-parens)
+C: 41, 0: Unnecessary parens after 'elif' keyword (superfluous-parens)
+C: 46, 0: Unnecessary parens after 'elif' keyword (superfluous-parens)
+C: 51, 0: Unnecessary parens after 'elif' keyword (superfluous-parens)
+C: 56, 0: Unnecessary parens after 'elif' keyword (superfluous-parens)
+C: 61, 0: Unnecessary parens after 'elif' keyword (superfluous-parens)
+C: 66, 0: Unnecessary parens after 'elif' keyword (superfluous-parens)
+C: 71, 0: Unnecessary parens after 'elif' keyword (superfluous-parens)
+C: 76, 0: Unnecessary parens after 'elif' keyword (superfluous-parens)
+C:1558, 0: Wrong continued indentation (remove 1 space).
+              }
+             |^ (bad-continuation)
+C:1740, 0: Wrong continued indentation (remove 1 space).
+              }
+             |^ (bad-continuation)
+C:1921, 0: Wrong continued indentation (remove 1 space).
+              }
+             |^ (bad-continuation)
+C:  1, 0: Too many lines in module (1921/1000) (too-many-lines)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 34, 0: Function name "getRuleString" doesn't conform to snake_case naming style (invalid-name)
+C: 34, 0: Argument name "deviceType" doesn't conform to snake_case naming style (invalid-name)
+C: 34, 0: Argument name "variableId" doesn't conform to snake_case naming style (invalid-name)
+C: 34, 0: Missing function docstring (missing-docstring)
+C: 35, 4: Variable name "retVal" doesn't conform to snake_case naming style (invalid-name)
+C: 38,12: Variable name "retVal" doesn't conform to snake_case naming style (invalid-name)
+C: 40,12: Variable name "retVal" doesn't conform to snake_case naming style (invalid-name)
+C: 43,12: Variable name "retVal" doesn't conform to snake_case naming style (invalid-name)
+C: 45,12: Variable name "retVal" doesn't conform to snake_case naming style (invalid-name)
+C: 48,12: Variable name "retVal" doesn't conform to snake_case naming style (invalid-name)
+C: 50,12: Variable name "retVal" doesn't conform to snake_case naming style (invalid-name)
+C: 53,12: Variable name "retVal" doesn't conform to snake_case naming style (invalid-name)
+C: 55,12: Variable name "retVal" doesn't conform to snake_case naming style (invalid-name)
+C: 58,12: Variable name "retVal" doesn't conform to snake_case naming style (invalid-name)
+C: 60,12: Variable name "retVal" doesn't conform to snake_case naming style (invalid-name)
+C: 63,12: Variable name "retVal" doesn't conform to snake_case naming style (invalid-name)
+C: 65,12: Variable name "retVal" doesn't conform to snake_case naming style (invalid-name)
+C: 68,12: Variable name "retVal" doesn't conform to snake_case naming style (invalid-name)
+C: 70,12: Variable name "retVal" doesn't conform to snake_case naming style (invalid-name)
+C: 73,12: Variable name "retVal" doesn't conform to snake_case naming style (invalid-name)
+C: 75,12: Variable name "retVal" doesn't conform to snake_case naming style (invalid-name)
+C: 78,12: Variable name "retVal" doesn't conform to snake_case naming style (invalid-name)
+C: 80,12: Variable name "retVal" doesn't conform to snake_case naming style (invalid-name)
+C: 83,12: Variable name "retVal" doesn't conform to snake_case naming style (invalid-name)
+C: 85,12: Variable name "retVal" doesn't conform to snake_case naming style (invalid-name)
+R: 34, 0: Too many branches (29/12) (too-many-branches)
+R: 34, 0: Too many statements (51/50) (too-many-statements)
+C: 90, 0: Constant name "default_cnos" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:1377, 0: Constant name "g8272_cnos" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:1559, 0: Constant name "g8296_cnos" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:1741, 0: Constant name "g8332_cnos" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 1.35/10
+

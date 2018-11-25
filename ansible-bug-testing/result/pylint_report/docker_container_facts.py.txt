@@ -1,0 +1,9 @@
+************* Module ansible.modules.cloud.docker.docker_container_facts
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:117, 0: Import "from ansible.module_utils.docker_common import AnsibleDockerClient" should be placed at the top of the module (wrong-import-position)
+C:120, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.14/10
+

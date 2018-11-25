@@ -1,0 +1,25 @@
+************* Module ansible.modules.cloud.amazon.aws_ses_rule_set
+C:183, 0: Line too long (104/100) (line-too-long)
+C:203, 0: Line too long (140/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:101, 0: Import "from ansible.module_utils.aws.core import AnsibleAWSModule" should be placed at the top of the module (wrong-import-position)
+C:102, 0: Import "from ansible.module_utils.ec2 import camel_dict_to_snake_dict, AWSRetry" should be placed at the top of the module (wrong-import-position)
+C:110, 0: Missing function docstring (missing-docstring)
+C:113,43: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:118, 0: Missing function docstring (missing-docstring)
+C:122, 0: Missing function docstring (missing-docstring)
+C:125,43: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:127, 4: Unnecessary "else" after "return" (no-else-return)
+C:134, 0: Missing function docstring (missing-docstring)
+C:138,43: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:142, 0: Missing function docstring (missing-docstring)
+C:153,55: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:165, 0: Missing function docstring (missing-docstring)
+C:175,51: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:193, 0: Missing function docstring (missing-docstring)
+C:214,51: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:225, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.92/10
+

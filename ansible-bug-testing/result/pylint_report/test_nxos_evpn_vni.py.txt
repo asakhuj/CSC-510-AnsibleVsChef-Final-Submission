@@ -1,0 +1,14 @@
+************* Module units.modules.network.nxos.test_nxos_evpn_vni
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 23, 0: Unable to import 'ansible.modules.network.nxos' (import-error)
+C: 27, 0: Missing class docstring (missing-docstring)
+C: 53, 4: Missing method docstring (missing-docstring)
+C: 63, 4: Method name "test_nxos_evpn_vni_absent_not_existing" doesn't conform to snake_case naming style (invalid-name)
+C: 63, 4: Missing method docstring (missing-docstring)
+C: 68, 4: Method name "test_nxos_evpn_vni_absent_existing" doesn't conform to snake_case naming style (invalid-name)
+C: 68, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 6.29/10
+

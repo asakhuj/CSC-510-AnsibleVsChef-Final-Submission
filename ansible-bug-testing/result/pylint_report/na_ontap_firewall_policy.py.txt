@@ -1,0 +1,22 @@
+************* Module ansible.modules.storage.netapp.na_ontap_firewall_policy
+C:117, 0: Line too long (118/100) (line-too-long)
+C:119, 0: Line too long (101/100) (line-too-long)
+C:120, 0: Line too long (103/100) (line-too-long)
+C:148, 0: Line too long (130/100) (line-too-long)
+C:162, 0: Line too long (132/100) (line-too-long)
+C:191, 0: Line too long (131/100) (line-too-long)
+C:220, 0: Line too long (136/100) (line-too-long)
+C:254, 0: Line too long (131/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:100, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:102, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:103, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:104, 0: Import "import ansible.module_utils.netapp as netapp_utils" should be placed at the top of the module (wrong-import-position)
+C:105, 0: Import "from ansible.module_utils.netapp_module import NetAppModule" should be placed at the top of the module (wrong-import-position)
+C:110, 0: Missing class docstring (missing-docstring)
+C:281, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.82/10
+

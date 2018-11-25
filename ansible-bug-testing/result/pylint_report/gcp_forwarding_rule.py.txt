@@ -1,0 +1,17 @@
+************* Module ansible.modules.cloud.google.gcp_forwarding_rule
+C:294, 0: Line too long (105/100) (line-too-long)
+C:332, 0: Line too long (121/100) (line-too-long)
+C:336, 0: Line too long (116/100) (line-too-long)
+C:337, 0: Line too long (117/100) (line-too-long)
+C:340, 0: Line too long (112/100) (line-too-long)
+C:342, 0: Line too long (116/100) (line-too-long)
+C:343, 0: Line too long (117/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:123, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:124, 0: Import "from ansible.module_utils.gcp import get_google_api_client, GCPUtils" should be placed at the top of the module (wrong-import-position)
+C:277, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.67/10
+

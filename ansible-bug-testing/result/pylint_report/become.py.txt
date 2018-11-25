@@ -1,0 +1,21 @@
+************* Module ansible.playbook.become
+C: 54, 0: Line too long (110/100) (line-too-long)
+C: 56, 0: Line too long (104/100) (line-too-long)
+C: 58, 0: Line too long (129/100) (line-too-long)
+C: 81, 0: Line too long (138/100) (line-too-long)
+C: 93, 0: Line too long (134/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 33, 0: Missing class docstring (missing-docstring)
+W: 41, 4: Useless super delegation in method '__init__' (useless-super-delegation)
+E: 42, 8: Super of 'Become' has no '__init__' member (no-member)
+C: 44, 4: Argument name "ds" doesn't conform to snake_case naming style (invalid-name)
+R: 44, 4: Method could be a function (no-self-use)
+C: 60, 4: Argument name "ds" doesn't conform to snake_case naming style (invalid-name)
+R: 33, 0: Too few public methods (0/2) (too-few-public-methods)
+W: 22, 0: Unused constants imported from ansible as C (unused-import)
+C: 29, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 6.00/10
+

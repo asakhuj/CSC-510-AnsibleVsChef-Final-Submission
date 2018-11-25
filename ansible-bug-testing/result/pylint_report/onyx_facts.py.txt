@@ -1,0 +1,23 @@
+************* Module ansible.modules.network.onyx.onyx_facts
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 82, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 83, 0: Import "from ansible.module_utils.six import iteritems" should be placed at the top of the module (wrong-import-position)
+C: 85, 0: Import "from ansible.module_utils.network.onyx.onyx import BaseOnyxModule" should be placed at the top of the module (wrong-import-position)
+C: 86, 0: Import "from ansible.module_utils.network.onyx.onyx import show_cmd" should be placed at the top of the module (wrong-import-position)
+C: 89, 0: Missing class docstring (missing-docstring)
+C: 91, 4: Missing method docstring (missing-docstring)
+C:157, 0: Missing class docstring (missing-docstring)
+C:169, 4: Missing method docstring (missing-docstring)
+R:157, 0: Too few public methods (1/2) (too-few-public-methods)
+C:175, 0: Missing class docstring (missing-docstring)
+R:175, 0: Too few public methods (1/2) (too-few-public-methods)
+C:186, 0: Missing class docstring (missing-docstring)
+R:186, 0: Too few public methods (1/2) (too-few-public-methods)
+C:197, 0: Missing class docstring (missing-docstring)
+C:208, 4: Missing method docstring (missing-docstring)
+R:208, 4: Method could be a function (no-self-use)
+
+-----------------------------------
+Your code has been rated at 8.33/10
+

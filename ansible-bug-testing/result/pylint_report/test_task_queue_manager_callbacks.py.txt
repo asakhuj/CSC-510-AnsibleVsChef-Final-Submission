@@ -1,0 +1,20 @@
+************* Module units.executor.test_task_queue_manager_callbacks
+C:  1, 0: Missing module docstring (missing-docstring)
+E: 23, 0: Unable to import 'ansible.executor.task_queue_manager' (import-error)
+E: 24, 0: Unable to import 'ansible.playbook' (import-error)
+E: 25, 0: Unable to import 'ansible.plugins.callback' (import-error)
+C: 27, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 30, 0: Missing class docstring (missing-docstring)
+C: 51, 4: Method name "test_task_queue_manager_callbacks_v2_playbook_on_start" doesn't conform to snake_case naming style (invalid-name)
+C: 67,12: Missing method docstring (missing-docstring)
+R: 58, 8: Too few public methods (1/2) (too-few-public-methods)
+W: 71, 8: Access to a protected member _callback_plugins of a client class (protected-access)
+C: 75, 4: Method name "test_task_queue_manager_callbacks_v2_playbook_on_start_wrapped" doesn't conform to snake_case naming style (invalid-name)
+C: 95,12: Missing function docstring (missing-docstring)
+C:111,12: Missing method docstring (missing-docstring)
+R:100, 8: Too few public methods (1/2) (too-few-public-methods)
+W:115, 8: Access to a protected member _callback_plugins of a client class (protected-access)
+
+-----------------------------------
+Your code has been rated at 4.26/10
+

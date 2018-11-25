@@ -1,0 +1,20 @@
+************* Module units.modules.packaging.os.test_apt
+C:  1, 0: Missing module docstring (missing-docstring)
+W: 12, 0: No exception type(s) specified (bare-except)
+E:  9, 4: Unable to import 'ansible.modules.packaging.os.apt' (import-error)
+C: 19, 0: Missing class docstring (missing-docstring)
+C: 22, 8: Variable name "FakePackage" doesn't conform to snake_case naming style (invalid-name)
+C: 29, 4: Missing method docstring (missing-docstring)
+C: 30, 8: Black listed name "foo" (blacklisted-name)
+C: 34, 4: Missing method docstring (missing-docstring)
+C: 35, 8: Black listed name "foo" (blacklisted-name)
+C: 39, 4: Method name "test_pkgname_wildcard_version_wildcard" doesn't conform to snake_case naming style (invalid-name)
+C: 39, 4: Missing method docstring (missing-docstring)
+C: 40, 8: Black listed name "foo" (blacklisted-name)
+C: 46, 4: Missing method docstring (missing-docstring)
+C: 47, 8: Black listed name "foo" (blacklisted-name)
+W:  2, 0: Unused import os (unused-import)
+
+-----------------------------------
+Your code has been rated at 3.21/10
+

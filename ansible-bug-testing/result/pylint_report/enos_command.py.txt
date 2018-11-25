@@ -1,0 +1,16 @@
+************* Module ansible.modules.network.enos.enos_command
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:155, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C:157, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:158, 0: Import "from ansible.module_utils.network.enos.enos import run_commands, check_args" should be placed at the top of the module (wrong-import-position)
+C:159, 0: Import "from ansible.module_utils.network.enos.enos import enos_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:160, 0: Import "from ansible.module_utils.network.common.parsing import Conditional" should be placed at the top of the module (wrong-import-position)
+C:161, 0: Import "from ansible.module_utils.six import string_types" should be placed at the top of the module (wrong-import-position)
+C:164, 0: Missing function docstring (missing-docstring)
+C:171, 0: Missing function docstring (missing-docstring)
+W:158, 0: Unused check_args imported from ansible.module_utils.network.enos.enos (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.71/10
+

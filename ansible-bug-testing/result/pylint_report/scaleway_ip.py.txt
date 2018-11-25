@@ -1,0 +1,17 @@
+************* Module ansible.modules.cloud.scaleway.scaleway_ip
+C:171, 0: Line too long (102/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:103, 0: Import "from ansible.module_utils.scaleway import SCALEWAY_LOCATION, scaleway_argument_spec, Scaleway" should be placed at the top of the module (wrong-import-position)
+C:104, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:107, 0: Missing function docstring (missing-docstring)
+W:107,36: Unused argument 'api' (unused-argument)
+C:134, 0: Missing function docstring (missing-docstring)
+C:142, 0: Missing function docstring (missing-docstring)
+C:190, 0: Missing function docstring (missing-docstring)
+C:219, 0: Missing function docstring (missing-docstring)
+C:238, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.64/10
+

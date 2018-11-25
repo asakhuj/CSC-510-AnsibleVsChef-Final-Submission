@@ -1,0 +1,30 @@
+************* Module ansible.modules.system.at
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 74, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C: 75, 0: Import "import tempfile" should be placed at the top of the module (wrong-import-position)
+C: 77, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 80, 0: Missing function docstring (missing-docstring)
+R: 80, 0: Too many arguments (7/5) (too-many-arguments)
+C: 82, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W: 82,13: Unused variable 'err' (unused-variable)
+W: 82, 4: Unused variable 'rc' (unused-variable)
+W: 82, 8: Unused variable 'out' (unused-variable)
+C: 88, 0: Missing function docstring (missing-docstring)
+C: 91, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W: 91,17: Unused variable 'err' (unused-variable)
+W: 91, 8: Unused variable 'rc' (unused-variable)
+W: 91,12: Unused variable 'out' (unused-variable)
+C: 98, 0: Missing function docstring (missing-docstring)
+C:105, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:107, 7: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:118, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W:105,13: Unused variable 'err' (unused-variable)
+W:105, 4: Unused variable 'rc' (unused-variable)
+C:126, 0: Missing function docstring (missing-docstring)
+C:134, 0: Missing function docstring (missing-docstring)
+C:177,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+
+-----------------------------------
+Your code has been rated at 6.53/10
+

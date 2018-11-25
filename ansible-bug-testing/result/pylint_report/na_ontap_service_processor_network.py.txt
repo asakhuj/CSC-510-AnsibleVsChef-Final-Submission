@@ -1,0 +1,24 @@
+************* Module ansible.modules.storage.netapp.na_ontap_service_processor_network
+C:237, 0: Wrong continued indentation (remove 4 spaces).
+                        != spn_details['prefix_length_value']) or \
+                    |   ^ (bad-continuation)
+C:239, 0: Wrong continued indentation (remove 4 spaces).
+                        != spn_details['is_enabled_value']):
+                    |   ^ (bad-continuation)
+C:229, 0: Wrong continued indentation before block (add 4 spaces).
+                    self.dhcp != spn_details['dhcp_value']) or \
+                    ^   | (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 78, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C: 80, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 81, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 82, 0: Import "import ansible.module_utils.netapp as netapp_utils" should be placed at the top of the module (wrong-import-position)
+R: 87, 0: Too many instance attributes (12/7) (too-many-instance-attributes)
+C:182, 4: Method name "modify_service_processor_network" doesn't conform to snake_case naming style (invalid-name)
+W:205,12: Unused variable 'result' (unused-variable)
+R:228,19: Too many boolean expressions in if statement (12/5) (too-many-boolean-expressions)
+
+-----------------------------------
+Your code has been rated at 8.63/10
+

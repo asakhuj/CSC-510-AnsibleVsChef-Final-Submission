@@ -1,0 +1,62 @@
+************* Module ansible.modules.commands.raw
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.00/10
+
+************* Module ansible.module_utils.k8s.raw
+W:362, 0: FIXME: frustratingly bool(deployment.status) is True even if status is empty (fixme)
+C: 35, 0: Line too long (133/100) (line-too-long)
+C: 61, 0: Line too long (101/100) (line-too-long)
+C:145, 0: Line too long (140/100) (line-too-long)
+C:147, 0: Line too long (102/100) (line-too-long)
+C:217, 0: Line too long (105/100) (line-too-long)
+C:233, 0: Line too long (118/100) (line-too-long)
+C:234, 0: Line too long (135/100) (line-too-long)
+C:240, 0: Line too long (103/100) (line-too-long)
+C:244, 0: Line too long (113/100) (line-too-long)
+C:259, 0: Line too long (104/100) (line-too-long)
+C:264, 0: Line too long (103/100) (line-too-long)
+C:269, 0: Line too long (113/100) (line-too-long)
+C:297, 0: Line too long (109/100) (line-too-long)
+C:321, 0: Line too long (113/100) (line-too-long)
+C:363, 0: Line too long (118/100) (line-too-long)
+C:390, 0: Line too long (135/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 47, 0: Missing class docstring (missing-docstring)
+C: 50, 4: Missing method docstring (missing-docstring)
+C:143, 4: Missing method docstring (missing-docstring)
+R:143, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:154, 4: Missing method docstring (missing-docstring)
+C:165, 4: Missing method docstring (missing-docstring)
+R:165, 4: Too many local variables (20/15) (too-many-locals)
+E:270,69: Instance of 'dict' has no 'to_dict' member (no-member)
+R:165, 4: Too many return statements (8/6) (too-many-return-statements)
+R:165, 4: Too many branches (38/12) (too-many-branches)
+R:165, 4: Too many statements (113/50) (too-many-statements)
+C:308, 4: Missing method docstring (missing-docstring)
+R:308, 4: Too many arguments (7/5) (too-many-arguments)
+W:314,19: Unused variable 'diffs' (unused-variable)
+W:314,12: Unused variable 'match' (unused-variable)
+C:324, 4: Missing method docstring (missing-docstring)
+R:339, 4: Too many arguments (7/5) (too-many-arguments)
+R:339, 4: Method could be a function (no-self-use)
+C:359, 4: Missing method docstring (missing-docstring)
+W:125,12: Attribute 'warnings' defined outside __init__ (attribute-defined-outside-init)
+W:127,16: Attribute 'warnings' defined outside __init__ (attribute-defined-outside-init)
+W: 41, 4: Unused import kubernetes_validate (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.39/10
+
+************* Module ansible.plugins.action.raw
+C: 42, 0: Line too long (113/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 18, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 23, 0: Missing class docstring (missing-docstring)
+R: 23, 0: Too few public methods (1/2) (too-few-public-methods)
+
+-----------------------------------
+Your code has been rated at 7.73/10
+

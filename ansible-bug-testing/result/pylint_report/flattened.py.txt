@@ -1,0 +1,14 @@
+************* Module ansible.plugins.lookup.flattened
+C: 65, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 34, 0: Import "from ansible.errors import AnsibleError" should be placed at the top of the module (wrong-import-position)
+C: 35, 0: Import "from ansible.module_utils.six import string_types" should be placed at the top of the module (wrong-import-position)
+C: 36, 0: Import "from ansible.plugins.lookup import LookupBase" should be placed at the top of the module (wrong-import-position)
+C: 37, 0: Import "from ansible.utils.listify import listify_lookup_plugin_terms" should be placed at the top of the module (wrong-import-position)
+C: 40, 0: Missing class docstring (missing-docstring)
+W: 79, 4: Signature differs from overridden 'run' method (signature-differs)
+
+-----------------------------------
+Your code has been rated at 7.43/10
+

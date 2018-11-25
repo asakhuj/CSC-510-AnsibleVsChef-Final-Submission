@@ -1,0 +1,32 @@
+************* Module ansible.modules.cloud.oneandone.oneandone_monitoring_policy
+C:726, 0: Line too long (102/100) (line-too-long)
+C:  1, 0: Too many lines in module (1028/1000) (too-many-lines)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 18, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:426, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:427, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:428, 0: Import "from ansible.module_utils.oneandone import get_monitoring_policy, get_server, OneAndOneResources, wait_for_resource_creation_completion" should be placed at the top of the module (wrong-import-position)
+W:475,11: Catching too general exception Exception (broad-except)
+W:496,11: Catching too general exception Exception (broad-except)
+W:525,11: Catching too general exception Exception (broad-except)
+W:554,11: Catching too general exception Exception (broad-except)
+W:576,11: Catching too general exception Exception (broad-except)
+W:604,11: Catching too general exception Exception (broad-except)
+W:631,11: Catching too general exception Exception (broad-except)
+W:652,11: Catching too general exception Exception (broad-except)
+R:656, 0: Too many local variables (31/15) (too-many-locals)
+W:836,11: Catching too general exception Exception (broad-except)
+R:656, 0: Too many branches (25/12) (too-many-branches)
+R:656, 0: Too many statements (87/50) (too-many-statements)
+R:840, 0: Too many local variables (27/15) (too-many-locals)
+W:918,11: Catching too general exception Exception (broad-except)
+W:944,11: Catching too general exception Exception (broad-except)
+C:948, 0: Missing function docstring (missing-docstring)
+W:1003,15: Catching too general exception Exception (broad-except)
+W:1011,15: Catching too general exception Exception (broad-except)
+W:1021,15: Catching too general exception Exception (broad-except)
+R:948, 0: Too many branches (14/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 9.09/10
+

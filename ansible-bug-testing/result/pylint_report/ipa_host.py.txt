@@ -1,0 +1,35 @@
+************* Module ansible.modules.identity.ipa.ipa_host
+C:189, 0: Line too long (114/100) (line-too-long)
+C:190, 0: Line too long (101/100) (line-too-long)
+C:230, 0: Line too long (101/100) (line-too-long)
+C:237, 0: Wrong continued indentation (remove 1 space).
+                                )
+                               |^ (bad-continuation)
+C:255, 0: Line too long (103/100) (line-too-long)
+C:281, 0: Line too long (121/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:159, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:161, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:162, 0: Import "from ansible.module_utils.ipa import IPAClient, ipa_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:163, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:166, 0: Missing class docstring (missing-docstring)
+W:167, 4: Useless super delegation in method '__init__' (useless-super-delegation)
+C:170, 4: Missing method docstring (missing-docstring)
+C:173, 4: Missing method docstring (missing-docstring)
+C:176, 4: Missing method docstring (missing-docstring)
+C:179, 4: Missing method docstring (missing-docstring)
+C:182, 4: Missing method docstring (missing-docstring)
+C:185, 4: Missing method docstring (missing-docstring)
+C:189, 0: Missing function docstring (missing-docstring)
+R:189, 0: Too many arguments (9/5) (too-many-arguments)
+C:213, 0: Missing function docstring (missing-docstring)
+C:224, 0: Missing function docstring (missing-docstring)
+C:248,15: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:269, 0: Missing function docstring (missing-docstring)
+W:297,11: Catching too general exception Exception (broad-except)
+C:297,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.05/10
+

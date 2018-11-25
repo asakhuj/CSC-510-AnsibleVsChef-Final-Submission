@@ -1,0 +1,19 @@
+************* Module ansible.modules.web_infrastructure.nginx_status_facts
+C:122, 0: Line too long (126/100) (line-too-long)
+C:129, 0: Line too long (114/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 96, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C: 97, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 98, 0: Import "from ansible.module_utils.urls import fetch_url" should be placed at the top of the module (wrong-import-position)
+C:101, 0: Missing class docstring (missing-docstring)
+C:107, 4: Missing method docstring (missing-docstring)
+W:120,19: Unused variable 'info' (unused-variable)
+R:101, 0: Too few public methods (1/2) (too-few-public-methods)
+C:143, 0: Missing function docstring (missing-docstring)
+W:144, 4: Global variable 'module' undefined at the module level (global-variable-undefined)
+C:144, 4: Constant name "module" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.59/10
+

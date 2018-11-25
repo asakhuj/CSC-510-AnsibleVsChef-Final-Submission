@@ -1,0 +1,31 @@
+************* Module ansible.galaxy.login
+C: 84, 0: Wrong continued indentation (add 9 spaces).
+                               url_password=self.github_password, force_basic_auth=True,))
+                               ^        | (bad-continuation)
+C: 93, 0: Line too long (121/100) (line-too-long)
+C: 94, 0: Line too long (103/100) (line-too-long)
+C:107, 0: Wrong continued indentation (add 9 spaces).
+                             url_password=self.github_password, force_basic_auth=True, data=args))
+                             ^        | (bad-continuation)
+W: 29, 0: Redefining built-in 'input' (redefined-builtin)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 23, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 29, 0: Unable to import 'ansible.module_utils.six.moves' (import-error)
+E: 30, 0: No name 'urllib' in module '_MovedItems' (no-name-in-module)
+E: 30, 0: Unable to import 'ansible.module_utils.six.moves.urllib.parse' (import-error)
+E: 31, 0: No name 'urllib' in module '_MovedItems' (no-name-in-module)
+E: 31, 0: Unable to import 'ansible.module_utils.six.moves.urllib.error' (import-error)
+C: 55, 4: Missing method docstring (missing-docstring)
+W: 66, 8: No exception type(s) specified (bare-except)
+W: 71, 8: No exception type(s) specified (bare-except)
+C: 85,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C: 95,36: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:108,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W: 28, 0: Unused AnsibleOptionsError imported from ansible.errors (unused-import)
+W: 30, 0: Unused quote imported from ansible.module_utils.six.moves.urllib.parse as urlquote (unused-import)
+W: 30, 0: Unused urlparse imported from ansible.module_utils.six.moves.urllib.parse (unused-import)
+C: 38, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+------------------------------------------------------------------
+Your code has been rated at 3.11/10 (previous run: 3.11/10, +0.00)
+

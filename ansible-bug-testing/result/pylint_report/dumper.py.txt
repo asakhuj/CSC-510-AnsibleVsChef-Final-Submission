@@ -1,0 +1,15 @@
+************* Module ansible.parsing.yaml.dumper
+C: 25, 0: Line too long (118/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+R: 30, 0: Too many ancestors (8/7) (too-many-ancestors)
+C: 38, 0: Missing function docstring (missing-docstring)
+C: 43, 0: Function name "represent_vault_encrypted_unicode" doesn't conform to snake_case naming style (invalid-name)
+C: 43, 0: Missing function docstring (missing-docstring)
+W: 44,44: Access to a protected member _ciphertext of a client class (protected-access)
+C: 48, 4: Constant name "represent_unicode" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 50, 4: Constant name "represent_unicode" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 5.65/10
+

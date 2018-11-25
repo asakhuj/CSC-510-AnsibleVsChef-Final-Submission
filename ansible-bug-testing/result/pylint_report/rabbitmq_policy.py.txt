@@ -1,0 +1,18 @@
+************* Module ansible.modules.messaging.rabbitmq.rabbitmq_policy
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 79, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C: 80, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 83, 0: Missing class docstring (missing-docstring)
+R: 83, 0: Too many instance attributes (9/7) (too-many-instance-attributes)
+C:101,12: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W:101,21: Unused variable 'err' (unused-variable)
+W:101,12: Unused variable 'rc' (unused-variable)
+C:105, 4: Missing method docstring (missing-docstring)
+C:116, 4: Missing method docstring (missing-docstring)
+C:128, 4: Missing method docstring (missing-docstring)
+C:132, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.03/10
+

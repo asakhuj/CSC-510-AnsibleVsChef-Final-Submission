@@ -1,0 +1,15 @@
+************* Module ansible.modules.network.panos.panos_admin
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 77, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 88, 0: Missing function docstring (missing-docstring)
+C: 90, 4: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C: 94, 0: Missing function docstring (missing-docstring)
+C: 98, 8: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:105, 4: Variable name "ea" doesn't conform to snake_case naming style (invalid-name)
+C:111,12: Variable name "rb" doesn't conform to snake_case naming style (invalid-name)
+W: 94,20: Unused argument 'module' (unused-argument)
+C:146, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.63/10
+

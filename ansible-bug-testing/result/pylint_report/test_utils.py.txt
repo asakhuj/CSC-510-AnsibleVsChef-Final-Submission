@@ -1,0 +1,107 @@
+************* Module units.module_utils.facts.test_utils
+C: 35, 0: Line too long (112/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 18, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 23, 0: Unable to import 'ansible.module_utils.facts' (import-error)
+C: 26, 0: Missing class docstring (missing-docstring)
+C: 27, 4: Missing method docstring (missing-docstring)
+C: 31, 4: Missing method docstring (missing-docstring)
+C: 36, 4: Missing method docstring (missing-docstring)
+W: 36,38: Unused argument 'mock_statvfs' (unused-argument)
+
+-----------------------------------
+Your code has been rated at 1.88/10
+
+************* Module test_utils
+C: 39, 0: Wrong hanging indentation (remove 4 spaces).
+                        'www.example.com',
+                    |   ^ (bad-continuation)
+C: 40, 0: Wrong hanging indentation (remove 4 spaces).
+                        'www2.example.com'
+                    |   ^ (bad-continuation)
+C: 51, 0: Wrong hanging indentation (remove 4 spaces).
+                        {
+                    |   ^ (bad-continuation)
+C: 65, 0: Wrong hanging indentation (remove 4 spaces).
+                        {
+                    |   ^ (bad-continuation)
+C: 85, 0: Line too long (142/100) (line-too-long)
+C: 96, 0: Line too long (142/100) (line-too-long)
+C:117, 0: Line too long (104/100) (line-too-long)
+C:126, 0: Line too long (128/100) (line-too-long)
+C:138, 0: Line too long (120/100) (line-too-long)
+C:148, 0: Line too long (110/100) (line-too-long)
+C:166, 0: Line too long (144/100) (line-too-long)
+C:167, 0: Line too long (101/100) (line-too-long)
+C:169, 0: Line too long (101/100) (line-too-long)
+C:279, 0: Line too long (136/100) (line-too-long)
+C:296, 0: Line too long (148/100) (line-too-long)
+C:305, 0: Line too long (131/100) (line-too-long)
+C:310, 0: Line too long (115/100) (line-too-long)
+C:313, 0: Line too long (136/100) (line-too-long)
+C:326, 0: Line too long (148/100) (line-too-long)
+C:335, 0: Line too long (131/100) (line-too-long)
+C:359, 0: Line too long (124/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+E: 21, 0: Unable to import 'units.compat' (import-error)
+E: 22, 0: Unable to import 'ansible.module_utils.gcp' (import-error)
+C: 25, 0: Missing function docstring (missing-docstring)
+W: 25,23: Unused argument 'version' (unused-argument)
+C: 31, 0: Missing class docstring (missing-docstring)
+C: 78, 4: Missing method docstring (missing-docstring)
+W: 78,45: Unused argument 'mockobj' (unused-argument)
+C: 83, 4: Missing method docstring (missing-docstring)
+C:171,54: Variable name "cm" doesn't conform to snake_case naming style (invalid-name)
+C:175,54: Variable name "cm" doesn't conform to snake_case naming style (invalid-name)
+C:179,54: Variable name "cm" doesn't conform to snake_case naming style (invalid-name)
+R: 83, 4: Too many statements (80/50) (too-many-statements)
+C:183, 4: Missing method docstring (missing-docstring)
+C:233, 4: Method name "test_get_gcp_resource_from_methodId" doesn't conform to snake_case naming style (invalid-name)
+C:233, 4: Missing method docstring (missing-docstring)
+C:244, 4: Method name "test_get_entity_name_from_resource_name" doesn't conform to snake_case naming style (invalid-name)
+C:244, 4: Missing method docstring (missing-docstring)
+C:261, 4: Missing method docstring (missing-docstring)
+C:346, 4: Missing method docstring (missing-docstring)
+W: 18, 0: Unused import os (unused-import)
+W: 19, 0: Unused import sys (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.51/10
+
+************* Module units.module_utils.network.common.test_utils
+C: 29, 0: Line too long (104/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 22, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 26, 0: Unable to import 'ansible.module_utils.network.common.utils' (import-error)
+E: 27, 0: Unable to import 'ansible.module_utils.network.common.utils' (import-error)
+E: 28, 0: Unable to import 'ansible.module_utils.network.common.utils' (import-error)
+E: 29, 0: Unable to import 'ansible.module_utils.network.common.utils' (import-error)
+E: 30, 0: Unable to import 'ansible.module_utils.network.common.utils' (import-error)
+C: 33, 0: Missing function docstring (missing-docstring)
+C: 44, 0: Missing function docstring (missing-docstring)
+C: 52, 0: Missing function docstring (missing-docstring)
+C: 94, 0: Missing function docstring (missing-docstring)
+C:136, 0: Missing function docstring (missing-docstring)
+C:154, 0: Missing function docstring (missing-docstring)
+C:156,11: Comparison should be tmpl('{{ test }}', {'test': 'foo'}) == 'foo' (misplaced-comparison-constant)
+C:159, 0: Missing function docstring (missing-docstring)
+C:160,11: Comparison should be to_masklen('255.255.255.0') == 24 (misplaced-comparison-constant)
+C:163, 0: Missing function docstring (missing-docstring)
+C:168, 0: Missing function docstring (missing-docstring)
+C:169,11: Comparison should be to_netmask(8) == '255.0.0.0' (misplaced-comparison-constant)
+C:170,11: Comparison should be to_netmask('8') == '255.0.0.0' (misplaced-comparison-constant)
+C:173, 0: Missing function docstring (missing-docstring)
+C:178, 0: Missing function docstring (missing-docstring)
+C:180,11: Comparison should be result == '192.168.1.0/24' (misplaced-comparison-constant)
+C:183,11: Comparison should be result == '192.168.1.0 255.255.255.0' (misplaced-comparison-constant)
+C:186, 0: Missing function docstring (missing-docstring)
+C:191, 0: Missing function docstring (missing-docstring)
+C:197, 0: Missing function docstring (missing-docstring)
+C:203, 0: Missing function docstring (missing-docstring)
+C:204,11: Comparison should be to_ipv6_network('2001:db8::') == '2001:db8::' (misplaced-comparison-constant)
+C:205,11: Comparison should be to_ipv6_network('2001:0db8:85a3:0000:0000:8a2e:0370:7334') == '2001:0db8:85a3::' (misplaced-comparison-constant)
+C:206,11: Comparison should be to_ipv6_network('2001:0db8:85a3:0:0:8a2e:0370:7334') == '2001:0db8:85a3::' (misplaced-comparison-constant)
+
+-----------------------------------
+Your code has been rated at 5.44/10
+

@@ -1,0 +1,32 @@
+************* Module units.modules.network.junos.test_junos_command
+C: 53, 0: Line too long (102/100) (line-too-long)
+C: 56, 0: Line too long (102/100) (line-too-long)
+C: 59, 0: Line too long (106/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 28, 0: Unable to import 'ansible.modules.network.junos' (import-error)
+C: 37, 0: Missing class docstring (missing-docstring)
+R: 37, 0: Too many instance attributes (12/7) (too-many-instance-attributes)
+W: 72,43: Redefining built-in 'format' (redefined-builtin)
+C: 73, 8: Missing function docstring (missing-docstring)
+W: 73, 0: Unused argument 'kwargs' (unused-argument)
+C: 86, 4: Missing method docstring (missing-docstring)
+C: 92, 4: Missing method docstring (missing-docstring)
+C: 98, 4: Missing method docstring (missing-docstring)
+C:103, 4: Method name "test_junos_command_wait_for_fails" doesn't conform to snake_case naming style (invalid-name)
+C:103, 4: Missing method docstring (missing-docstring)
+C:109, 4: Missing method docstring (missing-docstring)
+C:115, 4: Missing method docstring (missing-docstring)
+C:121, 4: Missing method docstring (missing-docstring)
+C:127, 4: Method name "test_junos_command_match_all_failure" doesn't conform to snake_case naming style (invalid-name)
+C:127, 4: Missing method docstring (missing-docstring)
+C:134, 4: Missing method docstring (missing-docstring)
+C:140, 4: Method name "test_junos_command_simple_rpc_text" doesn't conform to snake_case naming style (invalid-name)
+C:140, 4: Missing method docstring (missing-docstring)
+C:146, 4: Method name "test_junos_command_simple_rpc_json" doesn't conform to snake_case naming style (invalid-name)
+C:146, 4: Missing method docstring (missing-docstring)
+C: 29, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 6.84/10
+

@@ -1,0 +1,14 @@
+************* Module ansible.plugins.lookup.dnstxt
+W: 62, 0: TODO: configurable resolver IPs (fixme)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 54, 0: Import "from ansible.errors import AnsibleError" should be placed at the top of the module (wrong-import-position)
+C: 55, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 56, 0: Import "from ansible.plugins.lookup import LookupBase" should be placed at the top of the module (wrong-import-position)
+C: 66, 0: Missing class docstring (missing-docstring)
+C: 80,20: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+C: 87,35: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.50/10
+

@@ -1,0 +1,27 @@
+************* Module ansible.modules.storage.purestorage.purefb_snap
+C:109, 0: Line too long (104/100) (line-too-long)
+C:122, 0: Line too long (132/100) (line-too-long)
+C:135, 0: Line too long (104/100) (line-too-long)
+C:154, 0: Line too long (104/100) (line-too-long)
+C:197, 0: Line too long (102/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 83, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 84, 0: Import "from ansible.module_utils.pure import get_blade, purefb_argument_spec" should be placed at the top of the module (wrong-import-position)
+C: 86, 0: Import "from datetime import datetime" should be placed at the top of the module (wrong-import-position)
+C: 97, 4: Variable name "fs" doesn't conform to snake_case naming style (invalid-name)
+W:102, 4: No exception type(s) specified (bare-except)
+W:112, 4: No exception type(s) specified (bare-except)
+W:124, 8: No exception type(s) specified (bare-except)
+W:137, 8: No exception type(s) specified (bare-except)
+W:142,28: Unused argument 'blade' (unused-argument)
+W:162, 8: No exception type(s) specified (bare-except)
+W:160,16: No exception type(s) specified (bare-except)
+W:174, 8: No exception type(s) specified (bare-except)
+C:179, 0: Missing function docstring (missing-docstring)
+C:202, 4: Variable name "fs" doesn't conform to snake_case naming style (invalid-name)
+C: 86, 0: standard import "from datetime import datetime" should be placed before "from ansible.module_utils.basic import AnsibleModule" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 7.96/10
+

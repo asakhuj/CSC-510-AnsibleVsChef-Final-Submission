@@ -1,0 +1,14 @@
+************* Module ansible.modules.cloud.webfaction.webfaction_db
+C:147, 0: Line too long (108/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 12, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 90, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+E: 91, 0: Unable to import 'ansible.module_utils.six.moves' (import-error)
+C: 91, 0: Import "from ansible.module_utils.six.moves import xmlrpc_client" should be placed at the top of the module (wrong-import-position)
+C: 94, 0: Constant name "webfaction" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 97, 0: Missing function docstring (missing-docstring)
+W:118,20: Unused variable 'account' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 6.98/10
+

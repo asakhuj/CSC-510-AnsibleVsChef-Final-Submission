@@ -1,0 +1,18 @@
+************* Module sendProcessStdin
+C:  1, 0: Module name "sendProcessStdin" doesn't conform to snake_case naming style (invalid-name)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Constant name "proc" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:  7, 0: Constant name "value" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:  8, 0: Constant name "username" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:  9, 0: Constant name "password" doesn't conform to UPPER_CASE naming style (invalid-name)
+E: 16, 4: No name 'parse' in module 'urllib' (no-name-in-module)
+E: 16, 4: Unable to import 'urllib.parse' (import-error)
+C: 19, 4: Constant name "url" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 21, 4: Constant name "url" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 23, 0: Constant name "server" doesn't conform to UPPER_CASE naming style (invalid-name)
+W:  4, 0: Unused import time (unused-import)
+C: 16, 4: Imports from package urllib are not grouped (ungrouped-imports)
+
+------------------------------------
+Your code has been rated at -3.12/10
+

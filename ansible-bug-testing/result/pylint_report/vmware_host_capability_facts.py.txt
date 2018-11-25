@@ -1,0 +1,18 @@
+************* Module ansible.modules.cloud.vmware.vmware_host_capability_facts
+C: 88, 0: Line too long (101/100) (line-too-long)
+C:143, 0: Line too long (103/100) (line-too-long)
+C:154, 0: Line too long (101/100) (line-too-long)
+C:190, 0: Line too long (110/100) (line-too-long)
+C:192, 0: Line too long (104/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 79, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 80, 0: Import "from ansible.module_utils.vmware import vmware_argument_spec, PyVmomi" should be placed at the top of the module (wrong-import-position)
+C: 83, 0: Missing class docstring (missing-docstring)
+C: 90, 4: Missing method docstring (missing-docstring)
+C: 93,12: Variable name "hc" doesn't conform to snake_case naming style (invalid-name)
+C:199, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 5.36/10
+

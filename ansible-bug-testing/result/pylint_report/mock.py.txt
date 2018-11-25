@@ -1,0 +1,18 @@
+************* Module units.compat.mock
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 25, 0: Import "import sys" should be placed at the top of the module (wrong-import-position)
+C: 48, 4: Constant name "file_spec" doesn't conform to UPPER_CASE naming style (invalid-name)
+E: 70, 4: function already defined line 41 (function-redefined)
+W: 82, 0: Unused argument 'args' (unused-argument)
+W: 82, 0: Unused argument 'kwargs' (unused-argument)
+W: 87, 0: Unused argument 'args' (unused-argument)
+W: 87, 0: Unused argument 'kwargs' (unused-argument)
+W: 99, 8: Using the global statement (global-statement)
+C: 99, 8: Constant name "file_spec" doesn't conform to UPPER_CASE naming style (invalid-name)
+E:105,19: Undefined variable 'MagicMock' (undefined-variable)
+E:107,17: Undefined variable 'MagicMock' (undefined-variable)
+
+-----------------------------------
+Your code has been rated at 5.37/10
+

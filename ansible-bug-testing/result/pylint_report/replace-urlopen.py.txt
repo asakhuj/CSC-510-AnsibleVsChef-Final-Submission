@@ -1,0 +1,9 @@
+************* Module replace-urlopen
+C: 26, 0: Line too long (103/100) (line-too-long)
+C:  1, 0: Module name "replace-urlopen" doesn't conform to snake_case naming style (invalid-name)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.33/10
+

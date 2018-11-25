@@ -1,0 +1,48 @@
+************* Module units.modules.cloud.linode.test_linode
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  5, 0: Unable to import 'ansible.modules.cloud.linode' (import-error)
+C:  9, 4: Constant name "pytestmark" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 12, 0: Function name "test_name_is_a_required_parameter" doesn't conform to snake_case naming style (invalid-name)
+C: 12, 0: Missing function docstring (missing-docstring)
+W: 12,38: Unused argument 'api_key' (unused-argument)
+W: 12,47: Unused argument 'auth' (unused-argument)
+
+------------------------------------
+Your code has been rated at -1.00/10
+
+************* Module units.plugins.inventory.test_linode
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 26, 0: Constant name "linode_apiv4" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 27, 0: Constant name "mandatory_py_version" doesn't conform to UPPER_CASE naming style (invalid-name)
+E: 33, 0: Unable to import 'ansible.errors' (import-error)
+C: 33, 0: Import "from ansible.errors import AnsibleError, AnsibleParserError" should be placed at the top of the module (wrong-import-position)
+E: 34, 0: Unable to import 'ansible.plugins.inventory.linode' (import-error)
+C: 34, 0: Import "from ansible.plugins.inventory.linode import InventoryModule" should be placed at the top of the module (wrong-import-position)
+C: 38, 0: Missing function docstring (missing-docstring)
+W: 42,29: Redefining name 'inventory' from outer scope (line 38) (redefined-outer-name)
+C: 42, 0: Missing function docstring (missing-docstring)
+W: 43, 4: Access to a protected member _options of a client class (protected-access)
+W: 45, 8: Access to a protected member _build_client of a client class (protected-access)
+W: 49,25: Redefining name 'inventory' from outer scope (line 38) (redefined-outer-name)
+C: 49, 0: Missing function docstring (missing-docstring)
+W: 50,26: Access to a protected member _validate_option of a client class (protected-access)
+W: 51,26: Access to a protected member _validate_option of a client class (protected-access)
+W: 54,38: Redefining name 'inventory' from outer scope (line 38) (redefined-outer-name)
+C: 54, 0: Function name "test_validation_option_bad_option" doesn't conform to snake_case naming style (invalid-name)
+C: 54, 0: Missing function docstring (missing-docstring)
+W: 56, 8: Access to a protected member _validate_option of a client class (protected-access)
+C: 57,15: Comparison should be error_message == "The option filters ([]) must be a <class 'dict'>" (misplaced-comparison-constant)
+W: 60,36: Redefining name 'inventory' from outer scope (line 38) (redefined-outer-name)
+C: 60, 0: Missing function docstring (missing-docstring)
+W: 61,21: Access to a protected member _get_query_options of a client class (protected-access)
+W: 65,29: Redefining name 'inventory' from outer scope (line 38) (redefined-outer-name)
+C: 65, 0: Missing function docstring (missing-docstring)
+W: 66,21: Access to a protected member _get_query_options of a client class (protected-access)
+W: 75,32: Redefining name 'inventory' from outer scope (line 38) (redefined-outer-name)
+C: 75, 0: Missing function docstring (missing-docstring)
+C: 24, 0: standard import "import sys" should be placed before "import pytest" (wrong-import-order)
+
+------------------------------------
+Your code has been rated at -2.58/10
+

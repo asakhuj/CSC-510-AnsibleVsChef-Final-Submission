@@ -1,0 +1,32 @@
+************* Module ansible.modules.network.aos._aos_asn_pool
+C:147, 0: Line too long (140/100) (line-too-long)
+C:159, 0: Line too long (114/100) (line-too-long)
+C:161, 0: Line too long (114/100) (line-too-long)
+C:204, 0: Line too long (101/100) (line-too-long)
+C:206, 0: Line too long (102/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:144, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C:146, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:147, 0: Import "from ansible.module_utils.network.aos.aos import get_aos_session, find_collection_item, do_load_resource, check_aos_version, content_to_dict" should be placed at the top of the module (wrong-import-position)
+W:153, 8: Redefining built-in 'range' (redefined-builtin)
+C:150, 0: Missing function docstring (missing-docstring)
+W:173, 8: Redefining built-in 'range' (redefined-builtin)
+W:170,22: Redefining name 'asn_pool' from outer scope (line 268) (redefined-outer-name)
+C:170, 0: Missing function docstring (missing-docstring)
+W:183, 8: Redefining built-in 'range' (redefined-builtin)
+W:179,24: Redefining name 'asn_pool' from outer scope (line 268) (redefined-outer-name)
+C:179, 0: Missing function docstring (missing-docstring)
+C:192, 0: Missing function docstring (missing-docstring)
+W:212, 8: No exception type(s) specified (bare-except)
+W:192,28: Unused argument 'aos' (unused-argument)
+C:221, 0: Missing function docstring (missing-docstring)
+W:243,12: No exception type(s) specified (bare-except)
+C:268, 0: Missing function docstring (missing-docstring)
+W:274, 4: No exception type(s) specified (bare-except)
+W:307, 4: No exception type(s) specified (bare-except)
+C:322, 0: Missing function docstring (missing-docstring)
+W:144, 0: Unused import json (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.22/10
+

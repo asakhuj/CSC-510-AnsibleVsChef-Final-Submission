@@ -1,0 +1,32 @@
+************* Module ansible.modules.cloud.digital_ocean.digital_ocean_domain
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 78, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C: 79, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 80, 0: Import "from ansible.module_utils.digital_ocean import DigitalOceanHelper" should be placed at the top of the module (wrong-import-position)
+C: 81, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 84, 0: Missing class docstring (missing-docstring)
+C: 92, 4: Missing method docstring (missing-docstring)
+C: 95, 4: Missing method docstring (missing-docstring)
+C: 99, 4: Missing method docstring (missing-docstring)
+W:104, 8: Unused variable 'status' (unused-variable)
+C:110, 4: Missing method docstring (missing-docstring)
+R:115, 8: Unnecessary "else" after "return" (no-else-return)
+C:120, 4: Missing method docstring (missing-docstring)
+C:124, 4: Missing method docstring (missing-docstring)
+W:126, 8: Unused variable 'status' (unused-variable)
+C:129, 4: Missing method docstring (missing-docstring)
+R:132, 8: Unnecessary "else" after "return" (no-else-return)
+C:137, 4: Missing method docstring (missing-docstring)
+W:141, 8: Unused variable 'status' (unused-variable)
+C:145, 4: Missing method docstring (missing-docstring)
+W:151, 8: Unused variable 'status' (unused-variable)
+C:156, 0: Missing function docstring (missing-docstring)
+R:156, 0: Too many branches (15/12) (too-many-branches)
+C:197, 0: Missing function docstring (missing-docstring)
+W:215,11: Catching too general exception Exception (broad-except)
+C:215,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.33/10
+

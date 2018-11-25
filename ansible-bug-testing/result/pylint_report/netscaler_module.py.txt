@@ -1,0 +1,18 @@
+************* Module units.modules.network.netscaler.netscaler_module
+C: 21, 0: Line too long (103/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Constant name "base_modules_mock" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:  7, 0: Constant name "nitro_service_mock" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:  8, 0: Constant name "nitro_exception_mock" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 11, 0: Constant name "base_modules_to_mock" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 27, 0: Constant name "nitro_base_patcher" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 30, 0: Missing class docstring (missing-docstring)
+C: 31, 4: Missing method docstring (missing-docstring)
+E: 33,12: Instance of 'TestModule' has no 'module' member (no-member)
+C: 39, 4: Missing method docstring (missing-docstring)
+E: 41,12: Instance of 'TestModule' has no 'module' member (no-member)
+W: 39,21: Unused argument 'changed' (unused-argument)
+
+------------------------------------
+Your code has been rated at -0.50/10
+

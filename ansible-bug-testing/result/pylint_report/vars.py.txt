@@ -1,0 +1,66 @@
+************* Module ansible.plugins.lookup.vars
+C: 78, 0: Line too long (117/100) (line-too-long)
+C: 87, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  4, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 60, 0: Import "from ansible.errors import AnsibleError, AnsibleUndefinedVariable" should be placed at the top of the module (wrong-import-position)
+C: 61, 0: Import "from ansible.module_utils.six import string_types" should be placed at the top of the module (wrong-import-position)
+C: 62, 0: Import "from ansible.plugins.lookup import LookupBase" should be placed at the top of the module (wrong-import-position)
+C: 65, 0: Missing class docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.58/10
+
+************* Module ansible.template.vars
+W:124, 0: FIXME run this only on jinja2>=2.9? (fixme)
+C:101, 0: Line too long (129/100) (line-too-long)
+C:112, 0: Line too long (112/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+W: 43,32: Redefining built-in 'globals' (redefined-builtin)
+W: 43,41: Redefining built-in 'locals' (redefined-builtin)
+W: 43, 4: Keyword argument before variable positional arguments list in the definition of __init__ function (keyword-arg-before-vararg)
+W: 63,16: Access to a protected member _available_variables of a client class (protected-access)
+W: 76,20: Access to a protected member _available_variables of a client class (protected-access)
+W: 81,20: Access to a protected member _available_variables of a client class (protected-access)
+W: 85,26: Access to a protected member _available_variables of a client class (protected-access)
+W: 96,19: Access to a protected member _available_variables of a client class (protected-access)
+R:101, 8: Unnecessary "else" after "return" (no-else-return)
+C:109,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:116,25: Redefining built-in 'locals' (redefined-builtin)
+
+-----------------------------------
+Your code has been rated at 7.68/10
+
+************* Module ansible.utils.vars
+C: 74, 0: Line too long (120/100) (line-too-long)
+C: 76, 0: Wrong continued indentation (add 18 spaces).
+        )
+        ^                 | (bad-continuation)
+C:141, 0: Line too long (136/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 38, 0: Constant name "cur_id" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 39, 0: Constant name "node_mac" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 40, 0: Constant name "random_int" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 43, 0: Missing function docstring (missing-docstring)
+W: 44, 4: Using the global statement (global-statement)
+C: 44, 4: Constant name "cur_id" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 55, 0: Argument name "a" doesn't conform to snake_case naming style (invalid-name)
+C: 55, 0: Argument name "b" doesn't conform to snake_case naming style (invalid-name)
+C: 69,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+W: 72,12: No exception type(s) specified (bare-except)
+C: 79, 0: Argument name "a" doesn't conform to snake_case naming style (invalid-name)
+C: 79, 0: Argument name "b" doesn't conform to snake_case naming style (invalid-name)
+R: 84, 4: Unnecessary "else" after "return" (no-else-return)
+E: 84, 7: Module 'ansible.constants' has no 'DEFAULT_HASH_BEHAVIOUR' member (no-member)
+C: 94, 0: Argument name "a" doesn't conform to snake_case naming style (invalid-name)
+C: 94, 0: Argument name "b" doesn't conform to snake_case naming style (invalid-name)
+C:109,11: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:122, 0: Missing function docstring (missing-docstring)
+C:146, 0: Missing function docstring (missing-docstring)
+R:166, 0: Too many return statements (8/6) (too-many-return-statements)
+
+-----------------------------------
+Your code has been rated at 6.67/10
+

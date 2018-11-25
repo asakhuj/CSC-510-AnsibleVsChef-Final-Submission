@@ -1,0 +1,15 @@
+************* Module ansible.modules.cloud.vmware.vmware_resource_pool_facts
+C:106, 0: Line too long (103/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 85, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 86, 0: Import "from ansible.module_utils.vmware import vmware_argument_spec, PyVmomi, get_all_objs" should be placed at the top of the module (wrong-import-position)
+C: 89, 0: Missing class docstring (missing-docstring)
+W: 90, 4: Useless super delegation in method '__init__' (useless-super-delegation)
+C: 93, 4: Missing method docstring (missing-docstring)
+C: 96,12: Variable name "rp" doesn't conform to snake_case naming style (invalid-name)
+C:131, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 6.55/10
+

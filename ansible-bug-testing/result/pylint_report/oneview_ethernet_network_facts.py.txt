@@ -1,0 +1,12 @@
+************* Module ansible.modules.remote_management.oneview.oneview_ethernet_network_facts
+C:130, 0: Line too long (104/100) (line-too-long)
+C:132, 0: Line too long (114/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 96, 0: Import "from ansible.module_utils.oneview import OneViewModuleBase" should be placed at the top of the module (wrong-import-position)
+C: 99, 0: Missing class docstring (missing-docstring)
+C:145, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.16/10
+

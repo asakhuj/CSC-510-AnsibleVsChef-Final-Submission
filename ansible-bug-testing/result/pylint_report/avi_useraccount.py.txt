@@ -1,0 +1,18 @@
+************* Module ansible.modules.network.avi.avi_useraccount
+C: 74, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C: 75, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C: 76, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 77, 0: Import "from copy import deepcopy" should be placed at the top of the module (wrong-import-position)
+C: 89, 0: Missing function docstring (missing-docstring)
+W:118, 4: No exception type(s) specified (bare-except)
+W:103, 4: Unused variable 'password_updated' (unused-variable)
+W: 74, 0: Unused import json (unused-import)
+W: 75, 0: Unused import time (unused-import)
+W: 77, 0: Unused deepcopy imported from copy (unused-import)
+W: 83, 4: Unused avi_obj_cmp imported from avi.sdk.utils.ansible_utils (unused-import)
+W: 83, 4: Unused cleanup_absent_fields imported from avi.sdk.utils.ansible_utils (unused-import)
+C: 77, 0: standard import "from copy import deepcopy" should be placed before "from ansible.module_utils.basic import AnsibleModule" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 6.75/10
+

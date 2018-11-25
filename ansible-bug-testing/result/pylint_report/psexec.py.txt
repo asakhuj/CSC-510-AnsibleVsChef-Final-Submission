@@ -1,0 +1,25 @@
+************* Module ansible.modules.commands.psexec
+C:454, 0: Wrong continued indentation (remove 4 spaces).
+                             % to_text(exc))
+                         |   ^ (bad-continuation)
+C:460, 0: Wrong continued indentation (remove 4 spaces).
+                             % to_text(exc))
+                         |   ^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:324, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:326, 0: Import "from ansible.module_utils.basic import AnsibleModule, missing_required_lib" should be placed at the top of the module (wrong-import-position)
+C:327, 0: Import "from ansible.module_utils._text import to_bytes, to_text" should be placed at the top of the module (wrong-import-position)
+W:354,29: Redefining name 'client' from outer scope (line 331) (redefined-outer-name)
+C:354, 0: Missing function docstring (missing-docstring)
+C:362, 0: Missing function docstring (missing-docstring)
+R:362, 0: Too many local variables (30/15) (too-many-locals)
+R:362, 0: Too many branches (18/12) (too-many-branches)
+R:362, 0: Too many statements (83/50) (too-many-statements)
+W:332, 4: Unused PAExecException imported from pypsexec.exceptions (unused-import)
+W:345, 4: Unused import gssapi (unused-import)
+W:347, 4: Unused inquire_sec_context_by_oid imported from gssapi.raw (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.56/10
+

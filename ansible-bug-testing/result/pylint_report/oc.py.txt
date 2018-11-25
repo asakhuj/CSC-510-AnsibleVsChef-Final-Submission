@@ -1,0 +1,8 @@
+************* Module ansible.plugins.connection.oc
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:143, 0: Import "from ansible.plugins.connection.kubectl import Connection as KubectlConnection" should be placed at the top of the module (wrong-import-position)
+
+-----------------------------------
+Your code has been rated at 7.00/10
+

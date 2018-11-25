@@ -1,0 +1,20 @@
+************* Module ansible.modules.cloud.amazon.ec2_vpc_nat_gateway_facts
+C: 88, 0: Line too long (141/100) (line-too-long)
+C:103, 0: Line too long (101/100) (line-too-long)
+C:138, 0: Line too long (134/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 79, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C: 86, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 87, 0: Import "from ansible.module_utils.ec2 import ec2_argument_spec, get_aws_connection_info, boto3_conn, camel_dict_to_snake_dict, ansible_dict_to_boto3_filter_list, boto3_tag_list_to_ansible_dict, HAS_BOTO3" should be placed at the top of the module (wrong-import-position)
+C: 91, 0: Missing function docstring (missing-docstring)
+C: 95, 0: Missing function docstring (missing-docstring)
+W:104,11: Catching too general exception Exception (broad-except)
+C:104,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W: 95,37: Unused argument 'nat_gateway_id' (unused-argument)
+C:119, 0: Missing function docstring (missing-docstring)
+C:141,53: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.81/10
+

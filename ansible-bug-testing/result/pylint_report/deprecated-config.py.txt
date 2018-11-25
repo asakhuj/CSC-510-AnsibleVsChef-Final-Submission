@@ -1,0 +1,23 @@
+************* Module deprecated-config
+C: 87, 0: Line too long (112/100) (line-too-long)
+C: 90, 0: Line too long (119/100) (line-too-long)
+C: 98, 0: Line too long (116/100) (line-too-long)
+C:  1, 0: Module name "deprecated-config" doesn't conform to snake_case naming style (invalid-name)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 32, 0: Unable to import 'ansible.config' (import-error)
+E: 34, 0: Unable to import 'ansible.plugins.loader' (import-error)
+E: 35, 0: Unable to import 'ansible.release' (import-error)
+E: 36, 0: Unable to import 'ansible.utils.plugin_docs' (import-error)
+C: 42, 0: Argument name "o" doesn't conform to snake_case naming style (invalid-name)
+C: 42, 0: Missing function docstring (missing-docstring)
+C: 51,11: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C: 73, 0: Missing function docstring (missing-docstring)
+C: 76,33: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C: 78,16: Variable name "mm" doesn't conform to snake_case naming style (invalid-name)
+C: 94,23: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C: 30, 0: standard import "from distutils.version import StrictVersion" should be placed before "import yaml" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 4.33/10
+

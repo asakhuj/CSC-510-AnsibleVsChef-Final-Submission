@@ -1,0 +1,15 @@
+************* Module ansible.module_utils.network.aos.aos
+C: 35, 0: Line too long (107/100) (line-too-long)
+W: 59,30: Redefining built-in 'min' (redefined-builtin)
+E: 69, 8: Unable to import 'apstra.aosom' (import-error)
+C: 70, 8: Variable name "AOS_PYEZ_VERSION" doesn't conform to snake_case naming style (invalid-name)
+R:117, 4: Unnecessary "else" after "return" (no-else-return)
+W:150, 4: No exception type(s) specified (bare-except)
+W:166, 4: No exception type(s) specified (bare-except)
+W:177,15: Catching too general exception Exception (broad-except)
+C:177,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W: 39, 0: Unused import json (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.74/10
+

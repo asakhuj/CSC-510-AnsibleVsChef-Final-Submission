@@ -1,0 +1,15 @@
+************* Module ansible.modules.cloud.amazon.sts_session_token
+C:147, 0: Line too long (130/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 89, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 90, 0: Import "from ansible.module_utils.ec2 import boto3_conn, ec2_argument_spec, get_aws_connection_info" should be placed at the top of the module (wrong-import-position)
+C: 93, 0: Missing function docstring (missing-docstring)
+C:106, 0: Missing function docstring (missing-docstring)
+C:123,26: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:130, 0: Missing function docstring (missing-docstring)
+W: 83, 4: Unused import boto3 (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.08/10
+

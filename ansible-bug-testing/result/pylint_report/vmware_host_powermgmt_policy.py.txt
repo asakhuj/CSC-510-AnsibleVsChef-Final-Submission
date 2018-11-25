@@ -1,0 +1,20 @@
+************* Module ansible.modules.cloud.vmware.vmware_host_powermgmt_policy
+C:108, 0: Line too long (101/100) (line-too-long)
+C:149, 0: Line too long (121/100) (line-too-long)
+C:183, 0: Line too long (116/100) (line-too-long)
+C:185, 0: Line too long (108/100) (line-too-long)
+C:225, 0: Wrong continued indentation (remove 1 space).
+                           )
+                          |^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 95, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 96, 0: Import "from ansible.module_utils.vmware import PyVmomi, vmware_argument_spec" should be placed at the top of the module (wrong-import-position)
+C: 97, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+R:112, 4: Too many local variables (16/15) (too-many-locals)
+R:112, 4: Too many branches (16/12) (too-many-branches)
+R:112, 4: Too many statements (58/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 8.47/10
+

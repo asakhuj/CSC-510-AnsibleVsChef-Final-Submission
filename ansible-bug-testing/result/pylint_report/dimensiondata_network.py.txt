@@ -1,0 +1,20 @@
+************* Module ansible.modules.cloud.dimensiondata.dimensiondata_network
+C:240, 0: Line too long (103/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 13, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:111, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:113, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:114, 0: Import "from ansible.module_utils.dimensiondata import HAS_LIBCLOUD, DimensionDataModule" should be placed at the top of the module (wrong-import-position)
+C:115, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+E:118, 4: Unable to import 'libcloud.compute.base' (import-error)
+E:119, 4: Unable to import 'libcloud.common.dimensiondata' (import-error)
+C:149, 4: Missing method docstring (missing-docstring)
+C:167, 4: Missing method docstring (missing-docstring)
+C:237,44: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:265,44: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:279,44: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:286, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.36/10
+

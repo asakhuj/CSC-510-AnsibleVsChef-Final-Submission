@@ -1,0 +1,22 @@
+************* Module ansible.modules.cloud.vmware.vmware_host_facts
+C:138, 0: Line too long (107/100) (line-too-long)
+C:185, 0: Line too long (130/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 10, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:123, 0: Import "from ansible.module_utils.basic import AnsibleModule, bytes_to_human" should be placed at the top of the module (wrong-import-position)
+C:124, 0: Import "from ansible.module_utils.vmware import PyVmomi, vmware_argument_spec, find_obj" should be placed at the top of the module (wrong-import-position)
+C:132, 0: Missing class docstring (missing-docstring)
+C:149, 4: Missing method docstring (missing-docstring)
+C:159, 4: Missing method docstring (missing-docstring)
+C:175, 4: Missing method docstring (missing-docstring)
+C:183, 4: Missing method docstring (missing-docstring)
+C:189, 4: Missing method docstring (missing-docstring)
+C:201, 4: Missing method docstring (missing-docstring)
+C:221, 4: Missing method docstring (missing-docstring)
+C:222, 8: Variable name "sn" doesn't conform to snake_case naming style (invalid-name)
+C:225,16: Variable name "sn" doesn't conform to snake_case naming style (invalid-name)
+C:241, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.82/10
+

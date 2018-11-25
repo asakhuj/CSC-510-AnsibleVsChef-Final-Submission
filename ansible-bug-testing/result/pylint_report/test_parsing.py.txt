@@ -1,0 +1,21 @@
+************* Module units.module_utils.network.common.test_parsing
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 24, 0: Unable to import 'ansible.module_utils.network.common.parsing' (import-error)
+C: 26, 0: Constant name "test_results" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 27, 0: Constant name "c1" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 28, 0: Constant name "c2" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 29, 0: Constant name "c3" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 32, 0: Missing class docstring (missing-docstring)
+C: 33, 4: Method name "test_negate_instance_variable_assignment" doesn't conform to snake_case naming style (invalid-name)
+C: 33, 4: Missing method docstring (missing-docstring)
+R: 33, 4: Method could be a function (no-self-use)
+C: 36, 4: Method name "test_key_value_instance_variable_assignment" doesn't conform to snake_case naming style (invalid-name)
+C: 36, 4: Missing method docstring (missing-docstring)
+R: 36, 4: Method could be a function (no-self-use)
+C: 41, 4: Missing method docstring (missing-docstring)
+R: 41, 4: Method could be a function (no-self-use)
+
+------------------------------------
+Your code has been rated at -0.53/10
+

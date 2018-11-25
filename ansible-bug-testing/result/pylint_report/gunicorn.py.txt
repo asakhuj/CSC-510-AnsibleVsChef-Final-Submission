@@ -1,0 +1,24 @@
+************* Module ansible.modules.web_infrastructure.gunicorn
+C:144, 0: Wrong continued indentation (remove 1 space).
+                        ),
+                       |^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 99, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:100, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C:103, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:110,34: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+W:109, 8: Unused variable 'data_config' (unused-variable)
+C:123, 0: Missing function docstring (missing-docstring)
+R:123, 0: Too many local variables (21/15) (too-many-locals)
+C:195, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:201,35: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C:214,53: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+W:195, 8: Unused variable 'out' (unused-variable)
+W:195, 4: Unused variable 'rc' (unused-variable)
+R:123, 0: Too many branches (15/12) (too-many-branches)
+R:123, 0: Too many statements (52/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 7.61/10
+

@@ -1,0 +1,18 @@
+************* Module ansible.modules.network.panos.panos_cert_gen_ssh
+C:138, 0: Line too long (122/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 86, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 87, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 88, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C: 99, 0: Missing function docstring (missing-docstring)
+C:106,15: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:115, 0: Missing function docstring (missing-docstring)
+R:115, 0: Too many arguments (8/5) (too-many-arguments)
+C:156, 0: Missing function docstring (missing-docstring)
+W:189,11: Catching too general exception Exception (broad-except)
+W:181, 8: Unused variable 'stdout' (unused-variable)
+C: 88, 0: standard import "import time" should be placed before "from ansible.module_utils.basic import AnsibleModule" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 8.00/10
+

@@ -1,0 +1,27 @@
+************* Module ansible.modules.cloud.amazon.rds_subnet_group
+C: 96, 0: Line too long (105/100) (line-too-long)
+C:129, 0: Wrong continued indentation (add 20 spaces).
+    )
+    ^                   | (bad-continuation)
+C:147, 0: Line too long (102/100) (line-too-long)
+C:153, 0: Line too long (152/100) (line-too-long)
+C:177, 0: Line too long (117/100) (line-too-long)
+C:186, 0: Line too long (132/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 95, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 96, 0: Import "from ansible.module_utils.ec2 import HAS_BOTO, connect_to_aws, ec2_argument_spec, get_aws_connection_info" should be placed at the top of the module (wrong-import-position)
+C: 99, 0: Missing function docstring (missing-docstring)
+C:109, 0: Missing function docstring (missing-docstring)
+R:110, 4: Unnecessary "else" after "return" (no-else-return)
+C:121, 0: Missing function docstring (missing-docstring)
+R:121, 0: Too many local variables (18/15) (too-many-locals)
+C:157,30: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:167,34: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:190,30: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:150,12: Unused variable 'ec2_url' (unused-variable)
+R:121, 0: Too many branches (18/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 7.18/10
+

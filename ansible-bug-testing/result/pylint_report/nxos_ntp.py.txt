@@ -1,0 +1,26 @@
+************* Module ansible.modules.network.nxos.nxos_ntp
+C:110, 0: Line too long (108/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:107, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:109, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:110, 0: Import "from ansible.module_utils.network.nxos.nxos import check_args, load_config, nxos_argument_spec, run_commands" should be placed at the top of the module (wrong-import-position)
+C:113, 0: Missing function docstring (missing-docstring)
+W:113,42: Unused argument 'command_type' (unused-argument)
+C:126, 0: Missing function docstring (missing-docstring)
+C:136, 0: Missing function docstring (missing-docstring)
+C:156, 0: Missing function docstring (missing-docstring)
+R:156, 0: Too many local variables (18/15) (too-many-locals)
+C:215, 0: Missing function docstring (missing-docstring)
+W:215,30: Unused argument 'peer_type' (unused-argument)
+C:235, 0: Missing function docstring (missing-docstring)
+C:252, 0: Missing function docstring (missing-docstring)
+R:252, 0: Too many branches (14/12) (too-many-branches)
+C:299, 0: Missing function docstring (missing-docstring)
+R:299, 0: Too many local variables (30/15) (too-many-locals)
+R:299, 0: Too many branches (24/12) (too-many-branches)
+R:299, 0: Too many statements (85/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 9.05/10
+

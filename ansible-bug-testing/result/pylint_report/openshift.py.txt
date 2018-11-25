@@ -1,0 +1,62 @@
+************* Module openshift
+C: 96, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 98, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:100, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 31, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C: 32, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C: 33, 0: Import "import os.path" should be placed at the top of the module (wrong-import-position)
+C: 34, 0: Import "import sys" should be placed at the top of the module (wrong-import-position)
+C: 35, 0: Import "import ConfigParser" should be placed at the top of the module (wrong-import-position)
+C: 36, 0: Import "import StringIO" should be placed at the top of the module (wrong-import-position)
+E: 38, 0: Unable to import 'ansible.module_utils.urls' (import-error)
+C: 38, 0: Import "from ansible.module_utils.urls import open_url" should be placed at the top of the module (wrong-import-position)
+C: 40, 0: Constant name "configparser" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 43, 0: Missing function docstring (missing-docstring)
+W: 44, 4: Using the global statement (global-statement)
+C: 44, 4: Constant name "configparser" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 45, 4: Variable name "CONF_FILE" doesn't conform to snake_case naming style (invalid-name)
+R: 43, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+W: 58, 4: Redefining name 'result' from outer scope (line 82) (redefined-outer-name)
+C: 57, 0: Missing function docstring (missing-docstring)
+W: 66,27: Redefining name 'username' from outer scope (line 72) (redefined-outer-name)
+W: 66,37: Redefining name 'password' from outer scope (line 73) (redefined-outer-name)
+W: 68, 4: Redefining name 'response' from outer scope (line 77) (redefined-outer-name)
+C: 66, 0: Missing function docstring (missing-docstring)
+C: 72, 0: Constant name "username" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 73, 0: Constant name "password" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 74, 0: Constant name "broker_url" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 77, 0: Constant name "response" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 79, 0: Constant name "response" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 82, 0: Constant name "result" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 3.33/10 (previous run: 3.33/10, +0.00)
+
+************* Module ansible.plugins.inventory.openshift
+C:111, 0: Line too long (126/100) (line-too-long)
+C:150, 0: Line too long (103/100) (line-too-long)
+C:162, 0: Line too long (106/100) (line-too-long)
+C:184, 0: Line too long (103/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:111, 0: Import "from ansible.plugins.inventory.k8s import K8sInventoryException, InventoryModule as K8sInventoryModule, format_dynamic_api_exc" should be placed at the top of the module (wrong-import-position)
+C:119, 0: Missing class docstring (missing-docstring)
+C:144, 4: Missing method docstring (missing-docstring)
+R:144, 4: Too many local variables (16/15) (too-many-locals)
+
+-----------------------------------
+Your code has been rated at 8.51/10
+
+************* Module lib.cloud.openshift
+C: 46, 0: Line too long (102/100) (line-too-long)
+C: 68, 0: Line too long (117/100) (line-too-long)
+C: 99, 0: Line too long (101/100) (line-too-long)
+C:116, 0: Line too long (130/100) (line-too-long)
+C:134, 0: Line too long (108/100) (line-too-long)
+C:167, 0: Line too long (141/100) (line-too-long)
+C:207, 0: Line too long (129/100) (line-too-long)
+
+-----------------------------------
+Your code has been rated at 9.39/10
+

@@ -1,0 +1,25 @@
+************* Module ansible.modules.storage.netapp._na_cdot_lun
+W:368, 0: TODO: include other details about the lun (size, etc.) (fixme)
+C:212, 0: Line too long (109/100) (line-too-long)
+C:273, 0: Line too long (120/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:117, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:119, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:120, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:121, 0: Import "import ansible.module_utils.netapp as netapp_utils" should be placed at the top of the module (wrong-import-position)
+C:126, 0: Missing class docstring (missing-docstring)
+R:126, 0: Too many instance attributes (13/7) (too-many-instance-attributes)
+C:166, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+R:187, 4: Too many local variables (21/15) (too-many-locals)
+C:272,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:290,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:309,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:324, 4: Missing method docstring (missing-docstring)
+R:347, 8: Too many nested blocks (6/5) (too-many-nested-blocks)
+C:372, 0: Missing function docstring (missing-docstring)
+C:373, 4: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.48/10
+

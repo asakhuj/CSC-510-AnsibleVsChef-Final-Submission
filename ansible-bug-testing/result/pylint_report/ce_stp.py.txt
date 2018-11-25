@@ -1,0 +1,26 @@
+************* Module ansible.modules.network.cloudengine.ce_stp
+C:283, 0: Line too long (114/100) (line-too-long)
+C:288, 0: Line too long (107/100) (line-too-long)
+C:679, 0: Line too long (111/100) (line-too-long)
+C:695, 0: Line too long (111/100) (line-too-long)
+C:848, 0: Line too long (111/100) (line-too-long)
+C:864, 0: Line too long (111/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:168, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:169, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:170, 0: Import "from ansible.module_utils.network.cloudengine.ce import get_config, load_config, ce_argument_spec" should be placed at the top of the module (wrong-import-position)
+R:173, 0: Too many instance attributes (25/7) (too-many-instance-attributes)
+R:247, 4: Too many branches (19/12) (too-many-branches)
+R:295, 4: Too many branches (13/12) (too-many-branches)
+R:327, 4: Too many branches (45/12) (too-many-branches)
+R:327, 4: Too many statements (111/50) (too-many-statements)
+R:458, 4: Too many branches (46/12) (too-many-branches)
+R:458, 4: Too many statements (83/50) (too-many-statements)
+R:560, 4: Too many branches (51/12) (too-many-branches)
+R:560, 4: Too many statements (139/50) (too-many-statements)
+R:724, 4: Too many branches (53/12) (too-many-branches)
+R:724, 4: Too many statements (145/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 9.63/10
+

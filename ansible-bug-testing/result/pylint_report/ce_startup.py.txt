@@ -1,0 +1,16 @@
+************* Module ansible.modules.network.cloudengine.ce_startup
+C:135, 0: Line too long (101/100) (line-too-long)
+C:219, 0: Line too long (109/100) (line-too-long)
+C:220, 0: Line too long (117/100) (line-too-long)
+C:366, 0: Line too long (107/100) (line-too-long)
+C:372, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:133, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:134, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:135, 0: Import "from ansible.module_utils.network.cloudengine.ce import get_nc_config, ce_argument_spec, run_commands" should be placed at the top of the module (wrong-import-position)
+R:158, 0: Too many instance attributes (14/7) (too-many-instance-attributes)
+R:206, 8: Unnecessary "else" after "return" (no-else-return)
+
+-----------------------------------
+Your code has been rated at 9.42/10
+

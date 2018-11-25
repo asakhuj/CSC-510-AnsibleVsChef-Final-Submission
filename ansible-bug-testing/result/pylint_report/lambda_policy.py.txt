@@ -1,0 +1,31 @@
+************* Module ansible.modules.cloud.amazon.lambda_policy
+C:143, 0: Line too long (113/100) (line-too-long)
+C:193, 0: Line too long (131/100) (line-too-long)
+C:200, 0: Line too long (120/100) (line-too-long)
+C:252, 0: Line too long (112/100) (line-too-long)
+C:256, 0: Line too long (122/100) (line-too-long)
+C:390, 0: Line too long (133/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:129, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C:130, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:131, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:132, 0: Import "from ansible.module_utils.aws.core import AnsibleAWSModule" should be placed at the top of the module (wrong-import-position)
+C:133, 0: Import "from ansible.module_utils.ec2 import get_aws_connection_info, boto3_conn" should be placed at the top of the module (wrong-import-position)
+W:137, 0: No exception type(s) specified (bare-except)
+E:136, 4: Unable to import 'botocore.exceptions' (import-error)
+C:141, 0: Function name "pc" doesn't conform to snake_case naming style (invalid-name)
+C:152, 0: Missing function docstring (missing-docstring)
+W:290,11: Catching too general exception Exception (broad-except)
+C:283,26: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:290,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:326,15: Catching too general exception Exception (broad-except)
+C:326,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:354,11: Catching too general exception Exception (broad-except)
+C:354,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:360, 0: Missing function docstring (missing-docstring)
+C:387, 0: Missing function docstring (missing-docstring)
+C:396, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.09/10
+

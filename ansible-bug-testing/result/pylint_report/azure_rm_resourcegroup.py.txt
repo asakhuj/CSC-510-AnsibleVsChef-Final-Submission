@@ -1,0 +1,30 @@
+************* Module ansible.modules.cloud.azure.azure_rm_resourcegroup
+C:156, 0: Line too long (112/100) (line-too-long)
+C:188, 0: Line too long (106/100) (line-too-long)
+C:190, 0: Line too long (114/100) (line-too-long)
+C:205, 0: Line too long (119/100) (line-too-long)
+C:214, 0: Line too long (104/100) (line-too-long)
+C:236, 0: Line too long (103/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 99, 0: Import "from ansible.module_utils.azure_rm_common import AzureRMModuleBase, normalize_location_name" should be placed at the top of the module (wrong-import-position)
+C:102, 0: Argument name "rg" doesn't conform to snake_case naming style (invalid-name)
+C:102, 0: Missing function docstring (missing-docstring)
+C:112, 0: Missing class docstring (missing-docstring)
+C:145, 8: Variable name "rg" doesn't conform to snake_case naming style (invalid-name)
+C:150,12: Variable name "rg" doesn't conform to snake_case naming style (invalid-name)
+R:138, 4: Too many branches (16/12) (too-many-branches)
+C:210, 4: Missing method docstring (missing-docstring)
+W:213,15: Catching too general exception Exception (broad-except)
+C:217, 4: Missing method docstring (missing-docstring)
+W:221,15: Catching too general exception Exception (broad-except)
+C:229, 4: Missing method docstring (missing-docstring)
+W:235,15: Catching too general exception Exception (broad-except)
+W:238,12: Unused variable 'item' (unused-variable)
+C:243, 4: Missing method docstring (missing-docstring)
+W:246,15: Catching too general exception Exception (broad-except)
+C:251, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.71/10
+

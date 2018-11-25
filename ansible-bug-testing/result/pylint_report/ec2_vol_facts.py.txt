@@ -1,0 +1,29 @@
+************* Module ansible.modules.cloud.amazon.ec2_vol_facts
+W: 56, 0: TODO: Disabled the RETURN as it was breaking docs building. Someone needs to (fixme)
+C: 68, 0: Line too long (150/100) (line-too-long)
+C: 93, 0: Line too long (108/100) (line-too-long)
+C:108, 0: Line too long (102/100) (line-too-long)
+C:116, 0: Line too long (117/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 60, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C: 67, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 68, 0: Import "from ansible.module_utils.ec2 import connect_to_aws, ec2_argument_spec, get_aws_connection_info, boto3_conn, HAS_BOTO3, boto3_tag_list_to_ansible_dict" should be placed at the top of the module (wrong-import-position)
+C: 69, 0: Import "from ansible.module_utils.ec2 import ansible_dict_to_boto3_filter_list, camel_dict_to_snake_dict" should be placed at the top of the module (wrong-import-position)
+C: 70, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 73, 0: Missing function docstring (missing-docstring)
+C: 89,59: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C: 90,49: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C: 91,59: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C: 92,48: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C: 93,79: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:101, 0: Missing function docstring (missing-docstring)
+C:106, 0: Missing function docstring (missing-docstring)
+C:118,26: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:127, 0: Missing function docstring (missing-docstring)
+W: 68, 0: Unused connect_to_aws imported from ansible.module_utils.ec2 (unused-import)
+W: 70, 0: Unused to_native imported from ansible.module_utils._text (unused-import)
+
+-----------------------------------
+Your code has been rated at 4.89/10
+

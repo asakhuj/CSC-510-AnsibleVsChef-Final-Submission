@@ -1,0 +1,17 @@
+************* Module ansible.module_utils.facts.timeout
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 17, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 28, 0: Missing class docstring (missing-docstring)
+C: 32, 0: Missing function docstring (missing-docstring)
+C: 34, 4: Missing function docstring (missing-docstring)
+W: 35,36: Unused argument 'frame' (unused-argument)
+W: 35,28: Unused argument 'signum' (unused-argument)
+C: 39, 8: Missing function docstring (missing-docstring)
+E: 43,26: Module 'signal' has no 'SIGALRM' member (no-member)
+E: 44,12: Module 'signal' has no 'alarm' member (no-member)
+E: 49,16: Module 'signal' has no 'alarm' member (no-member)
+W: 32,26: Unused argument 'error_message' (unused-argument)
+
+-----------------------------------
+Your code has been rated at 1.43/10
+

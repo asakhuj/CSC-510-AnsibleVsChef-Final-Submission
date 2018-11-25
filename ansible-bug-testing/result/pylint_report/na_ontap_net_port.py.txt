@@ -1,0 +1,15 @@
+************* Module ansible.modules.storage.netapp.na_ontap_net_port
+C:211, 0: Wrong continued indentation (remove 4 spaces).
+                        self.flowcontrol_admin != net_port_details['flowcontrol_admin']):
+                    |   ^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 76, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 77, 0: Import "import ansible.module_utils.netapp as netapp_utils" should be placed at the top of the module (wrong-import-position)
+R: 82, 0: Too many instance attributes (11/7) (too-many-instance-attributes)
+C:109, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+R:203,19: Too many boolean expressions in if statement (10/5) (too-many-boolean-expressions)
+
+-----------------------------------
+Your code has been rated at 9.00/10
+

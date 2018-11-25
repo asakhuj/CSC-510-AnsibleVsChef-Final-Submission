@@ -1,0 +1,21 @@
+************* Module units.modules.network.slxos.test_slxos_lldp
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 26, 0: Unable to import 'ansible.modules.network.slxos' (import-error)
+C: 31, 0: Missing class docstring (missing-docstring)
+C: 56, 4: Missing method docstring (missing-docstring)
+W: 56, 0: Unused argument 'args' (unused-argument)
+W: 56, 0: Unused argument 'kwargs' (unused-argument)
+C: 72, 4: Missing method docstring (missing-docstring)
+W: 72, 0: Unused argument 'args' (unused-argument)
+W: 72, 0: Unused argument 'kwargs' (unused-argument)
+C: 85, 4: Method name "test_slxos_lldp_invalid_argument" doesn't conform to snake_case naming style (invalid-name)
+C: 85, 4: Missing method docstring (missing-docstring)
+W: 85, 0: Unused argument 'args' (unused-argument)
+W: 85, 0: Unused argument 'kwargs' (unused-argument)
+W: 23, 0: Unused import json (unused-import)
+C: 27, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 4.59/10
+

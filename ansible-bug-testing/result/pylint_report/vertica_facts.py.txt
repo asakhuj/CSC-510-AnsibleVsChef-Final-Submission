@@ -1,0 +1,28 @@
+************* Module ansible.modules.database.vertica.vertica_facts
+C:250, 0: Line too long (115/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 59, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C: 64, 4: Constant name "pyodbc_found" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 66, 4: Constant name "pyodbc_found" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 68, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 69, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 72, 0: Missing class docstring (missing-docstring)
+C: 78, 0: Missing function docstring (missing-docstring)
+C:119, 0: Missing function docstring (missing-docstring)
+C:154, 0: Missing function docstring (missing-docstring)
+C:175, 0: Missing function docstring (missing-docstring)
+C:195, 0: Missing function docstring (missing-docstring)
+W:195,27: Unused argument 'schema' (unused-argument)
+C:218, 0: Missing function docstring (missing-docstring)
+C:232, 4: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+C:234, 8: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+W:249,11: Catching too general exception Exception (broad-except)
+C:249,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:269,11: Catching too general exception Exception (broad-except)
+C:264,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:269,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.96/10
+

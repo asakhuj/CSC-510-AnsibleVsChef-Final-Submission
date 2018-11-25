@@ -1,0 +1,10 @@
+************* Module strip_newline
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Missing class docstring (missing-docstring)
+C:  7, 4: Missing method docstring (missing-docstring)
+C: 12, 4: Missing method docstring (missing-docstring)
+R: 12, 4: Method could be a function (no-self-use)
+
+-----------------------------------
+Your code has been rated at 1.67/10
+

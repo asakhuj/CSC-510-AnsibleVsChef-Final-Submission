@@ -1,0 +1,13 @@
+************* Module ansible.modules.cloud.cloudstack.cs_zone
+C:  1, 0: Missing module docstring (missing-docstring)
+C:210, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:211, 0: Import "from ansible.module_utils.cloudstack import AnsibleCloudStack, cs_argument_spec, cs_required_together" should be placed at the top of the module (wrong-import-position)
+C:218, 0: Missing class docstring (missing-docstring)
+W:260, 4: Parameters differ from overridden 'get_zone' method (arguments-differ)
+C:278, 4: Missing method docstring (missing-docstring)
+C:318, 4: Missing method docstring (missing-docstring)
+C:332, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 9.01/10
+

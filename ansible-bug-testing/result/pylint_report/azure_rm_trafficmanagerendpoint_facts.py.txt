@@ -1,0 +1,19 @@
+************* Module ansible.modules.cloud.azure.azure_rm_trafficmanagerendpoint_facts
+C:262, 0: Line too long (114/100) (line-too-long)
+C:277, 0: Line too long (114/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:136, 0: Import "from ansible.module_utils.azure_rm_common import AzureRMModuleBase" should be placed at the top of the module (wrong-import-position)
+C:137, 0: Import "from ansible.module_utils.common.dict_transformations import _snake_to_camel, _camel_to_snake" should be placed at the top of the module (wrong-import-position)
+W:144, 0: No exception type(s) specified (bare-except)
+E:142, 4: Unable to import 'msrestazure.azure_exceptions' (import-error)
+E:143, 4: Unable to import 'azure.common' (import-error)
+C:148, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:153, 0: Missing function docstring (missing-docstring)
+E:252,26: Instance of 'AzureRMTrafficManagerEndpointFacts' has no 'serialize_tm' member (no-member)
+W:148, 0: Unused import re (unused-import)
+C:148, 0: standard import "import re" should be placed before "from ansible.module_utils.azure_rm_common import AzureRMModuleBase" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 6.90/10
+

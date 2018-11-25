@@ -1,0 +1,29 @@
+************* Module ansible.modules.cloud.cloudstack.cs_host
+C:447, 0: Line too long (101/100) (line-too-long)
+C:468, 0: Line too long (102/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:331, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:332, 0: Import "from ansible.module_utils.cloudstack import AnsibleCloudStack, cs_argument_spec, cs_required_together, CS_HYPERVISORS" should be placed at the top of the module (wrong-import-position)
+C:338, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C:341, 0: Missing class docstring (missing-docstring)
+C:391, 4: Missing method docstring (missing-docstring)
+R:391, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:404, 4: Missing method docstring (missing-docstring)
+R:404, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:417, 4: Missing method docstring (missing-docstring)
+C:423, 4: Missing method docstring (missing-docstring)
+C:434,16: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:475, 4: Missing method docstring (missing-docstring)
+R:490, 8: Unnecessary "else" after "return" (no-else-return)
+C:537, 4: Missing method docstring (missing-docstring)
+C:550, 4: Missing method docstring (missing-docstring)
+C:562, 4: Missing method docstring (missing-docstring)
+R:573, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+W:574,12: Unused variable 'i' (unused-variable)
+W:583, 4: Parameters differ from overridden 'get_result' method (arguments-differ)
+C:591, 0: Missing function docstring (missing-docstring)
+C:338, 0: standard import "import time" should be placed before "from ansible.module_utils.basic import AnsibleModule" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 8.45/10
+

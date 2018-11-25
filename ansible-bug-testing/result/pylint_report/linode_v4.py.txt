@@ -1,0 +1,14 @@
+************* Module ansible.modules.cloud.linode.linode_v4
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:166, 0: Import "from ansible.module_utils.basic import AnsibleModule, env_fallback" should be placed at the top of the module (wrong-import-position)
+C:167, 0: Import "from ansible.module_utils.linode import get_user_agent" should be placed at the top of the module (wrong-import-position)
+R:189, 8: Unnecessary "else" after "return" (no-else-return)
+W:191,28: Access to a protected member _raw_json of a client class (protected-access)
+W:195,19: Access to a protected member _raw_json of a client class (protected-access)
+W:272,49: Access to a protected member _raw_json of a client class (protected-access)
+W:290,48: Access to a protected member _raw_json of a client class (protected-access)
+
+-----------------------------------
+Your code has been rated at 8.52/10
+

@@ -1,0 +1,16 @@
+************* Module lib.sanity.validate_modules
+C: 53, 0: Line too long (102/100) (line-too-long)
+C: 90, 0: Line too long (135/100) (line-too-long)
+C:127, 0: Line too long (120/100) (line-too-long)
+C:140, 0: Line too long (126/100) (line-too-long)
+C:159, 0: Line too long (148/100) (line-too-long)
+C:178, 0: Line too long (150/100) (line-too-long)
+R: 42, 4: Too many local variables (28/15) (too-many-locals)
+R: 42, 4: Too many branches (23/12) (too-many-branches)
+R: 42, 4: Too many statements (57/50) (too-many-statements)
+R: 40, 0: Too few public methods (1/2) (too-few-public-methods)
+W: 27, 0: Unused SanityConfig imported from lib.config (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.61/10
+

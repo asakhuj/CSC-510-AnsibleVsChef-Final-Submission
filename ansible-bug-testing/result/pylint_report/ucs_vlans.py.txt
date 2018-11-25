@@ -1,0 +1,19 @@
+************* Module ansible.modules.remote_management.ucs.ucs_vlans
+C:116, 0: Line too long (103/100) (line-too-long)
+C:132, 0: Line too long (118/100) (line-too-long)
+C:163, 0: Unnecessary parens after 'if' keyword (superfluous-parens)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:105, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:106, 0: Import "from ansible.module_utils.remote_management.ucs import UCSModule, ucs_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:109, 0: Missing function docstring (missing-docstring)
+E:133, 4: Unable to import 'ucsmsdk.mometa.fabric.FabricVlan' (import-error)
+W:182,11: Catching too general exception Exception (broad-except)
+C:143, 8: Variable name "dn" doesn't conform to snake_case naming style (invalid-name)
+C:145, 8: Variable name "mo" doesn't conform to snake_case naming style (invalid-name)
+C:169,20: Variable name "mo" doesn't conform to snake_case naming style (invalid-name)
+C:182,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.67/10
+

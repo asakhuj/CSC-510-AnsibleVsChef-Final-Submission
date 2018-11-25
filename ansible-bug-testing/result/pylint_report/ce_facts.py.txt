@@ -1,0 +1,19 @@
+************* Module ansible.modules.network.cloudengine.ce_facts
+C:  1, 0: Missing module docstring (missing-docstring)
+C:171, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:173, 0: Import "from ansible.module_utils.network.cloudengine.ce import run_commands" should be placed at the top of the module (wrong-import-position)
+C:174, 0: Import "from ansible.module_utils.network.cloudengine.ce import ce_argument_spec, check_args" should be placed at the top of the module (wrong-import-position)
+C:175, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:176, 0: Import "from ansible.module_utils.six import iteritems" should be placed at the top of the module (wrong-import-position)
+C:179, 0: Missing class docstring (missing-docstring)
+C:188, 4: Missing method docstring (missing-docstring)
+R:179, 0: Too few public methods (1/2) (too-few-public-methods)
+R:192, 0: Too few public methods (1/2) (too-few-public-methods)
+R:220, 0: Too few public methods (1/2) (too-few-public-methods)
+R:237, 0: Too few public methods (1/2) (too-few-public-methods)
+R:277, 0: Too few public methods (1/2) (too-few-public-methods)
+R:333, 0: Too many branches (14/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 9.03/10
+

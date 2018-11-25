@@ -1,0 +1,25 @@
+************* Module ansible.module_utils.network.fortimanager.fortimanager
+C: 40, 0: Line too long (113/100) (line-too-long)
+C: 50, 0: Line too long (101/100) (line-too-long)
+C: 56, 0: Line too long (104/100) (line-too-long)
+C: 57, 0: Line too long (108/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 41, 8: Attribute name "ip" doesn't conform to snake_case naming style (invalid-name)
+C: 38, 0: Missing class docstring (missing-docstring)
+R: 38, 0: Too many instance attributes (8/7) (too-many-instance-attributes)
+R: 40, 4: Too many arguments (8/5) (too-many-arguments)
+C: 54, 4: Missing method docstring (missing-docstring)
+R: 54, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C: 61, 4: Missing method docstring (missing-docstring)
+C: 65, 4: Missing method docstring (missing-docstring)
+C: 68, 4: Missing method docstring (missing-docstring)
+C: 71, 4: Missing method docstring (missing-docstring)
+C: 74, 4: Missing method docstring (missing-docstring)
+C: 77, 4: Missing method docstring (missing-docstring)
+C: 80, 4: Missing method docstring (missing-docstring)
+C: 83, 4: Missing method docstring (missing-docstring)
+C: 86, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 5.00/10
+

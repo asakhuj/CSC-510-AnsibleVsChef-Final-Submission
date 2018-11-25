@@ -1,0 +1,33 @@
+************* Module ansible.modules.cloud.rackspace.rax_scaling_policy
+C:197, 0: Wrong continued indentation (remove 1 space).
+                    hasattr(policy, 'changePercent')) and desired_capacity):
+                   |^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:124, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:125, 0: Import "from ansible.module_utils.rax import UUID, rax_argument_spec, rax_required_together, rax_to_dict, setup_rax_module" should be placed at the top of the module (wrong-import-position)
+C:129, 0: Argument name "at" doesn't conform to snake_case naming style (invalid-name)
+C:129, 0: Missing function docstring (missing-docstring)
+R:129, 0: Too many arguments (11/5) (too-many-arguments)
+R:129, 0: Too many local variables (19/15) (too-many-locals)
+C:134, 4: Variable name "au" doesn't conform to snake_case naming style (invalid-name)
+W:145,15: Catching too general exception Exception (broad-except)
+C:144,12: Variable name "sg" doesn't conform to snake_case naming style (invalid-name)
+C:145,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:150,15: Catching too general exception Exception (broad-except)
+C:149,12: Variable name "sg" doesn't conform to snake_case naming style (invalid-name)
+C:150,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:154,19: map/filter on lambda could be replaced by comprehension (deprecated-lambda)
+W:172,19: Catching too general exception Exception (broad-except)
+C:172,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:221,15: Catching too general exception Exception (broad-except)
+W:213,23: map/filter on lambda could be replaced by comprehension (deprecated-lambda)
+C:221,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:129, 0: Too many branches (27/12) (too-many-branches)
+R:129, 0: Too many statements (72/50) (too-many-statements)
+C:227, 0: Missing function docstring (missing-docstring)
+C:256, 4: Variable name "at" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.43/10
+

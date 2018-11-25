@@ -1,0 +1,19 @@
+************* Module units.modules.storage.netapp.test_netapp_e_syslog
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  5, 0: Unable to import 'ansible.modules.storage.netapp.netapp_e_syslog' (import-error)
+E:  6, 0: Unable to import 'ansible.module_utils.six.moves.urllib.error' (import-error)
+C: 10, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 14, 0: Missing class docstring (missing-docstring)
+C: 44, 4: Method name "test_update_configuration_record_match_pass" doesn't conform to snake_case naming style (invalid-name)
+C: 65, 4: Method name "test_update_configuration_record_partial_match_pass" doesn't conform to snake_case naming style (invalid-name)
+C: 86, 4: Method name "test_update_configuration_record_no_match_pass" doesn't conform to snake_case naming style (invalid-name)
+C:107, 4: Method name "test_update_configuration_record_no_match_defaults_pass" doesn't conform to snake_case naming style (invalid-name)
+W:  3, 0: Unused import json (unused-import)
+W:  6, 0: Unused HTTPError imported from ansible.module_utils.six.moves.urllib.error (unused-import)
+W:  7, 0: Unused AnsibleExitJson imported from units.modules.utils (unused-import)
+W:  8, 0: Unused import time (unused-import)
+C:  8, 0: standard import "import time" should be placed before "from ansible.modules.storage.netapp.netapp_e_syslog import Syslog" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 6.00/10
+

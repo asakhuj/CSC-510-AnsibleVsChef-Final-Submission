@@ -1,0 +1,7 @@
+************* Module ansible.errors.yaml_strings
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 8.18/10 (previous run: 8.18/10, +0.00)
+

@@ -1,0 +1,27 @@
+************* Module units.utils.test_unsafe_proxy
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E:  8, 0: Unable to import 'ansible.module_utils.six' (import-error)
+E:  9, 0: Unable to import 'ansible.utils.unsafe_proxy' (import-error)
+C: 12, 0: Function name "test_UnsafeProxy" doesn't conform to snake_case naming style (invalid-name)
+C: 12, 0: Missing function docstring (missing-docstring)
+C: 19, 0: Missing function docstring (missing-docstring)
+C: 29, 0: Missing function docstring (missing-docstring)
+C: 35, 0: Function name "test_wrap_var_dict_None" doesn't conform to snake_case naming style (invalid-name)
+C: 35, 0: Missing function docstring (missing-docstring)
+C: 40, 0: Missing function docstring (missing-docstring)
+C: 46, 0: Function name "test_wrap_var_list_None" doesn't conform to snake_case naming style (invalid-name)
+C: 46, 0: Missing function docstring (missing-docstring)
+C: 51, 0: Missing function docstring (missing-docstring)
+C: 58, 0: Function name "test_wrap_var_set_None" doesn't conform to snake_case naming style (invalid-name)
+C: 58, 0: Missing function docstring (missing-docstring)
+C: 64, 0: Missing function docstring (missing-docstring)
+C: 71, 0: Function name "test_wrap_var_None" doesn't conform to snake_case naming style (invalid-name)
+C: 71, 0: Missing function docstring (missing-docstring)
+C: 76, 0: Missing function docstring (missing-docstring)
+C: 80, 0: Function name "test_AnsibleUnsafeText" doesn't conform to snake_case naming style (invalid-name)
+C: 80, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 4.00/10
+

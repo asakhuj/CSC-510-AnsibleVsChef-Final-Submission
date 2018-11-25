@@ -1,0 +1,20 @@
+************* Module ansible.modules.cloud.amazon.ec2_lc_find
+C:166, 0: Line too long (121/100) (line-too-long)
+C:206, 0: Wrong continued indentation (add 20 spaces).
+    )
+    ^                   | (bad-continuation)
+C:214, 0: Line too long (119/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:143, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:145, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:146, 0: Import "from ansible.module_utils.ec2 import boto3_conn, ec2_argument_spec, get_aws_connection_info" should be placed at the top of the module (wrong-import-position)
+C:149, 0: Missing function docstring (missing-docstring)
+W:166,43: map/filter on lambda could be replaced by comprehension (deprecated-lambda)
+C:169,12: Variable name "lc" doesn't conform to snake_case naming style (invalid-name)
+C:198, 0: Missing function docstring (missing-docstring)
+W:212,12: Unused variable 'ec2_url' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 6.18/10
+

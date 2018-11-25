@@ -1,0 +1,27 @@
+************* Module units.modules.network.ovs.test_openvswitch_db
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 24, 0: Unable to import 'ansible.modules.network.ovs' (import-error)
+C: 28, 0: Constant name "test_name_side_effect_matrix" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 53, 0: Missing class docstring (missing-docstring)
+C: 75,12: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+C: 76,12: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C: 85, 4: Method name "test_openvswitch_db_absent_idempotent" doesn't conform to snake_case naming style (invalid-name)
+C: 85, 4: Missing method docstring (missing-docstring)
+C: 92, 4: Method name "test_openvswitch_db_absent_removes_key" doesn't conform to snake_case naming style (invalid-name)
+C: 92, 4: Missing method docstring (missing-docstring)
+C:103, 4: Method name "test_openvswitch_db_present_idempotent" doesn't conform to snake_case naming style (invalid-name)
+C:103, 4: Missing method docstring (missing-docstring)
+C:110, 4: Method name "test_openvswitch_db_present_adds_key" doesn't conform to snake_case naming style (invalid-name)
+C:110, 4: Missing method docstring (missing-docstring)
+C:121, 4: Method name "test_openvswitch_db_present_updates_key" doesn't conform to snake_case naming style (invalid-name)
+C:121, 4: Missing method docstring (missing-docstring)
+C:132, 4: Method name "test_openvswitch_db_present_missing_key_on_map" doesn't conform to snake_case naming style (invalid-name)
+C:132, 4: Missing method docstring (missing-docstring)
+C:141, 4: Method name "test_openvswitch_db_present_stp_enable" doesn't conform to snake_case naming style (invalid-name)
+C:141, 4: Missing method docstring (missing-docstring)
+C: 25, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 4.80/10
+

@@ -1,0 +1,14 @@
+************* Module ansible.modules.cloud.docker.docker_config
+C:227, 0: Line too long (112/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:147, 0: Import "import hashlib" should be placed at the top of the module (wrong-import-position)
+C:155, 0: Import "from ansible.module_utils.docker_common import AnsibleDockerClient, DockerBaseClass, compare_generic" should be placed at the top of the module (wrong-import-position)
+C:156, 0: Import "from ansible.module_utils._text import to_native, to_bytes" should be placed at the top of the module (wrong-import-position)
+C:159, 0: Missing class docstring (missing-docstring)
+R:159, 0: Too many instance attributes (9/7) (too-many-instance-attributes)
+C:250, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.99/10
+

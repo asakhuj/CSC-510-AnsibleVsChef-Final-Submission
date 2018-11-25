@@ -1,0 +1,20 @@
+************* Module ansible.modules.system.aix_inittab
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:127, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:133, 0: Missing function docstring (missing-docstring)
+C:138, 5: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W:143,17: map/filter on lambda could be replaced by comprehension (deprecated-lambda)
+W:138,14: Unused variable 'err' (unused-variable)
+C:149, 0: Missing function docstring (missing-docstring)
+C:186, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:208,21: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:219,25: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:223,25: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:235,17: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W:208,25: Unused variable 'out' (unused-variable)
+R:149, 0: Too many branches (14/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 7.54/10
+

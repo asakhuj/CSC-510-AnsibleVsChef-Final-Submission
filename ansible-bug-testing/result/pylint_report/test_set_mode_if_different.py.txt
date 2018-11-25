@@ -1,0 +1,32 @@
+************* Module units.module_utils.basic.test_set_mode_if_different
+C: 55, 0: Line too long (123/100) (line-too-long)
+C: 74, 0: Line too long (106/100) (line-too-long)
+C: 93, 0: Line too long (105/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 31, 0: Missing function docstring (missing-docstring)
+C: 40, 0: Argument name "am" doesn't conform to snake_case naming style (invalid-name)
+C: 40, 0: Missing function docstring (missing-docstring)
+C: 47, 0: Missing function docstring (missing-docstring)
+W: 55,52: Redefining name 'mock_stats' from outer scope (line 31) (redefined-outer-name)
+W: 55,64: Redefining name 'mock_lchmod' from outer scope (line 47) (redefined-outer-name)
+C: 55, 0: Function name "test_no_mode_given_returns_previous_changes" doesn't conform to snake_case naming style (invalid-name)
+C: 55, 0: Argument name "am" doesn't conform to snake_case naming style (invalid-name)
+C: 55, 0: Missing function docstring (missing-docstring)
+R: 55, 0: Too many arguments (7/5) (too-many-arguments)
+W: 55,64: Unused argument 'mock_lchmod' (unused-argument)
+W: 69,34: Redefining name 'mock_stats' from outer scope (line 31) (redefined-outer-name)
+C: 69, 0: Argument name "am" doesn't conform to snake_case naming style (invalid-name)
+C: 69, 0: Missing function docstring (missing-docstring)
+W: 88,46: Redefining name 'mock_stats' from outer scope (line 31) (redefined-outer-name)
+C: 88, 0: Function name "test_mode_unchanged_when_already_0660" doesn't conform to snake_case naming style (invalid-name)
+C: 88, 0: Argument name "am" doesn't conform to snake_case naming style (invalid-name)
+C: 88, 0: Missing function docstring (missing-docstring)
+W:104,40: Redefining name 'mock_stats' from outer scope (line 31) (redefined-outer-name)
+C:104, 0: Argument name "am" doesn't conform to snake_case naming style (invalid-name)
+W:131,36: Redefining name 'mock_stats' from outer scope (line 31) (redefined-outer-name)
+C:131, 0: Argument name "am" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.62/10
+

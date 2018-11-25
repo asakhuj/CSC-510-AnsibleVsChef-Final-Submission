@@ -1,0 +1,19 @@
+************* Module ansible.modules.cloud.docker.docker_prune
+C:223, 0: Line too long (112/100) (line-too-long)
+C:224, 0: Line too long (141/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:174, 0: Import "from distutils.version import LooseVersion" should be placed at the top of the module (wrong-import-position)
+C:176, 0: Import "from ansible.module_utils.docker_common import AnsibleDockerClient" should be placed at the top of the module (wrong-import-position)
+W:180, 7: Catching too general exception Exception (broad-except)
+C:185, 0: Missing function docstring (missing-docstring)
+C:189,15: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:192,16: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:194,16: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:196,16: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:201, 0: Missing function docstring (missing-docstring)
+E:225, 8: Instance of 'AnsibleModule' has no 'fail' member (no-member)
+
+-----------------------------------
+Your code has been rated at 6.84/10
+

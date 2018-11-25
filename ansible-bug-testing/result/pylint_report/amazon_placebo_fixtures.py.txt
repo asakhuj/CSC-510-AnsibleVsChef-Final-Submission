@@ -1,0 +1,22 @@
+************* Module units.utils.amazon_placebo_fixtures
+W: 83, 0: TODO support resource-based connections (fixme)
+C: 66, 0: Line too long (102/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Constant name "boto3" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:  8, 0: Constant name "botocore" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:  9, 0: Constant name "placebo" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 71,26: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C: 81, 4: Missing function docstring (missing-docstring)
+W: 81,35: Unused argument 'module' (unused-argument)
+W: 81, 0: Unused argument 'kwargs' (unused-argument)
+E: 87, 4: Unable to import 'ansible.module_utils.ec2' (import-error)
+C:128,46: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:135, 0: Missing function docstring (missing-docstring)
+C:183,12: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+C:186,54: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:191,46: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:205, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.16/10
+

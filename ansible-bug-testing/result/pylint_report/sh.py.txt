@@ -1,0 +1,16 @@
+************* Module ansible.plugins.shell.sh
+C: 26, 0: Line too long (104/100) (line-too-long)
+C: 67, 0: Line too long (351/100) (line-too-long)
+C: 69, 0: Line too long (396/100) (line-too-long)
+C: 70, 0: Line too long (368/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 18, 0: Unable to import 'ansible.module_utils.six.moves' (import-error)
+C: 18, 0: Import "from ansible.module_utils.six.moves import shlex_quote" should be placed at the top of the module (wrong-import-position)
+C: 19, 0: Import "from ansible.plugins.shell import ShellBase" should be placed at the top of the module (wrong-import-position)
+C: 22, 0: Missing class docstring (missing-docstring)
+C: 43, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 3.48/10
+

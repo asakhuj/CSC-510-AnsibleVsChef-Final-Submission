@@ -1,0 +1,17 @@
+************* Module setup_gce
+C: 45, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W: 27,11: Redefining name 'args' from outer scope (line 36) (redefined-outer-name)
+W: 27, 5: Redefining name 'opts' from outer scope (line 36) (redefined-outer-name)
+C: 15, 0: Missing function docstring (missing-docstring)
+C: 36, 5: Constant name "opts" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 36,11: Constant name "args" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 37, 4: Constant name "gce" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 38, 4: Constant name "prefix" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 40, 8: Constant name "base_volume" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 44,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C: 11, 0: standard import "import optparse" should be placed before "import gce_credentials" (wrong-import-order)
+C: 12, 0: standard import "import sys" should be placed before "import gce_credentials" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 4.55/10
+

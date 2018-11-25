@@ -1,0 +1,27 @@
+************* Module ansible.modules.crypto.acme.acme_account
+C:133, 0: Line too long (122/100) (line-too-long)
+C:142, 0: Line too long (128/100) (line-too-long)
+C:161, 0: Line too long (104/100) (line-too-long)
+C:162, 0: Wrong continued indentation (remove 8 spaces).
+                            'This should only be done for testing against a local ACME server for ' +
+                    |       ^ (bad-continuation)
+C:162, 0: Line too long (101/100) (line-too-long)
+C:163, 0: Wrong continued indentation (remove 8 spaces).
+                            'development purposes, but *never* for production purposes.')
+                    |       ^ (bad-continuation)
+C:190, 0: Line too long (123/100) (line-too-long)
+C:242, 0: Line too long (115/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:120, 0: Import "from ansible.module_utils.acme import ModuleFailException, ACMEAccount, set_crypto_backend" should be placed at the top of the module (wrong-import-position)
+C:124, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:127, 0: Missing function docstring (missing-docstring)
+R:127, 0: Too many local variables (17/15) (too-many-locals)
+R:167, 4: Too many nested blocks (6/5) (too-many-nested-blocks)
+C:244,34: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:127, 0: Too many branches (17/12) (too-many-branches)
+R:127, 0: Too many statements (52/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 7.10/10
+

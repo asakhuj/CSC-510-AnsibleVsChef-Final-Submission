@@ -1,0 +1,11 @@
+************* Module ansible.modules.network.panos.panos_match_rule
+C:  1, 0: Missing module docstring (missing-docstring)
+C:183, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:199, 0: Missing function docstring (missing-docstring)
+C:234, 0: Missing function docstring (missing-docstring)
+C:273, 0: Missing function docstring (missing-docstring)
+R:273, 0: Too many local variables (27/15) (too-many-locals)
+
+-----------------------------------
+Your code has been rated at 9.41/10
+

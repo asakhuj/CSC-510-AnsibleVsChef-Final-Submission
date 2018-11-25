@@ -1,0 +1,18 @@
+************* Module ansible.modules.cloud.vultr.vultr_network
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:121, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:122, 0: Import "from ansible.module_utils.vultr import Vultr, vultr_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:128, 0: Missing class docstring (missing-docstring)
+W:142,31: Unused argument 'region_id' (unused-argument)
+W:148,16: Redefining built-in 'id' (redefined-builtin)
+C:145, 4: Missing method docstring (missing-docstring)
+C:148,16: Variable name "id" doesn't conform to snake_case naming style (invalid-name)
+W:148,16: Unused variable 'id' (unused-variable)
+C:153, 4: Missing method docstring (missing-docstring)
+C:179, 4: Missing method docstring (missing-docstring)
+C:200, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.72/10
+

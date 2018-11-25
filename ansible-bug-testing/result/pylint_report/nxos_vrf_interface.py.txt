@@ -1,0 +1,24 @@
+************* Module ansible.modules.network.nxos.nxos_vrf_interface
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 81, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C: 83, 0: Import "from ansible.module_utils.network.nxos.nxos import load_config, run_commands" should be placed at the top of the module (wrong-import-position)
+C: 84, 0: Import "from ansible.module_utils.network.nxos.nxos import get_capabilities, nxos_argument_spec" should be placed at the top of the module (wrong-import-position)
+C: 85, 0: Import "from ansible.module_utils.network.nxos.nxos import get_interface_type" should be placed at the top of the module (wrong-import-position)
+C: 86, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 89, 0: Missing function docstring (missing-docstring)
+C:101, 0: Missing function docstring (missing-docstring)
+C:125, 0: Missing function docstring (missing-docstring)
+C:141, 0: Missing function docstring (missing-docstring)
+C:159, 0: Missing function docstring (missing-docstring)
+R:165, 8: The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)
+R:165, 8: Unnecessary "else" after "return" (no-else-return)
+C:174, 0: Missing function docstring (missing-docstring)
+R:174, 0: Too many local variables (20/15) (too-many-locals)
+W:213, 4: Unused variable 'proposed' (unused-variable)
+W:218, 4: Unused variable 'end_state' (unused-variable)
+R:174, 0: Too many branches (16/12) (too-many-branches)
+R:174, 0: Too many statements (55/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 8.46/10
+

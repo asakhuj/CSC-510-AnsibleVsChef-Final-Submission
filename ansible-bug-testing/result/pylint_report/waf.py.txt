@@ -1,0 +1,30 @@
+************* Module ansible.module_utils.aws.waf
+C:104, 0: Line too long (106/100) (line-too-long)
+C:109, 0: Line too long (120/100) (line-too-long)
+C:135, 0: Unnecessary parens after 'del' keyword (superfluous-parens)
+C: 88, 0: Missing function docstring (missing-docstring)
+C: 93, 0: Missing function docstring (missing-docstring)
+C: 98, 0: Missing function docstring (missing-docstring)
+C:103, 0: Function name "get_size_constraint_set_with_backoff" doesn't conform to snake_case naming style (invalid-name)
+C:103, 0: Missing function docstring (missing-docstring)
+C:108, 0: Function name "get_sql_injection_match_set_with_backoff" doesn't conform to snake_case naming style (invalid-name)
+C:108, 0: Missing function docstring (missing-docstring)
+C:113, 0: Missing function docstring (missing-docstring)
+C:117, 0: Missing function docstring (missing-docstring)
+C:120,83: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:140, 0: Missing function docstring (missing-docstring)
+C:144, 0: Missing function docstring (missing-docstring)
+C:147,83: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:154,87: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:160, 0: Missing function docstring (missing-docstring)
+C:166, 0: Missing function docstring (missing-docstring)
+C:171, 0: Missing function docstring (missing-docstring)
+C:174,83: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:178, 0: Missing function docstring (missing-docstring)
+C:182,83: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:187, 0: Function name "run_func_with_change_token_backoff" doesn't conform to snake_case naming style (invalid-name)
+C:187, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 6.32/10
+

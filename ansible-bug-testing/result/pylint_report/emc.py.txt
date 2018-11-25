@@ -1,0 +1,8 @@
+************* Module ansible.utils.module_docs_fragments.emc
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Missing class docstring (missing-docstring)
+R:  9, 0: Too few public methods (0/2) (too-few-public-methods)
+
+-----------------------------------
+Your code has been rated at 0.00/10
+

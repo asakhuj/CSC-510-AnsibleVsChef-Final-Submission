@@ -1,0 +1,17 @@
+************* Module ansible.modules.network.aci.aci_bd_subnet
+W:367, 0: TODO: split checkes between IPv4 and IPv6 Addresses (fixme)
+C:322, 0: Line too long (107/100) (line-too-long)
+C:368, 0: Line too long (113/100) (line-too-long)
+C:379, 0: Line too long (108/100) (line-too-long)
+C:424, 0: Line too long (138/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:325, 0: Import "from ansible.module_utils.network.aci.aci import ACIModule, aci_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:326, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:329, 0: Missing function docstring (missing-docstring)
+R:329, 0: Too many local variables (17/15) (too-many-locals)
+C:363, 4: Variable name "bd" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.55/10
+

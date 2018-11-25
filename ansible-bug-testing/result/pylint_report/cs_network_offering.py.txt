@@ -1,0 +1,21 @@
+************* Module ansible.modules.cloud.cloudstack.cs_network_offering
+C:336, 0: Line too long (117/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:193, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:194, 0: Import "from ansible.module_utils.cloudstack import AnsibleCloudStack, cs_argument_spec, cs_required_together" should be placed at the top of the module (wrong-import-position)
+C:201, 0: Missing class docstring (missing-docstring)
+C:217, 4: Missing method docstring (missing-docstring)
+C:228,16: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+R:217, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:233, 4: Missing method docstring (missing-docstring)
+C:241, 8: Variable name "no" doesn't conform to snake_case naming style (invalid-name)
+C:247, 4: Missing method docstring (missing-docstring)
+C:255, 4: Missing method docstring (missing-docstring)
+C:296, 4: Missing method docstring (missing-docstring)
+C:306, 4: Missing method docstring (missing-docstring)
+W:333, 4: Parameters differ from overridden 'get_result' method (arguments-differ)
+C:340, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.07/10
+

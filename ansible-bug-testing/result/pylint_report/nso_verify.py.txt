@@ -1,0 +1,19 @@
+************* Module ansible.modules.network.nso.nso_verify
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 23, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 95, 0: Import "from ansible.module_utils.network.nso.nso import connect, verify_version, nso_argument_spec" should be placed at the top of the module (wrong-import-position)
+C: 96, 0: Import "from ansible.module_utils.network.nso.nso import normalize_value" should be placed at the top of the module (wrong-import-position)
+C: 97, 0: Import "from ansible.module_utils.network.nso.nso import State, ValueBuilder" should be placed at the top of the module (wrong-import-position)
+C: 98, 0: Import "from ansible.module_utils.network.nso.nso import ModuleFailException, NsoException" should be placed at the top of the module (wrong-import-position)
+C: 99, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:102, 0: Missing class docstring (missing-docstring)
+C:115, 4: Missing method docstring (missing-docstring)
+E:152,43: Instance of 'NsoVerify' has no 'get_prefix_name' member (no-member)
+W:152,33: Unused variable 't_value' (unused-variable)
+R:102, 0: Too few public methods (1/2) (too-few-public-methods)
+C:168, 0: Missing function docstring (missing-docstring)
+C:178, 4: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.27/10
+

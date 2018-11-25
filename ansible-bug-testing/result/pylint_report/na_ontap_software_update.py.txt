@@ -1,0 +1,43 @@
+************* Module ansible.modules.storage.netapp.na_ontap_software_update
+C: 82, 0: Line too long (101/100) (line-too-long)
+C:124, 0: Wrong continued indentation (remove 4 spaces).
+                                      % (self.parameters['node'], to_native(error)),
+                                  |   ^ (bad-continuation)
+C:150, 0: Wrong continued indentation (remove 4 spaces).
+                                      % (self.parameters['package_version'], to_native(error)),
+                                  |   ^ (bad-continuation)
+C:158, 0: Line too long (107/100) (line-too-long)
+C:159, 0: Line too long (104/100) (line-too-long)
+C:161, 0: Line too long (103/100) (line-too-long)
+C:168, 0: Wrong continued indentation (remove 4 spaces).
+                                          % (self.parameters['package_url'], to_native(error)),
+                                      |   ^ (bad-continuation)
+C:183, 0: Line too long (105/100) (line-too-long)
+C:184, 0: Wrong continued indentation (remove 4 spaces).
+                                      % (self.parameters['package_url'], to_native(error)),
+                                  |   ^ (bad-continuation)
+C:189, 0: Line too long (107/100) (line-too-long)
+C:190, 0: Line too long (109/100) (line-too-long)
+C:191, 0: Line too long (105/100) (line-too-long)
+C:208, 0: Line too long (104/100) (line-too-long)
+C:211, 0: Line too long (102/100) (line-too-long)
+C:216, 0: Wrong continued indentation (remove 4 spaces).
+                                              % (cluster_download_progress['failure_reason']))
+                                          |   ^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 63, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C: 64, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 65, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 66, 0: Import "import ansible.module_utils.netapp as netapp_utils" should be placed at the top of the module (wrong-import-position)
+C: 67, 0: Import "from ansible.module_utils.netapp_module import NetAppModule" should be placed at the top of the module (wrong-import-position)
+C: 68, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+R:102, 4: Method could be a function (no-self-use)
+C:158, 8: Variable name "cluster_image_package_download_info" doesn't conform to snake_case naming style (invalid-name)
+C:172, 4: Method name "cluster_image_package_download_progress" doesn't conform to snake_case naming style (invalid-name)
+C:177, 8: Variable name "cluster_image_package_download_progress_info" doesn't conform to snake_case naming style (invalid-name)
+C: 68, 0: standard import "import time" should be placed before "from ansible.module_utils.basic import AnsibleModule" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 7.20/10
+

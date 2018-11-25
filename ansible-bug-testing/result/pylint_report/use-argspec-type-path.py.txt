@@ -1,0 +1,11 @@
+************* Module use-argspec-type-path
+C: 10, 0: Line too long (114/100) (line-too-long)
+C: 25, 0: Line too long (112/100) (line-too-long)
+C: 42, 0: Line too long (116/100) (line-too-long)
+C:  1, 0: Module name "use-argspec-type-path" doesn't conform to snake_case naming style (invalid-name)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 5.71/10
+

@@ -1,0 +1,18 @@
+************* Module units.module_utils.facts.system.test_lsb
+W: 37, 0: FIXME: a (fixme)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 26, 0: Unable to import 'ansible.module_utils.facts.system.lsb' (import-error)
+C: 29, 0: Constant name "lsb_release_a_fedora_output" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 38, 0: Constant name "etc_lsb_release_ubuntu14" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 43, 0: Constant name "etc_lsb_release_no_decimal" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 50, 0: Missing class docstring (missing-docstring)
+C: 66, 4: Missing method docstring (missing-docstring)
+C: 78, 4: Missing method docstring (missing-docstring)
+C: 94, 4: Method name "test_etc_lsb_release_no_decimal_release" doesn't conform to snake_case naming style (invalid-name)
+C: 94, 4: Missing method docstring (missing-docstring)
+C: 26, 0: first party import "from ansible.module_utils.facts.system.lsb import LSBFactCollector" should be placed before "from ..base import BaseFactsTest" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 6.85/10
+

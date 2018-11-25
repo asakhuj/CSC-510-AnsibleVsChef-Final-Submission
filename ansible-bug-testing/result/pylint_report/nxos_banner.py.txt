@@ -1,0 +1,19 @@
+************* Module ansible.modules.network.nxos.nxos_banner
+C:111, 0: Line too long (135/100) (line-too-long)
+C:126, 0: Line too long (142/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 89, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 90, 0: Import "from ansible.module_utils.network.nxos.nxos import load_config, run_commands" should be placed at the top of the module (wrong-import-position)
+C: 91, 0: Import "from ansible.module_utils.network.nxos.nxos import nxos_argument_spec, check_args" should be placed at the top of the module (wrong-import-position)
+C: 92, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+W: 96, 4: Redefining built-in 'format' (redefined-builtin)
+C: 95, 0: Missing function docstring (missing-docstring)
+C:105, 0: Missing function docstring (missing-docstring)
+C:121, 0: Missing function docstring (missing-docstring)
+C:150, 0: Missing function docstring (missing-docstring)
+R:191, 4: Too many nested blocks (6/5) (too-many-nested-blocks)
+C: 92, 0: standard import "import re" should be placed before "from ansible.module_utils.basic import AnsibleModule" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 8.23/10
+

@@ -1,0 +1,14 @@
+************* Module ansible.modules.network.aci.aci_interface_selector_to_switch_policy_leaf_profile
+C:190, 0: Line too long (110/100) (line-too-long)
+C:191, 0: Line too long (156/100) (line-too-long)
+C:205, 0: Line too long (139/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:183, 0: Import "from ansible.module_utils.network.aci.aci import ACIModule, aci_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:184, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:187, 0: Missing function docstring (missing-docstring)
+C:210, 4: Variable name "interface_selector_tDn" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.79/10
+

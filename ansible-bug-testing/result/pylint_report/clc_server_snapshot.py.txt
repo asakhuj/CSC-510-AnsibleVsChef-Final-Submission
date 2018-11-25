@@ -1,0 +1,15 @@
+************* Module ansible.modules.cloud.centurylink.clc_server_snapshot
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:103, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:104, 0: Import "from distutils.version import LooseVersion" should be placed at the top of the module (wrong-import-position)
+C:126, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:129, 0: Missing class docstring (missing-docstring)
+C:158, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+W:373,12: Access to a protected member _LOGIN_TOKEN_V2 of a client class (protected-access)
+W:374,12: Access to a protected member _V2_ENABLED of a client class (protected-access)
+R:357, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+
+-----------------------------------
+Your code has been rated at 9.35/10
+

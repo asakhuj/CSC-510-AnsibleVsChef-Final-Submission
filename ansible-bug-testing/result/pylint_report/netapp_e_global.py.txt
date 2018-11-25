@@ -1,0 +1,33 @@
+************* Module ansible.modules.storage.netapp.netapp_e_global
+C:104, 0: Line too long (110/100) (line-too-long)
+C:110, 0: Line too long (108/100) (line-too-long)
+C:114, 0: Line too long (110/100) (line-too-long)
+C:116, 0: Line too long (105/100) (line-too-long)
+C:119, 0: Line too long (117/100) (line-too-long)
+C:131, 0: Line too long (112/100) (line-too-long)
+C:138, 0: Wrong hanging indentation (remove 4 spaces).
+                        % (self.ssid, to_native(err)))
+                    |   ^ (bad-continuation)
+C:145, 0: Line too long (105/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 63, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C: 64, 0: Import "import logging" should be placed at the top of the module (wrong-import-position)
+C: 66, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 67, 0: Import "from ansible.module_utils.netapp import request, eseries_host_argument_spec" should be placed at the top of the module (wrong-import-position)
+C: 68, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 76, 0: Missing class docstring (missing-docstring)
+C:112, 4: Missing method docstring (missing-docstring)
+W:118,15: Catching too general exception Exception (broad-except)
+C:114,13: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W:114,13: Unused variable 'rc' (unused-variable)
+C:121, 4: Missing method docstring (missing-docstring)
+W:135,19: Catching too general exception Exception (broad-except)
+C:131,17: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W:131,17: Unused variable 'rc' (unused-variable)
+C:141, 4: Missing method docstring (missing-docstring)
+C:151, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 5.87/10
+

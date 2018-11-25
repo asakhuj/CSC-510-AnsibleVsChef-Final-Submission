@@ -1,0 +1,18 @@
+************* Module ansible.modules.storage.purestorage.purefb_s3acc
+C: 85, 0: Line too long (103/100) (line-too-long)
+C: 92, 0: Line too long (122/100) (line-too-long)
+C: 94, 0: Line too long (124/100) (line-too-long)
+C:100, 0: Line too long (107/100) (line-too-long)
+C:119, 0: Line too long (133/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 55, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 56, 0: Import "from ansible.module_utils.pure import get_blade, purefb_argument_spec" should be placed at the top of the module (wrong-import-position)
+W: 72,25: Unused argument 'blade' (unused-argument)
+W: 84, 4: No exception type(s) specified (bare-except)
+W: 99, 8: No exception type(s) specified (bare-except)
+C:104, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.72/10
+

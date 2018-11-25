@@ -1,0 +1,8 @@
+************* Module test_diff
+C: 91, 0: Line too long (112/100) (line-too-long)
+E:  6, 0: Unable to import 'lib.diff' (import-error)
+W:  6, 0: Unused FileDiff imported from lib.diff (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.57/10
+

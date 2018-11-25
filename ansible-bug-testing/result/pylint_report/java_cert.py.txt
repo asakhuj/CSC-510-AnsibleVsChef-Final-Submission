@@ -1,0 +1,26 @@
+************* Module ansible.modules.system.java_cert
+C:219, 0: Line too long (113/100) (line-too-long)
+C:225, 0: Line too long (109/100) (line-too-long)
+C:277, 0: Wrong continued indentation (remove 4 spaces).
+                                    % (keystore_path))
+                                |   ^ (bad-continuation)
+C:325, 0: Wrong continued indentation (remove 4 spaces).
+                             % (keystore_path))
+                         |   ^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:128, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:131, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+R:146, 0: Too many arguments (7/5) (too-many-arguments)
+R:146, 0: Too many local variables (22/15) (too-many-locals)
+R:185, 4: Unnecessary "else" after "return" (no-else-return)
+R:194, 0: Too many arguments (6/5) (too-many-arguments)
+R:211, 4: Unnecessary "else" after "return" (no-else-return)
+R:219, 0: Too many arguments (8/5) (too-many-arguments)
+R:235, 4: Unnecessary "else" after "return" (no-else-return)
+R:268, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:280, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.37/10
+

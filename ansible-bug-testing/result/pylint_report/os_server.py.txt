@@ -1,0 +1,18 @@
+************* Module ansible.modules.cloud.openstack.os_server
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 10, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:396, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:397, 0: Import "from ansible.module_utils.openstack import openstack_find_nova_addresses, openstack_cloud_from_module, openstack_full_argument_spec, openstack_module_kwargs" should be placed at the top of the module (wrong-import-position)
+C:454,15: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+W:468,11: Catching too general exception Exception (broad-except)
+C:468,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:538,12: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:552, 8: Variable name "ip" doesn't conform to snake_case naming style (invalid-name)
+C:584,16: Variable name "ip" doesn't conform to snake_case naming style (invalid-name)
+C:593,16: Variable name "ip" doesn't conform to snake_case naming style (invalid-name)
+C:663, 0: Missing function docstring (missing-docstring)
+C:734,53: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 9.29/10
+

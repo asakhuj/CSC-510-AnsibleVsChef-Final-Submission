@@ -1,0 +1,16 @@
+************* Module ansible.plugins.lookup.pipe
+C: 61, 0: Line too long (129/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 38, 0: Import "import subprocess" should be placed at the top of the module (wrong-import-position)
+C: 40, 0: Import "from ansible.errors import AnsibleError" should be placed at the top of the module (wrong-import-position)
+C: 41, 0: Import "from ansible.plugins.lookup import LookupBase" should be placed at the top of the module (wrong-import-position)
+C: 44, 0: Missing class docstring (missing-docstring)
+W: 46, 4: Signature differs from overridden 'run' method (signature-differs)
+W: 58,-1: String statement has no effect (pointless-string-statement)
+C: 61,12: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+W: 62,21: Unused variable 'stderr' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 4.50/10
+

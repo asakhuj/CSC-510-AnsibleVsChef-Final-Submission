@@ -1,0 +1,29 @@
+************* Module ansible.modules.network.panos.panos_import
+C:155, 0: Line too long (117/100) (line-too-long)
+C:157, 0: Line too long (104/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 78, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 79, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 81, 0: Import "import os.path" should be placed at the top of the module (wrong-import-position)
+C: 82, 0: Import "import xml.etree" should be placed at the top of the module (wrong-import-position)
+C: 83, 0: Import "import tempfile" should be placed at the top of the module (wrong-import-position)
+C: 84, 0: Import "import shutil" should be placed at the top of the module (wrong-import-position)
+C: 85, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C: 96, 0: Missing function docstring (missing-docstring)
+C:113, 4: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:132, 0: Missing function docstring (missing-docstring)
+C:133, 4: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:134, 4: Variable name "fo" doesn't conform to snake_case naming style (invalid-name)
+C:141, 0: Missing function docstring (missing-docstring)
+C:145, 0: Missing function docstring (missing-docstring)
+W:180,11: Catching too general exception Exception (broad-except)
+C: 81, 0: standard import "import os.path" should be placed before "from ansible.module_utils.basic import AnsibleModule" (wrong-import-order)
+C: 82, 0: standard import "import xml.etree" should be placed before "from ansible.module_utils.basic import AnsibleModule" (wrong-import-order)
+C: 83, 0: standard import "import tempfile" should be placed before "from ansible.module_utils.basic import AnsibleModule" (wrong-import-order)
+C: 84, 0: standard import "import shutil" should be placed before "from ansible.module_utils.basic import AnsibleModule" (wrong-import-order)
+C: 85, 0: standard import "import os" should be placed before "from ansible.module_utils.basic import AnsibleModule" (wrong-import-order)
+C: 85, 0: Imports from package os are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 6.00/10
+

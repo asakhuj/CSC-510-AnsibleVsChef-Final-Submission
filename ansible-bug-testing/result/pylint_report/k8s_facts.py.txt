@@ -1,0 +1,13 @@
+************* Module ansible.modules.clustering.k8s.k8s_facts
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:133, 0: Import "from ansible.module_utils.k8s.common import KubernetesAnsibleModule, AUTH_ARG_SPEC" should be placed at the top of the module (wrong-import-position)
+C:134, 0: Import "import copy" should be placed at the top of the module (wrong-import-position)
+C:137, 0: Missing class docstring (missing-docstring)
+W:145, 8: Attribute 'client' defined outside __init__ (attribute-defined-outside-init)
+C:171, 0: Missing function docstring (missing-docstring)
+C:134, 0: standard import "import copy" should be placed before "from ansible.module_utils.k8s.common import KubernetesAnsibleModule, AUTH_ARG_SPEC" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 6.36/10
+

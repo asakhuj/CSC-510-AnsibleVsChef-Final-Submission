@@ -1,0 +1,44 @@
+************* Module ansible.modules.storage.netapp._na_cdot_svm
+C:109, 0: Wrong continued indentation (remove 1 space).
+                                                                 ]),
+                                                                |^ (bad-continuation)
+C:177, 0: Wrong continued indentation (remove 1 space).
+                                 })
+                                |^ (bad-continuation)
+C:183, 0: Line too long (105/100) (line-too-long)
+C:184, 0: Wrong continued indentation (remove 4 spaces).
+                                      % (self.name, self.root_volume, self.root_volume_aggregate, to_native(e)),
+                                  |   ^ (bad-continuation)
+C:184, 0: Line too long (112/100) (line-too-long)
+C:195, 0: Line too long (101/100) (line-too-long)
+C:196, 0: Wrong continued indentation (remove 4 spaces).
+                                      % (self.name, self.root_volume, self.root_volume_aggregate, to_native(e)),
+                                  |   ^ (bad-continuation)
+C:196, 0: Line too long (112/100) (line-too-long)
+C:197, 0: Wrong continued indentation (remove 4 spaces).
+                                      exception=traceback.format_exc())
+                                  |   ^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 86, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C: 88, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 89, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 90, 0: Import "import ansible.module_utils.netapp as netapp_utils" should be placed at the top of the module (wrong-import-position)
+C: 96, 0: Missing class docstring (missing-docstring)
+R: 96, 0: Too many instance attributes (8/7) (too-many-instance-attributes)
+C:122, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+R:157, 8: Unnecessary "else" after "return" (no-else-return)
+W:164,-1: String statement has no effect (pointless-string-statement)
+C:169, 4: Missing method docstring (missing-docstring)
+C:182,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:187, 4: Missing method docstring (missing-docstring)
+C:194,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:199, 4: Missing method docstring (missing-docstring)
+C:207,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:211, 4: Missing method docstring (missing-docstring)
+C:245, 0: Missing function docstring (missing-docstring)
+C:246, 4: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.42/10
+

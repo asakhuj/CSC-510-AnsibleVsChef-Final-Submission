@@ -1,0 +1,24 @@
+************* Module ansible.modules.network.nxos.nxos_igmp_snooping
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 96, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C: 98, 0: Import "from ansible.module_utils.network.nxos.nxos import get_config, load_config, run_commands" should be placed at the top of the module (wrong-import-position)
+C: 99, 0: Import "from ansible.module_utils.network.nxos.nxos import nxos_argument_spec, check_args" should be placed at the top of the module (wrong-import-position)
+C:100, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:103, 0: Missing function docstring (missing-docstring)
+C:112, 0: Missing function docstring (missing-docstring)
+C:122, 0: Missing function docstring (missing-docstring)
+C:131, 0: Missing function docstring (missing-docstring)
+R:142, 8: The if statement can be replaced with 'var = bool(test)' (simplifiable-if-statement)
+R:148, 8: The if statement can be replaced with 'var = bool(test)' (simplifiable-if-statement)
+R:154, 8: The if statement can be replaced with 'var = bool(test)' (simplifiable-if-statement)
+R:160, 8: The if statement can be replaced with 'var = bool(test)' (simplifiable-if-statement)
+C:173, 0: Missing function docstring (missing-docstring)
+C:174, 4: Variable name "CMDS" doesn't conform to snake_case naming style (invalid-name)
+C:204, 0: Missing function docstring (missing-docstring)
+C:221, 0: Missing function docstring (missing-docstring)
+R:221, 0: Too many local variables (17/15) (too-many-locals)
+W: 98, 0: Unused get_config imported from ansible.module_utils.network.nxos.nxos (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.43/10
+

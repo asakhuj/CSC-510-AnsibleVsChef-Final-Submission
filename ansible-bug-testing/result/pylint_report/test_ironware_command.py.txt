@@ -1,0 +1,24 @@
+************* Module units.modules.network.ironware.test_ironware_command
+C: 34, 0: Line too long (104/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 23, 0: Unable to import 'ansible.modules.network.ironware' (import-error)
+C: 28, 0: Missing class docstring (missing-docstring)
+C: 43, 8: Missing function docstring (missing-docstring)
+W: 43, 0: Unused argument 'kwargs' (unused-argument)
+W: 44,12: Unused variable 'module' (unused-variable)
+C: 54, 4: Missing method docstring (missing-docstring)
+C: 60, 4: Missing method docstring (missing-docstring)
+C: 66, 4: Missing method docstring (missing-docstring)
+C: 71, 4: Method name "test_ironware_command_wait_for_fails" doesn't conform to snake_case naming style (invalid-name)
+C: 71, 4: Missing method docstring (missing-docstring)
+C: 77, 4: Missing method docstring (missing-docstring)
+C: 83, 4: Missing method docstring (missing-docstring)
+C: 89, 4: Missing method docstring (missing-docstring)
+C: 95, 4: Method name "test_ironware_command_match_all_failure" doesn't conform to snake_case naming style (invalid-name)
+C: 95, 4: Missing method docstring (missing-docstring)
+C: 24, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 6.23/10
+

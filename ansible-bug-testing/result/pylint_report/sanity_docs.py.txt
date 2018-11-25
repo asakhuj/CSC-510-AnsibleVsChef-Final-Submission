@@ -1,0 +1,8 @@
+************* Module lib.sanity.sanity_docs
+C: 29, 0: Line too long (127/100) (line-too-long)
+R: 19, 0: Too few public methods (1/2) (too-few-public-methods)
+W: 14, 0: Unused SanityConfig imported from lib.config (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.00/10
+

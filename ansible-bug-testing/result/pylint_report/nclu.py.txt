@@ -1,0 +1,21 @@
+************* Module ansible.modules.network.cumulus.nclu
+C:168, 0: Line too long (126/100) (line-too-long)
+C:233, 0: Wrong continued indentation (add 19 spaces).
+        mutually_exclusive=[('commands', 'template'),
+        ^                  | (bad-continuation)
+C:236, 0: Wrong continued indentation (add 22 spaces).
+    )
+    ^                     | (bad-continuation)
+C:244, 0: Line too long (105/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:155, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:178, 0: Missing function docstring (missing-docstring)
+R:178, 0: Too many arguments (7/5) (too-many-arguments)
+R:178, 0: Too many local variables (17/15) (too-many-locals)
+C:225, 0: Missing function docstring (missing-docstring)
+R:225, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+
+-----------------------------------
+Your code has been rated at 8.24/10
+

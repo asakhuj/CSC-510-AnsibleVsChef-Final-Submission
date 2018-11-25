@@ -1,0 +1,50 @@
+************* Module ansible.module_utils.network.edgeos.edgeos
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 36, 0: Missing function docstring (missing-docstring)
+W: 38,15: Access to a protected member _edgeos_connection of a client class (protected-access)
+W: 43, 8: Access to a protected member _edgeos_connection of a client class (protected-access)
+W: 43,47: Access to a protected member _socket_path of a client class (protected-access)
+W: 47,11: Access to a protected member _edgeos_connection of a client class (protected-access)
+C: 50, 0: Missing function docstring (missing-docstring)
+W: 52,15: Access to a protected member _edgeos_capabilities of a client class (protected-access)
+W: 54,30: Access to a protected member _socket_path of a client class (protected-access)
+W: 55, 4: Access to a protected member _edgeos_capabilities of a client class (protected-access)
+W: 56,11: Access to a protected member _edgeos_capabilities of a client class (protected-access)
+C: 59, 0: Missing function docstring (missing-docstring)
+W: 60, 4: Using the global statement (global-statement)
+R: 62, 4: Unnecessary "else" after "return" (no-else-return)
+C: 72, 0: Missing function docstring (missing-docstring)
+W: 72,35: Unused argument 'check_rc' (unused-argument)
+C:102, 0: Missing function docstring (missing-docstring)
+W:111, 7: Access to a protected member _diff of a client class (protected-access)
+R:102, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+
+-----------------------------------
+Your code has been rated at 7.43/10
+
+************* Module ansible.plugins.cliconf.edgeos
+C: 49, 0: Line too long (119/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 18, 0: Missing class docstring (missing-docstring)
+C: 20, 4: Missing method docstring (missing-docstring)
+W: 41,43: Redefining built-in 'format' (redefined-builtin)
+W: 41, 4: Parameters differ from overridden 'get_config' method (arguments-differ)
+W: 44, 4: Parameters differ from overridden 'edit_config' method (arguments-differ)
+R: 48, 4: Too many arguments (6/5) (too-many-arguments)
+W: 48, 4: Parameters differ from overridden 'get' method (arguments-differ)
+W: 58, 4: Parameters differ from overridden 'discard_changes' method (arguments-differ)
+W: 58, 0: Unused argument 'args' (unused-argument)
+W: 58, 0: Unused argument 'kwargs' (unused-argument)
+
+-----------------------------------
+Your code has been rated at 7.05/10
+
+************* Module ansible.plugins.terminal.edgeos
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 14, 0: Missing class docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.12/10
+

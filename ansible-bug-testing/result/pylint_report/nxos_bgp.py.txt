@@ -1,0 +1,27 @@
+************* Module ansible.modules.network.nxos.nxos_bgp
+C:573, 0: Line too long (144/100) (line-too-long)
+C:574, 0: Line too long (147/100) (line-too-long)
+C:575, 0: Line too long (147/100) (line-too-long)
+C:576, 0: Line too long (149/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:235, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:237, 0: Import "from ansible.module_utils.network.nxos.nxos import get_config, load_config" should be placed at the top of the module (wrong-import-position)
+C:238, 0: Import "from ansible.module_utils.network.nxos.nxos import nxos_argument_spec, check_args" should be placed at the top of the module (wrong-import-position)
+C:239, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:240, 0: Import "from ansible.module_utils.network.common.config import CustomNetworkConfig" should be placed at the top of the module (wrong-import-position)
+C:345, 0: Missing function docstring (missing-docstring)
+R:345, 0: Too many branches (15/12) (too-many-branches)
+C:394, 0: Missing function docstring (missing-docstring)
+C:428, 0: Missing function docstring (missing-docstring)
+C:438, 0: Missing function docstring (missing-docstring)
+R:438, 0: Too many branches (19/12) (too-many-branches)
+C:492, 0: Missing function docstring (missing-docstring)
+C:504, 0: Missing function docstring (missing-docstring)
+C:554, 0: Missing function docstring (missing-docstring)
+R:554, 0: Too many local variables (16/15) (too-many-locals)
+C:637,20: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+R:554, 0: Too many branches (18/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 9.00/10
+

@@ -1,0 +1,26 @@
+************* Module ansible.modules.network.nxos.nxos_bgp_neighbor
+C:350, 0: Line too long (102/100) (line-too-long)
+C:351, 0: Line too long (103/100) (line-too-long)
+C:397, 0: Line too long (104/100) (line-too-long)
+C:403, 0: Line too long (111/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:172, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:174, 0: Import "from ansible.module_utils.network.nxos.nxos import get_config, load_config" should be placed at the top of the module (wrong-import-position)
+C:175, 0: Import "from ansible.module_utils.network.nxos.nxos import nxos_argument_spec, check_args" should be placed at the top of the module (wrong-import-position)
+C:176, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:177, 0: Import "from ansible.module_utils.network.common.config import CustomNetworkConfig" should be placed at the top of the module (wrong-import-position)
+C:221, 0: Missing function docstring (missing-docstring)
+R:221, 0: Too many branches (15/12) (too-many-branches)
+C:266, 0: Missing function docstring (missing-docstring)
+C:296, 0: Missing function docstring (missing-docstring)
+C:306, 0: Missing function docstring (missing-docstring)
+R:306, 0: Too many branches (26/12) (too-many-branches)
+R:306, 0: Too many statements (58/50) (too-many-statements)
+C:376, 0: Missing function docstring (missing-docstring)
+W:376,35: Unused argument 'proposed' (unused-argument)
+W:376,25: Unused argument 'existing' (unused-argument)
+C:386, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.81/10
+

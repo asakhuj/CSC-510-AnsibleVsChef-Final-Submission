@@ -1,0 +1,18 @@
+************* Module ansible.modules.cloud.memset.memset_memstore_facts
+C:125, 0: Line too long (112/100) (line-too-long)
+C:134, 0: Unnecessary parens after 'return' keyword (superfluous-parens)
+C:146, 0: Unnecessary parens after 'return' keyword (superfluous-parens)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:110, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:111, 0: Import "from ansible.module_utils.memset import memset_api_call" should be placed at the top of the module (wrong-import-position)
+W:144,27: Use of eval (eval-used)
+W:120,17: Unused variable 'memset_api' (unused-variable)
+W:120, 9: Unused variable 'stderr' (unused-variable)
+C:149, 0: Missing function docstring (missing-docstring)
+W:150, 4: Global variable 'module' undefined at the module level (global-variable-undefined)
+C:150, 4: Constant name "module" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.75/10
+

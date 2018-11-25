@@ -1,0 +1,9 @@
+************* Module ansible.parsing.quoting
+C: 28, 0: Line too long (107/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 23, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 5.00/10
+

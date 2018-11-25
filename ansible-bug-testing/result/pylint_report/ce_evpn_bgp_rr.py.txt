@@ -1,0 +1,19 @@
+************* Module ansible.modules.network.cloudengine.ce_evpn_bgp_rr
+C:389, 0: Line too long (101/100) (line-too-long)
+C:433, 0: Line too long (109/100) (line-too-long)
+C:464, 0: Line too long (111/100) (line-too-long)
+C:478, 0: Line too long (108/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:170, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:171, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:172, 0: Import "from ansible.module_utils.network.cloudengine.ce import get_config, load_config, ce_argument_spec" should be placed at the top of the module (wrong-import-position)
+R:184, 0: Too many instance attributes (20/7) (too-many-instance-attributes)
+R:254, 8: Unnecessary "else" after "return" (no-else-return)
+R:372, 4: Too many return statements (7/6) (too-many-return-statements)
+R:406, 4: Too many branches (14/12) (too-many-branches)
+C:467,43: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:476,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+
+-----------------------------------
+Your code has been rated at 9.30/10
+

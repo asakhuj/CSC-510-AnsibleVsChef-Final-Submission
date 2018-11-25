@@ -1,0 +1,16 @@
+************* Module ansible.modules.notification.flowdock
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:103, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+E:104, 0: No name 'urllib' in module '_MovedItems' (no-name-in-module)
+E:104, 0: Unable to import 'ansible.module_utils.six.moves.urllib.parse' (import-error)
+C:104, 0: Import "from ansible.module_utils.six.moves.urllib.parse import urlencode" should be placed at the top of the module (wrong-import-position)
+C:105, 0: Import "from ansible.module_utils.urls import fetch_url" should be placed at the top of the module (wrong-import-position)
+W:133, 4: Redefining built-in 'type' (redefined-builtin)
+C:112, 0: Missing function docstring (missing-docstring)
+W:182, 4: Unused variable 'response' (unused-variable)
+R:112, 0: Too many branches (18/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 5.87/10
+

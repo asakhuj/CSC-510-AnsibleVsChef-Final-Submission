@@ -1,0 +1,12 @@
+************* Module ansible.modules.cloud.univention.udm_share
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:311, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:312, 0: Import "from ansible.module_utils.univention_umc import umc_module_for_add, umc_module_for_edit, ldap_search, base_dn" should be placed at the top of the module (wrong-import-position)
+C:320, 0: Missing function docstring (missing-docstring)
+C:487, 4: Variable name "dn" doesn't conform to snake_case naming style (invalid-name)
+R:320, 0: Too many branches (17/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 8.68/10
+

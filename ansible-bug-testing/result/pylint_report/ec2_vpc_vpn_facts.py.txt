@@ -1,0 +1,18 @@
+************* Module ansible.modules.cloud.amazon.ec2_vpc_vpn_facts
+C:162, 0: Line too long (107/100) (line-too-long)
+C:176, 0: Line too long (108/100) (line-too-long)
+C:181, 0: Line too long (118/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:154, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C:160, 0: Import "from ansible.module_utils.aws.core import AnsibleAWSModule" should be placed at the top of the module (wrong-import-position)
+C:161, 0: Import "from ansible.module_utils.ec2 import ansible_dict_to_boto3_filter_list, ec2_argument_spec, boto3_conn, boto3_tag_list_to_ansible_dict, camel_dict_to_snake_dict" should be placed at the top of the module (wrong-import-position)
+C:165, 0: Missing function docstring (missing-docstring)
+C:169, 0: Missing function docstring (missing-docstring)
+C:177,25: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:179,43: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:188, 0: Missing function docstring (missing-docstring)
+W:161, 0: Unused boto3_conn imported from ansible.module_utils.ec2 (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.39/10
+

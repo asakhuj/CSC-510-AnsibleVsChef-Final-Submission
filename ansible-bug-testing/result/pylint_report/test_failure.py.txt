@@ -1,0 +1,10 @@
+************* Module test_failure
+C: 11, 0: Line too long (108/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  3, 0: Constant name "results" doesn't conform to UPPER_CASE naming style (invalid-name)
+E: 13, 0: Unable to import 'ansible.module_utils.basic' (import-error)
+C: 13, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+
+------------------------------------
+Your code has been rated at -1.25/10
+

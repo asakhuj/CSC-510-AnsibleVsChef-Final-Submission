@@ -1,0 +1,10 @@
+************* Module units.modules.packaging.os.test_apk
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  4, 0: Unable to import 'ansible.modules.packaging.os' (import-error)
+C:  7, 0: Missing class docstring (missing-docstring)
+C: 16, 4: Missing method docstring (missing-docstring)
+C: 25, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 5.50/10
+

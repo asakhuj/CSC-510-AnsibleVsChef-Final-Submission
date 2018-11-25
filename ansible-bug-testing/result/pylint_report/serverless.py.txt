@@ -1,0 +1,20 @@
+************* Module ansible.modules.cloud.misc.serverless
+C:149, 0: Line too long (131/100) (line-too-long)
+C:204, 0: Line too long (102/100) (line-too-long)
+C:225, 0: Line too long (130/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:129, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:130, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:138, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:141, 0: Missing function docstring (missing-docstring)
+C:148,22: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:155, 0: Missing function docstring (missing-docstring)
+C:166, 0: Missing function docstring (missing-docstring)
+C:219, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W:186, 4: Unused variable 'functions' (unused-variable)
+R:166, 0: Too many branches (14/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 7.86/10
+

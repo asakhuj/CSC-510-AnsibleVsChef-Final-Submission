@@ -1,0 +1,21 @@
+************* Module units.modules.network.nxos.test_nxos_vlan
+C: 72, 0: Line too long (103/100) (line-too-long)
+C: 92, 0: Line too long (108/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 25, 0: Unable to import 'ansible.modules.network.nxos' (import-error)
+C: 29, 0: Missing class docstring (missing-docstring)
+C: 52, 8: Missing function docstring (missing-docstring)
+W: 53,12: Unused variable 'module' (unused-variable)
+W: 52, 0: Unused argument 'kwargs' (unused-argument)
+C: 70, 4: Missing method docstring (missing-docstring)
+C: 74, 4: Missing method docstring (missing-docstring)
+C: 79, 4: Missing method docstring (missing-docstring)
+C: 84, 4: Missing method docstring (missing-docstring)
+C: 89, 4: Missing method docstring (missing-docstring)
+C: 94, 4: Missing method docstring (missing-docstring)
+C: 99, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 6.88/10
+

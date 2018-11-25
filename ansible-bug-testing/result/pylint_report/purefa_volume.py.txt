@@ -1,0 +1,32 @@
+************* Module ansible.modules.storage.purestorage.purefa_volume
+C:196, 0: Line too long (102/100) (line-too-long)
+C:197, 0: Line too long (105/100) (line-too-long)
+C:205, 0: Line too long (102/100) (line-too-long)
+C:206, 0: Line too long (105/100) (line-too-long)
+C:234, 0: Line too long (103/100) (line-too-long)
+C:236, 0: Line too long (117/100) (line-too-long)
+C:251, 0: Line too long (102/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:106, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:107, 0: Import "from ansible.module_utils.pure import get_system, purefa_argument_spec" should be placed at the top of the module (wrong-import-position)
+W:115, 4: Redefining built-in 'bytes' (redefined-builtin)
+W:138, 4: No exception type(s) specified (bare-except)
+W:149, 4: No exception type(s) specified (bare-except)
+R:145, 8: The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)
+R:145, 8: Unnecessary "else" after "return" (no-else-return)
+W:157, 4: No exception type(s) specified (bare-except)
+W:170,12: No exception type(s) specified (bare-except)
+W:178, 8: No exception type(s) specified (bare-except)
+W:195, 8: No exception type(s) specified (bare-except)
+W:204, 8: No exception type(s) specified (bare-except)
+W:224,16: No exception type(s) specified (bare-except)
+W:233,16: No exception type(s) specified (bare-except)
+W:253, 8: No exception type(s) specified (bare-except)
+W:250,16: No exception type(s) specified (bare-except)
+W:264, 4: No exception type(s) specified (bare-except)
+C:269, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.20/10
+

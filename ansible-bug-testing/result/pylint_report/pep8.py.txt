@@ -1,0 +1,20 @@
+************* Module lib.sanity.pep8
+C: 46, 0: Line too long (101/100) (line-too-long)
+C: 49, 0: Line too long (106/100) (line-too-long)
+C: 54, 0: Line too long (159/100) (line-too-long)
+C: 82, 0: Line too long (117/100) (line-too-long)
+C:119, 0: Line too long (146/100) (line-too-long)
+C:130, 0: Line too long (146/100) (line-too-long)
+C:149, 0: Line too long (144/100) (line-too-long)
+C:155, 0: Line too long (119/100) (line-too-long)
+C:165, 0: Line too long (112/100) (line-too-long)
+C:176, 0: Line too long (127/100) (line-too-long)
+R: 36, 4: Too many local variables (30/15) (too-many-locals)
+R: 36, 4: Too many branches (22/12) (too-many-branches)
+R: 36, 4: Too many statements (65/50) (too-many-statements)
+R: 34, 0: Too few public methods (1/2) (too-few-public-methods)
+W: 22, 0: Unused SanityConfig imported from lib.config (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.12/10
+

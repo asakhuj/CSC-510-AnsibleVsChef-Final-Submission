@@ -1,0 +1,15 @@
+************* Module ansible.modules.network.aos._aos_device
+C:108, 0: Line too long (119/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:107, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:108, 0: Import "from ansible.module_utils.network.aos.aos import HAS_AOS_PYEZ, get_aos_session, check_aos_version, find_collection_item" should be placed at the top of the module (wrong-import-position)
+E:111, 4: Unable to import 'apstra.aosom.exc' (import-error)
+C:114, 0: Missing function docstring (missing-docstring)
+W:114,30: Unused argument 'aos' (unused-argument)
+C:148, 0: Missing function docstring (missing-docstring)
+W:153, 4: No exception type(s) specified (bare-except)
+C:198, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 6.89/10
+

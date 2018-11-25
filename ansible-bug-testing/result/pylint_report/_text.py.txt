@@ -1,0 +1,10 @@
+************* Module ansible.module_utils._text
+R: 52, 0: Too many return statements (7/6) (too-many-return-statements)
+R: 52, 0: Too many branches (15/12) (too-many-branches)
+R:169, 0: Too many branches (13/12) (too-many-branches)
+C:276, 4: Constant name "to_native" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:278, 4: Constant name "to_native" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 9.32/10
+

@@ -1,0 +1,20 @@
+************* Module ansible.modules.web_infrastructure.jenkins_job_facts
+C:160, 0: Line too long (102/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:136, 0: Import "import ssl" should be placed at the top of the module (wrong-import-position)
+C:137, 0: Import "import fnmatch" should be placed at the top of the module (wrong-import-position)
+C:138, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:146, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:147, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:150, 0: Missing function docstring (missing-docstring)
+W:158, 8: Access to a protected member _create_default_https_context of a client class (protected-access)
+W:158,44: Access to a protected member _create_unverified_context of a client class (protected-access)
+R:163, 4: Unnecessary "else" after "return" (no-else-return)
+C:171, 0: Missing function docstring (missing-docstring)
+C:178, 0: Missing function docstring (missing-docstring)
+C:216, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.66/10
+

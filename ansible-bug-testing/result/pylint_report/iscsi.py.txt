@@ -1,0 +1,23 @@
+************* Module ansible.module_utils.facts.network.iscsi
+C: 46, 0: Line too long (104/100) (line-too-long)
+C: 47, 0: Line too long (103/100) (line-too-long)
+C: 48, 0: Line too long (103/100) (line-too-long)
+C: 49, 0: Line too long (103/100) (line-too-long)
+C: 50, 0: Line too long (103/100) (line-too-long)
+C: 51, 0: Line too long (103/100) (line-too-long)
+C: 52, 0: Line too long (103/100) (line-too-long)
+C: 57, 0: Line too long (105/100) (line-too-long)
+C: 83, 0: Line too long (104/100) (line-too-long)
+C: 93, 0: Line too long (104/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 19, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 28, 0: Missing class docstring (missing-docstring)
+C: 83,16: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C: 93,16: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W: 83,25: Unused variable 'err' (unused-variable)
+W: 83,16: Unused variable 'rc' (unused-variable)
+R: 32, 4: Too many branches (14/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 5.26/10
+

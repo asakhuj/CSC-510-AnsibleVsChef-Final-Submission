@@ -1,0 +1,14 @@
+************* Module ansible.modules.cloud.cloudstack.cs_loadbalancer_rule
+C:  1, 0: Missing module docstring (missing-docstring)
+C:206, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:207, 0: Import "from ansible.module_utils.cloudstack import AnsibleCloudStack, cs_argument_spec, cs_required_together" should be placed at the top of the module (wrong-import-position)
+C:214, 0: Missing class docstring (missing-docstring)
+C:230, 4: Missing method docstring (missing-docstring)
+R:230, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:245, 4: Missing method docstring (missing-docstring)
+C:299, 4: Missing method docstring (missing-docstring)
+C:313, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.75/10
+

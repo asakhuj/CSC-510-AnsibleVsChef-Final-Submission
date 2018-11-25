@@ -1,0 +1,21 @@
+************* Module ansible.modules.cloud.rackspace.rax_mon_notification_plan
+C:108, 0: Wrong continued indentation (remove 4 spaces).
+                                 (len(existing), label))
+                             |   ^ (bad-continuation)
+C:111, 0: Line too long (104/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 76, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 77, 0: Import "from ansible.module_utils.rax import rax_argument_spec, rax_required_together, setup_rax_module" should be placed at the top of the module (wrong-import-position)
+W: 86, 4: Redefining name 'notification_plan' from outer scope (line 80) (redefined-outer-name)
+C: 80, 0: Missing function docstring (missing-docstring)
+R: 80, 0: Too many arguments (6/5) (too-many-arguments)
+C: 88, 4: Variable name "cm" doesn't conform to snake_case naming style (invalid-name)
+C: 95, 8: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
+C:128,12: Variable name "np" doesn't conform to snake_case naming style (invalid-name)
+R: 80, 0: Too many branches (15/12) (too-many-branches)
+C:145, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.74/10
+

@@ -1,0 +1,20 @@
+************* Module ansible.plugins.lookup.hiera
+W: 36, 0: FIXME: incomplete options .. _terms? environment/fqdn? (fixme)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 59, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C: 61, 0: Import "from ansible.plugins.lookup import LookupBase" should be placed at the top of the module (wrong-import-position)
+C: 62, 0: Import "from ansible.utils.cmd_functions import run_cmd" should be placed at the top of the module (wrong-import-position)
+C: 68, 0: Missing class docstring (missing-docstring)
+C: 69, 4: Missing method docstring (missing-docstring)
+C: 75, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W: 75,20: Unused variable 'err' (unused-variable)
+W: 75, 8: Unused variable 'rc' (unused-variable)
+R: 69, 4: Method could be a function (no-self-use)
+R: 68, 0: Too few public methods (1/2) (too-few-public-methods)
+C: 81, 0: Missing class docstring (missing-docstring)
+W: 82, 4: Parameters differ from overridden 'run' method (arguments-differ)
+
+-----------------------------------
+Your code has been rated at 3.48/10
+

@@ -1,0 +1,17 @@
+************* Module ansible.modules.cloud.vmware.vmware_guest_disk_facts
+C:196, 0: Line too long (141/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:119, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:120, 0: Import "from ansible.module_utils._text import to_text" should be placed at the top of the module (wrong-import-position)
+C:121, 0: Import "from ansible.module_utils.vmware import PyVmomi, vmware_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:124, 0: Missing class docstring (missing-docstring)
+W:125, 4: Useless super delegation in method '__init__' (useless-super-delegation)
+R:128, 4: Method could be a function (no-self-use)
+C:164, 0: Missing function docstring (missing-docstring)
+C:185, 4: Variable name "vm" doesn't conform to snake_case naming style (invalid-name)
+W:191,15: Catching too general exception Exception (broad-except)
+
+-----------------------------------
+Your code has been rated at 7.14/10
+

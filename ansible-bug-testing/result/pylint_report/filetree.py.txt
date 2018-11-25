@@ -1,0 +1,22 @@
+************* Module ansible.plugins.lookup.filetree
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 88, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+E: 89, 0: Unable to import 'pwd' (import-error)
+C: 89, 0: Import "import pwd" should be placed at the top of the module (wrong-import-position)
+E: 90, 0: Unable to import 'grp' (import-error)
+C: 90, 0: Import "import grp" should be placed at the top of the module (wrong-import-position)
+C: 91, 0: Import "import stat" should be placed at the top of the module (wrong-import-position)
+C:100, 0: Import "from ansible.plugins.lookup import LookupBase" should be placed at the top of the module (wrong-import-position)
+C:101, 0: Import "from ansible.module_utils._text import to_native, to_text" should be placed at the top of the module (wrong-import-position)
+C:111, 0: Missing function docstring (missing-docstring)
+C:132, 8: Variable name "st" doesn't conform to snake_case naming style (invalid-name)
+C:133,22: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+E:141,21: Module 'os' has no 'readlink' member (no-member)
+C:176, 0: Missing class docstring (missing-docstring)
+R:178, 4: Too many local variables (16/15) (too-many-locals)
+C:106, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 6.74/10
+

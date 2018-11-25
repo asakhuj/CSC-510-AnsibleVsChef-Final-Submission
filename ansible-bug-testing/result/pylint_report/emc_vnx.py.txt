@@ -1,0 +1,7 @@
+************* Module ansible.module_utils.storage.emc.emc_vnx
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 29, 0: Constant name "emc_vnx_argument_spec" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+-------------------------------------
+Your code has been rated at -10.00/10
+

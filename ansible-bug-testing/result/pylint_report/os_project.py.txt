@@ -1,0 +1,16 @@
+************* Module ansible.modules.cloud.openstack.os_project
+C:102, 0: Line too long (125/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:101, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:102, 0: Import "from ansible.module_utils.openstack import openstack_full_argument_spec, openstack_module_kwargs, openstack_cloud_from_module" should be placed at the top of the module (wrong-import-position)
+R:120,12: The if statement can be replaced with 'var = bool(test)' (simplifiable-if-statement)
+C:134, 0: Missing function docstring (missing-docstring)
+W:163,12: No exception type(s) specified (bare-except)
+W:169,16: No exception type(s) specified (bare-except)
+C:206,53: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:134, 0: Too many branches (14/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 8.47/10
+

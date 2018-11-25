@@ -1,0 +1,32 @@
+************* Module ansible.modules.network.cloudengine.ce_snmp_target_host
+C:308, 0: Line too long (115/100) (line-too-long)
+C:310, 0: Line too long (113/100) (line-too-long)
+C:414, 0: Line too long (108/100) (line-too-long)
+C:415, 0: Line too long (108/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:148, 0: Import "from xml.etree import ElementTree" should be placed at the top of the module (wrong-import-position)
+C:149, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:150, 0: Import "from ansible.module_utils.network.cloudengine.ce import get_nc_config, set_nc_config, ce_argument_spec, get_config, load_config, check_ip_addr" should be placed at the top of the module (wrong-import-position)
+R:238, 0: Too many instance attributes (26/7) (too-many-instance-attributes)
+R:320, 8: Too many nested blocks (6/5) (too-many-nested-blocks)
+R:320, 8: Too many nested blocks (6/5) (too-many-nested-blocks)
+R:320, 8: Too many nested blocks (6/5) (too-many-nested-blocks)
+R:320, 8: Too many nested blocks (6/5) (too-many-nested-blocks)
+R:320, 8: Too many nested blocks (6/5) (too-many-nested-blocks)
+R:320, 8: Too many nested blocks (6/5) (too-many-nested-blocks)
+R:320, 8: Too many nested blocks (6/5) (too-many-nested-blocks)
+R:320, 8: Too many nested blocks (6/5) (too-many-nested-blocks)
+R:320, 8: Too many nested blocks (6/5) (too-many-nested-blocks)
+R:320, 8: Too many nested blocks (6/5) (too-many-nested-blocks)
+R:320, 8: Too many nested blocks (6/5) (too-many-nested-blocks)
+R:320, 8: Too many nested blocks (6/5) (too-many-nested-blocks)
+R:320, 8: Too many nested blocks (6/5) (too-many-nested-blocks)
+R:312, 4: Too many branches (64/12) (too-many-branches)
+R:312, 4: Too many statements (119/50) (too-many-statements)
+R:530, 4: Too many branches (13/12) (too-many-branches)
+R:684, 4: Too many branches (19/12) (too-many-branches)
+R:743, 4: Too many branches (20/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 9.41/10
+

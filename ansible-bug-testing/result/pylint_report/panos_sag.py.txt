@@ -1,0 +1,21 @@
+************* Module ansible.modules.network.panos.panos_sag
+C:217, 0: Line too long (105/100) (line-too-long)
+C:220, 0: Wrong continued indentation (remove 1 space).
+                                            )
+                                           |^ (bad-continuation)
+C:234, 0: Line too long (113/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 87, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 88, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:100, 0: Missing function docstring (missing-docstring)
+C:109, 0: Missing function docstring (missing-docstring)
+R:140, 4: Unnecessary "else" after "return" (no-else-return)
+W:164,11: Catching too general exception Exception (broad-except)
+R:181, 4: Unnecessary "else" after "return" (no-else-return)
+W:184,15: Catching too general exception Exception (broad-except)
+C:191, 0: Missing function docstring (missing-docstring)
+W:242,19: Catching too general exception Exception (broad-except)
+
+-----------------------------------
+Your code has been rated at 8.56/10
+

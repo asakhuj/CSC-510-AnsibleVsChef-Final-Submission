@@ -1,0 +1,24 @@
+************* Module ansible.modules.notification.office_365_connector_card
+C:203, 0: Line too long (123/100) (line-too-long)
+C:253, 0: Wrong hanging indentation (remove 4 spaces).
+                % (payload, info['msg'])
+            |   ^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:135, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:136, 0: Import "from ansible.module_utils.urls import fetch_url" should be placed at the top of the module (wrong-import-position)
+C:137, 0: Import "from ansible.module_utils.ec2 import snake_dict_to_camel_dict" should be placed at the top of the module (wrong-import-position)
+C:145, 0: Missing function docstring (missing-docstring)
+C:155, 0: Missing function docstring (missing-docstring)
+C:164, 0: Missing function docstring (missing-docstring)
+C:203, 0: Function name "build_payload_for_connector_card" doesn't conform to snake_case naming style (invalid-name)
+C:203, 0: Missing function docstring (missing-docstring)
+R:203, 0: Too many arguments (7/5) (too-many-arguments)
+C:230, 0: Function name "do_notify_connector_card_webhook" doesn't conform to snake_case naming style (invalid-name)
+C:230, 0: Missing function docstring (missing-docstring)
+W:235, 4: Unused variable 'response' (unused-variable)
+C:257, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.17/10
+

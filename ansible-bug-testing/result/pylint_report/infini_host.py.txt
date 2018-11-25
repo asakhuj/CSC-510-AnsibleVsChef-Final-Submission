@@ -1,0 +1,19 @@
+************* Module ansible.modules.storage.infinidat.infini_host
+C: 78, 0: Line too long (106/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 77, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 78, 0: Import "from ansible.module_utils.infinibox import HAS_INFINISDK, api_wrapper, get_system, infinibox_argument_spec" should be placed at the top of the module (wrong-import-position)
+C: 82, 0: Missing function docstring (missing-docstring)
+C: 86, 8: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C: 95, 0: Missing function docstring (missing-docstring)
+C:102,16: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:110, 0: Missing function docstring (missing-docstring)
+W:110,24: Unused argument 'host' (unused-argument)
+C:116, 0: Missing function docstring (missing-docstring)
+C:123, 0: Missing function docstring (missing-docstring)
+W:146, 8: No exception type(s) specified (bare-except)
+
+-----------------------------------
+Your code has been rated at 7.50/10
+

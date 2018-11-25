@@ -1,0 +1,15 @@
+************* Module units.mock.procenv
+C: 84, 0: Line too long (105/100) (line-too-long)
+C: 89, 0: Line too long (105/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 29, 0: Unable to import 'ansible.module_utils.six' (import-error)
+E: 30, 0: Unable to import 'ansible.module_utils._text' (import-error)
+C: 77, 0: Missing class docstring (missing-docstring)
+W: 78, 4: Parameters differ from overridden 'setUp' method (arguments-differ)
+E: 86, 8: Generator 'generator' has no '__enter__' member (no-member)
+E: 90, 8: Generator 'generator' has no '__exit__' member (no-member)
+
+-----------------------------------
+Your code has been rated at 3.50/10
+

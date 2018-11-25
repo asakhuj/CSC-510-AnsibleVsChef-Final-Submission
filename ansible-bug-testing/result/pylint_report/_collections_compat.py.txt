@@ -1,0 +1,25 @@
+************* Module ansible.module_utils.common._collections_compat
+C:  2, 0: Line too long (106/100) (line-too-long)
+C: 11, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+W: 14, 4: String statement has no effect (pointless-string-statement)
+W: 31, 4: String statement has no effect (pointless-string-statement)
+W: 15, 4: Unused Hashable imported from collections.abc (unused-import)
+W: 15, 4: Unused Set imported from collections.abc (unused-import)
+W: 15, 4: Unused MutableSet imported from collections.abc (unused-import)
+W: 15, 4: Unused Iterator imported from collections.abc (unused-import)
+W: 15, 4: Unused ValuesView imported from collections.abc (unused-import)
+W: 15, 4: Unused MutableMapping imported from collections.abc (unused-import)
+W: 15, 4: Unused Sequence imported from collections.abc (unused-import)
+W: 15, 4: Unused Mapping imported from collections.abc (unused-import)
+W: 15, 4: Unused MappingView imported from collections.abc (unused-import)
+W: 15, 4: Unused Sized imported from collections.abc (unused-import)
+W: 15, 4: Unused Callable imported from collections.abc (unused-import)
+W: 15, 4: Unused MutableSequence imported from collections.abc (unused-import)
+W: 15, 4: Unused ItemsView imported from collections.abc (unused-import)
+W: 15, 4: Unused KeysView imported from collections.abc (unused-import)
+W: 15, 4: Unused Container imported from collections.abc (unused-import)
+W: 15, 4: Unused Iterable imported from collections.abc (unused-import)
+
+-------------------------------------
+Your code has been rated at -15.00/10
+

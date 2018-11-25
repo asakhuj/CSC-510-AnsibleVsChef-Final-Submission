@@ -1,0 +1,12 @@
+************* Module ansible.modules.network.panos.panos_interface
+C:123, 0: Unnecessary parens after 'return' keyword (superfluous-parens)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 74, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 75, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 95, 0: Missing function docstring (missing-docstring)
+C:119, 0: Missing function docstring (missing-docstring)
+C:126, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.77/10
+

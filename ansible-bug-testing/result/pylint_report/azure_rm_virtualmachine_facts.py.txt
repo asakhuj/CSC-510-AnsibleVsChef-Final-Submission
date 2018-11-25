@@ -1,0 +1,33 @@
+************* Module ansible.modules.cloud.azure.azure_rm_virtualmachine_facts
+C:280, 0: Line too long (107/100) (line-too-long)
+C:300, 0: Line too long (104/100) (line-too-long)
+C:302, 0: Line too long (104/100) (line-too-long)
+C:349, 0: Line too long (115/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 10, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+W:193, 0: No exception type(s) specified (bare-except)
+E:192, 4: Unable to import 'msrestazure.azure_exceptions' (import-error)
+C:197, 0: Import "from ansible.module_utils.azure_rm_common import AzureRMModuleBase, azure_id_to_dict" should be placed at the top of the module (wrong-import-position)
+C:198, 0: Import "from ansible.module_utils.common.dict_transformations import camel_dict_to_snake_dict" should be placed at the top of the module (wrong-import-position)
+E:199, 0: No name 'urllib' in module '_MovedItems' (no-name-in-module)
+E:199, 0: Unable to import 'ansible.module_utils.six.moves.urllib.parse' (import-error)
+C:199, 0: Import "from ansible.module_utils.six.moves.urllib.parse import urlparse" should be placed at the top of the module (wrong-import-position)
+C:200, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:208, 0: Missing class docstring (missing-docstring)
+C:245, 4: Missing method docstring (missing-docstring)
+C:260, 4: Missing method docstring (missing-docstring)
+W:282,15: Catching too general exception Exception (broad-except)
+C:280,12: Variable name "vm" doesn't conform to snake_case naming style (invalid-name)
+C:285, 4: Argument name "vm" doesn't conform to snake_case naming style (invalid-name)
+R:285, 4: Too many local variables (17/15) (too-many-locals)
+W:301,15: Catching too general exception Exception (broad-except)
+C:338, 8: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+C:348, 8: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+C:355, 0: Missing function docstring (missing-docstring)
+W:197, 0: Unused azure_id_to_dict imported from ansible.module_utils.azure_rm_common (unused-import)
+W:198, 0: Unused camel_dict_to_snake_dict imported from ansible.module_utils.common.dict_transformations (unused-import)
+C:200, 0: standard import "import re" should be placed before "from ansible.module_utils.azure_rm_common import AzureRMModuleBase, azure_id_to_dict" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 6.33/10
+

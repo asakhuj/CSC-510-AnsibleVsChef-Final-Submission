@@ -1,0 +1,10 @@
+************* Module ansible.utils.ssh_functions
+C: 41, 0: Line too long (116/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 31, 0: Missing function docstring (missing-docstring)
+W: 42, 9: Unused variable 'out' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 7.62/10
+

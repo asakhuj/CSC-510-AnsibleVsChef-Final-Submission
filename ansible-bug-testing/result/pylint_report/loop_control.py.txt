@@ -1,0 +1,11 @@
+************* Module ansible.playbook.loop_control
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 26, 0: Missing class docstring (missing-docstring)
+W: 33, 4: Useless super delegation in method '__init__' (useless-super-delegation)
+C: 37, 4: Missing method docstring (missing-docstring)
+C: 38, 8: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 5.71/10
+

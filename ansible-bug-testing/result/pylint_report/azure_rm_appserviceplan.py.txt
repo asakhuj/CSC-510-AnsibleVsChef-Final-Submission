@@ -1,0 +1,26 @@
+************* Module ansible.modules.cloud.azure.azure_rm_appserviceplan
+C:253, 0: Line too long (109/100) (line-too-long)
+C:299, 0: Line too long (117/100) (line-too-long)
+C:317, 0: Line too long (148/100) (line-too-long)
+C:319, 0: Line too long (113/100) (line-too-long)
+C:328, 0: Line too long (137/100) (line-too-long)
+C:338, 0: Line too long (104/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:108, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C:109, 0: Import "from ansible.module_utils.azure_rm_common import AzureRMModuleBase" should be placed at the top of the module (wrong-import-position)
+C:135, 0: Missing function docstring (missing-docstring)
+R:137, 4: Unnecessary "else" after "return" (no-else-return)
+R:135, 0: Too many return statements (7/6) (too-many-return-statements)
+R:153, 0: Too many instance attributes (10/7) (too-many-instance-attributes)
+R:206, 4: Too many branches (17/12) (too-many-branches)
+W:298,29: Unused variable 'ex' (unused-variable)
+C:340,29: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:338,12: Unused variable 'response' (unused-variable)
+W:108, 0: Unused import time (unused-import)
+W:114, 4: Unused Model imported from msrest.serialization (unused-import)
+W:115, 4: Unused app_service_plan imported from azure.mgmt.web.models (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.43/10
+

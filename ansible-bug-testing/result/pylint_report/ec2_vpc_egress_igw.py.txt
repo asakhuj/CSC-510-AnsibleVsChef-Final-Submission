@@ -1,0 +1,22 @@
+************* Module ansible.modules.cloud.amazon.ec2_vpc_egress_igw
+C: 84, 0: Line too long (122/100) (line-too-long)
+C: 91, 0: Line too long (136/100) (line-too-long)
+C: 93, 0: Line too long (132/100) (line-too-long)
+C:122, 0: Line too long (118/100) (line-too-long)
+C:124, 0: Line too long (114/100) (line-too-long)
+C:135, 0: Line too long (150/100) (line-too-long)
+C:158, 0: Line too long (106/100) (line-too-long)
+C:174, 0: Line too long (126/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 59, 0: Import "from ansible.module_utils.aws.core import AnsibleAWSModule" should be placed at the top of the module (wrong-import-position)
+C: 60, 0: Import "from ansible.module_utils.ec2 import boto3_conn, ec2_argument_spec, get_aws_connection_info, camel_dict_to_snake_dict" should be placed at the top of the module (wrong-import-position)
+C: 85,46: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C: 92,48: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:114,46: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:123,48: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:153,83: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:164, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.67/10
+

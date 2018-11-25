@@ -1,0 +1,14 @@
+************* Module units.playbook.test_attribute
+C:  1, 0: Missing module docstring (missing-docstring)
+E: 19, 0: Unable to import 'ansible.playbook.attribute' (import-error)
+C: 22, 0: Missing class docstring (missing-docstring)
+C: 28, 4: Missing method docstring (missing-docstring)
+C: 32, 4: Missing method docstring (missing-docstring)
+C: 36, 4: Missing method docstring (missing-docstring)
+C: 41, 4: Missing method docstring (missing-docstring)
+C: 46, 4: Missing method docstring (missing-docstring)
+C: 51, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 5.36/10
+

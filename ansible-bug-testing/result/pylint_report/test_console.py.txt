@@ -1,0 +1,12 @@
+************* Module units.cli.test_console
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 25, 0: Unable to import 'ansible.cli.console' (import-error)
+C: 28, 0: Missing class docstring (missing-docstring)
+C: 29, 4: Missing method docstring (missing-docstring)
+C: 34, 4: Missing method docstring (missing-docstring)
+C: 44, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 5.60/10
+

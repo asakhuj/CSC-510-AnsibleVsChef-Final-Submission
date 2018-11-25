@@ -1,0 +1,30 @@
+************* Module ansible.modules.cloud.openstack.os_loadbalancer
+C:304, 0: Wrong hanging indentation (remove 4 spaces).
+                        (lb.id, lb.provisioning_status)
+                    |   ^ (bad-continuation)
+C:319, 0: Wrong hanging indentation (remove 4 spaces).
+            (lb.id, status)
+        |   ^ (bad-continuation)
+C:547, 0: Wrong hanging indentation (remove 4 spaces).
+                                public_network
+                            |   ^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:280, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C:282, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:283, 0: Import "from ansible.module_utils.openstack import openstack_full_argument_spec, openstack_module_kwargs, openstack_cloud_from_module" should be placed at the top of the module (wrong-import-position)
+C:287, 0: Argument name "lb" doesn't conform to snake_case naming style (invalid-name)
+R:287, 0: Too many arguments (6/5) (too-many-arguments)
+C:323, 0: Missing function docstring (missing-docstring)
+R:323, 0: Too many local variables (43/15) (too-many-locals)
+C:356, 8: Variable name "lb" doesn't conform to snake_case naming style (invalid-name)
+C:389,16: Variable name "lb" doesn't conform to snake_case naming style (invalid-name)
+R:354, 4: Too many nested blocks (8/5) (too-many-nested-blocks)
+C:563,12: Variable name "lb" doesn't conform to snake_case naming style (invalid-name)
+C:600,53: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:323, 0: Too many branches (37/12) (too-many-branches)
+R:323, 0: Too many statements (136/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 8.86/10
+

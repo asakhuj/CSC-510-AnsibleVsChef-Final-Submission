@@ -1,0 +1,11 @@
+************* Module string_format
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 45, 4: Missing method docstring (missing-docstring)
+W: 74,12: Unused variable 'fields' (unused-variable)
+W: 74,30: Unused variable 'manual_pos' (unused-variable)
+R: 53, 4: Too many return statements (8/6) (too-many-return-statements)
+
+-----------------------------------
+Your code has been rated at 8.70/10
+

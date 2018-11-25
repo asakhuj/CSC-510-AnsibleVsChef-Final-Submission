@@ -1,0 +1,42 @@
+************* Module ansible.modules.cloud.ovirt.ovirt_affinity_group
+C:230, 0: Line too long (131/100) (line-too-long)
+C:244, 0: Line too long (123/100) (line-too-long)
+C:245, 0: Wrong hanging indentation (add 4 spaces).
+                self.param('vm_rule') in ['negative', 'positive'] if self.param('vm_rule') else None,
+                ^   | (bad-continuation)
+C:245, 0: Line too long (101/100) (line-too-long)
+C:246, 0: Wrong hanging indentation (add 4 spaces).
+                entity.vms_rule.enabled) and equal(self._host_ids, sorted([host.id for host in entity.hosts]))
+                ^   | (bad-continuation)
+C:246, 0: Line too long (110/100) (line-too-long)
+C:275, 0: Wrong hanging indentation before block (add 4 spaces).
+            version='4.1',
+            ^   | (bad-continuation)
+C:276, 0: Wrong hanging indentation before block (add 4 spaces).
+            connection=connection,
+            ^   | (bad-continuation)
+C:277, 0: Wrong hanging indentation before block (add 4 spaces).
+            module=module,
+            ^   | (bad-continuation)
+C:278, 0: Wrong hanging indentation before block (add 4 spaces).
+            params=supported_41,
+            ^   | (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:119, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:126, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:127, 0: Import "from ansible.module_utils.ovirt import BaseModule, check_sdk, check_support, create_connection, get_id_by_name, equal, engine_supported, ovirt_full_argument_spec, search_by_name" should be placed at the top of the module (wrong-import-position)
+C:140, 0: Missing class docstring (missing-docstring)
+C:157,12: Variable name "vm" doesn't conform to snake_case naming style (invalid-name)
+C:159,12: Variable name "vm" doesn't conform to snake_case naming style (invalid-name)
+W:168, 4: Parameters differ from overridden 'post_create' method (arguments-differ)
+W:171, 4: Parameters differ from overridden 'post_update' method (arguments-differ)
+C:219, 4: Missing method docstring (missing-docstring)
+R:220, 8: Unnecessary "else" after "return" (no-else-return)
+C:250, 0: Missing function docstring (missing-docstring)
+R:250, 0: Too many local variables (20/15) (too-many-locals)
+W:321,11: Catching too general exception Exception (broad-except)
+C:321,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.06/10
+

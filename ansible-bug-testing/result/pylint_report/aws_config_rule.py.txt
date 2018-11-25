@@ -1,0 +1,25 @@
+************* Module ansible.modules.cloud.amazon.aws_config_rule
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:113, 0: Import "from ansible.module_utils.aws.core import AnsibleAWSModule, is_boto3_error_code" should be placed at the top of the module (wrong-import-position)
+C:114, 0: Import "from ansible.module_utils.ec2 import AWSRetry, camel_dict_to_snake_dict" should be placed at the top of the module (wrong-import-position)
+C:117, 0: Missing function docstring (missing-docstring)
+C:126,83: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:117, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:130, 0: Missing function docstring (missing-docstring)
+C:137,83: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:141, 0: Missing function docstring (missing-docstring)
+C:158,87: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:141, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:162, 0: Missing function docstring (missing-docstring)
+C:171,83: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:164, 8: Unused variable 'response' (unused-variable)
+C:175, 0: Missing function docstring (missing-docstring)
+W:203, 4: Unused variable 'resource_type' (unused-variable)
+R:175, 0: Too many branches (18/12) (too-many-branches)
+W:109, 4: Unused BotoCoreError imported from botocore.exceptions (unused-import)
+W:109, 4: Unused ClientError imported from botocore.exceptions (unused-import)
+
+------------------------------------------------------------------
+Your code has been rated at 7.87/10 (previous run: 7.87/10, +0.00)
+

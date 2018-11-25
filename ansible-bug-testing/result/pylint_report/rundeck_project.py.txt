@@ -1,0 +1,27 @@
+************* Module ansible.modules.web_infrastructure.rundeck_project
+C: 98, 0: Line too long (109/100) (line-too-long)
+C:105, 0: Line too long (118/100) (line-too-long)
+C:122, 0: Line too long (106/100) (line-too-long)
+C:135, 0: Line too long (106/100) (line-too-long)
+C:145, 0: Line too long (109/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 12, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 86, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 87, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 88, 0: Import "from ansible.module_utils.urls import fetch_url" should be placed at the top of the module (wrong-import-position)
+C: 89, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C: 92, 0: Missing class docstring (missing-docstring)
+C: 96, 4: Missing method docstring (missing-docstring)
+C:103, 4: Missing method docstring (missing-docstring)
+C:121,37: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:126, 4: Missing method docstring (missing-docstring)
+W:127,14: Unused variable 'info' (unused-variable)
+C:130, 4: Missing method docstring (missing-docstring)
+W:137,12: Unused variable 'resp' (unused-variable)
+C:150, 4: Missing method docstring (missing-docstring)
+C:161, 0: Missing function docstring (missing-docstring)
+C: 89, 0: standard import "import json" should be placed before "from ansible.module_utils.basic import AnsibleModule" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 6.39/10
+

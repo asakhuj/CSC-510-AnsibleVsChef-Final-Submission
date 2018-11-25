@@ -1,0 +1,20 @@
+************* Module ansible.modules.net_tools.exoscale.exo_dns_record
+C:258, 0: Line too long (118/100) (line-too-long)
+C:277, 0: Line too long (113/100) (line-too-long)
+C:278, 0: Line too long (127/100) (line-too-long)
+C:300, 0: Line too long (106/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:193, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:194, 0: Import "from ansible.module_utils.exoscale import ExoDns, exo_dns_argument_spec, exo_dns_required_together" should be placed at the top of the module (wrong-import-position)
+C:216, 0: Missing class docstring (missing-docstring)
+C:261, 4: Missing method docstring (missing-docstring)
+C:266,12: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:286, 4: Missing method docstring (missing-docstring)
+C:294, 4: Missing method docstring (missing-docstring)
+C:303, 4: Missing method docstring (missing-docstring)
+C:310, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.15/10
+

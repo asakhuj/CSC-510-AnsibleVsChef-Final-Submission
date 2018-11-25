@@ -1,0 +1,29 @@
+************* Module shebang
+C: 53, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 57, 0: Line too long (101/100) (line-too-long)
+C: 57, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 68, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 71, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 78, 0: Wrong hanging indentation before block (add 4 spaces).
+                    # non-standard module library directories
+                    ^   | (bad-continuation)
+C: 79, 0: Wrong hanging indentation before block (add 4 spaces).
+                    'test/integration/targets/module_precedence/lib_no_extension',
+                    ^   | (bad-continuation)
+C: 80, 0: Wrong hanging indentation before block (add 4 spaces).
+                    'test/integration/targets/module_precedence/lib_with_extension',
+                    ^   | (bad-continuation)
+C: 86, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 96, 0: Line too long (123/100) (line-too-long)
+C: 96, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 98, 0: Line too long (115/100) (line-too-long)
+C: 98, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:101, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Missing function docstring (missing-docstring)
+R:  8, 0: Too many local variables (17/15) (too-many-locals)
+R:  8, 0: Too many branches (18/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 6.47/10
+

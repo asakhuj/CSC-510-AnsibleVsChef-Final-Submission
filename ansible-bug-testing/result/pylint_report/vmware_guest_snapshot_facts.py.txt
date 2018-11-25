@@ -1,0 +1,16 @@
+************* Module ansible.modules.cloud.vmware.vmware_guest_snapshot_facts
+C:134, 0: Wrong continued indentation (remove 1 space).
+                           )
+                          |^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:100, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:101, 0: Import "from ansible.module_utils.vmware import PyVmomi, list_snapshots, vmware_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:104, 0: Missing class docstring (missing-docstring)
+W:105, 4: Useless super delegation in method '__init__' (useless-super-delegation)
+C:123, 0: Missing function docstring (missing-docstring)
+C:143, 4: Variable name "vm" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.90/10
+

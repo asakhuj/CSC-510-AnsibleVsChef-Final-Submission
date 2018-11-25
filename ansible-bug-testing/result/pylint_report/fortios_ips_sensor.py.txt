@@ -1,0 +1,20 @@
+************* Module ansible.modules.network.fortios.fortios_ips_sensor
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:490, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:492, 0: Constant name "fos" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:495, 0: Missing function docstring (missing-docstring)
+C:509, 0: Missing function docstring (missing-docstring)
+W:522,21: Redefining name 'fos' from outer scope (line 492) (redefined-outer-name)
+C:522, 0: Missing function docstring (missing-docstring)
+R:522, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+W:539,22: Redefining name 'fos' from outer scope (line 492) (redefined-outer-name)
+C:539, 0: Missing function docstring (missing-docstring)
+W:545,19: Use of eval (eval-used)
+C:552, 0: Missing function docstring (missing-docstring)
+W:671, 4: Using the global statement (global-statement)
+C:671, 4: Constant name "fos" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.32/10
+

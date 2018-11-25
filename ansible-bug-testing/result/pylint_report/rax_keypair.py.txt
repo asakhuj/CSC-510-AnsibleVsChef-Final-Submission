@@ -1,0 +1,26 @@
+************* Module ansible.modules.cloud.rackspace.rax_keypair
+C: 93, 0: Wrong continued indentation (remove 1 space).
+                                      )
+                                     |^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 80, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C: 88, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 89, 0: Import "from ansible.module_utils.rax import rax_argument_spec, rax_required_together, rax_to_dict, setup_rax_module" should be placed at the top of the module (wrong-import-position)
+C: 96, 0: Missing function docstring (missing-docstring)
+C: 99, 4: Variable name "cs" doesn't conform to snake_case naming style (invalid-name)
+W:114,19: Catching too general exception Exception (broad-except)
+C:111,16: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C:114,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:125,15: Catching too general exception Exception (broad-except)
+W:123,19: Catching too general exception Exception (broad-except)
+C:123,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:125,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:131, 8: No exception type(s) specified (bare-except)
+W:138,19: Catching too general exception Exception (broad-except)
+C:138,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:144, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 6.94/10
+

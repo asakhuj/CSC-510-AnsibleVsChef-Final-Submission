@@ -1,0 +1,86 @@
+************* Module ansible.modules.utilities.logic.wait_for
+C:271, 0: Wrong hanging indentation before block (add 4 spaces).
+                    (conn.family, local_ip) in self.ips,
+                    ^   | (bad-continuation)
+C:272, 0: Wrong hanging indentation before block (add 4 spaces).
+                    (conn.family, self.match_all_ips[conn.family]) in self.ips,
+                    ^   | (bad-continuation)
+C:273, 0: Wrong hanging indentation before block (add 4 spaces).
+                    local_ip.startswith(self.ipv4_mapped_ipv6_address['prefix']) and
+                    ^   | (bad-continuation)
+C:333, 0: Line too long (142/100) (line-too-long)
+C:342, 0: Wrong hanging indentation before block (add 4 spaces).
+                    (family, local_ip) in self.ips,
+                    ^   | (bad-continuation)
+C:343, 0: Wrong hanging indentation before block (add 4 spaces).
+                    (family, self.match_all_ips[family]) in self.ips,
+                    ^   | (bad-continuation)
+C:344, 0: Wrong hanging indentation before block (add 4 spaces).
+                    local_ip.startswith(self.ipv4_mapped_ipv6_address['prefix']) and
+                    ^   | (bad-continuation)
+C:446, 0: Line too long (143/100) (line-too-long)
+C:449, 0: Line too long (118/100) (line-too-long)
+C:472, 0: Line too long (101/100) (line-too-long)
+C:474, 0: Line too long (119/100) (line-too-long)
+C:476, 0: Line too long (119/100) (line-too-long)
+C:483, 0: Line too long (111/100) (line-too-long)
+C:515, 0: Line too long (126/100) (line-too-long)
+C:517, 0: Line too long (122/100) (line-too-long)
+C:530, 0: Line too long (122/100) (line-too-long)
+C:548, 0: Line too long (107/100) (line-too-long)
+C:560, 0: Line too long (111/100) (line-too-long)
+C:607, 0: Line too long (155/100) (line-too-long)
+C:609, 0: Line too long (121/100) (line-too-long)
+C:612, 0: Line too long (146/100) (line-too-long)
+C:614, 0: Line too long (117/100) (line-too-long)
+C:630, 0: Line too long (122/100) (line-too-long)
+C:633, 0: Line too long (107/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:181, 0: Import "import binascii" should be placed at the top of the module (wrong-import-position)
+C:182, 0: Import "import datetime" should be placed at the top of the module (wrong-import-position)
+C:183, 0: Import "import errno" should be placed at the top of the module (wrong-import-position)
+C:184, 0: Import "import math" should be placed at the top of the module (wrong-import-position)
+C:185, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:186, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:187, 0: Import "import select" should be placed at the top of the module (wrong-import-position)
+C:188, 0: Import "import socket" should be placed at the top of the module (wrong-import-position)
+C:189, 0: Import "import sys" should be placed at the top of the module (wrong-import-position)
+C:190, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C:192, 0: Import "from ansible.module_utils.basic import AnsibleModule, load_platform_subclass" should be placed at the top of the module (wrong-import-position)
+C:193, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:248, 4: Missing method docstring (missing-docstring)
+C:250,12: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+W:265,32: Unused variable 'remote_port' (unused-variable)
+W:308, 4: __init__ method from base class 'TCPConnectionInfo' is not called (super-init-not-called)
+C:324,22: Consider iterating the dictionary directly instead of calling .keys() (consider-iterating-dictionary)
+C:327,12: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+W:338,28: Unused variable 'remote_port' (unused-variable)
+R:283, 0: Too few public methods (1/2) (too-few-public-methods)
+C:365, 8: Variable name "ip" doesn't conform to snake_case naming style (invalid-name)
+W:364,26: Unused variable 'proto' (unused-variable)
+W:364,33: Unused variable 'canonname' (unused-variable)
+W:364,16: Unused variable 'socktype' (unused-variable)
+C:388,20: Variable name "ip" doesn't conform to snake_case naming style (invalid-name)
+E:389,40: Module 'socket' has no 'inet_pton' member; maybe 'inet_aton'? (no-member)
+C:425, 0: Missing function docstring (missing-docstring)
+C:437, 0: Missing function docstring (missing-docstring)
+R:437, 0: Too many local variables (26/15) (too-many-locals)
+W:482, 8: No exception type(s) specified (bare-except)
+W:508,16: No exception type(s) specified (bare-except)
+C:505,20: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+C:526,34: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:538,24: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+W:551,16: No exception type(s) specified (bare-except)
+C:550,20: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+C:561,39: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:561,42: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:578,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:591,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:561,39: Unused variable 'w' (unused-variable)
+R:437, 0: Too many branches (59/12) (too-many-branches)
+R:437, 0: Too many statements (138/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 7.39/10
+

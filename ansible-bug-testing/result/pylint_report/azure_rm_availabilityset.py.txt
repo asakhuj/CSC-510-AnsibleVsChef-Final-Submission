@@ -1,0 +1,18 @@
+************* Module ansible.modules.cloud.azure.azure_rm_availabilityset
+C:240, 0: Line too long (134/100) (line-too-long)
+C:259, 0: Line too long (117/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:105, 0: Import "from ansible.module_utils.azure_rm_common import AzureRMModuleBase" should be placed at the top of the module (wrong-import-position)
+R:130, 0: Too many instance attributes (11/7) (too-many-instance-attributes)
+C:242, 4: Method name "create_or_update_availabilityset" doesn't conform to snake_case naming style (invalid-name)
+C:260,29: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:274,29: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:273,12: Unused variable 'response' (unused-variable)
+C:290,29: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:292, 8: Unnecessary "else" after "return" (no-else-return)
+W:290,29: Unused variable 'e' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 8.63/10
+

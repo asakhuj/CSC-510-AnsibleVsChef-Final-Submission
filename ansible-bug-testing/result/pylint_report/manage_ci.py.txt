@@ -1,0 +1,20 @@
+************* Module lib.manage_ci
+C: 80, 0: Line too long (103/100) (line-too-long)
+C: 87, 0: Line too long (114/100) (line-too-long)
+C: 94, 0: Line too long (114/100) (line-too-long)
+C:114, 0: Line too long (102/100) (line-too-long)
+C:172, 0: Line too long (103/100) (line-too-long)
+C:201, 0: Line too long (105/100) (line-too-long)
+C:228, 0: Line too long (103/100) (line-too-long)
+C:237, 0: Line too long (101/100) (line-too-long)
+C:239, 0: Line too long (104/100) (line-too-long)
+C:245, 0: Line too long (111/100) (line-too-long)
+C:252, 0: Line too long (114/100) (line-too-long)
+C:259, 0: Line too long (114/100) (line-too-long)
+C:276, 0: Line too long (102/100) (line-too-long)
+R:134, 0: Too few public methods (1/2) (too-few-public-methods)
+W: 19, 0: Unused AnsibleCoreCI imported from lib.core_ci (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.82/10
+

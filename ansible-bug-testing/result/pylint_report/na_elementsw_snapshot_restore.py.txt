@@ -1,0 +1,18 @@
+************* Module ansible.modules.storage.netapp.na_elementsw_snapshot_restore
+C:125, 0: Line too long (110/100) (line-too-long)
+C:136, 0: Line too long (120/100) (line-too-long)
+C:179, 0: Line too long (103/100) (line-too-long)
+C: 12, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 80, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C: 82, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 83, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 84, 0: Import "import ansible.module_utils.netapp as netapp_utils" should be placed at the top of the module (wrong-import-position)
+C: 85, 0: Import "from ansible.module_utils.netapp_elementsw_module import NaElementSWModule" should be placed at the top of the module (wrong-import-position)
+R: 90, 0: Too many instance attributes (9/7) (too-many-instance-attributes)
+W:135,15: Catching too general exception Exception (broad-except)
+W:159,15: Catching too general exception Exception (broad-except)
+W:170, 8: Unused variable 'snapshot_detail' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 8.00/10
+

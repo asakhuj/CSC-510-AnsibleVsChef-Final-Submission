@@ -1,0 +1,21 @@
+************* Module ansible.modules.remote_management.manageiq.manageiq_alert_profiles
+C:198, 0: Line too long (109/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 80, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 81, 0: Import "from ansible.module_utils.manageiq import ManageIQ, manageiq_argument_spec" should be placed at the top of the module (wrong-import-position)
+W:101,15: Catching too general exception Exception (broad-except)
+C:101,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:134,15: Catching too general exception Exception (broad-except)
+C:134,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:149,15: Catching too general exception Exception (broad-except)
+C:149,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:177,15: Catching too general exception Exception (broad-except)
+C:177,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:235,19: Catching too general exception Exception (broad-except)
+C:235,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:247, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.64/10
+

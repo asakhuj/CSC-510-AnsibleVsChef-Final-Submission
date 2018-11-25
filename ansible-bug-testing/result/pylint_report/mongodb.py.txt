@@ -1,0 +1,51 @@
+************* Module ansible.plugins.cache.mongodb
+C: 57, 0: Line too long (120/100) (line-too-long)
+C: 85, 0: Line too long (105/100) (line-too-long)
+C: 94, 0: Line too long (124/100) (line-too-long)
+C: 95, 0: Line too long (124/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  4, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 46, 0: Import "import datetime" should be placed at the top of the module (wrong-import-position)
+C: 48, 0: Import "from contextlib import contextmanager" should be placed at the top of the module (wrong-import-position)
+C: 50, 0: Import "from ansible import constants as C" should be placed at the top of the module (wrong-import-position)
+C: 51, 0: Import "from ansible.errors import AnsibleError" should be placed at the top of the module (wrong-import-position)
+C: 52, 0: Import "from ansible.plugins.cache import BaseCacheModule" should be placed at the top of the module (wrong-import-position)
+E: 65,28: Module 'ansible.constants' has no 'CACHE_PLUGIN_TIMEOUT' member (no-member)
+E: 66,23: Module 'ansible.constants' has no 'CACHE_PLUGIN_PREFIX' member (no-member)
+W: 64, 0: Unused argument 'args' (unused-argument)
+W: 64, 0: Unused argument 'kwargs' (unused-argument)
+R: 70, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+E: 97,36: Module 'ansible.constants' has no 'CACHE_PLUGIN_CONNECTION' member (no-member)
+C: 99,12: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+C:103,12: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 5.69/10
+
+************* Module ansible.plugins.lookup.mongodb
+C:124, 0: Line too long (108/100) (line-too-long)
+C:138, 0: Line too long (112/100) (line-too-long)
+C:204, 0: Line too long (108/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 96, 0: Import "import datetime" should be placed at the top of the module (wrong-import-position)
+C:106, 8: Constant name "pymongo_found" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:108, 8: Constant name "pymongo_found" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:110, 4: Constant name "pymongo_found" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:113, 0: Import "from ansible.errors import AnsibleError" should be placed at the top of the module (wrong-import-position)
+C:114, 0: Import "from ansible.plugins.lookup import LookupBase" should be placed at the top of the module (wrong-import-position)
+C:117, 0: Missing class docstring (missing-docstring)
+R:131, 4: Method could be a function (no-self-use)
+C:140, 4: Method name "convert_mongo_result_to_valid_json" doesn't conform to snake_case naming style (invalid-name)
+C:140, 4: Missing method docstring (missing-docstring)
+R:145, 8: Unnecessary "else" after "return" (no-else-return)
+R:140, 4: Too many return statements (7/6) (too-many-return-statements)
+W:165, 4: Signature differs from overridden 'run' method (signature-differs)
+W:208,-1: String statement has no effect (pointless-string-statement)
+C:235,40: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C: 96, 0: standard import "import datetime" should be placed before "from ansible.module_utils.six import string_types, integer_types" (wrong-import-order)
+C:113, 0: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 7.28/10
+

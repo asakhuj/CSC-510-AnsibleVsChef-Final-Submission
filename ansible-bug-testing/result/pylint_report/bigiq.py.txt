@@ -1,0 +1,43 @@
+************* Module ansible.module_utils.network.f5.bigiq
+C: 78, 0: Line too long (109/100) (line-too-long)
+C: 87, 0: Line too long (112/100) (line-too-long)
+C: 90, 0: Line too long (109/100) (line-too-long)
+C:102, 0: Line too long (108/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 25, 0: Missing class docstring (missing-docstring)
+C: 43, 4: Missing method docstring (missing-docstring)
+C: 76, 4: Missing method docstring (missing-docstring)
+C:106, 4: Missing method docstring (missing-docstring)
+C:110,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+R:106, 4: Method could be a function (no-self-use)
+C:115, 4: Missing method docstring (missing-docstring)
+C:116,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+R:115, 4: Method could be a function (no-self-use)
+C:121, 4: Missing method docstring (missing-docstring)
+W: 16, 4: Unused is_ansible_debug imported from library.module_utils.network.f5.common (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.85/10
+
+************* Module ansible.plugins.action.bigiq
+C: 53, 0: Line too long (105/100) (line-too-long)
+C: 72, 0: Line too long (103/100) (line-too-long)
+C: 80, 0: Line too long (126/100) (line-too-long)
+C: 84, 0: Line too long (127/100) (line-too-long)
+C: 92, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+W: 34, 0: No exception type(s) specified (bare-except)
+C: 44, 0: Missing class docstring (missing-docstring)
+C: 61,16: Variable name "pc" doesn't conform to snake_case naming style (invalid-name)
+E: 61,21: Module 'copy' has no 'deepcopy' member (no-member)
+E: 69,61: Module 'ansible.constants' has no 'PERSISTENT_COMMAND_TIMEOUT' member (no-member)
+R: 44, 0: Too few public methods (1/2) (too-few-public-methods)
+W: 22, 0: Unused import os (unused-import)
+C: 35, 4: Imports from package ansible are not grouped (ungrouped-imports)
+C: 40, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 6.00/10
+

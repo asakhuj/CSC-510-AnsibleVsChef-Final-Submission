@@ -1,0 +1,26 @@
+************* Module ansible.modules.cloud.google.gcp_backend_service
+W:390, 0: TODO(supertom): Add update support when it is available in libcloud. (fixme)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:181, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:182, 0: Import "from ansible.module_utils.gce import gce_connect" should be placed at the top of the module (wrong-import-position)
+C:183, 0: Import "from ansible.module_utils.gcp import check_params" should be placed at the top of the module (wrong-import-position)
+C:265, 0: Missing function docstring (missing-docstring)
+C:269, 0: Missing function docstring (missing-docstring)
+C:292, 4: Variable name "hc" doesn't conform to snake_case naming style (invalid-name)
+C:295, 8: Variable name "ig" doesn't conform to snake_case naming style (invalid-name)
+C:326, 0: Missing function docstring (missing-docstring)
+W:368,11: Catching too general exception Exception (broad-except)
+C:368,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:164, 4: Unused literal_eval imported from ast (unused-import)
+W:170, 4: Unused import libcloud (unused-import)
+W:172, 4: Unused get_driver imported from libcloud.compute.providers (unused-import)
+W:173, 4: Unused GoogleBaseError imported from libcloud.common.google (unused-import)
+W:173, 4: Unused ResourceInUseError imported from libcloud.common.google (unused-import)
+W:173, 4: Unused QuotaExceededError imported from libcloud.common.google (unused-import)
+W:173, 4: Unused ResourceExistsError imported from libcloud.common.google (unused-import)
+W:175, 4: Unused GCEAddress imported from libcloud.compute.drivers.gce (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.17/10
+

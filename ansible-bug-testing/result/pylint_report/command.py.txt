@@ -1,0 +1,37 @@
+************* Module ansible.modules.commands.command
+C:168, 0: Line too long (107/100) (line-too-long)
+C:179, 0: Line too long (118/100) (line-too-long)
+C:214, 0: Line too long (147/100) (line-too-long)
+C:230, 0: Line too long (101/100) (line-too-long)
+C:266, 0: Line too long (158/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:136, 0: Import "import datetime" should be placed at the top of the module (wrong-import-position)
+C:137, 0: Import "import glob" should be placed at the top of the module (wrong-import-position)
+C:138, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:139, 0: Import "import shlex" should be placed at the top of the module (wrong-import-position)
+C:141, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:142, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:143, 0: Import "from ansible.module_utils.common.collections import is_iterable" should be placed at the top of the module (wrong-import-position)
+C:146, 0: Missing function docstring (missing-docstring)
+C:182, 0: Missing function docstring (missing-docstring)
+R:182, 0: Too many local variables (19/15) (too-many-locals)
+C:266, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:268, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+R:182, 0: Too many branches (15/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 7.62/10
+
+************* Module ansible.plugins.action.command
+C: 24, 0: Line too long (103/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 12, 0: Missing class docstring (missing-docstring)
+E: 21,38: Module 'ansible.constants' has no 'COMMAND_WARNINGS' member (no-member)
+W: 28,34: Access to a protected member _shell of a client class (protected-access)
+R: 12, 0: Too few public methods (1/2) (too-few-public-methods)
+
+-----------------------------------
+Your code has been rated at 3.53/10
+

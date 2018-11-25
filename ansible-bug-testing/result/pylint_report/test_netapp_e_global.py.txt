@@ -1,0 +1,14 @@
+************* Module units.modules.storage.netapp.test_netapp_e_global
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  5, 0: Unable to import 'ansible.modules.storage.netapp.netapp_e_global' (import-error)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 12, 0: Missing class docstring (missing-docstring)
+W: 59,72: Unused variable 'req' (unused-variable)
+W: 72,16: Unused variable 'name' (unused-variable)
+W: 71,71: Unused variable 'req' (unused-variable)
+W: 76,16: Unused variable 'update' (unused-variable)
+W:  6, 0: Unused AnsibleExitJson imported from units.modules.utils (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.23/10
+

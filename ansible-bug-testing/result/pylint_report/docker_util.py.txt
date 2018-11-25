@@ -1,0 +1,11 @@
+************* Module lib.docker_util
+C: 56, 0: Line too long (112/100) (line-too-long)
+C: 95, 0: Line too long (115/100) (line-too-long)
+C:146, 0: Line too long (114/100) (line-too-long)
+C:221, 0: Line too long (119/100) (line-too-long)
+R:207, 0: Too many arguments (7/5) (too-many-arguments)
+W: 21, 0: Unused EnvironmentConfig imported from lib.config (unused-import)
+
+-----------------------------------
+Your code has been rated at 9.39/10
+

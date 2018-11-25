@@ -1,0 +1,13 @@
+************* Module ansible.modules.cloud.ovirt.ovirt_permission_facts
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 77, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C: 84, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 85, 0: Import "from ansible.module_utils.ovirt import check_sdk, create_connection, get_link_name, ovirt_facts_full_argument_spec, search_by_name" should be placed at the top of the module (wrong-import-position)
+C:117, 0: Missing function docstring (missing-docstring)
+W:145,11: Catching too general exception Exception (broad-except)
+C:133,12: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:145,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.14/10
+

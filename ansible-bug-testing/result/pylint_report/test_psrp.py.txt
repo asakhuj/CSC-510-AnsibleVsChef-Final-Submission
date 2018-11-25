@@ -1,0 +1,17 @@
+************* Module units.plugins.connection.test_psrp
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 13, 0: Unable to import 'ansible.playbook.play_context' (import-error)
+E: 14, 0: Unable to import 'ansible.plugins.loader' (import-error)
+C: 19, 0: Missing class docstring (missing-docstring)
+C:135, 4: Missing method docstring (missing-docstring)
+C:136, 8: Variable name "pc" doesn't conform to snake_case naming style (invalid-name)
+W:141, 8: Access to a protected member _build_kwargs of a client class (protected-access)
+R:143,18: Redefining argument with the local name 'expected' (redefined-argument-from-local)
+R:135, 4: Method could be a function (no-self-use)
+R: 19, 0: Too few public methods (1/2) (too-few-public-methods)
+C: 11, 0: standard import "from io import StringIO" should be placed before "import pytest" (wrong-import-order)
+
+------------------------------------
+Your code has been rated at -1.11/10
+

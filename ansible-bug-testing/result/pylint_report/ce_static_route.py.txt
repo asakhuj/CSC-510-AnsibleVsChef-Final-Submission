@@ -1,0 +1,24 @@
+************* Module ansible.modules.network.cloudengine.ce_static_route
+C:168, 0: Line too long (102/100) (line-too-long)
+C:497, 0: Line too long (102/100) (line-too-long)
+C:518, 0: Line too long (107/100) (line-too-long)
+C:530, 0: Line too long (104/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:166, 0: Import "from xml.etree import ElementTree" should be placed at the top of the module (wrong-import-position)
+C:167, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:168, 0: Import "from ansible.module_utils.network.cloudengine.ce import get_nc_config, set_nc_config, ce_argument_spec" should be placed at the top of the module (wrong-import-position)
+R:312, 4: Unnecessary "else" after "return" (no-else-return)
+R:327, 0: Too many instance attributes (20/7) (too-many-instance-attributes)
+R:460, 8: Unnecessary "else" after "return" (no-else-return)
+R:403, 4: Too many return statements (12/6) (too-many-return-statements)
+R:403, 4: Too many branches (24/12) (too-many-branches)
+R:470, 4: Too many branches (26/12) (too-many-branches)
+R:530, 4: Too many arguments (9/5) (too-many-arguments)
+R:530, 4: Too many local variables (17/15) (too-many-locals)
+R:607, 4: Too many branches (17/12) (too-many-branches)
+R:668, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:691, 4: Too many branches (27/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 9.51/10
+

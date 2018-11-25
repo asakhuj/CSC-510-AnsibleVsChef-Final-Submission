@@ -1,0 +1,21 @@
+************* Module ansible.modules.cloud.lxd.lxd_profile
+C:242, 0: Line too long (122/100) (line-too-long)
+C:255, 0: Line too long (113/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:172, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:174, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:175, 0: Import "from ansible.module_utils.lxd import LXDClient, LXDClientException" should be placed at the top of the module (wrong-import-position)
+C:189, 0: Missing class docstring (missing-docstring)
+R:189, 0: Too many instance attributes (14/7) (too-many-instance-attributes)
+W:205,21: Access to a protected member _verbosity of a client class (protected-access)
+C:211,37: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:285,15: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:314,37: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:189, 0: Too few public methods (1/2) (too-few-public-methods)
+W:301,12: Attribute 'old_profile_json' defined outside __init__ (attribute-defined-outside-init)
+W:302,12: Attribute 'old_state' defined outside __init__ (attribute-defined-outside-init)
+
+-----------------------------------
+Your code has been rated at 8.48/10
+

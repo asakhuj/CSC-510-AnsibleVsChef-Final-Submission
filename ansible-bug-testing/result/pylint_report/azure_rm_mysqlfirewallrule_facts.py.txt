@@ -1,0 +1,25 @@
+************* Module ansible.modules.cloud.azure.azure_rm_mysqlfirewallrule_facts
+C:133, 0: Line too long (103/100) (line-too-long)
+C:139, 0: Line too long (112/100) (line-too-long)
+C:141, 0: Unnecessary parens after 'if' keyword (superfluous-parens)
+C:167, 0: Line too long (110/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 97, 0: Import "from ansible.module_utils.azure_rm_common import AzureRMModuleBase" should be placed at the top of the module (wrong-import-position)
+C:109, 0: Missing class docstring (missing-docstring)
+C:147, 4: Missing method docstring (missing-docstring)
+C:155,29: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:155,29: Unused variable 'e' (unused-variable)
+C:163, 4: Missing method docstring (missing-docstring)
+C:170,29: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:170,29: Unused variable 'e' (unused-variable)
+C:179, 4: Missing method docstring (missing-docstring)
+C:180, 8: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:181, 8: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:192, 0: Missing function docstring (missing-docstring)
+W:101, 4: Unused AzureOperationPoller imported from msrestazure.azure_operation (unused-import)
+W:103, 4: Unused Model imported from msrest.serialization (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.77/10
+

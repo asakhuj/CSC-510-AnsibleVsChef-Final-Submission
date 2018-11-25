@@ -1,0 +1,15 @@
+************* Module ansible.modules.cloud.openstack.os_server_facts
+W: 95, 0: TODO(mordred) This is handled by sdk now (fixme)
+C: 72, 0: Line too long (125/100) (line-too-long)
+C: 97, 0: Line too long (119/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 69, 0: Import "import fnmatch" should be placed at the top of the module (wrong-import-position)
+C: 71, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 72, 0: Import "from ansible.module_utils.openstack import openstack_full_argument_spec, openstack_module_kwargs, openstack_cloud_from_module" should be placed at the top of the module (wrong-import-position)
+C: 75, 0: Missing function docstring (missing-docstring)
+C:101,53: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 5.65/10
+

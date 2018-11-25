@@ -1,0 +1,21 @@
+************* Module ansible.modules.cloud.vmware.vmware_vmotion
+C:161, 0: Line too long (109/100) (line-too-long)
+C:184, 0: Line too long (132/100) (line-too-long)
+C:186, 0: Line too long (119/100) (line-too-long)
+C:221, 0: Line too long (122/100) (line-too-long)
+C:262, 0: Line too long (107/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 12, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:109, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:110, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:111, 0: Import "from ansible.module_utils.vmware import PyVmomi, find_hostsystem_by_name, find_vm_by_id, find_datastore_by_name, vmware_argument_spec, wait_for_task, TaskError" should be placed at the top of the module (wrong-import-position)
+C:119, 8: Attribute name "vm" doesn't conform to snake_case naming style (invalid-name)
+C:116, 0: Missing class docstring (missing-docstring)
+R:117, 4: Too many branches (26/12) (too-many-branches)
+R:117, 4: Too many statements (74/50) (too-many-statements)
+C:277, 0: Missing function docstring (missing-docstring)
+W:300, 4: Unused variable 'vmotion_manager' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 8.58/10
+

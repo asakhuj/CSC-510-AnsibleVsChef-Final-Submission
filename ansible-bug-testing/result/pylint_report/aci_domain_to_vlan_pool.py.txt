@@ -1,0 +1,16 @@
+************* Module ansible.modules.network.aci.aci_domain_to_vlan_pool
+C:259, 0: Line too long (116/100) (line-too-long)
+C:260, 0: Line too long (142/100) (line-too-long)
+C:261, 0: Line too long (107/100) (line-too-long)
+C:262, 0: Line too long (129/100) (line-too-long)
+C:264, 0: Line too long (136/100) (line-too-long)
+C:288, 0: Line too long (112/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:242, 0: Import "from ansible.module_utils.network.aci.aci import ACIModule, aci_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:243, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:256, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.14/10
+

@@ -1,0 +1,25 @@
+************* Module ansible.modules.cloud.amazon.aws_config_aggregator
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 87, 0: Import "from ansible.module_utils.aws.core import AnsibleAWSModule, is_boto3_error_code" should be placed at the top of the module (wrong-import-position)
+C: 88, 0: Import "from ansible.module_utils.ec2 import AWSRetry, camel_dict_to_snake_dict" should be placed at the top of the module (wrong-import-position)
+C: 91, 0: Missing function docstring (missing-docstring)
+C: 99,83: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R: 91, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:103, 0: Missing function docstring (missing-docstring)
+C:113,83: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:117, 0: Missing function docstring (missing-docstring)
+C:136,87: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:117, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+W:117,36: Unused argument 'resource_type' (unused-argument)
+C:140, 0: Missing function docstring (missing-docstring)
+C:147,83: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:140,36: Unused argument 'resource_type' (unused-argument)
+C:151, 0: Missing function docstring (missing-docstring)
+E:206,12: No value for argument 'result' in function call (no-value-for-parameter)
+E:210,12: No value for argument 'result' in function call (no-value-for-parameter)
+R:151, 0: Too many branches (15/12) (too-many-branches)
+
+------------------------------------------------------------------
+Your code has been rated at 6.78/10 (previous run: 6.78/10, +0.00)
+

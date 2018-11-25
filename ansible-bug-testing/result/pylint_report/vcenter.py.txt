@@ -1,0 +1,9 @@
+************* Module lib.cloud.vcenter
+C: 35, 0: Line too long (106/100) (line-too-long)
+C: 79, 0: Line too long (101/100) (line-too-long)
+C:130, 0: Line too long (101/100) (line-too-long)
+C:146, 0: Line too long (103/100) (line-too-long)
+
+-----------------------------------
+Your code has been rated at 9.42/10
+

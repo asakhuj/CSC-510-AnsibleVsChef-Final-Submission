@@ -1,0 +1,28 @@
+************* Module ansible.modules.packaging.language.bower
+C:118, 0: Line too long (109/100) (line-too-long)
+C:160, 0: Wrong continued indentation (remove 2 spaces).
+                        'update' in dep_data and
+                      | ^ (bad-continuation)
+C:161, 0: Wrong continued indentation (remove 2 spaces).
+                        dep_data['pkgMeta']['version'] != dep_data['update']['latest']):
+                      | ^ (bad-continuation)
+C:208, 0: Line too long (141/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 90, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C: 91, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C: 93, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 96, 0: Missing class docstring (missing-docstring)
+R: 96, 0: Too many instance attributes (8/7) (too-many-instance-attributes)
+C:143,12: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W:143,21: Unused variable 'err' (unused-variable)
+W:143,12: Unused variable 'rc' (unused-variable)
+C:147, 4: Missing method docstring (missing-docstring)
+C:173, 4: Missing method docstring (missing-docstring)
+C:176, 4: Missing method docstring (missing-docstring)
+C:179, 4: Missing method docstring (missing-docstring)
+C:183, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.12/10
+

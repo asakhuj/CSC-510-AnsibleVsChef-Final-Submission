@@ -1,0 +1,12 @@
+************* Module ansible.modules.cloud.ovirt.ovirt_storage_domain_facts
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 67, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C: 69, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 70, 0: Import "from ansible.module_utils.ovirt import check_sdk, create_connection, get_dict_of_struct, ovirt_facts_full_argument_spec" should be placed at the top of the module (wrong-import-position)
+C: 78, 0: Missing function docstring (missing-docstring)
+W:104,11: Catching too general exception Exception (broad-except)
+C:104,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.96/10
+

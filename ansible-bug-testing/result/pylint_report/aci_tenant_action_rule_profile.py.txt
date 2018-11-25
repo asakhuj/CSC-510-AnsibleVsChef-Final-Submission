@@ -1,0 +1,13 @@
+************* Module ansible.modules.network.aci.aci_tenant_action_rule_profile
+W: 49, 0: FIXME: Add more, better examples (fixme)
+C:173, 0: Line too long (132/100) (line-too-long)
+C:174, 0: Line too long (114/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:166, 0: Import "from ansible.module_utils.network.aci.aci import ACIModule, aci_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:167, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:170, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.14/10
+

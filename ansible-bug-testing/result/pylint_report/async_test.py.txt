@@ -1,0 +1,24 @@
+************* Module async_test
+C: 28, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 40, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  4, 0: Unable to import 'ansible.module_utils.basic' (import-error)
+C:  7, 0: Missing function docstring (missing-docstring)
+E:  9, 8: Unable to import 'ansible.module_utils.basic' (import-error)
+W: 10, 8: Access to a protected member _ANSIBLE_ARGS of a client class (protected-access)
+
+-----------------------------------
+Your code has been rated at 2.86/10
+
+************* Module async_test
+C: 29, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 47, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  5, 0: Unable to import 'ansible.module_utils.basic' (import-error)
+C:  8, 0: Missing function docstring (missing-docstring)
+E: 10, 8: Unable to import 'ansible.module_utils.basic' (import-error)
+W: 11, 8: Access to a protected member _ANSIBLE_ARGS of a client class (protected-access)
+
+------------------------------------------------------------------
+Your code has been rated at 4.00/10 (previous run: 2.86/10, +1.14)
+

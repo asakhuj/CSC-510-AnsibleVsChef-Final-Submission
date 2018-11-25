@@ -1,0 +1,14 @@
+************* Module units.template.test_tests_as_filters_warning
+C: 19, 0: Line too long (126/100) (line-too-long)
+C: 26, 0: Line too long (120/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  1, 0: Unable to import 'ansible.template' (import-error)
+C:  7, 0: Missing function docstring (missing-docstring)
+W: 12,14: Access to a protected member _get_filters of a client class (protected-access)
+W:  3, 0: Unused FILTERS imported from jinja2.filters (unused-import)
+C:  3, 0: third party import "from jinja2.filters import FILTERS" should be placed before "from ansible.template import Templar, display" (wrong-import-order)
+C:  4, 0: standard import "from os.path import isabs" should be placed before "from jinja2.filters import FILTERS" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 2.78/10
+

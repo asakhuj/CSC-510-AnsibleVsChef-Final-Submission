@@ -1,0 +1,46 @@
+************* Module ansible.modules.network.dellos6.dellos6_config
+C:176, 0: Line too long (110/100) (line-too-long)
+W:289, 0: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
+W:291, 0: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
+W:292, 0: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
+W:294, 0: Bad indentation. Found 20 spaces, expected 12 (bad-indentation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:175, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:176, 0: Import "from ansible.module_utils.network.dellos6.dellos6 import get_config, get_sublevel_config, Dellos6NetworkConfig" should be placed at the top of the module (wrong-import-position)
+C:177, 0: Import "from ansible.module_utils.network.dellos6.dellos6 import dellos6_argument_spec, check_args" should be placed at the top of the module (wrong-import-position)
+C:178, 0: Import "from ansible.module_utils.network.dellos6.dellos6 import load_config, run_commands" should be placed at the top of the module (wrong-import-position)
+C:179, 0: Import "from ansible.module_utils.network.dellos6.dellos6 import WARNING_PROMPTS_RE" should be placed at the top of the module (wrong-import-position)
+C:180, 0: Import "from ansible.module_utils.network.common.config import dumps" should be placed at the top of the module (wrong-import-position)
+C:183, 0: Missing function docstring (missing-docstring)
+C:199, 0: Missing function docstring (missing-docstring)
+C:206, 0: Missing function docstring (missing-docstring)
+R:206, 0: Too many branches (15/12) (too-many-branches)
+W:179, 0: Unused WARNING_PROMPTS_RE imported from ansible.module_utils.network.dellos6.dellos6 (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.72/10
+
+************* Module ansible.plugins.action.dellos6_config
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 19, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 28, 0: No name 'urllib' in module '_MovedItems' (no-name-in-module)
+E: 28, 0: Unable to import 'ansible.module_utils.six.moves.urllib.parse' (import-error)
+C: 34, 0: Missing class docstring (missing-docstring)
+W: 65,11: Access to a protected member _role of a client class (protected-access)
+W: 66,18: Access to a protected member _role_path of a client class (protected-access)
+W: 66,18: Access to a protected member _role of a client class (protected-access)
+C: 73,12: Variable name "fn" doesn't conform to snake_case naming style (invalid-name)
+C: 95,38: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+W:103,11: Access to a protected member _role of a client class (protected-access)
+W:104,30: Access to a protected member _role_path of a client class (protected-access)
+W:104,30: Access to a protected member _role of a client class (protected-access)
+W:106,28: Access to a protected member _block of a client class (protected-access)
+W:109,42: Access to a protected member _role_path of a client class (protected-access)
+R: 80, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R: 34, 0: Too few public methods (1/2) (too-few-public-methods)
+W: 29, 0: Unused merge_hash imported from ansible.utils.vars (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.18/10
+

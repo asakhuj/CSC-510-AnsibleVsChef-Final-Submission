@@ -1,0 +1,23 @@
+************* Module lib.cover
+C: 42, 0: Line too long (101/100) (line-too-long)
+C: 44, 0: Line too long (107/100) (line-too-long)
+C: 87, 0: Line too long (106/100) (line-too-long)
+C: 91, 0: Line too long (118/100) (line-too-long)
+C: 96, 0: Line too long (116/100) (line-too-long)
+C: 97, 0: Line too long (101/100) (line-too-long)
+C:101, 0: Line too long (112/100) (line-too-long)
+C:102, 0: Line too long (102/100) (line-too-long)
+C:110, 0: Line too long (110/100) (line-too-long)
+C:112, 0: Line too long (104/100) (line-too-long)
+C:113, 0: Line too long (143/100) (line-too-long)
+C:121, 0: Line too long (101/100) (line-too-long)
+C:169, 0: Line too long (107/100) (line-too-long)
+R: 35, 0: Too many local variables (22/15) (too-many-locals)
+R: 35, 0: Too many branches (23/12) (too-many-branches)
+R: 35, 0: Too many statements (80/50) (too-many-statements)
+W: 20, 0: Unused CoverageReportConfig imported from lib.config (unused-import)
+W: 20, 0: Unused CoverageConfig imported from lib.config (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.82/10
+

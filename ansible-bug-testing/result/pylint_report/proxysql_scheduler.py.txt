@@ -1,0 +1,27 @@
+************* Module ansible.modules.database.proxysql.proxysql_scheduler
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:127, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:128, 0: Import "from ansible.module_utils.mysql import mysql_connect, mysql_driver, mysql_driver_fail_msg" should be placed at the top of the module (wrong-import-position)
+C:129, 0: Import "from ansible.module_utils.six import iteritems" should be placed at the top of the module (wrong-import-position)
+C:130, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:137, 0: Missing function docstring (missing-docstring)
+C:154, 0: Missing function docstring (missing-docstring)
+C:159, 0: Missing function docstring (missing-docstring)
+C:164, 0: Missing class docstring (missing-docstring)
+R:164, 0: Too many instance attributes (8/7) (too-many-instance-attributes)
+C:185, 4: Missing method docstring (missing-docstring)
+C:207, 4: Missing method docstring (missing-docstring)
+C:229, 4: Missing method docstring (missing-docstring)
+C:257, 4: Missing method docstring (missing-docstring)
+C:278, 4: Missing method docstring (missing-docstring)
+C:285, 4: Missing method docstring (missing-docstring)
+C:300, 4: Missing method docstring (missing-docstring)
+C:320, 0: Missing function docstring (missing-docstring)
+C:360,33: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:383,37: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:406,37: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.38/10
+

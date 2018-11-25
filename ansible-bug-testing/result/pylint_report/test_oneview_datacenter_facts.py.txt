@@ -1,0 +1,19 @@
+************* Module test_oneview_datacenter_facts
+C: 50, 0: Line too long (104/100) (line-too-long)
+C: 62, 0: Line too long (103/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  7, 0: Unable to import 'ansible.modules.remote_management.oneview.oneview_datacenter_facts' (import-error)
+C: 17, 0: Missing class docstring (missing-docstring)
+W: 20, 4: Parameters differ from overridden 'setUp' method (arguments-differ)
+C: 25, 4: Missing method docstring (missing-docstring)
+C: 37, 4: Method name "test_should_get_datacenter_by_name" doesn't conform to snake_case naming style (invalid-name)
+C: 37, 4: Missing method docstring (missing-docstring)
+C: 49, 4: Method name "test_should_get_datacenter_visual_content" doesn't conform to snake_case naming style (invalid-name)
+C: 49, 4: Missing method docstring (missing-docstring)
+C: 65, 4: Method name "test_should_get_none_datacenter_visual_content" doesn't conform to snake_case naming style (invalid-name)
+C: 65, 4: Missing method docstring (missing-docstring)
+W:  6, 0: Unused OneViewModuleBase imported from oneview_module_loader (unused-import)
+
+-----------------------------------
+Your code has been rated at 4.19/10
+

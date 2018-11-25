@@ -1,0 +1,25 @@
+************* Module ansible.modules.cloud.vmware.vmware_vmkernel_facts
+C:107, 0: Line too long (101/100) (line-too-long)
+C:117, 0: Line too long (114/100) (line-too-long)
+C:138, 0: Line too long (110/100) (line-too-long)
+C:141, 0: Line too long (114/100) (line-too-long)
+C:149, 0: Line too long (109/100) (line-too-long)
+C:173, 0: Line too long (104/100) (line-too-long)
+C:174, 0: Line too long (107/100) (line-too-long)
+C:176, 0: Wrong continued indentation (add 21 spaces).
+                    )
+                    ^                    | (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 97, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 98, 0: Import "from ansible.module_utils.vmware import vmware_argument_spec, PyVmomi" should be placed at the top of the module (wrong-import-position)
+C: 99, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:102, 0: Missing class docstring (missing-docstring)
+W:142,15: Catching too general exception Exception (broad-except)
+C:142,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:152, 4: Missing method docstring (missing-docstring)
+C:181, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.10/10
+

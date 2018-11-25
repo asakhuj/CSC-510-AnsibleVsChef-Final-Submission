@@ -1,0 +1,12 @@
+************* Module ansible.utils._build_helpers
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 13, 0: Import "import os.path" should be placed at the top of the module (wrong-import-position)
+C: 27,37: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C: 29,22: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C: 37,37: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+W: 13, 0: Unused import os.path (unused-import)
+
+-----------------------------------
+Your code has been rated at 5.33/10
+

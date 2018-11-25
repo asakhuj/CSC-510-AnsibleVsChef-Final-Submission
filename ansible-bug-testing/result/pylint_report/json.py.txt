@@ -1,0 +1,31 @@
+************* Module ansible.plugins.callback.json
+C:107, 0: Line too long (106/100) (line-too-long)
+C:132, 0: Line too long (103/100) (line-too-long)
+C:133, 0: Line too long (118/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 32, 0: Import "import datetime" should be placed at the top of the module (wrong-import-position)
+C: 33, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C: 35, 0: Import "from functools import partial" should be placed at the top of the module (wrong-import-position)
+C: 37, 0: Import "from ansible.inventory.host import Host" should be placed at the top of the module (wrong-import-position)
+C: 38, 0: Import "from ansible.parsing.ajson import AnsibleJSONEncoder" should be placed at the top of the module (wrong-import-position)
+C: 39, 0: Import "from ansible.plugins.callback import CallbackBase" should be placed at the top of the module (wrong-import-position)
+C: 42, 0: Missing function docstring (missing-docstring)
+C: 46, 0: Missing class docstring (missing-docstring)
+W: 59,26: Access to a protected member _uuid of a client class (protected-access)
+R: 55, 4: Method could be a function (no-self-use)
+W: 71,26: Access to a protected member _uuid of a client class (protected-access)
+R: 67, 4: Method could be a function (no-self-use)
+R: 88, 4: Method could be a function (no-self-use)
+C: 99,12: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:100,12: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+E:117,30: Module 'json' has no 'dumps' member (no-member)
+W:121,15: Access to a protected member _host of a client class (protected-access)
+W:122,15: Access to a protected member _task of a client class (protected-access)
+W:123,22: Access to a protected member _result of a client class (protected-access)
+W:119, 0: Unused argument 'kwargs' (unused-argument)
+C:136, 8: Variable name "on" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 5.24/10
+

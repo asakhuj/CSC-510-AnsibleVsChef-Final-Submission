@@ -1,0 +1,19 @@
+************* Module ansible.modules.network.nxos.nxos_pim
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 67, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C: 69, 0: Import "from ansible.module_utils.network.nxos.nxos import get_config, load_config" should be placed at the top of the module (wrong-import-position)
+C: 70, 0: Import "from ansible.module_utils.network.nxos.nxos import nxos_argument_spec, check_args" should be placed at the top of the module (wrong-import-position)
+C: 71, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 72, 0: Import "from ansible.module_utils.network.common.config import CustomNetworkConfig" should be placed at the top of the module (wrong-import-position)
+C: 80, 0: Missing function docstring (missing-docstring)
+C: 97, 0: Missing function docstring (missing-docstring)
+C:106, 0: Missing function docstring (missing-docstring)
+W:106,17: Unused argument 'module' (unused-argument)
+W:106,25: Unused argument 'existing' (unused-argument)
+C:123, 0: Missing function docstring (missing-docstring)
+R:123, 0: Too many local variables (17/15) (too-many-locals)
+C:156,16: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.16/10
+

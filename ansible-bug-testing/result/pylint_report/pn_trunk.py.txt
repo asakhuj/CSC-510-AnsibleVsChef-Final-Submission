@@ -1,0 +1,18 @@
+************* Module ansible.modules.network.netvisor.pn_trunk
+C:295, 0: Wrong hanging indentation (remove 14 spaces).
+                              'off', 'passive', 'active']),
+                |             ^ (bad-continuation)
+C:299, 0: Wrong hanging indentation (remove 18 spaces).
+                                  'bundle', 'individual']),
+                |                 ^ (bad-continuation)
+C:164, 0: Import "import shlex" should be placed at the top of the module (wrong-import-position)
+C:167, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+W:211, 4: Using the global statement (global-statement)
+R:212, 4: The if statement can be replaced with 'var = bool(test)' (simplifiable-if-statement)
+R:278, 0: Too many local variables (26/15) (too-many-locals)
+R:278, 0: Too many branches (33/12) (too-many-branches)
+R:278, 0: Too many statements (95/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 9.38/10
+

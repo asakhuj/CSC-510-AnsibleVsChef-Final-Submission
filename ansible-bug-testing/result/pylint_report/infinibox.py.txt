@@ -1,0 +1,22 @@
+************* Module ansible.module_utils.infinibox
+C: 68, 0: Line too long (104/100) (line-too-long)
+C: 72, 0: Line too long (146/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 37, 0: Import "from functools import wraps" should be placed at the top of the module (wrong-import-position)
+C: 38, 0: Import "from os import environ" should be placed at the top of the module (wrong-import-position)
+C: 39, 0: Import "from os import path" should be placed at the top of the module (wrong-import-position)
+C: 49,54: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C: 51,58: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W: 76,11: Catching too general exception Exception (broad-except)
+
+-----------------------------------
+Your code has been rated at 7.75/10
+
+************* Module ansible.utils.module_docs_fragments.infinibox
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Missing class docstring (missing-docstring)
+R: 20, 0: Too few public methods (0/2) (too-few-public-methods)
+
+------------------------------------
+Your code has been rated at -5.00/10
+

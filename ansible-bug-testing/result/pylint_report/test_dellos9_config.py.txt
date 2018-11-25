@@ -1,0 +1,32 @@
+************* Module units.modules.network.dellos9.test_dellos9_config
+C: 44, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 23, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 26, 0: Unable to import 'ansible.modules.network.dellos9' (import-error)
+C: 31, 0: Missing class docstring (missing-docstring)
+C: 58, 4: Missing method docstring (missing-docstring)
+C: 63, 4: Missing method docstring (missing-docstring)
+C: 70, 4: Missing method docstring (missing-docstring)
+C: 75, 4: Missing method docstring (missing-docstring)
+C: 85, 4: Method name "test_dellos9_config_lines_wo_parents" doesn't conform to snake_case naming style (invalid-name)
+C: 85, 4: Missing method docstring (missing-docstring)
+C: 90, 4: Method name "test_dellos9_config_lines_w_parents" doesn't conform to snake_case naming style (invalid-name)
+C: 90, 4: Missing method docstring (missing-docstring)
+C: 95, 4: Missing method docstring (missing-docstring)
+C:100, 4: Missing method docstring (missing-docstring)
+C:105, 4: Method name "test_dellos9_config_before_after_no_change" doesn't conform to snake_case naming style (invalid-name)
+C:105, 4: Missing method docstring (missing-docstring)
+C:111, 4: Missing method docstring (missing-docstring)
+C:117, 4: Method name "test_dellos9_config_replace_block" doesn't conform to snake_case naming style (invalid-name)
+C:117, 4: Missing method docstring (missing-docstring)
+C:124, 4: Missing method docstring (missing-docstring)
+E:129, 4: method already defined line 124 (function-redefined)
+C:129, 4: Missing method docstring (missing-docstring)
+C:136, 4: Method name "test_dellos9_config_match_strict" doesn't conform to snake_case naming style (invalid-name)
+C:136, 4: Missing method docstring (missing-docstring)
+C:144, 4: Missing method docstring (missing-docstring)
+C: 27, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 6.43/10
+

@@ -1,0 +1,33 @@
+************* Module ansible.modules.storage.netapp._na_cdot_volume
+C:239, 0: Wrong hanging indentation (add 4 spaces).
+                'volume-attributes')
+                ^   | (bad-continuation)
+C:266, 0: Wrong continued indentation (remove 1 space).
+                             }
+                            |^ (bad-continuation)
+C:281, 0: Line too long (123/100) (line-too-long)
+C:401, 0: Line too long (111/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:134, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:136, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:137, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:138, 0: Import "import ansible.module_utils.netapp as netapp_utils" should be placed at the top of the module (wrong-import-position)
+C:144, 0: Missing class docstring (missing-docstring)
+R:144, 0: Too many instance attributes (15/7) (too-many-instance-attributes)
+C:186, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:262, 4: Missing method docstring (missing-docstring)
+C:280,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:284, 4: Missing method docstring (missing-docstring)
+C:296,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:319,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:342,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:379,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:384, 4: Missing method docstring (missing-docstring)
+R:384, 4: Too many branches (17/12) (too-many-branches)
+C:439, 0: Missing function docstring (missing-docstring)
+C:440, 4: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.41/10
+

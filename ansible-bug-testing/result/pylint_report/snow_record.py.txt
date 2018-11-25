@@ -1,0 +1,29 @@
+************* Module ansible.modules.notification.snow_record
+C:246, 0: Line too long (106/100) (line-too-long)
+C:261, 0: Line too long (106/100) (line-too-long)
+C:271, 0: Line too long (110/100) (line-too-long)
+C:287, 0: Line too long (110/100) (line-too-long)
+C:318, 0: Line too long (110/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:148, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:150, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:151, 0: Import "from ansible.module_utils._text import to_bytes, to_native" should be placed at the top of the module (wrong-import-position)
+C:163, 0: Missing function docstring (missing-docstring)
+R:163, 0: Too many local variables (23/15) (too-many-locals)
+W:224,11: Catching too general exception Exception (broad-except)
+W:245,19: Catching too general exception Exception (broad-except)
+W:260,19: Catching too general exception Exception (broad-except)
+C:270,44: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:289,15: Catching too general exception Exception (broad-except)
+C:286,44: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:320,15: Catching too general exception Exception (broad-except)
+C:317,44: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:163, 0: Too many branches (29/12) (too-many-branches)
+R:163, 0: Too many statements (115/50) (too-many-statements)
+C:327, 0: Missing function docstring (missing-docstring)
+W:151, 0: Unused to_native imported from ansible.module_utils._text (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.05/10
+

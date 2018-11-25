@@ -1,0 +1,20 @@
+************* Module ssh_config
+C:102, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:107, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:  1, 0: Missing module docstring (missing-docstring)
+E: 49, 0: Unable to import 'paramiko' (import-error)
+E: 51, 0: Unable to import 'ansible.module_utils.common._collections_compat' (import-error)
+C: 55, 0: Constant name "_key" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 57, 0: Constant name "_ssh_to_ansible" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 63, 0: Missing function docstring (missing-docstring)
+C: 66,47: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C: 70,12: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+W: 70,17: Access to a protected member _config of a client class (protected-access)
+C: 86, 0: Missing function docstring (missing-docstring)
+C:105, 0: Missing function docstring (missing-docstring)
+C:110, 0: Missing function docstring (missing-docstring)
+C:121, 0: Missing function docstring (missing-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 6.23/10 (previous run: 6.23/10, +0.00)
+

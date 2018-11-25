@@ -1,0 +1,11 @@
+************* Module nagios_ndo
+C:100, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:102, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 46, 0: Missing class docstring (missing-docstring)
+C: 48, 4: Missing method docstring (missing-docstring)
+C: 54, 4: Missing method docstring (missing-docstring)
+C: 60, 4: Missing method docstring (missing-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 8.97/10 (previous run: 8.97/10, +0.00)
+

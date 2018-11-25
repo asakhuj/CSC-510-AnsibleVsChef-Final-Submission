@@ -1,0 +1,50 @@
+************* Module ansible.module_utils.openstack
+C: 72, 0: Line too long (104/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 34, 0: Missing function docstring (missing-docstring)
+C: 41, 4: Variable name "OS_AUTH_URL" doesn't conform to snake_case naming style (invalid-name)
+C: 42, 4: Variable name "OS_PASSWORD" doesn't conform to snake_case naming style (invalid-name)
+C: 43, 4: Variable name "OS_REGION_NAME" doesn't conform to snake_case naming style (invalid-name)
+C: 44, 4: Variable name "OS_USERNAME" doesn't conform to snake_case naming style (invalid-name)
+C: 45, 4: Variable name "OS_TENANT_NAME" doesn't conform to snake_case naming style (invalid-name)
+C: 64, 0: Missing function docstring (missing-docstring)
+C: 67,12: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C: 77, 0: Missing function docstring (missing-docstring)
+C: 99, 0: Missing function docstring (missing-docstring)
+C:111, 0: Missing function docstring (missing-docstring)
+C:155,42: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.67/10
+
+************* Module ansible.plugins.inventory.openstack
+W:175, 0: TODO(mordred) Integrate openstack's logging with ansible's logging (fixme)
+C:148, 0: Line too long (125/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:110, 0: Import "import collections" should be placed at the top of the module (wrong-import-position)
+C:112, 0: Import "from ansible.errors import AnsibleParserError" should be placed at the top of the module (wrong-import-position)
+C:113, 0: Import "from ansible.plugins.inventory import BaseInventoryPlugin, Constructable, Cacheable" should be placed at the top of the module (wrong-import-position)
+C:118, 4: Constant name "sdk" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:119, 4: Constant name "sdk_inventory" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:120, 4: Constant name "client_config" doesn't conform to UPPER_CASE naming style (invalid-name)
+R:131, 4: Too many local variables (16/15) (too-many-locals)
+R:131, 4: Too many branches (17/12) (too-many-branches)
+C:294, 8: Variable name "az" doesn't conform to snake_case naming style (invalid-name)
+R:258, 4: Method could be a function (no-self-use)
+R:302, 4: Too many arguments (6/5) (too-many-arguments)
+C:316,16: Variable name "fn" doesn't conform to snake_case naming style (invalid-name)
+W:138, 8: Attribute '_config_data' defined outside __init__ (attribute-defined-outside-init)
+W:156,12: Attribute '_config_data' defined outside __init__ (attribute-defined-outside-init)
+
+-----------------------------------
+Your code has been rated at 8.68/10
+
+************* Module ansible.utils.module_docs_fragments.openstack
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 19, 0: Missing class docstring (missing-docstring)
+R: 19, 0: Too few public methods (0/2) (too-few-public-methods)
+
+------------------------------------
+Your code has been rated at -5.00/10
+

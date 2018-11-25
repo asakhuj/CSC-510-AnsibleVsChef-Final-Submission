@@ -1,0 +1,30 @@
+************* Module ansible.modules.storage.netapp._sf_account_manager
+C:187, 0: Line too long (104/100) (line-too-long)
+C:200, 0: Line too long (104/100) (line-too-long)
+C:228, 0: Line too long (104/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:103, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:105, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:106, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:107, 0: Import "import ansible.module_utils.netapp as netapp_utils" should be placed at the top of the module (wrong-import-position)
+C:113, 0: Missing class docstring (missing-docstring)
+R:113, 0: Too many instance attributes (11/7) (too-many-instance-attributes)
+C:134, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:172, 4: Missing method docstring (missing-docstring)
+W:178,15: Catching too general exception Exception (broad-except)
+C:178,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:182, 4: Missing method docstring (missing-docstring)
+W:186,15: Catching too general exception Exception (broad-except)
+C:186,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:190, 4: Missing method docstring (missing-docstring)
+W:199,15: Catching too general exception Exception (broad-except)
+C:199,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:203, 4: Missing method docstring (missing-docstring)
+R:203, 4: Too many branches (15/12) (too-many-branches)
+C:262, 0: Missing function docstring (missing-docstring)
+C:263, 4: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.40/10
+

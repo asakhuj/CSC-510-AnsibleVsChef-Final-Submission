@@ -1,0 +1,17 @@
+************* Module ansible.modules.cloud.alicloud.ali_instance_facts
+C:342, 0: Line too long (101/100) (line-too-long)
+C:361, 0: Wrong continued indentation (add 20 spaces).
+    )
+    ^                   | (bad-continuation)
+C:382, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:341, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:342, 0: Import "from ansible.module_utils.alicloud_ecs import get_acs_connection_info, ecs_argument_spec, ecs_connect" should be placed at the top of the module (wrong-import-position)
+C:353, 0: Missing function docstring (missing-docstring)
+W:342, 0: Unused get_acs_connection_info imported from ansible.module_utils.alicloud_ecs (unused-import)
+W:347, 4: Unused ECSResponseError imported from footmark.exception (unused-import)
+
+------------------------------------------------------------------
+Your code has been rated at 7.56/10 (previous run: 7.56/10, +0.00)
+

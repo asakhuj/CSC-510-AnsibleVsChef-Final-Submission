@@ -1,0 +1,23 @@
+************* Module ansible.modules.cloud.atomic.atomic_image
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 72, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C: 74, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 75, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 78, 0: Missing function docstring (missing-docstring)
+C: 80, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C: 89, 0: Missing function docstring (missing-docstring)
+C: 99, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:104,12: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:111,20: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:137, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+R: 89, 0: Too many branches (18/12) (too-many-branches)
+C:149, 0: Missing function docstring (missing-docstring)
+C:160, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W:166,11: Catching too general exception Exception (broad-except)
+C:166,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:160, 8: Unused variable 'out' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 7.60/10
+

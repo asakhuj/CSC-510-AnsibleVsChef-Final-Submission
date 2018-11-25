@@ -1,0 +1,21 @@
+************* Module units.modules.network.nso.test_nso_show
+C: 43, 0: Line too long (104/100) (line-too-long)
+C: 46, 0: Line too long (104/100) (line-too-long)
+C: 53, 0: Line too long (119/100) (line-too-long)
+C: 64, 0: Line too long (110/100) (line-too-long)
+C: 67, 0: Line too long (104/100) (line-too-long)
+C: 85, 0: Line too long (110/100) (line-too-long)
+C: 88, 0: Line too long (104/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+E: 24, 0: Unable to import 'ansible.modules.network.nso' (import-error)
+C: 31, 0: Missing class docstring (missing-docstring)
+C: 35, 4: Missing method docstring (missing-docstring)
+C: 58, 4: Missing method docstring (missing-docstring)
+C: 79, 4: Missing method docstring (missing-docstring)
+W: 21, 0: Unused import json (unused-import)
+C: 28, 0: first party import "from units.modules.utils import set_module_args" should be placed before "from . import nso_module" (wrong-import-order)
+C: 28, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 3.33/10
+

@@ -1,0 +1,16 @@
+************* Module bad_put_file
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  1, 0: Unable to import 'ansible.plugins.connection.local' (import-error)
+E:  2, 0: Unable to import 'ansible.errors' (import-error)
+E:  4, 0: Unable to import 'ansible.utils.display' (import-error)
+C:  5, 0: Constant name "display" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:  8, 0: Missing class docstring (missing-docstring)
+C:  9, 4: Missing method docstring (missing-docstring)
+W:  9,23: Unused argument 'in_path' (unused-argument)
+W:  9,32: Unused argument 'out_path' (unused-argument)
+R:  9, 4: Method could be a function (no-self-use)
+R:  8, 0: Too few public methods (1/2) (too-few-public-methods)
+
+-------------------------------------
+Your code has been rated at -18.75/10
+

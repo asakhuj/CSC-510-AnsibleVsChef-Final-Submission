@@ -1,0 +1,18 @@
+************* Module ansible.modules.net_tools.nios.nios_host_record
+C:225, 0: Line too long (110/100) (line-too-long)
+C:248, 0: Line too long (106/100) (line-too-long)
+C:256, 0: Line too long (115/100) (line-too-long)
+C:257, 0: Line too long (115/100) (line-too-long)
+C:258, 0: Line too long (104/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:205, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:206, 0: Import "from ansible.module_utils.six import iteritems" should be placed at the top of the module (wrong-import-position)
+C:207, 0: Import "from ansible.module_utils.net_tools.nios.api import WapiModule" should be placed at the top of the module (wrong-import-position)
+C:208, 0: Import "from ansible.module_utils.net_tools.nios.api import NIOS_HOST_RECORD" should be placed at the top of the module (wrong-import-position)
+C:229, 0: Missing function docstring (missing-docstring)
+C:233, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 6.06/10
+

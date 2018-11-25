@@ -1,0 +1,26 @@
+************* Module ansible.modules.network.nxos.nxos_udld_interface
+C:  1, 0: Missing module docstring (missing-docstring)
+C:113, 0: Import "from ansible.module_utils.network.nxos.nxos import load_config, run_commands" should be placed at the top of the module (wrong-import-position)
+C:114, 0: Import "from ansible.module_utils.network.nxos.nxos import nxos_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:115, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:118, 0: Missing function docstring (missing-docstring)
+C:128, 0: Missing function docstring (missing-docstring)
+C:158, 0: Function name "get_commands_config_udld_interface1" doesn't conform to snake_case naming style (invalid-name)
+C:158, 0: Missing function docstring (missing-docstring)
+W:158,58: Unused argument 'module' (unused-argument)
+W:158,66: Unused argument 'existing' (unused-argument)
+C:170, 0: Function name "get_commands_config_udld_interface2" doesn't conform to snake_case naming style (invalid-name)
+C:170, 0: Missing function docstring (missing-docstring)
+W:170,66: Unused argument 'existing' (unused-argument)
+C:191, 0: Function name "get_commands_remove_udld_interface" doesn't conform to snake_case naming style (invalid-name)
+C:191, 0: Missing function docstring (missing-docstring)
+W:191,65: Unused argument 'existing' (unused-argument)
+C:216, 0: Missing function docstring (missing-docstring)
+R:216, 0: Too many local variables (17/15) (too-many-locals)
+W:236,14: Unused variable 'mode_str' (unused-variable)
+R:216, 0: Too many branches (13/12) (too-many-branches)
+R:216, 0: Too many statements (56/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 8.44/10
+

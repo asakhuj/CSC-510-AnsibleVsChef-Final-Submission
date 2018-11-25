@@ -1,0 +1,15 @@
+************* Module ansible.modules.network.cloudengine.ce_netstream_template
+C:325, 0: Line too long (114/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:139, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:140, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:141, 0: Import "from ansible.module_utils.network.cloudengine.ce import get_config, load_config" should be placed at the top of the module (wrong-import-position)
+C:142, 0: Import "from ansible.module_utils.network.cloudengine.ce import ce_argument_spec" should be placed at the top of the module (wrong-import-position)
+R:145, 0: Too many instance attributes (16/7) (too-many-instance-attributes)
+R:295, 4: Too many branches (17/12) (too-many-branches)
+R:352, 4: Too many branches (21/12) (too-many-branches)
+R:352, 4: Too many statements (54/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 9.55/10
+

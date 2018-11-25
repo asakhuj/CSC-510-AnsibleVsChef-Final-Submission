@@ -1,0 +1,24 @@
+************* Module ansible.template.safe_eval
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 19, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 26, 0: Unable to import 'ansible.module_utils.six.moves' (import-error)
+W: 30,20: Redefining built-in 'locals' (redefined-builtin)
+R: 30, 0: Too many local variables (16/15) (too-many-locals)
+C: 45, 4: Variable name "JSON_TYPES" doesn't conform to snake_case naming style (invalid-name)
+C: 55, 4: Variable name "SAFE_NODES" doesn't conform to snake_case naming style (invalid-name)
+E: 89,17: Module 'ast' has no 'NameConstant' member (no-member)
+C:101, 4: Variable name "CALL_WHITELIST" doesn't conform to snake_case naming style (invalid-name)
+E:101,21: Module 'ansible.constants' has no 'DEFAULT_CALLABLE_WHITELIST' member (no-member)
+C:103, 4: Missing class docstring (missing-docstring)
+W:104, 8: Parameters differ from overridden 'generic_visit' method (arguments-differ)
+C:105,15: Using type() instead of isinstance() for a typecheck. (unidiomatic-typecheck)
+W:145,11: Catching too general exception Exception (broad-except)
+W:133,17: Use of eval (eval-used)
+R:135, 8: Unnecessary "else" after "return" (no-else-return)
+C:139,26: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:145,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R: 30, 0: Too many return statements (8/6) (too-many-return-statements)
+
+-----------------------------------
+Your code has been rated at 4.36/10
+

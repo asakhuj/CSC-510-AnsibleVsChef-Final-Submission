@@ -1,0 +1,30 @@
+************* Module ansible.module_utils.facts.system.service_mgr
+W: 64, 0: TODO: detect more custom init setups like bootscripts, dmd, s6, Epoch, etc (fixme)
+W: 78, 0: FIXME: return code isnt checked (fixme)
+W: 79, 0: FIXME: if stdout is empty string, odd things (fixme)
+W: 80, 0: FIXME: other code seems to think we could get proc_1 == None past this point (fixme)
+W: 91, 0: FIXME: empty string proc_1 staus empty string (fixme)
+W:104, 0: FIXME: empty string still falls through (fixme)
+W:107, 0: FIXME: replace with a system->service_mgr_name map? (fixme)
+W:110, 0: FIXME: find way to query executable, version matching is not ideal (fixme)
+W:116, 0: FIXME: we might want to break out to individual BSDs or 'rc' (fixme)
+W:125, 0: FIXME: mv is_systemd_managed (fixme)
+C: 48, 0: Line too long (108/100) (line-too-long)
+C: 49, 0: Line too long (116/100) (line-too-long)
+C: 87, 0: Line too long (103/100) (line-too-long)
+C: 98, 0: Line too long (123/100) (line-too-long)
+C:115, 0: Line too long (132/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 19, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 34, 3: Module 'platform' has no 'system' member (no-member)
+C: 38, 0: Missing class docstring (missing-docstring)
+C: 44, 4: Missing method docstring (missing-docstring)
+C: 81,12: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+E:111,28: Module 'platform' has no 'mac_ver' member (no-member)
+W: 81,24: Unused variable 'err' (unused-variable)
+W: 81,12: Unused variable 'rc' (unused-variable)
+R: 55, 4: Too many branches (20/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 5.07/10
+

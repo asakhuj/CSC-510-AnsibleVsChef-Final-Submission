@@ -1,0 +1,17 @@
+************* Module ansible.modules.cloud.cloudstack.cs_instance_nic_secondaryip
+C:183, 0: Line too long (125/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:152, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:153, 0: Import "from ansible.module_utils.cloudstack import AnsibleCloudStack, cs_argument_spec, cs_required_together" should be placed at the top of the module (wrong-import-position)
+C:160, 0: Missing class docstring (missing-docstring)
+C:172, 4: Missing method docstring (missing-docstring)
+R:172, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:185, 4: Missing method docstring (missing-docstring)
+C:194, 4: Missing method docstring (missing-docstring)
+C:213, 4: Missing method docstring (missing-docstring)
+W:226, 4: Parameters differ from overridden 'get_result' method (arguments-differ)
+C:236, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.36/10
+

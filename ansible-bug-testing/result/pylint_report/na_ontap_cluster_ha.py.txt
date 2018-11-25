@@ -1,0 +1,14 @@
+************* Module ansible.modules.storage.netapp.na_ontap_cluster_ha
+C:102, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 43, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C: 44, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 45, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 46, 0: Import "import ansible.module_utils.netapp as netapp_utils" should be placed at the top of the module (wrong-import-position)
+C: 47, 0: Import "from ansible.module_utils.netapp_module import NetAppModule" should be placed at the top of the module (wrong-import-position)
+W: 99,47: Unused variable 'error' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 8.33/10
+

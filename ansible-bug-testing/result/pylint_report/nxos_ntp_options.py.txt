@@ -1,0 +1,14 @@
+************* Module ansible.modules.network.nxos.nxos_ntp_options
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 76, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C: 78, 0: Import "from ansible.module_utils.network.nxos.nxos import get_config, load_config, run_commands" should be placed at the top of the module (wrong-import-position)
+C: 79, 0: Import "from ansible.module_utils.network.nxos.nxos import nxos_argument_spec, check_args" should be placed at the top of the module (wrong-import-position)
+C: 80, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 83, 0: Missing function docstring (missing-docstring)
+C:102, 0: Missing function docstring (missing-docstring)
+R:102, 0: Too many branches (13/12) (too-many-branches)
+W: 78, 0: Unused get_config imported from ansible.module_utils.network.nxos.nxos (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.57/10
+

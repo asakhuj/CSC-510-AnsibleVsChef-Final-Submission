@@ -1,0 +1,29 @@
+************* Module ansible.parsing.mod_args
+C:114, 0: Line too long (110/100) (line-too-long)
+C:148, 0: Line too long (145/100) (line-too-long)
+C:153, 0: Line too long (109/100) (line-too-long)
+C:177, 0: Line too long (107/100) (line-too-long)
+C:210, 0: Line too long (112/100) (line-too-long)
+C:247, 0: Line too long (112/100) (line-too-long)
+C:274, 0: Line too long (108/100) (line-too-long)
+C:280, 0: Line too long (109/100) (line-too-long)
+C:283, 0: Line too long (108/100) (line-too-long)
+C:292, 0: Line too long (121/100) (line-too-long)
+C:295, 0: Line too long (112/100) (line-too-long)
+C:300, 0: Line too long (106/100) (line-too-long)
+C:301, 0: Line too long (106/100) (line-too-long)
+C:306, 0: Line too long (144/100) (line-too-long)
+C:314, 0: Line too long (137/100) (line-too-long)
+C:315, 0: Line too long (160/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+R:126, 8: Unnecessary "else" after "return" (no-else-return)
+R:117, 4: Method could be a function (no-self-use)
+W:145,19: Access to a protected member _contains_vars of a client class (protected-access)
+R:131, 4: Too many branches (14/12) (too-many-branches)
+W:311,15: Access to a protected member _contains_vars of a client class (protected-access)
+R: 63, 0: Too few public methods (1/2) (too-few-public-methods)
+
+-----------------------------------
+Your code has been rated at 7.82/10
+

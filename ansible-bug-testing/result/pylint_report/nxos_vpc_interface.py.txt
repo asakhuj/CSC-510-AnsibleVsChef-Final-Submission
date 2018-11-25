@@ -1,0 +1,27 @@
+************* Module ansible.modules.network.nxos.nxos_vpc_interface
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 75, 0: Import "from ansible.module_utils.network.nxos.nxos import get_config, load_config, run_commands" should be placed at the top of the module (wrong-import-position)
+C: 76, 0: Import "from ansible.module_utils.network.nxos.nxos import nxos_argument_spec, check_args" should be placed at the top of the module (wrong-import-position)
+C: 77, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 80, 0: Missing function docstring (missing-docstring)
+C: 90, 0: Missing function docstring (missing-docstring)
+C:104,12: Variable name "pc" doesn't conform to snake_case naming style (invalid-name)
+C:110, 0: Function name "get_existing_portchannel_to_vpc_mappings" doesn't conform to snake_case naming style (invalid-name)
+C:110, 0: Missing function docstring (missing-docstring)
+C:129, 0: Missing function docstring (missing-docstring)
+C:140, 0: Missing function docstring (missing-docstring)
+C:152, 0: Missing function docstring (missing-docstring)
+C:156, 4: Variable name "pc" doesn't conform to snake_case naming style (invalid-name)
+C:180,12: Variable name "pc" doesn't conform to snake_case naming style (invalid-name)
+C:190, 0: Function name "get_commands_to_config_vpc_interface" doesn't conform to snake_case naming style (invalid-name)
+C:190, 0: Missing function docstring (missing-docstring)
+C:209, 0: Missing function docstring (missing-docstring)
+C:223, 0: Missing function docstring (missing-docstring)
+C:237, 0: Missing function docstring (missing-docstring)
+R:237, 0: Too many local variables (19/15) (too-many-locals)
+R:237, 0: Too many branches (19/12) (too-many-branches)
+R:237, 0: Too many statements (54/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 8.71/10
+

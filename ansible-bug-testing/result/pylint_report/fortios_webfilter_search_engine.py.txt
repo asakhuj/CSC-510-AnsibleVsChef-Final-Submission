@@ -1,0 +1,21 @@
+************* Module ansible.modules.network.fortios.fortios_webfilter_search_engine
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:196, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:198, 0: Constant name "fos" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:201, 0: Missing function docstring (missing-docstring)
+C:215, 0: Function name "filter_webfilter_search_engine_data" doesn't conform to snake_case naming style (invalid-name)
+C:215, 0: Missing function docstring (missing-docstring)
+W:228,34: Redefining name 'fos' from outer scope (line 198) (redefined-outer-name)
+C:228, 0: Missing function docstring (missing-docstring)
+R:228, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+W:246,28: Redefining name 'fos' from outer scope (line 198) (redefined-outer-name)
+C:246, 0: Missing function docstring (missing-docstring)
+W:252,19: Use of eval (eval-used)
+C:259, 0: Missing function docstring (missing-docstring)
+W:292, 4: Using the global statement (global-statement)
+C:292, 4: Constant name "fos" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.14/10
+

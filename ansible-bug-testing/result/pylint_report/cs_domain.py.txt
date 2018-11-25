@@ -1,0 +1,17 @@
+************* Module ansible.modules.cloud.cloudstack.cs_domain
+C:  1, 0: Missing module docstring (missing-docstring)
+C:110, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:111, 0: Import "from ansible.module_utils.cloudstack import AnsibleCloudStack, cs_argument_spec, cs_required_together" should be placed at the top of the module (wrong-import-position)
+C:118, 0: Missing class docstring (missing-docstring)
+C:150,16: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:155, 4: Missing method docstring (missing-docstring)
+C:165, 4: Missing method docstring (missing-docstring)
+C:176, 4: Missing method docstring (missing-docstring)
+C:184, 4: Missing method docstring (missing-docstring)
+C:197, 4: Missing method docstring (missing-docstring)
+C:209, 4: Missing method docstring (missing-docstring)
+C:227, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.65/10
+

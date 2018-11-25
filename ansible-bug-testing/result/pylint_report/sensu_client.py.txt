@@ -1,0 +1,16 @@
+************* Module ansible.modules.monitoring.sensu_client
+C:156, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:146, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C:147, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:149, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:152, 0: Missing function docstring (missing-docstring)
+C:191,34: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:228,26: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:245,33: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:152, 0: Too many branches (14/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 7.96/10
+

@@ -1,0 +1,18 @@
+************* Module ansible.modules.network.netscaler.netscaler_save_config
+C:123, 0: Line too long (120/100) (line-too-long)
+C:155, 0: Line too long (102/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:114, 0: Import "import copy" should be placed at the top of the module (wrong-import-position)
+C:119,22: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:122, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:123, 0: Import "from ansible.module_utils.network.netscaler.netscaler import get_nitro_client, log, loglines, netscaler_common_arguments" should be placed at the top of the module (wrong-import-position)
+C:126, 0: Missing function docstring (missing-docstring)
+W:157,11: Catching too general exception Exception (broad-except)
+C:154,30: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:157,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:168,30: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.05/10
+

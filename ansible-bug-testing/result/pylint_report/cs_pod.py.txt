@@ -1,0 +1,15 @@
+************* Module ansible.modules.cloud.cloudstack.cs_pod
+C:  1, 0: Missing module docstring (missing-docstring)
+C:132, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:133, 0: Import "from ansible.module_utils.cloudstack import AnsibleCloudStack, cs_argument_spec, cs_required_together" should be placed at the top of the module (wrong-import-position)
+C:140, 0: Missing class docstring (missing-docstring)
+C:167, 4: Missing method docstring (missing-docstring)
+C:190, 4: Missing method docstring (missing-docstring)
+C:227, 4: Missing method docstring (missing-docstring)
+R:239, 4: Method could be a function (no-self-use)
+W:248, 4: Parameters differ from overridden 'get_result' method (arguments-differ)
+C:254, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.91/10
+

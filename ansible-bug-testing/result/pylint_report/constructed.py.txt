@@ -1,0 +1,30 @@
+************* Module ansible.plugins.inventory.constructed
+C:108, 0: Line too long (125/100) (line-too-long)
+C:116, 0: Line too long (125/100) (line-too-long)
+C:121, 0: Line too long (107/100) (line-too-long)
+C:124, 0: Line too long (110/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 61, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C: 63, 0: Import "from ansible import constants as C" should be placed at the top of the module (wrong-import-position)
+C: 64, 0: Import "from ansible.errors import AnsibleParserError" should be placed at the top of the module (wrong-import-position)
+C: 65, 0: Import "from ansible.inventory.helpers import get_group_vars" should be placed at the top of the module (wrong-import-position)
+C: 66, 0: Import "from ansible.plugins.cache import FactCache" should be placed at the top of the module (wrong-import-position)
+C: 67, 0: Import "from ansible.plugins.inventory import BaseInventoryPlugin, Constructable" should be placed at the top of the module (wrong-import-position)
+C: 68, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 69, 0: Import "from ansible.utils.vars import combine_vars" should be placed at the top of the module (wrong-import-position)
+E: 89,47: Module 'ansible.constants' has no 'YAML_FILENAME_EXTENSIONS' member (no-member)
+W: 87,12: Unused variable 'file_name' (unused-variable)
+C:126,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 5.00/10
+
+************* Module ansible.utils.module_docs_fragments.constructed
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Missing class docstring (missing-docstring)
+R:  5, 0: Too few public methods (0/2) (too-few-public-methods)
+
+------------------------------------
+Your code has been rated at -5.00/10
+

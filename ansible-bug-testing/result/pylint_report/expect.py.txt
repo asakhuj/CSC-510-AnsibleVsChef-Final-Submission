@@ -1,0 +1,24 @@
+************* Module ansible.modules.commands.expect
+C:116, 0: Wrong continued indentation (remove 4 spaces).
+                                 (question,
+                             |   ^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 93, 0: Import "import datetime" should be placed at the top of the module (wrong-import-position)
+C: 94, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C: 95, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:103, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:104, 0: Import "from ansible.module_utils._text import to_native, to_text" should be placed at the top of the module (wrong-import-position)
+C:107, 0: Missing function docstring (missing-docstring)
+C:110, 4: Missing function docstring (missing-docstring)
+C:122, 0: Missing function docstring (missing-docstring)
+R:122, 0: Too many local variables (19/15) (too-many-locals)
+C:191,17: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:196,17: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:198,42: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:206,39: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:122, 0: Too many branches (16/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 7.67/10
+

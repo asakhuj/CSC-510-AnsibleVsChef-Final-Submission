@@ -1,0 +1,30 @@
+************* Module ansible.module_utils.ldap
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 10, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 24, 0: Missing function docstring (missing-docstring)
+C: 43, 8: Attribute name "dn" doesn't conform to snake_case naming style (invalid-name)
+C: 37, 0: Missing class docstring (missing-docstring)
+R: 37, 0: Too many instance attributes (8/7) (too-many-instance-attributes)
+C: 51, 4: Missing method docstring (missing-docstring)
+E: 60,12: Module 'ldap' has no 'set_option' member (no-member)
+E: 60,28: Module 'ldap' has no 'OPT_X_TLS_REQUIRE_CERT' member (no-member)
+E: 60,57: Module 'ldap' has no 'OPT_X_TLS_NEVER' member (no-member)
+E: 62,21: Module 'ldap' has no 'initialize' member (no-member)
+E: 67,19: Module 'ldap' has no 'LDAPError' member (no-member)
+C: 67,37: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+E: 74,55: Module 'ldap' has no 'sasl' member (no-member)
+E: 75,15: Module 'ldap' has no 'LDAPError' member (no-member)
+C: 75,33: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R: 37, 0: Too few public methods (1/2) (too-few-public-methods)
+
+------------------------------------
+Your code has been rated at -0.98/10
+
+************* Module ansible.utils.module_docs_fragments.ldap
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 10, 0: Missing class docstring (missing-docstring)
+R: 10, 0: Too few public methods (0/2) (too-few-public-methods)
+
+------------------------------------
+Your code has been rated at -5.00/10
+

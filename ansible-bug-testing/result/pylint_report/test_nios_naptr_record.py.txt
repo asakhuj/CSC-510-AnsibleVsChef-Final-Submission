@@ -1,0 +1,25 @@
+************* Module units.modules.net_tools.nios.test_nios_naptr_record
+C: 40, 0: Line too long (101/100) (line-too-long)
+C: 62, 0: Line too long (111/100) (line-too-long)
+C: 63, 0: Line too long (121/100) (line-too-long)
+C: 82, 0: Line too long (119/100) (line-too-long)
+C: 83, 0: Line too long (102/100) (line-too-long)
+C: 84, 0: Line too long (121/100) (line-too-long)
+C: 87, 0: Line too long (111/100) (line-too-long)
+C: 88, 0: Line too long (121/100) (line-too-long)
+C:118, 0: Line too long (110/100) (line-too-long)
+C:119, 0: Line too long (121/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 23, 0: Unable to import 'ansible.modules.net_tools.nios' (import-error)
+E: 24, 0: Unable to import 'ansible.module_utils.net_tools.nios' (import-error)
+C: 29, 0: Missing class docstring (missing-docstring)
+C: 61, 4: Missing method docstring (missing-docstring)
+W: 82,74: Access to a protected member _check_type_dict of a client class (protected-access)
+C: 86, 4: Method name "test_nios_naptr_record_update_comment" doesn't conform to snake_case naming style (invalid-name)
+C: 86, 4: Missing method docstring (missing-docstring)
+C:117, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 5.09/10
+

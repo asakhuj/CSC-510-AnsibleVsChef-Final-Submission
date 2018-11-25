@@ -1,0 +1,28 @@
+************* Module units.plugins.terminal.test_junos
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 11, 0: Unable to import 'ansible.errors' (import-error)
+E: 12, 0: Unable to import 'ansible.plugins.terminal' (import-error)
+C: 16, 0: Missing function docstring (missing-docstring)
+W: 21,48: Redefining name 'junos_terminal' from outer scope (line 16) (redefined-outer-name)
+C: 21, 0: Function name "test_on_open_shell_sets_terminal_parameters" doesn't conform to snake_case naming style (invalid-name)
+C: 21, 0: Missing function docstring (missing-docstring)
+W: 27, 4: Access to a protected member _exec_cli_command of a client class (protected-access)
+W: 28, 4: Access to a protected member _get_prompt of a client class (protected-access)
+W: 30, 4: Access to a protected member _get_prompt of a client class (protected-access)
+W: 32, 4: Access to a protected member _exec_cli_command of a client class (protected-access)
+W: 35,49: Redefining name 'junos_terminal' from outer scope (line 16) (redefined-outer-name)
+C: 35, 0: Function name "test_on_open_shell_enters_cli_if_root_prompt" doesn't conform to snake_case naming style (invalid-name)
+C: 35, 0: Missing function docstring (missing-docstring)
+W: 42, 4: Access to a protected member _exec_cli_command of a client class (protected-access)
+W: 43, 4: Access to a protected member _get_prompt of a client class (protected-access)
+W: 45, 4: Access to a protected member _connection of a client class (protected-access)
+W: 47, 4: Access to a protected member _exec_cli_command of a client class (protected-access)
+W: 50,62: Redefining name 'junos_terminal' from outer scope (line 16) (redefined-outer-name)
+C: 50, 0: Function name "test_on_open_shell_raises_problem_setting_terminal_config" doesn't conform to snake_case naming style (invalid-name)
+C: 50, 0: Missing function docstring (missing-docstring)
+W: 51, 4: Access to a protected member _connection of a client class (protected-access)
+
+------------------------------------
+Your code has been rated at -1.07/10
+

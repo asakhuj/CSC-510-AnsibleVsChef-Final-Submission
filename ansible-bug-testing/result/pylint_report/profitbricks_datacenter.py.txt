@@ -1,0 +1,22 @@
+************* Module ansible.modules.cloud.profitbricks.profitbricks_datacenter
+C:187, 0: Unnecessary parens after 'if' keyword (superfluous-parens)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 81, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C: 82, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C: 90, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 97, 0: Constant name "uuid_match" doesn't conform to UPPER_CASE naming style (invalid-name)
+W:127,11: Catching too general exception Exception (broad-except)
+C:127,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:168,11: Catching too general exception Exception (broad-except)
+C:168,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:193,12: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:204, 0: Missing function docstring (missing-docstring)
+W:242,15: Catching too general exception Exception (broad-except)
+C:242,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:254,15: Catching too general exception Exception (broad-except)
+C:254,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.17/10
+

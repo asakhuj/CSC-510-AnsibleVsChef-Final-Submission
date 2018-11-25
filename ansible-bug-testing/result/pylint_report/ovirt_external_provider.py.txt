@@ -1,0 +1,31 @@
+************* Module ansible.modules.cloud.ovirt.ovirt_external_provider
+C:255, 0: Wrong hanging indentation before block (add 4 spaces).
+        self, provider, providers_service, keys
+        ^   | (bad-continuation)
+C:275, 0: Wrong hanging indentation before block (add 4 spaces).
+            k.id for k in provider_keys if k.uuid not in [
+            ^   | (bad-continuation)
+C:388, 0: Wrong hanging indentation before block (add 4 spaces).
+                provider_type_param == OS_VOLUME and
+                ^   | (bad-continuation)
+C:389, 0: Wrong hanging indentation before block (add 4 spaces).
+                openstack_volume_provider_id
+                ^   | (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:179, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:186, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:187, 0: Import "from ansible.module_utils.ovirt import BaseModule, check_params, check_sdk, create_connection, equal, ovirt_full_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:203, 0: Missing class docstring (missing-docstring)
+C:207, 4: Missing method docstring (missing-docstring)
+C:210, 4: Missing method docstring (missing-docstring)
+C:218, 4: Missing method docstring (missing-docstring)
+C:254, 4: Method name "update_volume_provider_auth_keys" doesn't conform to snake_case naming style (invalid-name)
+W:208, 8: Attribute '_provider_type' defined outside __init__ (attribute-defined-outside-init)
+R:316, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:327, 0: Missing function docstring (missing-docstring)
+W:398,11: Catching too general exception Exception (broad-except)
+C:398,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.22/10
+

@@ -1,0 +1,24 @@
+************* Module ansible.modules.remote_management.ucs.ucs_storage_profile
+C:140, 0: Line too long (103/100) (line-too-long)
+C:162, 0: Line too long (116/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:131, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:132, 0: Import "from ansible.module_utils.remote_management.ucs import UCSModule, ucs_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:135, 0: Missing function docstring (missing-docstring)
+R:135, 0: Too many local variables (16/15) (too-many-locals)
+E:163, 4: Unable to import 'ucsmsdk.mometa.lstorage.LstorageProfile' (import-error)
+E:164, 4: Unable to import 'ucsmsdk.mometa.lstorage.LstorageDasScsiLun' (import-error)
+W:244,11: Catching too general exception Exception (broad-except)
+C:171, 8: Variable name "dn" doesn't conform to snake_case naming style (invalid-name)
+C:173, 8: Variable name "mo" doesn't conform to snake_case naming style (invalid-name)
+R:167, 4: Too many nested blocks (9/5) (too-many-nested-blocks)
+C:217,20: Variable name "mo" doesn't conform to snake_case naming style (invalid-name)
+C:244,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:167, 4: Too many nested blocks (7/5) (too-many-nested-blocks)
+R:135, 0: Too many branches (23/12) (too-many-branches)
+R:135, 0: Too many statements (66/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 6.35/10
+

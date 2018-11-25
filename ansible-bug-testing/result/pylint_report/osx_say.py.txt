@@ -1,0 +1,13 @@
+************* Module ansible.plugins.callback.osx_say
+C: 50, 0: Line too long (114/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 21, 0: Import "import subprocess" should be placed at the top of the module (wrong-import-position)
+C: 22, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C: 24, 0: Import "from ansible.plugins.callback import CallbackBase" should be placed at the top of the module (wrong-import-position)
+C: 52, 4: Missing method docstring (missing-docstring)
+R: 52, 4: Method could be a function (no-self-use)
+
+-----------------------------------
+Your code has been rated at 8.37/10
+

@@ -1,0 +1,11 @@
+************* Module ansible.plugins.connection.napalm
+C:177, 0: Line too long (113/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:132, 0: Import "from ansible.errors import AnsibleConnectionFailure, AnsibleError" should be placed at the top of the module (wrong-import-position)
+C:133, 0: Import "from ansible.plugins.connection import NetworkConnectionBase" should be placed at the top of the module (wrong-import-position)
+C:148, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 8.60/10
+

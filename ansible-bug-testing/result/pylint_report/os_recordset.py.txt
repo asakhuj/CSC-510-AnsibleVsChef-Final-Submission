@@ -1,0 +1,18 @@
+************* Module ansible.modules.cloud.openstack.os_recordset
+C:126, 0: Line too long (125/100) (line-too-long)
+C:172, 0: Line too long (106/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:125, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:126, 0: Import "from ansible.module_utils.openstack import openstack_full_argument_spec, openstack_module_kwargs, openstack_cloud_from_module" should be placed at the top of the module (wrong-import-position)
+R:129, 0: Too many arguments (6/5) (too-many-arguments)
+W:129,59: Unused argument 'zone' (unused-argument)
+C:144, 0: Missing function docstring (missing-docstring)
+R:144, 0: Too many local variables (19/15) (too-many-locals)
+C:178,31: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:231,53: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:144, 0: Too many branches (14/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 8.09/10
+

@@ -1,0 +1,27 @@
+************* Module units.mock.yaml_helper
+C:104, 0: Line too long (105/100) (line-too-long)
+C:105, 0: Line too long (105/100) (line-too-long)
+C:109, 0: Line too long (130/100) (line-too-long)
+C:115, 0: Line too long (118/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  4, 0: Unable to import 'ansible.module_utils.six' (import-error)
+E:  5, 0: Unable to import 'ansible.parsing.yaml.loader' (import-error)
+E:  6, 0: Unable to import 'ansible.parsing.yaml.dumper' (import-error)
+R: 11, 4: Method could be a function (no-self-use)
+R: 19, 8: Unnecessary "else" after "return" (no-else-return)
+R: 17, 4: Method could be a function (no-self-use)
+R: 26, 8: Unnecessary "else" after "return" (no-else-return)
+R: 24, 4: Method could be a function (no-self-use)
+E: 47, 8: Instance of 'YamlTestUtils' has no 'assertEquals' member (no-member)
+E: 49, 8: Instance of 'YamlTestUtils' has no 'assertEquals' member (no-member)
+E: 58, 8: Instance of 'YamlTestUtils' has no 'assertEquals' member (no-member)
+E: 60, 8: Instance of 'YamlTestUtils' has no 'assertEquals' member (no-member)
+E: 61, 8: Instance of 'YamlTestUtils' has no 'assertEquals' member (no-member)
+R: 63, 4: Too many local variables (16/15) (too-many-locals)
+C: 94, 8: Variable name "yaml_string_stream_obj_from_stream" doesn't conform to snake_case naming style (invalid-name)
+C: 95, 8: Variable name "yaml_string_stream_obj_from_string" doesn't conform to snake_case naming style (invalid-name)
+R:  9, 0: Too few public methods (0/2) (too-few-public-methods)
+
+-----------------------------------
+Your code has been rated at 1.94/10
+

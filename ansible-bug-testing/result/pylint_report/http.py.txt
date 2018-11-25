@@ -1,0 +1,14 @@
+************* Module lib.http
+C:117, 0: Line too long (106/100) (line-too-long)
+C:161, 0: Line too long (133/100) (line-too-long)
+R: 71, 4: Too many local variables (19/15) (too-many-locals)
+R:140, 0: Too few public methods (1/2) (too-few-public-methods)
+W: 12, 4: Unused urlencode imported from urllib (unused-import)
+W: 19, 4: Unused parse_qs imported from urlparse (unused-import)
+W: 19, 4: Unused urlparse imported from urlparse (unused-import)
+W: 19, 4: Unused urlunparse imported from urlparse (unused-import)
+W: 24, 0: Unused CommonConfig imported from lib.util (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.88/10
+

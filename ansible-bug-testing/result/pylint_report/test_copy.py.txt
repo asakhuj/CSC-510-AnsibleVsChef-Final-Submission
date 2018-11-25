@@ -1,0 +1,66 @@
+************* Module test_copy
+C:  4, 0: Line too long (101/100) (line-too-long)
+C: 26, 0: Wrong continued indentation (remove 1 space).
+                    ),
+                   |^ (bad-continuation)
+C: 36, 0: Wrong continued indentation (remove 1 space).
+                    ),
+                   |^ (bad-continuation)
+C: 37, 0: Wrong continued indentation (remove 1 space).
+                   )
+                  |^ (bad-continuation)
+C: 48, 0: Wrong continued indentation (remove 1 space).
+                  ),
+                 |^ (bad-continuation)
+C: 57, 0: Wrong continued indentation (remove 1 space).
+                  ),
+                 |^ (bad-continuation)
+C: 66, 0: Wrong continued indentation (remove 1 space).
+                  ),
+                 |^ (bad-continuation)
+C: 75, 0: Wrong continued indentation (remove 1 space).
+                  ),
+                 |^ (bad-continuation)
+C: 76, 0: Wrong continued indentation (remove 1 space).
+                 ) + THREE_DIRS_DATA
+                |^ (bad-continuation)
+C: 85, 0: Wrong continued indentation (remove 1 space).
+                 ),
+                |^ (bad-continuation)
+C: 92, 0: Wrong continued indentation (remove 1 space).
+                 ),
+                |^ (bad-continuation)
+C: 93, 0: Wrong continued indentation (remove 1 space).
+                ) + TWO_DIRS_DATA
+               |^ (bad-continuation)
+C:119, 0: Line too long (102/100) (line-too-long)
+C:122, 0: Line too long (113/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 12, 0: Unable to import 'ansible.modules.files.copy' (import-error)
+E: 14, 0: Unable to import 'ansible.module_utils.basic' (import-error)
+C: 97, 0: Function name "test_split_pre_existing_dir_three_levels_exist" doesn't conform to snake_case naming style (invalid-name)
+C: 97, 0: Missing function docstring (missing-docstring)
+W: 99, 4: Expression "split_pre_existing_dir(directory) == expected" is assigned to nothing (expression-not-assigned)
+C:103, 0: Function name "test_split_pre_existing_dir_two_levels_exist" doesn't conform to snake_case naming style (invalid-name)
+C:103, 0: Missing function docstring (missing-docstring)
+W:105, 4: Expression "split_pre_existing_dir(directory) == expected" is assigned to nothing (expression-not-assigned)
+C:109, 0: Function name "test_split_pre_existing_dir_one_level_exists" doesn't conform to snake_case naming style (invalid-name)
+C:109, 0: Missing function docstring (missing-docstring)
+W:111, 4: Expression "split_pre_existing_dir(directory) == expected" is assigned to nothing (expression-not-assigned)
+C:115, 0: Function name "test_split_pre_existing_dir_root_does_not_exist" doesn't conform to snake_case naming style (invalid-name)
+C:115, 0: Missing function docstring (missing-docstring)
+C:123, 0: Function name "test_split_pre_existing_dir_working_dir_exists" doesn't conform to snake_case naming style (invalid-name)
+C:123, 0: Missing function docstring (missing-docstring)
+W:125, 4: Expression "split_pre_existing_dir(directory) == expected" is assigned to nothing (expression-not-assigned)
+C:192, 0: Missing function docstring (missing-docstring)
+W:195,11: Access to a protected member _symbolic_mode_to_octal of a client class (protected-access)
+C:199, 0: Missing function docstring (missing-docstring)
+W:206,11: Access to a protected member _symbolic_mode_to_octal of a client class (protected-access)
+C:210, 0: Missing function docstring (missing-docstring)
+W:214,15: Access to a protected member _symbolic_mode_to_octal of a client class (protected-access)
+E:215,11: Instance of 'ExceptionInfo' has no 'match' member (no-member)
+
+------------------------------------
+Your code has been rated at -1.59/10
+

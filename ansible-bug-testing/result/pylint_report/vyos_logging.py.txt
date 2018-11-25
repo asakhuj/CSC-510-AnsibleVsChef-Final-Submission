@@ -1,0 +1,18 @@
+************* Module ansible.modules.network.vyos.vyos_logging
+C:  1, 0: Missing module docstring (missing-docstring)
+C:107, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:109, 0: Import "from copy import deepcopy" should be placed at the top of the module (wrong-import-position)
+C:111, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:112, 0: Import "from ansible.module_utils.network.common.utils import remove_default_spec" should be placed at the top of the module (wrong-import-position)
+C:113, 0: Import "from ansible.module_utils.network.vyos.vyos import get_config, load_config" should be placed at the top of the module (wrong-import-position)
+C:114, 0: Import "from ansible.module_utils.network.vyos.vyos import vyos_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:117, 0: Missing function docstring (missing-docstring)
+C:121, 8: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+W:117,30: Unused argument 'module' (unused-argument)
+C:147, 0: Missing function docstring (missing-docstring)
+C:182, 0: Missing function docstring (missing-docstring)
+W:192,12: Access to a protected member _check_required_if of a client class (protected-access)
+
+-----------------------------------
+Your code has been rated at 8.59/10
+

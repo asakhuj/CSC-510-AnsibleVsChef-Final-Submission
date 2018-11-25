@@ -1,0 +1,19 @@
+************* Module ansible.modules.web_infrastructure.ansible_tower.tower_job_template
+C:257, 0: Line too long (104/100) (line-too-long)
+C:258, 0: Unnecessary parens after 'del' keyword (superfluous-parens)
+C:260, 0: Line too long (101/100) (line-too-long)
+C:324, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:196, 0: Import "from ansible.module_utils.ansible_tower import TowerModule, tower_auth_config, tower_check_mode" should be placed at the top of the module (wrong-import-position)
+C:207, 0: Argument name "p" doesn't conform to snake_case naming style (invalid-name)
+C:231, 8: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:242, 0: Argument name "p" doesn't conform to snake_case naming style (invalid-name)
+C:242, 0: Missing function docstring (missing-docstring)
+C:250,11: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:264, 0: Missing function docstring (missing-docstring)
+C:311, 8: Variable name "jt" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.78/10
+

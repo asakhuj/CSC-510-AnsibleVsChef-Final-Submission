@@ -1,0 +1,41 @@
+************* Module ansible.config.data
+C: 30, 0: Line too long (116/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:  8, 0: Missing class docstring (missing-docstring)
+C: 14, 4: Missing method docstring (missing-docstring)
+C: 24, 4: Missing method docstring (missing-docstring)
+C: 34, 4: Missing method docstring (missing-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 7.50/10 (previous run: 7.50/10, +0.00)
+
+************* Module ansible.inventory.data
+C: 96, 0: Line too long (125/100) (line-too-long)
+C: 97, 0: Line too long (107/100) (line-too-long)
+C:166, 0: Line too long (125/100) (line-too-long)
+C:193, 0: Line too long (122/100) (line-too-long)
+C:212, 0: Line too long (120/100) (line-too-long)
+C:218, 0: Line too long (147/100) (line-too-long)
+C:269, 0: Line too long (132/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 64, 4: Missing method docstring (missing-docstring)
+C: 74, 4: Missing method docstring (missing-docstring)
+C:113,12: Variable name "g" doesn't conform to snake_case naming style (invalid-name)
+C:168,16: Variable name "g" doesn't conform to snake_case naming style (invalid-name)
+C:177, 4: Missing method docstring (missing-docstring)
+C:185,12: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:194,12: Variable name "g" doesn't conform to snake_case naming style (invalid-name)
+C:197,20: Variable name "g" doesn't conform to snake_case naming style (invalid-name)
+C:202,16: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:220,16: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+R:188, 4: Too many branches (14/12) (too-many-branches)
+C:229, 4: Missing method docstring (missing-docstring)
+C:235,12: Variable name "g" doesn't conform to snake_case naming style (invalid-name)
+C:255,12: Variable name "g" doesn't conform to snake_case naming style (invalid-name)
+C: 35, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+------------------------------------------------------------------
+Your code has been rated at 8.47/10 (previous run: 8.47/10, +0.00)
+

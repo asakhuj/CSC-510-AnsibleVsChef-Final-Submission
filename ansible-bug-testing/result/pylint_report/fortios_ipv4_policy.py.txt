@@ -1,0 +1,19 @@
+************* Module ansible.modules.network.fortios.fortios_ipv4_policy
+C:276, 0: Line too long (105/100) (line-too-long)
+C:277, 0: Line too long (105/100) (line-too-long)
+C:279, 0: Line too long (105/100) (line-too-long)
+C:280, 0: Line too long (105/100) (line-too-long)
+C:281, 0: Line too long (104/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:198, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:199, 0: Import "from ansible.module_utils.network.fortios.fortios import fortios_argument_spec, fortios_required_if" should be placed at the top of the module (wrong-import-position)
+C:200, 0: Import "from ansible.module_utils.network.fortios.fortios import backup, AnsibleFortios" should be placed at the top of the module (wrong-import-position)
+C:203, 0: Missing function docstring (missing-docstring)
+R:203, 0: Too many branches (21/12) (too-many-branches)
+R:203, 0: Too many statements (59/50) (too-many-statements)
+W:200, 0: Unused backup imported from ansible.module_utils.network.fortios.fortios (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.97/10
+

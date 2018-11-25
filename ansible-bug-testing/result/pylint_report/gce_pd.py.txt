@@ -1,0 +1,31 @@
+************* Module ansible.modules.cloud.google.gce_pd
+C:112, 0: Line too long (138/100) (line-too-long)
+C:229, 0: Line too long (104/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:118, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:119, 0: Import "from ansible.module_utils.gce import gce_connect, unexpected_error_msg" should be placed at the top of the module (wrong-import-position)
+C:122, 0: Missing function docstring (missing-docstring)
+R:122, 0: Too many local variables (24/15) (too-many-locals)
+W:191, 8: No exception type(s) specified (bare-except)
+C:186,16: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+W:200,11: Catching too general exception Exception (broad-except)
+C:200,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:213, 8: No exception type(s) specified (bare-except)
+W:243,19: Catching too general exception Exception (broad-except)
+C:243,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:255,19: Catching too general exception Exception (broad-except)
+C:255,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:269,19: Catching too general exception Exception (broad-except)
+C:269,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:277,19: Catching too general exception Exception (broad-except)
+C:275,41: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:277,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:122, 0: Too many branches (34/12) (too-many-branches)
+R:122, 0: Too many statements (111/50) (too-many-statements)
+W:111, 4: Unused get_driver imported from libcloud.compute.providers (unused-import)
+W:112, 4: Unused GoogleBaseError imported from libcloud.common.google (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.92/10
+

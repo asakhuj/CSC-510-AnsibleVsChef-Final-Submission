@@ -1,0 +1,116 @@
+************* Module ansible.module_utils.rabbitmq
+C: 68, 0: Line too long (146/100) (line-too-long)
+C: 69, 0: Line too long (133/100) (line-too-long)
+C: 72, 0: Line too long (138/100) (line-too-long)
+C: 73, 0: Line too long (139/100) (line-too-long)
+C:144, 0: Line too long (119/100) (line-too-long)
+C:160, 0: Wrong continued indentation (remove 1 space).
+                                                ))
+                                               |^ (bad-continuation)
+C:169, 0: Wrong continued indentation (remove 1 space).
+                                                ))
+                                               |^ (bad-continuation)
+C:172, 0: Line too long (112/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 26, 0: Missing function docstring (missing-docstring)
+C: 41, 0: Missing class docstring (missing-docstring)
+R: 41, 0: Too many instance attributes (14/7) (too-many-instance-attributes)
+C: 62, 4: Missing method docstring (missing-docstring)
+C: 66, 4: Missing method docstring (missing-docstring)
+C: 76, 4: Missing method docstring (missing-docstring)
+W: 88, 4: String statement has no effect (pointless-string-statement)
+C: 91,12: Variable name "fh" doesn't conform to snake_case naming style (invalid-name)
+C: 92,26: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:102, 4: Missing method docstring (missing-docstring)
+W:116,15: Catching too general exception Exception (broad-except)
+C:116,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:121,15: Catching too general exception Exception (broad-except)
+C:121,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:126,51: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:130, 4: Missing method docstring (missing-docstring)
+C:136, 4: Missing method docstring (missing-docstring)
+W:185,15: Catching too general exception Exception (broad-except)
+C:185,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:137, 8: Attribute 'content_type' defined outside __init__ (attribute-defined-outside-init)
+W:148,12: Attribute 'content_type' defined outside __init__ (attribute-defined-outside-init)
+W: 11, 0: Unused to_text imported from ansible.module_utils._text (unused-import)
+W: 12, 0: Unused env_fallback imported from ansible.module_utils.basic (unused-import)
+W: 15, 0: Unused import json (unused-import)
+W: 20, 4: Unused spec imported from pika (unused-import)
+C: 13, 0: standard import "from mimetypes import MimeTypes" should be placed before "from ansible.module_utils._text import to_native, to_text" (wrong-import-order)
+C: 15, 0: standard import "import json" should be placed before "from ansible.module_utils._text import to_native, to_text" (wrong-import-order)
+C: 16, 0: standard import "import os" should be placed before "from ansible.module_utils._text import to_native, to_text" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 6.12/10
+
+************* Module ansible.plugins.lookup.rabbitmq
+W:158, 0: TODO: In the future consider checking content_type and handle text/binary data differently. (fixme)
+C:129, 0: Line too long (112/100) (line-too-long)
+C:147, 0: Line too long (114/100) (line-too-long)
+C:158, 0: Line too long (109/100) (line-too-long)
+C:160, 0: Wrong hanging indentation (remove 15 spaces).
+                                   'msg': to_text(body),
+                    |              ^ (bad-continuation)
+C:161, 0: Wrong hanging indentation (remove 15 spaces).
+                                   'message_count': method_frame.message_count,
+                    |              ^ (bad-continuation)
+C:162, 0: Wrong hanging indentation (remove 15 spaces).
+                                   'routing_key': method_frame.routing_key,
+                    |              ^ (bad-continuation)
+C:163, 0: Wrong hanging indentation (remove 15 spaces).
+                                   'delivery_tag': method_frame.delivery_tag,
+                    |              ^ (bad-continuation)
+C:164, 0: Wrong hanging indentation (remove 15 spaces).
+                                   'redelivered': method_frame.redelivered,
+                    |              ^ (bad-continuation)
+C:165, 0: Wrong hanging indentation (remove 15 spaces).
+                                   'exchange': method_frame.exchange,
+                    |              ^ (bad-continuation)
+C:166, 0: Wrong hanging indentation (remove 15 spaces).
+                                   'delivery_mode': properties.delivery_mode,
+                    |              ^ (bad-continuation)
+C:167, 0: Wrong hanging indentation (remove 15 spaces).
+                                   'content_type': properties.content_type,
+                    |              ^ (bad-continuation)
+C:168, 0: Wrong hanging indentation (remove 15 spaces).
+                                   'headers': properties.headers
+                    |              ^ (bad-continuation)
+C:169, 0: Wrong hanging indentation.
+                                   })
+                |   |              ^ (bad-continuation)
+C:174, 0: Line too long (130/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:100, 0: Import "from ansible.errors import AnsibleError, AnsibleParserError" should be placed at the top of the module (wrong-import-position)
+C:101, 0: Import "from ansible.plugins.lookup import LookupBase" should be placed at the top of the module (wrong-import-position)
+C:102, 0: Import "from ansible.module_utils._text import to_native, to_text" should be placed at the top of the module (wrong-import-position)
+C:103, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C:119, 0: Missing class docstring (missing-docstring)
+R:121, 4: Too many arguments (6/5) (too-many-arguments)
+R:121, 4: Too many local variables (17/15) (too-many-locals)
+W:121, 4: Parameters differ from overridden 'run' method (arguments-differ)
+C:133,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:138,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:143,51: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:146,58: Variable name "ie" doesn't conform to snake_case naming style (invalid-name)
+C:173,41: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:185, 8: Unnecessary "else" after "return" (no-else-return)
+R:121, 4: Too many branches (16/12) (too-many-branches)
+W:100, 0: Unused AnsibleParserError imported from ansible.errors (unused-import)
+W:113, 4: Unused spec imported from pika (unused-import)
+C:103, 0: standard import "import json" should be placed before "from ansible.errors import AnsibleError, AnsibleParserError" (wrong-import-order)
+C:108, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 4.86/10
+
+************* Module ansible.utils.module_docs_fragments.rabbitmq
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Missing class docstring (missing-docstring)
+R:  6, 0: Too few public methods (0/2) (too-few-public-methods)
+
+------------------------------------
+Your code has been rated at -5.00/10
+

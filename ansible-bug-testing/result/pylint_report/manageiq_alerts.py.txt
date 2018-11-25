@@ -1,0 +1,22 @@
+************* Module ansible.modules.remote_management.manageiq.manageiq_alerts
+C:276, 0: Line too long (103/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:126, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:127, 0: Import "from ansible.module_utils.manageiq import ManageIQ, manageiq_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:136, 8: Attribute name "db" doesn't conform to snake_case naming style (invalid-name)
+R:130, 0: Too few public methods (1/2) (too-few-public-methods)
+W:175,15: Catching too general exception Exception (broad-except)
+C:175,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:219,15: Catching too general exception Exception (broad-except)
+C:219,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:239,15: Catching too general exception Exception (broad-except)
+C:239,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:271,19: Catching too general exception Exception (broad-except)
+C:271,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:244, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:282, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.52/10
+

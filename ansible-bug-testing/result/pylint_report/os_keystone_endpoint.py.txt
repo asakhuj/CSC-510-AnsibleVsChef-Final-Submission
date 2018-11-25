@@ -1,0 +1,17 @@
+************* Module ansible.modules.cloud.openstack.os_keystone_endpoint
+C:109, 0: Line too long (125/100) (line-too-long)
+C:170, 0: Wrong continued indentation (remove 4 spaces).
+                                 (service_name_or_id, interface, region))
+                             |   ^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:108, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:109, 0: Import "from ansible.module_utils.openstack import openstack_full_argument_spec, openstack_module_kwargs, openstack_cloud_from_module" should be placed at the top of the module (wrong-import-position)
+C:133, 0: Missing function docstring (missing-docstring)
+R:133, 0: Too many local variables (18/15) (too-many-locals)
+C:203,53: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:133, 0: Too many branches (14/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 8.55/10
+

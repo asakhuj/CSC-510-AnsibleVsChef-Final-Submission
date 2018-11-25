@@ -1,0 +1,60 @@
+************* Module ansible.modules.monitoring.zabbix.zabbix_maintenance
+C:160, 0: Line too long (109/100) (line-too-long)
+C:200, 0: Line too long (122/100) (line-too-long)
+C:201, 0: Line too long (116/100) (line-too-long)
+C:285, 0: Line too long (119/100) (line-too-long)
+C:308, 0: Line too long (102/100) (line-too-long)
+C:319, 0: Line too long (118/100) (line-too-long)
+C:344, 0: Wrong hanging indentation before block (add 4 spaces).
+            sorted(group_ids) != sorted(maintenance["groupids"]) or
+            ^   | (bad-continuation)
+C:345, 0: Wrong hanging indentation before block (add 4 spaces).
+            sorted(host_ids) != sorted(maintenance["hostids"]) or
+            ^   | (bad-continuation)
+C:346, 0: Wrong hanging indentation before block (add 4 spaces).
+            str(maintenance_type) != maintenance["maintenance_type"] or
+            ^   | (bad-continuation)
+C:347, 0: Wrong hanging indentation before block (add 4 spaces).
+            str(int(start_time)) != maintenance["active_since"] or
+            ^   | (bad-continuation)
+C:348, 0: Wrong hanging indentation before block (add 4 spaces).
+            str(int(start_time + period)) != maintenance["active_till"]
+            ^   | (bad-continuation)
+C:353, 0: Line too long (151/100) (line-too-long)
+C:363, 0: Line too long (127/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:124, 0: Import "import datetime" should be placed at the top of the module (wrong-import-position)
+C:125, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C:133, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:136, 0: Missing function docstring (missing-docstring)
+R:136, 0: Too many arguments (8/5) (too-many-arguments)
+C:155,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:160, 0: Missing function docstring (missing-docstring)
+R:160, 0: Too many arguments (8/5) (too-many-arguments)
+C:179,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:184, 0: Missing function docstring (missing-docstring)
+C:196,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:207, 0: Missing function docstring (missing-docstring)
+C:210,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:215, 0: Missing function docstring (missing-docstring)
+C:228,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:239, 0: Missing function docstring (missing-docstring)
+C:252,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:263, 0: Missing function docstring (missing-docstring)
+R:263, 0: Too many local variables (28/15) (too-many-locals)
+C:311,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:326,13: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:333,13: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:339, 9: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+R:343,11: Too many boolean expressions in if statement (6/5) (too-many-boolean-expressions)
+C:353,17: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:363,17: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:371, 9: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:379,17: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+R:263, 0: Too many branches (30/12) (too-many-branches)
+R:263, 0: Too many statements (81/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 6.76/10
+

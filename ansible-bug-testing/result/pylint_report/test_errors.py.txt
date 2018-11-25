@@ -1,0 +1,30 @@
+************* Module units.errors.test_errors
+C: 60, 0: Line too long (158/100) (line-too-long)
+C: 61, 0: Line too long (104/100) (line-too-long)
+C: 74, 0: Line too long (158/100) (line-too-long)
+C: 75, 0: Line too long (112/100) (line-too-long)
+C: 83, 0: Line too long (158/100) (line-too-long)
+C: 84, 0: Line too long (102/100) (line-too-long)
+C: 96, 0: Line too long (159/100) (line-too-long)
+C: 97, 0: Line too long (154/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 26, 0: Unable to import 'ansible.errors' (import-error)
+E: 27, 0: Unable to import 'ansible.parsing.yaml.objects' (import-error)
+C: 30, 0: Missing class docstring (missing-docstring)
+C: 41, 4: Missing method docstring (missing-docstring)
+C: 42, 8: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C: 46, 4: Missing method docstring (missing-docstring)
+C: 47, 8: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C: 52, 4: Missing method docstring (missing-docstring)
+C: 56, 8: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C: 64, 4: Missing method docstring (missing-docstring)
+C: 65, 8: Variable name "m" doesn't conform to snake_case naming style (invalid-name)
+C: 71,12: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C: 80,12: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C: 87, 8: Variable name "m" doesn't conform to snake_case naming style (invalid-name)
+C: 93,12: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 2.33/10
+

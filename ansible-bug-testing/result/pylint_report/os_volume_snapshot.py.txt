@@ -1,0 +1,18 @@
+************* Module ansible.modules.cloud.openstack.os_volume_snapshot
+C:111, 0: Wrong continued indentation (remove 1 space).
+                                                )
+                                               |^ (bad-continuation)
+C:127, 0: Wrong continued indentation (remove 1 space).
+                                     )
+                                    |^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 92, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 93, 0: Import "from ansible.module_utils.openstack import openstack_full_argument_spec, openstack_module_kwargs, openstack_cloud_from_module" should be placed at the top of the module (wrong-import-position)
+R:131, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:143, 0: Missing function docstring (missing-docstring)
+C:173,87: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.16/10
+

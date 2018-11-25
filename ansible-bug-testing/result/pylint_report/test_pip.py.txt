@@ -1,0 +1,22 @@
+************* Module units.modules.packaging.language.test_pip
+C: 13, 0: Line too long (102/100) (line-too-long)
+C: 29, 0: Wrong continued indentation (remove 3 spaces).
+        ['django>1.11.1,<1.11.2', 'ipaddress', 'simpleproject<2.0.0,>1.1.0']],
+     |  ^ (bad-continuation)
+C: 31, 0: Wrong continued indentation (remove 3 spaces).
+        ['django>1.11.1,<1.11.2', 'ipaddress', 'simpleproject<2.0.0,>1.1.0']],
+     |  ^ (bad-continuation)
+C: 33, 0: Wrong continued indentation (remove 3 spaces).
+        ['django>1.11.1,<1.11.2', 'ipaddress', 'simpleproject<2.0.0,>1.1.0']]])
+     |  ^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  7, 0: Unable to import 'ansible.modules.packaging.language' (import-error)
+C: 10, 0: Constant name "pytestmark" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 14, 0: Missing function docstring (missing-docstring)
+W: 21, 9: Unused variable 'err' (unused-variable)
+C: 34, 0: Missing function docstring (missing-docstring)
+W: 35,11: Access to a protected member _recover_package_name of a client class (protected-access)
+
+-----------------------------------
+Your code has been rated at 0.00/10
+

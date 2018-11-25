@@ -1,0 +1,12 @@
+************* Module ansible.modules.network.aci.aci_filter
+C:208, 0: Line too long (122/100) (line-too-long)
+C:209, 0: Line too long (114/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:201, 0: Import "from ansible.module_utils.network.aci.aci import ACIModule, aci_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:202, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:205, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.50/10
+

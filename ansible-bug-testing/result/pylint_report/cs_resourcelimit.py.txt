@@ -1,0 +1,17 @@
+************* Module ansible.modules.cloud.cloudstack.cs_resourcelimit
+C:148, 0: Line too long (101/100) (line-too-long)
+C:150, 0: Line too long (114/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:103, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:104, 0: Import "from ansible.module_utils.cloudstack import AnsibleCloudStack, cs_required_together, cs_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:126, 0: Missing class docstring (missing-docstring)
+C:134, 4: Missing method docstring (missing-docstring)
+C:138, 4: Missing method docstring (missing-docstring)
+R:138, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:152, 4: Missing method docstring (missing-docstring)
+W:170, 4: Parameters differ from overridden 'get_result' method (arguments-differ)
+C:176, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.33/10
+

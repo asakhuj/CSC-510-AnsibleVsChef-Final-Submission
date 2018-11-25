@@ -1,0 +1,22 @@
+************* Module ansible.modules.cloud.openstack.os_floating_ip
+C:125, 0: Line too long (125/100) (line-too-long)
+C:188, 0: Wrong continued indentation (add 18 spaces).
+                        if addr.addr == public_ip and
+                        ^                 | (bad-continuation)
+C:189, 0: Wrong continued indentation (add 18 spaces).
+                        addr['OS-EXT-IPS:type'] == 'floating']
+                        ^                 | (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:124, 0: Import "from ansible.module_utils.basic import AnsibleModule, remove_values" should be placed at the top of the module (wrong-import-position)
+C:125, 0: Import "from ansible.module_utils.openstack import openstack_full_argument_spec, openstack_module_kwargs, openstack_cloud_from_module" should be placed at the top of the module (wrong-import-position)
+C:137, 0: Missing function docstring (missing-docstring)
+R:137, 0: Too many local variables (24/15) (too-many-locals)
+C:191,23: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:249,53: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:137, 0: Too many branches (16/12) (too-many-branches)
+R:137, 0: Too many statements (59/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 8.19/10
+

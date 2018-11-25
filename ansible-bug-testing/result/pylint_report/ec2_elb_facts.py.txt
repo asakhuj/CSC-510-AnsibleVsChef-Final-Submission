@@ -1,0 +1,22 @@
+************* Module ansible.modules.cloud.amazon.ec2_elb_facts
+C:197, 0: Line too long (121/100) (line-too-long)
+C:199, 0: Line too long (127/100) (line-too-long)
+C:204, 0: Line too long (107/100) (line-too-long)
+C:212, 0: Line too long (118/100) (line-too-long)
+C:238, 0: Wrong continued indentation (add 20 spaces).
+    )
+    ^                   | (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 80, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C: 82, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 83, 0: Import "from ansible.module_utils.ec2 import AWSRetry, connect_to_aws, ec2_argument_spec, get_aws_connection_info" should be placed at the top of the module (wrong-import-position)
+R:123, 4: Method could be a function (no-self-use)
+R:146, 4: Method could be a function (no-self-use)
+C:210, 4: Missing method docstring (missing-docstring)
+R: 99, 0: Too few public methods (1/2) (too-few-public-methods)
+C:233, 0: Missing function docstring (missing-docstring)
+W:246,16: Unused variable 'ec2_url' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 8.48/10
+

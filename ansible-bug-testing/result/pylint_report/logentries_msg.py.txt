@@ -1,0 +1,16 @@
+************* Module ansible.modules.notification.logentries_msg
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 51, 0: Import "import socket" should be placed at the top of the module (wrong-import-position)
+C: 53, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 56, 0: Missing function docstring (missing-docstring)
+C: 62, 4: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+W: 67,11: Catching too general exception Exception (broad-except)
+C: 67,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C: 72, 0: Missing function docstring (missing-docstring)
+W: 91,11: Catching too general exception Exception (broad-except)
+C: 91,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.76/10
+

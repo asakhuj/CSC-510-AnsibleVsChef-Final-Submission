@@ -1,0 +1,94 @@
+************* Module units.conftest
+C:  1, 0: Line too long (127/100) (line-too-long)
+C: 11, 4: Constant name "test" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 13, 4: Constant name "coverage" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 16, 0: Missing function docstring (missing-docstring)
+W: 37,14: Access to a protected member _exit of a client class (protected-access)
+C: 39, 4: Missing function docstring (missing-docstring)
+W: 46, 4: Access to a protected member _exit of a client class (protected-access)
+
+-----------------------------------
+Your code has been rated at 7.88/10
+
+************* Module units.modules.conftest
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  8, 0: Unable to import 'ansible.module_utils.six' (import-error)
+E:  9, 0: Unable to import 'ansible.module_utils._text' (import-error)
+E: 10, 0: Unable to import 'ansible.module_utils.common._collections_compat' (import-error)
+C: 14, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 0.56/10
+
+************* Module units.modules.cloud.linode.conftest
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Missing function docstring (missing-docstring)
+C: 10, 0: Missing function docstring (missing-docstring)
+C: 11, 4: Missing function docstring (missing-docstring)
+W: 11,26: Unused argument 'dummy' (unused-argument)
+
+-----------------------------------
+Your code has been rated at 2.86/10
+
+************* Module units.modules.cloud.linode_v4.conftest
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Missing function docstring (missing-docstring)
+C: 10, 0: Missing function docstring (missing-docstring)
+C: 18, 0: Missing function docstring (missing-docstring)
+C: 23, 0: Missing function docstring (missing-docstring)
+C: 24, 4: Missing class docstring (missing-docstring)
+C: 24, 4: Old-style class defined. (old-style-class)
+W: 24, 4: Class has no __init__ method (no-init)
+C: 25, 8: Missing method docstring (missing-docstring)
+R: 24, 4: Too few public methods (1/2) (too-few-public-methods)
+
+-----------------------------------
+Your code has been rated at 4.12/10
+
+************* Module units.modules.packaging.os.conftest
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  2, 0: Unable to import 'ansible.module_utils.six.moves' (import-error)
+C:  7, 0: Missing function docstring (missing-docstring)
+C: 12, 0: Missing function docstring (missing-docstring)
+W: 16,26: Unused argument 'host' (unused-argument)
+W: 16,32: Unused argument 'handler' (unused-argument)
+W: 16,55: Unused argument 'verbose' (unused-argument)
+W:  1, 0: Unused patch imported from units.compat.mock (unused-import)
+C:  4, 0: third party import "import pytest" should be placed before "from units.compat.mock import patch" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 2.78/10
+
+************* Module conftest
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  7, 0: Unable to import 'hpOneView.oneview_client' (import-error)
+C: 11, 0: Missing function docstring (missing-docstring)
+C: 18, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 4.29/10
+
+************* Module units.module_utils.conftest
+C:  1, 0: Missing module docstring (missing-docstring)
+E: 10, 0: Unable to import 'ansible.module_utils.basic' (import-error)
+E: 11, 0: Unable to import 'ansible.module_utils.six' (import-error)
+E: 12, 0: Unable to import 'ansible.module_utils._text' (import-error)
+E: 13, 0: Unable to import 'ansible.module_utils.common._collections_compat' (import-error)
+C: 17, 0: Missing function docstring (missing-docstring)
+W: 18,15: Access to a protected member _ANSIBLE_ARGS of a client class (protected-access)
+W: 19, 4: Access to a protected member _ANSIBLE_ARGS of a client class (protected-access)
+W: 45, 4: Access to a protected member _ANSIBLE_ARGS of a client class (protected-access)
+W: 50, 7: Redefining name 'stdin' from outer scope (line 17) (redefined-outer-name)
+W: 61, 4: Redefining name 'am' from outer scope (line 50) (redefined-outer-name)
+C: 50, 0: Function name "am" doesn't conform to snake_case naming style (invalid-name)
+C: 50, 0: Missing function docstring (missing-docstring)
+W: 51,15: Access to a protected member _ANSIBLE_ARGS of a client class (protected-access)
+W: 52, 4: Access to a protected member _ANSIBLE_ARGS of a client class (protected-access)
+C: 61, 4: Variable name "am" doesn't conform to snake_case naming style (invalid-name)
+W: 64, 4: Access to a protected member _name of a client class (protected-access)
+W: 68, 4: Access to a protected member _ANSIBLE_ARGS of a client class (protected-access)
+W: 50, 7: Unused argument 'stdin' (unused-argument)
+
+-----------------------------------
+Your code has been rated at 2.39/10
+

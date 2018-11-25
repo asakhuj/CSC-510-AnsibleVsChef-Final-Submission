@@ -1,0 +1,12 @@
+************* Module ansible.modules.remote_management.ipmi.ipmi_power
+C:117, 0: Line too long (110/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 82, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 85, 0: Missing function docstring (missing-docstring)
+W:127,11: Catching too general exception Exception (broad-except)
+C:127,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.11/10
+

@@ -1,0 +1,19 @@
+************* Module ansible.modules.packaging.language.composer
+C:184, 0: Line too long (132/100) (line-too-long)
+C:203, 0: Line too long (104/100) (line-too-long)
+C:257, 0: Line too long (110/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:151, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:152, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:155, 0: Missing function docstring (missing-docstring)
+C:159, 0: Missing function docstring (missing-docstring)
+C:163, 0: Missing function docstring (missing-docstring)
+C:165, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:174, 0: Missing function docstring (missing-docstring)
+C:188, 0: Missing function docstring (missing-docstring)
+C:259, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.67/10
+

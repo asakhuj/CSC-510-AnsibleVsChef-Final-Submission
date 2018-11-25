@@ -1,0 +1,10 @@
+************* Module ansible.plugins.lookup.chef_databag
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 41, 0: Import "from ansible.errors import AnsibleError" should be placed at the top of the module (wrong-import-position)
+C: 42, 0: Import "from ansible.plugins.lookup import LookupBase" should be placed at the top of the module (wrong-import-position)
+C: 43, 0: Import "from ansible.parsing.splitter import parse_kv" should be placed at the top of the module (wrong-import-position)
+
+-----------------------------------
+Your code has been rated at 8.78/10
+

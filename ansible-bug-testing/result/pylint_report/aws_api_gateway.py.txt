@@ -1,0 +1,27 @@
+************* Module ansible.modules.cloud.amazon.aws_api_gateway
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:107, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C:115, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:116, 0: Import "from ansible.module_utils.aws.core import AnsibleAWSModule" should be placed at the top of the module (wrong-import-position)
+C:117, 0: Import "from ansible.module_utils.ec2 import AWSRetry, camel_dict_to_snake_dict" should be placed at the top of the module (wrong-import-position)
+C:120, 0: Missing function docstring (missing-docstring)
+R:120, 0: Too many local variables (17/15) (too-many-locals)
+C:177, 0: Missing function docstring (missing-docstring)
+C:181,39: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C:183,26: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:205,93: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:218,93: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:223, 0: Too many arguments (6/5) (too-many-arguments)
+C:237,93: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:246,97: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:253, 0: Constant name "retry_params" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:257, 0: Missing function docstring (missing-docstring)
+W:257,23: Unused argument 'name' (unused-argument)
+C:262, 0: Missing function docstring (missing-docstring)
+C:267, 0: Missing function docstring (missing-docstring)
+C:272, 0: Missing function docstring (missing-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 7.78/10 (previous run: 7.78/10, +0.00)
+

@@ -1,0 +1,19 @@
+************* Module ansible.modules.cloud.opennebula.one_host
+W: 99, 0: TODO: pending setting guidelines on returned values (fixme)
+W:103, 0: TODO: Documentation on valid state transitions is required to properly implement all valid cases (fixme)
+W:104, 0: TODO: To be coherent with CLI this module should also provide "flush" functionality (fixme)
+C:125, 0: Line too long (107/100) (line-too-long)
+C:206, 0: Line too long (120/100) (line-too-long)
+C:220, 0: Line too long (121/100) (line-too-long)
+C:234, 0: Line too long (121/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:106, 0: Import "from ansible.module_utils.opennebula import OpenNebulaModule" should be placed at the top of the module (wrong-import-position)
+C:119, 0: Missing class docstring (missing-docstring)
+R:168, 4: Too many branches (39/12) (too-many-branches)
+R:168, 4: Too many statements (82/50) (too-many-statements)
+C:275, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.60/10
+

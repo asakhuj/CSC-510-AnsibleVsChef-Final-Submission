@@ -1,0 +1,15 @@
+************* Module ansible.utils.cmd_functions
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 19, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 31, 0: Missing function docstring (missing-docstring)
+E: 38,14: Module 'shlex' has no 'split' member (no-member)
+C: 44, 4: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+E: 57,20: Instance of 'file' has no 'buffer' member (no-member)
+E: 69,20: Instance of 'file' has no 'buffer' member (no-member)
+W: 50,13: Unused variable 'wfd' (unused-variable)
+W: 50,18: Unused variable 'efd' (unused-variable)
+R: 31, 0: Too many branches (14/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 4.88/10
+

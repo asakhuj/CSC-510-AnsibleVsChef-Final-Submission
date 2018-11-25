@@ -1,0 +1,72 @@
+************* Module ansible.modules.files.template
+C:  7, 0: Line too long (102/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 10, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 4.00/10
+
+************* Module ansible.plugins.action.template
+C: 68, 0: Line too long (101/100) (line-too-long)
+C: 73, 0: Line too long (103/100) (line-too-long)
+C: 83, 0: Line too long (143/100) (line-too-long)
+C: 88, 0: Line too long (120/100) (line-too-long)
+C: 95, 0: Line too long (121/100) (line-too-long)
+C:160, 0: Line too long (127/100) (line-too-long)
+C:187, 0: Line too long (104/100) (line-too-long)
+C:199, 0: Line too long (104/100) (line-too-long)
+C:202, 0: Line too long (114/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 18, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 35, 0: Missing class docstring (missing-docstring)
+R: 40, 4: Too many local variables (39/15) (too-many-locals)
+C:107,39: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:117,42: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:123,49: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+W:131,35: Access to a protected member _basedir of a client class (protected-access)
+C:136,20: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+W:158,27: Access to a protected member _available_variables of a client class (protected-access)
+C:164,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+E:182,49: Module 'ansible.constants' has no 'DEFAULT_LOCAL_TMP' member (no-member)
+C:186,88: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C:207,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:210,34: Access to a protected member _shell of a client class (protected-access)
+W: 51, 8: Unused variable 'force' (unused-variable)
+R: 40, 4: Too many branches (31/12) (too-many-branches)
+R: 40, 4: Too many statements (124/50) (too-many-statements)
+R: 35, 0: Too few public methods (1/2) (too-few-public-methods)
+
+-----------------------------------
+Your code has been rated at 7.71/10
+
+************* Module ansible.plugins.lookup.template
+C: 92, 0: Line too long (103/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 35, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C: 37, 0: Import "from ansible.errors import AnsibleError" should be placed at the top of the module (wrong-import-position)
+C: 38, 0: Import "from ansible.plugins.lookup import LookupBase" should be placed at the top of the module (wrong-import-position)
+C: 39, 0: Import "from ansible.module_utils._text import to_bytes, to_text" should be placed at the top of the module (wrong-import-position)
+C: 40, 0: Import "from ansible.template import generate_ansible_template_vars" should be placed at the top of the module (wrong-import-position)
+C: 49, 0: Missing class docstring (missing-docstring)
+W: 85,20: Redefining built-in 'vars' (redefined-builtin)
+R: 51, 4: Too many local variables (16/15) (too-many-locals)
+W: 51, 4: Signature differs from overridden 'run' method (signature-differs)
+C: 63,87: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C: 73,28: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+W: 78,38: Access to a protected member _basedir of a client class (protected-access)
+C: 45, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 6.36/10
+
+************* Module ansible.template.template
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+W: 35,51: Redefining built-in 'locals' (redefined-builtin)
+W: 35,26: Redefining built-in 'vars' (redefined-builtin)
+E: 42,23: Function 'vars' has no 'add_locals' member (no-member)
+
+-----------------------------------
+Your code has been rated at 3.08/10
+

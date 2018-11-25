@@ -1,0 +1,17 @@
+************* Module ansible.plugins.callback.actionable
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 27, 0: Import "from ansible import constants as C" should be placed at the top of the module (wrong-import-position)
+C: 28, 0: Import "from ansible.plugins.callback.default import CallbackModule as CallbackModule_default" should be placed at the top of the module (wrong-import-position)
+C: 31, 0: Missing class docstring (missing-docstring)
+C: 53, 4: Missing method docstring (missing-docstring)
+W: 61,33: Access to a protected member _uuid of a client class (protected-access)
+E: 67,69: Module 'ansible.constants' has no 'COLOR_DEBUG' member (no-member)
+E: 79,31: Module 'ansible.constants' has no 'DISPLAY_ARGS_TO_STDOUT' member (no-member)
+R: 69, 4: Method could be a function (no-self-use)
+W: 90,11: Access to a protected member _result of a client class (protected-access)
+W:105,11: Access to a protected member _result of a client class (protected-access)
+
+-----------------------------------
+Your code has been rated at 6.88/10
+

@@ -1,0 +1,23 @@
+************* Module ansible.modules.cloud.memset.memset_dns_reload
+C:105, 0: Line too long (106/100) (line-too-long)
+C:111, 0: Line too long (113/100) (line-too-long)
+C:114, 0: Line too long (104/100) (line-too-long)
+C:115, 0: Line too long (132/100) (line-too-long)
+C:143, 0: Unnecessary parens after 'return' keyword (superfluous-parens)
+C:154, 0: Line too long (109/100) (line-too-long)
+C:163, 0: Unnecessary parens after 'return' keyword (superfluous-parens)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 88, 0: Import "from time import sleep" should be placed at the top of the module (wrong-import-position)
+C: 90, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 91, 0: Import "from ansible.module_utils.memset import memset_api_call" should be placed at the top of the module (wrong-import-position)
+W:161,27: Use of eval (eval-used)
+W:131, 4: Unused variable 'memset_api' (unused-variable)
+W:131,21: Unused variable 'stderr' (unused-variable)
+C:166, 0: Missing function docstring (missing-docstring)
+W:167, 4: Global variable 'module' undefined at the module level (global-variable-undefined)
+C:167, 4: Constant name "module" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.05/10
+

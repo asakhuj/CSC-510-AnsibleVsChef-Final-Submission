@@ -1,0 +1,23 @@
+************* Module fleet
+C:  3, 0: Line too long (103/100) (line-too-long)
+C: 85, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 99, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 37, 0: Constant name "parser" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 42, 1: Constant name "options" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 42,10: Constant name "args" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 49, 0: Missing function docstring (missing-docstring)
+C: 58, 0: Missing function docstring (missing-docstring)
+C: 68, 0: Missing function docstring (missing-docstring)
+C: 79, 4: Constant name "ssh_config" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 80, 4: Constant name "hosts" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 91, 4: Constant name "result" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 92, 4: Constant name "ssh_config" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 94, 4: Constant name "details" doesn't conform to UPPER_CASE naming style (invalid-name)
+W: 94,14: map/filter on lambda could be replaced by comprehension (deprecated-lambda)
+C: 95, 7: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C: 97, 8: Constant name "result" doesn't conform to UPPER_CASE naming style (invalid-name)
+W: 30, 0: Unused import string (unused-import)
+
+------------------------------------------------------------------
+Your code has been rated at 6.09/10 (previous run: 6.09/10, +0.00)
+

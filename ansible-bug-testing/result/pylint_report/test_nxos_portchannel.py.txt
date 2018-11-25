@@ -1,0 +1,13 @@
+************* Module units.modules.network.nxos.test_nxos_portchannel
+C: 34, 0: Line too long (101/100) (line-too-long)
+C: 43, 0: Line too long (109/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 23, 0: Unable to import 'ansible.modules.network.nxos' (import-error)
+C: 27, 0: Missing class docstring (missing-docstring)
+R: 27, 0: Too many instance attributes (8/7) (too-many-instance-attributes)
+C: 57, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 6.00/10
+

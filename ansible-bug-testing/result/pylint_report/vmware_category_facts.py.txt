@@ -1,0 +1,11 @@
+************* Module ansible.modules.cloud.vmware.vmware_category_facts
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 10, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 92, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 93, 0: Import "from ansible.module_utils.vmware_rest_client import VmwareRestClient" should be placed at the top of the module (wrong-import-position)
+C:100, 0: Missing class docstring (missing-docstring)
+C:124, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.93/10
+

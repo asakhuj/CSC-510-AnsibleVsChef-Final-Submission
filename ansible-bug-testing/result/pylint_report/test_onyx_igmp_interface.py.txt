@@ -1,0 +1,19 @@
+************* Module units.modules.network.onyx.test_onyx_igmp_interface
+C: 36, 0: Line too long (113/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 24, 0: Unable to import 'ansible.modules.network.onyx' (import-error)
+C: 29, 0: Missing class docstring (missing-docstring)
+C: 53, 4: Method name "test_igmp_interface_enabled_no_change" doesn't conform to snake_case naming style (invalid-name)
+C: 53, 4: Missing method docstring (missing-docstring)
+C: 57, 4: Method name "test_igmp_interface_enabled_change" doesn't conform to snake_case naming style (invalid-name)
+C: 57, 4: Missing method docstring (missing-docstring)
+C: 62, 4: Method name "test_igmp_interface_disabled_no_change" doesn't conform to snake_case naming style (invalid-name)
+C: 62, 4: Missing method docstring (missing-docstring)
+C: 66, 4: Method name "test_igmp_interface_disabled_change" doesn't conform to snake_case naming style (invalid-name)
+C: 66, 4: Missing method docstring (missing-docstring)
+C: 25, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 5.00/10
+

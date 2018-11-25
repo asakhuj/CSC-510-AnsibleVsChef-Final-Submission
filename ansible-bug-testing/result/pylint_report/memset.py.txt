@@ -1,0 +1,15 @@
+************* Module ansible.module_utils.memset
+C: 73, 0: Line too long (120/100) (line-too-long)
+C: 87, 0: Line too long (154/100) (line-too-long)
+C: 89, 0: Line too long (126/100) (line-too-long)
+C:108, 0: Unnecessary parens after 'return' keyword (superfluous-parens)
+C:  1, 0: Missing module docstring (missing-docstring)
+E: 28, 0: No name 'urllib' in module '_MovedItems' (no-name-in-module)
+E: 28, 0: Unable to import 'ansible.module_utils.six.moves.urllib.parse' (import-error)
+C: 42, 4: Missing method docstring (missing-docstring)
+R: 33, 0: Too few public methods (1/2) (too-few-public-methods)
+C: 76,37: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.50/10
+

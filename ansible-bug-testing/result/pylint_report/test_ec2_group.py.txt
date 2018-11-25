@@ -1,0 +1,18 @@
+************* Module units.modules.cloud.amazon.test_ec2_group
+C: 60, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  3, 0: Unable to import 'ansible.modules.cloud.amazon' (import-error)
+C:  6, 0: Missing function docstring (missing-docstring)
+C: 56, 0: Missing function docstring (missing-docstring)
+C: 69, 0: Missing function docstring (missing-docstring)
+C: 70, 4: Missing class docstring (missing-docstring)
+C: 71, 8: Missing method docstring (missing-docstring)
+W: 71,23: Unused argument 'msg' (unused-argument)
+R: 71, 8: Method could be a function (no-self-use)
+R: 70, 4: Too few public methods (1/2) (too-few-public-methods)
+C: 79, 8: Variable name "ip" doesn't conform to snake_case naming style (invalid-name)
+W:  1, 0: Unused import pytest (unused-import)
+
+-----------------------------------
+Your code has been rated at 4.69/10
+

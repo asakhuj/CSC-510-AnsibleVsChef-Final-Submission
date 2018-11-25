@@ -1,0 +1,20 @@
+************* Module ansible.modules.network.nxos.nxos_smu
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 66, 0: Import "import collections" should be placed at the top of the module (wrong-import-position)
+C: 67, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C: 68, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C: 70, 0: Import "from ansible.module_utils.network.nxos.nxos import get_config, load_config, run_commands" should be placed at the top of the module (wrong-import-position)
+C: 71, 0: Import "from ansible.module_utils.network.nxos.nxos import nxos_argument_spec, check_args" should be placed at the top of the module (wrong-import-position)
+C: 72, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 75, 0: Missing function docstring (missing-docstring)
+C: 84, 0: Missing function docstring (missing-docstring)
+C: 92, 0: Missing function docstring (missing-docstring)
+C: 98, 0: Missing function docstring (missing-docstring)
+C:123, 0: Missing function docstring (missing-docstring)
+W: 66, 0: Unused import collections (unused-import)
+W: 67, 0: Unused import re (unused-import)
+W: 70, 0: Unused get_config imported from ansible.module_utils.network.nxos.nxos (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.62/10
+

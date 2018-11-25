@@ -1,0 +1,25 @@
+************* Module ansible.modules.cloud.openstack.os_nova_host_aggregate
+C: 67, 0: Line too long (125/100) (line-too-long)
+C: 77, 0: Line too long (107/100) (line-too-long)
+C: 78, 0: Line too long (133/100) (line-too-long)
+C:152, 0: Unnecessary parens after 'in' keyword (superfluous-parens)
+C:157, 0: Unnecessary parens after 'in' keyword (superfluous-parens)
+C:159, 0: Unnecessary parens after 'in' keyword (superfluous-parens)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 66, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 67, 0: Import "from ansible.module_utils.openstack import openstack_full_argument_spec, openstack_module_kwargs, openstack_cloud_from_module" should be placed at the top of the module (wrong-import-position)
+R: 76, 8: Too many boolean expressions in if statement (7/5) (too-many-boolean-expressions)
+C: 98, 0: Missing function docstring (missing-docstring)
+R: 98, 0: Too many local variables (17/15) (too-many-locals)
+C:127,13: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:140,24: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+R:122, 4: Too many nested blocks (7/5) (too-many-nested-blocks)
+R:122, 4: Too many nested blocks (6/5) (too-many-nested-blocks)
+C:174,53: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R: 98, 0: Too many branches (23/12) (too-many-branches)
+R: 98, 0: Too many statements (54/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 7.53/10
+

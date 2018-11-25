@@ -1,0 +1,44 @@
+************* Module ansible.plugins.inventory.tower
+C:110, 0: Line too long (103/100) (line-too-long)
+C:117, 0: Line too long (119/100) (line-too-long)
+C:139, 0: Line too long (102/100) (line-too-long)
+C:146, 0: Line too long (108/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 91, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C: 92, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C: 93, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C: 94, 0: Import "from ansible.module_utils import six" should be placed at the top of the module (wrong-import-position)
+C: 95, 0: Import "from ansible.module_utils.urls import Request, urllib_error, ConnectionError, socket, httplib" should be placed at the top of the module (wrong-import-position)
+C: 96, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 97, 0: Import "from ansible.errors import AnsibleParserError" should be placed at the top of the module (wrong-import-position)
+C: 98, 0: Import "from ansible.plugins.inventory import BaseInventoryPlugin" should be placed at the top of the module (wrong-import-position)
+C:107, 0: Missing class docstring (missing-docstring)
+C:113, 4: Missing method docstring (missing-docstring)
+R:113, 4: Too many arguments (6/5) (too-many-arguments)
+C:127,96: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:137,42: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:113, 4: Method could be a function (no-self-use)
+R:142, 8: Unnecessary "else" after "return" (no-else-return)
+
+-----------------------------------
+Your code has been rated at 6.87/10
+
+************* Module ansible.utils.module_docs_fragments.tower
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Missing class docstring (missing-docstring)
+R: 20, 0: Too few public methods (0/2) (too-few-public-methods)
+
+------------------------------------
+Your code has been rated at -5.00/10
+
+************* Module lib.cloud.tower
+C: 76, 0: Line too long (120/100) (line-too-long)
+C: 81, 0: Line too long (101/100) (line-too-long)
+C:137, 0: Line too long (125/100) (line-too-long)
+C:222, 0: Line too long (108/100) (line-too-long)
+C:239, 0: Line too long (121/100) (line-too-long)
+
+-----------------------------------
+Your code has been rated at 9.52/10
+

@@ -1,0 +1,15 @@
+************* Module ansible.modules.web_infrastructure.apache2_module
+C:207, 0: Line too long (133/100) (line-too-long)
+C:257, 0: Line too long (113/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:109, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:112, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+W:118, 4: Unused variable 'result' (unused-variable)
+W:118,20: Unused variable 'stderr' (unused-variable)
+R:123, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:241, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.72/10
+

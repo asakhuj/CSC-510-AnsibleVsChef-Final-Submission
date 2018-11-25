@@ -1,0 +1,15 @@
+************* Module ansible.modules.cloud.openstack.os_zone
+C:121, 0: Line too long (125/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:120, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:121, 0: Import "from ansible.module_utils.openstack import openstack_full_argument_spec, openstack_module_kwargs, openstack_cloud_from_module" should be placed at the top of the module (wrong-import-position)
+R:124, 0: Too many arguments (6/5) (too-many-arguments)
+R:124, 0: Too many return statements (7/6) (too-many-return-statements)
+C:141, 0: Missing function docstring (missing-docstring)
+R:141, 0: Too many local variables (16/15) (too-many-locals)
+C:209,53: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.39/10
+

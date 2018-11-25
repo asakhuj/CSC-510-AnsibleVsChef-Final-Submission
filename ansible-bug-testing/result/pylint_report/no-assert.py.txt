@@ -1,0 +1,10 @@
+************* Module no-assert
+C: 28, 0: Line too long (122/100) (line-too-long)
+C:  1, 0: Module name "no-assert" doesn't conform to snake_case naming style (invalid-name)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 11, 0: Missing function docstring (missing-docstring)
+C: 21,32: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.37/10
+

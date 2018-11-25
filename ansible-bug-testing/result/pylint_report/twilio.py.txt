@@ -1,0 +1,22 @@
+************* Module ansible.modules.notification.twilio
+C:122, 0: Wrong continued indentation (remove 1 space).
+               }
+              |^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:103, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+E:104, 0: No name 'urllib' in module '_MovedItems' (no-name-in-module)
+E:104, 0: Unable to import 'ansible.module_utils.six.moves.urllib.parse' (import-error)
+C:104, 0: Import "from ansible.module_utils.six.moves.urllib.parse import urlencode" should be placed at the top of the module (wrong-import-position)
+C:105, 0: Import "from ansible.module_utils.urls import fetch_url" should be placed at the top of the module (wrong-import-position)
+C:108, 0: Missing function docstring (missing-docstring)
+R:108, 0: Too many arguments (7/5) (too-many-arguments)
+C:110, 4: Variable name "URI" doesn't conform to snake_case naming style (invalid-name)
+C:112, 4: Variable name "AGENT" doesn't conform to snake_case naming style (invalid-name)
+C:135, 0: Missing function docstring (missing-docstring)
+C:157, 8: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+W:157, 8: Unused variable 'r' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 3.95/10
+

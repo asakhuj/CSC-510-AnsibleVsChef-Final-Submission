@@ -1,0 +1,28 @@
+************* Module test_oneview_network_set
+C: 82, 0: Wrong continued indentation (remove 1 space).
+                           )
+                          |^ (bad-continuation)
+C: 86, 0: Line too long (107/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  4, 0: Unable to import 'units.compat' (import-error)
+C: 46, 4: Method name "setUp" doesn't conform to snake_case naming style (invalid-name)
+C: 46, 4: Missing method docstring (missing-docstring)
+C: 51, 4: Method name "test_should_create_new_network_set" doesn't conform to snake_case naming style (invalid-name)
+C: 51, 4: Missing method docstring (missing-docstring)
+C: 65, 4: Method name "test_should_not_update_when_data_is_equals" doesn't conform to snake_case naming style (invalid-name)
+C: 65, 4: Missing method docstring (missing-docstring)
+C: 78, 4: Method name "test_update_when_data_has_modified_attributes" doesn't conform to snake_case naming style (invalid-name)
+C: 78, 4: Missing method docstring (missing-docstring)
+C: 98, 4: Method name "test_should_raise_exception_when_ethernet_network_not_found" doesn't conform to snake_case naming style (invalid-name)
+C: 98, 4: Missing method docstring (missing-docstring)
+C:111, 4: Missing method docstring (missing-docstring)
+C:123, 4: Method name "test_should_do_nothing_when_network_set_not_exist" doesn't conform to snake_case naming style (invalid-name)
+C:123, 4: Missing method docstring (missing-docstring)
+C:135, 4: Method name "test_update_scopes_when_different" doesn't conform to snake_case naming style (invalid-name)
+C:135, 4: Missing method docstring (missing-docstring)
+C:162, 4: Method name "test_should_do_nothing_when_scopes_are_the_same" doesn't conform to snake_case naming style (invalid-name)
+C:162, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 6.67/10
+

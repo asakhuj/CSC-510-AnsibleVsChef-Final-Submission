@@ -1,0 +1,21 @@
+************* Module ansible.modules.network.illumos.dladm_vlan
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 89, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 92, 0: Missing class docstring (missing-docstring)
+C:103, 4: Missing method docstring (missing-docstring)
+C:109, 9: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+R:111, 8: The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)
+R:111, 8: Unnecessary "else" after "return" (no-else-return)
+C:116, 4: Missing method docstring (missing-docstring)
+C:132, 4: Missing method docstring (missing-docstring)
+C:143, 4: Missing method docstring (missing-docstring)
+C:148, 0: Missing function docstring (missing-docstring)
+C:165, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:187,13: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:194,13: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+R:148, 0: Too many branches (14/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 8.05/10
+

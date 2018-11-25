@@ -1,0 +1,29 @@
+************* Module ansible.plugins.callback.stderr
+C: 63, 0: Line too long (132/100) (line-too-long)
+C: 64, 0: Line too long (133/100) (line-too-long)
+C: 67, 0: Line too long (131/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 27, 0: Import "from ansible import constants as C" should be placed at the top of the module (wrong-import-position)
+C: 28, 0: Import "from ansible.plugins.callback.default import CallbackModule as CallbackModule_default" should be placed at the top of the module (wrong-import-position)
+W: 49,25: Access to a protected member _result of a client class (protected-access)
+W: 50,28: Access to a protected member _result of a client class (protected-access)
+W: 50,44: Access to a protected member _task of a client class (protected-access)
+W: 52,71: Access to a protected member _uuid of a client class (protected-access)
+W: 52,71: Access to a protected member _task of a client class (protected-access)
+W: 53,36: Access to a protected member _task of a client class (protected-access)
+W: 55,31: Access to a protected member _result of a client class (protected-access)
+W: 56,30: Access to a protected member _result of a client class (protected-access)
+W: 58,11: Access to a protected member _task of a client class (protected-access)
+W: 58,46: Access to a protected member _result of a client class (protected-access)
+W: 63,76: Access to a protected member _host of a client class (protected-access)
+W: 64,95: Access to a protected member _result of a client class (protected-access)
+E: 64,119: Module 'ansible.constants' has no 'COLOR_ERROR' member (no-member)
+W: 67,70: Access to a protected member _host of a client class (protected-access)
+W: 67,114: Access to a protected member _result of a client class (protected-access)
+E: 68,44: Module 'ansible.constants' has no 'COLOR_ERROR' member (no-member)
+E: 71,55: Module 'ansible.constants' has no 'COLOR_SKIP' member (no-member)
+
+------------------------------------
+Your code has been rated at -3.85/10
+

@@ -1,0 +1,31 @@
+************* Module units.modules.network.f5.test_bigip_log_destination
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 17, 0: Unable to import 'ansible.module_utils.basic' (import-error)
+C: 17, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 55, 0: Constant name "fixture_path" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 56, 0: Constant name "fixture_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 59, 0: Missing function docstring (missing-docstring)
+C: 65,23: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+W: 70,11: Catching too general exception Exception (broad-except)
+C: 77, 0: Missing class docstring (missing-docstring)
+C: 78, 4: Missing method docstring (missing-docstring)
+C: 89, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+R: 78, 4: Method could be a function (no-self-use)
+C: 94, 4: Missing method docstring (missing-docstring)
+C: 96, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+R: 94, 4: Method could be a function (no-self-use)
+C:102, 0: Missing class docstring (missing-docstring)
+C:107, 4: Missing method docstring (missing-docstring)
+C:126, 8: Variable name "tm" doesn't conform to snake_case naming style (invalid-name)
+C:131, 8: Variable name "mm" doesn't conform to snake_case naming style (invalid-name)
+W:107, 0: Unused argument 'args' (unused-argument)
+W: 21, 4: Unused V2ApiParameters imported from library.modules.bigip_log_destination (unused-import)
+W: 23, 4: Unused V2ModuleParameters imported from library.modules.bigip_log_destination (unused-import)
+W: 26, 4: Unused V2Manager imported from library.modules.bigip_log_destination (unused-import)
+W: 32, 4: Unused patch imported from test.units.compat.mock (unused-import)
+C: 37, 8: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 6.15/10
+

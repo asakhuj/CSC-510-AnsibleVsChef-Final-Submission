@@ -1,0 +1,7 @@
+************* Module lib.diff
+C:190, 0: Line too long (144/100) (line-too-long)
+R: 47, 0: Too many instance attributes (11/7) (too-many-instance-attributes)
+
+-----------------------------------
+Your code has been rated at 9.85/10
+

@@ -1,0 +1,42 @@
+************* Module ansible.modules.network.dellos10.dellos10_config
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:173, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:174, 0: Import "from ansible.module_utils.network.dellos10.dellos10 import get_config, get_sublevel_config" should be placed at the top of the module (wrong-import-position)
+C:175, 0: Import "from ansible.module_utils.network.dellos10.dellos10 import dellos10_argument_spec, check_args" should be placed at the top of the module (wrong-import-position)
+C:176, 0: Import "from ansible.module_utils.network.dellos10.dellos10 import load_config, run_commands" should be placed at the top of the module (wrong-import-position)
+C:177, 0: Import "from ansible.module_utils.network.dellos10.dellos10 import WARNING_PROMPTS_RE" should be placed at the top of the module (wrong-import-position)
+C:178, 0: Import "from ansible.module_utils.network.common.config import NetworkConfig, dumps" should be placed at the top of the module (wrong-import-position)
+C:181, 0: Missing function docstring (missing-docstring)
+C:197, 0: Missing function docstring (missing-docstring)
+C:204, 0: Missing function docstring (missing-docstring)
+R:204, 0: Too many branches (16/12) (too-many-branches)
+R:204, 0: Too many statements (52/50) (too-many-statements)
+W:177, 0: Unused WARNING_PROMPTS_RE imported from ansible.module_utils.network.dellos10.dellos10 (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.25/10
+
+************* Module ansible.plugins.action.dellos10_config
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 22, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 31, 0: No name 'urllib' in module '_MovedItems' (no-name-in-module)
+E: 31, 0: Unable to import 'ansible.module_utils.six.moves.urllib.parse' (import-error)
+C: 37, 0: Missing class docstring (missing-docstring)
+W: 68,11: Access to a protected member _role of a client class (protected-access)
+W: 69,18: Access to a protected member _role_path of a client class (protected-access)
+W: 69,18: Access to a protected member _role of a client class (protected-access)
+C: 76,12: Variable name "fn" doesn't conform to snake_case naming style (invalid-name)
+C: 98,38: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+W:106,11: Access to a protected member _role of a client class (protected-access)
+W:107,30: Access to a protected member _role_path of a client class (protected-access)
+W:107,30: Access to a protected member _role of a client class (protected-access)
+W:109,28: Access to a protected member _block of a client class (protected-access)
+W:112,42: Access to a protected member _role_path of a client class (protected-access)
+R: 83, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R: 37, 0: Too few public methods (1/2) (too-few-public-methods)
+W: 32, 0: Unused merge_hash imported from ansible.utils.vars (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.18/10
+

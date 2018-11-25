@@ -1,0 +1,32 @@
+************* Module units.contrib.inventory.test_vmware_inventory
+C: 29, 0: Line too long (124/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 19, 0: Missing class docstring (missing-docstring)
+R: 19, 0: Too few public methods (0/2) (too-few-public-methods)
+W: 34, 8: Redefining name 'vmware_inventory' from outer scope (line 28) (redefined-outer-name)
+C: 28, 0: Missing function docstring (missing-docstring)
+E: 34, 8: Unable to import 'vmware_inventory' (import-error)
+W: 43,39: Redefining name 'vmware_inventory' from outer scope (line 28) (redefined-outer-name)
+C: 43, 0: Function name "test_host_info_returns_single_host" doesn't conform to snake_case naming style (invalid-name)
+C: 43, 0: Missing function docstring (missing-docstring)
+C: 46, 4: Black listed name "foo" (blacklisted-name)
+C: 47, 4: Black listed name "bar" (blacklisted-name)
+W: 52,40: Redefining name 'vmware_inventory' from outer scope (line 28) (redefined-outer-name)
+C: 52, 0: Function name "test_show_returns_serializable_data" doesn't conform to snake_case naming style (invalid-name)
+C: 52, 0: Missing function docstring (missing-docstring)
+W: 61,45: Redefining name 'vmware_inventory' from outer scope (line 28) (redefined-outer-name)
+C: 61, 0: Function name "test_show_list_returns_serializable_data" doesn't conform to snake_case naming style (invalid-name)
+C: 61, 0: Missing function docstring (missing-docstring)
+W: 71,36: Redefining name 'vmware_inventory' from outer scope (line 28) (redefined-outer-name)
+C: 71, 0: Missing function docstring (missing-docstring)
+W: 82,45: Redefining name 'vmware_inventory' from outer scope (line 28) (redefined-outer-name)
+C: 82, 0: Function name "test_show_host_returns_serializable_data" doesn't conform to snake_case naming style (invalid-name)
+C: 82, 0: Missing function docstring (missing-docstring)
+W: 92,37: Redefining name 'vmware_inventory' from outer scope (line 28) (redefined-outer-name)
+C: 92, 0: Function name "test_show_host_returns_just_host" doesn't conform to snake_case naming style (invalid-name)
+C: 92, 0: Missing function docstring (missing-docstring)
+C:  4, 0: standard import "import sys" should be placed before "import pytest" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 5.63/10
+

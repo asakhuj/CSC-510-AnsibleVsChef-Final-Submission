@@ -1,0 +1,15 @@
+************* Module ansible.modules.cloud.digital_ocean.digital_ocean_load_balancer_facts
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 77, 0: Import "from traceback import format_exc" should be placed at the top of the module (wrong-import-position)
+C: 78, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 79, 0: Import "from ansible.module_utils.digital_ocean import DigitalOceanHelper" should be placed at the top of the module (wrong-import-position)
+C: 80, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 83, 0: Missing function docstring (missing-docstring)
+C:103, 0: Missing function docstring (missing-docstring)
+W:112,11: Catching too general exception Exception (broad-except)
+C:112,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.97/10
+

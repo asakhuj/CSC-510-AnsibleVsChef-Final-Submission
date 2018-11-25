@@ -1,0 +1,8 @@
+************* Module ansible.parsing.utils.jsonify
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+W: 25,20: Redefining built-in 'format' (redefined-builtin)
+
+-----------------------------------
+Your code has been rated at 7.69/10
+

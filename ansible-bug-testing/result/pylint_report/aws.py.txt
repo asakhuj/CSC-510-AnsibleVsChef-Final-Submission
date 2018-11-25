@@ -1,0 +1,17 @@
+************* Module ansible.utils.module_docs_fragments.aws
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 19, 0: Missing class docstring (missing-docstring)
+R: 19, 0: Too few public methods (0/2) (too-few-public-methods)
+
+------------------------------------
+Your code has been rated at -5.00/10
+
+************* Module lib.cloud.aws
+C: 49, 0: Line too long (124/100) (line-too-long)
+C: 82, 0: Line too long (134/100) (line-too-long)
+C:104, 0: Line too long (106/100) (line-too-long)
+C:105, 0: Line too long (120/100) (line-too-long)
+
+-----------------------------------
+Your code has been rated at 9.11/10
+

@@ -1,0 +1,20 @@
+************* Module ansible.modules.remote_management.oneview.oneview_ethernet_network
+C:144, 0: Line too long (112/100) (line-too-long)
+C:148, 0: Line too long (114/100) (line-too-long)
+C:177, 0: Line too long (107/100) (line-too-long)
+C:213, 0: Line too long (129/100) (line-too-long)
+C:222, 0: Line too long (117/100) (line-too-long)
+C:240, 0: Line too long (123/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:123, 0: Import "from ansible.module_utils.oneview import OneViewModuleBase, OneViewModuleResourceNotFound" should be placed at the top of the module (wrong-import-position)
+C:126, 0: Missing class docstring (missing-docstring)
+R:160,12: Unnecessary "else" after "return" (no-else-return)
+R:152, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:201,15: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+R:227, 8: Unnecessary "else" after "return" (no-else-return)
+C:246, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.31/10
+

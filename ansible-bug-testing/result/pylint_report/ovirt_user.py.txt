@@ -1,0 +1,14 @@
+************* Module ansible.modules.cloud.ovirt.ovirt_user
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 92, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C: 99, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:100, 0: Import "from ansible.module_utils.ovirt import BaseModule, check_sdk, check_params, create_connection, ovirt_full_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:109, 0: Missing function docstring (missing-docstring)
+C:113, 0: Missing class docstring (missing-docstring)
+C:126, 0: Missing function docstring (missing-docstring)
+W:169,11: Catching too general exception Exception (broad-except)
+C:169,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.63/10
+

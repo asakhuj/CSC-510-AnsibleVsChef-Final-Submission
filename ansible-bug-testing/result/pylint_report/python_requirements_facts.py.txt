@@ -1,0 +1,17 @@
+************* Module ansible.modules.system.python_requirements_facts
+C:121, 0: Line too long (111/100) (line-too-long)
+C:137, 0: Line too long (127/100) (line-too-long)
+C:140, 0: Line too long (134/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 89, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C: 90, 0: Import "import sys" should be placed at the top of the module (wrong-import-position)
+C: 91, 0: Import "import operator" should be placed at the top of the module (wrong-import-position)
+C:101, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:103, 0: Constant name "operations" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:112, 0: Missing function docstring (missing-docstring)
+C:138,13: Variable name "op" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.27/10
+

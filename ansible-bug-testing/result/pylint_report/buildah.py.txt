@@ -1,0 +1,19 @@
+************* Module ansible.plugins.connection.buildah
+C:125, 0: Line too long (108/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 11, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 44, 0: Import "import shlex" should be placed at the top of the module (wrong-import-position)
+C: 45, 0: Import "import shutil" should be placed at the top of the module (wrong-import-position)
+C: 47, 0: Import "import subprocess" should be placed at the top of the module (wrong-import-position)
+C: 49, 0: Import "import ansible.constants as C" should be placed at the top of the module (wrong-import-position)
+C: 50, 0: Import "from ansible.module_utils._text import to_bytes, to_native" should be placed at the top of the module (wrong-import-position)
+C: 51, 0: Import "from ansible.plugins.connection import ConnectionBase, ensure_connect" should be placed at the top of the module (wrong-import-position)
+C:101, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:115, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:128, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:164, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C: 57, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 7.81/10
+

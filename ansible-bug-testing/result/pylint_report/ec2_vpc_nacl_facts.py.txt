@@ -1,0 +1,19 @@
+************* Module ansible.modules.cloud.amazon.ec2_vpc_nacl_facts
+C:134, 0: Line too long (103/100) (line-too-long)
+C:137, 0: Line too long (103/100) (line-too-long)
+C:168, 0: Line too long (112/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:104, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:111, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:112, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:113, 0: Import "from ansible.module_utils.ec2 import ec2_argument_spec, boto3_conn, get_aws_connection_info, ansible_dict_to_boto3_filter_list, HAS_BOTO3, camel_dict_to_snake_dict, boto3_tag_list_to_ansible_dict" should be placed at the top of the module (wrong-import-position)
+C:123, 0: Missing function docstring (missing-docstring)
+C:133,26: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:136,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:165, 0: Missing function docstring (missing-docstring)
+C:203, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.18/10
+

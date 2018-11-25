@@ -1,0 +1,13 @@
+************* Module ansible.modules.network.vyos.vyos_lldp
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 65, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 66, 0: Import "from ansible.module_utils.network.vyos.vyos import get_config, load_config" should be placed at the top of the module (wrong-import-position)
+C: 67, 0: Import "from ansible.module_utils.network.vyos.vyos import vyos_argument_spec" should be placed at the top of the module (wrong-import-position)
+C: 70, 0: Missing function docstring (missing-docstring)
+R: 73, 4: The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)
+R: 73, 4: Unnecessary "else" after "return" (no-else-return)
+C:101, 4: Variable name "HAS_LLDP" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.65/10
+

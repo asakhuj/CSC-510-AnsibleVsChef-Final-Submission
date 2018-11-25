@@ -1,0 +1,13 @@
+************* Module ansible.modules.cloud.vmware.vmware_local_user_facts
+C: 98, 0: Line too long (123/100) (line-too-long)
+C:114, 0: Line too long (118/100) (line-too-long)
+C:135, 0: Line too long (125/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 85, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 86, 0: Import "from ansible.module_utils.vmware import PyVmomi, vmware_argument_spec" should be placed at the top of the module (wrong-import-position)
+C: 87, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+
+-----------------------------------
+Your code has been rated at 8.81/10
+

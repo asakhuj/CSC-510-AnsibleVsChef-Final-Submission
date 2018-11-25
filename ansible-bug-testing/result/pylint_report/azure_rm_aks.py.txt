@@ -1,0 +1,47 @@
+************* Module ansible.modules.cloud.azure.azure_rm_aks
+C:205, 0: Line too long (101/100) (line-too-long)
+C:279, 0: Line too long (107/100) (line-too-long)
+C:326, 0: Wrong hanging indentation (remove 18 spaces).
+                          'StorageAccount', 'ManagedDisks']),
+        |                 ^ (bad-continuation)
+C:392, 0: Wrong hanging indentation (add 3 spaces).
+             'dns_prefix', 'linux_profile', 'agent_pool_profiles', 'service_principal'])
+             ^  | (bad-continuation)
+C:419, 0: Line too long (104/100) (line-too-long)
+C:450, 0: Line too long (116/100) (line-too-long)
+C:454, 0: Line too long (118/100) (line-too-long)
+C:455, 0: Line too long (110/100) (line-too-long)
+C:459, 0: Line too long (130/100) (line-too-long)
+C:481, 0: Line too long (113/100) (line-too-long)
+C:482, 0: Line too long (103/100) (line-too-long)
+C:483, 0: Line too long (115/100) (line-too-long)
+C:484, 0: Line too long (118/100) (line-too-long)
+C:486, 0: Line too long (136/100) (line-too-long)
+C:517, 0: Line too long (110/100) (line-too-long)
+C:550, 0: Line too long (127/100) (line-too-long)
+C:560, 0: Line too long (111/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:168, 0: Import "from ansible.module_utils.azure_rm_common import AzureRMModuleBase" should be placed at the top of the module (wrong-import-position)
+C:169, 0: Import "import base64" should be placed at the top of the module (wrong-import-position)
+C:183, 0: Function name "create_agent_pool_profile_instance" doesn't conform to snake_case naming style (invalid-name)
+C:202, 0: Function name "create_service_principal_profile_instance" doesn't conform to snake_case naming style (invalid-name)
+C:226, 0: Function name "create_ssh_configuration_instance" doesn't conform to snake_case naming style (invalid-name)
+C:275, 0: Function name "create_service_principal_profile_dict" doesn't conform to snake_case naming style (invalid-name)
+C:306, 0: Constant name "linux_profile_spec" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:312, 0: Constant name "service_principal_spec" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:318, 0: Constant name "agent_pool_profile_spec" doesn't conform to UPPER_CASE naming style (invalid-name)
+R:332, 0: Too many instance attributes (13/7) (too-many-instance-attributes)
+W:439,53: Redefining built-in 'property' (redefined-builtin)
+C:439,20: Missing function docstring (missing-docstring)
+R:442,24: Unnecessary "else" after "return" (no-else-return)
+E:476,44: Non-iterable value self.agent_pool_profiles is used in an iterating context (not-an-iterable)
+R:479,35: Too many boolean expressions in if statement (6/5) (too-many-boolean-expressions)
+R:402, 4: Too many branches (23/12) (too-many-branches)
+E:527,40: Non-iterable value self.agent_pool_profiles is used in an iterating context (not-an-iterable)
+C:570,29: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:169, 0: standard import "import base64" should be placed before "from ansible.module_utils.azure_rm_common import AzureRMModuleBase" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 7.11/10
+

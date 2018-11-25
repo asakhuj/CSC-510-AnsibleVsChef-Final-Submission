@@ -1,0 +1,27 @@
+************* Module ansible.module_utils.oneandone
+C:227, 0: Line too long (102/100) (line-too-long)
+C:228, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 29, 0: Missing class docstring (missing-docstring)
+C: 29, 0: Old-style class defined. (old-style-class)
+W: 29, 0: Class has no __init__ method (no-init)
+R: 29, 0: Too few public methods (0/2) (too-few-public-methods)
+C: 41, 0: Missing function docstring (missing-docstring)
+R: 57, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R: 69, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R: 82, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R: 94, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:107, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:120, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:133, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:146, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:158, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:170, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:183, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:195, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:207, 0: Function name "wait_for_resource_creation_completion" doesn't conform to snake_case naming style (invalid-name)
+C:245, 0: Function name "wait_for_resource_deletion_completion" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.10/10
+

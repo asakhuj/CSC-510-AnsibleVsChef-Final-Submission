@@ -1,0 +1,13 @@
+************* Module units.modules.network.slxos.test_slxos_facts
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 23, 0: Unable to import 'ansible.modules.network.slxos' (import-error)
+C: 28, 0: Missing class docstring (missing-docstring)
+C: 42, 8: Missing function docstring (missing-docstring)
+W: 42, 0: Unused argument 'kwargs' (unused-argument)
+C: 53, 4: Missing method docstring (missing-docstring)
+C: 24, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 5.86/10
+

@@ -1,0 +1,14 @@
+************* Module validate-modules.test_validate_modules_regex
+C: 48, 0: Line too long (114/100) (line-too-long)
+C: 50, 0: Line too long (123/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+E: 12, 0: Unable to import 'ansible.compat.tests' (import-error)
+C: 23, 0: Missing class docstring (missing-docstring)
+C: 25, 4: Missing method docstring (missing-docstring)
+W: 54,12: Unused variable 'idc' (unused-variable)
+R: 25, 4: Method could be a function (no-self-use)
+R: 23, 0: Too few public methods (1/2) (too-few-public-methods)
+
+-----------------------------------
+Your code has been rated at 0.71/10
+

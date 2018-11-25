@@ -1,0 +1,17 @@
+************* Module ansible.modules.network.aci.aci_aaa_user
+C:257, 0: Line too long (108/100) (line-too-long)
+C:302, 0: Line too long (102/100) (line-too-long)
+C:304, 0: Line too long (107/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:240, 0: Import "from ansible.module_utils.network.aci.aci import ACIModule, aci_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:241, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:251, 0: Missing function docstring (missing-docstring)
+R:251, 0: Too many local variables (18/15) (too-many-locals)
+W:303,15: Catching too general exception Exception (broad-except)
+C:303,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:290, 4: Unused variable 'description' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 7.65/10
+

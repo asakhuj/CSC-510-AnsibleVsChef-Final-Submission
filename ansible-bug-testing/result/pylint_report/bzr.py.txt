@@ -1,0 +1,31 @@
+************* Module ansible.modules.source_control.bzr
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 61, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C: 62, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C: 64, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 67, 0: Missing class docstring (missing-docstring)
+R: 68, 4: Too many arguments (6/5) (too-many-arguments)
+C: 76, 9: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C: 83, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W: 83,20: Unused variable 'stderr' (unused-variable)
+W: 83, 8: Unused variable 'rc' (unused-variable)
+W: 92, 8: No exception type(s) specified (bare-except)
+C:100, 4: Missing method docstring (missing-docstring)
+C:103, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W:106,16: map/filter on lambda could be replaced by comprehension (deprecated-lambda)
+W:103,20: Unused variable 'stderr' (unused-variable)
+W:103, 8: Unused variable 'rc' (unused-variable)
+C:122,13: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:124,13: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:140, 0: Missing function docstring (missing-docstring)
+C:159, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:168, 9: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:174, 9: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:177, 9: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:183, 5: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W:159, 8: Unused variable 'out' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 6.94/10
+

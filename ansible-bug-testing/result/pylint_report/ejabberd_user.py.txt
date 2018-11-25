@@ -1,0 +1,31 @@
+************* Module ansible.modules.web_infrastructure.ejabberd_user
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 72, 0: Unable to import 'syslog' (import-error)
+C: 72, 0: Import "import syslog" should be placed at the top of the module (wrong-import-position)
+C: 74, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:106,13: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:108,13: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W:106,22: Unused variable 'err' (unused-variable)
+W:106,17: Unused variable 'out' (unused-variable)
+C:119,13: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:121,13: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W:119,22: Unused variable 'err' (unused-variable)
+W:119,17: Unused variable 'out' (unused-variable)
+W:127,42: Access to a protected member _name of a client class (protected-access)
+C:147,13: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:149,13: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:158,13: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:160,13: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:168,13: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:170,13: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:174, 0: Missing function docstring (missing-docstring)
+C:188, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:195,13: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:203,13: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:207,13: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W:195,17: Unused variable 'out' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 6.74/10
+

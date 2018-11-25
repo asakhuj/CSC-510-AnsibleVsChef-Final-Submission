@@ -1,0 +1,32 @@
+************* Module ansible.module_utils.network.slxos.slxos
+C:  1, 0: Missing module docstring (missing-docstring)
+W: 46,45: Access to a protected member _socket_path of a client class (protected-access)
+W: 67,30: Access to a protected member _socket_path of a client class (protected-access)
+W: 21, 0: Unused ComplexList imported from ansible.module_utils.network.common.utils (unused-import)
+
+-----------------------------------
+Your code has been rated at 9.20/10
+
+************* Module ansible.plugins.cliconf.slxos
+C: 91, 0: Line too long (119/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 32, 0: Missing class docstring (missing-docstring)
+C: 34, 4: Missing method docstring (missing-docstring)
+W: 61, 4: Parameters differ from overridden 'get_config' method (arguments-differ)
+W: 75, 4: Parameters differ from overridden 'edit_config' method (arguments-differ)
+R: 90, 4: Too many arguments (6/5) (too-many-arguments)
+W: 90, 4: Parameters differ from overridden 'get' method (arguments-differ)
+W: 27, 0: Unused to_bytes imported from ansible.module_utils._text (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.28/10
+
+************* Module ansible.plugins.terminal.slxos
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 28, 0: Missing class docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.69/10
+

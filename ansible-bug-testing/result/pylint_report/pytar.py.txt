@@ -1,0 +1,8 @@
+************* Module lib.pytar
+R: 19, 0: Too few public methods (1/2) (too-few-public-methods)
+R: 30, 0: Too few public methods (1/2) (too-few-public-methods)
+R: 83, 0: Too few public methods (1/2) (too-few-public-methods)
+
+-----------------------------------
+Your code has been rated at 9.27/10
+

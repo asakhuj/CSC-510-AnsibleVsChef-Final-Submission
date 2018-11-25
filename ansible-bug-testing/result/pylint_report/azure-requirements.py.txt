@@ -1,0 +1,10 @@
+************* Module azure-requirements
+C: 16, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 21, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 24, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:  1, 0: Module name "azure-requirements" doesn't conform to snake_case naming style (invalid-name)
+C:  8, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 6.88/10
+

@@ -1,0 +1,9 @@
+************* Module ansible.module_utils.facts.system.date_time
+C: 47, 0: Line too long (129/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 19, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 27, 0: Missing class docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.82/10
+

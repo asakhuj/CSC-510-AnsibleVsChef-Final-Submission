@@ -1,0 +1,20 @@
+************* Module ansible.modules.cloud.azure.azure_rm_virtualmachine_extension
+C:269, 0: Line too long (151/100) (line-too-long)
+C:284, 0: Line too long (133/100) (line-too-long)
+C:298, 0: Line too long (132/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:120, 0: Import "from ansible.module_utils.azure_rm_common import AzureRMModuleBase" should be placed at the top of the module (wrong-import-position)
+R:147, 0: Too many instance attributes (12/7) (too-many-instance-attributes)
+E:269,106: Instance of 'AzureRMVMExtension' has no 'virtual_machine_name' member (no-member)
+C:273,29: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+E:284,96: Instance of 'AzureRMVMExtension' has no 'virtual_machine_name' member (no-member)
+C:286,29: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+E:298,95: Instance of 'AzureRMVMExtension' has no 'virtual_machine_name' member (no-member)
+C:300,29: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:302, 8: Unnecessary "else" after "return" (no-else-return)
+W:300,29: Unused variable 'e' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 6.90/10
+

@@ -1,0 +1,21 @@
+************* Module ansible.modules.source_control.gitlab_hooks
+C:203, 0: Line too long (121/100) (line-too-long)
+C:286, 0: Line too long (106/100) (line-too-long)
+C:291, 0: Line too long (114/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 10, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:172, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C:174, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:175, 0: Import "from copy import deepcopy" should be placed at the top of the module (wrong-import-position)
+C:177, 0: Import "from ansible.module_utils.gitlab import request" should be placed at the top of the module (wrong-import-position)
+R:185, 0: Too many arguments (6/5) (too-many-arguments)
+R:195, 0: Too many arguments (6/5) (too-many-arguments)
+R:206, 0: Too many arguments (6/5) (too-many-arguments)
+W:211,20: Redefining built-in 'input' (redefined-builtin)
+W:263, 4: Redefining built-in 'input' (redefined-builtin)
+C:225, 0: Missing function docstring (missing-docstring)
+C:175, 0: standard import "from copy import deepcopy" should be placed before "from ansible.module_utils.basic import AnsibleModule" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 7.89/10
+

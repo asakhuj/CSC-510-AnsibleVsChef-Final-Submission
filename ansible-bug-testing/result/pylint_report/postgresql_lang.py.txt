@@ -1,0 +1,24 @@
+************* Module ansible.modules.database.postgresql.postgresql_lang
+C:234, 0: Line too long (114/100) (line-too-long)
+C:262, 0: Line too long (116/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:132, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:137, 4: Constant name "postgresqldb_found" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:139, 4: Constant name "postgresqldb_found" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:141, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:142, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+W:184, 4: No exception type(s) specified (bare-except)
+C:192, 0: Missing function docstring (missing-docstring)
+R:192, 0: Too many local variables (16/15) (too-many-locals)
+C:210, 4: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+C:228, 4: Variable name "kw" doesn't conform to snake_case naming style (invalid-name)
+W:233,11: Catching too general exception Exception (broad-except)
+C:233,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:236, 4: Variable name "kw" doesn't conform to snake_case naming style (invalid-name)
+R:192, 0: Too many branches (17/12) (too-many-branches)
+R:192, 0: Too many statements (51/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 7.93/10
+

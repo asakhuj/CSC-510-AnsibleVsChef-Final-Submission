@@ -1,0 +1,12 @@
+************* Module ansible.modules.net_tools.nios.nios_aaaa_record
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:120, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:121, 0: Import "from ansible.module_utils.six import iteritems" should be placed at the top of the module (wrong-import-position)
+C:122, 0: Import "from ansible.module_utils.net_tools.nios.api import WapiModule" should be placed at the top of the module (wrong-import-position)
+C:123, 0: Import "from ansible.module_utils.net_tools.nios.api import NIOS_AAAA_RECORD" should be placed at the top of the module (wrong-import-position)
+W:121, 0: Unused iteritems imported from ansible.module_utils.six (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.67/10
+

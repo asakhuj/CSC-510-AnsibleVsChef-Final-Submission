@@ -1,0 +1,19 @@
+************* Module test_jenkins_plugin
+C:124, 0: Wrong continued indentation (remove 1 space).
+               }
+              |^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  3, 0: Unable to import 'ansible.modules.web_infrastructure.jenkins_plugin' (import-error)
+E:  4, 0: Unable to import 'ansible.module_utils.common._collections_compat' (import-error)
+C:  7, 0: Missing function docstring (missing-docstring)
+W:  7, 0: Unused argument 'args' (unused-argument)
+W:  7, 0: Unused argument 'kwargs' (unused-argument)
+W:138, 4: Access to a protected member _csrf_enabled of a client class (protected-access)
+W:139, 4: Access to a protected member _get_installed_plugins of a client class (protected-access)
+W:140, 4: Access to a protected member _get_url_data of a client class (protected-access)
+W:141, 4: Access to a protected member _get_url_data of a client class (protected-access)
+W:144,16: Access to a protected member _get_json_data of a client class (protected-access)
+
+------------------------------------
+Your code has been rated at -1.11/10
+

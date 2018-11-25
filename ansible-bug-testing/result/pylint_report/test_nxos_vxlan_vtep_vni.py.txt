@@ -1,0 +1,16 @@
+************* Module units.modules.network.nxos.test_nxos_vxlan_vtep_vni
+C: 34, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 23, 0: Unable to import 'ansible.modules.network.nxos' (import-error)
+C: 27, 0: Missing class docstring (missing-docstring)
+C: 49, 4: Method name "test_nxos_vxlan_vtep_vni_present_no_change" doesn't conform to snake_case naming style (invalid-name)
+C: 49, 4: Missing method docstring (missing-docstring)
+C: 53, 4: Missing method docstring (missing-docstring)
+C: 57, 4: Missing method docstring (missing-docstring)
+C: 61, 4: Method name "test_nxos_vxlan_vtep_vni_absent_no_change" doesn't conform to snake_case naming style (invalid-name)
+C: 61, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 5.31/10
+

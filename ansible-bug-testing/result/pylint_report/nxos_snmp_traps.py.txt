@@ -1,0 +1,19 @@
+************* Module ansible.modules.network.nxos.nxos_snmp_traps
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 79, 0: Import "from ansible.module_utils.network.nxos.nxos import load_config, run_commands" should be placed at the top of the module (wrong-import-position)
+C: 80, 0: Import "from ansible.module_utils.network.nxos.nxos import nxos_argument_spec, check_args" should be placed at the top of the module (wrong-import-position)
+C: 81, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 84, 0: Missing function docstring (missing-docstring)
+C: 93, 0: Missing function docstring (missing-docstring)
+C:103, 0: Missing function docstring (missing-docstring)
+C:117,19: Comparison should be line == 'snmp-server enable traps ospf' (misplaced-comparison-constant)
+R:138, 4: Unnecessary "else" after "return" (no-else-return)
+R:103, 0: Too many branches (13/12) (too-many-branches)
+C:149, 0: Missing function docstring (missing-docstring)
+R:169,12: The if statement can be replaced with 'var = bool(test)' (simplifiable-if-statement)
+R:149, 0: Too many branches (13/12) (too-many-branches)
+C:185, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.46/10
+

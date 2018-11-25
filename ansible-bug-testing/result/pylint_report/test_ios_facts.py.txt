@@ -1,0 +1,21 @@
+************* Module units.modules.network.ios.test_ios_facts
+C: 62, 0: Line too long (124/100) (line-too-long)
+C: 65, 0: Line too long (116/100) (line-too-long)
+C: 72, 0: Line too long (115/100) (line-too-long)
+C: 75, 0: Line too long (113/100) (line-too-long)
+C: 85, 0: Line too long (109/100) (line-too-long)
+C: 88, 0: Line too long (108/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 18, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 21, 0: Unable to import 'ansible.modules.network.ios' (import-error)
+C: 26, 0: Missing class docstring (missing-docstring)
+C: 40, 8: Missing function docstring (missing-docstring)
+W: 41,12: Unused variable 'module' (unused-variable)
+C: 52, 4: Missing method docstring (missing-docstring)
+C: 68, 4: Missing method docstring (missing-docstring)
+C: 81, 4: Missing method docstring (missing-docstring)
+C: 22, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 5.35/10
+

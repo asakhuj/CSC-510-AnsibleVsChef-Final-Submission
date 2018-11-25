@@ -1,0 +1,19 @@
+************* Module ansible.modules.network.cloudengine.ce_command
+C:  1, 0: Missing module docstring (missing-docstring)
+C:145, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C:146, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:148, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:149, 0: Import "from ansible.module_utils.network.cloudengine.ce import ce_argument_spec, check_args" should be placed at the top of the module (wrong-import-position)
+C:150, 0: Import "from ansible.module_utils.network.cloudengine.ce import run_commands" should be placed at the top of the module (wrong-import-position)
+C:151, 0: Import "from ansible.module_utils.network.common.parsing import Conditional" should be placed at the top of the module (wrong-import-position)
+C:152, 0: Import "from ansible.module_utils.network.common.utils import ComplexList" should be placed at the top of the module (wrong-import-position)
+C:153, 0: Import "from ansible.module_utils.six import string_types" should be placed at the top of the module (wrong-import-position)
+C:154, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:157, 0: Missing function docstring (missing-docstring)
+C:166, 0: Missing function docstring (missing-docstring)
+C:186, 0: Missing function docstring (missing-docstring)
+R:191, 0: Too many local variables (16/15) (too-many-locals)
+
+-----------------------------------
+Your code has been rated at 7.91/10
+

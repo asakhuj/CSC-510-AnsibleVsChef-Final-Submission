@@ -1,0 +1,28 @@
+************* Module ansible.modules.network.aos._aos_blueprint
+C:140, 0: Line too long (105/100) (line-too-long)
+C:197, 0: Line too long (114/100) (line-too-long)
+C:200, 0: Line too long (138/100) (line-too-long)
+C:204, 0: Line too long (115/100) (line-too-long)
+C:257, 0: Line too long (102/100) (line-too-long)
+C:283, 0: Wrong continued indentation (add 7 spaces).
+                default='present'),
+                ^      | (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:139, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:140, 0: Import "from ansible.module_utils.network.aos.aos import get_aos_session, check_aos_version, find_collection_item" should be placed at the top of the module (wrong-import-position)
+C:143, 0: Missing function docstring (missing-docstring)
+W:155,11: Catching too general exception Exception (broad-except)
+C:165, 0: Missing function docstring (missing-docstring)
+W:175,19: Catching too general exception Exception (broad-except)
+W:165,26: Unused argument 'aos' (unused-argument)
+C:183, 0: Missing function docstring (missing-docstring)
+C:218, 0: Missing function docstring (missing-docstring)
+W:218,31: Unused argument 'aos' (unused-argument)
+C:231, 0: Missing function docstring (missing-docstring)
+W:237, 4: No exception type(s) specified (bare-except)
+W:256, 4: No exception type(s) specified (bare-except)
+C:275, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.24/10
+

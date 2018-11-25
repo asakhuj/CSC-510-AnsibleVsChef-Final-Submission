@@ -1,0 +1,16 @@
+************* Module ansible.modules.cloud.cloudstack.cs_vmsnapshot
+C:235, 0: Line too long (119/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:164, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:165, 0: Import "from ansible.module_utils.cloudstack import AnsibleCloudStack, cs_argument_spec, cs_required_together" should be placed at the top of the module (wrong-import-position)
+C:172, 0: Missing class docstring (missing-docstring)
+C:181, 4: Missing method docstring (missing-docstring)
+C:194, 4: Missing method docstring (missing-docstring)
+C:217, 4: Missing method docstring (missing-docstring)
+C:229, 4: Missing method docstring (missing-docstring)
+R:229, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:248, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.36/10
+

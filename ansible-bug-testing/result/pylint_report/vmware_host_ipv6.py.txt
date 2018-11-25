@@ -1,0 +1,35 @@
+************* Module ansible.modules.cloud.vmware.vmware_host_ipv6
+C:115, 0: Line too long (101/100) (line-too-long)
+C:136, 0: Line too long (116/100) (line-too-long)
+C:140, 0: Line too long (116/100) (line-too-long)
+C:151, 0: Line too long (106/100) (line-too-long)
+C:153, 0: Line too long (115/100) (line-too-long)
+C:156, 0: Line too long (104/100) (line-too-long)
+C:159, 0: Line too long (105/100) (line-too-long)
+C:162, 0: Line too long (105/100) (line-too-long)
+C:165, 0: Line too long (105/100) (line-too-long)
+C:170, 0: Line too long (110/100) (line-too-long)
+C:175, 0: Line too long (114/100) (line-too-long)
+C:178, 0: Line too long (104/100) (line-too-long)
+C:179, 0: Line too long (104/100) (line-too-long)
+C:189, 0: Line too long (107/100) (line-too-long)
+C:191, 0: Line too long (115/100) (line-too-long)
+C:194, 0: Line too long (104/100) (line-too-long)
+C:197, 0: Line too long (106/100) (line-too-long)
+C:200, 0: Line too long (106/100) (line-too-long)
+C:203, 0: Line too long (106/100) (line-too-long)
+C:208, 0: Line too long (111/100) (line-too-long)
+C:233, 0: Wrong continued indentation (remove 1 space).
+                           )
+                          |^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:104, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:105, 0: Import "from ansible.module_utils.vmware import PyVmomi, vmware_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:106, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+R:119, 4: Too many branches (24/12) (too-many-branches)
+R:119, 4: Too many statements (78/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 7.14/10
+

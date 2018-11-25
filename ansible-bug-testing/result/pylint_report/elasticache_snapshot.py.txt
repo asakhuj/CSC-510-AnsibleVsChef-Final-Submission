@@ -1,0 +1,20 @@
+************* Module ansible.modules.cloud.amazon.elasticache_snapshot
+C:124, 0: Line too long (117/100) (line-too-long)
+C:165, 0: Line too long (140/100) (line-too-long)
+C:200, 0: Line too long (152/100) (line-too-long)
+C:211, 0: Line too long (107/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:114, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:123, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:124, 0: Import "from ansible.module_utils.ec2 import boto3_conn, get_aws_connection_info, ec2_argument_spec, camel_dict_to_snake_dict" should be placed at the top of the module (wrong-import-position)
+C:134,46: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:150,46: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:150,46: Unused variable 'e' (unused-variable)
+C:160,46: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:172, 0: Missing function docstring (missing-docstring)
+W:117, 4: Unused import boto3 (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.03/10
+

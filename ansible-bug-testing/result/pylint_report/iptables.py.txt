@@ -1,0 +1,40 @@
+************* Module ansible.modules.system.iptables
+C:497, 0: Unnecessary parens after 'return' keyword (superfluous-parens)
+C:540, 0: Line too long (109/100) (line-too-long)
+C:554, 0: Wrong hanging indentation (remove 1 space).
+                                flags=dict(type='list'),
+                               |^ (bad-continuation)
+C:555, 0: Wrong hanging indentation (remove 1 space).
+                                flags_set=dict(type='list'))
+                               |^ (bad-continuation)
+C:556, 0: Wrong continued indentation (remove 1 space).
+                           ),
+                          |^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:375, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:377, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:391, 0: Missing function docstring (missing-docstring)
+C:403, 0: Missing function docstring (missing-docstring)
+C:409, 0: Missing function docstring (missing-docstring)
+C:416, 0: Missing function docstring (missing-docstring)
+C:421, 0: Missing function docstring (missing-docstring)
+C:426, 0: Missing function docstring (missing-docstring)
+C:431, 0: Missing function docstring (missing-docstring)
+C:483, 0: Missing function docstring (missing-docstring)
+C:494, 0: Missing function docstring (missing-docstring)
+C:496, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:500, 0: Missing function docstring (missing-docstring)
+C:505, 0: Missing function docstring (missing-docstring)
+C:510, 0: Missing function docstring (missing-docstring)
+C:515, 0: Missing function docstring (missing-docstring)
+C:520, 0: Missing function docstring (missing-docstring)
+C:526, 0: Missing function docstring (missing-docstring)
+C:528, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W:528, 4: Unused variable 'rc' (unused-variable)
+C:536, 0: Missing function docstring (missing-docstring)
+R:536, 0: Too many branches (13/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 8.04/10
+

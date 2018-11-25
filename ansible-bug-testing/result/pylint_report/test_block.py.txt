@@ -1,0 +1,28 @@
+************* Module units.playbook.test_block
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 23, 0: Unable to import 'ansible.playbook.block' (import-error)
+E: 24, 0: Unable to import 'ansible.playbook.task' (import-error)
+C: 27, 0: Missing class docstring (missing-docstring)
+C: 35, 4: Missing method docstring (missing-docstring)
+C: 36, 8: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+W: 36, 8: Unused variable 'b' (unused-variable)
+R: 35, 4: Method could be a function (no-self-use)
+C: 38, 4: Missing method docstring (missing-docstring)
+C: 41, 4: Missing method docstring (missing-docstring)
+C: 42, 8: Variable name "ds" doesn't conform to snake_case naming style (invalid-name)
+C: 48, 8: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+C: 55, 4: Missing method docstring (missing-docstring)
+C: 56, 8: Variable name "ds" doesn't conform to snake_case naming style (invalid-name)
+C: 62, 8: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+C: 73, 4: Missing method docstring (missing-docstring)
+C: 74, 8: Variable name "ds" doesn't conform to snake_case naming style (invalid-name)
+C: 75, 8: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+C: 79, 4: Missing method docstring (missing-docstring)
+C: 80, 8: Variable name "ds" doesn't conform to snake_case naming style (invalid-name)
+C: 85, 8: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+W: 88,30: Access to a protected member _parent of a client class (protected-access)
+
+-----------------------------------
+Your code has been rated at 2.25/10
+

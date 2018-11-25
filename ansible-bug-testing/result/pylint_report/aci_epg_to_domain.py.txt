@@ -1,0 +1,16 @@
+************* Module ansible.modules.network.aci.aci_epg_to_domain
+C:277, 0: Line too long (114/100) (line-too-long)
+C:279, 0: Line too long (116/100) (line-too-long)
+C:280, 0: Line too long (121/100) (line-too-long)
+C:289, 0: Line too long (136/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:259, 0: Import "from ansible.module_utils.network.aci.aci import ACIModule, aci_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:260, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:273, 0: Missing function docstring (missing-docstring)
+R:273, 0: Too many local variables (18/15) (too-many-locals)
+C:305, 4: Variable name "ap" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.96/10
+

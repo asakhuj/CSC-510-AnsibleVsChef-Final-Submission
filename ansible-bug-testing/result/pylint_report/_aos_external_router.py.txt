@@ -1,0 +1,27 @@
+************* Module ansible.modules.network.aos._aos_external_router
+C:156, 0: Line too long (140/100) (line-too-long)
+C:223, 0: Line too long (102/100) (line-too-long)
+C:252, 0: Line too long (133/100) (line-too-long)
+C:256, 0: Line too long (128/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:152, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C:153, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C:155, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:156, 0: Import "from ansible.module_utils.network.aos.aos import get_aos_session, find_collection_item, do_load_resource, check_aos_version, content_to_dict" should be placed at the top of the module (wrong-import-position)
+C:159, 0: Missing function docstring (missing-docstring)
+W:159,26: Unused argument 'module' (unused-argument)
+C:174, 0: Missing function docstring (missing-docstring)
+W:191, 8: No exception type(s) specified (bare-except)
+W:174,30: Unused argument 'aos' (unused-argument)
+C:200, 0: Missing function docstring (missing-docstring)
+W:222,12: No exception type(s) specified (bare-except)
+R:200, 0: Too many branches (15/12) (too-many-branches)
+C:268, 0: Missing function docstring (missing-docstring)
+W:274, 4: No exception type(s) specified (bare-except)
+W:302, 4: No exception type(s) specified (bare-except)
+C:317, 0: Missing function docstring (missing-docstring)
+W:152, 0: Unused import json (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.47/10
+

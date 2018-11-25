@@ -1,0 +1,32 @@
+************* Module ansible.modules.cloud.amazon.aws_elasticbeanstalk_app
+C:  8, 0: Wrong continued indentation (remove 1 space).
+                    }
+                   |^ (bad-continuation)
+C:129, 0: Line too long (117/100) (line-too-long)
+C:179, 0: Wrong continued indentation (add 15 spaces).
+                                                    Description=description))
+                                                    ^              | (bad-continuation)
+C:209, 0: Line too long (108/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 88, 0: Import "from ansible.module_utils.aws.core import AnsibleAWSModule" should be placed at the top of the module (wrong-import-position)
+C: 89, 0: Import "from ansible.module_utils.ec2 import boto3_conn, ec2_argument_spec, get_aws_connection_info" should be placed at the top of the module (wrong-import-position)
+C: 92, 0: Missing function docstring (missing-docstring)
+C: 98, 0: Missing function docstring (missing-docstring)
+C:104,43: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:110, 0: Missing function docstring (missing-docstring)
+W:110,14: Unused argument 'ebs' (unused-argument)
+W:111, 4: Unused variable 'app_name' (unused-variable)
+C:134, 0: Missing function docstring (missing-docstring)
+C:136,11: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:142, 0: Missing function docstring (missing-docstring)
+C:180,51: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:193,55: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:213,36: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:215,34: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:178,16: Unused variable 'create_app' (unused-variable)
+R:142, 0: Too many branches (18/12) (too-many-branches)
+R:142, 0: Too many statements (56/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 7.65/10
+

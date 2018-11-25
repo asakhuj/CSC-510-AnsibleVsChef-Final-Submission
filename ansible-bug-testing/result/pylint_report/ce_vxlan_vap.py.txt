@@ -1,0 +1,18 @@
+************* Module ansible.modules.network.cloudengine.ce_vxlan_vap
+C:134, 0: Line too long (102/100) (line-too-long)
+C:684, 0: Line too long (104/100) (line-too-long)
+C:712, 0: Line too long (104/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:132, 0: Import "from xml.etree import ElementTree" should be placed at the top of the module (wrong-import-position)
+C:133, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:134, 0: Import "from ansible.module_utils.network.cloudengine.ce import get_nc_config, set_nc_config, ce_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:328,21: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+R:354, 0: Too many branches (20/12) (too-many-branches)
+R:404, 0: Too many instance attributes (18/7) (too-many-instance-attributes)
+W:437, 8: Unused variable 'required_together' (unused-variable)
+R:484, 4: Too many branches (13/12) (too-many-branches)
+R:631, 4: Too many branches (13/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 9.70/10
+

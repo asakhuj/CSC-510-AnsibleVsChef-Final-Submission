@@ -1,0 +1,29 @@
+************* Module ansible.modules.network.junos.junos_facts
+C:371, 0: Line too long (113/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 89, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 90, 0: Import "from ansible.module_utils.network.common.netconf import exec_rpc" should be placed at the top of the module (wrong-import-position)
+C: 91, 0: Import "from ansible.module_utils.network.junos.junos import junos_argument_spec, get_param, tostring" should be placed at the top of the module (wrong-import-position)
+C: 92, 0: Import "from ansible.module_utils.network.junos.junos import get_configuration, get_connection" should be placed at the top of the module (wrong-import-position)
+C: 93, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 94, 0: Import "from ansible.module_utils.six import iteritems" should be placed at the top of the module (wrong-import-position)
+C:112, 0: Missing class docstring (missing-docstring)
+C:118, 4: Missing method docstring (missing-docstring)
+C:121, 4: Missing method docstring (missing-docstring)
+C:128, 4: Missing method docstring (missing-docstring)
+C:131, 4: Missing method docstring (missing-docstring)
+R:131, 4: Method could be a function (no-self-use)
+C:138, 0: Missing class docstring (missing-docstring)
+C:155, 0: Missing class docstring (missing-docstring)
+C:176, 0: Missing class docstring (missing-docstring)
+R:210, 8: The if statement can be replaced with 'var = bool(test)' (simplifiable-if-statement)
+C:229, 0: Missing class docstring (missing-docstring)
+C:254, 0: Missing class docstring (missing-docstring)
+R:255, 4: Method could be a function (no-self-use)
+W:290,16: Unused variable 'key' (unused-variable)
+R:308, 0: Too many branches (15/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 8.73/10
+

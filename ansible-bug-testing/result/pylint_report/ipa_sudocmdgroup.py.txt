@@ -1,0 +1,32 @@
+************* Module ansible.modules.identity.ipa.ipa_sudocmdgroup
+C: 82, 0: Line too long (101/100) (line-too-long)
+C:142, 0: Line too long (102/100) (line-too-long)
+C:158, 0: Line too long (121/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 70, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C: 72, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 73, 0: Import "from ansible.module_utils.ipa import IPAClient, ipa_argument_spec" should be placed at the top of the module (wrong-import-position)
+C: 74, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 77, 0: Missing class docstring (missing-docstring)
+W: 78, 4: Useless super delegation in method '__init__' (useless-super-delegation)
+C: 81, 4: Missing method docstring (missing-docstring)
+C: 84, 4: Missing method docstring (missing-docstring)
+C: 87, 4: Missing method docstring (missing-docstring)
+C: 90, 4: Missing method docstring (missing-docstring)
+C: 93, 4: Missing method docstring (missing-docstring)
+C: 96, 4: Missing method docstring (missing-docstring)
+C: 99, 4: Missing method docstring (missing-docstring)
+C:102, 4: Method name "sudocmdgroup_remove_member_sudocmd" doesn't conform to snake_case naming style (invalid-name)
+C:102, 4: Missing method docstring (missing-docstring)
+C:106, 0: Missing function docstring (missing-docstring)
+C:113, 0: Missing function docstring (missing-docstring)
+C:117, 0: Missing function docstring (missing-docstring)
+C:133,15: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:154, 0: Missing function docstring (missing-docstring)
+W:173,11: Catching too general exception Exception (broad-except)
+C:173,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.45/10
+

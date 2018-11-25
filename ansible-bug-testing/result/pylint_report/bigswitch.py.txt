@@ -1,0 +1,17 @@
+************* Module ansible.module_utils.network.bigswitch.bigswitch
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 34, 0: Missing class docstring (missing-docstring)
+C: 43, 4: Missing method docstring (missing-docstring)
+C: 54, 4: Missing method docstring (missing-docstring)
+C: 58, 0: Missing class docstring (missing-docstring)
+C: 70, 4: Missing method docstring (missing-docstring)
+W: 70,44: Unused argument 'headers' (unused-argument)
+C: 78, 4: Missing method docstring (missing-docstring)
+C: 81, 4: Missing method docstring (missing-docstring)
+C: 84, 4: Missing method docstring (missing-docstring)
+C: 87, 4: Missing method docstring (missing-docstring)
+C: 90, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.21/10
+

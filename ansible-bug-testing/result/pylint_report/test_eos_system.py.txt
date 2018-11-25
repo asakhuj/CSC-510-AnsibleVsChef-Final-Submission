@@ -1,0 +1,21 @@
+************* Module units.modules.network.eos.test_eos_system
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 23, 0: Unable to import 'ansible.modules.network.eos' (import-error)
+C: 28, 0: Missing class docstring (missing-docstring)
+C: 51, 4: Method name "test_eos_system_hostname_changed" doesn't conform to snake_case naming style (invalid-name)
+C: 51, 4: Missing method docstring (missing-docstring)
+C: 56, 4: Missing method docstring (missing-docstring)
+C: 61, 4: Missing method docstring (missing-docstring)
+C: 67, 4: Missing method docstring (missing-docstring)
+C: 73, 4: Method name "test_eos_system_lookup_source_complex" doesn't conform to snake_case naming style (invalid-name)
+C: 73, 4: Missing method docstring (missing-docstring)
+C: 97, 4: Missing method docstring (missing-docstring)
+C:102, 4: Missing method docstring (missing-docstring)
+C:107, 4: Missing method docstring (missing-docstring)
+W:110, 8: Unused variable 'result' (unused-variable)
+C: 24, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 6.30/10
+

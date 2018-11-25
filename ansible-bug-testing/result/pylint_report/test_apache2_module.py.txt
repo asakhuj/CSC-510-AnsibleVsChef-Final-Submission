@@ -1,0 +1,7 @@
+************* Module test_apache2_module
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  3, 0: Unable to import 'ansible.modules.web_infrastructure.apache2_module' (import-error)
+
+------------------------------------
+Your code has been rated at -2.00/10
+

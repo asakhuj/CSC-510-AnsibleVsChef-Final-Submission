@@ -1,0 +1,11 @@
+************* Module ansible.modules.cloud.amazon.ec2_eip_facts
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 78, 0: Import "from ansible.module_utils.aws.core import AnsibleAWSModule" should be placed at the top of the module (wrong-import-position)
+C: 79, 0: Import "from ansible.module_utils.ec2 import ansible_dict_to_boto3_filter_list, boto3_tag_list_to_ansible_dict, camel_dict_to_snake_dict" should be placed at the top of the module (wrong-import-position)
+C: 88, 0: Missing function docstring (missing-docstring)
+C: 95,43: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:107, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.78/10
+

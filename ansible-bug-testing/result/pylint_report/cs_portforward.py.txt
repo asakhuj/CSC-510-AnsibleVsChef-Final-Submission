@@ -1,0 +1,19 @@
+************* Module ansible.modules.cloud.cloudstack.cs_portforward
+C:207, 0: Line too long (101/100) (line-too-long)
+C:260, 0: Line too long (116/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:206, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:207, 0: Import "from ansible.module_utils.cloudstack import AnsibleCloudStack, cs_argument_spec, cs_required_together" should be placed at the top of the module (wrong-import-position)
+C:210, 0: Missing class docstring (missing-docstring)
+C:231, 4: Missing method docstring (missing-docstring)
+C:252, 4: Missing method docstring (missing-docstring)
+C:265, 4: Missing method docstring (missing-docstring)
+C:290, 4: Missing method docstring (missing-docstring)
+C:315, 4: Missing method docstring (missing-docstring)
+W:330, 4: Parameters differ from overridden 'get_result' method (arguments-differ)
+C:339, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.39/10
+

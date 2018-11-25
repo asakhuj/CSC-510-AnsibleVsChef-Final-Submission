@@ -1,0 +1,28 @@
+************* Module units.modules.network.f5.test_bigip_trunk
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 18, 0: Unable to import 'ansible.module_utils.basic' (import-error)
+C: 18, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 48, 0: Constant name "fixture_path" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 49, 0: Constant name "fixture_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 52, 0: Missing function docstring (missing-docstring)
+C: 58,23: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+W: 63,11: Catching too general exception Exception (broad-except)
+C: 70, 0: Missing class docstring (missing-docstring)
+C: 71, 4: Missing method docstring (missing-docstring)
+C: 84, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+R: 71, 4: Method could be a function (no-self-use)
+C: 93, 4: Missing method docstring (missing-docstring)
+C: 96, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+R: 93, 4: Method could be a function (no-self-use)
+C:106, 0: Missing class docstring (missing-docstring)
+C:113, 4: Missing method docstring (missing-docstring)
+C:135, 8: Variable name "mm" doesn't conform to snake_case naming style (invalid-name)
+W:113, 0: Unused argument 'args' (unused-argument)
+W: 11, 0: Unused import pytest (unused-import)
+C: 12, 0: standard import "import sys" should be placed before "import pytest" (wrong-import-order)
+C: 34, 8: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 6.71/10
+

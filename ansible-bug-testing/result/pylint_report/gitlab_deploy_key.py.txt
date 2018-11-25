@@ -1,0 +1,21 @@
+************* Module ansible.modules.source_control.gitlab_deploy_key
+C:150, 0: Line too long (121/100) (line-too-long)
+C:219, 0: Line too long (106/100) (line-too-long)
+C:224, 0: Line too long (114/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 10, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:120, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C:122, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:123, 0: Import "from copy import deepcopy" should be placed at the top of the module (wrong-import-position)
+C:124, 0: Import "from ansible.module_utils.gitlab import request" should be placed at the top of the module (wrong-import-position)
+R:132, 0: Too many arguments (6/5) (too-many-arguments)
+R:142, 0: Too many arguments (6/5) (too-many-arguments)
+R:153, 0: Too many arguments (6/5) (too-many-arguments)
+W:158,20: Redefining built-in 'input' (redefined-builtin)
+W:199, 4: Redefining built-in 'input' (redefined-builtin)
+C:169, 0: Missing function docstring (missing-docstring)
+C:123, 0: standard import "from copy import deepcopy" should be placed before "from ansible.module_utils.basic import AnsibleModule" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 7.89/10
+

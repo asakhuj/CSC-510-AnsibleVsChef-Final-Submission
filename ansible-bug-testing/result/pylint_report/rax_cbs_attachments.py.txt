@@ -1,0 +1,23 @@
+************* Module ansible.modules.cloud.rackspace.rax_cbs_attachments
+C: 90, 0: Wrong continued indentation (remove 1 space).
+                                      )
+                                     |^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 82, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 83, 0: Import "from ansible.module_utils.rax import NON_CALLABLES, rax_argument_spec, rax_find_server, rax_find_volume, rax_required_together, rax_to_dict, setup_rax_module" should be placed at the top of the module (wrong-import-position)
+C: 93, 0: Missing function docstring (missing-docstring)
+R: 93, 0: Too many arguments (7/5) (too-many-arguments)
+R: 93, 0: Too many local variables (16/15) (too-many-locals)
+C: 96, 4: Variable name "cs" doesn't conform to snake_case naming style (invalid-name)
+W:123,19: Catching too general exception Exception (broad-except)
+C:123,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:162,19: Catching too general exception Exception (broad-except)
+C:162,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R: 93, 0: Too many branches (21/12) (too-many-branches)
+R: 93, 0: Too many statements (59/50) (too-many-statements)
+C:183, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.12/10
+

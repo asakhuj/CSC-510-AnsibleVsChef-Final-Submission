@@ -1,0 +1,27 @@
+************* Module ansible.modules.cloud.amazon.aws_ssm_parameter_store
+C:156, 0: Unnecessary parens after 'if' keyword (superfluous-parens)
+C:173, 0: Unnecessary parens after 'if' keyword (superfluous-parens)
+C:177, 0: Unnecessary parens after 'elif' keyword (superfluous-parens)
+C:185, 0: Line too long (112/100) (line-too-long)
+C:188, 0: Line too long (103/100) (line-too-long)
+C:195, 0: Line too long (102/100) (line-too-long)
+C:220, 0: Line too long (126/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:123, 0: Import "from ansible.module_utils.aws.core import AnsibleAWSModule" should be placed at the top of the module (wrong-import-position)
+C:124, 0: Import "from ansible.module_utils.ec2 import boto3_conn, get_aws_connection_info" should be placed at the top of the module (wrong-import-position)
+C:132, 0: Missing function docstring (missing-docstring)
+C:139,26: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:145, 0: Missing function docstring (missing-docstring)
+W:169, 4: No exception type(s) specified (bare-except)
+C:188,20: Variable name "describe_existing_parameter_paginator" doesn't conform to snake_case naming style (invalid-name)
+C:192,38: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:145, 0: Too many branches (14/12) (too-many-branches)
+C:203, 0: Missing function docstring (missing-docstring)
+C:210,26: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:218, 0: Missing function docstring (missing-docstring)
+C:224, 0: Missing function docstring (missing-docstring)
+C:242, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.22/10
+

@@ -1,0 +1,16 @@
+************* Module ansible.modules.network.netvisor.pn_vrouterif
+C:162, 0: Import "import shlex" should be placed at the top of the module (wrong-import-position)
+C:165, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+W:219, 4: Using the global statement (global-statement)
+R:227, 4: The if statement can be replaced with 'var = bool(test)' (simplifiable-if-statement)
+R:238, 8: The if statement can be replaced with 'var = bool(test)' (simplifiable-if-statement)
+R:249, 8: The if statement can be replaced with 'var = bool(test)' (simplifiable-if-statement)
+W:268, 4: Using the global statement (global-statement)
+R:277, 4: Unnecessary "else" after "return" (no-else-return)
+R:346, 0: Too many local variables (20/15) (too-many-locals)
+R:346, 0: Too many branches (22/12) (too-many-branches)
+R:346, 0: Too many statements (68/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 9.29/10
+

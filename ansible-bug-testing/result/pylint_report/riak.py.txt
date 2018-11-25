@@ -1,0 +1,30 @@
+************* Module ansible.modules.database.misc.riak
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 78, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C: 79, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C: 81, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 82, 0: Import "from ansible.module_utils.urls import fetch_url" should be placed at the top of the module (wrong-import-position)
+C: 85, 0: Missing function docstring (missing-docstring)
+C: 87, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+R: 88, 4: The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)
+R: 88, 4: Unnecessary "else" after "return" (no-else-return)
+W: 87,13: Unused variable 'err' (unused-variable)
+C: 94, 0: Missing function docstring (missing-docstring)
+R: 94, 0: Too many local variables (23/15) (too-many-locals)
+W:134, 4: No exception type(s) specified (bare-except)
+C:140, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:150, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:158, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:169,12: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:178, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:188, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:200,12: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:210, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W:140,13: Unused variable 'err' (unused-variable)
+R: 94, 0: Too many branches (31/12) (too-many-branches)
+R: 94, 0: Too many statements (93/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 7.66/10
+

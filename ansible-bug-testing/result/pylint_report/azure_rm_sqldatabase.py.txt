@@ -1,0 +1,29 @@
+************* Module ansible.modules.cloud.azure.azure_rm_sqldatabase
+C:371, 0: Line too long (102/100) (line-too-long)
+C:372, 0: Line too long (113/100) (line-too-long)
+C:406, 0: Line too long (106/100) (line-too-long)
+C:431, 0: Line too long (106/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:196, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C:197, 0: Import "from ansible.module_utils.azure_rm_common import AzureRMModuleBase" should be placed at the top of the module (wrong-import-position)
+C:209, 0: Missing class docstring (missing-docstring)
+W:209, 0: Class has no __init__ method (no-init)
+R:209, 0: Too few public methods (0/2) (too-few-public-methods)
+R:213, 0: Too many instance attributes (8/7) (too-many-instance-attributes)
+C:343,20: Variable name "ev" doesn't conform to snake_case naming style (invalid-name)
+C:345,24: Variable name "ev" doesn't conform to snake_case naming style (invalid-name)
+R:313, 4: Too many branches (37/12) (too-many-branches)
+R:313, 4: Too many statements (83/50) (too-many-statements)
+C:454,29: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:451,12: Unused variable 'response' (unused-variable)
+C:475,29: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:475,29: Unused variable 'e' (unused-variable)
+R:484, 4: Unnecessary "else" after "return" (no-else-return)
+W:202, 4: Unused SqlManagementClient imported from azure.mgmt.sql (unused-import)
+W:203, 4: Unused Model imported from msrest.serialization (unused-import)
+C:203, 4: Imports from package msrest are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 8.41/10
+

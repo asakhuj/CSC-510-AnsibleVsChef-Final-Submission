@@ -1,0 +1,178 @@
+************* Module ansible.modules.monitoring.logicmonitor
+C:537, 0: Wrong continued indentation (remove 3 spaces).
+                "u": self.user,
+             |  ^ (bad-continuation)
+C:538, 0: Wrong continued indentation (remove 3 spaces).
+                "p": self.password})
+             |  ^ (bad-continuation)
+C:564, 0: Wrong continued indentation (remove 4 spaces).
+                          "https://" + self.company + "." + self.lm_url +
+                      |   ^ (bad-continuation)
+C:565, 0: Wrong continued indentation (remove 4 spaces).
+                          "/rpc/" + action + "\nException" + str(ioe))
+                      |   ^ (bad-continuation)
+C:575, 0: Wrong continued indentation (remove 3 spaces).
+                "u": self.user,
+             |  ^ (bad-continuation)
+C:576, 0: Wrong continued indentation (remove 3 spaces).
+                "p": self.password}))
+             |  ^ (bad-continuation)
+C:592, 0: Wrong continued indentation (remove 4 spaces).
+                          "https://" + self.company + "." + self.lm_url +
+                      |   ^ (bad-continuation)
+C:593, 0: Wrong continued indentation (remove 4 spaces).
+                          "/do/" + action + "\nException" + str(ioe))
+                      |   ^ (bad-continuation)
+C:771, 0: Wrong hanging indentation (remove 4 spaces).
+                        name + "\".\n" + resp["errmsg"])
+                    |   ^ (bad-continuation)
+C:879, 0: Wrong hanging indentation (remove 4 spaces).
+                    "associated with this device. To download " +
+                |   ^ (bad-continuation)
+C:880, 0: Wrong hanging indentation (remove 4 spaces).
+                    " the installer, first create a collector " +
+                |   ^ (bad-continuation)
+C:881, 0: Wrong hanging indentation (remove 4 spaces).
+                    "for this device.")
+                |   ^ (bad-continuation)
+C:1166, 0: Wrong hanging indentation (remove 14 spaces).
+                              self.params["collector"]))
+                |             ^ (bad-continuation)
+C:1287, 0: Wrong hanging indentation (remove 1 space).
+                     self.hostname,
+                    |^ (bad-continuation)
+C:1288, 0: Wrong hanging indentation (remove 1 space).
+                     self.displayname,
+                    |^ (bad-continuation)
+C:1289, 0: Wrong hanging indentation (remove 1 space).
+                     self.collector,
+                    |^ (bad-continuation)
+C:1290, 0: Wrong hanging indentation (remove 1 space).
+                     self.description,
+                    |^ (bad-continuation)
+C:1291, 0: Wrong hanging indentation (remove 1 space).
+                     self.groups,
+                    |^ (bad-continuation)
+C:1292, 0: Wrong hanging indentation (remove 1 space).
+                     self.properties,
+                    |^ (bad-continuation)
+C:1293, 0: Wrong hanging indentation (remove 1 space).
+                     self.alertenable))
+                    |^ (bad-continuation)
+C:1375, 0: Wrong continued indentation before block (add 4 spaces).
+                hasattr(self.collector, "id") and
+                ^   | (bad-continuation)
+C:1543, 0: Wrong hanging indentation (remove 4 spaces).
+                            "from server.\n%s" % resp["errmsg"])
+                        |   ^ (bad-continuation)
+C:2035, 0: Wrong hanging indentation (remove 4 spaces).
+                            "from server.\n%s" % resp["errmsg"])
+                        |   ^ (bad-continuation)
+C:2077, 0: Wrong hanging indentation (remove 4 spaces).
+                "\" was specified.")
+            |   ^ (bad-continuation)
+C:  1, 0: Too many lines in module (2136/1000) (too-many-lines)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:501, 0: Import "import datetime" should be placed at the top of the module (wrong-import-position)
+C:502, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C:503, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:504, 0: Import "import platform" should be placed at the top of the module (wrong-import-position)
+C:505, 0: Import "import socket" should be placed at the top of the module (wrong-import-position)
+C:506, 0: Import "import sys" should be placed at the top of the module (wrong-import-position)
+C:507, 0: Import "import types" should be placed at the top of the module (wrong-import-position)
+C:509, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+E:510, 0: No name 'urllib' in module '_MovedItems' (no-name-in-module)
+E:510, 0: Unable to import 'ansible.module_utils.six.moves.urllib.parse' (import-error)
+C:510, 0: Import "from ansible.module_utils.six.moves.urllib.parse import urlencode" should be placed at the top of the module (wrong-import-position)
+C:511, 0: Import "from ansible.module_utils.urls import open_url" should be placed at the top of the module (wrong-import-position)
+C:514, 0: Missing class docstring (missing-docstring)
+R:514, 0: Too many instance attributes (9/7) (too-many-instance-attributes)
+C:553,12: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+R:529, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:567, 4: Method name "do" doesn't conform to snake_case naming style (invalid-name)
+C:586,12: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+R:604,11: Comparison to literal (literal-comparison)
+R:595, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:610, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:654, 8: Unnecessary "else" after "return" (no-else-return)
+C:739,12: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:743,16: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+E:743,20: Instance of 'LogicMonitor' has no '_build_host_group_hash' member (no-member)
+E:745,20: Instance of 'LogicMonitor' has no 'description' member (no-member)
+E:746,20: Instance of 'LogicMonitor' has no 'properties' member (no-member)
+E:747,20: Instance of 'LogicMonitor' has no 'alertenable' member (no-member)
+C:751,16: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+R:706, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:773, 4: Missing method docstring (missing-docstring)
+C:776, 4: Missing method docstring (missing-docstring)
+C:780, 4: Missing method docstring (missing-docstring)
+W:722,12: Attribute 'change' defined outside __init__ (attribute-defined-outside-init)
+C:808,12: Attribute name "id" doesn't conform to snake_case naming style (invalid-name)
+C:785, 0: Missing class docstring (missing-docstring)
+R:785, 0: Too many instance attributes (10/7) (too-many-instance-attributes)
+W:870,16: No exception type(s) specified (bare-except)
+R:829, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+W:915,26: Unused variable 'out' (unused-variable)
+W:943,22: Unused variable 'out' (unused-variable)
+C:994, 8: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+R:957, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+E:1024,20: Instance of 'Collector' has no 'get_properties' member (no-member)
+R:1030, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:1060,16: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+R:1066,19: Comparison to literal (literal-comparison)
+R:1044, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:1103,15: Comparison to literal (literal-comparison)
+R:1082, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:1116, 0: Missing class docstring (missing-docstring)
+R:1116, 0: Too many instance attributes (12/7) (too-many-instance-attributes)
+R:1194, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:1247,12: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+R:1259,12: Unnecessary "else" after "return" (no-else-return)
+R:1234, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:1286,16: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+R:1271, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:1321, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:1351, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:1351, 4: Too many return statements (7/6) (too-many-return-statements)
+C:1435,12: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+R:1397, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:1472, 4: Too many arguments (8/5) (too-many-arguments)
+C:1484, 8: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+R:1499,34: Comparison to literal (literal-comparison)
+R:1508,38: Comparison to literal (literal-comparison)
+C:1530,16: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+R:1518, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:1553, 8: Variable name "g" doesn't conform to snake_case naming style (invalid-name)
+C:1558,16: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+R:1548, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:1590, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+R:1586, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+W:1615,15: map/filter on lambda could be replaced by comprehension (deprecated-lambda)
+C:1628, 8: Attribute name "id" doesn't conform to snake_case naming style (invalid-name)
+C:1618, 0: Missing class docstring (missing-docstring)
+C:1669, 8: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+R:1632, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:1694, 0: Missing class docstring (missing-docstring)
+R:1694, 0: Too many instance attributes (9/7) (too-many-instance-attributes)
+R:1717, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:1755, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:1790,16: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+R:1776, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:1827, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:1873,12: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+R:1857, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:1931, 8: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+R:1893, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:1975, 8: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:2022,16: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+R:2010, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:2041, 0: Too many branches (16/12) (too-many-branches)
+C:2096, 0: Missing function docstring (missing-docstring)
+C:2097, 4: Variable name "TARGETS" doesn't conform to snake_case naming style (invalid-name)
+C:2103, 4: Variable name "ACTIONS" doesn't conform to snake_case naming style (invalid-name)
+W:507, 0: Unused import types (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.34/10
+

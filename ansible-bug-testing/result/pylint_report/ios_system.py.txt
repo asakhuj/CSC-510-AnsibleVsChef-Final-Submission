@@ -1,0 +1,29 @@
+************* Module ansible.modules.network.ios.ios_system
+C:300, 0: Line too long (102/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:119, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:121, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:122, 0: Import "from ansible.module_utils.network.ios.ios import get_config, load_config" should be placed at the top of the module (wrong-import-position)
+C:123, 0: Import "from ansible.module_utils.network.ios.ios import ios_argument_spec, check_args" should be placed at the top of the module (wrong-import-position)
+C:124, 0: Import "from ansible.module_utils.network.common.utils import ComplexList" should be placed at the top of the module (wrong-import-position)
+C:129, 0: Missing function docstring (missing-docstring)
+W:130, 4: Using the global statement (global-statement)
+C:138, 0: Missing function docstring (missing-docstring)
+C:143, 0: Missing function docstring (missing-docstring)
+C:149, 0: Missing function docstring (missing-docstring)
+C:153, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:153, 4: Missing function docstring (missing-docstring)
+R:149, 0: Too many branches (39/12) (too-many-branches)
+R:149, 0: Too many statements (72/50) (too-many-statements)
+C:251, 0: Missing function docstring (missing-docstring)
+C:256, 0: Missing function docstring (missing-docstring)
+C:266, 0: Missing function docstring (missing-docstring)
+C:276, 0: Missing function docstring (missing-docstring)
+C:287, 0: Missing function docstring (missing-docstring)
+R:287, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:293, 0: Missing function docstring (missing-docstring)
+C:305, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.57/10
+

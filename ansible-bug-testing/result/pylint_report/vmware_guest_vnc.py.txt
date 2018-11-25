@@ -1,0 +1,20 @@
+************* Module ansible.modules.cloud.vmware.vmware_guest_vnc
+C:132, 0: Line too long (133/100) (line-too-long)
+C:230, 0: Line too long (127/100) (line-too-long)
+C:231, 0: Line too long (126/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:131, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:132, 0: Import "from ansible.module_utils.vmware import PyVmomi, vmware_argument_spec, get_vnc_extraconfig, wait_for_task, gather_vm_facts, TaskError" should be placed at the top of the module (wrong-import-position)
+C:133, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:136, 0: Argument name "vm" doesn't conform to snake_case naming style (invalid-name)
+C:136, 0: Argument name "ip" doesn't conform to snake_case naming style (invalid-name)
+C:136, 0: Missing function docstring (missing-docstring)
+R:136, 0: Too many arguments (6/5) (too-many-arguments)
+R:136, 0: Too many local variables (18/15) (too-many-locals)
+C:191, 0: Missing function docstring (missing-docstring)
+C:219, 4: Variable name "vm" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.86/10
+

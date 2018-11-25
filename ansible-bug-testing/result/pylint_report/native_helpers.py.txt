@@ -1,0 +1,8 @@
+************* Module ansible.template.native_helpers
+W: 34, 0: FIXME is this needed? (fixme)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.57/10
+

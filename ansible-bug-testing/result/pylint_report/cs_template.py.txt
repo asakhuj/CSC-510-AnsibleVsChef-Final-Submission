@@ -1,0 +1,27 @@
+************* Module ansible.modules.cloud.cloudstack.cs_template
+C:572, 0: Line too long (117/100) (line-too-long)
+C:620, 0: Line too long (126/100) (line-too-long)
+C:692, 0: Line too long (147/100) (line-too-long)
+C:693, 0: Line too long (147/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:377, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:378, 0: Import "from ansible.module_utils.cloudstack import AnsibleCloudStack, cs_argument_spec, cs_required_together, CS_HYPERVISORS" should be placed at the top of the module (wrong-import-position)
+C:386, 0: Missing class docstring (missing-docstring)
+C:427, 4: Missing method docstring (missing-docstring)
+R:427, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:440, 4: Missing method docstring (missing-docstring)
+C:454,16: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+R:440, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:459, 4: Missing method docstring (missing-docstring)
+C:471, 4: Missing method docstring (missing-docstring)
+C:494, 4: Missing method docstring (missing-docstring)
+C:527, 4: Missing method docstring (missing-docstring)
+C:578, 4: Missing method docstring (missing-docstring)
+C:624, 4: Missing method docstring (missing-docstring)
+C:645, 4: Missing method docstring (missing-docstring)
+W:664, 4: Parameters differ from overridden 'get_result' method (arguments-differ)
+C:676, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.71/10
+

@@ -1,0 +1,149 @@
+************* Module units.parsing.test_splitter
+C: 29, 0: Wrong continued indentation (remove 3 spaces).
+        [u'a'],
+     |  ^ (bad-continuation)
+C: 30, 0: Wrong continued indentation (remove 3 spaces).
+        {u'_raw_params': u'a'}),
+     |  ^ (bad-continuation)
+C: 32, 0: Wrong continued indentation (remove 3 spaces).
+        [u'a=b'],
+     |  ^ (bad-continuation)
+C: 33, 0: Wrong continued indentation (remove 3 spaces).
+        {u'a': u'b'}),
+     |  ^ (bad-continuation)
+C: 35, 0: Wrong continued indentation (remove 3 spaces).
+        [u'a="foo bar"'],
+     |  ^ (bad-continuation)
+C: 36, 0: Wrong continued indentation (remove 3 spaces).
+        {u'a': u'foo bar'}),
+     |  ^ (bad-continuation)
+C: 38, 0: Wrong continued indentation (remove 3 spaces).
+        [u'"foo bar baz"'],
+     |  ^ (bad-continuation)
+C: 39, 0: Wrong continued indentation (remove 3 spaces).
+        {u'_raw_params': '"foo bar baz"'}),
+     |  ^ (bad-continuation)
+C: 41, 0: Wrong continued indentation (remove 3 spaces).
+        [u'foo', u'bar', u'baz'],
+     |  ^ (bad-continuation)
+C: 42, 0: Wrong continued indentation (remove 3 spaces).
+        {u'_raw_params': u'foo bar baz'}),
+     |  ^ (bad-continuation)
+C: 44, 0: Wrong continued indentation (remove 3 spaces).
+        [u'a=b', u'c="foo bar"'],
+     |  ^ (bad-continuation)
+C: 45, 0: Wrong continued indentation (remove 3 spaces).
+        {u'a': u'b', u'c': u'foo bar'}),
+     |  ^ (bad-continuation)
+C: 47, 0: Wrong continued indentation (remove 3 spaces).
+        [u'a="echo \\"hello world\\""', u'b=bar'],
+     |  ^ (bad-continuation)
+C: 48, 0: Wrong continued indentation (remove 3 spaces).
+        {u'a': u'echo "hello world"', u'b': u'bar'}),
+     |  ^ (bad-continuation)
+C: 50, 0: Wrong continued indentation (remove 3 spaces).
+        [u'a="multi\nline"'],
+     |  ^ (bad-continuation)
+C: 51, 0: Wrong continued indentation (remove 3 spaces).
+        {u'a': u'multi\nline'}),
+     |  ^ (bad-continuation)
+C: 53, 0: Wrong continued indentation (remove 3 spaces).
+        [u'a="blank\n\nline"'],
+     |  ^ (bad-continuation)
+C: 54, 0: Wrong continued indentation (remove 3 spaces).
+        {u'a': u'blank\n\nline'}),
+     |  ^ (bad-continuation)
+C: 56, 0: Wrong continued indentation (remove 3 spaces).
+        [u'a="blank\n\n\nlines"'],
+     |  ^ (bad-continuation)
+C: 57, 0: Wrong continued indentation (remove 3 spaces).
+        {u'a': u'blank\n\n\nlines'}),
+     |  ^ (bad-continuation)
+C: 59, 0: Wrong continued indentation (remove 3 spaces).
+        [u'a="a long\nmessage\\\nabout a thing\n"'],
+     |  ^ (bad-continuation)
+C: 60, 0: Wrong continued indentation (remove 3 spaces).
+        {u'a': u'a long\nmessage\\\nabout a thing\n'}),
+     |  ^ (bad-continuation)
+C: 62, 0: Wrong continued indentation (remove 3 spaces).
+        [u'a="multiline\nmessage1\\\n"', u'b="multiline\nmessage2\\\n"'],
+     |  ^ (bad-continuation)
+C: 63, 0: Wrong continued indentation (remove 3 spaces).
+        {u'a': 'multiline\nmessage1\\\n', u'b': u'multiline\nmessage2\\\n'}),
+     |  ^ (bad-continuation)
+C: 65, 0: Wrong continued indentation (remove 3 spaces).
+        [u'a={{jinja}}'],
+     |  ^ (bad-continuation)
+C: 66, 0: Wrong continued indentation (remove 3 spaces).
+        {u'a': u'{{jinja}}'}),
+     |  ^ (bad-continuation)
+C: 68, 0: Wrong continued indentation (remove 3 spaces).
+        [u'a={{ jinja }}'],
+     |  ^ (bad-continuation)
+C: 69, 0: Wrong continued indentation (remove 3 spaces).
+        {u'a': u'{{ jinja }}'}),
+     |  ^ (bad-continuation)
+C: 71, 0: Wrong continued indentation (remove 3 spaces).
+        [u'a="{{jinja}}"'],
+     |  ^ (bad-continuation)
+C: 72, 0: Wrong continued indentation (remove 3 spaces).
+        {u'a': u'{{jinja}}'}),
+     |  ^ (bad-continuation)
+C: 74, 0: Wrong continued indentation (remove 3 spaces).
+        [u'a={{ jinja }}{{jinja2}}'],
+     |  ^ (bad-continuation)
+C: 75, 0: Wrong continued indentation (remove 3 spaces).
+        {u'a': u'{{ jinja }}{{jinja2}}'}),
+     |  ^ (bad-continuation)
+C: 77, 0: Wrong continued indentation (remove 3 spaces).
+        [u'a="{{ jinja }}{{jinja2}}"'],
+     |  ^ (bad-continuation)
+C: 78, 0: Wrong continued indentation (remove 3 spaces).
+        {u'a': u'{{ jinja }}{{jinja2}}'}),
+     |  ^ (bad-continuation)
+C: 80, 0: Wrong continued indentation (remove 3 spaces).
+        [u'a={{jinja}}', u'b={{jinja2}}'],
+     |  ^ (bad-continuation)
+C: 81, 0: Wrong continued indentation (remove 3 spaces).
+        {u'a': u'{{jinja}}', u'b': u'{{jinja2}}'}),
+     |  ^ (bad-continuation)
+C: 83, 0: Wrong continued indentation (remove 3 spaces).
+        [u'a="{{jinja}}\n"', u'b="{{jinja2}}\n"'],
+     |  ^ (bad-continuation)
+C: 84, 0: Wrong continued indentation (remove 3 spaces).
+        {u'a': u'{{jinja}}\n', u'b': u'{{jinja2}}\n'}),
+     |  ^ (bad-continuation)
+C: 86, 0: Wrong continued indentation (remove 3 spaces).
+        [u'a="café eñyei"'],
+     |  ^ (bad-continuation)
+C: 87, 0: Wrong continued indentation (remove 3 spaces).
+        {u'a': u'café eñyei'}),
+     |  ^ (bad-continuation)
+C: 89, 0: Wrong continued indentation (remove 3 spaces).
+        [u'a=café', u'b=eñyei'],
+     |  ^ (bad-continuation)
+C: 90, 0: Wrong continued indentation (remove 3 spaces).
+        {u'a': u'café', u'b': u'eñyei'}),
+     |  ^ (bad-continuation)
+C: 92, 0: Wrong continued indentation (remove 3 spaces).
+        [u'a={{ foo | some_filter(\' \', " ") }}', u'b=bar'],
+     |  ^ (bad-continuation)
+C: 93, 0: Wrong continued indentation (remove 3 spaces).
+        {u'a': u'{{ foo | some_filter(\' \', " ") }}', u'b': u'bar'}),
+     |  ^ (bad-continuation)
+C: 95, 0: Wrong continued indentation (remove 3 spaces).
+        [u'One\n ', u'Two\n   ', u'Three\n'],
+     |  ^ (bad-continuation)
+C: 96, 0: Wrong continued indentation (remove 3 spaces).
+        {u'_raw_params': u'One\n  Two\n    Three\n'}),
+     |  ^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 23, 0: Unable to import 'ansible.parsing.splitter' (import-error)
+C:104, 0: Missing function docstring (missing-docstring)
+C:109, 0: Missing function docstring (missing-docstring)
+C: 25, 0: third party import "import pytest" should be placed before "from ansible.parsing.splitter import split_args, parse_kv" (wrong-import-order)
+
+-------------------------------------
+Your code has been rated at -40.91/10
+

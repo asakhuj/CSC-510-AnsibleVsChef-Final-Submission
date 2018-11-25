@@ -1,0 +1,13 @@
+************* Module ansible.module_utils.facts.namespace
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 29, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 32, 0: Missing class docstring (missing-docstring)
+R: 36, 4: Method could be a function (no-self-use)
+R: 40, 4: Method could be a function (no-self-use)
+R: 32, 0: Too few public methods (1/2) (too-few-public-methods)
+C: 44, 0: Missing class docstring (missing-docstring)
+R: 44, 0: Too few public methods (1/2) (too-few-public-methods)
+
+-----------------------------------
+Your code has been rated at 5.00/10
+

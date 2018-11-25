@@ -1,0 +1,20 @@
+************* Module ansible.modules.network.ios.ios_banner
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 91, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 92, 0: Import "from ansible.module_utils.connection import exec_command" should be placed at the top of the module (wrong-import-position)
+C: 93, 0: Import "from ansible.module_utils.network.ios.ios import load_config, run_commands" should be placed at the top of the module (wrong-import-position)
+C: 94, 0: Import "from ansible.module_utils.network.ios.ios import ios_argument_spec, check_args" should be placed at the top of the module (wrong-import-position)
+C: 95, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C: 98, 0: Missing function docstring (missing-docstring)
+C:117, 0: Missing function docstring (missing-docstring)
+C:118, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:122, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W:118,13: Unused variable 'err' (unused-variable)
+C:136, 0: Missing function docstring (missing-docstring)
+W:179,12: Unused variable 'response' (unused-variable)
+W: 93, 0: Unused run_commands imported from ansible.module_utils.network.ios.ios (unused-import)
+C: 95, 0: standard import "import re" should be placed before "from ansible.module_utils.basic import AnsibleModule" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 7.58/10
+

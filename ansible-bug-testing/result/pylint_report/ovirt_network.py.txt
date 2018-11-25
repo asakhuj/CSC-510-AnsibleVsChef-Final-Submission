@@ -1,0 +1,20 @@
+************* Module ansible.modules.cloud.ovirt.ovirt_network
+C:156, 0: Line too long (111/100) (line-too-long)
+C:158, 0: Line too long (112/100) (line-too-long)
+C:159, 0: Line too long (103/100) (line-too-long)
+C:312, 0: Line too long (102/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:131, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:138, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:139, 0: Import "from ansible.module_utils.ovirt import BaseModule, check_sdk, check_params, create_connection, equal, ovirt_full_argument_spec, search_by_name, get_id_by_name, get_dict_of_struct, get_entity" should be placed at the top of the module (wrong-import-position)
+C:153, 0: Missing class docstring (missing-docstring)
+C:154, 4: Missing method docstring (missing-docstring)
+C:211, 0: Missing class docstring (missing-docstring)
+C:260, 0: Missing function docstring (missing-docstring)
+W:329,11: Catching too general exception Exception (broad-except)
+R:286, 4: Too many nested blocks (6/5) (too-many-nested-blocks)
+C:329,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.26/10
+

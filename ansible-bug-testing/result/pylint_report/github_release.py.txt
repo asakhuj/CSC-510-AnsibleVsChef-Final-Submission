@@ -1,0 +1,12 @@
+************* Module ansible.modules.source_control.github_release
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:131, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:132, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:135, 0: Missing function docstring (missing-docstring)
+R:135, 0: Too many local variables (17/15) (too-many-locals)
+C:182,43: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.70/10
+

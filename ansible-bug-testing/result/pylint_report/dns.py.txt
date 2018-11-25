@@ -1,0 +1,13 @@
+************* Module ansible.module_utils.facts.system.dns
+W: 32, 0: TODO: flatten (fixme)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 17, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 25, 0: Missing class docstring (missing-docstring)
+C: 39,15: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C: 62,27: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+R: 64,24: Consider using ternary (option_tokens[1] if len(option_tokens) == 2 else True) (consider-using-ternary)
+R: 29, 4: Too many branches (16/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 8.10/10
+

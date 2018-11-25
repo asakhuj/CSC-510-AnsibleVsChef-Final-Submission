@@ -1,0 +1,17 @@
+************* Module ansible.modules.storage.netapp.na_ontap_broadcast_domain_ports
+C:125, 0: Line too long (121/100) (line-too-long)
+C:190, 0: Line too long (101/100) (line-too-long)
+C:195, 0: Line too long (109/100) (line-too-long)
+C:199, 0: Line too long (108/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 65, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C: 66, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 67, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 68, 0: Import "import ansible.module_utils.netapp as netapp_utils" should be placed at the top of the module (wrong-import-position)
+C:196,19: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:200,19: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+
+-----------------------------------
+Your code has been rated at 8.76/10
+

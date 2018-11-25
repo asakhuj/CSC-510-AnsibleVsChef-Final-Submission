@@ -1,0 +1,23 @@
+************* Module ansible.modules.cloud.amazon.ecs_attribute
+C:124, 0: Line too long (107/100) (line-too-long)
+C:167, 0: Line too long (105/100) (line-too-long)
+C:198, 0: Line too long (113/100) (line-too-long)
+C:200, 0: Line too long (126/100) (line-too-long)
+C:208, 0: Line too long (106/100) (line-too-long)
+C:224, 0: Line too long (103/100) (line-too-long)
+C:238, 0: Line too long (126/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:115, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:116, 0: Import "from ansible.module_utils.ec2 import boto3_conn, ec2_argument_spec, get_aws_connection_info" should be placed at the top of the module (wrong-import-position)
+R:153, 4: Method could be a function (no-self-use)
+C:201,57: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:217,30: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:225,30: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:239,30: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:251, 0: Missing function docstring (missing-docstring)
+W:109, 4: Unused import boto3 (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.43/10
+

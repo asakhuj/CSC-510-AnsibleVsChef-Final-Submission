@@ -1,0 +1,23 @@
+************* Module ansible.modules.monitoring.stackdriver
+C: 95, 0: Line too long (106/100) (line-too-long)
+C:110, 0: Line too long (116/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 87, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C: 88, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C: 90, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 91, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 92, 0: Import "from ansible.module_utils.urls import fetch_url" should be placed at the top of the module (wrong-import-position)
+R: 95, 0: Too many arguments (6/5) (too-many-arguments)
+R:110, 0: Too many arguments (7/5) (too-many-arguments)
+C:128, 0: Missing function docstring (missing-docstring)
+W:134, 4: Unused variable 'response' (unused-variable)
+C:143, 0: Missing function docstring (missing-docstring)
+W:189,15: Catching too general exception Exception (broad-except)
+C:189,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:198,15: Catching too general exception Exception (broad-except)
+C:198,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.43/10
+

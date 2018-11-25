@@ -1,0 +1,20 @@
+************* Module ansible.modules.cloud.cloudstack.cs_vpc
+C:262, 0: Line too long (120/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:198, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:199, 0: Import "from ansible.module_utils.cloudstack import AnsibleCloudStack, cs_argument_spec, cs_required_together" should be placed at the top of the module (wrong-import-position)
+C:206, 0: Missing class docstring (missing-docstring)
+C:220, 4: Missing method docstring (missing-docstring)
+C:236,16: Variable name "vo" doesn't conform to snake_case naming style (invalid-name)
+R:220, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+W:245, 4: Parameters differ from overridden 'get_vpc' method (arguments-differ)
+C:258,16: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:267, 4: Missing method docstring (missing-docstring)
+C:282, 4: Missing method docstring (missing-docstring)
+C:331, 4: Missing method docstring (missing-docstring)
+C:345, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.58/10
+

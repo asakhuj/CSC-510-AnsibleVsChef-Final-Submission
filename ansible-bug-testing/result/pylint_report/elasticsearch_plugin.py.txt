@@ -1,0 +1,28 @@
+************* Module ansible.modules.database.misc.elasticsearch_plugin
+C:162, 0: Line too long (111/100) (line-too-long)
+C:246, 0: Line too long (149/100) (line-too-long)
+C:293, 0: Line too long (132/100) (line-too-long)
+C:298, 0: Line too long (120/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:115, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:117, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:131, 0: Missing function docstring (missing-docstring)
+R:143, 8: Redefining argument with the local name 'string' (redefined-argument-from-local)
+C:150, 0: Missing function docstring (missing-docstring)
+C:154, 0: Missing function docstring (missing-docstring)
+C:162, 0: Missing function docstring (missing-docstring)
+R:162, 0: Too many arguments (10/5) (too-many-arguments)
+R:162, 0: Too many local variables (17/15) (too-many-locals)
+C:192, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:194, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:203, 0: Missing function docstring (missing-docstring)
+C:209, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:211, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:220, 0: Missing function docstring (missing-docstring)
+C:251, 0: Missing function docstring (missing-docstring)
+R:251, 0: Too many local variables (18/15) (too-many-locals)
+
+-----------------------------------
+Your code has been rated at 7.77/10
+

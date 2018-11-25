@@ -1,0 +1,24 @@
+************* Module units.modules.network.nxos.test_nxos_static_route
+C: 56, 0: Line too long (107/100) (line-too-long)
+C: 60, 0: Line too long (122/100) (line-too-long)
+C: 75, 0: Line too long (106/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 23, 0: Unable to import 'ansible.modules.network.nxos' (import-error)
+C: 27, 0: Missing class docstring (missing-docstring)
+C: 49, 4: Missing method docstring (missing-docstring)
+C: 53, 4: Method name "test_nxos_static_route_present_no_defaults" doesn't conform to snake_case naming style (invalid-name)
+C: 53, 4: Missing method docstring (missing-docstring)
+C: 58, 4: Method name "test_nxos_static_route_present_vrf" doesn't conform to snake_case naming style (invalid-name)
+C: 58, 4: Missing method docstring (missing-docstring)
+C: 62, 4: Method name "test_nxos_static_route_no_change" doesn't conform to snake_case naming style (invalid-name)
+C: 62, 4: Missing method docstring (missing-docstring)
+C: 66, 4: Missing method docstring (missing-docstring)
+C: 70, 4: Method name "test_nxos_static_route_absent_no_change" doesn't conform to snake_case naming style (invalid-name)
+C: 70, 4: Missing method docstring (missing-docstring)
+C: 74, 4: Method name "test_nxos_static_route_absent_vrf" doesn't conform to snake_case naming style (invalid-name)
+C: 74, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 4.39/10
+

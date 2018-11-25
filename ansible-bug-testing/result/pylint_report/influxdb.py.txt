@@ -1,0 +1,22 @@
+************* Module ansible.module_utils.influxdb
+C:  3, 0: Line too long (106/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 23, 0: Missing class docstring (missing-docstring)
+C: 34, 4: Missing method docstring (missing-docstring)
+C: 42, 4: Missing method docstring (missing-docstring)
+C: 57, 4: Missing method docstring (missing-docstring)
+W:  9, 4: Unused import requests.exceptions (unused-import)
+W: 17, 4: Unused exceptions imported from influxdb (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.57/10
+
+************* Module ansible.utils.module_docs_fragments.influxdb
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Missing class docstring (missing-docstring)
+R:  6, 0: Too few public methods (0/2) (too-few-public-methods)
+
+------------------------------------
+Your code has been rated at -5.00/10
+

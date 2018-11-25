@@ -1,0 +1,12 @@
+************* Module units.plugins.lookup.test_ini
+C: 38, 0: Line too long (108/100) (line-too-long)
+C: 46, 0: Line too long (104/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 24, 0: Unable to import 'ansible.plugins.lookup.ini' (import-error)
+C: 27, 0: Missing class docstring (missing-docstring)
+C: 64, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 2.14/10
+

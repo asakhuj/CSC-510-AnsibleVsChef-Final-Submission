@@ -1,0 +1,10 @@
+************* Module ansible.module_utils.crypto
+C: 50, 0: Line too long (105/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 35, 0: Missing class docstring (missing-docstring)
+C: 48,12: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C:112, 0: Missing class docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 9.40/10
+

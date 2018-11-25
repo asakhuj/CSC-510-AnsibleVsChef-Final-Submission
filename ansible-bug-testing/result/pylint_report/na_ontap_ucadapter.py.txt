@@ -1,0 +1,21 @@
+************* Module ansible.modules.storage.netapp.na_ontap_ucadapter
+C:157, 0: Line too long (107/100) (line-too-long)
+C:171, 0: Line too long (118/100) (line-too-long)
+C:185, 0: Line too long (117/100) (line-too-long)
+C:206, 0: Line too long (108/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 74, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C: 76, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 77, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 78, 0: Import "import ansible.module_utils.netapp as netapp_utils" should be placed at the top of the module (wrong-import-position)
+R: 83, 0: Too many instance attributes (8/7) (too-many-instance-attributes)
+C:156,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:170,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:184,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:196, 8: Missing function docstring (missing-docstring)
+C:220, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.20/10
+

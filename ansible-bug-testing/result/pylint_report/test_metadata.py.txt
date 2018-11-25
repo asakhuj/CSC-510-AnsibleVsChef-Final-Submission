@@ -1,0 +1,27 @@
+************* Module units.parsing.test_metadata
+W:129, 0: FIXME: Current code cannot handle multiple statements on the same line. (fixme)
+W:151, 0: FIXME: Current code cannot handle hash symbols in the last element of (fixme)
+W:180, 0: FIXME: String/yaml metadata is not implemented yet.  Need more test cases once it is implemented (fixme)
+W:211, 0: FIXME: String/yaml metadata is not implemented yet. (fixme)
+C:106, 0: Line too long (109/100) (line-too-long)
+C:176, 0: Line too long (101/100) (line-too-long)
+C:228, 0: Line too long (142/100) (line-too-long)
+C:231, 0: Line too long (152/100) (line-too-long)
+C:232, 0: Line too long (142/100) (line-too-long)
+C:237, 0: Line too long (115/100) (line-too-long)
+C:238, 0: Line too long (147/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 27, 0: Unable to import 'ansible.parsing' (import-error)
+C:205, 0: Missing function docstring (missing-docstring)
+C:210, 0: Missing function docstring (missing-docstring)
+C:216, 0: Missing function docstring (missing-docstring)
+C:221, 0: Function name "test_module_data_param_given_with_offset" doesn't conform to snake_case naming style (invalid-name)
+C:221, 0: Missing function docstring (missing-docstring)
+C:226, 0: Missing function docstring (missing-docstring)
+C:236, 0: Function name "test_multiple_statements_limitation" doesn't conform to snake_case naming style (invalid-name)
+C:236, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 3.50/10
+

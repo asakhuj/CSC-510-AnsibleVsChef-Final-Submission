@@ -1,0 +1,30 @@
+************* Module ansible.modules.network.nxos.nxos_vrrp
+C:171, 0: Unnecessary parens after 'except' keyword (superfluous-parens)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:119, 0: Import "from ansible.module_utils.network.nxos.nxos import load_config, run_commands" should be placed at the top of the module (wrong-import-position)
+C:120, 0: Import "from ansible.module_utils.network.nxos.nxos import get_capabilities, nxos_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:121, 0: Import "from ansible.module_utils.network.nxos.nxos import get_interface_type" should be placed at the top of the module (wrong-import-position)
+C:122, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:133, 0: Missing function docstring (missing-docstring)
+C:146, 0: Missing function docstring (missing-docstring)
+C:158, 0: Missing function docstring (missing-docstring)
+R:163, 8: Unnecessary "else" after "return" (no-else-return)
+R:167,12: The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)
+R:167,12: Unnecessary "else" after "return" (no-else-return)
+C:175, 0: Missing function docstring (missing-docstring)
+C:194, 0: Missing function docstring (missing-docstring)
+C:215, 0: Missing function docstring (missing-docstring)
+C:253, 0: Missing function docstring (missing-docstring)
+C:256, 4: Variable name "CMDS" doesn't conform to snake_case naming style (invalid-name)
+C:293, 0: Missing function docstring (missing-docstring)
+C:303, 0: Missing function docstring (missing-docstring)
+C:322, 0: Missing function docstring (missing-docstring)
+R:322, 0: Too many local variables (26/15) (too-many-locals)
+W:381, 4: Unused variable 'end_state' (unused-variable)
+W:380, 4: Unused variable 'changed' (unused-variable)
+R:322, 0: Too many branches (13/12) (too-many-branches)
+R:322, 0: Too many statements (53/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 8.68/10
+

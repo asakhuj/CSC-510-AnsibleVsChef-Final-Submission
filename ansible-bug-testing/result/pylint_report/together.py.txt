@@ -1,0 +1,15 @@
+************* Module ansible.plugins.lookup.together
+C: 53, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 36, 0: Import "from ansible.errors import AnsibleError" should be placed at the top of the module (wrong-import-position)
+E: 37, 0: Unable to import 'ansible.module_utils.six.moves' (import-error)
+C: 37, 0: Import "from ansible.module_utils.six.moves import zip_longest" should be placed at the top of the module (wrong-import-position)
+C: 38, 0: Import "from ansible.plugins.lookup import LookupBase" should be placed at the top of the module (wrong-import-position)
+C: 39, 0: Import "from ansible.utils.listify import listify_lookup_plugin_terms" should be placed at the top of the module (wrong-import-position)
+C: 52,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C: 62,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+
+-----------------------------------
+Your code has been rated at 3.64/10
+

@@ -1,0 +1,18 @@
+************* Module ansible.modules.cloud.amazon.ec2_customer_gateway_facts
+C: 85, 0: Line too long (107/100) (line-too-long)
+C:100, 0: Line too long (110/100) (line-too-long)
+C:103, 0: Line too long (108/100) (line-too-long)
+C:106, 0: Line too long (103/100) (line-too-long)
+C:129, 0: Line too long (126/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 77, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C: 83, 0: Import "from ansible.module_utils.aws.core import AnsibleAWSModule" should be placed at the top of the module (wrong-import-position)
+C: 84, 0: Import "from ansible.module_utils.ec2 import ansible_dict_to_boto3_filter_list, boto3_conn, boto3_tag_list_to_ansible_dict, camel_dict_to_snake_dict, ec2_argument_spec, get_aws_connection_info" should be placed at the top of the module (wrong-import-position)
+C: 89, 0: Missing function docstring (missing-docstring)
+C: 93, 0: Missing function docstring (missing-docstring)
+C:101,43: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:113, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 6.58/10
+

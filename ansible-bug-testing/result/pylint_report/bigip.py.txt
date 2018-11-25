@@ -1,0 +1,42 @@
+************* Module ansible.module_utils.network.f5.bigip
+W: 84, 0: TODO(This section of code should be developed to support proxy_to) (fixme)
+C: 92, 0: Line too long (149/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 20, 0: Missing class docstring (missing-docstring)
+C: 40, 4: Missing method docstring (missing-docstring)
+C: 65, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.29/10
+
+************* Module ansible.plugins.action.bigip
+C: 53, 0: Line too long (105/100) (line-too-long)
+C: 72, 0: Line too long (103/100) (line-too-long)
+C: 81, 0: Line too long (121/100) (line-too-long)
+C: 86, 0: Line too long (127/100) (line-too-long)
+C: 94, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+W: 34, 0: No exception type(s) specified (bare-except)
+C: 44, 0: Missing class docstring (missing-docstring)
+C: 61,16: Variable name "pc" doesn't conform to snake_case naming style (invalid-name)
+E: 61,21: Module 'copy' has no 'deepcopy' member (no-member)
+E: 69,61: Module 'ansible.constants' has no 'PERSISTENT_COMMAND_TIMEOUT' member (no-member)
+R: 44, 0: Too few public methods (1/2) (too-few-public-methods)
+W: 22, 0: Unused import os (unused-import)
+C: 35, 4: Imports from package ansible are not grouped (ungrouped-imports)
+C: 40, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 6.00/10
+
+************* Module ansible.plugins.terminal.bigip
+C: 59, 0: Line too long (108/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 28, 0: Missing class docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.00/10
+

@@ -1,0 +1,33 @@
+************* Module ansible.modules.network.cnos.cnos_template
+C:143, 0: Unnecessary parens after 'if' keyword (superfluous-parens)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  4, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 87, 0: Import "import sys" should be placed at the top of the module (wrong-import-position)
+C: 88, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C: 89, 0: Import "import socket" should be placed at the top of the module (wrong-import-position)
+C: 90, 0: Import "import array" should be placed at the top of the module (wrong-import-position)
+C: 91, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+W: 92, 0: Reimport 'time' (imported line 88) (reimported)
+C: 92, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C: 93, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C: 94, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+W: 98, 0: No exception type(s) specified (bare-except)
+C:100, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:101, 0: Import "from collections import defaultdict" should be placed at the top of the module (wrong-import-position)
+W:137, 4: Redefining built-in 'file' (redefined-builtin)
+C:104, 0: Missing function docstring (missing-docstring)
+C:120, 4: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C:142, 4: Variable name "errorMsg" doesn't conform to snake_case naming style (invalid-name)
+W: 87, 0: Unused import sys (unused-import)
+W: 88, 0: Unused import time (unused-import)
+W: 89, 0: Unused import socket (unused-import)
+W: 90, 0: Unused import array (unused-import)
+W: 91, 0: Unused import json (unused-import)
+W: 93, 0: Unused import re (unused-import)
+W:101, 0: Unused defaultdict imported from collections (unused-import)
+C:101, 0: standard import "from collections import defaultdict" should be placed before "from ansible.module_utils.basic import AnsibleModule" (wrong-import-order)
+C: 92, 0: Imports from package time are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 4.17/10
+

@@ -1,0 +1,24 @@
+************* Module ansible.modules.network.panos._panos_nat_policy
+C:275, 0: Line too long (104/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:136, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:137, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:152, 0: Missing function docstring (missing-docstring)
+C:154, 4: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:160, 0: Argument name "m" doesn't conform to snake_case naming style (invalid-name)
+C:160, 0: Missing function docstring (missing-docstring)
+W:160,13: Unused argument 'm' (unused-argument)
+C:176, 0: Argument name "m" doesn't conform to snake_case naming style (invalid-name)
+C:176, 0: Missing function docstring (missing-docstring)
+R:176, 0: Too many arguments (6/5) (too-many-arguments)
+C:204,16: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+C:218, 0: Missing function docstring (missing-docstring)
+R:218, 0: Too many arguments (10/5) (too-many-arguments)
+W:218,18: Unused argument 'module' (unused-argument)
+C:251, 0: Missing function docstring (missing-docstring)
+R:251, 0: Too many local variables (23/15) (too-many-locals)
+W:274, 7: Access to a protected member _name of a client class (protected-access)
+
+-----------------------------------
+Your code has been rated at 8.35/10
+

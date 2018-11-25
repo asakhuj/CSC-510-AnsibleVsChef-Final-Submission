@@ -1,0 +1,25 @@
+************* Module ansible.plugins.vars.host_group_vars
+C: 75, 0: Line too long (114/100) (line-too-long)
+C: 95, 0: Line too long (121/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 19, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 46, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C: 47, 0: Import "from ansible import constants as C" should be placed at the top of the module (wrong-import-position)
+C: 48, 0: Import "from ansible.errors import AnsibleParserError" should be placed at the top of the module (wrong-import-position)
+C: 49, 0: Import "from ansible.module_utils._text import to_bytes, to_native, to_text" should be placed at the top of the module (wrong-import-position)
+C: 50, 0: Import "from ansible.plugins.vars import BaseVarsPlugin" should be placed at the top of the module (wrong-import-position)
+C: 51, 0: Import "from ansible.inventory.host import Host" should be placed at the top of the module (wrong-import-position)
+C: 52, 0: Import "from ansible.inventory.group import Group" should be placed at the top of the module (wrong-import-position)
+C: 53, 0: Import "from ansible.utils.vars import combine_vars" should be placed at the top of the module (wrong-import-position)
+C: 58, 0: Missing class docstring (missing-docstring)
+W: 60, 4: Parameters differ from overridden 'get_vars' method (arguments-differ)
+R: 69, 8: Too many nested blocks (6/5) (too-many-nested-blocks)
+C:102,36: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R: 60, 4: Too many branches (14/12) (too-many-branches)
+R: 58, 0: Too few public methods (1/2) (too-few-public-methods)
+W: 47, 0: Unused constants imported from ansible as C (unused-import)
+W: 49, 0: Unused to_text imported from ansible.module_utils._text (unused-import)
+
+-----------------------------------
+Your code has been rated at 5.56/10
+

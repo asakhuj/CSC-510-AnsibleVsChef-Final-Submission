@@ -1,0 +1,25 @@
+************* Module ansible.modules.storage.netapp.na_elementsw_node
+C:161, 0: Line too long (131/100) (line-too-long)
+C:163, 0: Line too long (119/100) (line-too-long)
+C:167, 0: Line too long (139/100) (line-too-long)
+C:187, 0: Line too long (141/100) (line-too-long)
+C:198, 0: Line too long (102/100) (line-too-long)
+C:208, 0: Line too long (107/100) (line-too-long)
+C:225, 0: Line too long (113/100) (line-too-long)
+C: 10, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 87, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C: 89, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 90, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 91, 0: Import "import ansible.module_utils.netapp as netapp_utils" should be placed at the top of the module (wrong-import-position)
+C:148,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:186,19: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+R:140, 4: Too many branches (18/12) (too-many-branches)
+W:197,15: Catching too general exception Exception (broad-except)
+W:207,15: Catching too general exception Exception (broad-except)
+C:219,43: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:222,44: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+W:216, 8: Attribute 'action_nodes_list' defined outside __init__ (attribute-defined-outside-init)
+
+-----------------------------------
+Your code has been rated at 7.78/10
+

@@ -1,0 +1,82 @@
+************* Module ansible.parsing.utils.yaml
+C: 37, 0: Line too long (107/100) (line-too-long)
+C: 41, 0: Line too long (127/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+W: 71,11: Catching too general exception Exception (broad-except)
+
+-----------------------------------
+Your code has been rated at 8.65/10
+
+************* Module ansible.plugins.cache.yaml
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 45, 0: Import "import codecs" should be placed at the top of the module (wrong-import-position)
+C: 47, 0: Import "import yaml" should be placed at the top of the module (wrong-import-position)
+C: 49, 0: Import "from ansible.parsing.yaml.loader import AnsibleLoader" should be placed at the top of the module (wrong-import-position)
+C: 50, 0: Import "from ansible.parsing.yaml.dumper import AnsibleDumper" should be placed at the top of the module (wrong-import-position)
+C: 51, 0: Import "from ansible.plugins.cache import BaseFileCacheModule" should be placed at the top of the module (wrong-import-position)
+C: 60,61: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C: 64,61: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+E: 65,12: Module 'yaml' has no 'dump' member (no-member)
+
+-----------------------------------
+Your code has been rated at 0.67/10
+
+************* Module ansible.plugins.callback.yaml
+C: 85, 0: Line too long (140/100) (line-too-long)
+C: 87, 0: Line too long (120/100) (line-too-long)
+C:123, 0: Line too long (137/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 22, 0: Import "import yaml" should be placed at the top of the module (wrong-import-position)
+C: 23, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C: 24, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C: 25, 0: Import "import string" should be placed at the top of the module (wrong-import-position)
+C: 26, 0: Import "import sys" should be placed at the top of the module (wrong-import-position)
+C: 28, 0: Import "from ansible.module_utils._text import to_bytes, to_text" should be placed at the top of the module (wrong-import-position)
+C: 29, 0: Import "from ansible.module_utils.six import string_types" should be placed at the top of the module (wrong-import-position)
+C: 30, 0: Import "from ansible.parsing.yaml.dumper import AnsibleDumper" should be placed at the top of the module (wrong-import-position)
+C: 31, 0: Import "from ansible.plugins.callback import CallbackBase, strip_internal_keys" should be placed at the top of the module (wrong-import-position)
+C: 32, 0: Import "from ansible.plugins.callback.default import CallbackModule as Default" should be placed at the top of the module (wrong-import-position)
+C: 38, 8: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+E: 62,11: Module 'yaml' has no 'representer' member (no-member)
+E: 81, 8: Module 'yaml' has no 'representer' member (no-member)
+E: 85,19: Module 'json' has no 'dumps' member (no-member)
+E:123,30: Module 'yaml' has no 'dump' member (no-member)
+W: 26, 0: Unused import sys (unused-import)
+W: 28, 0: Unused to_bytes imported from ansible.module_utils._text (unused-import)
+W: 29, 0: Unused string_types imported from ansible.module_utils.six (unused-import)
+W: 31, 0: Unused CallbackBase imported from ansible.plugins.callback (unused-import)
+C: 23, 0: standard import "import json" should be placed before "import yaml" (wrong-import-order)
+C: 24, 0: standard import "import re" should be placed before "import yaml" (wrong-import-order)
+C: 25, 0: standard import "import string" should be placed before "import yaml" (wrong-import-order)
+C: 26, 0: standard import "import sys" should be placed before "import yaml" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 3.23/10
+
+************* Module ansible.plugins.inventory.yaml
+C:103, 0: Line too long (125/100) (line-too-long)
+C:113, 0: Line too long (116/100) (line-too-long)
+C:133, 0: Line too long (134/100) (line-too-long)
+C:149, 0: Line too long (109/100) (line-too-long)
+C:151, 0: Line too long (152/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 61, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C: 63, 0: Import "from ansible.errors import AnsibleError, AnsibleParserError" should be placed at the top of the module (wrong-import-position)
+C: 64, 0: Import "from ansible.module_utils.six import string_types" should be placed at the top of the module (wrong-import-position)
+C: 65, 0: Import "from ansible.module_utils._text import to_native, to_text" should be placed at the top of the module (wrong-import-position)
+C: 66, 0: Import "from ansible.module_utils.common._collections_compat import MutableMapping" should be placed at the top of the module (wrong-import-position)
+C: 67, 0: Import "from ansible.plugins.inventory import BaseFileInventoryPlugin" should be placed at the top of the module (wrong-import-position)
+C: 72, 0: Missing class docstring (missing-docstring)
+W: 76, 4: Useless super delegation in method '__init__' (useless-super-delegation)
+W: 84,12: Unused variable 'file_name' (unused-variable)
+C: 97,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:121,35: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:115, 4: Too many branches (16/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 7.25/10
+

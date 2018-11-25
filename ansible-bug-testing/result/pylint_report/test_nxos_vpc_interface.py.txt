@@ -1,0 +1,15 @@
+************* Module units.modules.network.nxos.test_nxos_vpc_interface
+C: 40, 0: Line too long (102/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 23, 0: Unable to import 'ansible.modules.network.nxos' (import-error)
+C: 27, 0: Missing class docstring (missing-docstring)
+C: 50, 8: Missing function docstring (missing-docstring)
+W: 50, 0: Unused argument 'kwargs' (unused-argument)
+W: 51,12: Unused variable 'module' (unused-variable)
+C: 61, 4: Missing method docstring (missing-docstring)
+C: 66, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 6.32/10
+

@@ -1,0 +1,32 @@
+************* Module units.modules.network.slxos.test_slxos_interface
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 26, 0: Unable to import 'ansible.modules.network.slxos' (import-error)
+C: 31, 0: Missing class docstring (missing-docstring)
+C: 61, 4: Method name "test_slxos_interface_description" doesn't conform to snake_case naming style (invalid-name)
+C: 61, 4: Missing method docstring (missing-docstring)
+W: 61, 0: Unused argument 'args' (unused-argument)
+W: 61, 0: Unused argument 'kwargs' (unused-argument)
+C: 78, 4: Missing method docstring (missing-docstring)
+W: 78, 0: Unused argument 'args' (unused-argument)
+W: 78, 0: Unused argument 'kwargs' (unused-argument)
+C: 95, 4: Missing method docstring (missing-docstring)
+W: 95, 0: Unused argument 'args' (unused-argument)
+W: 95, 0: Unused argument 'kwargs' (unused-argument)
+C:112, 4: Method name "test_slxos_interface_mtu_out_of_range" doesn't conform to snake_case naming style (invalid-name)
+C:112, 4: Missing method docstring (missing-docstring)
+W:112, 0: Unused argument 'args' (unused-argument)
+W:112, 0: Unused argument 'kwargs' (unused-argument)
+C:126, 4: Missing method docstring (missing-docstring)
+W:126, 0: Unused argument 'args' (unused-argument)
+W:126, 0: Unused argument 'kwargs' (unused-argument)
+C:143, 4: Method name "test_slxos_interface_invalid_argument" doesn't conform to snake_case naming style (invalid-name)
+C:143, 4: Missing method docstring (missing-docstring)
+W:143, 0: Unused argument 'args' (unused-argument)
+W:143, 0: Unused argument 'kwargs' (unused-argument)
+W: 23, 0: Unused import json (unused-import)
+C: 27, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 4.04/10
+

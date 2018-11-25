@@ -1,0 +1,23 @@
+************* Module ansible.modules.cloud.rackspace.rax_meta
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 65, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C: 73, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 74, 0: Import "from ansible.module_utils.rax import rax_argument_spec, rax_required_together, setup_rax_module" should be placed at the top of the module (wrong-import-position)
+C: 75, 0: Import "from ansible.module_utils.six import string_types" should be placed at the top of the module (wrong-import-position)
+C: 78, 0: Missing function docstring (missing-docstring)
+R: 78, 0: Too many local variables (16/15) (too-many-locals)
+C: 81, 4: Variable name "cs" doesn't conform to snake_case naming style (invalid-name)
+W: 93,15: Catching too general exception Exception (broad-except)
+C: 93,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:103,15: Catching too general exception Exception (broad-except)
+C:103,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:109,15: Catching too general exception Exception (broad-except)
+C:109,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:120,11: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+R: 78, 0: Too many branches (18/12) (too-many-branches)
+C:141, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.63/10
+

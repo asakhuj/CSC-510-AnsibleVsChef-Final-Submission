@@ -1,0 +1,19 @@
+************* Module ansible.modules.cloud.ovirt.ovirt_affinity_label
+C:136, 0: Line too long (113/100) (line-too-long)
+C:142, 0: Wrong hanging indentation before block (add 4 spaces).
+                        search='name=%s and cluster=%s' % (obj, self._module.params['cluster'])
+                        ^   | (bad-continuation)
+C:144, 0: Line too long (104/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 97, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:104, 0: Import "from collections import defaultdict" should be placed at the top of the module (wrong-import-position)
+C:105, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:106, 0: Import "from ansible.module_utils.ovirt import BaseModule, check_sdk, create_connection, ovirt_full_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:114, 0: Missing class docstring (missing-docstring)
+C:165, 0: Missing function docstring (missing-docstring)
+W:203,11: Catching too general exception Exception (broad-except)
+C:203,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.31/10
+

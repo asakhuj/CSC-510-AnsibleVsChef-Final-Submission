@@ -1,0 +1,79 @@
+************* Module ansible.module_utils.network.ironware.ironware
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 30, 0: Constant name "ironware_provider_spec" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 41, 0: Constant name "ironware_argument_spec" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 45, 0: Constant name "command_spec" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 52, 0: Missing function docstring (missing-docstring)
+C: 56, 0: Missing function docstring (missing-docstring)
+W: 56,15: Unused argument 'module' (unused-argument)
+C: 60, 0: Missing function docstring (missing-docstring)
+W: 61, 4: Using the global statement (global-statement)
+W: 64,29: Access to a protected member _socket_path of a client class (protected-access)
+C: 69, 0: Missing function docstring (missing-docstring)
+W: 76, 8: Unused variable 'index' (unused-variable)
+C: 84, 0: Missing function docstring (missing-docstring)
+W: 84,35: Unused argument 'check_rc' (unused-argument)
+C: 98, 0: Missing function docstring (missing-docstring)
+W: 99, 4: Using the global statement (global-statement)
+R:100, 7: Comparison to literal (literal-comparison)
+R:106,11: Comparison to literal (literal-comparison)
+C:111, 0: Missing function docstring (missing-docstring)
+W: 23, 0: Unused return_values imported from ansible.module_utils.basic (unused-import)
+W: 25, 0: Unused exec_command imported from ansible.module_utils.connection (unused-import)
+
+-----------------------------------
+Your code has been rated at 5.69/10
+
+************* Module ansible.plugins.action.ironware
+C: 49, 0: Line too long (101/100) (line-too-long)
+C: 69, 0: Line too long (134/100) (line-too-long)
+C: 77, 0: Line too long (122/100) (line-too-long)
+C: 81, 0: Line too long (125/100) (line-too-long)
+C: 92, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 39, 0: Missing class docstring (missing-docstring)
+C: 53,12: Variable name "pc" doesn't conform to snake_case naming style (invalid-name)
+E: 53,17: Module 'copy' has no 'deepcopy' member (no-member)
+R: 39, 0: Too few public methods (1/2) (too-few-public-methods)
+W: 25, 0: Unused constants imported from ansible as C (unused-import)
+C: 35, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 7.21/10
+
+************* Module ansible.plugins.cliconf.ironware
+C: 74, 0: Line too long (119/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 32, 0: Missing class docstring (missing-docstring)
+C: 34, 4: Missing method docstring (missing-docstring)
+W: 52,43: Redefining built-in 'format' (redefined-builtin)
+W: 52, 4: Parameters differ from overridden 'get_config' method (arguments-differ)
+W: 69, 4: Parameters differ from overridden 'edit_config' method (arguments-differ)
+R: 73, 4: Too many arguments (6/5) (too-many-arguments)
+W: 73, 4: Parameters differ from overridden 'get' method (arguments-differ)
+W: 27, 0: Unused to_bytes imported from ansible.module_utils._text (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.44/10
+
+************* Module ansible.plugins.terminal.ironware
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 30, 0: Missing class docstring (missing-docstring)
+C: 44, 4: Missing method docstring (missing-docstring)
+W: 45, 8: Unused variable 'cmd' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 8.68/10
+
+************* Module ansible.utils.module_docs_fragments.ironware
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Missing class docstring (missing-docstring)
+R: 20, 0: Too few public methods (0/2) (too-few-public-methods)
+
+------------------------------------
+Your code has been rated at -5.00/10
+

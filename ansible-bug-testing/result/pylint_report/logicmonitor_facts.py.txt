@@ -1,0 +1,64 @@
+************* Module ansible.modules.monitoring.logicmonitor_facts
+C:149, 0: Wrong continued indentation (remove 3 spaces).
+                "u": self.user,
+             |  ^ (bad-continuation)
+C:150, 0: Wrong continued indentation (remove 3 spaces).
+                "p": self.password})
+             |  ^ (bad-continuation)
+C:176, 0: Wrong continued indentation (remove 4 spaces).
+                          "https://" + self.company + "." + self.lm_url +
+                      |   ^ (bad-continuation)
+C:177, 0: Wrong continued indentation (remove 4 spaces).
+                          "/rpc/" + action + "\nException" + to_native(ioe))
+                      |   ^ (bad-continuation)
+C:355, 0: Wrong hanging indentation (remove 4 spaces).
+                        "\".\n" + resp["errmsg"])
+                    |   ^ (bad-continuation)
+C:417, 0: Wrong hanging indentation (remove 14 spaces).
+                              self.params["collector"]))
+                |             ^ (bad-continuation)
+C:537, 0: Wrong hanging indentation (remove 4 spaces).
+                "\" was specified.")
+            |   ^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:116, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C:117, 0: Import "import socket" should be placed at the top of the module (wrong-import-position)
+C:118, 0: Import "import types" should be placed at the top of the module (wrong-import-position)
+C:120, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+E:121, 0: No name 'urllib' in module '_MovedItems' (no-name-in-module)
+E:121, 0: Unable to import 'ansible.module_utils.six.moves.urllib.parse' (import-error)
+C:121, 0: Import "from ansible.module_utils.six.moves.urllib.parse import urlencode" should be placed at the top of the module (wrong-import-position)
+C:122, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:123, 0: Import "from ansible.module_utils.urls import open_url" should be placed at the top of the module (wrong-import-position)
+C:126, 0: Missing class docstring (missing-docstring)
+R:126, 0: Too many instance attributes (9/7) (too-many-instance-attributes)
+C:165,12: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+R:141, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:188,11: Comparison to literal (literal-comparison)
+R:179, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:194, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:238, 8: Unnecessary "else" after "return" (no-else-return)
+C:323,12: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:327,16: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+E:327,20: Instance of 'LogicMonitor' has no '_build_host_group_hash' member (no-member)
+E:329,20: Instance of 'LogicMonitor' has no 'description' member (no-member)
+E:330,20: Instance of 'LogicMonitor' has no 'properties' member (no-member)
+E:331,20: Instance of 'LogicMonitor' has no 'alertenable' member (no-member)
+C:335,16: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+R:290, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:357, 4: Missing method docstring (missing-docstring)
+C:360, 4: Missing method docstring (missing-docstring)
+C:364, 4: Missing method docstring (missing-docstring)
+W:306,12: Attribute 'change' defined outside __init__ (attribute-defined-outside-init)
+C:369, 0: Missing class docstring (missing-docstring)
+R:429, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:469, 0: Missing class docstring (missing-docstring)
+R:482, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:540, 0: Missing function docstring (missing-docstring)
+C:541, 4: Variable name "TARGETS" doesn't conform to snake_case naming style (invalid-name)
+W:118, 0: Unused import types (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.30/10
+

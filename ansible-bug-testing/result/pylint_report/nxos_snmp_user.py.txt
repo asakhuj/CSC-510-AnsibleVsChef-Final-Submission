@@ -1,0 +1,22 @@
+************* Module ansible.modules.network.nxos.nxos_snmp_user
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 94, 0: Import "from ansible.module_utils.network.nxos.nxos import load_config, run_commands" should be placed at the top of the module (wrong-import-position)
+C: 95, 0: Import "from ansible.module_utils.network.nxos.nxos import nxos_argument_spec, check_args" should be placed at the top of the module (wrong-import-position)
+C: 96, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 99, 0: Missing function docstring (missing-docstring)
+C:110, 0: Missing function docstring (missing-docstring)
+C:120, 0: Missing function docstring (missing-docstring)
+C:134, 0: Missing function docstring (missing-docstring)
+R:134, 0: Too many local variables (19/15) (too-many-locals)
+C:161, 8: Variable name "rt" doesn't conform to snake_case naming style (invalid-name)
+C:206, 0: Missing function docstring (missing-docstring)
+R:207, 4: Unnecessary "else" after "return" (no-else-return)
+C:213, 0: Missing function docstring (missing-docstring)
+C:244, 0: Missing function docstring (missing-docstring)
+R:244, 0: Too many local variables (19/15) (too-many-locals)
+R:244, 0: Too many branches (25/12) (too-many-branches)
+R:244, 0: Too many statements (67/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 8.98/10
+

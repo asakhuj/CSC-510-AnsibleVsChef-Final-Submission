@@ -1,0 +1,56 @@
+************* Module ansible.modules.clustering.consul_kv
+C:145, 0: Line too long (113/100) (line-too-long)
+C:146, 0: Line too long (119/100) (line-too-long)
+C:153, 0: Line too long (119/100) (line-too-long)
+C:158, 0: Line too long (118/100) (line-too-long)
+C:302, 0: Line too long (107/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:134, 0: Import "from ansible.module_utils._text import to_text" should be placed at the top of the module (wrong-import-position)
+C:139, 4: Constant name "python_consul_installed" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:141, 4: Constant name "python_consul_installed" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:143, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:172, 0: Missing function docstring (missing-docstring)
+C:188, 0: Missing function docstring (missing-docstring)
+C:220, 0: Missing function docstring (missing-docstring)
+C:229, 0: Missing function docstring (missing-docstring)
+C:275, 0: Missing function docstring (missing-docstring)
+E:276,11: Module 'consul' has no 'Consul' member; maybe 'consul'? (no-member)
+W:275,27: Unused argument 'token' (unused-argument)
+C:283, 0: Missing function docstring (missing-docstring)
+C:289, 0: Missing function docstring (missing-docstring)
+W:317,11: Catching too general exception Exception (broad-except)
+C:314,30: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:317,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:143, 0: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 6.85/10
+
+************* Module ansible.plugins.lookup.consul_kv
+C:122, 0: Line too long (131/100) (line-too-long)
+C:133, 0: Line too long (116/100) (line-too-long)
+C:141, 0: Line too long (106/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:102, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+E:103, 0: No name 'urllib' in module '_MovedItems' (no-name-in-module)
+E:103, 0: Unable to import 'ansible.module_utils.six.moves.urllib.parse' (import-error)
+C:103, 0: Import "from ansible.module_utils.six.moves.urllib.parse import urlparse" should be placed at the top of the module (wrong-import-position)
+C:104, 0: Import "from ansible.errors import AnsibleError, AnsibleAssertionError" should be placed at the top of the module (wrong-import-position)
+C:105, 0: Import "from ansible.plugins.lookup import LookupBase" should be placed at the top of the module (wrong-import-position)
+C:106, 0: Import "from ansible.module_utils._text import to_text" should be placed at the top of the module (wrong-import-position)
+C:112,22: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:116, 0: Missing class docstring (missing-docstring)
+R:118, 4: Too many local variables (18/15) (too-many-locals)
+C:132,20: Variable name "u" doesn't conform to snake_case naming style (invalid-name)
+C:151,28: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:155,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:161, 4: Missing method docstring (missing-docstring)
+C:174,29: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:179,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:161, 4: Method could be a function (no-self-use)
+
+-----------------------------------
+Your code has been rated at 4.92/10
+

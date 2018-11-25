@@ -1,0 +1,23 @@
+************* Module units.modules.network.eos.eos_module
+C: 52, 0: Line too long (130/100) (line-too-long)
+C: 79, 0: Line too long (102/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 28, 0: Constant name "fixture_path" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 29, 0: Constant name "fixture_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 32, 0: Missing function docstring (missing-docstring)
+C: 38,23: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+W: 43, 4: No exception type(s) specified (bare-except)
+C: 50, 0: Missing class docstring (missing-docstring)
+C: 52, 4: Missing method docstring (missing-docstring)
+R: 52, 4: Too many arguments (8/5) (too-many-arguments)
+W: 52,97: Unused argument 'defaults' (unused-argument)
+C: 85, 4: Missing method docstring (missing-docstring)
+E: 87,12: Instance of 'TestEosModule' has no 'module' member (no-member)
+C: 93, 4: Missing method docstring (missing-docstring)
+E: 95,12: Instance of 'TestEosModule' has no 'module' member (no-member)
+C:101, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 5.52/10
+

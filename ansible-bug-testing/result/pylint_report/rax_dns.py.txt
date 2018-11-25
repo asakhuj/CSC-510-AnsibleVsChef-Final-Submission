@@ -1,0 +1,25 @@
+************* Module ansible.modules.cloud.rackspace.rax_dns
+C: 77, 0: Wrong continued indentation (remove 1 space).
+                                      )
+                                     |^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 72, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 73, 0: Import "from ansible.module_utils.rax import rax_argument_spec, rax_required_together, rax_to_dict, setup_rax_module" should be placed at the top of the module (wrong-import-position)
+C: 80, 0: Missing function docstring (missing-docstring)
+R: 80, 0: Too many arguments (6/5) (too-many-arguments)
+C: 96,49: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:103,19: Catching too general exception Exception (broad-except)
+C:103,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:119,19: Catching too general exception Exception (broad-except)
+C:119,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:127,15: Catching too general exception Exception (broad-except)
+C:127,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:134,19: Catching too general exception Exception (broad-except)
+C:134,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R: 80, 0: Too many branches (16/12) (too-many-branches)
+C:140, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.53/10
+

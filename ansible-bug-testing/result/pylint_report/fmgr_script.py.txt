@@ -1,0 +1,17 @@
+************* Module ansible.modules.network.fortimanager.fmgr_script
+C:225, 0: Line too long (114/100) (line-too-long)
+C:251, 0: Line too long (120/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:134, 0: Import "from ansible.module_utils.basic import AnsibleModule, env_fallback" should be placed at the top of the module (wrong-import-position)
+C:135, 0: Import "from ansible.module_utils.network.fortimanager.fortimanager import AnsibleFortiManager" should be placed at the top of the module (wrong-import-position)
+R:145, 0: Too many arguments (7/5) (too-many-arguments)
+R:177, 0: Too many arguments (6/5) (too-many-arguments)
+C:200, 0: Missing function docstring (missing-docstring)
+R:200, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:200, 0: Too many branches (14/12) (too-many-branches)
+W:139, 4: Unused FortiManager imported from pyFMG.fortimgr (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.42/10
+

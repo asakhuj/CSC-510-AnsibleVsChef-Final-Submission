@@ -1,0 +1,27 @@
+************* Module ansible.modules.storage.netapp.na_ontap_interface
+C:150, 0: Wrong hanging indentation (remove 7 spaces).
+                       'present', 'absent'], default='present'),
+                |      ^ (bad-continuation)
+C:269, 0: Line too long (106/100) (line-too-long)
+C:284, 0: Line too long (112/100) (line-too-long)
+C:293, 0: Wrong continued indentation (remove 1 space).
+                   }
+                  |^ (bad-continuation)
+C:313, 0: Line too long (111/100) (line-too-long)
+C:331, 0: Line too long (113/100) (line-too-long)
+C:334, 0: Line too long (122/100) (line-too-long)
+C:335, 0: Line too long (122/100) (line-too-long)
+C:336, 0: Line too long (115/100) (line-too-long)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:134, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:135, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:136, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:137, 0: Import "import ansible.module_utils.netapp as netapp_utils" should be placed at the top of the module (wrong-import-position)
+R:142, 0: Too many instance attributes (16/7) (too-many-instance-attributes)
+C:312,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:331,19: Too many boolean expressions in if statement (12/5) (too-many-boolean-expressions)
+C:358, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.67/10
+

@@ -1,0 +1,34 @@
+************* Module ansible.modules.network.panos.panos_query_rules
+C:298, 0: Wrong continued indentation (remove 1 space).
+                           )
+                          |^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:123, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:142, 0: Missing function docstring (missing-docstring)
+C:151, 0: Missing function docstring (missing-docstring)
+C:157, 8: Variable name "dg" doesn't conform to snake_case naming style (invalid-name)
+C:167, 0: Missing function docstring (missing-docstring)
+C:192, 0: Missing function docstring (missing-docstring)
+C:193, 4: Variable name "ip" doesn't conform to snake_case naming style (invalid-name)
+C:209, 0: Missing function docstring (missing-docstring)
+C:238, 0: Missing function docstring (missing-docstring)
+R:240, 7: Comparison to literal (literal-comparison)
+C:241,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+R:251, 9: Comparison to literal (literal-comparison)
+C:252,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:265, 0: Missing function docstring (missing-docstring)
+C:279, 0: Missing function docstring (missing-docstring)
+R:279, 0: Too many local variables (44/15) (too-many-locals)
+R:351, 4: Too many nested blocks (7/5) (too-many-nested-blocks)
+R:351, 4: Too many nested blocks (7/5) (too-many-nested-blocks)
+R:351, 4: Too many nested blocks (7/5) (too-many-nested-blocks)
+R:351, 4: Too many nested blocks (7/5) (too-many-nested-blocks)
+W:306, 4: Unused variable 'application' (unused-variable)
+R:279, 0: Too many branches (58/12) (too-many-branches)
+R:279, 0: Too many statements (146/50) (too-many-statements)
+W:126, 4: Unused import pan.xapi (unused-import)
+W:127, 4: Unused PanXapiError imported from pan.xapi (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.98/10
+

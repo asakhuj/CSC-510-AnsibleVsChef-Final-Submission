@@ -1,0 +1,20 @@
+************* Module ansible.modules.network.nxos.nxos_ospf
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 60, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C: 61, 0: Import "from ansible.module_utils.network.nxos.nxos import get_config, load_config" should be placed at the top of the module (wrong-import-position)
+C: 62, 0: Import "from ansible.module_utils.network.nxos.nxos import nxos_argument_spec, check_args" should be placed at the top of the module (wrong-import-position)
+C: 63, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 64, 0: Import "from ansible.module_utils.network.common.config import CustomNetworkConfig" should be placed at the top of the module (wrong-import-position)
+C: 72, 0: Missing function docstring (missing-docstring)
+C: 75, 4: Variable name "REGEX" doesn't conform to snake_case naming style (invalid-name)
+W: 72,22: Unused argument 'module' (unused-argument)
+C: 91, 0: Missing function docstring (missing-docstring)
+C:101, 0: Missing function docstring (missing-docstring)
+W:101,18: Unused argument 'module' (unused-argument)
+C:106, 0: Missing function docstring (missing-docstring)
+W:106,17: Unused argument 'module' (unused-argument)
+C:111, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.76/10
+

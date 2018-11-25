@@ -1,0 +1,28 @@
+************* Module ansible.modules.network.nxos.nxos_acl
+C:  1, 0: Missing module docstring (missing-docstring)
+C:173, 0: Import "from ansible.module_utils.network.nxos.nxos import load_config, run_commands" should be placed at the top of the module (wrong-import-position)
+C:174, 0: Import "from ansible.module_utils.network.nxos.nxos import nxos_argument_spec, check_args" should be placed at the top of the module (wrong-import-position)
+C:175, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:178, 0: Missing function docstring (missing-docstring)
+C:185, 0: Missing function docstring (missing-docstring)
+R:185, 0: Too many local variables (19/15) (too-many-locals)
+R:185, 0: Too many branches (17/12) (too-many-branches)
+R:185, 0: Too many statements (63/50) (too-many-statements)
+C:283, 0: Missing function docstring (missing-docstring)
+C:312, 0: Missing function docstring (missing-docstring)
+C:313, 4: Variable name "ENABLE_ONLY" doesn't conform to snake_case naming style (invalid-name)
+C:317, 4: Variable name "OTHER" doesn't conform to snake_case naming style (invalid-name)
+R:312, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:336, 0: Missing function docstring (missing-docstring)
+C:346, 0: Missing function docstring (missing-docstring)
+R:346, 0: Too many local variables (31/15) (too-many-locals)
+C:407, 4: Variable name "REQUIRED" doesn't conform to snake_case naming style (invalid-name)
+C:408, 4: Variable name "ABSENT" doesn't conform to snake_case naming style (invalid-name)
+C:430, 4: Variable name "OPTIONS_NAMES" doesn't conform to snake_case naming style (invalid-name)
+C:434, 4: Variable name "CORE" doesn't conform to snake_case naming style (invalid-name)
+R:346, 0: Too many branches (33/12) (too-many-branches)
+R:346, 0: Too many statements (95/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 8.98/10
+

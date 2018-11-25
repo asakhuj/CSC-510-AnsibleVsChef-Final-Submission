@@ -1,0 +1,32 @@
+************* Module ansible.modules.cloud.azure.azure_rm_containerregistry_facts
+C:177, 0: Line too long (102/100) (line-too-long)
+C:196, 0: Line too long (108/100) (line-too-long)
+C:227, 0: Line too long (127/100) (line-too-long)
+C:246, 0: Line too long (115/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:139, 0: Import "from ansible.module_utils.azure_rm_common import AzureRMModuleBase" should be placed at the top of the module (wrong-import-position)
+C:151, 0: Missing class docstring (missing-docstring)
+C:192, 4: Missing method docstring (missing-docstring)
+C:199,29: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+E:203,44: Instance of 'AzureRMContainerRegistryFacts' has no 'tags' member (no-member)
+W:199,29: Unused variable 'e' (unused-variable)
+C:208, 4: Missing method docstring (missing-docstring)
+C:214,29: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+E:219,44: Instance of 'AzureRMContainerRegistryFacts' has no 'tags' member (no-member)
+W:214,29: Unused variable 'e' (unused-variable)
+C:223, 4: Missing method docstring (missing-docstring)
+C:229,29: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+E:234,44: Instance of 'AzureRMContainerRegistryFacts' has no 'tags' member (no-member)
+W:229,29: Unused variable 'e' (unused-variable)
+C:238, 4: Missing method docstring (missing-docstring)
+C:239, 8: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:255, 8: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:270, 0: Missing function docstring (missing-docstring)
+W:143, 4: Unused AzureOperationPoller imported from msrestazure.azure_operation (unused-import)
+W:144, 4: Unused ContainerRegistryManagementClient imported from azure.mgmt.containerregistry (unused-import)
+W:145, 4: Unused Model imported from msrest.serialization (unused-import)
+
+-----------------------------------
+Your code has been rated at 5.67/10
+

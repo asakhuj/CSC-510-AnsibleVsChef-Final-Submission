@@ -1,0 +1,19 @@
+************* Module units.modules.net_tools.nios.test_nios_network
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 18, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 21, 0: Unable to import 'ansible.module_utils.net_tools.nios' (import-error)
+E: 22, 0: Unable to import 'ansible.modules.net_tools.nios' (import-error)
+C: 28, 0: Missing class docstring (missing-docstring)
+C: 60, 4: Missing method docstring (missing-docstring)
+C: 78, 4: Method name "test_nios_network_ipv4_dhcp_update" doesn't conform to snake_case naming style (invalid-name)
+C: 78, 4: Missing method docstring (missing-docstring)
+C:102, 4: Method name "test_nios_network_ipv6_dhcp_update" doesn't conform to snake_case naming style (invalid-name)
+C:102, 4: Missing method docstring (missing-docstring)
+C:125, 4: Missing method docstring (missing-docstring)
+C:150, 4: Missing method docstring (missing-docstring)
+C:169, 4: Missing method docstring (missing-docstring)
+W: 24, 0: Unused set_module_args imported from units.modules.utils (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.35/10
+

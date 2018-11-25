@@ -1,0 +1,81 @@
+************* Module ansible.module_utils.network.asa.asa
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 37, 0: Constant name "asa_provider_spec" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 50, 0: Constant name "asa_argument_spec" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 54, 0: Constant name "asa_top_spec" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 68, 0: Constant name "command_spec" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 75, 0: Missing function docstring (missing-docstring)
+C: 79, 0: Missing function docstring (missing-docstring)
+W: 79,15: Unused argument 'module' (unused-argument)
+C: 83, 0: Missing function docstring (missing-docstring)
+W: 84, 4: Using the global statement (global-statement)
+W: 87,29: Access to a protected member _socket_path of a client class (protected-access)
+C:101, 0: Missing function docstring (missing-docstring)
+W:108, 8: Unused variable 'index' (unused-variable)
+C:116, 0: Missing function docstring (missing-docstring)
+W:116,35: Unused argument 'check_rc' (unused-argument)
+C:130, 0: Missing function docstring (missing-docstring)
+C:151, 0: Missing function docstring (missing-docstring)
+C:159, 0: Missing function docstring (missing-docstring)
+C:160, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+R:168, 4: Unnecessary "else" after "return" (no-else-return)
+W:160,13: Unused variable 'err' (unused-variable)
+W:160, 4: Unused variable 'rc' (unused-variable)
+W: 29, 0: Unused return_values imported from ansible.module_utils.basic (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.01/10
+
+************* Module ansible.plugins.action.asa
+C: 69, 0: Wrong continued indentation (add 7 spaces).
+                        'https://docs.ansible.com/ansible/network_debug_troubleshooting.html#unable-to-open-shell'}
+                        ^      | (bad-continuation)
+C: 69, 0: Line too long (115/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 39, 0: Missing class docstring (missing-docstring)
+C: 46,12: Variable name "pc" doesn't conform to snake_case naming style (invalid-name)
+E: 46,17: Module 'copy' has no 'deepcopy' member (no-member)
+E: 54,57: Module 'ansible.constants' has no 'PERSISTENT_COMMAND_TIMEOUT' member (no-member)
+R: 39, 0: Too few public methods (1/2) (too-few-public-methods)
+W: 24, 0: Unused import json (unused-import)
+C: 35, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 5.37/10
+
+************* Module ansible.plugins.cliconf.asa
+C: 71, 0: Line too long (119/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 32, 0: Missing class docstring (missing-docstring)
+C: 34, 4: Missing method docstring (missing-docstring)
+W: 56,43: Redefining built-in 'format' (redefined-builtin)
+W: 56, 4: Parameters differ from overridden 'get_config' method (arguments-differ)
+E: 58,19: Instance of 'Cliconf' has no 'invalid_params' member (no-member)
+W: 66, 4: Parameters differ from overridden 'edit_config' method (arguments-differ)
+R: 70, 4: Too many arguments (6/5) (too-many-arguments)
+W: 70, 4: Parameters differ from overridden 'get' method (arguments-differ)
+W: 27, 0: Unused to_bytes imported from ansible.module_utils._text (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.19/10
+
+************* Module ansible.plugins.terminal.asa
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 30, 0: Missing class docstring (missing-docstring)
+C: 46, 4: Missing method docstring (missing-docstring)
+W: 47, 8: Unused variable 'cmd' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 8.39/10
+
+************* Module ansible.utils.module_docs_fragments.asa
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Missing class docstring (missing-docstring)
+R: 21, 0: Too few public methods (0/2) (too-few-public-methods)
+
+------------------------------------
+Your code has been rated at -5.00/10
+

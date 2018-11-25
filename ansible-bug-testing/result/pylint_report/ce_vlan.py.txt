@@ -1,0 +1,14 @@
+************* Module ansible.modules.network.cloudengine.ce_vlan
+C:134, 0: Line too long (121/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:132, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:133, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:134, 0: Import "from ansible.module_utils.network.cloudengine.ce import get_nc_config, set_nc_config, execute_nc_action, ce_argument_spec" should be placed at the top of the module (wrong-import-position)
+R:259, 0: Too many instance attributes (15/7) (too-many-instance-attributes)
+R:404, 8: Unnecessary "else" after "return" (no-else-return)
+R:418, 8: Unnecessary "else" after "return" (no-else-return)
+R:589, 4: Too many branches (20/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 9.64/10
+

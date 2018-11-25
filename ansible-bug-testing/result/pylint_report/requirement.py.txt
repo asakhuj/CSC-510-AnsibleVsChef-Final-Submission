@@ -1,0 +1,23 @@
+************* Module ansible.playbook.role.requirement
+C: 94, 0: Line too long (118/100) (line-too-long)
+C:117, 0: Line too long (140/100) (line-too-long)
+C:156, 0: Line too long (126/100) (line-too-long)
+C:164, 0: Line too long (115/100) (line-too-long)
+C:174, 0: Line too long (101/100) (line-too-long)
+C:186, 0: Line too long (102/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+W: 61, 4: __init__ method from base class 'RoleDefinition' is not called (super-init-not-called)
+C: 65, 4: Missing method docstring (missing-docstring)
+C: 81, 4: Missing method docstring (missing-docstring)
+R: 81, 4: Too many branches (20/12) (too-many-branches)
+C:141, 4: Missing method docstring (missing-docstring)
+C:143, 8: Missing function docstring (missing-docstring)
+C:149,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+E:166,39: Module 'ansible.constants' has no 'DEFAULT_LOCAL_TMP' member (no-member)
+E:174,81: Module 'ansible.constants' has no 'DEFAULT_LOCAL_TMP' member (no-member)
+C: 50, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 7.87/10
+

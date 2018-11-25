@@ -1,0 +1,69 @@
+************* Module ansible.module_utils.network.meraki.meraki
+W:111, 0: TODO: This should be removed as org_name isn't always required (fixme)
+C: 48, 0: Wrong continued indentation (remove 1 space).
+                )
+               |^ (bad-continuation)
+C: 81, 0: Line too long (113/100) (line-too-long)
+C: 92, 0: Wrong continued indentation (remove 1 space).
+                         }
+                        |^ (bad-continuation)
+C: 97, 0: Wrong continued indentation (remove 1 space).
+                             }
+                            |^ (bad-continuation)
+C:106, 0: Wrong continued indentation (remove 1 space).
+                            }
+                           |^ (bad-continuation)
+C:109, 0: Line too long (114/100) (line-too-long)
+C:114, 0: Wrong continued indentation (remove 1 space).
+                                   ]
+                                  |^ (bad-continuation)
+C:121, 0: Wrong continued indentation (remove 1 space).
+                        }
+                       |^ (bad-continuation)
+C:191, 0: Line too long (111/100) (line-too-long)
+C:193, 0: Line too long (117/100) (line-too-long)
+C:252, 0: Line too long (106/100) (line-too-long)
+C:277, 0: Line too long (104/100) (line-too-long)
+C:284, 0: Wrong continued indentation (remove 1 space).
+                               )
+                              |^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 38, 0: Missing function docstring (missing-docstring)
+C: 51, 0: Missing class docstring (missing-docstring)
+R: 51, 0: Too many instance attributes (24/7) (too-many-instance-attributes)
+W:108,11: Access to a protected member _debug of a client class (protected-access)
+C:145,15: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+R:130, 4: Method could be a function (no-self-use)
+W:157, 8: Unused variable 'response' (unused-variable)
+C:170,16: Variable name "o" doesn't conform to snake_case naming style (invalid-name)
+C:174,16: Variable name "o" doesn't conform to snake_case naming style (invalid-name)
+R:163, 4: Method could be a function (no-self-use)
+R:179, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:205, 8: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:210,12: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+W:205, 8: Unused variable 'r' (unused-variable)
+C:225,12: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
+C:234,12: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
+R:230, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+W:230,25: Unused argument 'org_name' (unused-argument)
+C:239, 4: Missing method docstring (missing-docstring)
+C:246, 4: Missing method docstring (missing-docstring)
+R:246, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:252, 4: Too many arguments (7/5) (too-many-arguments)
+W:295, 8: No exception type(s) specified (bare-except)
+W: 32, 0: Unused import os (unused-import)
+W: 33, 0: Unused AnsibleModule imported from ansible.module_utils.basic (unused-import)
+W: 35, 0: Unused to_bytes imported from ansible.module_utils._text (unused-import)
+W: 35, 0: Unused to_text imported from ansible.module_utils._text (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.51/10
+
+************* Module ansible.utils.module_docs_fragments.meraki
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Missing class docstring (missing-docstring)
+R:  8, 0: Too few public methods (0/2) (too-few-public-methods)
+
+------------------------------------
+Your code has been rated at -5.00/10
+

@@ -1,0 +1,11 @@
+************* Module lib.sanity.ansible_doc
+C: 59, 0: Line too long (142/100) (line-too-long)
+C: 89, 0: Line too long (142/100) (line-too-long)
+C:112, 0: Line too long (130/100) (line-too-long)
+C:128, 0: Line too long (114/100) (line-too-long)
+R: 34, 4: Too many local variables (28/15) (too-many-locals)
+W: 27, 0: Unused SanityConfig imported from lib.config (unused-import)
+
+-----------------------------------
+Your code has been rated at 9.08/10
+

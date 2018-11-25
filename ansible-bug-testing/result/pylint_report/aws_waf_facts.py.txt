@@ -1,0 +1,11 @@
+************* Module ansible.modules.cloud.amazon.aws_waf_facts
+C:121, 0: Line too long (122/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:106, 0: Import "from ansible.module_utils.aws.core import AnsibleAWSModule" should be placed at the top of the module (wrong-import-position)
+C:107, 0: Import "from ansible.module_utils.ec2 import boto3_conn, ec2_argument_spec, get_aws_connection_info" should be placed at the top of the module (wrong-import-position)
+C:108, 0: Import "from ansible.module_utils.aws.waf import list_web_acls, get_web_acl" should be placed at the top of the module (wrong-import-position)
+C:111, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.27/10
+

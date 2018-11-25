@@ -1,0 +1,13 @@
+************* Module ansible.plugins.cache.jsonfile
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 44, 0: Import "import codecs" should be placed at the top of the module (wrong-import-position)
+C: 45, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C: 47, 0: Import "from ansible.parsing.ajson import AnsibleJSONEncoder, AnsibleJSONDecoder" should be placed at the top of the module (wrong-import-position)
+C: 48, 0: Import "from ansible.plugins.cache import BaseFileCacheModule" should be placed at the top of the module (wrong-import-position)
+C: 58,61: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C: 62,61: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 4.29/10
+

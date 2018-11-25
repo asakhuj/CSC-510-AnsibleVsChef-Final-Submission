@@ -1,0 +1,12 @@
+************* Module ansible.plugins.lookup.dict
+W: 65, 0: FIXME: can remove once with_ special case is removed (fixme)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 56, 0: Import "from ansible.errors import AnsibleError" should be placed at the top of the module (wrong-import-position)
+C: 57, 0: Import "from ansible.plugins.lookup import LookupBase" should be placed at the top of the module (wrong-import-position)
+C: 58, 0: Import "from ansible.module_utils.common._collections_compat import Mapping" should be placed at the top of the module (wrong-import-position)
+C: 61, 0: Missing class docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 6.11/10
+

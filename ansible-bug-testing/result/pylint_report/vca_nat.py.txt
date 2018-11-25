@@ -1,0 +1,18 @@
+************* Module ansible.modules.cloud.vmware.vca_nat
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 68, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 69, 0: Import "from ansible.module_utils.vca import VcaError, vca_argument_spec, vca_login" should be placed at the top of the module (wrong-import-position)
+C: 76, 0: Missing function docstring (missing-docstring)
+C: 97, 0: Missing function docstring (missing-docstring)
+C:114, 0: Missing function docstring (missing-docstring)
+C:121, 0: Missing function docstring (missing-docstring)
+R:121, 0: Too many local variables (18/15) (too-many-locals)
+C:151,23: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:161,31: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:192,16: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+R:121, 0: Too many statements (55/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 8.59/10
+

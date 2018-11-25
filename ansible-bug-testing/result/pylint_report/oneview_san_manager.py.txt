@@ -1,0 +1,22 @@
+************* Module ansible.modules.remote_management.oneview.oneview_san_manager
+C:141, 0: Line too long (111/100) (line-too-long)
+C:146, 0: Line too long (114/100) (line-too-long)
+C:157, 0: Line too long (110/100) (line-too-long)
+C:158, 0: Line too long (117/100) (line-too-long)
+C:176, 0: Line too long (106/100) (line-too-long)
+C:189, 0: Line too long (114/100) (line-too-long)
+C:200, 0: Line too long (103/100) (line-too-long)
+C:201, 0: Line too long (110/100) (line-too-long)
+C:209, 0: Line too long (116/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:129, 0: Import "from ansible.module_utils.oneview import OneViewModuleBase, OneViewModuleValueError" should be placed at the top of the module (wrong-import-position)
+C:132, 0: Missing class docstring (missing-docstring)
+R:149, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:175, 8: Unnecessary "else" after "return" (no-else-return)
+R:186,12: Unnecessary "else" after "return" (no-else-return)
+C:214, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.54/10
+

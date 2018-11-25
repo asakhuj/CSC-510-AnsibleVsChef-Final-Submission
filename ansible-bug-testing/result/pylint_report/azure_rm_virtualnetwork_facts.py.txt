@@ -1,0 +1,16 @@
+************* Module ansible.modules.cloud.azure.azure_rm_virtualnetwork_facts
+C:154, 0: Line too long (106/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+W: 89, 0: No exception type(s) specified (bare-except)
+E: 88, 4: Unable to import 'msrestazure.azure_exceptions' (import-error)
+C: 93, 0: Import "from ansible.module_utils.azure_rm_common import AzureRMModuleBase" should be placed at the top of the module (wrong-import-position)
+C: 99, 0: Missing class docstring (missing-docstring)
+C:134, 4: Missing method docstring (missing-docstring)
+C:149, 4: Missing method docstring (missing-docstring)
+C:162, 4: Missing method docstring (missing-docstring)
+C:176, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.66/10
+

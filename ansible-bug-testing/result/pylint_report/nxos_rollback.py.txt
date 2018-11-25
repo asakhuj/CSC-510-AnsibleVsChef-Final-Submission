@@ -1,0 +1,20 @@
+************* Module ansible.modules.network.nxos.nxos_rollback
+C: 86, 0: Wrong hanging indentation (add 4 spaces).
+        'command': 'checkpoint file %s' % filename,
+        ^   | (bad-continuation)
+C: 87, 0: Wrong hanging indentation (add 4 spaces).
+        'output': 'text',
+        ^   | (bad-continuation)
+C: 88, 0: Wrong hanging indentation.
+    }]
+    ^   |   | (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 78, 0: Import "from ansible.module_utils.network.nxos.nxos import nxos_argument_spec, run_commands" should be placed at the top of the module (wrong-import-position)
+C: 79, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 82, 0: Missing function docstring (missing-docstring)
+C: 92, 0: Missing function docstring (missing-docstring)
+C:100, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.19/10
+

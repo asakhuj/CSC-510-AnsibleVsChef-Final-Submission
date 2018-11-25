@@ -1,0 +1,11 @@
+************* Module units.module_utils.test_text
+C: 49, 0: Line too long (102/100) (line-too-long)
+C: 50, 0: Line too long (103/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 14, 0: Unable to import 'ansible.module_utils.six' (import-error)
+E: 18, 0: Unable to import 'ansible.module_utils._text' (import-error)
+
+------------------------------------
+Your code has been rated at -0.77/10
+

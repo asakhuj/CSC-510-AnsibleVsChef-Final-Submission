@@ -1,0 +1,33 @@
+************* Module ansible.modules.cloud.google.gce_instance_template
+C:569, 0: Line too long (104/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:219, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:238, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:239, 0: Import "from ansible.module_utils.gce import gce_connect" should be placed at the top of the module (wrong-import-position)
+C:240, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+R:252, 0: Too many local variables (38/15) (too-many-locals)
+C:352,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:384,12: Variable name "md" doesn't conform to snake_case naming style (invalid-name)
+C:387,16: Variable name "md" doesn't conform to snake_case naming style (invalid-name)
+C:390,33: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:392,34: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:397,19: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+R:252, 0: Too many branches (35/12) (too-many-branches)
+R:252, 0: Too many statements (111/50) (too-many-statements)
+C:447,30: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:452, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W:476,26: Unused variable 'name' (unused-variable)
+C:487, 0: Function name "check_if_system_state_would_be_changed" doesn't conform to snake_case naming style (invalid-name)
+C:503,30: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:524, 0: Missing function docstring (missing-docstring)
+C:568,30: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:229, 4: Unused get_driver imported from libcloud.compute.providers (unused-import)
+W:230, 4: Unused ResourceInUseError imported from libcloud.common.google (unused-import)
+W:230, 4: Unused QuotaExceededError imported from libcloud.common.google (unused-import)
+W:230, 4: Unused ResourceExistsError imported from libcloud.common.google (unused-import)
+W:232, 4: Unused GCEAddress imported from libcloud.compute.drivers.gce (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.60/10
+

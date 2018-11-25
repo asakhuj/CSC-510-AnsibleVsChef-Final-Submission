@@ -1,0 +1,21 @@
+************* Module ansible.modules.cloud.azure.azure_rm_dnsrecordset_facts
+C:142, 0: Line too long (104/100) (line-too-long)
+C:165, 0: Line too long (125/100) (line-too-long)
+C:175, 0: Line too long (137/100) (line-too-long)
+C:187, 0: Line too long (123/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 96, 0: Import "from ansible.module_utils.azure_rm_common import AzureRMModuleBase" should be placed at the top of the module (wrong-import-position)
+W:101, 0: No exception type(s) specified (bare-except)
+E: 99, 4: Unable to import 'msrestazure.azure_exceptions' (import-error)
+E:100, 4: Unable to import 'azure.common' (import-error)
+C:108, 0: Missing class docstring (missing-docstring)
+C:158, 4: Missing method docstring (missing-docstring)
+C:172, 4: Missing method docstring (missing-docstring)
+C:184, 4: Missing method docstring (missing-docstring)
+C:197, 0: Missing function docstring (missing-docstring)
+W:100, 4: Unused AzureMissingResourceHttpError imported from azure.common (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.62/10
+

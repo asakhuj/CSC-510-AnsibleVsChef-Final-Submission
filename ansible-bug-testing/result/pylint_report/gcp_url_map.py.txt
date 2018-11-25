@@ -1,0 +1,20 @@
+************* Module ansible.modules.cloud.google.gcp_url_map
+C:452, 0: Line too long (105/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:145, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:146, 0: Import "from ansible.module_utils.gcp import check_params, get_google_api_client, GCPUtils" should be placed at the top of the module (wrong-import-position)
+C:147, 0: Import "from ansible.module_utils.six import string_types" should be placed at the top of the module (wrong-import-position)
+C:214, 8: Variable name "pm" doesn't conform to snake_case naming style (invalid-name)
+C:217,16: Variable name "pr" doesn't conform to snake_case naming style (invalid-name)
+C:247, 8: Variable name "hr" doesn't conform to snake_case naming style (invalid-name)
+R:247, 4: Too many nested blocks (6/5) (too-many-nested-blocks)
+C:287, 8: Variable name "pm" doesn't conform to snake_case naming style (invalid-name)
+C:438, 0: Missing function docstring (missing-docstring)
+W:466,11: Catching too general exception Exception (broad-except)
+C:466,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:140, 4: Unused literal_eval imported from ast (unused-import)
+
+-----------------------------------
+Your code has been rated at 9.00/10
+

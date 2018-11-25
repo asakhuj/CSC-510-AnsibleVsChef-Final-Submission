@@ -1,0 +1,21 @@
+************* Module module_utils.sub.bam
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  3, 0: Constant name "bam" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+-------------------------------------
+Your code has been rated at -10.00/10
+
+************* Module module_utils.sub.bam.bam
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  3, 0: Constant name "bam" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+-------------------------------------
+Your code has been rated at -10.00/10
+
+************* Module module_utils.sub.bar.bam
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  3, 0: Constant name "bam" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+-------------------------------------
+Your code has been rated at -10.00/10
+

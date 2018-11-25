@@ -1,0 +1,16 @@
+************* Module ansible.modules.notification.cisco_spark
+C:121, 0: Line too long (110/100) (line-too-long)
+C:122, 0: Line too long (106/100) (line-too-long)
+C:122, 0: Line too long (106/100) (line-too-long)
+C:177, 0: Wrong hanging indentation (remove 14 spaces).
+                              'type'], choices=['text', 'markdown']),
+                |             ^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:116, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:117, 0: Import "from ansible.module_utils.urls import fetch_url" should be placed at the top of the module (wrong-import-position)
+W:147, 4: Unused variable 'response' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 7.57/10
+

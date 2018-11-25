@@ -1,0 +1,22 @@
+************* Module ansible.modules.storage.purestorage.purefb_facts
+C:460, 0: Line too long (101/100) (line-too-long)
+C:495, 0: Line too long (109/100) (line-too-long)
+C:614, 0: Line too long (133/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:365, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:366, 0: Import "from ansible.module_utils.pure import get_blade, purefb_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:373, 0: Missing function docstring (missing-docstring)
+C:393, 0: Missing function docstring (missing-docstring)
+C:451, 0: Missing function docstring (missing-docstring)
+C:479, 0: Missing function docstring (missing-docstring)
+C:499, 0: Missing function docstring (missing-docstring)
+C:515, 0: Missing function docstring (missing-docstring)
+C:533, 0: Missing function docstring (missing-docstring)
+C:564, 0: Missing function docstring (missing-docstring)
+C:578, 0: Missing function docstring (missing-docstring)
+C:602, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.87/10
+

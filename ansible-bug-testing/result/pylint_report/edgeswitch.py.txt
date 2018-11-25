@@ -1,0 +1,56 @@
+************* Module ansible.module_utils.network.edgeswitch.edgeswitch
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 41, 0: Missing function docstring (missing-docstring)
+C: 54, 0: Missing function docstring (missing-docstring)
+C: 63,12: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C: 71, 0: Missing function docstring (missing-docstring)
+W: 73,15: Access to a protected member _edgeswitch_connection of a client class (protected-access)
+W: 78, 8: Access to a protected member _edgeswitch_connection of a client class (protected-access)
+W: 78,51: Access to a protected member _socket_path of a client class (protected-access)
+W: 82,11: Access to a protected member _edgeswitch_connection of a client class (protected-access)
+C: 85, 0: Missing function docstring (missing-docstring)
+W: 87,15: Access to a protected member _edgeswitch_capabilities of a client class (protected-access)
+W: 89,34: Access to a protected member _socket_path of a client class (protected-access)
+W: 92, 4: Access to a protected member _edgeswitch_capabilities of a client class (protected-access)
+W: 93,11: Access to a protected member _edgeswitch_capabilities of a client class (protected-access)
+C: 96, 0: Missing function docstring (missing-docstring)
+C:105, 0: Missing function docstring (missing-docstring)
+C:121, 0: Missing function docstring (missing-docstring)
+E:129,27: Value 'interface' is unsubscriptable (unsubscriptable-object)
+C:142, 0: Missing function docstring (missing-docstring)
+C:152, 0: Missing function docstring (missing-docstring)
+C:160, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.52/10
+
+************* Module ansible.plugins.cliconf.edgeswitch
+C: 97, 0: Line too long (104/100) (line-too-long)
+C:103, 0: Line too long (119/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 36, 0: Missing class docstring (missing-docstring)
+C: 38, 4: Missing method docstring (missing-docstring)
+W: 60, 4: Parameters differ from overridden 'get_config' method (arguments-differ)
+W: 76, 4: Parameters differ from overridden 'edit_config' method (arguments-differ)
+R: 97, 4: Too many arguments (7/5) (too-many-arguments)
+W: 97, 4: Parameters differ from overridden 'get' method (arguments-differ)
+C:127,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W: 23, 0: Unused import time (unused-import)
+W: 26, 0: Unused chain imported from itertools (unused-import)
+W: 30, 0: Unused dumps imported from ansible.module_utils.network.common.config (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.33/10
+
+************* Module ansible.plugins.terminal.edgeswitch
+C: 64, 0: Line too long (122/100) (line-too-long)
+C: 74, 0: Line too long (141/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 30, 0: Missing class docstring (missing-docstring)
+C: 72,43: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.57/10
+

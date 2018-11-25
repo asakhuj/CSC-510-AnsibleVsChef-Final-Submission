@@ -1,0 +1,8 @@
+************* Module module_utils.sub.bar.bar
+C:  1, 0: Black listed name "bar" (blacklisted-name)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  3, 0: Black listed name "bar" (blacklisted-name)
+
+-------------------------------------
+Your code has been rated at -20.00/10
+

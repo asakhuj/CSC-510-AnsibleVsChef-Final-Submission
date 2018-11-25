@@ -1,0 +1,19 @@
+************* Module ansible.modules.cloud.google.gcp_compute_ssl_policy_facts
+C:178, 0: Line too long (112/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:148, 0: Import "from ansible.module_utils.gcp_utils import navigate_hash, GcpSession, GcpModule, GcpRequest" should be placed at the top of the module (wrong-import-position)
+C:149, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C:156, 0: Missing function docstring (missing-docstring)
+C:177, 0: Missing function docstring (missing-docstring)
+C:181, 0: Missing function docstring (missing-docstring)
+C:187, 0: Missing function docstring (missing-docstring)
+R:191, 4: Unnecessary "else" after "return" (no-else-return)
+C:195,12: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C:205, 0: Missing function docstring (missing-docstring)
+W:148, 0: Unused GcpRequest imported from ansible.module_utils.gcp_utils (unused-import)
+C:149, 0: standard import "import json" should be placed before "from ansible.module_utils.gcp_utils import navigate_hash, GcpSession, GcpModule, GcpRequest" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 7.20/10
+

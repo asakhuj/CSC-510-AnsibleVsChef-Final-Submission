@@ -1,0 +1,33 @@
+************* Module ansible.modules.remote_management.manageiq.manageiq_tenant
+C:197, 0: Line too long (110/100) (line-too-long)
+C:220, 0: Line too long (117/100) (line-too-long)
+C:327, 0: Line too long (116/100) (line-too-long)
+C:400, 0: Line too long (103/100) (line-too-long)
+C:432, 0: Line too long (105/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 22, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:170, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:171, 0: Import "from ansible.module_utils.manageiq import ManageIQ, manageiq_argument_spec" should be placed at the top of the module (wrong-import-position)
+R:186, 4: Too many branches (14/12) (too-many-branches)
+R:242, 4: Method could be a function (no-self-use)
+W:264,15: Catching too general exception Exception (broad-except)
+C:264,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:287,15: Catching too general exception Exception (broad-except)
+C:287,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:286,12: Unused variable 'result' (unused-variable)
+W:313,15: Catching too general exception Exception (broad-except)
+C:313,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:389, 8: Unnecessary "else" after "return" (no-else-return)
+W:399,19: Catching too general exception Exception (broad-except)
+C:399,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:416,15: Catching too general exception Exception (broad-except)
+C:416,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:431,15: Catching too general exception Exception (broad-except)
+C:431,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:423,34: Unused argument 'tenant' (unused-argument)
+W:436,45: Unused argument 'parent_tenant' (unused-argument)
+C:481, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.49/10
+

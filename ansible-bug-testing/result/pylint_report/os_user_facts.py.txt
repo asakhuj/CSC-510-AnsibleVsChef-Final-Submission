@@ -1,0 +1,14 @@
+************* Module ansible.modules.cloud.openstack.os_user_facts
+C:114, 0: Line too long (125/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:113, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:114, 0: Import "from ansible.module_utils.openstack import openstack_full_argument_spec, openstack_module_kwargs, openstack_cloud_from_module" should be placed at the top of the module (wrong-import-position)
+C:117, 0: Missing function docstring (missing-docstring)
+W:138,12: No exception type(s) specified (bare-except)
+C:156,53: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:114, 0: Unused openstack_module_kwargs imported from ansible.module_utils.openstack (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.35/10
+

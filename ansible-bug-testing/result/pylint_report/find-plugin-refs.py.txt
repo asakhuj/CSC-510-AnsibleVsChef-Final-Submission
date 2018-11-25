@@ -1,0 +1,22 @@
+************* Module find-plugin-refs
+C: 57, 0: Line too long (110/100) (line-too-long)
+C: 59, 0: Line too long (147/100) (line-too-long)
+C: 59, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 81, 0: Line too long (101/100) (line-too-long)
+C: 83, 0: Line too long (115/100) (line-too-long)
+C:  1, 0: Module name "find-plugin-refs" doesn't conform to snake_case naming style (invalid-name)
+C:  1, 0: Missing module docstring (missing-docstring)
+E: 16, 0: Unable to import 'ansible.module_utils._text' (import-error)
+W: 23, 4: Redefining name 'plugins' from outer scope (line 64) (redefined-outer-name)
+C: 22, 0: Missing function docstring (missing-docstring)
+W: 39,25: Redefining name 'plugin_names' from outer scope (line 22) (redefined-outer-name)
+C: 39, 0: Missing function docstring (missing-docstring)
+C: 40, 4: Variable name "REF_RE" doesn't conform to snake_case naming style (invalid-name)
+C: 41, 4: Variable name "LABEL_RE" doesn't conform to snake_case naming style (invalid-name)
+C: 46,64: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+W: 44,17: Unused variable 'dirnames' (unused-variable)
+C: 64, 4: Constant name "plugins" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 3.82/10 (previous run: 3.82/10, +0.00)
+

@@ -1,0 +1,23 @@
+************* Module ansible.modules.monitoring.uptimerobot
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 57, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C: 59, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+E: 60, 0: No name 'urllib' in module '_MovedItems' (no-name-in-module)
+E: 60, 0: Unable to import 'ansible.module_utils.six.moves.urllib.parse' (import-error)
+C: 60, 0: Import "from ansible.module_utils.six.moves.urllib.parse import urlencode" should be placed at the top of the module (wrong-import-position)
+C: 61, 0: Import "from ansible.module_utils.urls import fetch_url" should be placed at the top of the module (wrong-import-position)
+C: 77, 0: Function name "checkID" doesn't conform to snake_case naming style (invalid-name)
+C: 77, 0: Missing function docstring (missing-docstring)
+W: 81, 9: Unused variable 'info' (unused-variable)
+C: 88, 0: Function name "startMonitor" doesn't conform to snake_case naming style (invalid-name)
+C: 88, 0: Missing function docstring (missing-docstring)
+W: 93, 9: Unused variable 'info' (unused-variable)
+C:100, 0: Function name "pauseMonitor" doesn't conform to snake_case naming style (invalid-name)
+C:100, 0: Missing function docstring (missing-docstring)
+W:105, 9: Unused variable 'info' (unused-variable)
+C:112, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 5.09/10
+

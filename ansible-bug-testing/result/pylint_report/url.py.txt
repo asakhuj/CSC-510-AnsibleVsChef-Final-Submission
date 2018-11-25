@@ -1,0 +1,29 @@
+************* Module ansible.plugins.lookup.url
+C: 90, 0: Line too long (113/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 58, 0: Import "from ansible.errors import AnsibleError" should be placed at the top of the module (wrong-import-position)
+E: 59, 0: No name 'urllib' in module '_MovedItems' (no-name-in-module)
+E: 59, 0: Unable to import 'ansible.module_utils.six.moves.urllib.error' (import-error)
+C: 59, 0: Import "from ansible.module_utils.six.moves.urllib.error import HTTPError, URLError" should be placed at the top of the module (wrong-import-position)
+C: 60, 0: Import "from ansible.module_utils._text import to_text, to_native" should be placed at the top of the module (wrong-import-position)
+C: 61, 0: Import "from ansible.module_utils.urls import open_url, ConnectionError, SSLValidationError" should be placed at the top of the module (wrong-import-position)
+C: 62, 0: Import "from ansible.plugins.lookup import LookupBase" should be placed at the top of the module (wrong-import-position)
+C: 71, 0: Missing class docstring (missing-docstring)
+C: 85,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C: 87,31: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C: 89,41: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C: 91,38: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C: 67, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 3.33/10
+
+************* Module ansible.utils.module_docs_fragments.url
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 19, 0: Missing class docstring (missing-docstring)
+R: 19, 0: Too few public methods (0/2) (too-few-public-methods)
+
+------------------------------------
+Your code has been rated at -5.00/10
+

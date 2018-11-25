@@ -1,0 +1,28 @@
+************* Module ansible.plugins.lookup.aws_ssm
+W:133, 0: FIXME: we should probably do better passing on of the error information (fixme)
+C:128, 0: Line too long (106/100) (line-too-long)
+C:134, 0: Line too long (102/100) (line-too-long)
+C:194, 0: Line too long (105/100) (line-too-long)
+C:197, 0: Line too long (103/100) (line-too-long)
+C:217, 0: Line too long (101/100) (line-too-long)
+C:225, 0: Line too long (147/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:102, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:103, 0: Import "from ansible.module_utils.ec2 import HAS_BOTO3, boto3_tag_list_to_ansible_dict" should be placed at the top of the module (wrong-import-position)
+C:104, 0: Import "from ansible.errors import AnsibleError" should be placed at the top of the module (wrong-import-position)
+C:105, 0: Import "from ansible.plugins.lookup import LookupBase" should be placed at the top of the module (wrong-import-position)
+C:141, 0: Missing class docstring (missing-docstring)
+R:142, 4: Too many arguments (13/5) (too-many-arguments)
+R:142, 4: Too many local variables (24/15) (too-many-locals)
+W:142, 4: Parameters differ from overridden 'run' method (arguments-differ)
+C:187,38: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:199,24: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:203,19: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:215,34: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:142, 4: Too many branches (17/12) (too-many-branches)
+C:110, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 7.33/10
+

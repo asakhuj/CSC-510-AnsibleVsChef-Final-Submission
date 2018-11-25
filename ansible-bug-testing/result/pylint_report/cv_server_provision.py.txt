@@ -1,0 +1,15 @@
+************* Module ansible.modules.network.cloudvision.cv_server_provision
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 19, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:290, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:291, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C:292, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:320,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:333, 4: Redefining name 'switch_info' from outer scope (line 325) (redefined-outer-name)
+C:545,17: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+W:542, 8: Unused variable 'num' (unused-variable)
+C:636,26: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 9.45/10
+

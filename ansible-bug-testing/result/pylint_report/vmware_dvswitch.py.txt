@@ -1,0 +1,29 @@
+************* Module ansible.modules.cloud.vmware.vmware_dvswitch
+C:106, 0: Wrong continued indentation (remove 1 space).
+                                         )
+                                        |^ (bad-continuation)
+C:206, 0: Line too long (103/100) (line-too-long)
+C:207, 0: Line too long (131/100) (line-too-long)
+C:208, 0: Line too long (104/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 99, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:100, 0: Import "from ansible.module_utils.vmware import HAS_PYVMOMI, connect_to_api, find_datacenter_by_name, find_dvs_by_name, vmware_argument_spec, wait_for_task" should be placed at the top of the module (wrong-import-position)
+C:109, 0: Missing class docstring (missing-docstring)
+R:109, 0: Too many instance attributes (11/7) (too-many-instance-attributes)
+C:124, 4: Missing method docstring (missing-docstring)
+W:142,15: Catching too general exception Exception (broad-except)
+C:142,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:145, 4: Missing method docstring (missing-docstring)
+C:170, 4: Missing method docstring (missing-docstring)
+C:173, 4: Missing method docstring (missing-docstring)
+C:178, 4: Missing method docstring (missing-docstring)
+C:181, 4: Missing method docstring (missing-docstring)
+C:186,12: Variable name "dc" doesn't conform to snake_case naming style (invalid-name)
+C:191, 4: Missing method docstring (missing-docstring)
+R:193, 8: Unnecessary "else" after "return" (no-else-return)
+C:199, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.41/10
+

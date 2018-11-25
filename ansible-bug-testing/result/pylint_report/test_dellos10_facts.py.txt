@@ -1,0 +1,22 @@
+************* Module units.modules.network.dellos10.test_dellos10_facts
+C:108, 0: Line too long (116/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 22, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 29, 0: Unable to import 'ansible.modules.network.dellos10' (import-error)
+C: 32, 0: Missing class docstring (missing-docstring)
+C: 50, 8: Missing function docstring (missing-docstring)
+W: 51,12: Unused variable 'module' (unused-variable)
+W: 50, 0: Unused argument 'kwargs' (unused-argument)
+C: 70, 4: Method name "test_dellos10_facts_gather_subset_default" doesn't conform to snake_case naming style (invalid-name)
+C: 70, 4: Missing method docstring (missing-docstring)
+C: 82, 4: Method name "test_dellos10_facts_gather_subset_config" doesn't conform to snake_case naming style (invalid-name)
+C: 82, 4: Missing method docstring (missing-docstring)
+C: 91, 4: Method name "test_dellos10_facts_gather_subset_hardware" doesn't conform to snake_case naming style (invalid-name)
+C: 91, 4: Missing method docstring (missing-docstring)
+C:101, 4: Method name "test_dellos10_facts_gather_subset_interfaces" doesn't conform to snake_case naming style (invalid-name)
+C:101, 4: Missing method docstring (missing-docstring)
+C: 29, 0: first party import "from ansible.modules.network.dellos10 import dellos10_facts" should be placed before "from .dellos10_module import TestDellos10Module, load_fixture" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 7.04/10
+

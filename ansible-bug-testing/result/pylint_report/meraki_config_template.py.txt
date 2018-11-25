@@ -1,0 +1,58 @@
+************* Module ansible.modules.network.meraki.meraki_config_template
+W:238, 0: FIXME: Work with Meraki so they can implement a check mode (fixme)
+C:188, 0: Line too long (105/100) (line-too-long)
+C:196, 0: Wrong continued indentation (remove 1 space).
+                         )
+                        |^ (bad-continuation)
+C:212, 0: Wrong continued indentation (remove 1 space).
+                           )
+                          |^ (bad-continuation)
+C:217, 0: Wrong continued indentation (remove 1 space).
+                  }
+                 |^ (bad-continuation)
+C:220, 0: Wrong continued indentation (remove 1 space).
+                   }
+                  |^ (bad-continuation)
+C:223, 0: Wrong continued indentation (remove 1 space).
+                 }
+                |^ (bad-continuation)
+C:226, 0: Wrong continued indentation (remove 1 space).
+                   }
+                  |^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:114, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:115, 0: Import "from ansible.module_utils.basic import AnsibleModule, json, env_fallback" should be placed at the top of the module (wrong-import-position)
+C:116, 0: Import "from ansible.module_utils.urls import fetch_url" should be placed at the top of the module (wrong-import-position)
+C:117, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:118, 0: Import "from ansible.module_utils.network.meraki.meraki import MerakiModule, meraki_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:121, 0: Missing function docstring (missing-docstring)
+C:129, 0: Missing function docstring (missing-docstring)
+R:129, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:136, 0: Missing function docstring (missing-docstring)
+W:136,21: Unused argument 'meraki' (unused-argument)
+C:147, 0: Missing function docstring (missing-docstring)
+C:157, 0: Missing function docstring (missing-docstring)
+R:157, 0: Too many arguments (6/5) (too-many-arguments)
+C:166, 8: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+R:157, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+W:157,17: Unused argument 'org_name' (unused-argument)
+C:172, 0: Missing function docstring (missing-docstring)
+R:172, 0: Too many arguments (6/5) (too-many-arguments)
+C:177, 8: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+R:172, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+W:172,19: Unused argument 'org_name' (unused-argument)
+C:183, 0: Missing function docstring (missing-docstring)
+W:258,12: Unused variable 'template_bind' (unused-variable)
+W:216, 4: Unused variable 'query_urls' (unused-variable)
+W:233, 4: Unused variable 'payload' (unused-variable)
+W:203, 4: Unused variable 'result' (unused-variable)
+W:271,12: Unused variable 'config_unbind' (unused-variable)
+W:114, 0: Unused import os (unused-import)
+W:115, 0: Unused env_fallback imported from ansible.module_utils.basic (unused-import)
+W:116, 0: Unused fetch_url imported from ansible.module_utils.urls (unused-import)
+W:117, 0: Unused to_native imported from ansible.module_utils._text (unused-import)
+
+-----------------------------------
+Your code has been rated at 5.82/10
+

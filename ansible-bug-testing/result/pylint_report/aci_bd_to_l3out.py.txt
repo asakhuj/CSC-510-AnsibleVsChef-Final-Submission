@@ -1,0 +1,13 @@
+************* Module ansible.modules.network.aci.aci_bd_to_l3out
+C:155, 0: Line too long (107/100) (line-too-long)
+C:165, 0: Line too long (107/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:158, 0: Import "from ansible.module_utils.network.aci.aci import ACIModule, aci_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:159, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:162, 0: Missing function docstring (missing-docstring)
+C:181, 4: Variable name "bd" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.24/10
+

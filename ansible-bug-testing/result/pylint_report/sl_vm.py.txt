@@ -1,0 +1,31 @@
+************* Module ansible.modules.cloud.softlayer.sl_vm
+W:204, 0: TODO: Disabled RETURN as it is breaking the build for docs. Needs to be fixed. (fixme)
+W:223, 0: TODO: get this info from API (fixme)
+C:225, 0: Line too long (113/100) (line-too-long)
+C:226, 0: Line too long (113/100) (line-too-long)
+C:227, 0: Line too long (113/100) (line-too-long)
+C:233, 0: Line too long (117/100) (line-too-long)
+C:305, 0: Line too long (144/100) (line-too-long)
+C:309, 0: Line too long (131/100) (line-too-long)
+C:366, 0: Line too long (110/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:207, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C:208, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C:215, 4: Constant name "vsManager" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:219, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:220, 0: Import "from ansible.module_utils.six import string_types" should be placed at the top of the module (wrong-import-position)
+C:237, 0: Missing function docstring (missing-docstring)
+R:282, 4: Unnecessary "else" after "return" (no-else-return)
+W:288,30: Redefining built-in 'id' (redefined-builtin)
+C:288, 0: Argument name "id" doesn't conform to snake_case naming style (invalid-name)
+C:288, 0: Missing function docstring (missing-docstring)
+W:297, 8: No exception type(s) specified (bare-except)
+C:303, 0: Missing function docstring (missing-docstring)
+W:313,12: No exception type(s) specified (bare-except)
+W:318, 8: No exception type(s) specified (bare-except)
+C:326, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 6.98/10
+

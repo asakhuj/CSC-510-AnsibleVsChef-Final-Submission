@@ -1,0 +1,30 @@
+************* Module ansible.modules.cloud.rackspace.rax_cdb_user
+C: 76, 0: Line too long (108/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 74, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 75, 0: Import "from ansible.module_utils._text import to_text" should be placed at the top of the module (wrong-import-position)
+C: 76, 0: Import "from ansible.module_utils.rax import rax_argument_spec, rax_required_together, rax_to_dict, setup_rax_module" should be placed at the top of the module (wrong-import-position)
+C: 79, 0: Missing function docstring (missing-docstring)
+W: 82,11: Catching too general exception Exception (broad-except)
+C: 88, 0: Missing function docstring (missing-docstring)
+R: 88, 0: Too many arguments (6/5) (too-many-arguments)
+R: 88, 0: Too many local variables (19/15) (too-many-locals)
+W: 99,11: Catching too general exception Exception (broad-except)
+C: 99,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:113,15: Catching too general exception Exception (broad-except)
+C:113,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:135,19: Catching too general exception Exception (broad-except)
+C:135,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:143, 0: Missing function docstring (missing-docstring)
+W:154,11: Catching too general exception Exception (broad-except)
+C:154,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:164,15: Catching too general exception Exception (broad-except)
+C:164,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:172, 0: Missing function docstring (missing-docstring)
+R:172, 0: Too many arguments (7/5) (too-many-arguments)
+C:181, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.28/10
+

@@ -1,0 +1,8 @@
+************* Module ansible.module_utils.facts.system.apparmor
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 19, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 26, 0: Missing class docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.00/10
+

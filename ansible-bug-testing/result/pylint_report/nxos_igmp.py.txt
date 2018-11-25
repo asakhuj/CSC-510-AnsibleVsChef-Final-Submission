@@ -1,0 +1,13 @@
+************* Module ansible.modules.network.nxos.nxos_igmp
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 84, 0: Import "from ansible.module_utils.network.nxos.nxos import load_config, run_commands" should be placed at the top of the module (wrong-import-position)
+C: 85, 0: Import "from ansible.module_utils.network.nxos.nxos import nxos_argument_spec, check_args" should be placed at the top of the module (wrong-import-position)
+C: 86, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 89, 0: Missing function docstring (missing-docstring)
+C: 97, 0: Missing function docstring (missing-docstring)
+C:104, 0: Missing function docstring (missing-docstring)
+W:124, 4: Unused variable 'restart' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 8.26/10
+

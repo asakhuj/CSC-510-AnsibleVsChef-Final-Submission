@@ -1,0 +1,18 @@
+************* Module ansible.modules.network.aci.aci_domain_to_encap_pool
+C:260, 0: Line too long (114/100) (line-too-long)
+C:263, 0: Line too long (136/100) (line-too-long)
+C:288, 0: Line too long (112/100) (line-too-long)
+C:294, 0: Line too long (136/100) (line-too-long)
+C:298, 0: Line too long (130/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:225, 0: Import "from ansible.module_utils.network.aci.aci import ACIModule, aci_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:226, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:254, 0: Missing function docstring (missing-docstring)
+R:254, 0: Too many local variables (16/15) (too-many-locals)
+R:254, 0: Too many branches (13/12) (too-many-branches)
+R:254, 0: Too many statements (55/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 8.03/10
+

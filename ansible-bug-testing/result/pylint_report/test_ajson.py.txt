@@ -1,0 +1,13 @@
+************* Module units.parsing.test_ajson
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 12, 0: Unable to import 'ansible.parsing.ajson' (import-error)
+E: 13, 0: Unable to import 'ansible.parsing.yaml.objects' (import-error)
+C: 16, 0: Function name "test_AnsibleJSONDecoder_vault" doesn't conform to snake_case naming style (invalid-name)
+C: 16, 0: Missing function docstring (missing-docstring)
+C: 17,81: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+W: 10, 0: Unused import pytest (unused-import)
+
+------------------------------------
+Your code has been rated at -2.31/10
+

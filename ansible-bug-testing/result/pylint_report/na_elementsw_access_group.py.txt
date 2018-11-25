@@ -1,0 +1,29 @@
+************* Module ansible.modules.storage.netapp.na_elementsw_access_group
+C:157, 0: Line too long (104/100) (line-too-long)
+C:160, 0: Line too long (101/100) (line-too-long)
+C:171, 0: Line too long (116/100) (line-too-long)
+C:173, 0: Line too long (110/100) (line-too-long)
+C:244, 0: Line too long (109/100) (line-too-long)
+C:275, 0: Line too long (102/100) (line-too-long)
+C:283, 0: Line too long (137/100) (line-too-long)
+C: 12, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:110, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:112, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:113, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:114, 0: Import "import ansible.module_utils.netapp as netapp_utils" should be placed at the top of the module (wrong-import-position)
+C:115, 0: Import "from ansible.module_utils.netapp_elementsw_module import NaElementSWModule" should be placed at the top of the module (wrong-import-position)
+R:120, 0: Too many instance attributes (13/7) (too-many-instance-attributes)
+W:214,15: Catching too general exception Exception (broad-except)
+C:214,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+E:216,35: Instance of 'ElementSWAccessGroup' has no 'name' member (no-member)
+W:225,15: Catching too general exception Exception (broad-except)
+C:225,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:242,15: Catching too general exception Exception (broad-except)
+C:242,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:251, 8: Unused variable 'group_exists' (unused-variable)
+W:184, 8: Attribute 'new_name_exists' defined outside __init__ (attribute-defined-outside-init)
+W:199,16: Attribute 'new_name_exists' defined outside __init__ (attribute-defined-outside-init)
+
+-----------------------------------
+Your code has been rated at 7.25/10
+

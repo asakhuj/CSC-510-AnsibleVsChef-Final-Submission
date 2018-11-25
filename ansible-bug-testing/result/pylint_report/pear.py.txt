@@ -1,0 +1,30 @@
+************* Module ansible.modules.packaging.language.pear
+C:205, 0: Line too long (107/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 11, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 67, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C: 69, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+R:101, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+W:113,22: Unused variable 'rstderr' (unused-variable)
+W:107,22: Unused variable 'lstderr' (unused-variable)
+W:107,13: Unused variable 'lstdout' (unused-variable)
+C:130, 0: Missing function docstring (missing-docstring)
+C:140, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W:135,19: Unused variable 'updated' (unused-variable)
+W:140,12: Unused variable 'stdout' (unused-variable)
+W:140,20: Unused variable 'stderr' (unused-variable)
+C:154, 0: Missing function docstring (missing-docstring)
+C:171, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W:171,12: Unused variable 'stdout' (unused-variable)
+W:157, 8: Unused variable 'i' (unused-variable)
+W:171,20: Unused variable 'stderr' (unused-variable)
+C:184, 0: Missing function docstring (missing-docstring)
+R:188,12: Too many boolean expressions in if statement (6/5) (too-many-boolean-expressions)
+C:201, 0: Missing function docstring (missing-docstring)
+C:209, 4: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+W:221,12: Unused variable 'i' (unused-variable)
+W:221,15: Unused variable 'pkg' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 7.57/10
+

@@ -1,0 +1,17 @@
+************* Module ansible.modules.network.cloudengine.ce_mtu
+C:138, 0: Line too long (127/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:135, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:136, 0: Import "import copy" should be placed at the top of the module (wrong-import-position)
+C:137, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:138, 0: Import "from ansible.module_utils.network.cloudengine.ce import ce_argument_spec, get_config, load_config, get_nc_config, set_nc_config" should be placed at the top of the module (wrong-import-position)
+C:166, 0: Function name "is_interface_support_setjumboframe" doesn't conform to snake_case naming style (invalid-name)
+R:189, 0: Too many branches (20/12) (too-many-branches)
+R:245, 0: Too many instance attributes (18/7) (too-many-instance-attributes)
+C:367,40: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+R:352, 4: Too many branches (20/12) (too-many-branches)
+R:440, 4: Too many branches (19/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 9.59/10
+

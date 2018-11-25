@@ -1,0 +1,16 @@
+************* Module ansible.modules.cloud.amazon.aws_region_facts
+C: 62, 0: Line too long (107/100) (line-too-long)
+C: 94, 0: Line too long (103/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 58, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C: 59, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 60, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 61, 0: Import "from ansible.module_utils.ec2 import get_aws_connection_info, ec2_argument_spec, boto3_conn" should be placed at the top of the module (wrong-import-position)
+C: 62, 0: Import "from ansible.module_utils.ec2 import ansible_dict_to_boto3_filter_list, camel_dict_to_snake_dict, HAS_BOTO3" should be placed at the top of the module (wrong-import-position)
+C: 70, 0: Missing function docstring (missing-docstring)
+C:100,26: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:104,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.45/10
+

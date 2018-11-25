@@ -1,0 +1,28 @@
+************* Module units.modules.network.slxos.test_slxos_vlan
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 26, 0: Unable to import 'ansible.modules.network.slxos' (import-error)
+C: 31, 0: Missing class docstring (missing-docstring)
+C: 56, 4: Missing method docstring (missing-docstring)
+W: 56, 0: Unused argument 'args' (unused-argument)
+W: 56, 0: Unused argument 'kwargs' (unused-argument)
+C: 74, 4: Missing method docstring (missing-docstring)
+W: 74, 0: Unused argument 'args' (unused-argument)
+W: 74, 0: Unused argument 'kwargs' (unused-argument)
+C:103, 4: Missing method docstring (missing-docstring)
+W:103, 0: Unused argument 'args' (unused-argument)
+W:103, 0: Unused argument 'kwargs' (unused-argument)
+C:119, 4: Method name "test_slxos_vlan_state_absent_nonexistant_vlan" doesn't conform to snake_case naming style (invalid-name)
+C:119, 4: Missing method docstring (missing-docstring)
+W:119, 0: Unused argument 'args' (unused-argument)
+W:119, 0: Unused argument 'kwargs' (unused-argument)
+C:133, 4: Method name "test_slxos_interface_invalid_argument" doesn't conform to snake_case naming style (invalid-name)
+C:133, 4: Missing method docstring (missing-docstring)
+W:133, 0: Unused argument 'args' (unused-argument)
+W:133, 0: Unused argument 'kwargs' (unused-argument)
+W: 23, 0: Unused import json (unused-import)
+C: 27, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 4.13/10
+

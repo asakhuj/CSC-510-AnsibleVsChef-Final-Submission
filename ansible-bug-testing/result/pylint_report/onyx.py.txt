@@ -1,0 +1,64 @@
+************* Module ansible.module_utils.network.onyx.onyx
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 36, 0: Missing function docstring (missing-docstring)
+W: 37, 4: Using the global statement (global-statement)
+W: 40,29: Access to a protected member _socket_path of a client class (protected-access)
+C: 44, 0: Missing function docstring (missing-docstring)
+C: 53, 0: Missing function docstring (missing-docstring)
+W: 53,35: Unused argument 'check_rc' (unused-argument)
+C: 67, 0: Missing function docstring (missing-docstring)
+C: 74, 0: Missing function docstring (missing-docstring)
+C:111, 0: Missing function docstring (missing-docstring)
+C:135, 0: Missing function docstring (missing-docstring)
+C:142, 0: Missing function docstring (missing-docstring)
+C:146, 0: Missing function docstring (missing-docstring)
+C:151, 0: Missing class docstring (missing-docstring)
+C:161, 4: Missing method docstring (missing-docstring)
+C:164, 4: Missing method docstring (missing-docstring)
+C:167, 4: Missing method docstring (missing-docstring)
+C:176, 4: Missing method docstring (missing-docstring)
+R:176, 4: Method could be a function (no-self-use)
+C:184, 4: Missing method docstring (missing-docstring)
+C:195, 4: Missing method docstring (missing-docstring)
+C:199, 4: Missing method docstring (missing-docstring)
+R:207, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:215, 4: Missing method docstring (missing-docstring)
+C:218, 4: Missing method docstring (missing-docstring)
+C:221, 4: Missing method docstring (missing-docstring)
+C:247, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.34/10
+
+************* Module ansible.plugins.cliconf.onyx
+C: 63, 0: Line too long (119/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 31, 0: Missing class docstring (missing-docstring)
+C: 33, 4: Missing method docstring (missing-docstring)
+W: 51,43: Redefining built-in 'format' (redefined-builtin)
+W: 51, 4: Parameters differ from overridden 'get_config' method (arguments-differ)
+E: 53,19: Instance of 'Cliconf' has no 'invalid_params' member (no-member)
+W: 58, 4: Parameters differ from overridden 'edit_config' method (arguments-differ)
+R: 62, 4: Too many arguments (6/5) (too-many-arguments)
+W: 62, 4: Parameters differ from overridden 'get' method (arguments-differ)
+
+-----------------------------------
+Your code has been rated at 5.95/10
+
+************* Module ansible.plugins.terminal.onyx
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 30, 0: Missing class docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 9.19/10
+
+************* Module ansible.utils.module_docs_fragments.onyx
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 18, 0: Missing class docstring (missing-docstring)
+R: 18, 0: Too few public methods (0/2) (too-few-public-methods)
+
+------------------------------------
+Your code has been rated at -5.00/10
+

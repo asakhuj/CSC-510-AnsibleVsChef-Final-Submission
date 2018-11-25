@@ -1,0 +1,24 @@
+************* Module units.modules.network.iosxr.test_iosxr_system
+C: 67, 0: Line too long (102/100) (line-too-long)
+C: 83, 0: Line too long (110/100) (line-too-long)
+C:101, 0: Line too long (102/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 25, 0: Unable to import 'ansible.modules.network.iosxr' (import-error)
+C: 28, 0: Missing class docstring (missing-docstring)
+C: 55, 4: Method name "test_iosxr_system_hostname_changed" doesn't conform to snake_case naming style (invalid-name)
+C: 55, 4: Missing method docstring (missing-docstring)
+C: 60, 4: Missing method docstring (missing-docstring)
+C: 65, 4: Missing method docstring (missing-docstring)
+C: 70, 4: Missing method docstring (missing-docstring)
+C: 75, 4: Method name "test_iosxr_system_lookup_enabled" doesn't conform to snake_case naming style (invalid-name)
+C: 75, 4: Missing method docstring (missing-docstring)
+C: 80, 4: Missing method docstring (missing-docstring)
+W: 83, 8: Unused variable 'commands' (unused-variable)
+C: 86, 4: Missing method docstring (missing-docstring)
+C:100, 4: Missing method docstring (missing-docstring)
+C: 25, 0: first party import "from ansible.modules.network.iosxr import iosxr_system" should be placed before "from .iosxr_module import TestIosxrModule, load_fixture" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 5.89/10
+

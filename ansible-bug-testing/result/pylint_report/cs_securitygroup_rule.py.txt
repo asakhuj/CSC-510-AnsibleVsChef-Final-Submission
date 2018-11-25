@@ -1,0 +1,22 @@
+************* Module ansible.modules.cloud.cloudstack.cs_securitygroup_rule
+C:163, 0: Line too long (101/100) (line-too-long)
+C:252, 0: Line too long (102/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:162, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:163, 0: Import "from ansible.module_utils.cloudstack import AnsibleCloudStack, cs_argument_spec, cs_required_together" should be placed at the top of the module (wrong-import-position)
+C:166, 0: Missing class docstring (missing-docstring)
+R:180, 4: Method could be a function (no-self-use)
+R:186, 4: Method could be a function (no-self-use)
+R:192, 4: Method could be a function (no-self-use)
+R:196, 4: Method could be a function (no-self-use)
+R:201, 4: Method could be a function (no-self-use)
+C:234, 4: Missing method docstring (missing-docstring)
+C:246, 4: Missing method docstring (missing-docstring)
+C:299, 4: Missing method docstring (missing-docstring)
+W:323, 4: Parameters differ from overridden 'get_result' method (arguments-differ)
+C:330, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.70/10
+

@@ -1,0 +1,24 @@
+************* Module ansible.modules.cloud.azure.azure_rm_resource
+C:206, 0: Line too long (112/100) (line-too-long)
+C:252, 0: Line too long (104/100) (line-too-long)
+C:265, 0: Line too long (134/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:115, 0: Import "from ansible.module_utils.azure_rm_common import AzureRMModuleBase" should be placed at the top of the module (wrong-import-position)
+C:116, 0: Import "from ansible.module_utils.azure_rm_common_rest import GenericRestClient" should be placed at the top of the module (wrong-import-position)
+C:117, 0: Import "from ansible.module_utils.common.dict_transformations import dict_merge" should be placed at the top of the module (wrong-import-position)
+C:130, 0: Missing class docstring (missing-docstring)
+R:130, 0: Too many instance attributes (17/7) (too-many-instance-attributes)
+W:261,16: No exception type(s) specified (bare-except)
+W:269,16: No exception type(s) specified (bare-except)
+R:202, 4: Too many branches (20/12) (too-many-branches)
+R:202, 4: Too many statements (60/50) (too-many-statements)
+C:280, 0: Missing function docstring (missing-docstring)
+W:120, 4: Unused CloudError imported from msrestazure.azure_exceptions (unused-import)
+W:121, 4: Unused ServiceClient imported from msrest.service_client (unused-import)
+W:122, 4: Unused is_valid_resource_id imported from msrestazure.tools (unused-import)
+C:122, 4: Imports from package msrestazure are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 8.06/10
+

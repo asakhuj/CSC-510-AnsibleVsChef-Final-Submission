@@ -1,0 +1,53 @@
+************* Module ansible.modules.monitoring.zabbix.zabbix_proxy
+C:166, 0: Wrong continued indentation (remove 7 spaces).
+                                          (data['host'], data['status']))
+                                   |      ^ (bad-continuation)
+C:180, 0: Wrong continued indentation (remove 7 spaces).
+                                          " proxy %s" % proxy_name)
+                                   |      ^ (bad-continuation)
+C:183, 0: Wrong continued indentation (remove 4 spaces).
+                                       (proxy_name, str(e)))
+                                   |   ^ (bad-continuation)
+C:224, 0: Wrong hanging indentation (remove 7 spaces).
+                           (data['host'], proxy_id)
+                    |      ^ (bad-continuation)
+C:230, 0: Wrong continued indentation (remove 4 spaces).
+                                       (data['host'], e))
+                                   |   ^ (bad-continuation)
+C:263, 0: Wrong continued indentation (remove 4 spaces).
+                             " (check docs or install with:" +
+                         |   ^ (bad-continuation)
+C:264, 0: Wrong continued indentation (remove 4 spaces).
+                             " pip install zabbix-api)")
+                         |   ^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:127, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:136, 0: Missing class docstring (missing-docstring)
+C:142, 4: Missing method docstring (missing-docstring)
+R:147, 8: Unnecessary "else" after "return" (no-else-return)
+C:147,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:153, 4: Missing method docstring (missing-docstring)
+W:169,15: Catching too general exception Exception (broad-except)
+C:169,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:153, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:173, 4: Missing method docstring (missing-docstring)
+W:181,15: Catching too general exception Exception (broad-except)
+C:181,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:185, 4: Missing method docstring (missing-docstring)
+C:188,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+R:195, 8: Unnecessary "else" after "return" (no-else-return)
+C:200, 4: Missing method docstring (missing-docstring)
+W:228,15: Catching too general exception Exception (broad-except)
+C:216,19: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:228,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:233, 0: Missing function docstring (missing-docstring)
+R:233, 0: Too many local variables (23/15) (too-many-locals)
+W:310,11: Catching too general exception Exception (broad-except)
+C:310,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:233, 0: Too many branches (13/12) (too-many-branches)
+R:233, 0: Too many statements (52/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 7.28/10
+

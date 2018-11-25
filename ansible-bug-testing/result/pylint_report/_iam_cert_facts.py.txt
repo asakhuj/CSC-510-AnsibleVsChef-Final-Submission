@@ -1,0 +1,9 @@
+************* Module ansible.modules.cloud.amazon._iam_cert_facts
+C:  1, 0: Final newline missing (missing-final-newline)
+C:  1, 0: Missing module docstring (missing-docstring)
+W:  1, 0: Statement seems to have no effect (pointless-statement)
+E:  1, 0: Undefined variable 'iam_server_certificate_facts' (undefined-variable)
+
+-------------------------------------
+Your code has been rated at -70.00/10
+

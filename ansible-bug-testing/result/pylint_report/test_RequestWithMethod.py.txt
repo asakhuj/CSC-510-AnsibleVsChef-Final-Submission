@@ -1,0 +1,11 @@
+************* Module units.module_utils.urls.test_RequestWithMethod
+C:  1, 0: Module name "test_RequestWithMethod" doesn't conform to snake_case naming style (invalid-name)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E:  8, 0: Unable to import 'ansible.module_utils.urls' (import-error)
+C: 11, 0: Function name "test_RequestWithMethod" doesn't conform to snake_case naming style (invalid-name)
+C: 11, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 2.31/10
+

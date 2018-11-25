@@ -1,0 +1,29 @@
+************* Module ansible.modules.crypto.acme.acme_challenge_cert_helper
+C:189, 0: Line too long (158/100) (line-too-long)
+C:256, 0: Line too long (128/100) (line-too-long)
+C:257, 0: Line too long (123/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:116, 0: Import "from ansible.module_utils.acme import ModuleFailException, read_file" should be placed at the top of the module (wrong-import-position)
+C:121, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:122, 0: Import "from ansible.module_utils._text import to_bytes, to_text" should be placed at the top of the module (wrong-import-position)
+C:124, 0: Import "import base64" should be placed at the top of the module (wrong-import-position)
+C:125, 0: Import "import datetime" should be placed at the top of the module (wrong-import-position)
+C:126, 0: Import "import sys" should be placed at the top of the module (wrong-import-position)
+C:141, 4: Constant name "_cryptography_backend" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:142,22: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:148, 4: Missing function docstring (missing-docstring)
+C:153, 4: Missing function docstring (missing-docstring)
+C:159, 0: Missing function docstring (missing-docstring)
+E:175, 8: Instance of 'AnsibleModule' has no 'fail' member (no-member)
+C:190,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+E:209,12: Module 'cryptography.x509' has no 'random_serial_number' member (no-member)
+E:233,16: Module 'cryptography.x509' has no 'random_serial_number' member (no-member)
+C:259,34: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:124, 0: standard import "import base64" should be placed before "from ansible.module_utils.acme import ModuleFailException, read_file" (wrong-import-order)
+C:125, 0: standard import "import datetime" should be placed before "from ansible.module_utils.acme import ModuleFailException, read_file" (wrong-import-order)
+C:126, 0: standard import "import sys" should be placed before "from ansible.module_utils.acme import ModuleFailException, read_file" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 4.46/10
+

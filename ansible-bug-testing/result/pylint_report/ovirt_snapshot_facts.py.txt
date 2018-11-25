@@ -1,0 +1,14 @@
+************* Module ansible.modules.cloud.ovirt.ovirt_snapshot_facts
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 59, 0: Import "import fnmatch" should be placed at the top of the module (wrong-import-position)
+C: 60, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C: 62, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 63, 0: Import "from ansible.module_utils.ovirt import check_sdk, create_connection, get_dict_of_struct, ovirt_facts_full_argument_spec, search_by_name" should be placed at the top of the module (wrong-import-position)
+C: 72, 0: Missing function docstring (missing-docstring)
+W:117,11: Catching too general exception Exception (broad-except)
+C: 87, 8: Variable name "vm" doesn't conform to snake_case naming style (invalid-name)
+C:117,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.27/10
+

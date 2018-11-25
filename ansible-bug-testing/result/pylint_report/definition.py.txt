@@ -1,0 +1,27 @@
+************* Module ansible.playbook.role.definition
+W:202, 0: FIXME: hard-coded list of exception key names here corresponds to the (fixme)
+C: 75, 0: Line too long (119/100) (line-too-long)
+C:188, 0: Line too long (120/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 46, 0: Missing class docstring (missing-docstring)
+C: 66, 4: Missing method docstring (missing-docstring)
+W: 66,13: Unused argument 'data' (unused-argument)
+W: 66,19: Unused argument 'variable_manager' (unused-argument)
+W: 66,42: Unused argument 'loader' (unused-argument)
+C:114, 4: Argument name "ds" doesn't conform to snake_case naming style (invalid-name)
+W:133,15: Access to a protected member _contains_vars of a client class (protected-access)
+E:152,11: Module 'ansible.constants' has no 'DEFAULT_ROLES_PATH' member (no-member)
+E:153,37: Module 'ansible.constants' has no 'DEFAULT_ROLES_PATH' member (no-member)
+C:190, 4: Argument name "ds" doesn't conform to snake_case naming style (invalid-name)
+E:198,41: Instance of 'RoleDefinition' has no '_valid_attrs' member (no-member)
+C:216, 4: Missing method docstring (missing-docstring)
+C:219, 4: Missing method docstring (missing-docstring)
+W: 82, 8: Attribute '_ds' defined outside __init__ (attribute-defined-outside-init)
+W: 28, 0: Unused Attribute imported from ansible.playbook.attribute (unused-import)
+W: 37, 4: Unused display imported from __main__ (unused-import)
+C: 39, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 6.57/10
+

@@ -1,0 +1,78 @@
+************* Module ansible.module_utils.network.enos.enos
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 43, 0: Constant name "enos_provider_spec" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 56, 0: Constant name "enos_argument_spec" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 60, 0: Constant name "command_spec" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 67, 0: Missing function docstring (missing-docstring)
+C: 71, 0: Missing function docstring (missing-docstring)
+W: 71,15: Unused argument 'module' (unused-argument)
+W: 71,23: Unused argument 'warnings' (unused-argument)
+C: 75, 0: Missing function docstring (missing-docstring)
+W: 76, 4: Using the global statement (global-statement)
+W: 79,29: Access to a protected member _socket_path of a client class (protected-access)
+C: 97, 0: Missing function docstring (missing-docstring)
+C:122, 0: Missing function docstring (missing-docstring)
+W:129, 8: Unused variable 'index' (unused-variable)
+C:137, 0: Missing function docstring (missing-docstring)
+W:137,35: Unused argument 'check_rc' (unused-argument)
+C:151, 0: Missing function docstring (missing-docstring)
+C:160, 0: Missing function docstring (missing-docstring)
+C:161, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+R:169, 4: Unnecessary "else" after "return" (no-else-return)
+W:161,13: Unused variable 'err' (unused-variable)
+W:161, 4: Unused variable 'rc' (unused-variable)
+W: 35, 0: Unused return_values imported from ansible.module_utils.basic (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.26/10
+
+************* Module ansible.plugins.action.enos
+C: 68, 0: Line too long (122/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 18, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 38, 0: Missing class docstring (missing-docstring)
+C: 46,12: Variable name "pc" doesn't conform to snake_case naming style (invalid-name)
+E: 46,17: Module 'copy' has no 'deepcopy' member (no-member)
+E: 54,57: Module 'ansible.constants' has no 'PERSISTENT_COMMAND_TIMEOUT' member (no-member)
+R: 38, 0: Too few public methods (1/2) (too-few-public-methods)
+C: 34, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 6.67/10
+
+************* Module ansible.plugins.cliconf.enos
+C: 71, 0: Line too long (119/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 17, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 29, 0: Missing class docstring (missing-docstring)
+C: 31, 4: Missing method docstring (missing-docstring)
+W: 55,43: Redefining built-in 'format' (redefined-builtin)
+W: 55, 4: Parameters differ from overridden 'get_config' method (arguments-differ)
+E: 58,19: Instance of 'Cliconf' has no 'invalid_params' member (no-member)
+W: 66, 4: Parameters differ from overridden 'edit_config' method (arguments-differ)
+R: 70, 4: Too many arguments (6/5) (too-many-arguments)
+W: 70, 4: Parameters differ from overridden 'get' method (arguments-differ)
+W: 24, 0: Unused to_bytes imported from ansible.module_utils._text (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.36/10
+
+************* Module ansible.plugins.terminal.enos
+C: 67, 0: Wrong continued indentation (add 9 spaces).
+                                   errors='surrogate_or_strict'))
+                                   ^        | (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 17, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 27, 0: Missing class docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.92/10
+
+************* Module ansible.utils.module_docs_fragments.enos
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 14, 0: Missing class docstring (missing-docstring)
+R: 14, 0: Too few public methods (0/2) (too-few-public-methods)
+
+------------------------------------
+Your code has been rated at -5.00/10
+

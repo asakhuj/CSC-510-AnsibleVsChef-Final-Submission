@@ -1,0 +1,13 @@
+************* Module ansible.modules.cloud.amazon.ec2_placement_group_facts
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 71, 0: Import "from ansible.module_utils.aws.core import AnsibleAWSModule" should be placed at the top of the module (wrong-import-position)
+C: 72, 0: Import "from ansible.module_utils.ec2 import connect_to_aws, boto3_conn, ec2_argument_spec, get_aws_connection_info" should be placed at the top of the module (wrong-import-position)
+C: 82, 0: Missing function docstring (missing-docstring)
+C: 85,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C: 93,43: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:108, 0: Missing function docstring (missing-docstring)
+W: 72, 0: Unused connect_to_aws imported from ansible.module_utils.ec2 (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.50/10
+

@@ -1,0 +1,23 @@
+************* Module units.modules.storage.netapp.test_netapp_e_iscsi_target
+C: 45, 0: Line too long (102/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  7, 0: Unable to import 'ansible.modules.storage.netapp.netapp_e_iscsi_target' (import-error)
+C: 10, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 17, 0: Missing class docstring (missing-docstring)
+W: 41,12: Unused variable 'tgt' (unused-variable)
+C: 43, 4: Missing method docstring (missing-docstring)
+W: 47,16: Unused variable 'tgt' (unused-variable)
+W: 45,95: Unused variable 'result' (unused-variable)
+C: 70, 4: Method name "test_apply_iscsi_settings_no_change" doesn't conform to snake_case naming style (invalid-name)
+W: 87,69: Unused variable 'request' (unused-variable)
+C:114, 4: Method name "test_apply_target_changes_no_change" doesn't conform to snake_case naming style (invalid-name)
+W:130,69: Unused variable 'request' (unused-variable)
+W:  5, 0: Unused MagicMock imported from mock (unused-import)
+W:  8, 0: Unused AnsibleExitJson imported from units.modules.utils (unused-import)
+C: 12, 0: third party import "import mock" should be placed before "from ansible.modules.storage.netapp.netapp_e_iscsi_target import IscsiTarget" (wrong-import-order)
+C: 12, 0: Imports from package mock are not grouped (ungrouped-imports)
+C: 14, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 7.50/10
+

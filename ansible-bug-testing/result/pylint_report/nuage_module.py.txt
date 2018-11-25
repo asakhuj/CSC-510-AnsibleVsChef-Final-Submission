@@ -1,0 +1,18 @@
+************* Module units.modules.network.nuage.nuage_module
+C: 20, 0: Line too long (117/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 30, 0: Missing function docstring (missing-docstring)
+C: 42, 0: Missing class docstring (missing-docstring)
+R: 42, 0: Too few public methods (0/2) (too-few-public-methods)
+C: 49, 0: Missing class docstring (missing-docstring)
+R: 49, 0: Too few public methods (0/2) (too-few-public-methods)
+C: 54, 0: Missing class docstring (missing-docstring)
+C: 59, 8: Missing function docstring (missing-docstring)
+W: 62,12: Access to a protected member _NURESTSessionCurrentContext of a client class (protected-access)
+W: 20, 0: Unused AnsibleFailJson imported from units.modules.utils (unused-import)
+W: 20, 0: Unused AnsibleExitJson imported from units.modules.utils (unused-import)
+C: 22, 0: third party import "from nose.plugins.skip import SkipTest" should be placed before "from units.compat.mock import patch" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 6.06/10
+

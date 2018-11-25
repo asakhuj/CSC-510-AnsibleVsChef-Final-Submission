@@ -1,0 +1,17 @@
+************* Module ansible.modules.cloud.vmware.vmware_guest_boot_facts
+C:104, 0: Line too long (106/100) (line-too-long)
+C:108, 0: Line too long (107/100) (line-too-long)
+C:119, 0: Line too long (107/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 10, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 82, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 83, 0: Import "from ansible.module_utils.vmware import PyVmomi, vmware_argument_spec, find_vm_by_id" should be placed at the top of the module (wrong-import-position)
+C: 96, 8: Attribute name "vm" doesn't conform to snake_case naming style (invalid-name)
+C: 91, 0: Missing class docstring (missing-docstring)
+C:122, 4: Missing method docstring (missing-docstring)
+C:135, 4: Missing method docstring (missing-docstring)
+C:153, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.06/10
+

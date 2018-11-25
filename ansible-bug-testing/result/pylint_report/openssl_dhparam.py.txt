@@ -1,0 +1,20 @@
+************* Module ansible.modules.crypto.openssl_dhparam
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 83, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C: 84, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C: 85, 0: Import "import tempfile" should be placed at the top of the module (wrong-import-position)
+C: 87, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 88, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 91, 0: Missing class docstring (missing-docstring)
+C: 95, 0: Missing class docstring (missing-docstring)
+C:112,12: Variable name "fd" doesn't conform to snake_case naming style (invalid-name)
+C:117,12: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W:122,19: Catching too general exception Exception (broad-except)
+C:122,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:143, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+R:162, 4: Method could be a function (no-self-use)
+
+-----------------------------------
+Your code has been rated at 8.33/10
+

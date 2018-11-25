@@ -1,0 +1,8 @@
+************* Module ansible.modules.network.avi.avi_virtualservice
+C:  1, 0: Missing module docstring (missing-docstring)
+C:492, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:500, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.33/10
+

@@ -1,0 +1,19 @@
+************* Module ansible.plugins.callback.full_skip
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 26, 0: Import "from ansible.plugins.callback.default import CallbackModule as CallbackModule_default" should be placed at the top of the module (wrong-import-position)
+C: 43, 4: Missing method docstring (missing-docstring)
+W: 43,42: Unused argument 'result' (unused-argument)
+C: 61, 4: Missing method docstring (missing-docstring)
+E: 63, 8: Super of 'CallbackModule' has no 'v2_playbook_item_on_ok' member (no-member)
+C: 69, 4: Missing method docstring (missing-docstring)
+C: 70,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+W: 41, 8: Attribute 'outlines' defined outside __init__ (attribute-defined-outside-init)
+W: 44, 8: Attribute 'outlines' defined outside __init__ (attribute-defined-outside-init)
+W: 47, 8: Attribute 'outlines' defined outside __init__ (attribute-defined-outside-init)
+W: 54, 8: Attribute 'outlines' defined outside __init__ (attribute-defined-outside-init)
+W: 76, 8: Attribute 'outlines' defined outside __init__ (attribute-defined-outside-init)
+
+-----------------------------------
+Your code has been rated at 5.26/10
+

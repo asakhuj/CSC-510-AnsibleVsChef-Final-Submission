@@ -1,0 +1,13 @@
+************* Module ansible.modules.network.vyos.vyos_banner
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 86, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C: 88, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 89, 0: Import "from ansible.module_utils.network.vyos.vyos import get_config, load_config" should be placed at the top of the module (wrong-import-position)
+C: 90, 0: Import "from ansible.module_utils.network.vyos.vyos import vyos_argument_spec" should be placed at the top of the module (wrong-import-position)
+C: 93, 0: Missing function docstring (missing-docstring)
+C:112, 0: Missing function docstring (missing-docstring)
+C:128, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.62/10
+

@@ -1,0 +1,10 @@
+************* Module ansible.modules.network.cloudengine.ce_netconf
+C:123, 0: Line too long (107/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:121, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:122, 0: Import "from ansible.module_utils.network.cloudengine.ce import get_nc_config, set_nc_config" should be placed at the top of the module (wrong-import-position)
+C:123, 0: Import "from ansible.module_utils.network.cloudengine.ce import execute_nc_action, ce_argument_spec, execute_nc_cli" should be placed at the top of the module (wrong-import-position)
+
+-----------------------------------
+Your code has been rated at 9.00/10
+

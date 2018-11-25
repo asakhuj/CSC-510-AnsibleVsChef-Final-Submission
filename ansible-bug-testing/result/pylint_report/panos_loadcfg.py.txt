@@ -1,0 +1,11 @@
+************* Module ansible.modules.network.panos.panos_loadcfg
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 69, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 78, 0: Missing function docstring (missing-docstring)
+W: 78,31: Unused argument 'ip_address' (unused-argument)
+W: 78,23: Unused argument 'module' (unused-argument)
+C: 88, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.06/10
+

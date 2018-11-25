@@ -1,0 +1,35 @@
+************* Module importer
+C:  1, 0: Final newline missing (missing-final-newline)
+C:  1, 0: Missing module docstring (missing-docstring)
+W:  1, 0: Statement seems to have no effect (pointless-statement)
+E:  1, 0: Undefined variable 'injector' (undefined-variable)
+
+-------------------------------------
+Your code has been rated at -70.00/10
+
+************* Module importer
+C: 76, 0: Line too long (102/100) (line-too-long)
+C: 81, 0: Line too long (102/100) (line-too-long)
+C: 90, 0: Line too long (104/100) (line-too-long)
+C:113, 0: Line too long (102/100) (line-too-long)
+C:131, 0: Line too long (106/100) (line-too-long)
+C:156, 0: Line too long (101/100) (line-too-long)
+C:160, 0: Line too long (101/100) (line-too-long)
+C: 14, 4: Constant name "imp" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 16, 4: Constant name "importlib" doesn't conform to UPPER_CASE naming style (invalid-name)
+E: 24, 0: Unable to import 'ansible.module_utils.basic' (import-error)
+E: 25, 0: Unable to import 'ansible.module_utils.common.removed' (import-error)
+W: 35, 0: Unused argument 'args' (unused-argument)
+W: 35, 0: Unused argument 'kwargs' (unused-argument)
+R: 33, 0: Too few public methods (0/2) (too-few-public-methods)
+W: 42, 0: Access to a protected member _load_params of a client class (protected-access)
+C: 60, 0: Missing function docstring (missing-docstring)
+R: 60, 0: Too many local variables (21/15) (too-many-locals)
+E: 92,19: Module 'importlib' has no 'util' member (no-member)
+E: 93,21: Module 'importlib' has no 'util' member (no-member)
+R: 60, 0: Too many branches (14/12) (too-many-branches)
+R:142, 0: Too few public methods (0/2) (too-few-public-methods)
+
+---------------------------------------------------------------------
+Your code has been rated at 6.64/10 (previous run: -70.00/10, +76.64)
+

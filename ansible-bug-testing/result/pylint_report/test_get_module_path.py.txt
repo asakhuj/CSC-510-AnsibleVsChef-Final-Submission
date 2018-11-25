@@ -1,0 +1,13 @@
+************* Module units.module_utils.basic.test_get_module_path
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 13, 0: Unable to import 'ansible.module_utils.six.moves' (import-error)
+C: 15, 0: Constant name "realimport" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 18, 0: Missing class docstring (missing-docstring)
+C: 19, 4: Method name "test_module_utils_basic_get_module_path" doesn't conform to snake_case naming style (invalid-name)
+C: 19, 4: Missing method docstring (missing-docstring)
+E: 20, 8: Unable to import 'ansible.module_utils.basic' (import-error)
+
+------------------------------------
+Your code has been rated at -4.55/10
+

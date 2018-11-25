@@ -1,0 +1,28 @@
+************* Module ansible.modules.cloud.vmware.vca_vapp
+C:242, 0: Line too long (104/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:119, 0: Import "from ansible.module_utils.vca import VcaAnsibleModule, VcaError" should be placed at the top of the module (wrong-import-position)
+C:134, 0: Missing function docstring (missing-docstring)
+C:148, 0: Missing function docstring (missing-docstring)
+R:148, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:176, 0: Missing function docstring (missing-docstring)
+C:182, 0: Missing function docstring (missing-docstring)
+C:187, 4: Variable name "vm" doesn't conform to snake_case naming style (invalid-name)
+C:189, 8: Variable name "vm" doesn't conform to snake_case naming style (invalid-name)
+C:200, 0: Missing function docstring (missing-docstring)
+C:217, 0: Missing function docstring (missing-docstring)
+W:218,11: map/filter on lambda could be replaced by comprehension (deprecated-lambda)
+C:258, 0: Missing function docstring (missing-docstring)
+R:258, 0: Too many local variables (16/15) (too-many-locals)
+C:268, 8: Variable name "vm" doesn't conform to snake_case naming style (invalid-name)
+W:272,12: map/filter on lambda could be replaced by comprehension (deprecated-lambda)
+W:280,12: map/filter on lambda could be replaced by comprehension (deprecated-lambda)
+C:289,20: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:294, 7: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+W:261, 4: Unused variable 'vm_name' (unused-variable)
+C:300, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.51/10
+

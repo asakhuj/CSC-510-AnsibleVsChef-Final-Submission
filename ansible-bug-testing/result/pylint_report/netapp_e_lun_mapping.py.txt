@@ -1,0 +1,53 @@
+************* Module ansible.modules.storage.netapp.netapp_e_lun_mapping
+C:143, 0: Line too long (114/100) (line-too-long)
+C:159, 0: Line too long (106/100) (line-too-long)
+C:162, 0: Line too long (114/100) (line-too-long)
+C:183, 0: Wrong continued indentation (remove 1 space).
+                                                   ) for mapping in response["storagePoolBundle"]["lunMapping"]],
+                                                  |^ (bad-continuation)
+C:183, 0: Line too long (113/100) (line-too-long)
+C:194, 0: Line too long (103/100) (line-too-long)
+C:202, 0: Line too long (119/100) (line-too-long)
+C:205, 0: Line too long (117/100) (line-too-long)
+C:206, 0: Wrong continued indentation (remove 1 space).
+                             ) for lun_mapping in self.mapping_info["lun_mapping"]):
+                            |^ (bad-continuation)
+C:210, 0: Line too long (116/100) (line-too-long)
+C:230, 0: Line too long (103/100) (line-too-long)
+C:231, 0: Line too long (113/100) (line-too-long)
+C:246, 0: Line too long (106/100) (line-too-long)
+C:254, 0: Line too long (102/100) (line-too-long)
+C:255, 0: Line too long (114/100) (line-too-long)
+C:258, 0: Line too long (108/100) (line-too-long)
+C:259, 0: Line too long (107/100) (line-too-long)
+C:260, 0: Line too long (115/100) (line-too-long)
+C:269, 0: Wrong hanging indentation (remove 4 spaces).
+                        % (self.ssid, to_native(error)))
+                    |   ^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 92, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C: 93, 0: Import "import logging" should be placed at the top of the module (wrong-import-position)
+C: 94, 0: Import "from pprint import pformat" should be placed at the top of the module (wrong-import-position)
+C: 96, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 97, 0: Import "from ansible.module_utils.netapp import request, eseries_host_argument_spec" should be placed at the top of the module (wrong-import-position)
+C: 98, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:106, 0: Missing class docstring (missing-docstring)
+R:106, 0: Too many instance attributes (11/7) (too-many-instance-attributes)
+W:141,15: Catching too general exception Exception (broad-except)
+C:138,12: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W:138,12: Unused variable 'rc' (unused-variable)
+W:266,19: Catching too general exception Exception (broad-except)
+C:254,24: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:259,24: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:263,20: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W:254,24: Unused variable 'rc' (unused-variable)
+W:254,28: Unused variable 'response' (unused-variable)
+W:239,37: Unused variable 'lun' (unused-variable)
+C:274, 0: Missing function docstring (missing-docstring)
+W: 93, 0: Unused import logging (unused-import)
+W: 94, 0: Unused pformat imported from pprint (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.07/10
+

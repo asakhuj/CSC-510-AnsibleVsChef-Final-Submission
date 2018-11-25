@@ -1,0 +1,9 @@
+************* Module empty-init
+C: 22, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:  1, 0: Module name "empty-init" doesn't conform to snake_case naming style (invalid-name)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 6.36/10
+

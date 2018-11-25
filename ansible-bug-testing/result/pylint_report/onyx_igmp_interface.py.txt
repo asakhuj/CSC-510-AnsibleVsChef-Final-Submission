@@ -1,0 +1,13 @@
+************* Module ansible.modules.network.onyx.onyx_igmp_interface
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 52, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C: 53, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 55, 0: Import "from ansible.module_utils.network.onyx.onyx import show_cmd" should be placed at the top of the module (wrong-import-position)
+C: 56, 0: Import "from ansible.module_utils.network.onyx.onyx import BaseOnyxModule" should be placed at the top of the module (wrong-import-position)
+C: 59, 0: Missing class docstring (missing-docstring)
+W:106, 8: Attribute '_req_val' defined outside __init__ (attribute-defined-outside-init)
+
+-----------------------------------
+Your code has been rated at 8.69/10
+

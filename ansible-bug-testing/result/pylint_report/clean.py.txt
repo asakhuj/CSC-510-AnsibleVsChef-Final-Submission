@@ -1,0 +1,15 @@
+************* Module ansible.vars.clean
+C: 93, 0: Line too long (103/100) (line-too-long)
+C: 94, 0: Line too long (107/100) (line-too-long)
+C:124, 0: Line too long (121/100) (line-too-long)
+C:125, 0: Line too long (136/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 23, 0: Argument name "v" doesn't conform to snake_case naming style (invalid-name)
+W:147,19: Catching too general exception Exception (broad-except)
+R:103, 0: Too many branches (13/12) (too-many-branches)
+C: 19, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 8.84/10
+

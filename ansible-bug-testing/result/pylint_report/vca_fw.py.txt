@@ -1,0 +1,23 @@
+************* Module ansible.modules.cloud.vmware.vca_fw
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 67, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 68, 0: Import "from ansible.module_utils.vca import VcaError, vca_argument_spec, vca_login" should be placed at the top of the module (wrong-import-position)
+C: 77, 0: Missing function docstring (missing-docstring)
+C: 85, 0: Missing function docstring (missing-docstring)
+R: 85, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C: 99, 0: Missing function docstring (missing-docstring)
+C:108, 0: Missing function docstring (missing-docstring)
+C:128, 0: Missing function docstring (missing-docstring)
+C:147, 0: Missing function docstring (missing-docstring)
+R:147, 0: Too many arguments (9/5) (too-many-arguments)
+C:161, 0: Missing function docstring (missing-docstring)
+R:161, 0: Too many local variables (24/15) (too-many-locals)
+W:184,16: Access to a protected member _getFirewallService of a client class (protected-access)
+C:191,23: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:161, 0: Too many branches (15/12) (too-many-branches)
+R:161, 0: Too many statements (53/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 8.47/10
+

@@ -1,0 +1,28 @@
+************* Module ansible.modules.remote_management.ucs.ucs_vhba_template
+C:138, 0: Line too long (118/100) (line-too-long)
+C:148, 0: Line too long (138/100) (line-too-long)
+C:149, 0: Line too long (108/100) (line-too-long)
+C:150, 0: Line too long (104/100) (line-too-long)
+C:183, 0: Line too long (109/100) (line-too-long)
+C:220, 0: Unnecessary parens after 'if' keyword (superfluous-parens)
+C:226, 0: Unnecessary parens after 'if' keyword (superfluous-parens)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:125, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:126, 0: Import "from ansible.module_utils.remote_management.ucs import UCSModule, ucs_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:129, 0: Missing function docstring (missing-docstring)
+R:129, 0: Too many local variables (17/15) (too-many-locals)
+E:166, 4: Unable to import 'ucsmsdk.mometa.vnic.VnicSanConnTempl' (import-error)
+E:167, 4: Unable to import 'ucsmsdk.mometa.vnic.VnicFcIf' (import-error)
+W:263,11: Catching too general exception Exception (broad-except)
+C:205,12: Variable name "dn" doesn't conform to snake_case naming style (invalid-name)
+C:207,12: Variable name "mo" doesn't conform to snake_case naming style (invalid-name)
+R:170, 4: Too many nested blocks (6/5) (too-many-nested-blocks)
+C:240,24: Variable name "mo" doesn't conform to snake_case naming style (invalid-name)
+C:263,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:129, 0: Too many branches (24/12) (too-many-branches)
+R:129, 0: Too many statements (76/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 6.40/10
+

@@ -1,0 +1,16 @@
+************* Module openvz
+C: 81, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 83, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 85, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 35, 0: Constant name "vzhosts" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 37, 0: Constant name "inventory" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 39, 0: Constant name "default_group" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 42, 0: Missing function docstring (missing-docstring)
+C: 44, 8: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C: 70,16: Variable name "g" doesn't conform to snake_case naming style (invalid-name)
+C: 80, 4: Constant name "inv_json" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 5.77/10 (previous run: 5.77/10, +0.00)
+

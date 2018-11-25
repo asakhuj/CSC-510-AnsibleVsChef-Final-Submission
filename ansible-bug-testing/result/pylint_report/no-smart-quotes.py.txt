@@ -1,0 +1,9 @@
+************* Module no-smart-quotes
+C: 29, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:  1, 0: Module name "no-smart-quotes" doesn't conform to snake_case naming style (invalid-name)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.00/10
+

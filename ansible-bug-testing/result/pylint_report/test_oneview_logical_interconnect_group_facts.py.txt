@@ -1,0 +1,15 @@
+************* Module test_oneview_logical_interconnect_group_facts
+C:  6, 0: Line too long (130/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  4, 0: Unable to import 'units.compat' (import-error)
+E:  6, 0: Unable to import 'ansible.modules.remote_management.oneview.oneview_logical_interconnect_group_facts' (import-error)
+C: 28, 0: Missing class docstring (missing-docstring)
+C: 29, 4: Method name "setUp" doesn't conform to snake_case naming style (invalid-name)
+C: 29, 4: Missing method docstring (missing-docstring)
+C: 34, 4: Missing method docstring (missing-docstring)
+C: 45, 4: Missing method docstring (missing-docstring)
+W:  5, 0: Unused OneViewModuleBase imported from oneview_module_loader (unused-import)
+
+-----------------------------------
+Your code has been rated at 2.80/10
+

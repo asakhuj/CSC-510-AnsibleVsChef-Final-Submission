@@ -1,0 +1,24 @@
+************* Module ansible.modules.cloud.amazon.s3_logging
+C: 96, 0: Line too long (130/100) (line-too-long)
+C:101, 0: Line too long (123/100) (line-too-long)
+C:158, 0: Line too long (134/100) (line-too-long)
+C:159, 0: Line too long (121/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 69, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 70, 0: Import "from ansible.module_utils.ec2 import AnsibleAWSError, ec2_argument_spec, get_aws_connection_info" should be placed at the top of the module (wrong-import-position)
+C: 73, 0: Missing function docstring (missing-docstring)
+R: 76, 4: Unnecessary "else" after "return" (no-else-return)
+C: 82, 0: Missing function docstring (missing-docstring)
+C: 91,30: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C: 99,38: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:109,30: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:115, 0: Missing function docstring (missing-docstring)
+C:125,30: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:131, 0: Missing function docstring (missing-docstring)
+C:162,67: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:148,12: Unused variable 'ec2_url' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 7.50/10
+

@@ -1,0 +1,27 @@
+************* Module rackhd
+C: 34, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 80, 0: Unnecessary parens after 'if' keyword (superfluous-parens)
+C: 86, 0: Unnecessary parens after 'if' keyword (superfluous-parens)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 26, 0: Missing class docstring (missing-docstring)
+W: 27,23: Redefining name 'nodeids' from outer scope (line 78) (redefined-outer-name)
+W: 42,18: Redefining name 'url' from outer scope (line 88) (redefined-outer-name)
+W: 43,12: Redefining name 'r' from outer scope (line 89) (redefined-outer-name)
+C: 43,12: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C: 51,15: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+W: 47,29: Unused argument 'nodeid' (unused-argument)
+R: 47, 4: Method could be a function (no-self-use)
+R: 26, 0: Too few public methods (0/2) (too-few-public-methods)
+C: 62, 0: Missing function docstring (missing-docstring)
+W: 72, 0: No exception type(s) specified (bare-except)
+C: 78, 0: Constant name "nodeids" doesn't conform to UPPER_CASE naming style (invalid-name)
+W: 84, 4: No exception type(s) specified (bare-except)
+W: 95, 4: No exception type(s) specified (bare-except)
+C: 88, 8: Constant name "url" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 89, 8: Constant name "r" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 90, 8: Constant name "data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 21, 0: standard import "import argparse" should be placed before "import requests" (wrong-import-order)
+
+------------------------------------------------------------------
+Your code has been rated at 6.51/10 (previous run: 6.51/10, +0.00)
+

@@ -1,0 +1,29 @@
+************* Module units.modules.network.nso.test_nso_verify
+C: 38, 0: Line too long (101/100) (line-too-long)
+C: 41, 0: Line too long (104/100) (line-too-long)
+C: 60, 0: Line too long (101/100) (line-too-long)
+C: 63, 0: Line too long (121/100) (line-too-long)
+C: 64, 0: Line too long (127/100) (line-too-long)
+C: 65, 0: Line too long (110/100) (line-too-long)
+C: 66, 0: Line too long (134/100) (line-too-long)
+C: 67, 0: Line too long (144/100) (line-too-long)
+C: 70, 0: Line too long (104/100) (line-too-long)
+C: 78, 0: Line too long (122/100) (line-too-long)
+C: 90, 0: Line too long (101/100) (line-too-long)
+C: 93, 0: Line too long (121/100) (line-too-long)
+C: 94, 0: Line too long (127/100) (line-too-long)
+C: 95, 0: Line too long (110/100) (line-too-long)
+C: 96, 0: Line too long (136/100) (line-too-long)
+C: 99, 0: Line too long (104/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+E: 24, 0: Unable to import 'ansible.modules.network.nso' (import-error)
+C: 31, 0: Missing class docstring (missing-docstring)
+C: 35, 4: Missing method docstring (missing-docstring)
+C: 53, 4: Missing method docstring (missing-docstring)
+C: 84, 4: Missing method docstring (missing-docstring)
+C: 28, 0: first party import "from units.modules.utils import set_module_args" should be placed before "from . import nso_module" (wrong-import-order)
+C: 28, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 2.00/10
+

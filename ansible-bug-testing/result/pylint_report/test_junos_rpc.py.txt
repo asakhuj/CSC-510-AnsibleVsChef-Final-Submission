@@ -1,0 +1,26 @@
+************* Module units.modules.network.junos.test_junos_rpc
+C: 55, 0: Line too long (102/100) (line-too-long)
+C:102, 0: Line too long (103/100) (line-too-long)
+C:106, 0: Line too long (101/100) (line-too-long)
+C:109, 0: Line too long (108/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 28, 0: Unable to import 'ansible.modules.network.junos' (import-error)
+C: 43, 0: Missing class docstring (missing-docstring)
+R: 43, 0: Too many instance attributes (8/7) (too-many-instance-attributes)
+W: 68,43: Redefining built-in 'format' (redefined-builtin)
+C: 69, 8: Missing function docstring (missing-docstring)
+W: 69, 0: Unused argument 'kwargs' (unused-argument)
+C: 86, 4: Missing method docstring (missing-docstring)
+C: 91, 4: Missing method docstring (missing-docstring)
+C: 96, 4: Missing method docstring (missing-docstring)
+C:101, 4: Missing method docstring (missing-docstring)
+W:103, 8: Unused variable 'result' (unused-variable)
+W:104,14: Unused variable 'kwargs' (unused-variable)
+C:108, 4: Missing method docstring (missing-docstring)
+W: 23, 4: Unused tostring imported from lxml.etree (unused-import)
+C: 29, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 6.09/10
+

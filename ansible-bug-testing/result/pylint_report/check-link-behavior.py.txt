@@ -1,0 +1,8 @@
+************* Module check-link-behavior
+C:  1, 0: Module name "check-link-behavior" doesn't conform to snake_case naming style (invalid-name)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 27, 8: Module 'os' has no 'symlink' member (no-member)
+
+-----------------------------------
+Your code has been rated at 7.31/10
+

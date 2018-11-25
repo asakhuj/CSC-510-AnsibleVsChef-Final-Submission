@@ -1,0 +1,57 @@
+************* Module ansible.modules.cloud.amazon.route53_health_check
+C:151, 0: Wrong hanging indentation before block (add 4 spaces).
+            config.get('IPAddress') == wanted.ip_addr and
+            ^   | (bad-continuation)
+C:152, 0: Wrong hanging indentation before block (add 4 spaces).
+            config.get('FullyQualifiedDomainName') == wanted.fqdn and
+            ^   | (bad-continuation)
+C:153, 0: Wrong hanging indentation before block (add 4 spaces).
+            config.get('Type') == wanted.hc_type and
+            ^   | (bad-continuation)
+C:154, 0: Wrong hanging indentation before block (add 4 spaces).
+            config.get('RequestInterval') == str(wanted.request_interval) and
+            ^   | (bad-continuation)
+C:155, 0: Wrong hanging indentation before block (add 4 spaces).
+            config.get('Port') == str(wanted.port)
+            ^   | (bad-continuation)
+C:200, 0: Line too long (106/100) (line-too-long)
+C:204, 0: Line too long (114/100) (line-too-long)
+C:286, 0: Line too long (104/100) (line-too-long)
+C:293, 0: Wrong continued indentation (add 20 spaces).
+    )
+    ^                   | (bad-continuation)
+C:324, 0: Line too long (104/100) (line-too-long)
+C:328, 0: Line too long (105/100) (line-too-long)
+C:340, 0: Line too long (148/100) (line-too-long)
+C:355, 0: Line too long (115/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:124, 0: Import "import uuid" should be placed at the top of the module (wrong-import-position)
+C:137, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:138, 0: Import "from ansible.module_utils.ec2 import ec2_argument_spec, get_aws_connection_info" should be placed at the top of the module (wrong-import-position)
+C:161, 0: Missing function docstring (missing-docstring)
+C:174, 0: Argument name "a" doesn't conform to snake_case naming style (invalid-name)
+C:174, 0: Argument name "b" doesn't conform to snake_case naming style (invalid-name)
+C:174, 0: Missing function docstring (missing-docstring)
+C:186, 0: Missing function docstring (missing-docstring)
+C:208, 0: Constant name "XMLResourcePathPart" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:210, 0: Constant name "POSTXMLBody" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:226, 0: Constant name "UPDATEHCXMLBody" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:239, 0: Missing function docstring (missing-docstring)
+C:251, 8: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:252, 8: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:259, 0: Missing function docstring (missing-docstring)
+C:274, 4: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:275, 4: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:280, 0: Missing function docstring (missing-docstring)
+R:280, 0: Too many local variables (23/15) (too-many-locals)
+E:333,15: Unexpected keyword argument 'aws_session_token' in constructor call (unexpected-keyword-arg)
+C:334,45: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:330,12: Unused variable 'ec2_url' (unused-variable)
+W:330, 4: Unused variable 'region' (unused-variable)
+R:280, 0: Too many branches (19/12) (too-many-branches)
+R:280, 0: Too many statements (63/50) (too-many-statements)
+W:129, 4: Unused route53 imported from boto (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.83/10
+

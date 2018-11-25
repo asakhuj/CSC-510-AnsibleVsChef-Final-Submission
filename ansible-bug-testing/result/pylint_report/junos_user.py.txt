@@ -1,0 +1,27 @@
+************* Module ansible.modules.network.junos.junos_user
+C:305, 0: Line too long (110/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:137, 0: Import "from functools import partial" should be placed at the top of the module (wrong-import-position)
+C:139, 0: Import "from copy import deepcopy" should be placed at the top of the module (wrong-import-position)
+C:141, 0: Import "from ansible.module_utils._text import to_text" should be placed at the top of the module (wrong-import-position)
+C:142, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:143, 0: Import "from ansible.module_utils.connection import ConnectionError" should be placed at the top of the module (wrong-import-position)
+C:144, 0: Import "from ansible.module_utils.network.common.utils import remove_default_spec" should be placed at the top of the module (wrong-import-position)
+C:145, 0: Import "from ansible.module_utils.network.junos.junos import junos_argument_spec, get_connection, tostring" should be placed at the top of the module (wrong-import-position)
+C:146, 0: Import "from ansible.module_utils.network.junos.junos import commit_configuration, discard_changes" should be placed at the top of the module (wrong-import-position)
+C:147, 0: Import "from ansible.module_utils.network.junos.junos import load_config, locked_config" should be placed at the top of the module (wrong-import-position)
+C:148, 0: Import "from ansible.module_utils.six import iteritems" should be placed at the top of the module (wrong-import-position)
+C:159, 0: Missing function docstring (missing-docstring)
+R:159, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:181, 0: Missing function docstring (missing-docstring)
+W:219,16: Unused variable 'key' (unused-variable)
+R:181, 0: Too many branches (14/12) (too-many-branches)
+C:224, 0: Missing function docstring (missing-docstring)
+W:232,23: Access to a protected member _CHECK_ARGUMENT_TYPES_DISPATCHER of a client class (protected-access)
+C:244, 0: Missing function docstring (missing-docstring)
+W:341,15: Access to a protected member _diff of a client class (protected-access)
+
+-----------------------------------
+Your code has been rated at 8.42/10
+

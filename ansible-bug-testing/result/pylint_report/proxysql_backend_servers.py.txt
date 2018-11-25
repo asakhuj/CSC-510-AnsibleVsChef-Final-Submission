@@ -1,0 +1,31 @@
+************* Module ansible.modules.database.proxysql.proxysql_backend_servers
+C:239, 0: Unnecessary parens after 'return' keyword (superfluous-parens)
+C:261, 0: Unnecessary parens after 'return' keyword (superfluous-parens)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:150, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:151, 0: Import "from ansible.module_utils.mysql import mysql_connect, mysql_driver, mysql_driver_fail_msg" should be placed at the top of the module (wrong-import-position)
+C:152, 0: Import "from ansible.module_utils.six import iteritems" should be placed at the top of the module (wrong-import-position)
+C:153, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:160, 0: Missing function docstring (missing-docstring)
+C:191, 0: Missing function docstring (missing-docstring)
+C:196, 0: Missing function docstring (missing-docstring)
+C:201, 0: Missing class docstring (missing-docstring)
+C:224, 4: Missing method docstring (missing-docstring)
+C:241, 4: Missing method docstring (missing-docstring)
+C:263, 4: Missing method docstring (missing-docstring)
+C:280, 4: Missing method docstring (missing-docstring)
+C:310, 4: Missing method docstring (missing-docstring)
+C:336, 4: Missing method docstring (missing-docstring)
+C:351, 4: Missing method docstring (missing-docstring)
+C:358, 4: Missing method docstring (missing-docstring)
+C:373, 4: Missing method docstring (missing-docstring)
+C:388, 4: Missing method docstring (missing-docstring)
+C:408, 0: Missing function docstring (missing-docstring)
+C:451,33: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:480,37: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:495,37: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.43/10
+

@@ -1,0 +1,15 @@
+************* Module ansible.modules.network.onyx.onyx_ospf
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 72, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C: 74, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 75, 0: Import "from ansible.module_utils.six import iteritems" should be placed at the top of the module (wrong-import-position)
+C: 77, 0: Import "from ansible.module_utils.network.onyx.onyx import BaseOnyxModule" should be placed at the top of the module (wrong-import-position)
+C: 78, 0: Import "from ansible.module_utils.network.onyx.onyx import show_cmd" should be placed at the top of the module (wrong-import-position)
+C: 81, 0: Missing class docstring (missing-docstring)
+C:111, 4: Missing method docstring (missing-docstring)
+R:176, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+
+-----------------------------------
+Your code has been rated at 9.21/10
+

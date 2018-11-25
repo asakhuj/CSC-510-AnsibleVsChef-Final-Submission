@@ -1,0 +1,25 @@
+************* Module ansible.modules.network.aci.aci_static_binding_to_epg
+W:270, 0: TODO: change 'deploy_immediacy' to 'resolution_immediacy' (as seen in aci_epg_to_domain)? (fixme)
+C:277, 0: Line too long (114/100) (line-too-long)
+C:283, 0: Line too long (121/100) (line-too-long)
+C:285, 0: Line too long (118/100) (line-too-long)
+C:286, 0: Line too long (104/100) (line-too-long)
+C:299, 0: Line too long (102/100) (line-too-long)
+C:318, 0: Line too long (118/100) (line-too-long)
+C:361, 0: Line too long (113/100) (line-too-long)
+C:370, 0: Line too long (128/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:267, 0: Import "from ansible.module_utils.network.aci.aci import ACIModule, aci_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:268, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:273, 0: Missing function docstring (missing-docstring)
+R:273, 0: Too many local variables (22/15) (too-many-locals)
+C:304, 4: Variable name "ap" doesn't conform to snake_case naming style (invalid-name)
+C:350, 4: Variable name "INTERFACE_MODE_MAPPING" doesn't conform to snake_case naming style (invalid-name)
+C:360, 4: Variable name "INTERFACE_TYPE_MAPPING" doesn't conform to snake_case naming style (invalid-name)
+R:273, 0: Too many branches (19/12) (too-many-branches)
+R:273, 0: Too many statements (62/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 7.06/10
+

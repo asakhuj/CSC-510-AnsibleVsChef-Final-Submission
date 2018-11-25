@@ -1,0 +1,9 @@
+************* Module yamllinter
+E: 11, 0: Unable to import 'yamllint' (import-error)
+E: 12, 0: Unable to import 'yamllint.config' (import-error)
+C: 48,31: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+W:178,15: Catching too general exception Exception (broad-except)
+
+-----------------------------------
+Your code has been rated at 8.59/10
+

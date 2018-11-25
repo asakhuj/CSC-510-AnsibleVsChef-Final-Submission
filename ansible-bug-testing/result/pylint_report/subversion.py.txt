@@ -1,0 +1,25 @@
+************* Module ansible.modules.source_control.subversion
+C:127, 0: Line too long (131/100) (line-too-long)
+C:266, 0: Line too long (120/100) (line-too-long)
+C:315, 0: Line too long (111/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:110, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:111, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:113, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:116, 0: Missing class docstring (missing-docstring)
+R:117, 4: Too many arguments (8/5) (too-many-arguments)
+C:139, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+R:141, 8: Unnecessary "else" after "return" (no-else-return)
+W:139,17: Unused variable 'err' (unused-variable)
+C:148, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:217, 4: Missing method docstring (missing-docstring)
+W:218,14: Unused variable 'url' (unused-variable)
+C:229, 0: Missing function docstring (missing-docstring)
+R:229, 0: Too many local variables (20/15) (too-many-locals)
+R:229, 0: Too many branches (20/12) (too-many-branches)
+R:229, 0: Too many statements (67/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 8.66/10
+

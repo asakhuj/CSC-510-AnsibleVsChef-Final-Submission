@@ -1,0 +1,18 @@
+************* Module ansible.modules.notification.typetalk
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 52, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C: 54, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+E: 55, 0: No name 'urllib' in module '_MovedItems' (no-name-in-module)
+E: 55, 0: Unable to import 'ansible.module_utils.six.moves.urllib.parse' (import-error)
+C: 55, 0: Import "from ansible.module_utils.six.moves.urllib.parse import urlencode" should be placed at the top of the module (wrong-import-position)
+C: 56, 0: Import "from ansible.module_utils.urls import fetch_url, ConnectionError" should be placed at the top of the module (wrong-import-position)
+C: 59, 0: Missing function docstring (missing-docstring)
+C: 66, 4: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C: 74, 0: Missing function docstring (missing-docstring)
+C: 97,30: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:101, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 5.53/10
+

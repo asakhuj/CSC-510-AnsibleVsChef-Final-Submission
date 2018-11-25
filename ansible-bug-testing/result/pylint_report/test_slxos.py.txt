@@ -1,0 +1,37 @@
+************* Module test_slxos
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 27, 0: Unable to import 'units.compat' (import-error)
+E: 28, 0: Unable to import 'ansible.module_utils.network.slxos' (import-error)
+W: 50, 8: Access to a protected member _socket_path of a client class (protected-access)
+C: 58, 4: Method name "test_get_connection_incorrect_network_api" doesn't conform to snake_case naming style (invalid-name)
+W: 65, 8: Access to a protected member _socket_path of a client class (protected-access)
+W: 81, 8: Access to a protected member _socket_path of a client class (protected-access)
+W: 93,32: Unused argument 'connection' (unused-argument)
+W:134,31: Unused argument 'connection' (unused-argument)
+R:134, 4: Method could be a function (no-self-use)
+W: 22, 0: Unused path imported from os (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.23/10
+
+************* Module units.plugins.cliconf.test_slxos
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 28, 0: Unable to import 'ansible.plugins.cliconf' (import-error)
+C: 65, 8: Attribute name "maxDiff" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.62/10
+
+************* Module units.plugins.terminal.test_slxos
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 28, 0: Unable to import 'ansible.plugins.terminal' (import-error)
+E: 29, 0: Unable to import 'ansible.errors' (import-error)
+W: 22, 0: Unused path imported from os (unused-import)
+W: 23, 0: Unused import json (unused-import)
+
+-----------------------------------
+Your code has been rated at 3.64/10
+

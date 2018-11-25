@@ -1,0 +1,28 @@
+************* Module units.parsing.test_dataloader
+C:113, 0: Line too long (124/100) (line-too-long)
+C:114, 0: Line too long (112/100) (line-too-long)
+C:116, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 26, 0: Unable to import 'ansible.errors' (import-error)
+E: 27, 0: Unable to import 'ansible.module_utils._text' (import-error)
+E: 28, 0: Unable to import 'ansible.module_utils.six' (import-error)
+E: 31, 0: Unable to import 'ansible.parsing.dataloader' (import-error)
+C: 36, 0: Missing class docstring (missing-docstring)
+C: 45, 4: Missing method docstring (missing-docstring)
+W: 47,24: Access to a protected member _is_role of a client class (protected-access)
+W: 48,24: Access to a protected member _is_role of a client class (protected-access)
+C: 51, 4: Missing method docstring (missing-docstring)
+C: 57, 4: Missing method docstring (missing-docstring)
+C: 67, 4: Missing method docstring (missing-docstring)
+C: 77, 4: Missing method docstring (missing-docstring)
+C: 80,54: Variable name "cm" doesn't conform to snake_case naming style (invalid-name)
+C:125, 0: Missing class docstring (missing-docstring)
+C:136, 4: Missing method docstring (missing-docstring)
+C: 30, 0: Imports from package units are not grouped (ungrouped-imports)
+C: 31, 0: Imports from package ansible are not grouped (ungrouped-imports)
+C: 33, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 3.81/10
+

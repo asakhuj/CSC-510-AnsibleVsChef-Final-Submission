@@ -1,0 +1,29 @@
+************* Module ansible.modules.cloud.centurylink.clc_alert_policy
+C:349, 0: Line too long (108/100) (line-too-long)
+C:497, 0: Line too long (107/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:158, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C:159, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:160, 0: Import "from distutils.version import LooseVersion" should be placed at the top of the module (wrong-import-position)
+C:182, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:185, 0: Missing class docstring (missing-docstring)
+C:242, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+W:270,12: Access to a protected member _LOGIN_TOKEN_V2 of a client class (protected-access)
+W:271,12: Access to a protected member _V2_ENABLED of a client class (protected-access)
+R:254, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:290, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:314, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:340, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+R:347,11: Too many boolean expressions in if statement (6/5) (too-many-boolean-expressions)
+C:381, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:409,36: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:421, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:448,36: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:465,36: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:185, 0: Too few public methods (1/2) (too-few-public-methods)
+W:515,20: Access to a protected member _define_module_argument_spec of a client class (protected-access)
+
+-----------------------------------
+Your code has been rated at 8.67/10
+

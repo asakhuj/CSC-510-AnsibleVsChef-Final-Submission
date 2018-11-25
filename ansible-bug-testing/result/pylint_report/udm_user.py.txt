@@ -1,0 +1,24 @@
+************* Module ansible.modules.cloud.univention.udm_user
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E:264, 0: Unable to import 'crypt' (import-error)
+C:264, 0: Import "import crypt" should be placed at the top of the module (wrong-import-position)
+C:265, 0: Import "from datetime import date, timedelta" should be placed at the top of the module (wrong-import-position)
+C:267, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:268, 0: Import "from ansible.module_utils.univention_umc import umc_module_for_add, umc_module_for_edit, ldap_search, base_dn" should be placed at the top of the module (wrong-import-position)
+W:489,16: Redefining built-in 'filter' (redefined-builtin)
+C:276, 0: Missing function docstring (missing-docstring)
+R:276, 0: Too many local variables (22/15) (too-many-locals)
+C:411, 4: Variable name "ou" doesn't conform to snake_case naming style (invalid-name)
+C:424,12: Variable name "ou" doesn't conform to snake_case naming style (invalid-name)
+W:479, 8: No exception type(s) specified (bare-except)
+W:500, 8: No exception type(s) specified (bare-except)
+C:493,20: Variable name "dn" doesn't conform to snake_case naming style (invalid-name)
+R:432, 4: Too many nested blocks (6/5) (too-many-nested-blocks)
+W:511, 8: No exception type(s) specified (bare-except)
+R:276, 0: Too many branches (30/12) (too-many-branches)
+R:276, 0: Too many statements (77/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 7.42/10
+

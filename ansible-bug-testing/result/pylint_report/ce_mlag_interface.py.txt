@@ -1,0 +1,22 @@
+************* Module ansible.modules.network.cloudengine.ce_mlag_interface
+C:148, 0: Line too long (102/100) (line-too-long)
+C:634, 0: Line too long (104/100) (line-too-long)
+C:643, 0: Line too long (104/100) (line-too-long)
+C:952, 0: Line too long (106/100) (line-too-long)
+C:  1, 0: Too many lines in module (1015/1000) (too-many-lines)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:144, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:145, 0: Import "from xml.etree import ElementTree" should be placed at the top of the module (wrong-import-position)
+C:146, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:147, 0: Import "from ansible.module_utils.network.cloudengine.ce import load_config" should be placed at the top of the module (wrong-import-position)
+C:148, 0: Import "from ansible.module_utils.network.cloudengine.ce import get_nc_config, set_nc_config, ce_argument_spec" should be placed at the top of the module (wrong-import-position)
+R:320, 0: Too many instance attributes (21/7) (too-many-instance-attributes)
+R:512, 4: Too many branches (15/12) (too-many-branches)
+R:865, 4: Too many branches (13/12) (too-many-branches)
+R:900, 4: Too many branches (14/12) (too-many-branches)
+R:935, 4: Too many branches (21/12) (too-many-branches)
+R:320, 0: Too many public methods (30/20) (too-many-public-methods)
+
+-----------------------------------
+Your code has been rated at 9.65/10
+

@@ -1,0 +1,39 @@
+************* Module ansible.modules.cloud.ovirt.ovirt_storage_connection
+C:160, 0: Wrong hanging indentation before block (add 4 spaces).
+                sd_conn.id for sd_conn in self._connection.follow_link(sd.storage_connections)
+                ^   | (bad-continuation)
+C:162, 0: Line too long (101/100) (line-too-long)
+C:190, 0: Wrong hanging indentation before block (add 4 spaces).
+        sc for sc in storage_connections_service.list()
+        ^   | (bad-continuation)
+C:191, 0: Wrong hanging indentation before block (add 4 spaces).
+        if str(sc.type) == module.params['type']
+        ^   | (bad-continuation)
+C:196, 0: Wrong hanging indentation before block (add 4 spaces).
+                module.params['address'] == sd_conn.address and
+                ^   | (bad-continuation)
+C:197, 0: Wrong hanging indentation before block (add 4 spaces).
+                module.params['path'] == sd_conn.path
+                ^   | (bad-continuation)
+C:202, 0: Wrong hanging indentation before block (add 4 spaces).
+                module.params['address'] == sd_conn.address and
+                ^   | (bad-continuation)
+C:203, 0: Wrong hanging indentation before block (add 4 spaces).
+                module.params['target'] == sd_conn.target
+                ^   | (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:117, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:119, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:120, 0: Import "from ansible.module_utils.ovirt import BaseModule, check_sdk, create_connection, equal, ovirt_full_argument_spec, search_by_name" should be placed at the top of the module (wrong-import-position)
+C:130, 0: Missing class docstring (missing-docstring)
+C:150, 4: Missing method docstring (missing-docstring)
+C:153,12: Variable name "sd" doesn't conform to snake_case naming style (invalid-name)
+C:188, 0: Missing function docstring (missing-docstring)
+R:188, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:208, 0: Missing function docstring (missing-docstring)
+W:261,11: Catching too general exception Exception (broad-except)
+C:261,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.72/10
+

@@ -1,0 +1,19 @@
+************* Module ansible.modules.source_control.git_config
+C:162, 0: Line too long (116/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 10, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:141, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+E:142, 0: Unable to import 'ansible.module_utils.six.moves' (import-error)
+C:142, 0: Import "from ansible.module_utils.six.moves import shlex_quote" should be placed at the top of the module (wrong-import-position)
+W:192, 8: Redefining built-in 'dir' (redefined-builtin)
+C:145, 0: Missing function docstring (missing-docstring)
+R:145, 0: Too many local variables (19/15) (too-many-locals)
+C:200, 5: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:212,15: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:225, 9: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+R:145, 0: Too many branches (22/12) (too-many-branches)
+R:145, 0: Too many statements (56/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 7.10/10
+

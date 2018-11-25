@@ -1,0 +1,13 @@
+************* Module ansible.modules.network.ingate.ig_unit_information
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:123, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:124, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:125, 0: Import "from ansible.module_utils.network.ingate.common import ingate_argument_spec, ingate_create_client, is_ingatesdk_installed" should be placed at the top of the module (wrong-import-position)
+C:135, 0: Missing function docstring (missing-docstring)
+C:144, 0: Missing function docstring (missing-docstring)
+C:155,33: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.33/10
+

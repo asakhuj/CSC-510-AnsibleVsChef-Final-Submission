@@ -1,0 +1,18 @@
+************* Module ansible.modules.cloud.pubnub.pubnub_blocks
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 12, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:224, 0: Import "import copy" should be placed at the top of the module (wrong-import-position)
+C:225, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:244, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:245, 0: Import "from ansible.module_utils._text import to_text" should be placed at the top of the module (wrong-import-position)
+R:473, 0: Too many branches (15/12) (too-many-branches)
+C:541, 0: Missing function docstring (missing-docstring)
+R:541, 0: Too many local variables (17/15) (too-many-locals)
+W:229, 4: Unused Account imported from pubnub_blocks_client (unused-import)
+W:229, 4: Unused Keyset imported from pubnub_blocks_client (unused-import)
+W:229, 4: Unused Application imported from pubnub_blocks_client (unused-import)
+W:229, 4: Unused Owner imported from pubnub_blocks_client (unused-import)
+
+-----------------------------------
+Your code has been rated at 9.34/10
+

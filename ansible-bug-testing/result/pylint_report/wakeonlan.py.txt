@@ -1,0 +1,14 @@
+************* Module ansible.modules.remote_management.wakeonlan
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 63, 0: Import "import socket" should be placed at the top of the module (wrong-import-position)
+C: 64, 0: Import "import struct" should be placed at the top of the module (wrong-import-position)
+C: 65, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C: 67, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 68, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:104,31: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:111, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.91/10
+

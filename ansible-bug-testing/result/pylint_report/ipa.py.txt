@@ -1,0 +1,42 @@
+************* Module ansible.module_utils.ipa
+W: 99, 0: TODO: We should probably handle this a little better. (fixme)
+C: 62, 0: Line too long (123/100) (line-too-long)
+C:108, 0: Line too long (140/100) (line-too-long)
+C:183, 0: Line too long (117/100) (line-too-long)
+C:187, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+E: 35, 0: No name 'urllib' in module '_MovedItems' (no-name-in-module)
+E: 35, 0: Unable to import 'ansible.module_utils.six.moves.urllib.parse' (import-error)
+C: 40, 0: Missing class docstring (missing-docstring)
+C: 49, 4: Missing method docstring (missing-docstring)
+C: 52, 4: Missing method docstring (missing-docstring)
+C: 55, 4: Missing method docstring (missing-docstring)
+W: 71,15: Catching too general exception Exception (broad-except)
+C: 71,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C: 74, 4: Argument name "e" doesn't conform to snake_case naming style (invalid-name)
+C: 81, 4: Missing method docstring (missing-docstring)
+C: 90, 4: Missing method docstring (missing-docstring)
+W:112,15: Catching too general exception Exception (broad-except)
+C:112,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:133,20: Unnecessary "else" after "return" (no-else-return)
+C:133,23: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+R: 93, 4: Too many branches (16/12) (too-many-branches)
+C:140, 4: Missing method docstring (missing-docstring)
+R:140, 4: Method could be a function (no-self-use)
+C:158, 4: Missing method docstring (missing-docstring)
+R:158, 4: Too many arguments (7/5) (too-many-arguments)
+C:161,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:170,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:181, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 6.86/10
+
+************* Module ansible.utils.module_docs_fragments.ipa
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Missing class docstring (missing-docstring)
+R:  6, 0: Too few public methods (0/2) (too-few-public-methods)
+
+------------------------------------
+Your code has been rated at -5.00/10
+

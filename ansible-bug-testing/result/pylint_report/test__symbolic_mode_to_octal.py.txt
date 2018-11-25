@@ -1,0 +1,16 @@
+************* Module units.module_utils.basic.test__symbolic_mode_to_octal
+C:  5, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 13, 0: Unable to import 'ansible.module_utils.basic' (import-error)
+C: 80, 0: Missing function docstring (missing-docstring)
+W: 83,11: Access to a protected member _symbolic_mode_to_octal of a client class (protected-access)
+C: 87, 0: Missing function docstring (missing-docstring)
+W: 94,11: Access to a protected member _symbolic_mode_to_octal of a client class (protected-access)
+C: 98, 0: Missing function docstring (missing-docstring)
+W:102,15: Access to a protected member _symbolic_mode_to_octal of a client class (protected-access)
+E:103,11: Instance of 'ExceptionInfo' has no 'match' member (no-member)
+
+-----------------------------------
+Your code has been rated at 1.74/10
+

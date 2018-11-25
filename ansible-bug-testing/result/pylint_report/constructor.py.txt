@@ -1,0 +1,17 @@
+************* Module ansible.parsing.yaml.constructor
+W:101, 0: TODO/FIXME: plugin vault selector (fixme)
+C: 76, 0: Line too long (129/100) (line-too-long)
+C: 77, 0: Line too long (101/100) (line-too-long)
+C:164, 0: Line too long (109/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 38, 0: Missing class docstring (missing-docstring)
+W: 84, 4: Parameters differ from overridden 'construct_yaml_str' method (arguments-differ)
+C: 97, 4: Method name "construct_vault_encrypted_unicode" doesn't conform to snake_case naming style (invalid-name)
+C: 97, 4: Missing method docstring (missing-docstring)
+C:118, 4: Missing method docstring (missing-docstring)
+C: 34, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 8.50/10
+

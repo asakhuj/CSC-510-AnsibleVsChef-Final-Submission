@@ -1,0 +1,15 @@
+************* Module units.modules.system.test_systemd
+C: 30, 0: Line too long (111/100) (line-too-long)
+C: 37, 0: Line too long (124/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  5, 0: Unable to import 'ansible.modules.system.systemd' (import-error)
+C:  8, 0: Missing class docstring (missing-docstring)
+C: 10, 4: Missing method docstring (missing-docstring)
+C: 25, 4: Missing method docstring (missing-docstring)
+C: 41, 4: Missing method docstring (missing-docstring)
+W:  1, 0: Unused import os (unused-import)
+W:  2, 0: Unused import tempfile (unused-import)
+
+-----------------------------------
+Your code has been rated at 1.76/10
+

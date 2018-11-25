@@ -1,0 +1,20 @@
+************* Module ansible.modules.network.cloudengine.ce_dldp
+C:167, 0: Line too long (121/100) (line-too-long)
+C:269, 0: Line too long (104/100) (line-too-long)
+C:272, 0: Line too long (106/100) (line-too-long)
+C:290, 0: Line too long (109/100) (line-too-long)
+C:294, 0: Line too long (116/100) (line-too-long)
+C:467, 0: Line too long (107/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:164, 0: Import "import copy" should be placed at the top of the module (wrong-import-position)
+C:165, 0: Import "from xml.etree import ElementTree" should be placed at the top of the module (wrong-import-position)
+C:166, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:167, 0: Import "from ansible.module_utils.network.cloudengine.ce import ce_argument_spec, set_nc_config, get_nc_config, execute_nc_action" should be placed at the top of the module (wrong-import-position)
+R:206, 0: Too many instance attributes (16/7) (too-many-instance-attributes)
+R:232, 4: Too many return statements (7/6) (too-many-return-statements)
+R:342, 4: Too many branches (18/12) (too-many-branches)
+R:439, 4: Too many branches (13/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 9.36/10
+

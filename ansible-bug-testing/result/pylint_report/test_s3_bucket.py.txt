@@ -1,0 +1,23 @@
+************* Module units.modules.cloud.amazon.test_s3_bucket
+C: 30, 0: Line too long (122/100) (line-too-long)
+C: 35, 0: Line too long (113/100) (line-too-long)
+C: 42, 0: Line too long (123/100) (line-too-long)
+C: 84, 0: Wrong hanging indentation (add 1 space).
+               "AWS": ["arn:aws:iam::XXXXXXXXXXXX:user/testuser2"]
+               ^| (bad-continuation)
+C:150, 0: Line too long (108/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+E: 20, 0: Unable to import 'ansible.modules.cloud.amazon.s3_bucket' (import-error)
+C: 22, 0: Constant name "small_policy_one" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 36, 0: Constant name "small_policy_two" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 49, 0: Constant name "larger_policy_one" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 79, 0: Constant name "larger_policy_two" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:109, 0: Constant name "larger_policy_three" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:138, 0: Function name "test_compare_small_policies_without_differences" doesn't conform to snake_case naming style (invalid-name)
+C:146, 0: Function name "test_compare_large_policies_without_differences" doesn't conform to snake_case naming style (invalid-name)
+C:155, 0: Function name "test_compare_larger_policies_with_difference" doesn't conform to snake_case naming style (invalid-name)
+C:162, 0: Function name "test_compare_smaller_policy_with_larger" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------
+Your code has been rated at -4.29/10
+

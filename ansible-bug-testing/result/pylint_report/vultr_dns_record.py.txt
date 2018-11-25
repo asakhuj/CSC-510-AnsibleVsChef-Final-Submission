@@ -1,0 +1,17 @@
+************* Module ansible.modules.cloud.vultr.vultr_dns_record
+C:219, 0: Line too long (101/100) (line-too-long)
+C:234, 0: Line too long (113/100) (line-too-long)
+C:235, 0: Line too long (117/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:184, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:185, 0: Import "from ansible.module_utils.vultr import Vultr, vultr_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:203, 0: Missing class docstring (missing-docstring)
+C:218, 4: Missing method docstring (missing-docstring)
+C:243, 4: Missing method docstring (missing-docstring)
+C:300, 4: Missing method docstring (missing-docstring)
+C:322, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.50/10
+

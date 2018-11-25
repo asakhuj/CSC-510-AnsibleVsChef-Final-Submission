@@ -1,0 +1,24 @@
+************* Module ansible.cli.playbook
+C: 40, 0: Line too long (103/100) (line-too-long)
+C: 99, 0: Line too long (127/100) (line-too-long)
+C:111, 0: Line too long (111/100) (line-too-long)
+C:119, 0: Line too long (145/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 74,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+R: 80, 4: Too many local variables (26/15) (too-many-locals)
+R:124, 8: Unnecessary "else" after "return" (no-else-return)
+C:125,16: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+W:129,23: Access to a protected member _included_path of a client class (protected-access)
+W:130,43: Access to a protected member _included_path of a client class (protected-access)
+C:153,24: Argument name "b" doesn't conform to snake_case naming style (invalid-name)
+W:162,36: Cell variable all_tags defined in loop (cell-var-from-loop)
+W:164,56: Cell variable mytags defined in loop (cell-var-from-loop)
+W:112, 8: Unused variable 'hosts' (unused-variable)
+R: 80, 4: Too many branches (18/12) (too-many-branches)
+R:193, 4: Method could be a function (no-self-use)
+C: 35, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+------------------------------------------------------------------
+Your code has been rated at 8.16/10 (previous run: 8.16/10, +0.00)
+

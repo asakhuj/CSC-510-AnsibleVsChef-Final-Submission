@@ -1,0 +1,17 @@
+************* Module ansible.modules.network.aruba.aruba_command
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:115, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C:117, 0: Import "from ansible.module_utils.network.aruba.aruba import run_commands" should be placed at the top of the module (wrong-import-position)
+C:118, 0: Import "from ansible.module_utils.network.aruba.aruba import aruba_argument_spec, check_args" should be placed at the top of the module (wrong-import-position)
+C:119, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:120, 0: Import "from ansible.module_utils.network.common.utils import ComplexList" should be placed at the top of the module (wrong-import-position)
+C:121, 0: Import "from ansible.module_utils.network.common.parsing import Conditional" should be placed at the top of the module (wrong-import-position)
+C:122, 0: Import "from ansible.module_utils.six import string_types" should be placed at the top of the module (wrong-import-position)
+C:125, 0: Missing function docstring (missing-docstring)
+C:132, 0: Missing function docstring (missing-docstring)
+W:139, 8: Unused variable 'index' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 8.03/10
+

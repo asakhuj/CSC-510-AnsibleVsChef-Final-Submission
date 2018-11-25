@@ -1,0 +1,7 @@
+************* Module ansible.modules.network.netvisor.pn_show
+C: 98, 0: Import "import shlex" should be placed at the top of the module (wrong-import-position)
+C:101, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+
+-----------------------------------
+Your code has been rated at 9.51/10
+

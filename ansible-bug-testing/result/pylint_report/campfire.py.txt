@@ -1,0 +1,23 @@
+************* Module ansible.modules.notification.campfire
+C:129, 0: Line too long (103/100) (line-too-long)
+C:133, 0: Wrong continued indentation (remove 4 spaces).
+                                 (notify, info['status']))
+                             |   ^ (bad-continuation)
+C:140, 0: Wrong continued indentation (remove 4 spaces).
+                             (msg, info['status']))
+                         |   ^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 75, 0: Import "import cgi" should be placed at the top of the module (wrong-import-position)
+C: 77, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 78, 0: Import "from ansible.module_utils.urls import fetch_url" should be placed at the top of the module (wrong-import-position)
+C: 81, 0: Missing function docstring (missing-docstring)
+C:114, 4: Variable name "URI" doesn't conform to snake_case naming style (invalid-name)
+C:115, 4: Variable name "NSTR" doesn't conform to snake_case naming style (invalid-name)
+C:116, 4: Variable name "MSTR" doesn't conform to snake_case naming style (invalid-name)
+C:117, 4: Variable name "AGENT" doesn't conform to snake_case naming style (invalid-name)
+W:129, 8: Unused variable 'response' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 5.76/10
+

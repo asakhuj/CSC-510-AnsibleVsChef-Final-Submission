@@ -1,0 +1,20 @@
+************* Module units.modules.network.nxos.test_nxos_pim_interface
+C: 40, 0: Line too long (102/100) (line-too-long)
+C: 68, 0: Line too long (107/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 23, 0: Unable to import 'ansible.modules.network.nxos' (import-error)
+C: 27, 0: Missing class docstring (missing-docstring)
+C: 52, 8: Missing function docstring (missing-docstring)
+C: 57,19: Using type() instead of isinstance() for a typecheck. (unidiomatic-typecheck)
+W: 52, 0: Unused argument 'kwargs' (unused-argument)
+W: 53,12: Unused variable 'module' (unused-variable)
+C: 67, 4: Missing method docstring (missing-docstring)
+C: 76, 4: Missing method docstring (missing-docstring)
+C: 87, 4: Missing method docstring (missing-docstring)
+C: 94, 4: Method name "test_nxos_pim_interface_ip_absent" doesn't conform to snake_case naming style (invalid-name)
+C: 94, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 5.87/10
+

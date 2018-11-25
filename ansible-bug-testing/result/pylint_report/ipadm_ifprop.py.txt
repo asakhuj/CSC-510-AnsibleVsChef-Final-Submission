@@ -1,0 +1,27 @@
+************* Module ansible.modules.network.illumos.ipadm_ifprop
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 99, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:105, 0: Missing class docstring (missing-docstring)
+C:117, 4: Missing method docstring (missing-docstring)
+C:127, 9: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+R:117, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:138, 4: Missing method docstring (missing-docstring)
+C:151, 9: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+R:156, 8: The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)
+R:156, 8: Unnecessary "else" after "return" (no-else-return)
+C:161, 4: Missing method docstring (missing-docstring)
+C:174, 9: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+R:178, 8: The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)
+R:178, 8: Unnecessary "else" after "return" (no-else-return)
+C:183, 4: Missing method docstring (missing-docstring)
+C:199, 4: Missing method docstring (missing-docstring)
+C:216, 0: Missing function docstring (missing-docstring)
+C:232, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:248,17: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:265,17: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+R:216, 0: Too many branches (16/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 8.24/10
+

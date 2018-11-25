@@ -1,0 +1,15 @@
+************* Module ansible.modules.cloud.google.gcpubsub_facts
+C:121, 0: Line too long (110/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 91,22: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C: 94, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 95, 0: Import "from ansible.module_utils.gcp import check_min_pkg_version, get_google_cloud_credentials" should be placed at the top of the module (wrong-import-position)
+C:103, 0: Missing function docstring (missing-docstring)
+C:119, 4: Variable name "CLIENT_MINIMUM_VERSION" doesn't conform to snake_case naming style (invalid-name)
+C:137,12: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+W: 83, 4: Unused literal_eval imported from ast (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.96/10
+

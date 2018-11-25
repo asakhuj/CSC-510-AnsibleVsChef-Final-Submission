@@ -1,0 +1,32 @@
+************* Module ansible.modules.network.nxos.nxos_vxlan_vtep_vni
+C:259, 0: Wrong continued indentation (add 24 spaces).
+               ingress_replicationnb_command, ingress_replicationns_command)):
+               ^                       | (bad-continuation)
+C:321, 0: Line too long (107/100) (line-too-long)
+C:338, 0: Line too long (117/100) (line-too-long)
+C:346, 0: Line too long (109/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 98, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C: 99, 0: Import "from ansible.module_utils.network.nxos.nxos import get_config, load_config" should be placed at the top of the module (wrong-import-position)
+C:100, 0: Import "from ansible.module_utils.network.nxos.nxos import nxos_argument_spec, check_args" should be placed at the top of the module (wrong-import-position)
+C:101, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:102, 0: Import "from ansible.module_utils.network.common.config import CustomNetworkConfig" should be placed at the top of the module (wrong-import-position)
+C:126, 0: Missing function docstring (missing-docstring)
+W:126,27: Unused argument 'module' (unused-argument)
+C:148, 0: Missing function docstring (missing-docstring)
+W:148,20: Unused argument 'module' (unused-argument)
+C:159, 0: Missing function docstring (missing-docstring)
+C:187, 0: Missing function docstring (missing-docstring)
+C:196, 0: Missing function docstring (missing-docstring)
+R:196, 0: Too many local variables (23/15) (too-many-locals)
+R:196, 0: Too many branches (27/12) (too-many-branches)
+R:196, 0: Too many statements (66/50) (too-many-statements)
+C:280, 0: Missing function docstring (missing-docstring)
+W:280,35: Unused argument 'proposed' (unused-argument)
+C:290, 0: Missing function docstring (missing-docstring)
+R:290, 0: Too many local variables (16/15) (too-many-locals)
+R:290, 0: Too many branches (19/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 8.68/10
+

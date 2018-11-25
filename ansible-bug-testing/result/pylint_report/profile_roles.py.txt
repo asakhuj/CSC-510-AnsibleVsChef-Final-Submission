@@ -1,0 +1,30 @@
+************* Module ansible.plugins.callback.profile_roles
+W: 24, 0: Redefining built-in 'reduce' (redefined-builtin)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 20, 0: Import "import collections" should be placed at the top of the module (wrong-import-position)
+C: 21, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C: 23, 0: Import "from ansible.plugins.callback import CallbackBase" should be placed at the top of the module (wrong-import-position)
+E: 24, 0: Unable to import 'ansible.module_utils.six.moves' (import-error)
+C: 24, 0: Import "from ansible.module_utils.six.moves import reduce" should be placed at the top of the module (wrong-import-position)
+C: 27, 0: Constant name "t0" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 27, 5: Constant name "tn" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 30, 0: Function name "secondsToStr" doesn't conform to snake_case naming style (invalid-name)
+C: 30, 0: Argument name "t" doesn't conform to snake_case naming style (invalid-name)
+C: 30, 0: Missing function docstring (missing-docstring)
+C: 32, 4: Argument name "ll" doesn't conform to snake_case naming style (invalid-name)
+C: 32, 4: Argument name "b" doesn't conform to snake_case naming style (invalid-name)
+C: 32, 4: Missing function docstring (missing-docstring)
+C: 39, 0: Missing function docstring (missing-docstring)
+C: 40, 7: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C: 51, 0: Missing function docstring (missing-docstring)
+C: 57, 0: Missing function docstring (missing-docstring)
+W: 58, 4: Using the global statement (global-statement)
+C: 58, 4: Constant name "tn" doesn't conform to UPPER_CASE naming style (invalid-name)
+W: 89,11: Access to a protected member _role of a client class (protected-access)
+W: 90,27: Access to a protected member _role_name of a client class (protected-access)
+W: 90,27: Access to a protected member _role of a client class (protected-access)
+
+-----------------------------------
+Your code has been rated at 5.61/10
+

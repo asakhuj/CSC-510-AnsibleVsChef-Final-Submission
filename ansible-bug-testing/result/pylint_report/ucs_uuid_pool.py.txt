@@ -1,0 +1,22 @@
+************* Module ansible.modules.remote_management.ucs.ucs_uuid_pool
+C:120, 0: Line too long (105/100) (line-too-long)
+C:155, 0: Line too long (138/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:100, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:101, 0: Import "from ansible.module_utils.remote_management.ucs import UCSModule, ucs_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:104, 0: Missing function docstring (missing-docstring)
+E:125, 4: Unable to import 'ucsmsdk.mometa.uuidpool.UuidpoolPool' (import-error)
+E:126, 4: Unable to import 'ucsmsdk.mometa.uuidpool.UuidpoolBlock' (import-error)
+W:187,11: Catching too general exception Exception (broad-except)
+C:133, 8: Variable name "dn" doesn't conform to snake_case naming style (invalid-name)
+C:134, 8: Variable name "mo" doesn't conform to snake_case naming style (invalid-name)
+R:129, 4: Too many nested blocks (6/5) (too-many-nested-blocks)
+C:168,20: Variable name "mo" doesn't conform to snake_case naming style (invalid-name)
+C:187,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:104, 0: Too many branches (17/12) (too-many-branches)
+R:104, 0: Too many statements (52/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 5.83/10
+

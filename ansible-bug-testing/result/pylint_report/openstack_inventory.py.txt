@@ -1,0 +1,22 @@
+************* Module openstack_inventory
+C:264, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:  1, 0: Missing module docstring (missing-docstring)
+E: 64, 0: Unable to import 'openstack' (import-error)
+E: 65, 0: Unable to import 'openstack.cloud' (import-error)
+E: 66, 0: Unable to import 'openstack.config' (import-error)
+C: 71, 0: Missing function docstring (missing-docstring)
+C:107, 4: Variable name "az" doesn't conform to snake_case naming style (invalid-name)
+C:116, 0: Missing function docstring (missing-docstring)
+C:120,38: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C:123,38: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C:128, 0: Missing function docstring (missing-docstring)
+C:142, 0: Missing function docstring (missing-docstring)
+C:192, 0: Missing function docstring (missing-docstring)
+C:211, 0: Missing function docstring (missing-docstring)
+C:215, 0: Missing function docstring (missing-docstring)
+C:234, 0: Missing function docstring (missing-docstring)
+C:265,53: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 7.91/10 (previous run: 7.91/10, +0.00)
+

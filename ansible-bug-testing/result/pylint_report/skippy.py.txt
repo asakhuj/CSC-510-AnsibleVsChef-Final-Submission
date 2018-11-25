@@ -1,0 +1,8 @@
+************* Module ansible.plugins.callback.skippy
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 26, 0: Import "from ansible.plugins.callback.default import CallbackModule as CallbackModule_default" should be placed at the top of the module (wrong-import-position)
+
+-----------------------------------
+Your code has been rated at 7.50/10
+

@@ -1,0 +1,20 @@
+************* Module ansible.modules.packaging.language.easy_install
+C:186, 0: Line too long (118/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 85, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C: 86, 0: Import "import os.path" should be placed at the top of the module (wrong-import-position)
+C: 87, 0: Import "import tempfile" should be placed at the top of the module (wrong-import-position)
+C: 88, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 91, 0: Missing function docstring (missing-docstring)
+C: 93, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:101, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:133, 0: Missing function docstring (missing-docstring)
+R:133, 0: Too many local variables (24/15) (too-many-locals)
+C:157, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:173,12: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:188, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.19/10
+

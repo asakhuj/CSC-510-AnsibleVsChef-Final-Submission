@@ -1,0 +1,22 @@
+************* Module ansible.modules.network.nxos.nxos_gir_profile_management
+C:  1, 0: Missing module docstring (missing-docstring)
+C:101, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:102, 0: Import "from ansible.module_utils.network.nxos.nxos import get_config, load_config, run_commands" should be placed at the top of the module (wrong-import-position)
+C:103, 0: Import "from ansible.module_utils.network.nxos.nxos import nxos_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:104, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:105, 0: Import "from ansible.module_utils.network.common.config import CustomNetworkConfig" should be placed at the top of the module (wrong-import-position)
+C:108, 0: Missing function docstring (missing-docstring)
+C:126, 0: Missing function docstring (missing-docstring)
+C:140, 0: Missing function docstring (missing-docstring)
+W:140,35: Unused argument 'commands' (unused-argument)
+W:140,25: Unused argument 'existing' (unused-argument)
+C:148, 0: Missing function docstring (missing-docstring)
+R:148, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:154, 0: Missing function docstring (missing-docstring)
+W:192, 7: Access to a protected member _verbosity of a client class (protected-access)
+W:101, 0: Unused import re (unused-import)
+W:102, 0: Unused run_commands imported from ansible.module_utils.network.nxos.nxos (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.64/10
+

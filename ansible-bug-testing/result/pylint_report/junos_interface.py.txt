@@ -1,0 +1,30 @@
+************* Module ansible.modules.network.junos.junos_interface
+C:200, 0: Line too long (120/100) (line-too-long)
+C:309, 0: Line too long (101/100) (line-too-long)
+C:336, 0: Line too long (106/100) (line-too-long)
+C:353, 0: Line too long (110/100) (line-too-long)
+C:358, 0: Line too long (108/100) (line-too-long)
+C:369, 0: Line too long (143/100) (line-too-long)
+C:370, 0: Line too long (139/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:189, 0: Import "import collections" should be placed at the top of the module (wrong-import-position)
+C:191, 0: Import "from copy import deepcopy" should be placed at the top of the module (wrong-import-position)
+C:192, 0: Import "from time import sleep" should be placed at the top of the module (wrong-import-position)
+C:194, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:195, 0: Import "from ansible.module_utils.network.common.netconf import exec_rpc" should be placed at the top of the module (wrong-import-position)
+C:196, 0: Import "from ansible.module_utils.network.common.utils import remove_default_spec" should be placed at the top of the module (wrong-import-position)
+C:197, 0: Import "from ansible.module_utils.network.common.utils import conditional" should be placed at the top of the module (wrong-import-position)
+C:198, 0: Import "from ansible.module_utils.network.junos.junos import junos_argument_spec, tostring" should be placed at the top of the module (wrong-import-position)
+C:199, 0: Import "from ansible.module_utils.network.junos.junos import load_config, map_params_to_obj, map_obj_to_ele" should be placed at the top of the module (wrong-import-position)
+C:200, 0: Import "from ansible.module_utils.network.junos.junos import commit_configuration, discard_changes, locked_config, to_param_list" should be placed at the top of the module (wrong-import-position)
+C:210, 0: Missing function docstring (missing-docstring)
+C:215, 0: Missing function docstring (missing-docstring)
+R:225, 0: Too many local variables (39/15) (too-many-locals)
+W:325,15: Access to a protected member _diff of a client class (protected-access)
+R:225, 0: Too many branches (25/12) (too-many-branches)
+R:225, 0: Too many statements (88/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 8.00/10
+

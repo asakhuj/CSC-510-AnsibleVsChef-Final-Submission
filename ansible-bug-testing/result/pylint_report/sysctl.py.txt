@@ -1,0 +1,83 @@
+************* Module ansible.modules.system.sysctl
+C:285, 0: Line too long (102/100) (line-too-long)
+C:300, 0: Line too long (112/100) (line-too-long)
+C:344, 0: Line too long (105/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:101, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:102, 0: Import "import tempfile" should be placed at the top of the module (wrong-import-position)
+C:104, 0: Import "from ansible.module_utils.basic import get_platform, AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:105, 0: Import "from ansible.module_utils.six import string_types" should be placed at the top of the module (wrong-import-position)
+C:106, 0: Import "from ansible.module_utils.parsing.convert_bool import BOOLEANS_FALSE, BOOLEANS_TRUE" should be placed at the top of the module (wrong-import-position)
+C:107, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:110, 0: Missing class docstring (missing-docstring)
+R:110, 0: Too many instance attributes (13/7) (too-many-instance-attributes)
+C:134, 4: Missing method docstring (missing-docstring)
+C:185, 4: Argument name "a" doesn't conform to snake_case naming style (invalid-name)
+C:185, 4: Argument name "b" doesn't conform to snake_case naming style (invalid-name)
+R:185, 4: Method could be a function (no-self-use)
+R:201, 8: Unnecessary "else" after "return" (no-else-return)
+R:204,12: Unnecessary "else" after "return" (no-else-return)
+R:209,12: Unnecessary "else" after "return" (no-else-return)
+R:200, 4: Too many return statements (7/6) (too-many-return-statements)
+R:200, 4: Method could be a function (no-self-use)
+C:223, 4: Missing method docstring (missing-docstring)
+C:229, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+R:230, 8: Unnecessary "else" after "return" (no-else-return)
+W:229,17: Unused variable 'err' (unused-variable)
+C:236, 4: Missing method docstring (missing-docstring)
+C:237,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:253, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+R:236, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:260, 4: Missing method docstring (missing-docstring)
+C:264,12: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:268,19: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:269,16: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:271,20: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:275,16: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:282,12: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:292, 4: Missing method docstring (missing-docstring)
+C:299,30: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:310,15: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:312,12: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:316, 4: Missing method docstring (missing-docstring)
+C:324,15: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:326,12: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:342, 4: Missing method docstring (missing-docstring)
+C:344, 8: Variable name "fd" doesn't conform to snake_case naming style (invalid-name)
+C:345, 8: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C:347,16: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+C:349,26: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:344, 8: Unused variable 'fd' (unused-variable)
+W:318, 8: Attribute 'fixed_lines' defined outside __init__ (attribute-defined-outside-init)
+C:361, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.25/10
+
+************* Module ansible.module_utils.facts.sysctl
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 19, 0: Missing function docstring (missing-docstring)
+C: 24, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W: 24,13: Unused variable 'err' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 7.33/10
+
+************* Module ansible.module_utils.facts.virtual.sysctl
+W: 29, 0: FIXME: exit early on falsey self.sysctl_path and unindent (fixme)
+W: 57, 0: FIXME: exit early on falsey self.sysctl_path and unindent (fixme)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 17, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 22, 0: Missing class docstring (missing-docstring)
+C: 23, 4: Missing method docstring (missing-docstring)
+C: 26, 4: Missing method docstring (missing-docstring)
+C: 31,12: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W: 31,21: Unused variable 'err' (unused-variable)
+C: 54, 4: Missing method docstring (missing-docstring)
+C: 59,12: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W: 59,21: Unused variable 'err' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 7.27/10
+

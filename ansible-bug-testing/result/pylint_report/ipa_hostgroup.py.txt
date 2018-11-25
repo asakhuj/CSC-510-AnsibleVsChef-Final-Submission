@@ -1,0 +1,33 @@
+************* Module ansible.modules.identity.ipa.ipa_hostgroup
+C:161, 0: Line too long (120/100) (line-too-long)
+C:162, 0: Line too long (111/100) (line-too-long)
+C:185, 0: Line too long (121/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 82, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C: 84, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 85, 0: Import "from ansible.module_utils.ipa import IPAClient, ipa_argument_spec" should be placed at the top of the module (wrong-import-position)
+C: 86, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 89, 0: Missing class docstring (missing-docstring)
+W: 90, 4: Useless super delegation in method '__init__' (useless-super-delegation)
+C: 93, 4: Missing method docstring (missing-docstring)
+C: 96, 4: Missing method docstring (missing-docstring)
+C: 99, 4: Missing method docstring (missing-docstring)
+C:102, 4: Missing method docstring (missing-docstring)
+C:105, 4: Missing method docstring (missing-docstring)
+C:108, 4: Missing method docstring (missing-docstring)
+C:111, 4: Missing method docstring (missing-docstring)
+C:114, 4: Missing method docstring (missing-docstring)
+C:117, 4: Missing method docstring (missing-docstring)
+C:120, 4: Missing method docstring (missing-docstring)
+C:124, 0: Missing function docstring (missing-docstring)
+C:131, 0: Missing function docstring (missing-docstring)
+C:135, 0: Missing function docstring (missing-docstring)
+C:152,15: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:179, 0: Missing function docstring (missing-docstring)
+W:200,11: Catching too general exception Exception (broad-except)
+C:200,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.63/10
+

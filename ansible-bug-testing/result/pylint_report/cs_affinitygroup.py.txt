@@ -1,0 +1,17 @@
+************* Module ansible.modules.cloud.cloudstack.cs_affinitygroup
+C:153, 0: Line too long (105/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:121, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:122, 0: Import "from ansible.module_utils.cloudstack import AnsibleCloudStack, cs_argument_spec, cs_required_together" should be placed at the top of the module (wrong-import-position)
+C:129, 0: Missing class docstring (missing-docstring)
+C:138, 4: Missing method docstring (missing-docstring)
+C:152, 4: Missing method docstring (missing-docstring)
+C:160,16: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+R:152, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:165, 4: Missing method docstring (missing-docstring)
+C:186, 4: Missing method docstring (missing-docstring)
+C:206, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.10/10
+

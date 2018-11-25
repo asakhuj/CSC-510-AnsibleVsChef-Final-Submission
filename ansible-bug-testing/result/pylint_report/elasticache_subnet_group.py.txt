@@ -1,0 +1,29 @@
+************* Module ansible.modules.cloud.amazon.elasticache_subnet_group
+C: 80, 0: Wrong continued indentation (add 20 spaces).
+    )
+    ^                   | (bad-continuation)
+C: 98, 0: Line too long (102/100) (line-too-long)
+C:104, 0: Line too long (152/100) (line-too-long)
+C:129, 0: Line too long (146/100) (line-too-long)
+C:132, 0: Line too long (150/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 68, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 69, 0: Import "from ansible.module_utils.ec2 import HAS_BOTO, ec2_argument_spec, get_aws_connection_info" should be placed at the top of the module (wrong-import-position)
+C: 72, 0: Missing function docstring (missing-docstring)
+R: 72, 0: Too many local variables (18/15) (too-many-locals)
+W:106, 4: String statement has no effect (pointless-string-statement)
+C:109,48: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:119,34: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+E:121,37: Instance of 'NoAuthHandlerFound' has no 'error_message' member (no-member)
+C:135,30: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+E:136,11: Instance of 'NoAuthHandlerFound' has no 'error_message' member (no-member)
+E:137,33: Instance of 'NoAuthHandlerFound' has no 'error_message' member (no-member)
+W:132,16: Unused variable 'changed_group' (unused-variable)
+W:101,12: Unused variable 'ec2_url' (unused-variable)
+W:129,16: Unused variable 'new_group' (unused-variable)
+R: 72, 0: Too many branches (18/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 4.69/10
+

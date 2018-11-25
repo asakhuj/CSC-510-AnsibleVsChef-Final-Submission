@@ -1,0 +1,18 @@
+************* Module units.module_utils.json_utils.test_filter_non_json_lines
+C: 75, 0: Line too long (112/100) (line-too-long)
+C: 82, 0: Line too long (112/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 26, 0: Unable to import 'ansible.module_utils.json_utils' (import-error)
+C: 29, 0: Missing class docstring (missing-docstring)
+C: 57, 4: Missing method docstring (missing-docstring)
+C: 63, 4: Missing method docstring (missing-docstring)
+C: 70, 4: Missing method docstring (missing-docstring)
+C: 77, 4: Missing method docstring (missing-docstring)
+C: 84, 4: Method name "test_unparsable_filter_non_json_lines" doesn't conform to snake_case naming style (invalid-name)
+C: 84, 4: Missing method docstring (missing-docstring)
+W: 23, 0: Unused import json (unused-import)
+
+-----------------------------------
+Your code has been rated at 5.64/10
+

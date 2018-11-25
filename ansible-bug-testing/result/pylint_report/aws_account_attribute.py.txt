@@ -1,0 +1,32 @@
+************* Module ansible.plugins.lookup.aws_account_attribute
+C: 74, 0: Line too long (106/100) (line-too-long)
+C: 79, 0: Line too long (107/100) (line-too-long)
+C:129, 0: Line too long (117/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  4, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 54, 0: Import "from ansible.errors import AnsibleError" should be placed at the top of the module (wrong-import-position)
+C: 62, 0: Import "from ansible.plugins import AnsiblePlugin" should be placed at the top of the module (wrong-import-position)
+C: 63, 0: Import "from ansible.plugins.lookup import LookupBase" should be placed at the top of the module (wrong-import-position)
+C: 64, 0: Import "from ansible.module_utils.ec2 import boto3_conn, get_aws_connection_info" should be placed at the top of the module (wrong-import-position)
+C: 65, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 66, 0: Import "from ansible.module_utils.six import string_types" should be placed at the top of the module (wrong-import-position)
+C: 67, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C: 75,97: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C: 79,105: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W: 75,97: Unused variable 'e' (unused-variable)
+C: 96, 0: Missing class docstring (missing-docstring)
+R: 97, 4: Too many local variables (16/15) (too-many-locals)
+W: 97, 4: Signature differs from overridden 'run' method (signature-differs)
+C:108,11: Comparison should be attribute == 'has-ec2-classic' (misplaced-comparison-constant)
+C:116,87: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W: 62, 0: Unused AnsiblePlugin imported from ansible.plugins (unused-import)
+W: 64, 0: Unused boto3_conn imported from ansible.module_utils.ec2 (unused-import)
+W: 64, 0: Unused get_aws_connection_info imported from ansible.module_utils.ec2 (unused-import)
+W: 66, 0: Unused string_types imported from ansible.module_utils.six (unused-import)
+W: 67, 0: Unused import os (unused-import)
+C: 67, 0: standard import "import os" should be placed before "from ansible.errors import AnsibleError" (wrong-import-order)
+C: 62, 0: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 5.78/10
+

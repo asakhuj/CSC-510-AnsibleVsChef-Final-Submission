@@ -1,0 +1,21 @@
+************* Module ansible.utils.color
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 18, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 26, 3: Module 'ansible.constants' has no 'ANSIBLE_NOCOLOR' member (no-member)
+E: 33, 8: Module 'curses' has no 'setupterm' member (no-member)
+E: 34,11: Module 'curses' has no 'tigetnum' member (no-member)
+E: 43, 3: Module 'ansible.constants' has no 'ANSIBLE_FORCE_COLOR' member (no-member)
+C: 57, 0: Constant name "codeCodes" doesn't conform to UPPER_CASE naming style (invalid-name)
+R: 71, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R: 91, 4: Unnecessary "else" after "return" (no-else-return)
+C:100, 4: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+C:102, 8: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+C:106, 0: Missing function docstring (missing-docstring)
+R:108, 8: Unnecessary "else" after "return" (no-else-return)
+E:109,44: Module 'ansible.constants' has no 'COLOR_ERROR' member (no-member)
+E:111,44: Module 'ansible.constants' has no 'COLOR_CHANGED' member (no-member)
+E:113,44: Module 'ansible.constants' has no 'COLOR_OK' member (no-member)
+
+-----------------------------------
+Your code has been rated at 1.20/10
+

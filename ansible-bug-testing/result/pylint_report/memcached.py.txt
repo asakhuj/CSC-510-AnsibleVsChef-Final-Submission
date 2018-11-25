@@ -1,0 +1,33 @@
+************* Module ansible.plugins.cache.memcached
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 45, 0: Import "import collections" should be placed at the top of the module (wrong-import-position)
+C: 46, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C: 47, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C: 48, 0: Import "from multiprocessing import Lock" should be placed at the top of the module (wrong-import-position)
+C: 49, 0: Import "from itertools import chain" should be placed at the top of the module (wrong-import-position)
+C: 51, 0: Import "from ansible import constants as C" should be placed at the top of the module (wrong-import-position)
+C: 52, 0: Import "from ansible.errors import AnsibleError" should be placed at the top of the module (wrong-import-position)
+C: 53, 0: Import "from ansible.module_utils.common._collections_compat import MutableSet" should be placed at the top of the module (wrong-import-position)
+C: 54, 0: Import "from ansible.plugins.cache import BaseCacheModule" should be placed at the top of the module (wrong-import-position)
+R: 62, 0: Too many instance attributes (8/7) (too-many-instance-attributes)
+C: 76, 4: Missing method docstring (missing-docstring)
+C: 92, 4: Missing method docstring (missing-docstring)
+C:101, 4: Missing method docstring (missing-docstring)
+C:107, 4: Missing method docstring (missing-docstring)
+C:112, 4: Missing method docstring (missing-docstring)
+C:117, 8: Missing function docstring (missing-docstring)
+C:158, 4: Missing method docstring (missing-docstring)
+C:159,17: Consider iterating the dictionary directly instead of calling .keys() (consider-iterating-dictionary)
+C:160,12: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+C:166, 0: Missing class docstring (missing-docstring)
+E:169,11: Module 'ansible.constants' has no 'CACHE_PLUGIN_CONNECTION' member (no-member)
+E:170,25: Module 'ansible.constants' has no 'CACHE_PLUGIN_CONNECTION' member (no-member)
+E:174,24: Module 'ansible.constants' has no 'CACHE_PLUGIN_TIMEOUT' member (no-member)
+E:175,23: Module 'ansible.constants' has no 'CACHE_PLUGIN_PREFIX' member (no-member)
+W:168, 0: Unused argument 'args' (unused-argument)
+W:168, 0: Unused argument 'kwargs' (unused-argument)
+
+-----------------------------------
+Your code has been rated at 6.72/10
+

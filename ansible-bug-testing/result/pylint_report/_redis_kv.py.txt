@@ -1,0 +1,18 @@
+************* Module ansible.plugins.lookup._redis_kv
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 41, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C: 42, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C: 51, 0: Import "from ansible.errors import AnsibleError" should be placed at the top of the module (wrong-import-position)
+C: 52, 0: Import "from ansible.plugins.lookup import LookupBase" should be placed at the top of the module (wrong-import-position)
+C: 60, 0: Missing class docstring (missing-docstring)
+W: 62, 4: Signature differs from overridden 'run' method (signature-differs)
+C: 76,12: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C: 79,16: Variable name "m" doesn't conform to snake_case naming style (invalid-name)
+W: 91,12: No exception type(s) specified (bare-except)
+E: 86,23: Module 'redis' has no 'Redis' member; maybe 'redis'? (no-member)
+W: 41, 0: Unused import os (unused-import)
+
+-----------------------------------
+Your code has been rated at 5.75/10
+

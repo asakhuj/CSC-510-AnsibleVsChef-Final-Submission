@@ -1,0 +1,58 @@
+************* Module ansible.modules.cloud.ovirt.ovirt_host
+C:299, 0: Line too long (113/100) (line-too-long)
+C:306, 0: Line too long (124/100) (line-too-long)
+C:336, 0: Wrong hanging indentation before block (add 4 spaces).
+            hoststate.ERROR,
+            ^   | (bad-continuation)
+C:337, 0: Wrong hanging indentation before block (add 4 spaces).
+            hoststate.INSTALL_FAILED,
+            ^   | (bad-continuation)
+C:338, 0: Wrong hanging indentation before block (add 4 spaces).
+            hoststate.NON_OPERATIONAL,
+            ^   | (bad-continuation)
+C:383, 0: Wrong hanging indentation before block (add 4 spaces).
+        hoststate.REBOOT,
+        ^   | (bad-continuation)
+C:384, 0: Wrong hanging indentation before block (add 4 spaces).
+        hoststate.CONNECTING,
+        ^   | (bad-continuation)
+C:385, 0: Wrong hanging indentation before block (add 4 spaces).
+        hoststate.INITIALIZING,
+        ^   | (bad-continuation)
+C:386, 0: Wrong hanging indentation before block (add 4 spaces).
+        hoststate.INSTALLING,
+        ^   | (bad-continuation)
+C:387, 0: Wrong hanging indentation before block (add 4 spaces).
+        hoststate.INSTALLING_OS,
+        ^   | (bad-continuation)
+C:463, 0: Line too long (110/100) (line-too-long)
+C:483, 0: Line too long (106/100) (line-too-long)
+C:577, 0: Line too long (103/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:249, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C:250, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:259, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:260, 0: Import "from ansible.module_utils.ovirt import BaseModule, check_sdk, create_connection, equal, get_id_by_name, ovirt_full_argument_spec, wait" should be placed at the top of the module (wrong-import-position)
+C:271, 0: Missing class docstring (missing-docstring)
+C:325, 4: Missing method docstring (missing-docstring)
+C:334, 4: Missing method docstring (missing-docstring)
+R:345,12: Unnecessary "else" after "return" (no-else-return)
+C:357, 0: Missing function docstring (missing-docstring)
+C:366, 0: Missing function docstring (missing-docstring)
+W:371,12: Access to a protected member _module of a client class (protected-access)
+W:372,19: Access to a protected member _service of a client class (protected-access)
+R:366, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:404, 0: Missing function docstring (missing-docstring)
+R:404, 0: Too many local variables (16/15) (too-many-locals)
+W:627,11: Catching too general exception Exception (broad-except)
+C:492,24: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:503,48: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+W:512,16: Access to a protected member _changed of a client class (protected-access)
+C:519,20: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:627,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:404, 0: Too many branches (15/12) (too-many-branches)
+R:404, 0: Too many statements (54/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 6.41/10
+

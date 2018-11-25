@@ -1,0 +1,28 @@
+************* Module ansible.modules.cloud.amazon.aws_ses_identity_policy
+C: 95, 0: Line too long (113/100) (line-too-long)
+C: 97, 0: Line too long (109/100) (line-too-long)
+C:117, 0: Line too long (129/100) (line-too-long)
+C:119, 0: Line too long (108/100) (line-too-long)
+C:130, 0: Line too long (110/100) (line-too-long)
+C:148, 0: Line too long (110/100) (line-too-long)
+C:154, 0: Line too long (108/100) (line-too-long)
+C:156, 0: Line too long (111/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 82, 0: Import "from ansible.module_utils.aws.core import AnsibleAWSModule" should be placed at the top of the module (wrong-import-position)
+C: 83, 0: Import "from ansible.module_utils.ec2 import compare_policies, AWSRetry" should be placed at the top of the module (wrong-import-position)
+C: 85, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C: 93, 0: Missing function docstring (missing-docstring)
+C: 96,43: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:104, 0: Function name "create_or_update_identity_policy" doesn't conform to snake_case naming style (invalid-name)
+C:104, 0: Missing function docstring (missing-docstring)
+C:118,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:131,43: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:142, 0: Missing function docstring (missing-docstring)
+C:149,43: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:155,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:167, 0: Missing function docstring (missing-docstring)
+C: 85, 0: standard import "import json" should be placed before "from ansible.module_utils.aws.core import AnsibleAWSModule" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 6.71/10
+

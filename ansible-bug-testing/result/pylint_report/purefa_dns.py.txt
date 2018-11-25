@@ -1,0 +1,14 @@
+************* Module ansible.modules.storage.purestorage.purefa_dns
+C: 93, 0: Line too long (134/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 62, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 63, 0: Import "from ansible.module_utils.pure import get_system, purefa_argument_spec" should be placed at the top of the module (wrong-import-position)
+C: 66, 0: Missing function docstring (missing-docstring)
+W: 84, 8: No exception type(s) specified (bare-except)
+W: 98, 8: No exception type(s) specified (bare-except)
+C:103, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.20/10
+

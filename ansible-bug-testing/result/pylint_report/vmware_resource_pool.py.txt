@@ -1,0 +1,41 @@
+************* Module ansible.modules.cloud.vmware.vmware_resource_pool
+C:132, 0: Line too long (118/100) (line-too-long)
+C:272, 0: Line too long (117/100) (line-too-long)
+C:273, 0: Line too long (102/100) (line-too-long)
+C:288, 0: Wrong hanging indentation (remove 12 spaces).
+                                              'high', 'custom', 'normal', 'low']),
+                                  |           ^ (bad-continuation)
+C:294, 0: Wrong hanging indentation (remove 12 spaces).
+                                              'high', 'custom', 'normal', 'low']),
+                                  |           ^ (bad-continuation)
+C:299, 0: Line too long (104/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:132, 0: Import "from ansible.module_utils.vmware import get_all_objs, connect_to_api, vmware_argument_spec, find_datacenter_by_name, find_cluster_by_name, wait_for_task, find_host_by_cluster_datacenter" should be placed at the top of the module (wrong-import-position)
+C:134, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:137, 0: Missing class docstring (missing-docstring)
+R:137, 0: Too many instance attributes (21/7) (too-many-instance-attributes)
+C:164, 4: Missing method docstring (missing-docstring)
+C:175,16: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+W:164,35: Unused argument 'host' (unused-argument)
+C:181, 4: Missing method docstring (missing-docstring)
+C:186,12: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+W:187,32: Access to a protected member _GetMoId of a client class (protected-access)
+R:193, 8: Unnecessary "else" after "return" (no-else-return)
+C:193,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:199, 4: Missing method docstring (missing-docstring)
+W:218,15: Catching too general exception Exception (broad-except)
+C:218,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:221, 4: Missing method docstring (missing-docstring)
+C:224, 4: Missing method docstring (missing-docstring)
+W:232, 8: No exception type(s) specified (bare-except)
+W:230,12: Unused variable 'success' (unused-variable)
+C:237, 4: Missing method docstring (missing-docstring)
+C:265, 8: Variable name "rootResourcePool" doesn't conform to snake_case naming style (invalid-name)
+C:270, 4: Missing method docstring (missing-docstring)
+R:276, 8: Unnecessary "else" after "return" (no-else-return)
+C:282, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.40/10
+

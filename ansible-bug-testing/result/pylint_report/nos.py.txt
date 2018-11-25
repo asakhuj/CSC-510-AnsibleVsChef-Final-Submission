@@ -1,0 +1,30 @@
+************* Module ansible.module_utils.network.nos.nos
+C:  1, 0: Missing module docstring (missing-docstring)
+W: 46,43: Access to a protected member _socket_path of a client class (protected-access)
+W: 68,34: Access to a protected member _socket_path of a client class (protected-access)
+
+-----------------------------------
+Your code has been rated at 9.52/10
+
+************* Module ansible.plugins.cliconf.nos
+C: 99, 0: Line too long (111/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 30, 0: Missing class docstring (missing-docstring)
+C: 32, 4: Missing method docstring (missing-docstring)
+W: 59, 4: Parameters differ from overridden 'get_config' method (arguments-differ)
+W: 71, 4: Parameters differ from overridden 'edit_config' method (arguments-differ)
+R: 98, 4: Too many arguments (6/5) (too-many-arguments)
+W: 98, 4: Parameters differ from overridden 'get' method (arguments-differ)
+
+-----------------------------------
+Your code has been rated at 8.64/10
+
+************* Module ansible.plugins.terminal.nos
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 28, 0: Missing class docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.69/10
+

@@ -1,0 +1,33 @@
+************* Module ansible.modules.cloud.amazon.execute_lambda
+C:194, 0: Line too long (116/100) (line-too-long)
+C:236, 0: Line too long (103/100) (line-too-long)
+C:262, 0: Line too long (113/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:133, 0: Import "import base64" should be placed at the top of the module (wrong-import-position)
+C:134, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C:135, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:143, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:144, 0: Import "from ansible.module_utils.ec2 import boto3_conn, ec2_argument_spec, get_aws_connection_info" should be placed at the top of the module (wrong-import-position)
+C:145, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:148, 0: Missing function docstring (missing-docstring)
+R:148, 0: Too many local variables (23/15) (too-many-locals)
+C:193,85: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:241,11: Catching too general exception Exception (broad-except)
+C:230,46: Variable name "ce" doesn't conform to snake_case naming style (invalid-name)
+C:238,55: Variable name "ve" doesn't conform to snake_case naming style (invalid-name)
+C:241,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:255,15: Catching too general exception Exception (broad-except)
+C:255,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:261,15: Catching too general exception Exception (broad-except)
+C:261,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+E:265,17: Instance of 'str' has no 'get' member (no-member)
+E:265,54: Instance of 'str' has no 'get' member (no-member)
+E:277,26: Instance of 'str' has no 'get' member (no-member)
+E:278,24: Instance of 'str' has no 'get' member (no-member)
+W:238,55: Unused variable 've' (unused-variable)
+R:148, 0: Too many branches (24/12) (too-many-branches)
+R:148, 0: Too many statements (73/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 4.88/10
+

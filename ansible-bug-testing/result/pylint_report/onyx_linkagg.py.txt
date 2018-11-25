@@ -1,0 +1,19 @@
+************* Module ansible.modules.network.onyx.onyx_linkagg
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 93, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C: 94, 0: Import "from copy import deepcopy" should be placed at the top of the module (wrong-import-position)
+C: 96, 0: Import "from ansible.module_utils.network.common.utils import remove_default_spec" should be placed at the top of the module (wrong-import-position)
+C: 97, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 98, 0: Import "from ansible.module_utils.six import iteritems" should be placed at the top of the module (wrong-import-position)
+C:100, 0: Import "from ansible.module_utils.network.onyx.onyx import BaseOnyxModule" should be placed at the top of the module (wrong-import-position)
+C:101, 0: Import "from ansible.module_utils.network.onyx.onyx import get_interfaces_config" should be placed at the top of the module (wrong-import-position)
+C:104, 0: Missing class docstring (missing-docstring)
+R:161, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:208, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:266, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:276, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+
+-----------------------------------
+Your code has been rated at 9.26/10
+

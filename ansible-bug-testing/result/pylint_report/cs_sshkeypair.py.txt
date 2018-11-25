@@ -1,0 +1,16 @@
+************* Module ansible.modules.cloud.cloudstack.cs_sshkeypair
+C:  1, 0: Missing module docstring (missing-docstring)
+C:113, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:114, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:115, 0: Import "from ansible.module_utils.cloudstack import AnsibleCloudStack, cs_required_together, cs_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:122, 0: Missing class docstring (missing-docstring)
+C:132, 4: Missing method docstring (missing-docstring)
+C:177, 4: Missing method docstring (missing-docstring)
+C:188, 4: Missing method docstring (missing-docstring)
+C:205, 4: Missing method docstring (missing-docstring)
+R:224, 4: Method could be a function (no-self-use)
+C:231, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 9.01/10
+

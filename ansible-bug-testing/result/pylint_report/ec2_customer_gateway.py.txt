@@ -1,0 +1,26 @@
+************* Module ansible.modules.cloud.amazon.ec2_customer_gateway
+C:146, 0: Line too long (160/100) (line-too-long)
+C:147, 0: Line too long (132/100) (line-too-long)
+C:151, 0: Line too long (108/100) (line-too-long)
+C:223, 0: Wrong continued indentation (remove 1 space).
+                           )
+                          |^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:133, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:134, 0: Import "from ansible.module_utils.ec2 import boto3_conn, AWSRetry, camel_dict_to_snake_dict, ec2_argument_spec, get_aws_connection_info" should be placed at the top of the module (wrong-import-position)
+C:138, 0: Missing class docstring (missing-docstring)
+C:138, 0: Old-style class defined. (old-style-class)
+C:148,30: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:152, 4: Missing method docstring (missing-docstring)
+C:159, 4: Missing method docstring (missing-docstring)
+C:170, 4: Missing method docstring (missing-docstring)
+C:185, 4: Missing method docstring (missing-docstring)
+C:206, 0: Missing function docstring (missing-docstring)
+R:238, 4: Too many nested blocks (6/5) (too-many-nested-blocks)
+W:244,20: Unused variable 'key' (unused-variable)
+R:206, 0: Too many branches (13/12) (too-many-branches)
+W:128, 4: Unused import boto3 (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.59/10
+

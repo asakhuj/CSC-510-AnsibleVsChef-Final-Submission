@@ -1,0 +1,25 @@
+************* Module ansible.modules.cloud.cloudstack.cs_network
+C:425, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:328, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:329, 0: Import "from ansible.module_utils.cloudstack import AnsibleCloudStack, cs_argument_spec, cs_required_together" should be placed at the top of the module (wrong-import-position)
+C:336, 0: Missing class docstring (missing-docstring)
+W:363, 4: Parameters differ from overridden 'get_network_acl' method (arguments-differ)
+R:363, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:383, 4: Missing method docstring (missing-docstring)
+C:395,16: Variable name "no" doesn't conform to snake_case naming style (invalid-name)
+R:383, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+W:409, 4: Parameters differ from overridden 'get_network' method (arguments-differ)
+C:422,20: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
+C:429, 4: Missing method docstring (missing-docstring)
+C:440, 4: Missing method docstring (missing-docstring)
+C:467, 4: Missing method docstring (missing-docstring)
+C:498, 4: Missing method docstring (missing-docstring)
+C:521, 4: Missing method docstring (missing-docstring)
+R:521, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+W:538, 4: Parameters differ from overridden 'get_result' method (arguments-differ)
+C:545, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.45/10
+

@@ -1,0 +1,8 @@
+************* Module mini_lambda
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 25,29: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+W:  6,19: Unused argument 'context' (unused-argument)
+
+-----------------------------------
+Your code has been rated at 8.24/10
+

@@ -1,0 +1,23 @@
+************* Module ansible.modules.network.panos._panos_security_policy
+C:417, 0: Line too long (114/100) (line-too-long)
+C:463, 0: Line too long (114/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:250, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:251, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:267, 0: Missing function docstring (missing-docstring)
+C:285,16: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+R:281, 4: Too many nested blocks (6/5) (too-many-nested-blocks)
+R:281, 4: Too many nested blocks (6/5) (too-many-nested-blocks)
+C:303, 0: Missing function docstring (missing-docstring)
+C:346, 0: Missing function docstring (missing-docstring)
+R:355, 4: Unnecessary "else" after "return" (no-else-return)
+C:380, 0: Missing function docstring (missing-docstring)
+R:380, 0: Too many local variables (40/15) (too-many-locals)
+W:416, 7: Access to a protected member _name of a client class (protected-access)
+W:503, 8: Unused variable 'result' (unused-variable)
+R:380, 0: Too many statements (56/50) (too-many-statements)
+W:254, 4: Unused import pan.xapi (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.73/10
+

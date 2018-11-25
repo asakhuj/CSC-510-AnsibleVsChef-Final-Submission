@@ -1,0 +1,24 @@
+************* Module ansible.modules.database.proxysql.proxysql_global_variables
+C:122, 0: Unnecessary parens after 'return' keyword (superfluous-parens)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 75, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 76, 0: Import "from ansible.module_utils.mysql import mysql_connect, mysql_driver, mysql_driver_fail_msg" should be placed at the top of the module (wrong-import-position)
+C: 77, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 84, 0: Missing function docstring (missing-docstring)
+C: 95, 0: Missing function docstring (missing-docstring)
+C:103, 0: Missing function docstring (missing-docstring)
+C:111, 0: Missing function docstring (missing-docstring)
+C:125, 0: Missing function docstring (missing-docstring)
+R:139, 4: Unnecessary "else" after "return" (no-else-return)
+C:145, 0: Missing function docstring (missing-docstring)
+C:159, 0: Missing function docstring (missing-docstring)
+C:171, 0: Missing function docstring (missing-docstring)
+C:205,33: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:224,37: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:257,37: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:171, 0: Too many branches (13/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 7.98/10
+

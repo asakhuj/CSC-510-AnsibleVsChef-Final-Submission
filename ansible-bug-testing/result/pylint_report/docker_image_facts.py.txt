@@ -1,0 +1,14 @@
+************* Module ansible.modules.cloud.docker.docker_image_facts
+C:167, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:167, 0: Import "from ansible.module_utils.docker_common import AnsibleDockerClient, DockerBaseClass, is_image_name_id" should be placed at the top of the module (wrong-import-position)
+C:170, 0: Missing class docstring (missing-docstring)
+C:186, 4: Missing method docstring (missing-docstring)
+C:216, 4: Missing method docstring (missing-docstring)
+W:222,19: Catching too general exception Exception (broad-except)
+C:228, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.45/10
+

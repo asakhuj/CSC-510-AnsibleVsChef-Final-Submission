@@ -1,0 +1,32 @@
+************* Module ansible.modules.packaging.os.svr4pkg
+C:218, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:105, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:106, 0: Import "import tempfile" should be placed at the top of the module (wrong-import-position)
+C:108, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:111, 0: Missing function docstring (missing-docstring)
+C:117, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+R:118, 4: The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)
+R:118, 4: Unnecessary "else" after "return" (no-else-return)
+W:117,13: Unused variable 'err' (unused-variable)
+W:117, 8: Unused variable 'out' (unused-variable)
+C:124, 0: Missing function docstring (missing-docstring)
+C:149, 0: Missing function docstring (missing-docstring)
+C:155, 0: Missing function docstring (missing-docstring)
+R:155, 0: Too many arguments (7/5) (too-many-arguments)
+C:168, 5: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:173, 0: Missing function docstring (missing-docstring)
+C:179, 5: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W:173,36: Unused argument 'src' (unused-argument)
+C:184, 0: Missing function docstring (missing-docstring)
+C:204, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:218,13: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:228,13: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+R:241, 4: The if statement can be replaced with 'var = bool(test)' (simplifiable-if-statement)
+R:250, 4: The if statement can be replaced with 'var = bool(test)' (simplifiable-if-statement)
+R:184, 0: Too many branches (14/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 7.16/10
+

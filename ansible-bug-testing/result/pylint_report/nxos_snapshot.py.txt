@@ -1,0 +1,27 @@
+************* Module ansible.modules.network.nxos.nxos_snapshot
+C:371, 0: Line too long (103/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:146, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:147, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:149, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:150, 0: Import "from ansible.module_utils.network.nxos.nxos import load_config, run_commands" should be placed at the top of the module (wrong-import-position)
+C:151, 0: Import "from ansible.module_utils.network.nxos.nxos import nxos_argument_spec, check_args" should be placed at the top of the module (wrong-import-position)
+C:154, 0: Missing function docstring (missing-docstring)
+C:163, 0: Missing function docstring (missing-docstring)
+C:187, 0: Missing function docstring (missing-docstring)
+C:201, 0: Missing function docstring (missing-docstring)
+W:201,23: Unused argument 'existing_snapshots' (unused-argument)
+C:253, 0: Missing function docstring (missing-docstring)
+W:253,27: Unused argument 'existing_snapshots' (unused-argument)
+C:264, 0: Missing function docstring (missing-docstring)
+C:279, 0: Missing function docstring (missing-docstring)
+W:279,22: Unused argument 'module' (unused-argument)
+C:286, 0: Missing function docstring (missing-docstring)
+R:286, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:292, 0: Missing function docstring (missing-docstring)
+W:301, 4: No exception type(s) specified (bare-except)
+C:307, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.50/10
+

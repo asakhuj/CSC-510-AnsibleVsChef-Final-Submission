@@ -1,0 +1,27 @@
+************* Module ansible.modules.storage.netapp.na_elementsw_snapshot
+C:211, 0: Line too long (102/100) (line-too-long)
+C:222, 0: Line too long (120/100) (line-too-long)
+C:244, 0: Line too long (103/100) (line-too-long)
+C:318, 0: Line too long (103/100) (line-too-long)
+C:323, 0: Line too long (113/100) (line-too-long)
+C:328, 0: Line too long (105/100) (line-too-long)
+C: 10, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:141, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:143, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:144, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:145, 0: Import "import ansible.module_utils.netapp as netapp_utils" should be placed at the top of the module (wrong-import-position)
+C:146, 0: Import "from ansible.module_utils.netapp_elementsw_module import NaElementSWModule" should be placed at the top of the module (wrong-import-position)
+R:152, 0: Too many instance attributes (15/7) (too-many-instance-attributes)
+W:221,15: Catching too general exception Exception (broad-except)
+W:263,15: Catching too general exception Exception (broad-except)
+W:278,15: Catching too general exception Exception (broad-except)
+W:290,15: Catching too general exception Exception (broad-except)
+W:301, 8: Unused variable 'snapshot_delete' (unused-variable)
+W:302, 8: Unused variable 'snapshot_create' (unused-variable)
+W:303, 8: Unused variable 'snapshot_modify' (unused-variable)
+R:296, 4: Too many branches (22/12) (too-many-branches)
+R:296, 4: Too many statements (55/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 8.32/10
+

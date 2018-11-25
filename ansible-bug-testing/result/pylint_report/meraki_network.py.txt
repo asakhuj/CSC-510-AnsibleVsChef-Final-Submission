@@ -1,0 +1,46 @@
+************* Module ansible.modules.network.meraki.meraki_network
+W:249, 0: FIXME: Idempotency check is ugly here, improve (fixme)
+C:175, 0: Line too long (109/100) (line-too-long)
+C:189, 0: Wrong continued indentation (remove 1 space).
+                           )
+                          |^ (bad-continuation)
+C:247, 0: Wrong continued indentation (remove 1 space).
+                                                   )
+                                                  |^ (bad-continuation)
+C:253, 0: Wrong continued indentation (remove 1 space).
+                                             )
+                                            |^ (bad-continuation)
+C:257, 0: Wrong continued indentation (remove 1 space).
+                                   )
+                                  |^ (bad-continuation)
+C:262, 0: Line too long (101/100) (line-too-long)
+C:265, 0: Line too long (120/100) (line-too-long)
+C:266, 0: Wrong continued indentation (remove 1 space).
+                                                 )
+                                                |^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:140, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:141, 0: Import "from ansible.module_utils.basic import AnsibleModule, json, env_fallback" should be placed at the top of the module (wrong-import-position)
+C:142, 0: Import "from ansible.module_utils.urls import fetch_url" should be placed at the top of the module (wrong-import-position)
+C:143, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:144, 0: Import "from ansible.module_utils.network.meraki.meraki import MerakiModule, meraki_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:147, 0: Missing function docstring (missing-docstring)
+C:148, 8: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
+W:147,17: Unused argument 'meraki' (unused-argument)
+C:160,12: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+C:167, 0: Missing function docstring (missing-docstring)
+C:254,16: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:267,20: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:278,12: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+R:167, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:167, 0: Too many branches (26/12) (too-many-branches)
+R:167, 0: Too many statements (68/50) (too-many-statements)
+W:140, 0: Unused import os (unused-import)
+W:141, 0: Unused env_fallback imported from ansible.module_utils.basic (unused-import)
+W:142, 0: Unused fetch_url imported from ansible.module_utils.urls (unused-import)
+W:143, 0: Unused to_native imported from ansible.module_utils._text (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.77/10
+

@@ -1,0 +1,24 @@
+************* Module ansible.plugins.lookup.first_found
+C:153, 0: Line too long (144/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 84, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C: 86, 0: Import "from jinja2.exceptions import UndefinedError" should be placed at the top of the module (wrong-import-position)
+C: 88, 0: Import "from ansible.errors import AnsibleFileNotFound, AnsibleLookupError, AnsibleUndefinedVariable" should be placed at the top of the module (wrong-import-position)
+C: 89, 0: Import "from ansible.module_utils.six import string_types" should be placed at the top of the module (wrong-import-position)
+C: 90, 0: Import "from ansible.module_utils.parsing.convert_bool import boolean" should be placed at the top of the module (wrong-import-position)
+C: 91, 0: Import "from ansible.plugins.lookup import LookupBase" should be placed at the top of the module (wrong-import-position)
+C: 94, 0: Missing class docstring (missing-docstring)
+R: 96, 4: Too many local variables (16/15) (too-many-locals)
+W: 96, 4: Signature differs from overridden 'run' method (signature-differs)
+C:131,32: Variable name "fn" doesn't conform to snake_case naming style (invalid-name)
+C:132,32: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+R:106, 8: Too many nested blocks (6/5) (too-many-nested-blocks)
+C:139,12: Variable name "fn" doesn't conform to snake_case naming style (invalid-name)
+C:141,16: Variable name "fn" doesn't conform to snake_case naming style (invalid-name)
+R: 96, 4: Too many branches (18/12) (too-many-branches)
+W: 88, 0: Unused AnsibleFileNotFound imported from ansible.errors (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.72/10
+

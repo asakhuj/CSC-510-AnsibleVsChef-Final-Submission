@@ -1,0 +1,29 @@
+************* Module ansible.modules.cloud.google.gcp_spanner_database
+C:128, 0: Line too long (114/100) (line-too-long)
+C:218, 0: Line too long (117/100) (line-too-long)
+C:226, 0: Line too long (110/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:128, 0: Import "from ansible.module_utils.gcp_utils import navigate_hash, GcpSession, GcpModule, GcpRequest, replace_resource_dict" should be placed at the top of the module (wrong-import-position)
+C:129, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C:178, 0: Missing function docstring (missing-docstring)
+C:183, 0: Missing function docstring (missing-docstring)
+C:188, 0: Missing function docstring (missing-docstring)
+C:193, 0: Missing function docstring (missing-docstring)
+C:200,11: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:207, 0: Missing function docstring (missing-docstring)
+C:212, 0: Missing function docstring (missing-docstring)
+C:221, 0: Missing function docstring (missing-docstring)
+C:229, 0: Missing function docstring (missing-docstring)
+C:252, 0: Missing function docstring (missing-docstring)
+C:259,11: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:264,11: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:273, 0: Missing function docstring (missing-docstring)
+C:280, 0: Missing function docstring (missing-docstring)
+W:280,30: Unused argument 'module' (unused-argument)
+C:294, 0: Missing function docstring (missing-docstring)
+C:129, 0: standard import "import json" should be placed before "from ansible.module_utils.gcp_utils import navigate_hash, GcpSession, GcpModule, GcpRequest, replace_resource_dict" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 7.60/10
+

@@ -1,0 +1,17 @@
+************* Module units.modules.network.cnos.test_cnos_vlan
+C: 19, 0: Line too long (103/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  2, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E:  7, 0: Unable to import 'ansible.modules.network.cnos' (import-error)
+C: 12, 0: Missing class docstring (missing-docstring)
+W: 26, 4: Parameters differ from overridden 'load_fixtures' method (arguments-differ)
+W: 26,43: Unused argument 'transport' (unused-argument)
+C: 29, 4: Missing method docstring (missing-docstring)
+C: 38, 4: Missing method docstring (missing-docstring)
+W:  4, 0: Unused import json (unused-import)
+W:  5, 0: Unused import os (unused-import)
+C:  8, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 4.48/10
+

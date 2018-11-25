@@ -1,0 +1,15 @@
+************* Module ansible.modules.network.onyx.onyx_vlan
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 64, 0: Import "from copy import deepcopy" should be placed at the top of the module (wrong-import-position)
+C: 66, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 67, 0: Import "from ansible.module_utils.six import iteritems" should be placed at the top of the module (wrong-import-position)
+C: 68, 0: Import "from ansible.module_utils.network.common.utils import remove_default_spec" should be placed at the top of the module (wrong-import-position)
+C: 70, 0: Import "from ansible.module_utils.network.onyx.onyx import BaseOnyxModule" should be placed at the top of the module (wrong-import-position)
+C: 71, 0: Import "from ansible.module_utils.network.onyx.onyx import show_cmd" should be placed at the top of the module (wrong-import-position)
+C: 74, 0: Missing class docstring (missing-docstring)
+C:113, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.98/10
+

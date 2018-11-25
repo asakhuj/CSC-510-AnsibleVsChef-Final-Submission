@@ -1,0 +1,36 @@
+************* Module ansible.module_utils.facts.hardware.netbsd
+W: 22, 0: Redefining built-in 'reduce' (redefined-builtin)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 17, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 22, 0: Unable to import 'ansible.module_utils.six.moves' (import-error)
+C: 67, 4: Missing method docstring (missing-docstring)
+C: 92,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+R: 67, 4: Method could be a function (no-self-use)
+C:101, 4: Missing method docstring (missing-docstring)
+R:101, 4: Method could be a function (no-self-use)
+C:115, 4: Missing method docstring (missing-docstring)
+R:115, 4: Method could be a function (no-self-use)
+C:137, 4: Missing method docstring (missing-docstring)
+W: 48, 8: Attribute 'sysctl' defined outside __init__ (attribute-defined-outside-init)
+C:160, 0: Missing class docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.04/10
+
+************* Module ansible.module_utils.facts.network.netbsd
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 17, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 46, 0: Missing class docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.00/10
+
+************* Module ansible.module_utils.facts.virtual.netbsd
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 17, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 25, 0: Missing class docstring (missing-docstring)
+C: 48, 0: Missing class docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.26/10
+

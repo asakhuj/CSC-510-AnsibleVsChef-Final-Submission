@@ -1,0 +1,37 @@
+************* Module ansible.modules.cloud.amazon.redshift_subnet_group
+C: 92, 0: Line too long (105/100) (line-too-long)
+C:120, 0: Line too long (102/100) (line-too-long)
+C:124, 0: Line too long (105/100) (line-too-long)
+C:152, 0: Line too long (106/100) (line-too-long)
+C:154, 0: Line too long (107/100) (line-too-long)
+C:155, 0: Wrong continued indentation (add 8 spaces).
+                    ['ClusterSubnetGroup']['ClusterSubnetGroupName'],
+                    ^       | (bad-continuation)
+C:156, 0: Line too long (109/100) (line-too-long)
+C:157, 0: Wrong continued indentation (add 10 spaces).
+                    ['ClusterSubnetGroup']['VpcId'],
+                    ^         | (bad-continuation)
+C:160, 0: Line too long (122/100) (line-too-long)
+C:162, 0: Line too long (111/100) (line-too-long)
+C:163, 0: Wrong continued indentation (add 8 spaces).
+                    ['ClusterSubnetGroup']['ClusterSubnetGroupName'],
+                    ^       | (bad-continuation)
+C:164, 0: Line too long (113/100) (line-too-long)
+C:165, 0: Wrong continued indentation (add 10 spaces).
+                    ['ClusterSubnetGroup']['VpcId'],
+                    ^         | (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 91, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 92, 0: Import "from ansible.module_utils.ec2 import HAS_BOTO, connect_to_aws, ec2_argument_spec, get_aws_connection_info" should be placed at the top of the module (wrong-import-position)
+C: 95, 0: Missing function docstring (missing-docstring)
+R: 95, 0: Too many local variables (19/15) (too-many-locals)
+C:129,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:140,51: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:170,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:122,12: Unused variable 'ec2_url' (unused-variable)
+R: 95, 0: Too many branches (17/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 6.19/10
+

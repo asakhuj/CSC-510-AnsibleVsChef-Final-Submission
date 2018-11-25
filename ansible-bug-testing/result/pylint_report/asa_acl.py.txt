@@ -1,0 +1,18 @@
+************* Module ansible.modules.network.asa.asa_acl
+C:152, 0: Line too long (113/100) (line-too-long)
+C:159, 0: Line too long (122/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:127, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:128, 0: Import "from ansible.module_utils.network.asa.asa import asa_argument_spec, check_args" should be placed at the top of the module (wrong-import-position)
+C:129, 0: Import "from ansible.module_utils.network.asa.asa import get_config, load_config, run_commands" should be placed at the top of the module (wrong-import-position)
+C:131, 0: Import "from ansible.module_utils.network.common.config import NetworkConfig, dumps" should be placed at the top of the module (wrong-import-position)
+C:134, 0: Missing function docstring (missing-docstring)
+C:147, 0: Missing function docstring (missing-docstring)
+C:165, 0: Missing function docstring (missing-docstring)
+W:128, 0: Unused check_args imported from ansible.module_utils.network.asa.asa (unused-import)
+W:129, 0: Unused run_commands imported from ansible.module_utils.network.asa.asa (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.87/10
+

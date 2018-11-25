@@ -1,0 +1,32 @@
+************* Module ansible.modules.network.aos._aos_blueprint_virtnet
+C: 93, 0: Line too long (140/100) (line-too-long)
+C:127, 0: Line too long (111/100) (line-too-long)
+C:157, 0: Line too long (102/100) (line-too-long)
+C:162, 0: Wrong continued indentation (remove 4 spaces).
+                             (margs['blueprint'], ','.join(aos.Blueprints.names)))
+                         |   ^ (bad-continuation)
+C:185, 0: Line too long (107/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 89, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C: 91, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 92, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 93, 0: Import "from ansible.module_utils.network.aos.aos import get_aos_session, find_collection_item, do_load_resource, check_aos_version, content_to_dict" should be placed at the top of the module (wrong-import-position)
+C: 96, 0: Missing function docstring (missing-docstring)
+W:110,19: Catching too general exception Exception (broad-except)
+C:110,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W: 96,27: Unused argument 'aos' (unused-argument)
+C:120, 0: Missing function docstring (missing-docstring)
+W:126,19: Catching too general exception Exception (broad-except)
+C:126,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:120,26: Unused argument 'aos' (unused-argument)
+C:137, 0: Missing function docstring (missing-docstring)
+W:146, 4: No exception type(s) specified (bare-except)
+W:156, 4: No exception type(s) specified (bare-except)
+W:184, 4: No exception type(s) specified (bare-except)
+C:200, 0: Missing function docstring (missing-docstring)
+W: 89, 0: Unused import json (unused-import)
+W: 93, 0: Unused do_load_resource imported from ansible.module_utils.network.aos.aos (unused-import)
+
+-----------------------------------
+Your code has been rated at 5.69/10
+

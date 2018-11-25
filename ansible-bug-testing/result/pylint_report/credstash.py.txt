@@ -1,0 +1,22 @@
+************* Module ansible.plugins.lookup.credstash
+C:107, 0: Line too long (105/100) (line-too-long)
+C:108, 0: Line too long (117/100) (line-too-long)
+C:109, 0: Line too long (105/100) (line-too-long)
+C:111, 0: Line too long (118/100) (line-too-long)
+C:112, 0: Line too long (102/100) (line-too-long)
+C:116, 0: Line too long (107/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 80, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C: 82, 0: Import "from ansible.errors import AnsibleError" should be placed at the top of the module (wrong-import-position)
+C: 83, 0: Import "from ansible.plugins.lookup import LookupBase" should be placed at the top of the module (wrong-import-position)
+C: 94, 0: Missing class docstring (missing-docstring)
+R: 95, 4: Too many local variables (16/15) (too-many-locals)
+W: 95, 4: Signature differs from overridden 'run' method (signature-differs)
+E:112,22: Module 'credstash' has no 'getSecret' member (no-member)
+E:113,19: Module 'credstash' has no 'ItemNotFound' member (no-member)
+C:115,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 3.06/10
+

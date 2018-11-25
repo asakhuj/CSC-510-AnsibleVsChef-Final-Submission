@@ -1,0 +1,51 @@
+************* Module ansible.modules.cloud.azure.azure_rm_keyvault
+C:305, 0: Line too long (105/100) (line-too-long)
+C:311, 0: Line too long (111/100) (line-too-long)
+C:313, 0: Line too long (101/100) (line-too-long)
+C:315, 0: Line too long (104/100) (line-too-long)
+C:317, 0: Line too long (109/100) (line-too-long)
+C:319, 0: Line too long (113/100) (line-too-long)
+C:323, 0: Line too long (121/100) (line-too-long)
+C:329, 0: Line too long (112/100) (line-too-long)
+C:350, 0: Line too long (113/100) (line-too-long)
+C:352, 0: Line too long (118/100) (line-too-long)
+C:354, 0: Line too long (157/100) (line-too-long)
+C:357, 0: Wrong continued indentation (remove 2 spaces).
+                        (self.parameters['enabled_for_deployment'] != old_response['enabled_for_deployment'])):
+                      | ^ (bad-continuation)
+C:357, 0: Line too long (111/100) (line-too-long)
+C:360, 0: Wrong continued indentation (remove 2 spaces).
+                        (self.parameters['enabled_for_template_deployment'] != old_response['enabled_for_template_deployment'])):
+                      | ^ (bad-continuation)
+C:360, 0: Line too long (129/100) (line-too-long)
+C:362, 0: Line too long (146/100) (line-too-long)
+C:364, 0: Line too long (124/100) (line-too-long)
+C:367, 0: Line too long (131/100) (line-too-long)
+C:370, 0: Line too long (145/100) (line-too-long)
+C:389, 0: Line too long (102/100) (line-too-long)
+C:426, 0: Line too long (106/100) (line-too-long)
+C:449, 0: Line too long (104/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:188, 0: Import "import collections" should be placed at the top of the module (wrong-import-position)
+C:189, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C:190, 0: Import "from ansible.module_utils.azure_rm_common import AzureRMModuleBase" should be placed at the top of the module (wrong-import-position)
+C:202, 0: Missing class docstring (missing-docstring)
+W:202, 0: Class has no __init__ method (no-init)
+R:202, 0: Too few public methods (0/2) (too-few-public-methods)
+R:206, 0: Too many instance attributes (10/7) (too-many-instance-attributes)
+C:372,28: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
+C:373,28: Variable name "o" doesn't conform to snake_case naming style (invalid-name)
+R:338, 8: Too many nested blocks (6/5) (too-many-nested-blocks)
+R:281, 4: Too many branches (53/12) (too-many-branches)
+R:281, 4: Too many statements (124/50) (too-many-statements)
+C:470,29: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:468,12: Unused variable 'response' (unused-variable)
+C:490,29: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:490,29: Unused variable 'e' (unused-variable)
+W:188, 0: Unused import collections (unused-import)
+W:196, 4: Unused Model imported from msrest.serialization (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.81/10
+

@@ -1,0 +1,26 @@
+************* Module ansible.modules.remote_management.imc.imc_rest
+C:337, 0: Line too long (101/100) (line-too-long)
+C:340, 0: Line too long (115/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:261, 0: Import "import atexit" should be placed at the top of the module (wrong-import-position)
+C:262, 0: Import "import datetime" should be placed at the top of the module (wrong-import-position)
+C:263, 0: Import "import itertools" should be placed at the top of the module (wrong-import-position)
+C:264, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:278, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:279, 0: Import "from ansible.module_utils.urls import fetch_url" should be placed at the top of the module (wrong-import-position)
+I:284,16: Module 'lxml.etree' has not 'fromstring' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+W:302,10: Unused variable 'auth' (unused-variable)
+W:302, 4: Unused variable 'resp' (unused-variable)
+C:319, 0: Missing function docstring (missing-docstring)
+R:319, 0: Too many local variables (24/15) (too-many-locals)
+W:379, 4: No exception type(s) specified (bare-except)
+I:393,14: Module 'lxml.etree' has not 'fromstring' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I:397,25: Module 'lxml.etree' has not 'Comment' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I:401,15: Module 'lxml.etree' has not 'tostring' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I:417,20: Module 'lxml.etree' has not 'fromstring' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+R:319, 0: Too many statements (56/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 8.43/10
+

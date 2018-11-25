@@ -1,0 +1,21 @@
+************* Module units.modules.network.aruba.aruba_module
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 28, 0: Constant name "fixture_path" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 29, 0: Constant name "fixture_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 32, 0: Missing function docstring (missing-docstring)
+C: 38,23: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+W: 43, 4: No exception type(s) specified (bare-except)
+C: 50, 0: Missing class docstring (missing-docstring)
+C: 52, 4: Missing method docstring (missing-docstring)
+R: 52, 4: Too many arguments (6/5) (too-many-arguments)
+W: 52,84: Unused argument 'defaults' (unused-argument)
+C: 71, 4: Missing method docstring (missing-docstring)
+E: 73,12: Instance of 'TestArubaModule' has no 'module' member (no-member)
+C: 79, 4: Missing method docstring (missing-docstring)
+E: 81,12: Instance of 'TestArubaModule' has no 'module' member (no-member)
+C: 87, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 4.78/10
+

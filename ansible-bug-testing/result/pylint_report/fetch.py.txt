@@ -1,0 +1,39 @@
+************* Module ansible.modules.files.fetch
+C:  7, 0: Line too long (102/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 10, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 4.00/10
+
+************* Module ansible.plugins.action.fetch
+C: 58, 0: Line too long (101/100) (line-too-long)
+C: 79, 0: Line too long (108/100) (line-too-long)
+C: 86, 0: Line too long (119/100) (line-too-long)
+C: 88, 0: Line too long (124/100) (line-too-long)
+C:116, 0: Line too long (109/100) (line-too-long)
+C:117, 0: Line too long (134/100) (line-too-long)
+C:151, 0: Line too long (101/100) (line-too-long)
+C:153, 0: Line too long (139/100) (line-too-long)
+C:192, 0: Line too long (107/100) (line-too-long)
+C:204, 0: Line too long (117/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 18, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 38, 0: Missing class docstring (missing-docstring)
+R: 40, 4: Too many local variables (22/15) (too-many-locals)
+W: 74,21: Access to a protected member _shell of a client class (protected-access)
+W:108,34: Access to a protected member _shell of a client class (protected-access)
+W:109,25: Access to a protected member _unquote of a client class (protected-access)
+W:109,25: Access to a protected member _shell of a client class (protected-access)
+C:178,24: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C:181,49: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:207,34: Access to a protected member _shell of a client class (protected-access)
+R: 40, 4: Too many branches (44/12) (too-many-branches)
+R: 40, 4: Too many statements (117/50) (too-many-statements)
+R: 38, 0: Too few public methods (1/2) (too-few-public-methods)
+W: 32, 4: Unused display imported from __main__ (unused-import)
+C: 34, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 8.00/10
+

@@ -1,0 +1,18 @@
+************* Module ansible.modules.network.nxos.nxos_aaa_server_host
+C:  1, 0: Missing module docstring (missing-docstring)
+C:144, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:146, 0: Import "from ansible.module_utils.network.nxos.nxos import load_config, run_commands" should be placed at the top of the module (wrong-import-position)
+C:147, 0: Import "from ansible.module_utils.network.nxos.nxos import get_capabilities, nxos_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:148, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:151, 0: Missing function docstring (missing-docstring)
+C:165, 0: Missing function docstring (missing-docstring)
+C:175, 0: Missing function docstring (missing-docstring)
+C:215, 0: Missing function docstring (missing-docstring)
+C:253, 0: Missing function docstring (missing-docstring)
+R:253, 0: Too many local variables (24/15) (too-many-locals)
+R:253, 0: Too many branches (16/12) (too-many-branches)
+R:253, 0: Too many statements (60/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 9.09/10
+

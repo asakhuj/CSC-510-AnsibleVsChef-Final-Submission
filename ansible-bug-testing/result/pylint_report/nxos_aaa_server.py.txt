@@ -1,0 +1,21 @@
+************* Module ansible.modules.network.nxos.nxos_aaa_server
+C:222, 0: Line too long (114/100) (line-too-long)
+C:225, 0: Line too long (120/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:112, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:114, 0: Import "from ansible.module_utils.network.nxos.nxos import load_config, run_commands" should be placed at the top of the module (wrong-import-position)
+C:115, 0: Import "from ansible.module_utils.network.nxos.nxos import nxos_argument_spec, check_args" should be placed at the top of the module (wrong-import-position)
+C:116, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:126, 0: Missing function docstring (missing-docstring)
+C:135, 0: Missing function docstring (missing-docstring)
+C:145, 0: Missing function docstring (missing-docstring)
+C:182, 0: Missing function docstring (missing-docstring)
+C:210, 0: Missing function docstring (missing-docstring)
+C:234, 0: Missing function docstring (missing-docstring)
+R:234, 0: Too many local variables (20/15) (too-many-locals)
+R:234, 0: Too many branches (17/12) (too-many-branches)
+R:234, 0: Too many statements (53/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 8.81/10
+

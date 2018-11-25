@@ -1,0 +1,23 @@
+************* Module ansible.modules.cloud.oneandone.oneandone_public_ip
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 18, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:126, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:127, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:128, 0: Import "from ansible.module_utils.oneandone import get_datacenter, get_public_ip, OneAndOneResources, wait_for_resource_creation_completion" should be placed at the top of the module (wrong-import-position)
+W:196,11: Catching too general exception Exception (broad-except)
+C:196,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:239,11: Catching too general exception Exception (broad-except)
+C:239,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:271,11: Catching too general exception Exception (broad-except)
+C:271,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:275, 0: Missing function docstring (missing-docstring)
+W:322,15: Catching too general exception Exception (broad-except)
+C:322,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:330,15: Catching too general exception Exception (broad-except)
+C:330,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:336,15: Catching too general exception Exception (broad-except)
+C:336,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.30/10
+

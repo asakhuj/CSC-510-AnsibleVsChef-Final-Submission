@@ -1,0 +1,52 @@
+************* Module ansible.modules.notification.hipchat
+C:204, 0: Line too long (103/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 92, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C: 93, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C: 95, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+E: 96, 0: No name 'urllib' in module '_MovedItems' (no-name-in-module)
+E: 96, 0: Unable to import 'ansible.module_utils.six.moves.urllib.parse' (import-error)
+C: 96, 0: Import "from ansible.module_utils.six.moves.urllib.parse import urlencode" should be placed at the top of the module (wrong-import-position)
+E: 97, 0: No name 'urllib' in module '_MovedItems' (no-name-in-module)
+E: 97, 0: Unable to import 'ansible.module_utils.six.moves.urllib.request' (import-error)
+C: 97, 0: Import "from ansible.module_utils.six.moves.urllib.request import pathname2url" should be placed at the top of the module (wrong-import-position)
+C: 98, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 99, 0: Import "from ansible.module_utils.urls import fetch_url" should be placed at the top of the module (wrong-import-position)
+R:109, 0: Too many arguments (9/5) (too-many-arguments)
+R:109, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:136, 0: Too many arguments (9/5) (too-many-arguments)
+R:136, 0: Too many local variables (16/15) (too-many-locals)
+C:148, 4: Variable name "POST_URL" doesn't conform to snake_case naming style (invalid-name)
+R:136, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+W:136,37: Unused argument 'msg_from' (unused-argument)
+C:171, 0: Missing function docstring (missing-docstring)
+W:203,11: Catching too general exception Exception (broad-except)
+C:203,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 4.12/10
+
+************* Module ansible.plugins.callback.hipchat
+C:105, 0: Line too long (108/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 65, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C: 66, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C: 74, 0: Import "from ansible.plugins.callback import CallbackBase" should be placed at the top of the module (wrong-import-position)
+E: 75, 0: No name 'urllib' in module '_MovedItems' (no-name-in-module)
+E: 75, 0: Unable to import 'ansible.module_utils.six.moves.urllib.parse' (import-error)
+C: 75, 0: Import "from ansible.module_utils.six.moves.urllib.parse import urlencode" should be placed at the top of the module (wrong-import-position)
+C: 76, 0: Import "from ansible.module_utils.urls import open_url" should be placed at the top of the module (wrong-import-position)
+R: 79, 0: Too many instance attributes (10/7) (too-many-instance-attributes)
+E:138,15: Module 'json' has no 'dumps' member (no-member)
+W:143,15: Catching too general exception Exception (broad-except)
+W:161,15: Catching too general exception Exception (broad-except)
+W:185,21: Access to a protected member _subset of a client class (protected-access)
+C:201, 8: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+C:207,12: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:208,12: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.06/10
+

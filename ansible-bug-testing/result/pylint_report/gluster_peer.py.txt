@@ -1,0 +1,20 @@
+************* Module ansible.modules.storage.glusterfs.gluster_peer
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 11, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 79, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 80, 0: Import "from distutils.version import LooseVersion" should be placed at the top of the module (wrong-import-position)
+C: 83, 0: Missing class docstring (missing-docstring)
+C: 93, 4: Missing method docstring (missing-docstring)
+C:106, 4: Missing method docstring (missing-docstring)
+C:108, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W:108,20: Unused variable 'err' (unused-variable)
+W:108, 8: Unused variable 'rc' (unused-variable)
+C:121, 4: Missing method docstring (missing-docstring)
+C:130,12: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:146, 0: Missing function docstring (missing-docstring)
+C:165, 0: Missing function docstring (missing-docstring)
+C: 80, 0: standard import "from distutils.version import LooseVersion" should be placed before "from ansible.module_utils.basic import AnsibleModule" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 7.83/10
+

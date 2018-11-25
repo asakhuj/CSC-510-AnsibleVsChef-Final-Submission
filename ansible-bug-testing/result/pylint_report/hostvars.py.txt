@@ -1,0 +1,21 @@
+************* Module ansible.vars.hostvars
+C:134, 0: Unnecessary parens after 'return' keyword (superfluous-parens)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+W: 59, 4: __init__ method from base class 'Mapping' is not called (super-init-not-called)
+W: 64, 8: Access to a protected member _hostvars of a client class (protected-access)
+C: 67, 4: Missing method docstring (missing-docstring)
+W: 69, 8: Access to a protected member _hostvars of a client class (protected-access)
+C: 71, 4: Missing method docstring (missing-docstring)
+C: 95, 4: Missing method docstring (missing-docstring)
+C: 98, 4: Missing method docstring (missing-docstring)
+C:101, 4: Missing method docstring (missing-docstring)
+C:122, 0: Missing class docstring (missing-docstring)
+C:130, 8: Black listed name "foo" (blacklisted-name)
+W: 24, 0: Unused to_bytes imported from ansible.module_utils._text (unused-import)
+W: 48, 4: Unused sha1 imported from hashlib (unused-import)
+W: 50, 4: Unused sha imported from sha as sha1 (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.78/10
+

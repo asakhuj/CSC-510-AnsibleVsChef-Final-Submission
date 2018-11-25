@@ -1,0 +1,42 @@
+************* Module ansible.modules.storage.purestorage.purefb_fs
+C:184, 0: Line too long (112/100) (line-too-long)
+C:187, 0: Wrong continued indentation (remove 1 space).
+                                    )
+                                   |^ (bad-continuation)
+C:193, 0: Line too long (112/100) (line-too-long)
+C:196, 0: Wrong continued indentation (remove 1 space).
+                                    )
+                                   |^ (bad-continuation)
+C:259, 0: Line too long (101/100) (line-too-long)
+C:271, 0: Wrong continued indentation (add 22 spaces).
+                                                   smb=ProtocolRule(enabled=False),
+                                                   ^                     | (bad-continuation)
+C:272, 0: Wrong continued indentation (add 22 spaces).
+                                                   http=ProtocolRule(enabled=False),
+                                                   ^                     | (bad-continuation)
+C:273, 0: Wrong continued indentation (add 22 spaces).
+                                                   destroyed=True)
+                                                   ^                     | (bad-continuation)
+C:274, 0: Wrong continued indentation (remove 1 space).
+                                                   )
+                                                  |^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:149, 0: Import "from ansible.module_utils.basic import AnsibleModule, human_to_bytes" should be placed at the top of the module (wrong-import-position)
+C:150, 0: Import "from ansible.module_utils.pure import get_blade, purefb_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:158, 4: Variable name "fs" doesn't conform to snake_case naming style (invalid-name)
+W:163, 4: No exception type(s) specified (bare-except)
+W:199, 8: No exception type(s) specified (bare-except)
+C:209, 8: Variable name "fs" doesn't conform to snake_case naming style (invalid-name)
+W:260,12: No exception type(s) specified (bare-except)
+R:204, 0: Too many branches (20/12) (too-many-branches)
+R:204, 0: Too many statements (58/50) (too-many-statements)
+W:282, 8: No exception type(s) specified (bare-except)
+W:280,16: No exception type(s) specified (bare-except)
+W:293, 8: No exception type(s) specified (bare-except)
+C:298, 0: Missing function docstring (missing-docstring)
+C:324, 4: Variable name "fs" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.19/10
+

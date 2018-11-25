@@ -1,0 +1,11 @@
+************* Module lib.sanity.shellcheck
+C: 44, 0: Line too long (124/100) (line-too-long)
+C: 69, 0: Line too long (101/100) (line-too-long)
+R: 32, 4: Too many local variables (17/15) (too-many-locals)
+R: 30, 0: Too few public methods (1/2) (too-few-public-methods)
+W:  6, 0: Unused Element imported from xml.etree.ElementTree (unused-import)
+W: 25, 0: Unused SanityConfig imported from lib.config (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.29/10
+

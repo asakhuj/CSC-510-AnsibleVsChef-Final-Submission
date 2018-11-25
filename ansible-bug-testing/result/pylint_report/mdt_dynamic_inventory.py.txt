@@ -1,0 +1,17 @@
+************* Module mdt_dynamic_inventory
+C: 62, 0: Line too long (138/100) (line-too-long)
+C: 75, 0: Line too long (133/100) (line-too-long)
+C: 77, 0: Line too long (145/100) (line-too-long)
+C: 88, 0: Line too long (129/100) (line-too-long)
+C: 93, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:127, 0: Line too long (102/100) (line-too-long)
+C:129, 0: Line too long (109/100) (line-too-long)
+E: 29, 0: Unable to import 'pymssql' (import-error)
+C: 36, 0: Missing class docstring (missing-docstring)
+R: 36, 0: Too many instance attributes (10/7) (too-many-instance-attributes)
+R: 95, 4: Method could be a function (no-self-use)
+W: 66,12: Attribute 'mdt_dump' defined outside __init__ (attribute-defined-outside-init)
+
+------------------------------------------------------------------
+Your code has been rated at 7.19/10 (previous run: 7.19/10, +0.00)
+

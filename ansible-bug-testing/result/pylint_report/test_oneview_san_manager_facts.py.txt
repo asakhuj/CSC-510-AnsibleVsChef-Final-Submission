@@ -1,0 +1,14 @@
+************* Module test_oneview_san_manager_facts
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  4, 0: Unable to import 'units.compat' (import-error)
+C:  9, 0: Missing class docstring (missing-docstring)
+C: 27, 4: Method name "setUp" doesn't conform to snake_case naming style (invalid-name)
+C: 27, 4: Missing method docstring (missing-docstring)
+C: 33, 4: Missing method docstring (missing-docstring)
+C: 44, 4: Missing method docstring (missing-docstring)
+C: 55, 4: Method name "test_should_return_empty_list_when_get_by_display_name_is_null" doesn't conform to snake_case naming style (invalid-name)
+C: 55, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 5.52/10
+

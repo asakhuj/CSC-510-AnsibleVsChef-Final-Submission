@@ -1,0 +1,21 @@
+************* Module ansible.modules.storage.netapp.na_ontap_user
+C:206, 0: Line too long (102/100) (line-too-long)
+C:297, 0: Line too long (104/100) (line-too-long)
+C:337, 0: Line too long (115/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:107, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:109, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:110, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:111, 0: Import "import ansible.module_utils.netapp as netapp_utils" should be placed at the top of the module (wrong-import-position)
+R:117, 0: Too many instance attributes (11/7) (too-many-instance-attributes)
+C:239, 4: Missing method docstring (missing-docstring)
+C:301, 4: Missing method docstring (missing-docstring)
+C:343, 4: Missing method docstring (missing-docstring)
+R:368, 8: Too many nested blocks (6/5) (too-many-nested-blocks)
+R:343, 4: Too many branches (18/12) (too-many-branches)
+C:388, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.85/10
+

@@ -1,0 +1,18 @@
+************* Module units.modules.network.ingate.ingate_module
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 29, 0: Constant name "fixture_path" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 30, 0: Constant name "fixture_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 33, 0: Missing function docstring (missing-docstring)
+W: 44, 4: No exception type(s) specified (bare-except)
+C: 51, 0: Missing class docstring (missing-docstring)
+C: 53, 4: Missing method docstring (missing-docstring)
+C: 66, 4: Missing method docstring (missing-docstring)
+E: 68,12: Instance of 'TestIngateModule' has no 'module' member (no-member)
+C: 74, 4: Missing method docstring (missing-docstring)
+E: 76,12: Instance of 'TestIngateModule' has no 'module' member (no-member)
+C: 82, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 5.00/10
+

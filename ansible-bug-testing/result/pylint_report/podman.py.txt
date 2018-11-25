@@ -1,0 +1,12 @@
+************* Module ansible.plugins.connection.podman
+C:114, 0: Line too long (108/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 11, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 90, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:104, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:119, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C: 24, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 8.81/10
+

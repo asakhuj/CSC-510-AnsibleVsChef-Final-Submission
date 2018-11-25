@@ -1,0 +1,8 @@
+************* Module units.compat.builtins
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+W: 29, 4: Unused import __builtin__ (unused-import)
+
+-----------------------------------
+Your code has been rated at 5.71/10
+

@@ -1,0 +1,41 @@
+************* Module ansible.parsing.plugin_docs
+C: 25, 0: Line too long (104/100) (line-too-long)
+C: 52, 0: Line too long (101/100) (line-too-long)
+C: 62, 0: Line too long (113/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+W: 80, 4: No exception type(s) specified (bare-except)
+C: 43,12: Variable name "M" doesn't conform to snake_case naming style (invalid-name)
+C: 47,20: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+R: 41, 4: Too many nested blocks (7/5) (too-many-nested-blocks)
+C: 73,16: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+E: 74,24: Value 'data['metadata']' doesn't support membership test (unsupported-membership-test)
+E: 75,24: "data['metadata']" does not support item deletion (unsupported-delete-operation)
+R: 22, 0: Too many branches (15/12) (too-many-branches)
+W:  9, 0: Unused import yaml (unused-import)
+C: 18, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 6.57/10
+
+************* Module ansible.utils.plugin_docs
+C: 10, 0: Line too long (103/100) (line-too-long)
+C: 40, 0: Line too long (105/100) (line-too-long)
+C: 76, 0: Line too long (119/100) (line-too-long)
+C: 83, 0: Line too long (115/100) (line-too-long)
+C: 91, 0: Line too long (103/100) (line-too-long)
+C: 96, 0: Line too long (132/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 28, 0: Missing function docstring (missing-docstring)
+C: 44, 0: Missing function docstring (missing-docstring)
+C: 82,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C: 90,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R: 44, 0: Too many branches (13/12) (too-many-branches)
+W: 11, 0: Unused read_docstub imported from ansible.parsing.plugin_docs (unused-import)
+W: 15, 4: Unused display imported from __main__ (unused-import)
+C: 17, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 7.46/10
+

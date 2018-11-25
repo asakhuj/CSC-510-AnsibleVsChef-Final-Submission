@@ -1,0 +1,10 @@
+************* Module ansible.modules.storage.ibm.ibm_sa_domain
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 11, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:111, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:112, 0: Import "from ansible.module_utils.ibm_sa_utils import execute_pyxcli_command, connect_ssl, spectrum_accelerate_spec, is_pyxcli_installed" should be placed at the top of the module (wrong-import-position)
+C:116, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.21/10
+

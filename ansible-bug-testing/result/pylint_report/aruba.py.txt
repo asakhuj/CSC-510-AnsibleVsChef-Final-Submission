@@ -1,0 +1,76 @@
+************* Module ansible.module_utils.network.aruba.aruba
+C: 82, 0: Line too long (123/100) (line-too-long)
+C:122, 0: Line too long (117/100) (line-too-long)
+C:129, 0: Line too long (103/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 38, 0: Constant name "aruba_provider_spec" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 46, 0: Constant name "aruba_argument_spec" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 50, 0: Constant name "aruba_top_spec" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 62, 0: Missing function docstring (missing-docstring)
+C: 66, 0: Missing function docstring (missing-docstring)
+W: 66,15: Unused argument 'module' (unused-argument)
+W: 66,23: Unused argument 'warnings' (unused-argument)
+C: 70, 0: Missing function docstring (missing-docstring)
+C: 80, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C: 88, 0: Missing function docstring (missing-docstring)
+C: 96, 0: Missing function docstring (missing-docstring)
+C:106, 0: Missing function docstring (missing-docstring)
+C:111, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:118, 0: Missing function docstring (missing-docstring)
+C:120, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:127, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W: 32, 0: Unused return_values imported from ansible.module_utils.basic (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.38/10
+
+************* Module ansible.plugins.action.aruba
+C: 72, 0: Line too long (118/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 39, 0: Missing class docstring (missing-docstring)
+C: 53, 8: Variable name "pc" doesn't conform to snake_case naming style (invalid-name)
+E: 53,13: Module 'copy' has no 'deepcopy' member (no-member)
+E: 61,53: Module 'ansible.constants' has no 'PERSISTENT_COMMAND_TIMEOUT' member (no-member)
+R: 39, 0: Too few public methods (1/2) (too-few-public-methods)
+C: 35, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 6.46/10
+
+************* Module ansible.plugins.cliconf.aruba
+C: 74, 0: Line too long (119/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 32, 0: Missing class docstring (missing-docstring)
+C: 34, 4: Missing method docstring (missing-docstring)
+W: 59,43: Redefining built-in 'format' (redefined-builtin)
+W: 59, 4: Parameters differ from overridden 'get_config' method (arguments-differ)
+E: 61,19: Instance of 'Cliconf' has no 'invalid_params' member (no-member)
+W: 69, 4: Parameters differ from overridden 'edit_config' method (arguments-differ)
+R: 73, 4: Too many arguments (6/5) (too-many-arguments)
+W: 73, 4: Parameters differ from overridden 'get' method (arguments-differ)
+W: 27, 0: Unused to_bytes imported from ansible.module_utils._text (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.36/10
+
+************* Module ansible.plugins.terminal.aruba
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 30, 0: Missing class docstring (missing-docstring)
+W: 22, 0: Unused import json (unused-import)
+W: 26, 0: Unused to_bytes imported from ansible.module_utils._text (unused-import)
+W: 26, 0: Unused to_text imported from ansible.module_utils._text (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.84/10
+
+************* Module ansible.utils.module_docs_fragments.aruba
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Missing class docstring (missing-docstring)
+R: 20, 0: Too few public methods (0/2) (too-few-public-methods)
+
+------------------------------------
+Your code has been rated at -5.00/10
+

@@ -1,0 +1,21 @@
+************* Module ansible.modules.utilities.logic.set_fact
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.00/10
+
+************* Module ansible.plugins.action.set_fact
+C: 50, 0: Line too long (153/100) (line-too-long)
+C: 54, 0: Line too long (127/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 19, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 29, 0: Missing class docstring (missing-docstring)
+C: 45,20: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+E: 54,23: Module 'ansible.constants' has no 'DEFAULT_JINJA2_NATIVE' member (no-member)
+C: 55,20: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+R: 29, 0: Too few public methods (1/2) (too-few-public-methods)
+
+-----------------------------------
+Your code has been rated at 5.67/10
+

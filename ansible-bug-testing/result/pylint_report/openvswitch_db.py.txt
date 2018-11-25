@@ -1,0 +1,16 @@
+************* Module ansible.modules.network.ovs.openvswitch_db
+W:173, 0: Bad indentation. Found 12 spaces, expected 8 (bad-indentation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 10, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 99, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:101, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:138, 0: Missing function docstring (missing-docstring)
+C:141, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:158,12: Variable name "kv" doesn't conform to snake_case naming style (invalid-name)
+C:159,15: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:178, 0: Missing function docstring (missing-docstring)
+C:221,16: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.49/10
+

@@ -1,0 +1,21 @@
+************* Module ansible.modules.network.nxos.nxos_pim_rp_address
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 81, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C: 83, 0: Import "from ansible.module_utils.network.nxos.nxos import get_config, load_config" should be placed at the top of the module (wrong-import-position)
+C: 84, 0: Import "from ansible.module_utils.network.nxos.nxos import nxos_argument_spec, check_args" should be placed at the top of the module (wrong-import-position)
+C: 85, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 86, 0: Import "from ansible.module_utils.network.common.config import CustomNetworkConfig" should be placed at the top of the module (wrong-import-position)
+C: 89, 0: Argument name "gl" doesn't conform to snake_case naming style (invalid-name)
+C: 89, 0: Missing function docstring (missing-docstring)
+W: 89,25: Unused argument 'args' (unused-argument)
+C:120, 0: Missing function docstring (missing-docstring)
+W:120,26: Unused argument 'existing' (unused-argument)
+C:136, 0: Missing function docstring (missing-docstring)
+C:146, 0: Missing function docstring (missing-docstring)
+C:160, 0: Missing function docstring (missing-docstring)
+C:176, 0: Missing function docstring (missing-docstring)
+R:224, 4: Too many nested blocks (6/5) (too-many-nested-blocks)
+
+-----------------------------------
+Your code has been rated at 8.61/10
+

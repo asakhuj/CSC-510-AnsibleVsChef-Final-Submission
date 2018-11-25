@@ -1,0 +1,31 @@
+************* Module ansible.modules.cloud.cloudscale.cloudscale_server
+C:217, 0: Wrong continued indentation (remove 1 space).
+                  )
+                 |^ (bad-continuation)
+C:285, 0: Line too long (125/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:206, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:207, 0: Import "from datetime import datetime, timedelta" should be placed at the top of the module (wrong-import-position)
+C:208, 0: Import "from time import sleep" should be placed at the top of the module (wrong-import-position)
+C:209, 0: Import "from copy import deepcopy" should be placed at the top of the module (wrong-import-position)
+C:211, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:212, 0: Import "from ansible.module_utils.cloudscale import AnsibleCloudscaleBase, cloudscale_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:220, 0: Missing class docstring (missing-docstring)
+C:234,12: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+C:260, 4: Missing method docstring (missing-docstring)
+C:276, 4: Missing method docstring (missing-docstring)
+C:288, 4: Missing method docstring (missing-docstring)
+C:293,12: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:297,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:305,15: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:320, 4: Missing method docstring (missing-docstring)
+C:324, 4: Missing method docstring (missing-docstring)
+C:328, 4: Missing method docstring (missing-docstring)
+C:332, 4: Missing method docstring (missing-docstring)
+C:336, 0: Missing function docstring (missing-docstring)
+W:206, 0: Unused import os (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.89/10
+

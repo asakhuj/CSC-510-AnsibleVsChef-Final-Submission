@@ -1,0 +1,19 @@
+************* Module ansible.modules.packaging.os.flatpak_remote
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 10, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:121, 0: Import "import subprocess" should be placed at the top of the module (wrong-import-position)
+C:122, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:123, 0: Import "from ansible.module_utils._text import to_bytes, to_native" should be placed at the top of the module (wrong-import-position)
+W:128, 4: Global variable 'result' undefined at the module level (global-variable-undefined)
+C:128, 4: Constant name "result" doesn't conform to UPPER_CASE naming style (invalid-name)
+W:137, 4: Global variable 'result' undefined at the module level (global-variable-undefined)
+C:137, 4: Constant name "result" doesn't conform to UPPER_CASE naming style (invalid-name)
+W:157, 4: Global variable 'result' undefined at the module level (global-variable-undefined)
+C:157, 4: Constant name "result" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:175, 0: Missing function docstring (missing-docstring)
+W:200, 4: Global variable 'result' undefined at the module level (global-variable-undefined)
+C:200, 4: Constant name "result" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.81/10
+

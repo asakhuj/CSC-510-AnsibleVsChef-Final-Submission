@@ -1,0 +1,14 @@
+************* Module ansible.modules.cloud.ovirt.ovirt_host_storage_facts
+C:128, 0: Line too long (106/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 62, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C: 69, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 70, 0: Import "from ansible.module_utils.ovirt import check_sdk, create_connection, get_dict_of_struct, ovirt_facts_full_argument_spec, get_id_by_name" should be placed at the top of the module (wrong-import-position)
+R: 90, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C: 96, 0: Missing function docstring (missing-docstring)
+W:146,11: Catching too general exception Exception (broad-except)
+C:146,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.00/10
+

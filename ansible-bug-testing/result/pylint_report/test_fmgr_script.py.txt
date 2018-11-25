@@ -1,0 +1,19 @@
+************* Module units.modules.network.fortimanager.test_fmgr_script
+C: 42, 0: Line too long (119/100) (line-too-long)
+C: 43, 0: Line too long (112/100) (line-too-long)
+C: 49, 0: Line too long (103/100) (line-too-long)
+C: 50, 0: Line too long (112/100) (line-too-long)
+C: 56, 0: Line too long (101/100) (line-too-long)
+C: 57, 0: Line too long (112/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 37, 0: Missing class docstring (missing-docstring)
+C: 41, 4: Missing method docstring (missing-docstring)
+C: 48, 4: Missing method docstring (missing-docstring)
+C: 55, 4: Method name "test_fmg_script_login_fail_username" doesn't conform to snake_case naming style (invalid-name)
+C: 55, 4: Missing method docstring (missing-docstring)
+W: 32, 4: Unused FortiManager imported from pyFMG.fortimgr (unused-import)
+
+-----------------------------------
+Your code has been rated at 4.81/10
+

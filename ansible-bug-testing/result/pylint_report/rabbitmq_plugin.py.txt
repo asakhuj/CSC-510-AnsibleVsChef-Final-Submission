@@ -1,0 +1,17 @@
+************* Module ansible.modules.messaging.rabbitmq.rabbitmq_plugin
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 86, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C: 87, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 90, 0: Missing class docstring (missing-docstring)
+C:111,12: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W:111,21: Unused variable 'err' (unused-variable)
+W:111,12: Unused variable 'rc' (unused-variable)
+C:115, 4: Missing method docstring (missing-docstring)
+C:125, 4: Missing method docstring (missing-docstring)
+C:128, 4: Missing method docstring (missing-docstring)
+C:132, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.26/10
+

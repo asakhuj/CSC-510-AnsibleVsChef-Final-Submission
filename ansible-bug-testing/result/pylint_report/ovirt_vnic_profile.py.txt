@@ -1,0 +1,19 @@
+************* Module ansible.modules.cloud.ovirt.ovirt_vnic_profile
+C:181, 0: Line too long (108/100) (line-too-long)
+C:202, 0: Line too long (102/100) (line-too-long)
+C:203, 0: Line too long (131/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:136, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:138, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:139, 0: Import "from ansible.module_utils.ovirt import BaseModule, check_sdk, create_connection, equal, get_link_name, ovirt_full_argument_spec, search_by_name, get_id_by_name" should be placed at the top of the module (wrong-import-position)
+C:151, 0: Missing class docstring (missing-docstring)
+C:198, 8: Missing function docstring (missing-docstring)
+C:218, 0: Missing function docstring (missing-docstring)
+W:256,11: Catching too general exception Exception (broad-except)
+C:256,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:139, 0: Unused get_link_name imported from ansible.module_utils.ovirt (unused-import)
+W:139, 0: Unused search_by_name imported from ansible.module_utils.ovirt (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.67/10
+

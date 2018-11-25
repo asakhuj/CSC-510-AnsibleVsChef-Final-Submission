@@ -1,0 +1,21 @@
+************* Module units.modules.network.ironware.test_ironware_facts
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 26, 0: Unable to import 'ansible.modules.network.ironware' (import-error)
+C: 30, 0: Missing class docstring (missing-docstring)
+C: 46, 8: Missing function docstring (missing-docstring)
+W: 47,12: Unused variable 'module' (unused-variable)
+W: 46, 0: Unused argument 'kwargs' (unused-argument)
+C: 62, 4: Method name "test_ironware_facts_gather_subset_default" doesn't conform to snake_case naming style (invalid-name)
+C: 62, 4: Missing method docstring (missing-docstring)
+C: 81, 4: Method name "test_ironware_facts_gather_subset_config" doesn't conform to snake_case naming style (invalid-name)
+C: 81, 4: Missing method docstring (missing-docstring)
+C: 89, 4: Method name "test_ironware_facts_gather_subset_mpls" doesn't conform to snake_case naming style (invalid-name)
+C: 89, 4: Missing method docstring (missing-docstring)
+C: 26, 0: first party import "from ansible.modules.network.ironware import ironware_facts" should be placed before "from .ironware_module import TestIronwareModule, load_fixture" (wrong-import-order)
+C: 27, 0: first party import "from units.modules.utils import set_module_args" should be placed before "from .ironware_module import TestIronwareModule, load_fixture" (wrong-import-order)
+C: 27, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 7.10/10
+

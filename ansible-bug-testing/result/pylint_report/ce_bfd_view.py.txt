@@ -1,0 +1,21 @@
+************* Module ansible.modules.network.cloudengine.ce_bfd_view
+C:191, 0: Line too long (102/100) (line-too-long)
+C:431, 0: Line too long (102/100) (line-too-long)
+C:436, 0: Line too long (108/100) (line-too-long)
+C:441, 0: Line too long (106/100) (line-too-long)
+C:446, 0: Line too long (106/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:188, 0: Import "import sys" should be placed at the top of the module (wrong-import-position)
+C:189, 0: Import "from xml.etree import ElementTree" should be placed at the top of the module (wrong-import-position)
+C:190, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:191, 0: Import "from ansible.module_utils.network.cloudengine.ce import get_nc_config, set_nc_config, ce_argument_spec" should be placed at the top of the module (wrong-import-position)
+R:227, 0: Too many instance attributes (24/7) (too-many-instance-attributes)
+R:392, 8: Unnecessary "else" after "return" (no-else-return)
+R:300, 4: Too many branches (31/12) (too-many-branches)
+R:300, 4: Too many statements (78/50) (too-many-statements)
+R:417, 4: Too many branches (19/12) (too-many-branches)
+W:188, 0: Unused import sys (unused-import)
+
+-----------------------------------
+Your code has been rated at 9.28/10
+

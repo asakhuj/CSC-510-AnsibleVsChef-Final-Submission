@@ -1,0 +1,88 @@
+************* Module ansible.module_utils.common.network
+C:  2, 0: Line too long (106/100) (line-too-long)
+C: 83, 0: Line too long (113/100) (line-too-long)
+W:  9, 0: Redefining built-in 'zip' (redefined-builtin)
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  9, 0: Unable to import 'ansible.module_utils.six.moves' (import-error)
+C: 15, 0: Missing function docstring (missing-docstring)
+C: 28, 0: Missing function docstring (missing-docstring)
+W: 41, 8: Redefining name 'i' from outer scope (line 12) (redefined-outer-name)
+C: 53, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.22/10
+
+************* Module ansible.module_utils.network.common.network
+C:180, 0: Wrong continued indentation (add 33 spaces).
+                         self.params['port'], self.params['transport']))
+                         ^                                | (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 67, 0: Missing function docstring (missing-docstring)
+R: 68, 4: Unnecessary "else" after "return" (no-else-return)
+C: 76, 0: Missing class docstring (missing-docstring)
+R: 76, 0: Too few public methods (0/2) (too-few-public-methods)
+C: 84, 0: Missing class docstring (missing-docstring)
+C: 91, 0: Missing class docstring (missing-docstring)
+C:100, 4: Missing method docstring (missing-docstring)
+C:104, 4: Missing method docstring (missing-docstring)
+C:107, 4: Missing method docstring (missing-docstring)
+C:111, 0: Missing class docstring (missing-docstring)
+C:143, 4: Missing method docstring (missing-docstring)
+C:152, 4: Missing method docstring (missing-docstring)
+C:161, 4: Missing method docstring (missing-docstring)
+W:162,15: Access to a protected member _connected of a client class (protected-access)
+C:173, 4: Missing method docstring (missing-docstring)
+C:184, 4: Missing method docstring (missing-docstring)
+C:193, 0: Missing function docstring (missing-docstring)
+C:194, 4: Missing function docstring (missing-docstring)
+C:202, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.19/10
+
+************* Module ansible.plugins.filter.network
+C: 91, 0: Line too long (110/100) (line-too-long)
+C:175, 0: Line too long (109/100) (line-too-long)
+C:236, 0: Line too long (117/100) (line-too-long)
+C:278, 0: Line too long (154/100) (line-too-long)
+C:330, 0: Line too long (101/100) (line-too-long)
+C:363, 0: Line too long (135/100) (line-too-long)
+C:371, 0: Line too long (127/100) (line-too-long)
+C:375, 0: Line too long (108/100) (line-too-long)
+C:386, 0: Line too long (105/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 64, 0: Missing function docstring (missing-docstring)
+C: 78, 0: Missing function docstring (missing-docstring)
+C: 89, 0: Missing function docstring (missing-docstring)
+R: 89, 0: Too many local variables (37/15) (too-many-locals)
+W:110, 8: No exception type(s) specified (bare-except)
+R:104, 4: Too many nested blocks (6/5) (too-many-nested-blocks)
+C:156,27: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+W:159,24: No exception type(s) specified (bare-except)
+R:104, 4: Too many nested blocks (6/5) (too-many-nested-blocks)
+R:104, 4: Too many nested blocks (6/5) (too-many-nested-blocks)
+R:104, 4: Too many nested blocks (6/5) (too-many-nested-blocks)
+R:104, 4: Too many nested blocks (6/5) (too-many-nested-blocks)
+R: 89, 0: Too many branches (38/12) (too-many-branches)
+R: 89, 0: Too many statements (96/50) (too-many-statements)
+C:231, 0: Missing function docstring (missing-docstring)
+R:256, 0: Too many local variables (20/15) (too-many-locals)
+W:277,12: No exception type(s) specified (bare-except)
+C:285,15: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+R:256, 0: Too many branches (24/12) (too-many-branches)
+C:325, 0: Missing function docstring (missing-docstring)
+W:347, 8: No exception type(s) specified (bare-except)
+C:358, 0: Missing function docstring (missing-docstring)
+C:382, 0: Missing function docstring (missing-docstring)
+C:391, 0: Missing function docstring (missing-docstring)
+R:395, 8: Unnecessary "else" after "return" (no-else-return)
+C:465, 4: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+R:402, 0: Too many branches (16/12) (too-many-branches)
+C:488, 4: Missing method docstring (missing-docstring)
+R:475, 0: Too few public methods (1/2) (too-few-public-methods)
+C: 54, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 8.68/10
+

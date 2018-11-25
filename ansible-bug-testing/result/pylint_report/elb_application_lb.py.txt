@@ -1,0 +1,39 @@
+************* Module ansible.modules.cloud.amazon.elb_application_lb
+C:376, 0: Line too long (120/100) (line-too-long)
+C:379, 0: Line too long (128/100) (line-too-long)
+C:401, 0: Line too long (116/100) (line-too-long)
+C:402, 0: Line too long (129/100) (line-too-long)
+C:425, 0: Line too long (122/100) (line-too-long)
+C:431, 0: Line too long (119/100) (line-too-long)
+C:437, 0: Line too long (122/100) (line-too-long)
+C:448, 0: Line too long (145/100) (line-too-long)
+C:455, 0: Line too long (125/100) (line-too-long)
+C:461, 0: Line too long (108/100) (line-too-long)
+C:467, 0: Line too long (108/100) (line-too-long)
+C:486, 0: Line too long (111/100) (line-too-long)
+C:524, 0: Wrong continued indentation (remove 1 space).
+                           ),
+                          |^ (bad-continuation)
+C:544, 0: Line too long (107/100) (line-too-long)
+C:546, 0: Wrong continued indentation (remove 1 space).
+                              )
+                             |^ (bad-continuation)
+C:555, 0: Line too long (113/100) (line-too-long)
+C:558, 0: Line too long (116/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:375, 0: Import "from ansible.module_utils.aws.core import AnsibleAWSModule" should be placed at the top of the module (wrong-import-position)
+C:376, 0: Import "from ansible.module_utils.ec2 import boto3_conn, get_aws_connection_info, camel_dict_to_snake_dict, ec2_argument_spec, boto3_tag_list_to_ansible_dict, compare_aws_tags, HAS_BOTO3" should be placed at the top of the module (wrong-import-position)
+C:379, 0: Import "from ansible.module_utils.aws.elbv2 import ApplicationLoadBalancer, ELBListeners, ELBListener, ELBListenerRules, ELBListenerRule" should be placed at the top of the module (wrong-import-position)
+C:380, 0: Import "from ansible.module_utils.aws.elb_utils import get_elb_listener_rules" should be placed at the top of the module (wrong-import-position)
+R:383, 0: Too many local variables (19/15) (too-many-locals)
+R:383, 0: Too many branches (18/12) (too-many-branches)
+R:383, 0: Too many statements (52/50) (too-many-statements)
+C:495, 0: Missing function docstring (missing-docstring)
+C:503, 0: Missing function docstring (missing-docstring)
+W:376, 0: Unused boto3_conn imported from ansible.module_utils.ec2 (unused-import)
+W:376, 0: Unused HAS_BOTO3 imported from ansible.module_utils.ec2 (unused-import)
+W:376, 0: Unused get_aws_connection_info imported from ansible.module_utils.ec2 (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.77/10
+

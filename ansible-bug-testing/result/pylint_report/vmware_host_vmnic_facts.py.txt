@@ -1,0 +1,32 @@
+************* Module ansible.modules.cloud.vmware.vmware_host_vmnic_facts
+C:170, 0: Line too long (101/100) (line-too-long)
+C:198, 0: Line too long (106/100) (line-too-long)
+C:208, 0: Line too long (111/100) (line-too-long)
+C:217, 0: Line too long (115/100) (line-too-long)
+C:224, 0: Line too long (124/100) (line-too-long)
+C:231, 0: Line too long (121/100) (line-too-long)
+C:239, 0: Line too long (103/100) (line-too-long)
+C:242, 0: Line too long (103/100) (line-too-long)
+C:243, 0: Line too long (103/100) (line-too-long)
+C:244, 0: Line too long (101/100) (line-too-long)
+C:249, 0: Line too long (108/100) (line-too-long)
+C:270, 0: Line too long (105/100) (line-too-long)
+C:271, 0: Line too long (101/100) (line-too-long)
+C:287, 0: Line too long (103/100) (line-too-long)
+C:291, 0: Line too long (121/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:157, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:158, 0: Import "from ansible.module_utils.vmware import vmware_argument_spec, PyVmomi, get_all_objs" should be placed at the top of the module (wrong-import-position)
+R:188, 4: Too many local variables (17/15) (too-many-locals)
+W:198,24: map/filter on lambda could be replaced by comprehension (deprecated-lambda)
+R:191, 8: Too many nested blocks (7/5) (too-many-nested-blocks)
+R:191, 8: Too many nested blocks (11/5) (too-many-nested-blocks)
+R:191, 8: Too many nested blocks (6/5) (too-many-nested-blocks)
+R:191, 8: Too many nested blocks (6/5) (too-many-nested-blocks)
+R:188, 4: Too many branches (32/12) (too-many-branches)
+R:188, 4: Too many statements (81/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 7.87/10
+

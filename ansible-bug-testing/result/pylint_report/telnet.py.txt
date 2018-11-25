@@ -1,0 +1,25 @@
+************* Module ansible.modules.commands.telnet
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.67/10
+
+************* Module ansible.plugins.action.telnet
+W: 45, 0: FIXME, default to play_context? (fixme)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 22, 0: Missing class docstring (missing-docstring)
+R: 25, 4: Too many local variables (22/15) (too-many-locals)
+C: 62,16: Variable name "tn" doesn't conform to snake_case naming style (invalid-name)
+C: 88,35: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W: 81,24: Unused variable 'index' (unused-variable)
+W: 81,31: Unused variable 'match' (unused-variable)
+R: 25, 4: Too many branches (13/12) (too-many-branches)
+R: 25, 4: Too many statements (54/50) (too-many-statements)
+R: 22, 0: Too few public methods (1/2) (too-few-public-methods)
+C: 18, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 8.06/10
+

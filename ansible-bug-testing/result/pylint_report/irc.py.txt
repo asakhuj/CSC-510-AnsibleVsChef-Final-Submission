@@ -1,0 +1,29 @@
+************* Module ansible.modules.notification.irc
+C:141, 0: Line too long (107/100) (line-too-long)
+C:254, 0: Line too long (104/100) (line-too-long)
+C:288, 0: Line too long (117/100) (line-too-long)
+C:290, 0: Line too long (106/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:130, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:131, 0: Import "import socket" should be placed at the top of the module (wrong-import-position)
+C:132, 0: Import "import ssl" should be placed at the top of the module (wrong-import-position)
+C:133, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C:134, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:136, 0: Import "from ansible.module_utils._text import to_native, to_bytes" should be placed at the top of the module (wrong-import-position)
+C:137, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+R:140, 0: Too many arguments (14/5) (too-many-arguments)
+R:140, 0: Too many local variables (25/15) (too-many-locals)
+W:173,11: Catching too general exception Exception (broad-except)
+W:179,11: Catching too general exception Exception (broad-except)
+R:227,12: Redefining argument with the local name 'nick' (redefined-argument-from-local)
+R:140, 0: Too many branches (17/12) (too-many-branches)
+R:140, 0: Too many statements (57/50) (too-many-statements)
+C:243, 0: Missing function docstring (missing-docstring)
+R:243, 0: Too many local variables (16/15) (too-many-locals)
+W:289,11: Catching too general exception Exception (broad-except)
+C:289,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.50/10
+

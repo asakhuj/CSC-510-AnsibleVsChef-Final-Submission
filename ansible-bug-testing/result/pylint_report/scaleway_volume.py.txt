@@ -1,0 +1,14 @@
+************* Module ansible.modules.cloud.scaleway.scaleway_volume
+C:128, 0: Line too long (104/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 11, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 99, 0: Import "from ansible.module_utils.scaleway import SCALEWAY_LOCATION, scaleway_argument_spec, Scaleway" should be placed at the top of the module (wrong-import-position)
+C:100, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:103, 0: Missing function docstring (missing-docstring)
+C:119, 4: Variable name "volumeByName" doesn't conform to snake_case naming style (invalid-name)
+C:122,12: Variable name "volumeByName" doesn't conform to snake_case naming style (invalid-name)
+C:153, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.12/10
+

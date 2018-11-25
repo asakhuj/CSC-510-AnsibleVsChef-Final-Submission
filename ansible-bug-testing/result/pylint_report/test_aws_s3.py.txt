@@ -1,0 +1,15 @@
+************* Module units.modules.cloud.amazon.test_aws_s3
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 4: Constant name "pytestmark" doesn't conform to UPPER_CASE naming style (invalid-name)
+E: 10, 0: Unable to import 'ansible.module_utils.six.moves.urllib.parse' (import-error)
+C: 12, 0: Constant name "boto3" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 15, 0: Missing class docstring (missing-docstring)
+C: 17, 4: Missing method docstring (missing-docstring)
+C: 23, 4: Missing method docstring (missing-docstring)
+C: 27, 4: Missing method docstring (missing-docstring)
+W: 34,49: Access to a protected member _endpoint of a client class (protected-access)
+C:  3, 0: standard import "import unittest" should be placed before "import pytest" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 4.17/10
+

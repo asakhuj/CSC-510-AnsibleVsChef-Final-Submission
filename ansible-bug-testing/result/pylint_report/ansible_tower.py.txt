@@ -1,0 +1,8 @@
+************* Module ansible.module_utils.ansible_tower
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 57,40: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C: 86, 0: Missing class docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 9.38/10
+

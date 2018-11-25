@@ -1,0 +1,30 @@
+************* Module ansible.modules.cloud.amazon.elasticache
+C:117, 0: Line too long (128/100) (line-too-long)
+C:266, 0: Line too long (109/100) (line-too-long)
+C:433, 0: Line too long (110/100) (line-too-long)
+C:459, 0: Line too long (103/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:114, 0: Import "from time import sleep" should be placed at the top of the module (wrong-import-position)
+C:115, 0: Import "from traceback import format_exc" should be placed at the top of the module (wrong-import-position)
+C:116, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:117, 0: Import "from ansible.module_utils.ec2 import ec2_argument_spec, get_aws_connection_info, boto3_conn, HAS_BOTO3, camel_dict_to_snake_dict" should be placed at the top of the module (wrong-import-position)
+R:126, 0: Too many instance attributes (20/7) (too-many-instance-attributes)
+R:132, 4: Too many arguments (16/5) (too-many-arguments)
+R:132, 4: Too many local variables (17/15) (too-many-locals)
+C:211,50: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:179, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:239,50: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:290,50: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:319,50: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:377,12: Variable name "sg" doesn't conform to snake_case naming style (invalid-name)
+C:386,16: Variable name "sg" doesn't conform to snake_case naming style (invalid-name)
+R:410, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:419, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:434,54: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:466, 0: Too many local variables (21/15) (too-many-locals)
+W:494,12: Unused variable 'ec2_url' (unused-variable)
+W:120, 4: Unused import boto3 (unused-import)
+
+-----------------------------------
+Your code has been rated at 9.03/10
+

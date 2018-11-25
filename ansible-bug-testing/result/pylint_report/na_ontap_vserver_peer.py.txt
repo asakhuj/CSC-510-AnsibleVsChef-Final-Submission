@@ -1,0 +1,30 @@
+************* Module ansible.modules.storage.netapp.na_ontap_vserver_peer
+C: 99, 0: Line too long (101/100) (line-too-long)
+C:103, 0: Line too long (108/100) (line-too-long)
+C:157, 0: Wrong continued indentation (remove 4 spaces).
+                                      % (self.parameters['vserver'], to_native(error)),
+                                  |   ^ (bad-continuation)
+C:162, 0: Line too long (114/100) (line-too-long)
+C:181, 0: Wrong continued indentation (remove 4 spaces).
+                                      % (self.parameters['vserver'], to_native(error)),
+                                  |   ^ (bad-continuation)
+C:196, 0: Wrong continued indentation (remove 4 spaces).
+                                      % (self.parameters['peer_vserver'], to_native(error)),
+                                  |   ^ (bad-continuation)
+C:220, 0: Wrong continued indentation (remove 4 spaces).
+                                      % (self.parameters['vserver'], to_native(error)),
+                                  |   ^ (bad-continuation)
+C:236, 0: Wrong continued indentation (remove 4 spaces).
+                                      % (self.parameters['peer_vserver'], to_native(error)),
+                                  |   ^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 81, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C: 82, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 83, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 84, 0: Import "import ansible.module_utils.netapp as netapp_utils" should be placed at the top of the module (wrong-import-position)
+C: 85, 0: Import "from ansible.module_utils.netapp_module import NetAppModule" should be placed at the top of the module (wrong-import-position)
+
+-----------------------------------
+Your code has been rated at 8.48/10
+

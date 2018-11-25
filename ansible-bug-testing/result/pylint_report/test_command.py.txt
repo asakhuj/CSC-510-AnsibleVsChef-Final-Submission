@@ -1,0 +1,10 @@
+************* Module test_command
+C: 10, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W:  3, 0: Redefining built-in 'input' (redefined-builtin)
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  3, 0: Unable to import 'ansible.module_utils.six.moves' (import-error)
+C:  6, 0: Constant name "prompts" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+------------------------------------
+Your code has been rated at -5.00/10
+

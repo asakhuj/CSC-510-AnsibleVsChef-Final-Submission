@@ -1,0 +1,32 @@
+************* Module ansible.module_utils.facts.collector
+W: 98, 0: TODO/MAYBE: rename to 'collect' and add 'collect_without_namespace' (fixme)
+W:378, 0: TODO: name collisions here? are there facts with the same name as a gather_subset (all, network, hardware, virtual, ohai, facter) (fixme)
+C:185, 0: Line too long (108/100) (line-too-long)
+C:325, 0: Line too long (119/100) (line-too-long)
+C:378, 0: Line too long (135/100) (line-too-long)
+C:383, 0: Line too long (114/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 30, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 50, 0: Missing class docstring (missing-docstring)
+C: 54, 0: Missing class docstring (missing-docstring)
+C: 58, 0: Missing class docstring (missing-docstring)
+C: 79, 4: Missing method docstring (missing-docstring)
+C: 99, 4: Missing method docstring (missing-docstring)
+W:106,22: Unused argument 'module' (unused-argument)
+W:106,35: Unused argument 'collected_facts' (unused-argument)
+R:106, 4: Method could be a function (no-self-use)
+W:124,24: Unused argument 'platform_info' (unused-argument)
+C:199, 0: Missing function docstring (missing-docstring)
+C:223, 0: Missing function docstring (missing-docstring)
+W:232,23: Access to a protected member _fact_ids of a client class (protected-access)
+C:239, 0: Missing function docstring (missing-docstring)
+C:283, 0: Missing function docstring (missing-docstring)
+C:297, 0: Missing function docstring (missing-docstring)
+C:308, 0: Missing function docstring (missing-docstring)
+C:345, 0: Function name "collector_classes_from_gather_subset" doesn't conform to snake_case naming style (invalid-name)
+R:345, 0: Too many arguments (6/5) (too-many-arguments)
+R:345, 0: Too many local variables (18/15) (too-many-locals)
+
+-----------------------------------
+Your code has been rated at 8.62/10
+

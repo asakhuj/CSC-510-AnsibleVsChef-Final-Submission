@@ -1,0 +1,33 @@
+************* Module ansible.module_utils.univention_umc
+C: 72, 0: Constant name "_singletons" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 75, 0: Missing function docstring (missing-docstring)
+W: 76, 4: Relative import 'ldap', should be 'ansible.module_utils.ldap' (relative-import)
+C: 87, 0: Missing function docstring (missing-docstring)
+C: 89, 4: Missing function docstring (missing-docstring)
+E: 90, 8: Unable to import 'univention.config_registry' (import-error)
+C: 98, 0: Missing function docstring (missing-docstring)
+C:105, 4: Missing function docstring (missing-docstring)
+E:115, 8: Unable to import 'univention.admin.uldap' (import-error)
+C:127, 0: Missing function docstring (missing-docstring)
+C:128, 4: Missing function docstring (missing-docstring)
+E:129, 8: Unable to import 'univention.admin.config' (import-error)
+C:134, 0: Missing function docstring (missing-docstring)
+C:135, 4: Missing function docstring (missing-docstring)
+E:136, 8: Unable to import 'univention.admin.modules' (import-error)
+C:142, 0: Missing function docstring (missing-docstring)
+C:143, 4: Missing function docstring (missing-docstring)
+E:144, 8: Unable to import 'univention.admin.uldap' (import-error)
+C:149, 0: Argument name "dn" doesn't conform to snake_case naming style (invalid-name)
+C:149, 0: Missing function docstring (missing-docstring)
+W:155,16: Redefining built-in 'filter' (redefined-builtin)
+E:163, 8: Module 'ansible.module_utils.ldap' has no 'SCOPE_SUBTREE' member (no-member)
+E:174,26: Module 'ansible.module_utils.ldap' has no 'RES_SEARCH_RESULT' member (no-member)
+E:177,30: Module 'ansible.module_utils.ldap' has no 'RES_SEARCH_ENTRY' member (no-member)
+C:198, 4: Missing function docstring (missing-docstring)
+E:199, 8: Unable to import 'univention.admin.modules' (import-error)
+E:214, 4: Unable to import 'univention.admin' (import-error)
+E:275, 4: Unable to import 'univention.admin.uexceptions' (import-error)
+
+-----------------------------------
+Your code has been rated at 3.27/10
+

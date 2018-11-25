@@ -1,0 +1,26 @@
+************* Module ansible.plugins.inventory.nmap
+W:155, 0: TODO: parse more data, OS? (fixme)
+C:123, 0: Line too long (109/100) (line-too-long)
+C:152, 0: Line too long (158/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 53, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C: 54, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C: 56, 0: Import "from subprocess import Popen, PIPE" should be placed at the top of the module (wrong-import-position)
+C: 58, 0: Import "from ansible import constants as C" should be placed at the top of the module (wrong-import-position)
+C: 59, 0: Import "from ansible.errors import AnsibleParserError" should be placed at the top of the module (wrong-import-position)
+C: 60, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 61, 0: Import "from ansible.plugins.inventory import BaseInventoryPlugin, Constructable, Cacheable" should be placed at the top of the module (wrong-import-position)
+C: 64, 0: Missing class docstring (missing-docstring)
+E: 87,33: Module 'ansible.constants' has no 'YAML_FILENAME_EXTENSIONS' member (no-member)
+W: 85,12: Unused variable 'file_name' (unused-variable)
+R: 92, 4: Too many local variables (16/15) (too-many-locals)
+C:120,12: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:127,12: Variable name "ip" doesn't conform to snake_case naming style (invalid-name)
+C:141,20: Variable name "ip" doesn't conform to snake_case naming style (invalid-name)
+C:161,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R: 92, 4: Too many branches (16/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 6.79/10
+

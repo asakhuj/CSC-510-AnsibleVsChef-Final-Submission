@@ -1,0 +1,18 @@
+************* Module ansible.modules.cloud.azure.azure_rm_publicipaddress_facts
+C:152, 0: Line too long (111/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+W: 80, 0: No exception type(s) specified (bare-except)
+E: 78, 4: Unable to import 'msrestazure.azure_exceptions' (import-error)
+E: 79, 4: Unable to import 'azure.common' (import-error)
+C: 84, 0: Import "from ansible.module_utils.azure_rm_common import AzureRMModuleBase" should be placed at the top of the module (wrong-import-position)
+C: 89, 0: Missing class docstring (missing-docstring)
+C:129, 4: Missing method docstring (missing-docstring)
+C:147, 4: Missing method docstring (missing-docstring)
+C:163, 4: Missing method docstring (missing-docstring)
+C:180, 0: Missing function docstring (missing-docstring)
+W: 79, 4: Unused AzureMissingResourceHttpError imported from azure.common (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.31/10
+

@@ -1,0 +1,28 @@
+************* Module ansible.modules.database.mysql.mysql_variables
+C:154, 0: Line too long (141/100) (line-too-long)
+C:157, 0: Line too long (106/100) (line-too-long)
+C:176, 0: Line too long (104/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 10, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 49, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C: 50, 0: Import "import warnings" should be placed at the top of the module (wrong-import-position)
+C: 51, 0: Import "from re import match" should be placed at the top of the module (wrong-import-position)
+C: 53, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 54, 0: Import "from ansible.module_utils.database import SQLParseError, mysql_quote_identifier" should be placed at the top of the module (wrong-import-position)
+C: 55, 0: Import "from ansible.module_utils.mysql import mysql_connect, mysql_driver, mysql_driver_fail_msg" should be placed at the top of the module (wrong-import-position)
+C: 56, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 85, 0: Missing function docstring (missing-docstring)
+R: 88, 4: Unnecessary "else" after "return" (no-else-return)
+W:107,11: Catching too general exception Exception (broad-except)
+C:107,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:112, 0: Missing function docstring (missing-docstring)
+R:112, 0: Too many local variables (17/15) (too-many-locals)
+C:136, 4: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+W:152,11: Catching too general exception Exception (broad-except)
+C:152,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:172,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:112, 0: Too many branches (14/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 7.12/10
+

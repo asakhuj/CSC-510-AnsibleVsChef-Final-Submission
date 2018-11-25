@@ -1,0 +1,24 @@
+************* Module ansible.modules.storage.zfs.zpool_facts
+C:179, 0: Line too long (103/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:121, 0: Import "from collections import defaultdict" should be placed at the top of the module (wrong-import-position)
+C:123, 0: Import "from ansible.module_utils.six import iteritems" should be placed at the top of the module (wrong-import-position)
+C:124, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:127, 0: Missing class docstring (missing-docstring)
+C:139, 4: Missing method docstring (missing-docstring)
+C:145, 9: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+R:147, 8: The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)
+R:147, 8: Unnecessary "else" after "return" (no-else-return)
+W:145,18: Unused variable 'err' (unused-variable)
+W:145,13: Unused variable 'out' (unused-variable)
+W:169,22: Redefining built-in 'property' (redefined-builtin)
+C:152, 4: Missing method docstring (missing-docstring)
+C:165, 9: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:173,19: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+R:152, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:184, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 6.94/10
+

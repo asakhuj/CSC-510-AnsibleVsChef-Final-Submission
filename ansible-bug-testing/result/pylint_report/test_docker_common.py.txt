@@ -1,0 +1,12 @@
+************* Module units.module_utils.test_docker_common
+C:464, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  3, 0: Unable to import 'ansible.module_utils.docker_common' (import-error)
+W:458,33: Redefining name 'entry' from outer scope (line 454) (redefined-outer-name)
+C:458, 0: Missing function docstring (missing-docstring)
+W:463,25: Redefining name 'entry' from outer scope (line 454) (redefined-outer-name)
+C:463, 0: Missing function docstring (missing-docstring)
+
+------------------------------------
+Your code has been rated at -3.75/10
+

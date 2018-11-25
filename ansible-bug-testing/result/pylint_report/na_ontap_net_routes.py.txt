@@ -1,0 +1,21 @@
+************* Module ansible.modules.storage.netapp.na_ontap_net_routes
+C: 97, 0: Wrong hanging indentation (remove 7 spaces).
+                       'present', 'absent'], default='present'),
+                |      ^ (bad-continuation)
+C:118, 0: Line too long (114/100) (line-too-long)
+C:204, 0: Line too long (103/100) (line-too-long)
+C:277, 0: Line too long (118/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 75, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C: 77, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 78, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 79, 0: Import "import ansible.module_utils.netapp as netapp_utils" should be placed at the top of the module (wrong-import-position)
+C: 80, 0: Import "from ansible.module_utils.netapp_module import NetAppModule" should be placed at the top of the module (wrong-import-position)
+W:173,12: Unused variable 'result' (unused-variable)
+R:217, 4: Method could be a function (no-self-use)
+C:274,12: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.89/10
+

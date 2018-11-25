@@ -1,0 +1,30 @@
+************* Module ansible.module_utils.k8s.scale
+C:120, 0: Line too long (104/100) (line-too-long)
+C:151, 0: Line too long (112/100) (line-too-long)
+C:153, 0: Line too long (112/100) (line-too-long)
+C:167, 0: Line too long (104/100) (line-too-long)
+C:171, 0: Line too long (105/100) (line-too-long)
+C:179, 0: Line too long (101/100) (line-too-long)
+C:181, 0: Line too long (112/100) (line-too-long)
+C:183, 0: Line too long (108/100) (line-too-long)
+C:184, 0: Line too long (109/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 33, 4: Missing class docstring (missing-docstring)
+C: 46, 0: Missing class docstring (missing-docstring)
+R: 48, 4: Too many local variables (17/15) (too-many-locals)
+C:111, 4: Missing method docstring (missing-docstring)
+R:111, 4: Too many arguments (6/5) (too-many-arguments)
+C:126,12: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+W:130,15: Catching too general exception Exception (broad-except)
+E:139,25: No value for argument 'namespace' in method call (no-value-for-parameter)
+C:145, 8: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:148,12: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+W:149,12: Access to a protected member _api_client of a client class (protected-access)
+R:158, 4: Too many arguments (6/5) (too-many-arguments)
+W:175,15: Catching too general exception Exception (broad-except)
+R:161, 8: Too many nested blocks (6/5) (too-many-nested-blocks)
+R:187, 4: Method could be a function (no-self-use)
+
+-----------------------------------
+Your code has been rated at 7.75/10
+

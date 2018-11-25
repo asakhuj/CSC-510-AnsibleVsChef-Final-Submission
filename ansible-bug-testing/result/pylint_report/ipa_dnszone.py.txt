@@ -1,0 +1,28 @@
+************* Module ansible.modules.identity.ipa.ipa_dnszone
+C:115, 0: Wrong continued indentation (remove 1 space).
+                         )
+                        |^ (bad-continuation)
+C:119, 0: Wrong continued indentation (remove 1 space).
+                           )
+                          |^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 60, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 61, 0: Import "from ansible.module_utils.ipa import IPAClient, ipa_argument_spec" should be placed at the top of the module (wrong-import-position)
+C: 62, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 65, 0: Missing class docstring (missing-docstring)
+W: 66, 4: Useless super delegation in method '__init__' (useless-super-delegation)
+C: 69, 4: Missing method docstring (missing-docstring)
+C: 76, 4: Missing method docstring (missing-docstring)
+W: 76,42: Unused argument 'details' (unused-argument)
+C: 83, 4: Missing method docstring (missing-docstring)
+W: 83,42: Unused argument 'record_name' (unused-argument)
+W: 83,60: Unused argument 'details' (unused-argument)
+C: 88, 0: Missing function docstring (missing-docstring)
+C:111, 0: Missing function docstring (missing-docstring)
+W:135,11: Catching too general exception Exception (broad-except)
+C:135,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 5.96/10
+

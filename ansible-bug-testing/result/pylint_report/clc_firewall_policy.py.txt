@@ -1,0 +1,48 @@
+************* Module ansible.modules.cloud.centurylink.clc_firewall_policy
+C:410, 0: Wrong hanging indentation (remove 8 spaces).
+                        (source_account_alias, location), payload)
+                |       ^ (bad-continuation)
+C:414, 0: Wrong hanging indentation (remove 4 spaces).
+                    str(e.response_text))
+                |   ^ (bad-continuation)
+C:432, 0: Wrong hanging indentation (remove 10 spaces).
+                          (source_account_alias, location, firewall_policy_id))
+                |         ^ (bad-continuation)
+C:470, 0: Line too long (110/100) (line-too-long)
+C:494, 0: Line too long (117/100) (line-too-long)
+C:495, 0: Wrong hanging indentation (add 4 spaces).
+            response_enabled != request_enabled) or (
+            ^   | (bad-continuation)
+C:496, 0: Wrong hanging indentation (add 4 spaces).
+            response_source and response_source != request_source) or (
+            ^   | (bad-continuation)
+C:494, 0: Wrong hanging indentation before block (add 4 spaces).
+            response_dest_account_alias and str(response_dest_account_alias) != str(request_dest_account_alias)) or (
+            ^   | (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:155, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+E:156, 0: No name 'urllib' in module '_MovedItems' (no-name-in-module)
+E:156, 0: Unable to import 'ansible.module_utils.six.moves.urllib.parse' (import-error)
+C:156, 0: Import "from ansible.module_utils.six.moves.urllib.parse import urlparse" should be placed at the top of the module (wrong-import-position)
+C:157, 0: Import "from time import sleep" should be placed at the top of the module (wrong-import-position)
+C:158, 0: Import "from distutils.version import LooseVersion" should be placed at the top of the module (wrong-import-position)
+C:176, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:179, 0: Missing class docstring (missing-docstring)
+W:299,12: Access to a protected member _LOGIN_TOKEN_V2 of a client class (protected-access)
+W:300,12: Access to a protected member _V2_ENABLED of a client class (protected-access)
+R:283, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:411,36: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:433,36: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:461,36: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:493,11: Too many boolean expressions in if statement (9/5) (too-many-boolean-expressions)
+C:519,36: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:179, 0: Too few public methods (1/2) (too-few-public-methods)
+W:571,22: Access to a protected member _define_module_argument_spec of a client class (protected-access)
+C:157, 0: standard import "from time import sleep" should be placed before "from ansible.module_utils.six.moves.urllib.parse import urlparse" (wrong-import-order)
+C:158, 0: standard import "from distutils.version import LooseVersion" should be placed before "from ansible.module_utils.six.moves.urllib.parse import urlparse" (wrong-import-order)
+C:176, 0: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 7.81/10
+

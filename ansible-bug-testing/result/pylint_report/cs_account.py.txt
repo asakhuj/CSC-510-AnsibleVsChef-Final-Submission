@@ -1,0 +1,24 @@
+************* Module ansible.modules.cloud.cloudstack.cs_account
+C:412, 0: Line too long (114/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:201, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:202, 0: Import "from ansible.module_utils.cloudstack import AnsibleCloudStack, cs_argument_spec, cs_required_together" should be placed at the top of the module (wrong-import-position)
+C:209, 0: Missing class docstring (missing-docstring)
+C:224, 4: Missing method docstring (missing-docstring)
+C:239, 4: Missing method docstring (missing-docstring)
+W:243, 4: Parameters differ from overridden 'get_account' method (arguments-differ)
+C:253,20: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+C:260, 4: Missing method docstring (missing-docstring)
+C:277, 4: Missing method docstring (missing-docstring)
+C:280, 4: Missing method docstring (missing-docstring)
+C:283, 4: Missing method docstring (missing-docstring)
+C:309, 4: Missing method docstring (missing-docstring)
+C:338, 4: Missing method docstring (missing-docstring)
+C:364, 4: Missing method docstring (missing-docstring)
+C:384, 4: Missing method docstring (missing-docstring)
+W:397, 4: Parameters differ from overridden 'get_result' method (arguments-differ)
+C:408, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.55/10
+

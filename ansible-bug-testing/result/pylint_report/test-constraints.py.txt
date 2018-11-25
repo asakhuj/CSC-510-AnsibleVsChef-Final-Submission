@@ -1,0 +1,9 @@
+************* Module test-constraints
+C: 22, 0: Line too long (103/100) (line-too-long)
+C:  1, 0: Module name "test-constraints" doesn't conform to snake_case naming style (invalid-name)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.14/10
+

@@ -1,0 +1,9 @@
+************* Module line-endings
+C: 24, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:  1, 0: Module name "line-endings" doesn't conform to snake_case naming style (invalid-name)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 6.67/10
+

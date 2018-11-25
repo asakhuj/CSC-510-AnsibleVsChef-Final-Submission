@@ -1,0 +1,42 @@
+************* Module ansible.modules.cloud.amazon.aws_inspector_target
+C:159, 0: Wrong hanging indentation before block (add 4 spaces).
+        botocore.exceptions.BotoCoreError,
+        ^   | (bad-continuation)
+C:160, 0: Wrong hanging indentation before block (add 4 spaces).
+        botocore.exceptions.ClientError,
+        ^   | (bad-continuation)
+C:199, 0: Wrong hanging indentation before block (add 4 spaces).
+                botocore.exceptions.BotoCoreError,
+                ^   | (bad-continuation)
+C:200, 0: Wrong hanging indentation before block (add 4 spaces).
+                botocore.exceptions.ClientError,
+                ^   | (bad-continuation)
+C:224, 0: Wrong hanging indentation before block (add 4 spaces).
+            botocore.exceptions.BotoCoreError,
+            ^   | (bad-continuation)
+C:225, 0: Wrong hanging indentation before block (add 4 spaces).
+            botocore.exceptions.ClientError,
+            ^   | (bad-continuation)
+C:236, 0: Wrong hanging indentation before block (add 4 spaces).
+            botocore.exceptions.BotoCoreError,
+            ^   | (bad-continuation)
+C:237, 0: Wrong hanging indentation before block (add 4 spaces).
+            botocore.exceptions.ClientError,
+            ^   | (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 98, 0: Import "from ansible.module_utils.aws.core import AnsibleAWSModule" should be placed at the top of the module (wrong-import-position)
+C: 99, 0: Import "from ansible.module_utils.ec2 import AWSRetry" should be placed at the top of the module (wrong-import-position)
+C:100, 0: Import "from ansible.module_utils.ec2 import HAS_BOTO3, ansible_dict_to_boto3_tag_list, boto3_tag_list_to_ansible_dict, camel_dict_to_snake_dict, compare_aws_tags" should be placed at the top of the module (wrong-import-position)
+C:115, 0: Missing function docstring (missing-docstring)
+R:115, 0: Too many local variables (22/15) (too-many-locals)
+C:161, 9: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:197,16: Expression "(module.exit_json(changed=True, **updated_target), )" is assigned to nothing (expression-not-assigned)
+C:201,17: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:226,13: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:238,13: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:115, 0: Too many branches (13/12) (too-many-branches)
+R:115, 0: Too many statements (56/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 6.87/10
+

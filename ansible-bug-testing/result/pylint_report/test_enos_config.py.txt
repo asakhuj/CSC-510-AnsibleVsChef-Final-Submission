@@ -1,0 +1,28 @@
+************* Module units.modules.network.enos.test_enos_config
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 26, 0: Unable to import 'ansible.modules.network.enos' (import-error)
+C: 32, 0: Missing class docstring (missing-docstring)
+C: 51, 4: Missing method docstring (missing-docstring)
+C: 56, 4: Missing method docstring (missing-docstring)
+C: 63, 4: Missing method docstring (missing-docstring)
+C: 68, 4: Method name "test_enos_config_lines_wo_parents" doesn't conform to snake_case naming style (invalid-name)
+C: 68, 4: Missing method docstring (missing-docstring)
+C: 73, 4: Method name "test_enos_config_lines_w_parents" doesn't conform to snake_case naming style (invalid-name)
+C: 73, 4: Missing method docstring (missing-docstring)
+C: 78, 4: Missing method docstring (missing-docstring)
+C: 83, 4: Missing method docstring (missing-docstring)
+C: 88, 4: Method name "test_enos_config_before_after_no_change" doesn't conform to snake_case naming style (invalid-name)
+C: 88, 4: Missing method docstring (missing-docstring)
+C: 94, 4: Missing method docstring (missing-docstring)
+C:100, 4: Missing method docstring (missing-docstring)
+C:107, 4: Missing method docstring (missing-docstring)
+C:114, 4: Missing method docstring (missing-docstring)
+C:121, 4: Missing method docstring (missing-docstring)
+W: 23, 0: Unused import json (unused-import)
+C: 29, 0: first party import "from units.modules.utils import set_module_args" should be placed before "from .enos_module import TestEnosModule, load_fixture" (wrong-import-order)
+C: 29, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 6.71/10
+

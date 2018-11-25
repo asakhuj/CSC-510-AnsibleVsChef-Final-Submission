@@ -1,0 +1,18 @@
+************* Module ansible.plugins.callback.log_plays
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 21, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C: 22, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C: 23, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C: 25, 0: Import "from ansible.module_utils._text import to_bytes" should be placed at the top of the module (wrong-import-position)
+C: 26, 0: Import "from ansible.module_utils.common._collections_compat import MutableMapping" should be placed at the top of the module (wrong-import-position)
+C: 27, 0: Import "from ansible.parsing.ajson import AnsibleJSONEncoder" should be placed at the top of the module (wrong-import-position)
+C: 28, 0: Import "from ansible.plugins.callback import CallbackBase" should be placed at the top of the module (wrong-import-position)
+C: 57, 4: Missing method docstring (missing-docstring)
+E: 65,23: Module 'json' has no 'dumps' member (no-member)
+E: 67,27: Module 'json' has no 'dumps' member (no-member)
+C: 73,33: Variable name "fd" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 5.71/10
+

@@ -1,0 +1,23 @@
+************* Module ansible.modules.windows.win_updates
+C:  1, 0: Missing module docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.50/10
+
+************* Module ansible.plugins.action.win_updates
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  2, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 19, 0: Missing class docstring (missing-docstring)
+W: 69,19: Catching too general exception Exception (broad-except)
+R:102, 4: Method could be a function (no-self-use)
+R:107, 4: Too many arguments (6/5) (too-many-arguments)
+R:133, 4: Too many local variables (22/15) (too-many-locals)
+R:133, 4: Too many return statements (7/6) (too-many-return-statements)
+R:133, 4: Too many branches (18/12) (too-many-branches)
+R:133, 4: Too many statements (77/50) (too-many-statements)
+R: 19, 0: Too few public methods (1/2) (too-few-public-methods)
+C: 15, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 9.22/10
+

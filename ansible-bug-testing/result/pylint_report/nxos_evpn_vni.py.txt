@@ -1,0 +1,32 @@
+************* Module ansible.modules.network.nxos.nxos_evpn_vni
+W:275, 0: Bad indentation. Found 12 spaces, expected 8 (bad-indentation)
+W:276, 0: Bad indentation. Found 12 spaces, expected 8 (bad-indentation)
+W:277, 0: Bad indentation. Found 12 spaces, expected 8 (bad-indentation)
+W:278, 0: Bad indentation. Found 12 spaces, expected 8 (bad-indentation)
+W:279, 0: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
+W:280, 0: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
+W:281, 0: Bad indentation. Found 12 spaces, expected 8 (bad-indentation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 97, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C: 98, 0: Import "from ansible.module_utils.network.nxos.nxos import get_config, load_config, run_commands" should be placed at the top of the module (wrong-import-position)
+C: 99, 0: Import "from ansible.module_utils.network.nxos.nxos import nxos_argument_spec, check_args" should be placed at the top of the module (wrong-import-position)
+C:100, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:101, 0: Import "from ansible.module_utils.network.common.config import CustomNetworkConfig" should be placed at the top of the module (wrong-import-position)
+C:113, 0: Missing function docstring (missing-docstring)
+W:113,27: Unused argument 'module' (unused-argument)
+C:122, 0: Missing function docstring (missing-docstring)
+W:122,40: Unused argument 'module' (unused-argument)
+C:136, 0: Missing function docstring (missing-docstring)
+C:159, 0: Missing function docstring (missing-docstring)
+C:168, 0: Missing function docstring (missing-docstring)
+C:179, 0: Missing function docstring (missing-docstring)
+R:179, 0: Too many branches (19/12) (too-many-branches)
+C:227, 0: Missing function docstring (missing-docstring)
+W:227,35: Unused argument 'proposed' (unused-argument)
+W:227,25: Unused argument 'existing' (unused-argument)
+C:233, 0: Missing function docstring (missing-docstring)
+W: 98, 0: Unused run_commands imported from ansible.module_utils.network.nxos.nxos (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.03/10
+

@@ -1,0 +1,25 @@
+************* Module ansible.modules.storage.purestorage.purefb_network
+C:118, 0: Line too long (127/100) (line-too-long)
+C:119, 0: Line too long (112/100) (line-too-long)
+C:120, 0: Line too long (121/100) (line-too-long)
+C:121, 0: Wrong continued indentation (remove 1 space).
+                                                                                              )
+                                                                                             |^ (bad-continuation)
+C:122, 0: Wrong continued indentation (remove 1 space).
+                                                           )
+                                                          |^ (bad-continuation)
+C:125, 0: Line too long (136/100) (line-too-long)
+C:139, 0: Line too long (132/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 91, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 92, 0: Import "from ansible.module_utils.pure import get_blade, purefb_argument_spec" should be placed at the top of the module (wrong-import-position)
+W:105, 4: No exception type(s) specified (bare-except)
+W:124, 4: No exception type(s) specified (bare-except)
+W:141, 8: No exception type(s) specified (bare-except)
+W:153, 4: No exception type(s) specified (bare-except)
+C:158, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.95/10
+

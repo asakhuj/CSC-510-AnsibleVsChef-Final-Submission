@@ -1,0 +1,17 @@
+************* Module ansible.modules.cloud.cloudstack.cs_configuration
+C:  1, 0: Missing module docstring (missing-docstring)
+C:147, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:148, 0: Import "from ansible.module_utils.cloudstack import AnsibleCloudStack, cs_argument_spec, cs_required_together" should be placed at the top of the module (wrong-import-position)
+C:155, 0: Missing class docstring (missing-docstring)
+R:178, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:184, 4: Missing method docstring (missing-docstring)
+C:200, 4: Missing method docstring (missing-docstring)
+C:216, 4: Missing method docstring (missing-docstring)
+C:228, 4: Missing method docstring (missing-docstring)
+C:234, 4: Missing method docstring (missing-docstring)
+W:245, 4: Parameters differ from overridden 'get_result' method (arguments-differ)
+C:255, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.64/10
+

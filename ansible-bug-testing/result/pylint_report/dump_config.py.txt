@@ -1,0 +1,18 @@
+************* Module dump_config
+C: 21, 0: Line too long (156/100) (line-too-long)
+C: 22, 0: Line too long (129/100) (line-too-long)
+C: 23, 0: Line too long (116/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  9, 0: Unable to import 'ansible.module_utils._text' (import-error)
+E: 10, 0: Unable to import 'ansible.utils._build_helpers' (import-error)
+C: 15, 0: Missing function docstring (missing-docstring)
+C: 16, 4: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+W: 25,14: Unused variable 'args' (unused-variable)
+W: 25, 5: Unused variable 'options' (unused-variable)
+C: 43, 0: Missing function docstring (missing-docstring)
+C: 54,35: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+W: 43, 9: Unused argument 'args' (unused-argument)
+
+------------------------------------------------------------------
+Your code has been rated at 5.33/10 (previous run: 5.33/10, +0.00)
+

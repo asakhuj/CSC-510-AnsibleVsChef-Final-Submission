@@ -1,0 +1,11 @@
+************* Module units.module_utils.facts.hardware.linux_data
+C:161, 0: Line too long (114/100) (line-too-long)
+C:358, 0: Wrong continued indentation (remove 1 space).
+                }
+               |^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 17, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.36/10
+

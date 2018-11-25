@@ -1,0 +1,10 @@
+************* Module tests.version_helper_test
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  2, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 38, 0: Missing function docstring (missing-docstring)
+W: 43,11: Catching too general exception Exception (broad-except)
+C: 41, 8: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.15/10
+

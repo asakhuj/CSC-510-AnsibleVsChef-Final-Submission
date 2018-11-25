@@ -1,0 +1,19 @@
+************* Module ansible.module_utils.postgres
+C: 46, 0: Line too long (104/100) (line-too-long)
+C: 59, 0: Line too long (119/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 38, 0: Missing class docstring (missing-docstring)
+C: 42, 0: Missing function docstring (missing-docstring)
+C: 52, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 6.25/10
+
+************* Module ansible.utils.module_docs_fragments.postgres
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 17, 0: Missing class docstring (missing-docstring)
+R: 17, 0: Too few public methods (0/2) (too-few-public-methods)
+
+------------------------------------
+Your code has been rated at -5.00/10
+

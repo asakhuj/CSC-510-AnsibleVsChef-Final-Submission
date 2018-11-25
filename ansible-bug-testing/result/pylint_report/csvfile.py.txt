@@ -1,0 +1,28 @@
+************* Module ansible.plugins.lookup.csvfile
+C:157, 0: Line too long (135/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 61, 0: Import "import codecs" should be placed at the top of the module (wrong-import-position)
+C: 62, 0: Import "import csv" should be placed at the top of the module (wrong-import-position)
+C: 64, 0: Import "from ansible.errors import AnsibleError, AnsibleAssertionError" should be placed at the top of the module (wrong-import-position)
+C: 65, 0: Import "from ansible.plugins.lookup import LookupBase" should be placed at the top of the module (wrong-import-position)
+C: 66, 0: Import "from ansible.module_utils.six import PY2" should be placed at the top of the module (wrong-import-position)
+C: 67, 0: Import "from ansible.module_utils._text import to_bytes, to_native, to_text" should be placed at the top of the module (wrong-import-position)
+C: 68, 0: Import "from ansible.module_utils.common._collections_compat import MutableSequence" should be placed at the top of the module (wrong-import-position)
+C: 75, 4: Argument name "f" doesn't conform to snake_case naming style (invalid-name)
+C: 93, 4: Argument name "f" doesn't conform to snake_case naming style (invalid-name)
+C:111, 0: Missing class docstring (missing-docstring)
+C:113, 4: Missing method docstring (missing-docstring)
+R:113, 4: Too many arguments (7/5) (too-many-arguments)
+C:116,12: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C:120,19: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:122,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:113, 4: Method could be a function (no-self-use)
+R:127, 4: Too many local variables (16/15) (too-many-locals)
+C:150,51: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:160,24: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+W: 67, 0: Unused to_bytes imported from ansible.module_utils._text (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.57/10
+

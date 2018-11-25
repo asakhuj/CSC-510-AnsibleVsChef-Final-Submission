@@ -1,0 +1,27 @@
+************* Module ansible.module_utils.facts.hardware.hurd
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 17, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 51, 0: Missing class docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.70/10
+
+************* Module ansible.module_utils.facts.network.hurd
+W: 47, 0: FIXME: extract to method (fixme)
+W: 48, 0: FIXME: exit early on falsey socket_path and un-indent whole block (fixme)
+W: 52, 0: FIXME: build up a interfaces datastructure, then assign into network_facts (fixme)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 17, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+R: 32, 4: Too many local variables (16/15) (too-many-locals)
+C: 41,12: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+C: 51,12: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C: 56,23: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C: 61,24: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+W: 51,12: Unused variable 'rc' (unused-variable)
+W: 51,21: Unused variable 'err' (unused-variable)
+R: 24, 0: Too few public methods (1/2) (too-few-public-methods)
+C: 84, 0: Missing class docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 6.59/10
+

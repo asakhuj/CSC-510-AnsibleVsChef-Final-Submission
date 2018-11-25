@@ -1,0 +1,19 @@
+************* Module ansible.modules.network.netvisor.pn_vlag
+C:263, 0: Wrong hanging indentation (remove 9 spaces).
+                         'active-standby', 'active-active']),
+                |        ^ (bad-continuation)
+C:267, 0: Wrong hanging indentation (remove 14 spaces).
+                              'off', 'passive', 'active']),
+                |             ^ (bad-continuation)
+C:270, 0: Wrong hanging indentation (remove 18 spaces).
+                                  'individual', 'bundled']),
+                |                 ^ (bad-continuation)
+C:136, 0: Import "import shlex" should be placed at the top of the module (wrong-import-position)
+C:139, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+W:183, 4: Using the global statement (global-statement)
+R:184, 4: The if statement can be replaced with 'var = bool(test)' (simplifiable-if-statement)
+R:250, 0: Too many branches (13/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 9.14/10
+

@@ -1,0 +1,30 @@
+************* Module ansible.modules.cloud.profitbricks.profitbricks_volume_attachments
+C:141, 0: Unnecessary parens after 'not' keyword (superfluous-parens)
+C:150, 0: Unnecessary parens after 'not' keyword (superfluous-parens)
+C:158, 0: Unnecessary parens after 'not' keyword (superfluous-parens)
+C:185, 0: Unnecessary parens after 'not' keyword (superfluous-parens)
+C:194, 0: Unnecessary parens after 'not' keyword (superfluous-parens)
+C:202, 0: Unnecessary parens after 'not' keyword (superfluous-parens)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 85, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C: 86, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C: 94, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 97, 0: Constant name "uuid_match" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:143,12: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:144,12: Variable name "dc" doesn't conform to snake_case naming style (invalid-name)
+C:152,12: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+C:160,12: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:187,12: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:188,12: Variable name "dc" doesn't conform to snake_case naming style (invalid-name)
+C:196,12: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+C:204,12: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:212, 0: Missing function docstring (missing-docstring)
+W:253,15: Catching too general exception Exception (broad-except)
+C:253,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:259,15: Catching too general exception Exception (broad-except)
+C:259,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.64/10
+

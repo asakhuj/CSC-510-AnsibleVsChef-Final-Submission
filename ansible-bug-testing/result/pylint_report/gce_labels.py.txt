@@ -1,0 +1,25 @@
+************* Module ansible.modules.cloud.google.gce_labels
+W:147, 0: TODO(all): As Labels are added to more GCE resources, this list will need to (fixme)
+W:177, 0: TODO(all): See the comment above for KNOWN_RESOURCES. As labels are (fixme)
+W:214, 0: TODO(all): See the comment above for KNOWN_RESOURCES. As labels are (fixme)
+W:238, 0: TODO(erjohnso): Once Labels goes GA, we'll be able to use the GCPUtils (fixme)
+W:311, 0: TODO(erjohnso): probably want to re-fetch the resource to return the (fixme)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:139, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:140, 0: Import "from ansible.module_utils.gcp import check_params, get_google_api_client, GCPUtils" should be placed at the top of the module (wrong-import-position)
+R:153, 0: Too many branches (13/12) (too-many-branches)
+C:206, 0: Argument name "ri" doesn't conform to snake_case naming style (invalid-name)
+W:208, 4: Unused variable 'result' (unused-variable)
+C:251, 0: Missing function docstring (missing-docstring)
+C:291,15: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:299,15: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+W:307,17: Unused variable 'err' (unused-variable)
+W:280,12: Unused variable 'cparams' (unused-variable)
+W:134, 4: Unused literal_eval imported from ast (unused-import)
+W:140, 0: Unused check_params imported from ansible.module_utils.gcp (unused-import)
+W:140, 0: Unused GCPUtils imported from ansible.module_utils.gcp (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.73/10
+

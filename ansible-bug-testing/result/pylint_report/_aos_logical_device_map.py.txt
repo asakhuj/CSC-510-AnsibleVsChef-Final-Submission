@@ -1,0 +1,22 @@
+************* Module ansible.modules.network.aos._aos_logical_device_map
+C:156, 0: Line too long (140/100) (line-too-long)
+C:195, 0: Line too long (101/100) (line-too-long)
+C:249, 0: Line too long (111/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:152, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C:153, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C:155, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:156, 0: Import "from ansible.module_utils.network.aos.aos import get_aos_session, find_collection_item, do_load_resource, check_aos_version, content_to_dict" should be placed at the top of the module (wrong-import-position)
+C:163, 0: Missing function docstring (missing-docstring)
+W:178, 8: No exception type(s) specified (bare-except)
+W:163,38: Unused argument 'aos' (unused-argument)
+C:187, 0: Missing function docstring (missing-docstring)
+C:214, 0: Missing function docstring (missing-docstring)
+W:220, 4: No exception type(s) specified (bare-except)
+W:248, 4: No exception type(s) specified (bare-except)
+C:263, 0: Missing function docstring (missing-docstring)
+W:152, 0: Unused import json (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.12/10
+

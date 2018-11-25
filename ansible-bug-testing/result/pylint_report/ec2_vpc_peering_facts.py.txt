@@ -1,0 +1,20 @@
+************* Module ansible.modules.cloud.amazon.ec2_vpc_peering_facts
+C: 78, 0: Line too long (109/100) (line-too-long)
+C: 91, 0: Line too long (112/100) (line-too-long)
+C:127, 0: Line too long (123/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 69, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C: 76, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 77, 0: Import "from ansible.module_utils.ec2 import ec2_argument_spec, boto3_conn, get_aws_connection_info, ansible_dict_to_boto3_filter_list, HAS_BOTO3, camel_dict_to_snake_dict" should be placed at the top of the module (wrong-import-position)
+C: 81, 0: Missing function docstring (missing-docstring)
+C: 85, 0: Missing function docstring (missing-docstring)
+W: 92,11: Catching too general exception Exception (broad-except)
+C: 92,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C: 98, 0: Missing function docstring (missing-docstring)
+C:116,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:128,53: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.88/10
+

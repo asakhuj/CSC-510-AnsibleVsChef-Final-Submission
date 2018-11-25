@@ -1,0 +1,25 @@
+************* Module ansible.modules.packaging.language.gem
+C:259, 0: Line too long (111/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:119, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:121, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:124, 0: Missing function docstring (missing-docstring)
+C:132, 0: Missing function docstring (missing-docstring)
+C:134, 5: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W:134,14: Unused variable 'err' (unused-variable)
+W:134, 5: Unused variable 'rc' (unused-variable)
+C:143, 0: Missing function docstring (missing-docstring)
+C:149, 0: Missing function docstring (missing-docstring)
+C:161, 5: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W:161,14: Unused variable 'err' (unused-variable)
+W:161, 5: Unused variable 'rc' (unused-variable)
+C:172, 0: Missing function docstring (missing-docstring)
+C:187, 0: Missing function docstring (missing-docstring)
+C:206, 0: Missing function docstring (missing-docstring)
+R:206, 0: Too many branches (16/12) (too-many-branches)
+C:250, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.47/10
+

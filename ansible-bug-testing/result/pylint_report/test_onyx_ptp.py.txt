@@ -1,0 +1,31 @@
+************* Module units.modules.network.onyx.test_onyx_ptp
+C: 38, 0: Line too long (104/100) (line-too-long)
+C: 40, 0: Line too long (104/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 24, 0: Unable to import 'ansible.modules.network.onyx' (import-error)
+C: 29, 0: Missing class docstring (missing-docstring)
+R: 29, 0: Too many instance attributes (8/7) (too-many-instance-attributes)
+C: 67, 4: Missing method docstring (missing-docstring)
+C: 71, 4: Missing method docstring (missing-docstring)
+C: 77, 4: Missing method docstring (missing-docstring)
+C: 82, 4: Missing method docstring (missing-docstring)
+C: 87, 4: Missing method docstring (missing-docstring)
+C: 93, 4: Missing method docstring (missing-docstring)
+C:101, 4: Missing method docstring (missing-docstring)
+C:106, 4: Missing method docstring (missing-docstring)
+C:111, 4: Missing method docstring (missing-docstring)
+C:117, 4: Missing method docstring (missing-docstring)
+C:122, 4: Method name "test_set_primary_priority_no_change" doesn't conform to snake_case naming style (invalid-name)
+C:122, 4: Missing method docstring (missing-docstring)
+C:126, 4: Method name "test_set_primary_priority_with_change" doesn't conform to snake_case naming style (invalid-name)
+C:126, 4: Missing method docstring (missing-docstring)
+C:131, 4: Method name "test_set_secondary_priority_no_change" doesn't conform to snake_case naming style (invalid-name)
+C:131, 4: Missing method docstring (missing-docstring)
+C:135, 4: Method name "test_set_secondary_priority_with_change" doesn't conform to snake_case naming style (invalid-name)
+C:135, 4: Missing method docstring (missing-docstring)
+C: 25, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 6.67/10
+

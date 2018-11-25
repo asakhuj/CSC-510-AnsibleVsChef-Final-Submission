@@ -1,0 +1,24 @@
+************* Module ansible.modules.network.junos.junos_netconf
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 78, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C: 80, 0: Import "from ansible.module_utils._text import to_text" should be placed at the top of the module (wrong-import-position)
+C: 81, 0: Import "from ansible.module_utils.connection import ConnectionError" should be placed at the top of the module (wrong-import-position)
+C: 82, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 83, 0: Import "from ansible.module_utils.network.junos.junos import junos_argument_spec, get_connection" should be placed at the top of the module (wrong-import-position)
+C: 84, 0: Import "from ansible.module_utils.network.junos.junos import commit_configuration, discard_changes" should be placed at the top of the module (wrong-import-position)
+C: 85, 0: Import "from ansible.module_utils.network.common.utils import to_list" should be placed at the top of the module (wrong-import-position)
+C: 86, 0: Import "from ansible.module_utils.six import iteritems" should be placed at the top of the module (wrong-import-position)
+C: 91, 0: Missing function docstring (missing-docstring)
+W: 91,33: Unused argument 'module' (unused-argument)
+C:107, 0: Missing function docstring (missing-docstring)
+R:107, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:113, 0: Missing function docstring (missing-docstring)
+C:129, 0: Missing function docstring (missing-docstring)
+C:134, 0: Missing function docstring (missing-docstring)
+C:149, 0: Missing function docstring (missing-docstring)
+W:193,15: Access to a protected member _diff of a client class (protected-access)
+
+-----------------------------------
+Your code has been rated at 7.62/10
+

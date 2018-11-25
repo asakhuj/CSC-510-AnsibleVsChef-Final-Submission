@@ -1,0 +1,16 @@
+************* Module ansible.parsing.utils.addresses
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 28, 0: Constant name "numeric_range" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 35, 0: Constant name "hexadecimal_range" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 42, 0: Constant name "alphanumeric_range" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 56, 0: Constant name "ipv6_component" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 63, 0: Constant name "ipv4_component" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 77, 0: Constant name "label" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 83, 0: Constant name "patterns" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:190, 8: Variable name "m" doesn't conform to snake_case naming style (invalid-name)
+C:201, 8: Variable name "m" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.33/10
+

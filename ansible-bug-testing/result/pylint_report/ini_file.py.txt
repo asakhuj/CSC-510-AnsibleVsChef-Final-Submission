@@ -1,0 +1,29 @@
+************* Module ansible.modules.files.ini_file
+C:283, 0: Line too long (104/100) (line-too-long)
+C:289, 0: Line too long (115/100) (line-too-long)
+C:322, 0: Line too long (140/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 10, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:115, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:116, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:117, 0: Import "import tempfile" should be placed at the top of the module (wrong-import-position)
+C:118, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:120, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:123, 0: Missing function docstring (missing-docstring)
+C:130, 0: Missing function docstring (missing-docstring)
+C:135, 0: Missing function docstring (missing-docstring)
+R:135, 0: Too many arguments (10/5) (too-many-arguments)
+R:135, 0: Too many local variables (29/15) (too-many-locals)
+W:160, 7: Access to a protected member _diff of a client class (protected-access)
+R:198, 4: Too many nested blocks (7/5) (too-many-nested-blocks)
+R:198, 4: Too many nested blocks (8/5) (too-many-nested-blocks)
+W:269, 7: Access to a protected member _diff of a client class (protected-access)
+C:279,12: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+R:135, 0: Too many branches (43/12) (too-many-branches)
+R:135, 0: Too many statements (109/50) (too-many-statements)
+C:294, 0: Missing function docstring (missing-docstring)
+R:294, 0: Too many local variables (16/15) (too-many-locals)
+
+-----------------------------------
+Your code has been rated at 8.32/10
+

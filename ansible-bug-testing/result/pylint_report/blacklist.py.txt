@@ -1,0 +1,11 @@
+************* Module blacklist
+C: 39, 0: Line too long (102/100) (line-too-long)
+C:158, 0: Line too long (114/100) (line-too-long)
+C:168, 0: Line too long (121/100) (line-too-long)
+C:211, 0: Line too long (109/100) (line-too-long)
+C:  4, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+R: 12, 0: Too few public methods (1/2) (too-few-public-methods)
+
+-----------------------------------
+Your code has been rated at 9.29/10
+

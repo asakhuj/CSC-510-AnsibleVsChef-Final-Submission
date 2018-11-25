@@ -1,0 +1,30 @@
+************* Module ansible.modules.clustering.znode
+C:165, 0: Line too long (101/100) (line-too-long)
+C:233, 0: Line too long (115/100) (line-too-long)
+C:236, 0: Line too long (104/100) (line-too-long)
+C:248, 0: Line too long (108/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 97, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C:106, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:107, 0: Import "from ansible.module_utils._text import to_bytes" should be placed at the top of the module (wrong-import-position)
+C:110, 0: Missing function docstring (missing-docstring)
+C:160, 0: Missing function docstring (missing-docstring)
+C:173, 8: Attribute name "zk" doesn't conform to snake_case naming style (invalid-name)
+C:170, 0: Missing class docstring (missing-docstring)
+C:175, 4: Missing method docstring (missing-docstring)
+C:178, 4: Missing method docstring (missing-docstring)
+C:181, 4: Missing method docstring (missing-docstring)
+C:186, 4: Missing method docstring (missing-docstring)
+C:189, 4: Missing method docstring (missing-docstring)
+C:192, 4: Missing method docstring (missing-docstring)
+C:196, 4: Missing method docstring (missing-docstring)
+C:199, 4: Missing method docstring (missing-docstring)
+R:203, 8: Unnecessary "else" after "return" (no-else-return)
+R:226, 8: Unnecessary "else" after "return" (no-else-return)
+R:228,12: Unnecessary "else" after "return" (no-else-return)
+W:227,28: Unused variable 'zstat' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 7.42/10
+

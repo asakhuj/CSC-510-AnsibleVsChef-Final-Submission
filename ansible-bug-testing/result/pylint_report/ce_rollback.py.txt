@@ -1,0 +1,18 @@
+************* Module ansible.modules.network.cloudengine.ce_rollback
+C:118, 0: Line too long (120/100) (line-too-long)
+C:209, 0: Line too long (107/100) (line-too-long)
+C:401, 0: Line too long (104/100) (line-too-long)
+C:415, 0: Line too long (103/100) (line-too-long)
+C:424, 0: Line too long (103/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:116, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:117, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:118, 0: Import "from ansible.module_utils.network.cloudengine.ce import get_nc_config, execute_nc_action, ce_argument_spec, run_commands" should be placed at the top of the module (wrong-import-position)
+R:207, 0: Too many instance attributes (15/7) (too-many-instance-attributes)
+R:255, 8: Unnecessary "else" after "return" (no-else-return)
+R:381, 4: Too many branches (15/12) (too-many-branches)
+R:452, 4: Too many branches (15/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 9.37/10
+

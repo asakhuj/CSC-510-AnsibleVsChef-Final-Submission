@@ -1,0 +1,23 @@
+************* Module testserver
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 8: Missing class docstring (missing-docstring)
+C: 13, 8: Constant name "httpd" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.12/10
+
+************* Module testserver
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 8: Missing class docstring (missing-docstring)
+C: 13, 8: Constant name "httpd" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 8.12/10 (previous run: 8.12/10, +0.00)
+
+************* Module testserver
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 8: Constant name "httpd" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 8.57/10 (previous run: 8.12/10, +0.45)
+

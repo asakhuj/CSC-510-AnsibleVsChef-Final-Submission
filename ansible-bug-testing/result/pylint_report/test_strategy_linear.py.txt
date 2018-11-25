@@ -1,0 +1,31 @@
+************* Module units.plugins.strategy.test_strategy_linear
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 12, 0: Unable to import 'ansible.executor.play_iterator' (import-error)
+E: 13, 0: Unable to import 'ansible.playbook' (import-error)
+E: 14, 0: Unable to import 'ansible.playbook.play_context' (import-error)
+E: 15, 0: Unable to import 'ansible.plugins.strategy.linear' (import-error)
+E: 16, 0: Unable to import 'ansible.executor.task_queue_manager' (import-error)
+C: 22, 0: Missing class docstring (missing-docstring)
+C: 31, 4: Missing method docstring (missing-docstring)
+R: 31, 4: Too many local variables (17/15) (too-many-locals)
+W: 56, 8: Access to a protected member _fact_cache of a client class (protected-access)
+C: 59, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+W: 67, 8: Access to a protected member _fact_cache of a client class (protected-access)
+W: 73,40: Access to a protected member _entries of a client class (protected-access)
+W: 77,17: Access to a protected member _entries of a client class (protected-access)
+W: 93, 8: Access to a protected member _initialize_processes of a client class (protected-access)
+W: 98,22: Access to a protected member _get_next_task_lockstep of a client class (protected-access)
+W:108,22: Access to a protected member _get_next_task_lockstep of a client class (protected-access)
+W:123,22: Access to a protected member _get_next_task_lockstep of a client class (protected-access)
+W:135,22: Access to a protected member _get_next_task_lockstep of a client class (protected-access)
+W:147,22: Access to a protected member _get_next_task_lockstep of a client class (protected-access)
+W:159,22: Access to a protected member _get_next_task_lockstep of a client class (protected-access)
+W:169,22: Access to a protected member _get_next_task_lockstep of a client class (protected-access)
+W:179,22: Access to a protected member _get_next_task_lockstep of a client class (protected-access)
+R: 31, 4: Too many statements (92/50) (too-many-statements)
+C: 18, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 5.78/10
+

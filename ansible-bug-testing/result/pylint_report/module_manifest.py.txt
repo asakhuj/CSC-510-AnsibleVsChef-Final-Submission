@@ -1,0 +1,28 @@
+************* Module ansible.executor.powershell.module_manifest
+C: 39, 0: Line too long (114/100) (line-too-long)
+C: 40, 0: Line too long (114/100) (line-too-long)
+C: 42, 0: Line too long (108/100) (line-too-long)
+C: 43, 0: Line too long (117/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 22, 0: Missing class docstring (missing-docstring)
+R: 22, 0: Too many instance attributes (14/7) (too-many-instance-attributes)
+C: 46, 4: Missing method docstring (missing-docstring)
+R: 46, 4: Too many local variables (17/15) (too-many-locals)
+C: 99,12: Variable name "m" doesn't conform to snake_case naming style (invalid-name)
+R: 46, 4: Too many branches (16/12) (too-many-branches)
+C:102, 4: Missing method docstring (missing-docstring)
+E:117,11: Module 'ansible.constants' has no 'DEFAULT_DEBUG' member (no-member)
+C:125, 8: Variable name "m" doesn't conform to snake_case naming style (invalid-name)
+C:126, 8: Variable name "m" doesn't conform to snake_case naming style (invalid-name)
+C:164, 4: Variable name "fd" doesn't conform to snake_case naming style (invalid-name)
+C:175, 8: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+R:192, 0: Too many arguments (10/5) (too-many-arguments)
+R:192, 0: Too many local variables (21/15) (too-many-locals)
+C:252, 7: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:252,43: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+W:253, 8: Access to a protected member _add_module of a client class (protected-access)
+
+------------------------------------------------------------------
+Your code has been rated at 8.46/10 (previous run: 8.46/10, +0.00)
+

@@ -1,0 +1,15 @@
+************* Module brook
+C: 92, 0: Line too long (101/100) (line-too-long)
+C:170, 0: Line too long (116/100) (line-too-long)
+C:261, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W: 91, 0: No exception type(s) specified (bare-except)
+E: 90, 4: Unable to import 'libbrook' (import-error)
+C: 95, 0: Missing class docstring (missing-docstring)
+C: 95, 0: Old-style class defined. (old-style-class)
+R:145, 4: Too many local variables (16/15) (too-many-locals)
+R:205, 4: Method could be a function (no-self-use)
+C:260, 0: Constant name "brook" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 8.60/10 (previous run: 8.60/10, +0.00)
+

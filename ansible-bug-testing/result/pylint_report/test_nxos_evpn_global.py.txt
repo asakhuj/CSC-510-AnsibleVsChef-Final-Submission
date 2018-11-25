@@ -1,0 +1,14 @@
+************* Module units.modules.network.nxos.test_nxos_evpn_global
+C: 40, 0: Line too long (108/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 24, 0: Unable to import 'ansible.modules.network.nxos' (import-error)
+C: 28, 0: Missing class docstring (missing-docstring)
+C: 53, 4: Missing method docstring (missing-docstring)
+C: 57, 4: Missing method docstring (missing-docstring)
+C: 61, 4: Missing method docstring (missing-docstring)
+C: 66, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 6.49/10
+

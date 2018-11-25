@@ -1,0 +1,82 @@
+************* Module units.playbook.test_conditional
+C: 53, 0: Line too long (113/100) (line-too-long)
+C: 94, 0: Line too long (101/100) (line-too-long)
+C: 95, 0: Wrong continued indentation (remove 1 space).
+                                                                 }}
+                                                                |^ (bad-continuation)
+C: 99, 0: Line too long (117/100) (line-too-long)
+C:110, 0: Wrong continued indentation (remove 1 space).
+                                  },
+                                 |^ (bad-continuation)
+C:112, 0: Wrong continued indentation (remove 1 space).
+                     }
+                    |^ (bad-continuation)
+C:117, 0: Line too long (114/100) (line-too-long)
+C:118, 0: Line too long (113/100) (line-too-long)
+C:119, 0: Line too long (114/100) (line-too-long)
+C:127, 0: Line too long (101/100) (line-too-long)
+C:128, 0: Wrong continued indentation (remove 1 space).
+                                                                 }}
+                                                                |^ (bad-continuation)
+C:133, 0: Line too long (106/100) (line-too-long)
+C:141, 0: Line too long (101/100) (line-too-long)
+C:142, 0: Wrong continued indentation (remove 1 space).
+                                                                 }}
+                                                                |^ (bad-continuation)
+C:146, 0: Line too long (117/100) (line-too-long)
+C:192, 0: Wrong continued indentation (remove 1 space).
+                     }
+                    |^ (bad-continuation)
+C:206, 0: Wrong continued indentation (remove 1 space).
+                     }
+                    |^ (bad-continuation)
+C:212, 0: Line too long (105/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  6, 0: Unable to import 'ansible.plugins.strategy' (import-error)
+E:  7, 0: Unable to import 'ansible.template' (import-error)
+E:  8, 0: Unable to import 'ansible' (import-error)
+E: 10, 0: Unable to import 'ansible.playbook' (import-error)
+C: 13, 0: Missing class docstring (missing-docstring)
+C: 27, 4: Missing method docstring (missing-docstring)
+C: 32, 4: Missing method docstring (missing-docstring)
+C: 37, 4: Missing method docstring (missing-docstring)
+C: 39, 8: Variable name "m" doesn't conform to snake_case naming style (invalid-name)
+C: 44, 4: Missing method docstring (missing-docstring)
+C: 46, 8: Variable name "m" doesn't conform to snake_case naming style (invalid-name)
+C: 51, 4: Missing method docstring (missing-docstring)
+C: 56, 4: Missing method docstring (missing-docstring)
+C: 62, 4: Missing method docstring (missing-docstring)
+C: 71, 4: Method name "test_dict_defined_values_is_defined" doesn't conform to snake_case naming style (invalid-name)
+C: 71, 4: Missing method docstring (missing-docstring)
+C: 80, 4: Method name "test_dict_defined_multiple_values_is_defined" doesn't conform to snake_case naming style (invalid-name)
+C: 80, 4: Missing method docstring (missing-docstring)
+C: 90, 4: Missing method docstring (missing-docstring)
+C:103, 4: Method name "test_nested_hostvars_undefined_values" doesn't conform to snake_case naming style (invalid-name)
+C:103, 4: Missing method docstring (missing-docstring)
+C:123, 4: Missing method docstring (missing-docstring)
+C:137, 4: Method name "test_dict_undefined_values_is_defined" doesn't conform to snake_case naming style (invalid-name)
+C:137, 4: Missing method docstring (missing-docstring)
+C:150, 4: Missing method docstring (missing-docstring)
+C:156, 4: Missing method docstring (missing-docstring)
+C:162, 4: Missing method docstring (missing-docstring)
+C:168, 4: Method name "test_is_undefined_and_defined_reversed" doesn't conform to snake_case naming style (invalid-name)
+C:168, 4: Missing method docstring (missing-docstring)
+C:174, 4: Missing method docstring (missing-docstring)
+C:180, 4: Missing method docstring (missing-docstring)
+C:186, 4: Method name "test_is_hostvars_quotes_is_defined" doesn't conform to snake_case naming style (invalid-name)
+C:186, 4: Missing method docstring (missing-docstring)
+C:200, 4: Method name "test_is_hostvars_quotes_is_defined_but_is_not_defined" doesn't conform to snake_case naming style (invalid-name)
+C:200, 4: Missing method docstring (missing-docstring)
+C:216, 4: Method name "test_is_hostvars_host_is_defined" doesn't conform to snake_case naming style (invalid-name)
+C:216, 4: Missing method docstring (missing-docstring)
+C:222, 4: Method name "test_is_hostvars_host_undefined_is_defined" doesn't conform to snake_case naming style (invalid-name)
+C:222, 4: Missing method docstring (missing-docstring)
+C:228, 4: Method name "test_is_hostvars_host_undefined_is_undefined" doesn't conform to snake_case naming style (invalid-name)
+C:228, 4: Missing method docstring (missing-docstring)
+C:234, 4: Method name "test_is_hostvars_host_undefined_is_not_defined" doesn't conform to snake_case naming style (invalid-name)
+C:234, 4: Missing method docstring (missing-docstring)
+R: 13, 0: Too many public methods (26/20) (too-many-public-methods)
+
+-----------------------------------
+Your code has been rated at 4.23/10
+

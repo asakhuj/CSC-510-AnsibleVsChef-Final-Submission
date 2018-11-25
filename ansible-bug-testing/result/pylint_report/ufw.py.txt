@@ -1,0 +1,20 @@
+************* Module ansible.modules.system.ufw
+C:232, 0: Line too long (109/100) (line-too-long)
+C:297, 0: Line too long (145/100) (line-too-long)
+C:317, 0: Line too long (121/100) (line-too-long)
+C:343, 0: Line too long (146/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 11, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:209, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:210, 0: Import "from operator import itemgetter" should be placed at the top of the module (wrong-import-position)
+C:212, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:215, 0: Missing function docstring (missing-docstring)
+R:215, 0: Too many local variables (22/15) (too-many-locals)
+C:244, 4: Missing function docstring (missing-docstring)
+C:248, 9: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:257, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:264,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+
+-----------------------------------
+Your code has been rated at 7.95/10
+

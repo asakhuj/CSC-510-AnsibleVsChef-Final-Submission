@@ -1,0 +1,17 @@
+************* Module ansible.modules.network.cloudengine.ce_file_copy
+C:115, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:109, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:110, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:111, 0: Import "import sys" should be placed at the top of the module (wrong-import-position)
+C:112, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C:113, 0: Import "from xml.etree import ElementTree" should be placed at the top of the module (wrong-import-position)
+C:114, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:115, 0: Import "from ansible.module_utils.network.cloudengine.ce import ce_argument_spec, run_commands, get_nc_config" should be placed at the top of the module (wrong-import-position)
+E:159,14: Value 'sys.exc_info' is unsubscriptable (unsubscriptable-object)
+R:154, 0: Too many branches (13/12) (too-many-branches)
+W:288, 8: No exception type(s) specified (bare-except)
+
+-----------------------------------
+Your code has been rated at 9.08/10
+

@@ -1,0 +1,14 @@
+************* Module ansible.modules.network.nxos.nxos_feature
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 72, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C: 74, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 75, 0: Import "from ansible.module_utils.connection import ConnectionError" should be placed at the top of the module (wrong-import-position)
+C: 76, 0: Import "from ansible.module_utils.network.nxos.nxos import load_config, run_commands" should be placed at the top of the module (wrong-import-position)
+C: 77, 0: Import "from ansible.module_utils.network.nxos.nxos import get_capabilities, nxos_argument_spec" should be placed at the top of the module (wrong-import-position)
+C: 80, 0: Missing function docstring (missing-docstring)
+C:114, 0: Missing function docstring (missing-docstring)
+C:213, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.95/10
+

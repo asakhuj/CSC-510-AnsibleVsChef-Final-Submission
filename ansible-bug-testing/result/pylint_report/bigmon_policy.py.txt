@@ -1,0 +1,25 @@
+************* Module ansible.modules.network.bigswitch.bigmon_policy
+C:124, 0: Line too long (112/100) (line-too-long)
+C:145, 0: Unnecessary parens after 'in' keyword (superfluous-parens)
+C:154, 0: Line too long (109/100) (line-too-long)
+C:156, 0: Unnecessary parens after 'in' keyword (superfluous-parens)
+C:161, 0: Line too long (109/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 90, 0: Import "import datetime" should be placed at the top of the module (wrong-import-position)
+C: 91, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C: 92, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C: 94, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 95, 0: Import "from ansible.module_utils.network.bigswitch.bigswitch import Rest" should be placed at the top of the module (wrong-import-position)
+C: 96, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+W:128,27: Redefining name 'policy' from outer scope (line 99) (redefined-outer-name)
+C: 99, 0: Missing function docstring (missing-docstring)
+R: 99, 0: Too many local variables (18/15) (too-many-locals)
+C:102,23: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:164, 0: Missing function docstring (missing-docstring)
+W:183,11: Catching too general exception Exception (broad-except)
+C:183,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.61/10
+

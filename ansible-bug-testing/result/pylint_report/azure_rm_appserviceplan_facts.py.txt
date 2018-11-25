@@ -1,0 +1,21 @@
+************* Module ansible.modules.cloud.azure.azure_rm_appserviceplan_facts
+C:190, 0: Line too long (106/100) (line-too-long)
+C:192, 0: Line too long (122/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+W:124, 0: No exception type(s) specified (bare-except)
+E:122, 4: Unable to import 'msrestazure.azure_exceptions' (import-error)
+E:123, 4: Unable to import 'azure.common' (import-error)
+C:128, 0: Import "from ansible.module_utils.azure_rm_common import AzureRMModuleBase" should be placed at the top of the module (wrong-import-position)
+C:133, 0: Missing class docstring (missing-docstring)
+C:171, 4: Missing method docstring (missing-docstring)
+C:187, 4: Missing method docstring (missing-docstring)
+C:201, 4: Missing method docstring (missing-docstring)
+C:215, 4: Missing method docstring (missing-docstring)
+C:234, 0: Missing function docstring (missing-docstring)
+W:123, 4: Unused AzureHttpError imported from azure.common (unused-import)
+W:123, 4: Unused AzureMissingResourceHttpError imported from azure.common (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.18/10
+

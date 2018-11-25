@@ -1,0 +1,17 @@
+************* Module ansible.modules.net_tools.netcup_dns
+C:184, 0: Line too long (116/100) (line-too-long)
+C:258, 0: Line too long (107/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:164, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:175, 0: Missing function docstring (missing-docstring)
+R:175, 0: Too many local variables (18/15) (too-many-locals)
+W:251,11: Catching too general exception Exception (broad-except)
+C:220,16: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+R:175, 0: Too many branches (13/12) (too-many-branches)
+C:257, 0: Argument name "r" doesn't conform to snake_case naming style (invalid-name)
+C:257, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.10/10
+

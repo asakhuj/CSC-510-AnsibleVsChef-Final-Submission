@@ -1,0 +1,43 @@
+************* Module ansible.modules.network.vyos.vyos_config
+C:218, 0: Line too long (110/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:136, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:138, 0: Import "from ansible.module_utils._text import to_text" should be placed at the top of the module (wrong-import-position)
+C:139, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:140, 0: Import "from ansible.module_utils.connection import ConnectionError" should be placed at the top of the module (wrong-import-position)
+C:141, 0: Import "from ansible.module_utils.network.vyos.vyos import load_config, get_config, run_commands" should be placed at the top of the module (wrong-import-position)
+C:142, 0: Import "from ansible.module_utils.network.vyos.vyos import vyos_argument_spec, get_connection" should be placed at the top of the module (wrong-import-position)
+C:152, 0: Missing function docstring (missing-docstring)
+C:162, 0: Missing function docstring (missing-docstring)
+C:166, 0: Missing function docstring (missing-docstring)
+C:194, 0: Missing function docstring (missing-docstring)
+C:207, 0: Missing function docstring (missing-docstring)
+W:240, 7: Access to a protected member _diff of a client class (protected-access)
+C:244, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.33/10
+
+************* Module ansible.plugins.action.vyos_config
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 29, 0: No name 'urllib' in module '_MovedItems' (no-name-in-module)
+E: 29, 0: Unable to import 'ansible.module_utils.six.moves.urllib.parse' (import-error)
+C: 36, 0: Missing class docstring (missing-docstring)
+W: 67,11: Access to a protected member _role of a client class (protected-access)
+W: 68,18: Access to a protected member _role_path of a client class (protected-access)
+W: 68,18: Access to a protected member _role of a client class (protected-access)
+C: 75,12: Variable name "fn" doesn't conform to snake_case naming style (invalid-name)
+C: 97,38: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+W:105,11: Access to a protected member _role of a client class (protected-access)
+W:106,30: Access to a protected member _role_path of a client class (protected-access)
+W:106,30: Access to a protected member _role of a client class (protected-access)
+W:108,28: Access to a protected member _block of a client class (protected-access)
+W:111,42: Access to a protected member _role_path of a client class (protected-access)
+R: 82, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R: 36, 0: Too few public methods (1/2) (too-few-public-methods)
+W: 30, 0: Unused merge_hash imported from ansible.utils.vars (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.18/10
+

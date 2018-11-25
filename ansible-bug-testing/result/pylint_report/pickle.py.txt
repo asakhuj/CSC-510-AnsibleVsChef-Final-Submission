@@ -1,0 +1,12 @@
+************* Module ansible.plugins.cache.pickle
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 48, 0: Import "from ansible.module_utils.six import PY3" should be placed at the top of the module (wrong-import-position)
+C: 49, 0: Import "from ansible.plugins.cache import BaseFileCacheModule" should be placed at the top of the module (wrong-import-position)
+C: 59,37: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+R: 60,12: Unnecessary "else" after "return" (no-else-return)
+C: 66,37: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.11/10
+

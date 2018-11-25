@@ -1,0 +1,16 @@
+************* Module units.modules.network.voss.test_voss_facts
+C: 72, 0: Line too long (103/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 18, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 21, 0: Unable to import 'ansible.modules.network.voss' (import-error)
+C: 26, 0: Missing class docstring (missing-docstring)
+C: 40, 8: Missing function docstring (missing-docstring)
+W: 41,12: Unused variable 'module' (unused-variable)
+C: 52, 4: Missing method docstring (missing-docstring)
+C: 65, 4: Missing method docstring (missing-docstring)
+C: 78, 4: Missing method docstring (missing-docstring)
+C: 22, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 6.43/10
+

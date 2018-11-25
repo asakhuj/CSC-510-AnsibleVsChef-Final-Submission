@@ -1,0 +1,10 @@
+************* Module ansible.modules.network.netvisor.pn_ospf
+C:102, 0: Import "import shlex" should be placed at the top of the module (wrong-import-position)
+C:105, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+W:149, 4: Using the global statement (global-statement)
+R:157, 4: The if statement can be replaced with 'var = bool(test)' (simplifiable-if-statement)
+R:169, 4: The if statement can be replaced with 'var = bool(test)' (simplifiable-if-statement)
+
+-----------------------------------
+Your code has been rated at 9.38/10
+

@@ -1,0 +1,20 @@
+************* Module ansible.modules.cloud.azure.azure_rm_cdnprofile
+C:130, 0: Line too long (143/100) (line-too-long)
+C:233, 0: Wrong continued indentation (remove 1 space).
+                                                     )
+                                                    |^ (bad-continuation)
+C:238, 0: Line too long (115/100) (line-too-long)
+C:293, 0: Line too long (115/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 85, 0: Import "from ansible.module_utils.azure_rm_common import AzureRMModuleBase" should be placed at the top of the module (wrong-import-position)
+C: 95, 0: Missing function docstring (missing-docstring)
+C:108, 0: Missing class docstring (missing-docstring)
+R:108, 0: Too many instance attributes (9/7) (too-many-instance-attributes)
+R:154, 4: Too many branches (14/12) (too-many-branches)
+C:268,41: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:290, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.84/10
+

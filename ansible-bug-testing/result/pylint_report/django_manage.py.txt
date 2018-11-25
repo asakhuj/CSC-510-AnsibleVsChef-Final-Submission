@@ -1,0 +1,24 @@
+************* Module ansible.modules.web_infrastructure.django_manage
+C:190, 0: Line too long (128/100) (line-too-long)
+C:224, 0: Line too long (103/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:137, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:138, 0: Import "import sys" should be placed at the top of the module (wrong-import-position)
+C:140, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:165, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:173, 0: Missing function docstring (missing-docstring)
+C:177, 0: Missing function docstring (missing-docstring)
+C:181, 0: Missing function docstring (missing-docstring)
+C:185, 0: Missing function docstring (missing-docstring)
+C:189, 0: Missing function docstring (missing-docstring)
+C:193, 0: Missing function docstring (missing-docstring)
+C:197, 0: Missing function docstring (missing-docstring)
+R:197, 0: Too many local variables (21/15) (too-many-locals)
+C:288, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:303,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+R:197, 0: Too many branches (18/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 7.96/10
+

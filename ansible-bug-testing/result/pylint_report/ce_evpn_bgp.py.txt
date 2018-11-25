@@ -1,0 +1,23 @@
+************* Module ansible.modules.network.cloudengine.ce_evpn_bgp
+C:279, 0: Line too long (101/100) (line-too-long)
+C:376, 0: Line too long (101/100) (line-too-long)
+C:378, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:137, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:138, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:139, 0: Import "from ansible.module_utils.network.cloudengine.ce import get_config, load_config" should be placed at the top of the module (wrong-import-position)
+C:140, 0: Import "from ansible.module_utils.network.cloudengine.ce import ce_argument_spec" should be placed at the top of the module (wrong-import-position)
+R:169, 0: Too many return statements (8/6) (too-many-return-statements)
+R:193, 0: Too many instance attributes (25/7) (too-many-instance-attributes)
+R:344, 8: Unnecessary "else" after "return" (no-else-return)
+R:366, 8: Unnecessary "else" after "return" (no-else-return)
+R:393, 8: Unnecessary "else" after "return" (no-else-return)
+R:429, 8: Unnecessary "else" after "return" (no-else-return)
+R:458, 4: Too many branches (14/12) (too-many-branches)
+R:497, 4: Too many branches (14/12) (too-many-branches)
+R:538, 4: Too many branches (22/12) (too-many-branches)
+R:538, 4: Too many statements (72/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 9.56/10
+

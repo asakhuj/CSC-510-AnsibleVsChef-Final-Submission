@@ -1,0 +1,16 @@
+************* Module ansible.modules.notification.pushover
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 55, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+E: 56, 0: No name 'urllib' in module '_MovedItems' (no-name-in-module)
+E: 56, 0: Unable to import 'ansible.module_utils.six.moves.urllib.parse' (import-error)
+C: 56, 0: Import "from ansible.module_utils.six.moves.urllib.parse import urlencode" should be placed at the top of the module (wrong-import-position)
+C: 57, 0: Import "from ansible.module_utils.urls import fetch_url" should be placed at the top of the module (wrong-import-position)
+C: 82, 8: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+R: 60, 0: Too few public methods (1/2) (too-few-public-methods)
+C: 89, 0: Missing function docstring (missing-docstring)
+W:103, 4: No exception type(s) specified (bare-except)
+
+-----------------------------------
+Your code has been rated at 4.24/10
+

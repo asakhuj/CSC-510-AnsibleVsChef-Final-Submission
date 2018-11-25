@@ -1,0 +1,57 @@
+************* Module ansible.modules.cloud.amazon.lambda
+C:210, 0: Line too long (101/100) (line-too-long)
+C:234, 0: Unnecessary parens after 'if' keyword (superfluous-parens)
+C:302, 0: Wrong continued indentation (add 45 spaces).
+                         to_native(e)), exception=traceback.format_exc(),
+                         ^                                            | (bad-continuation)
+C:306, 0: Wrong continued indentation (add 45 spaces).
+                         to_native(e)), exception=traceback.format_exc())
+                         ^                                            | (bad-continuation)
+C:383, 0: Line too long (102/100) (line-too-long)
+C:428, 0: Line too long (108/100) (line-too-long)
+C:436, 0: Line too long (121/100) (line-too-long)
+C:438, 0: Line too long (108/100) (line-too-long)
+C:443, 0: Line too long (104/100) (line-too-long)
+C:534, 0: Wrong continued indentation (remove 1 space).
+                       }
+                      |^ (bad-continuation)
+C:551, 0: Line too long (108/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:201, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:202, 0: Import "from ansible.module_utils.aws.core import AnsibleAWSModule" should be placed at the top of the module (wrong-import-position)
+C:203, 0: Import "from ansible.module_utils.ec2 import get_aws_connection_info, boto3_conn, camel_dict_to_snake_dict" should be placed at the top of the module (wrong-import-position)
+C:204, 0: Import "from ansible.module_utils.ec2 import compare_aws_tags" should be placed at the top of the module (wrong-import-position)
+C:205, 0: Import "import base64" should be placed at the top of the module (wrong-import-position)
+C:206, 0: Import "import hashlib" should be placed at the top of the module (wrong-import-position)
+C:207, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+W:239,15: Catching too general exception Exception (broad-except)
+C:233,30: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:239,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:244, 0: Missing function docstring (missing-docstring)
+C:249,26: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:258, 0: Missing function docstring (missing-docstring)
+C:260,33: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C:270, 0: Missing function docstring (missing-docstring)
+C:279,26: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:300,26: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:304,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:311, 0: Missing function docstring (missing-docstring)
+R:311, 0: Too many local variables (48/15) (too-many-locals)
+C:375,45: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:454,58: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:477,49: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C:480,34: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:495,58: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:517,45: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C:521,30: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:563,54: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:582,54: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:311, 0: Too many branches (57/12) (too-many-branches)
+R:311, 0: Too many statements (166/50) (too-many-statements)
+C:205, 0: standard import "import base64" should be placed before "from ansible.module_utils._text import to_native" (wrong-import-order)
+C:206, 0: standard import "import hashlib" should be placed before "from ansible.module_utils._text import to_native" (wrong-import-order)
+C:207, 0: standard import "import traceback" should be placed before "from ansible.module_utils._text import to_native" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 8.09/10
+

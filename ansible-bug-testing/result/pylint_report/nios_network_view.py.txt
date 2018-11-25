@@ -1,0 +1,10 @@
+************* Module ansible.modules.net_tools.nios.nios_network_view
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:100, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:101, 0: Import "from ansible.module_utils.net_tools.nios.api import WapiModule" should be placed at the top of the module (wrong-import-position)
+C:102, 0: Import "from ansible.module_utils.net_tools.nios.api import NIOS_NETWORK_VIEW" should be placed at the top of the module (wrong-import-position)
+
+-----------------------------------
+Your code has been rated at 7.50/10
+

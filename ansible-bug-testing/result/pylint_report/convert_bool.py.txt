@@ -1,0 +1,9 @@
+************* Module ansible.module_utils.parsing.convert_bool
+C:  2, 0: Line too long (107/100) (line-too-long)
+C: 26, 0: Line too long (146/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 13, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.50/10
+

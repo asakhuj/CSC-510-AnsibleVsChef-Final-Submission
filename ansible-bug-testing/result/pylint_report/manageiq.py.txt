@@ -1,0 +1,26 @@
+************* Module ansible.module_utils.manageiq
+C:108, 0: Line too long (122/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 39, 0: Missing function docstring (missing-docstring)
+C: 56, 0: Missing function docstring (missing-docstring)
+C: 61, 0: Missing function docstring (missing-docstring)
+R: 61, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C: 76, 0: Missing function docstring (missing-docstring)
+W:109,15: Catching too general exception Exception (broad-except)
+C:109,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:149,15: Catching too general exception Exception (broad-except)
+C:149,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:153, 4: Method name "find_collection_resource_or_fail" doesn't conform to snake_case naming style (invalid-name)
+R:153, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+
+-----------------------------------
+Your code has been rated at 7.94/10
+
+************* Module ansible.utils.module_docs_fragments.manageiq
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Missing class docstring (missing-docstring)
+R:  5, 0: Too few public methods (0/2) (too-few-public-methods)
+
+------------------------------------
+Your code has been rated at -5.00/10
+

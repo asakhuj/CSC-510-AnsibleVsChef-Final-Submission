@@ -1,0 +1,23 @@
+************* Module ansible.modules.system.awall
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 61, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C: 62, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 65, 0: Missing function docstring (missing-docstring)
+C: 67, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+R: 65, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C: 74, 0: Missing function docstring (missing-docstring)
+C: 76, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W: 76,16: Unused variable 'stderr' (unused-variable)
+W: 76, 4: Unused variable 'rc' (unused-variable)
+C: 82, 0: Missing function docstring (missing-docstring)
+C: 94, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:102, 0: Missing function docstring (missing-docstring)
+C:114, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:122, 0: Missing function docstring (missing-docstring)
+W:133, 4: Global variable 'AWALL_PATH' undefined at the module level (global-variable-undefined)
+C:136, 4: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.46/10
+

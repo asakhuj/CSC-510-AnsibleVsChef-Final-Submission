@@ -1,0 +1,18 @@
+************* Module ansible.modules.network.nxos.nxos_overlay_global
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 57, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C: 58, 0: Import "from ansible.module_utils.network.nxos.nxos import get_config, load_config" should be placed at the top of the module (wrong-import-position)
+C: 59, 0: Import "from ansible.module_utils.network.nxos.nxos import nxos_argument_spec, check_args" should be placed at the top of the module (wrong-import-position)
+C: 60, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 61, 0: Import "from ansible.module_utils.network.common.config import CustomNetworkConfig" should be placed at the top of the module (wrong-import-position)
+C: 68, 0: Missing function docstring (missing-docstring)
+C: 83, 0: Missing function docstring (missing-docstring)
+C: 92, 0: Missing function docstring (missing-docstring)
+R: 97,13: Redefining argument with the local name 'proposed' (redefined-argument-from-local)
+C:111, 0: Missing function docstring (missing-docstring)
+R:111, 0: Too many branches (16/12) (too-many-branches)
+C:156, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.70/10
+

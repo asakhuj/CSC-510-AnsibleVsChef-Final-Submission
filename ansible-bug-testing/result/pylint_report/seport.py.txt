@@ -1,0 +1,20 @@
+************* Module ansible.modules.system.seport
+C:194, 0: Line too long (113/100) (line-too-long)
+C:235, 0: Line too long (113/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 87, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:101, 0: Import "from ansible.module_utils.basic import AnsibleModule, HAVE_SELINUX" should be placed at the top of the module (wrong-import-position)
+C:102, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+R:120, 4: Unnecessary "else" after "return" (no-else-return)
+R:146, 4: Unnecessary "else" after "return" (no-else-return)
+R:152, 0: Too many arguments (7/5) (too-many-arguments)
+C:193,69: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:199, 0: Too many arguments (6/5) (too-many-arguments)
+C:234,69: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:240, 0: Missing function docstring (missing-docstring)
+E:258,11: Module 'selinux' has no 'is_selinux_enabled' member (no-member)
+
+-----------------------------------
+Your code has been rated at 7.76/10
+

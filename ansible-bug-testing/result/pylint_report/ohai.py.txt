@@ -1,0 +1,30 @@
+************* Module ansible.modules.system.ohai
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 37, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C: 39, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 42, 0: Missing function docstring (missing-docstring)
+C: 47, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W: 47, 4: Unused variable 'rc' (unused-variable)
+W: 47,13: Unused variable 'err' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 4.29/10
+
+************* Module ansible.module_utils.facts.other.ohai
+W: 69, 0: FIXME: useful error, logging, something... (fixme)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 17, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 37, 4: Missing method docstring (missing-docstring)
+R: 37, 4: Method could be a function (no-self-use)
+C: 41, 4: Missing method docstring (missing-docstring)
+C: 42, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+R: 41, 4: Method could be a function (no-self-use)
+C: 45, 4: Missing method docstring (missing-docstring)
+C: 50, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W: 50,17: Unused variable 'err' (unused-variable)
+W: 68,15: Catching too general exception Exception (broad-except)
+
+-----------------------------------
+Your code has been rated at 6.76/10
+

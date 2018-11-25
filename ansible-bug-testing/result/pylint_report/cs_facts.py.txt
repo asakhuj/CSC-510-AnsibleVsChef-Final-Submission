@@ -1,0 +1,21 @@
+************* Module ansible.modules.cloud.cloudstack.cs_facts
+C:133, 0: Line too long (112/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:115, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:116, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:117, 0: Import "from ansible.module_utils.urls import fetch_url" should be placed at the top of the module (wrong-import-position)
+C:118, 0: Import "from ansible.module_utils.facts import ansible_collector, default_collectors" should be placed at the top of the module (wrong-import-position)
+C:130, 0: Missing class docstring (missing-docstring)
+W:152, 8: Redefining built-in 'filter' (redefined-builtin)
+C:150, 4: Missing method docstring (missing-docstring)
+W:168, 8: No exception type(s) specified (bare-except)
+W:176,19: Unused variable 'info' (unused-variable)
+R:183, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:130, 0: Too few public methods (1/2) (too-few-public-methods)
+C:214, 0: Missing function docstring (missing-docstring)
+W:215, 4: Global variable 'module' undefined at the module level (global-variable-undefined)
+C:215, 4: Constant name "module" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.95/10
+

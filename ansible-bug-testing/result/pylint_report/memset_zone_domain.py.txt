@@ -1,0 +1,28 @@
+************* Module ansible.modules.cloud.memset.memset_zone_domain
+C:111, 0: Line too long (119/100) (line-too-long)
+C:116, 0: Unnecessary parens after 'return' keyword (superfluous-parens)
+C:140, 0: Line too long (116/100) (line-too-long)
+C:164, 0: Line too long (116/100) (line-too-long)
+C:194, 0: Unnecessary parens after 'return' keyword (superfluous-parens)
+C:196, 0: Line too long (107/100) (line-too-long)
+C:209, 0: Unnecessary parens after 'return' keyword (superfluous-parens)
+C:212, 0: Line too long (127/100) (line-too-long)
+C:223, 0: Unnecessary parens after 'return' keyword (superfluous-parens)
+C:259, 0: Line too long (122/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 81, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 82, 0: Import "from ansible.module_utils.memset import get_zone_id" should be placed at the top of the module (wrong-import-position)
+C: 83, 0: Import "from ansible.module_utils.memset import check_zone_domain" should be placed at the top of the module (wrong-import-position)
+C: 84, 0: Import "from ansible.module_utils.memset import memset_api_call" should be placed at the top of the module (wrong-import-position)
+W:106,16: Unused variable 'msg' (unused-variable)
+W:119,34: Unused argument 'zone_exists' (unused-argument)
+W:221,27: Use of eval (eval-used)
+W:181,17: Unused variable 'memset_api' (unused-variable)
+C:226, 0: Missing function docstring (missing-docstring)
+W:227, 4: Global variable 'module' undefined at the module level (global-variable-undefined)
+C:227, 4: Constant name "module" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.89/10
+

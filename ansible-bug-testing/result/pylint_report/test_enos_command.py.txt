@@ -1,0 +1,24 @@
+************* Module units.modules.network.enos.test_enos_command
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 25, 0: Unable to import 'ansible.modules.network.enos' (import-error)
+C: 30, 0: Missing class docstring (missing-docstring)
+C: 45, 8: Missing function docstring (missing-docstring)
+W: 46,12: Unused variable 'module' (unused-variable)
+W: 45, 0: Unused argument 'kwargs' (unused-argument)
+C: 60, 4: Missing method docstring (missing-docstring)
+C: 66, 4: Missing method docstring (missing-docstring)
+C: 72, 4: Missing method docstring (missing-docstring)
+C: 77, 4: Method name "test_enos_command_wait_for_fails" doesn't conform to snake_case naming style (invalid-name)
+C: 77, 4: Missing method docstring (missing-docstring)
+C: 83, 4: Missing method docstring (missing-docstring)
+C: 89, 4: Missing method docstring (missing-docstring)
+C: 95, 4: Missing method docstring (missing-docstring)
+C:101, 4: Method name "test_enos_command_match_all_failure" doesn't conform to snake_case naming style (invalid-name)
+C:101, 4: Missing method docstring (missing-docstring)
+W: 22, 0: Unused import json (unused-import)
+C: 26, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 6.52/10
+

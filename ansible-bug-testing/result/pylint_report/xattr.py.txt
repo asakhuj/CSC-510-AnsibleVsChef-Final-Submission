@@ -1,0 +1,22 @@
+************* Module ansible.modules.files.xattr
+C:177, 0: Line too long (105/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 93, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C: 96, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 97, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:100, 0: Missing function docstring (missing-docstring)
+C:111, 0: Missing function docstring (missing-docstring)
+C:127, 0: Missing function docstring (missing-docstring)
+C:139, 0: Missing function docstring (missing-docstring)
+W:154,11: Catching too general exception Exception (broad-except)
+C:153, 9: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:154,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:153,18: Unused variable 'err' (unused-variable)
+W:153, 9: Unused variable 'rc' (unused-variable)
+C:170, 0: Missing function docstring (missing-docstring)
+C:203,12: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+
+-----------------------------------
+Your code has been rated at 8.27/10
+

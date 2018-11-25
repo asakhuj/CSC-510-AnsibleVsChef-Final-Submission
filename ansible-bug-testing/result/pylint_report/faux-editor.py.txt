@@ -1,0 +1,10 @@
+************* Module faux-editor
+C:  1, 0: Module name "faux-editor" doesn't conform to snake_case naming style (invalid-name)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 27, 0: Missing function docstring (missing-docstring)
+C: 30, 4: Variable name "fo" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.88/10
+
