@@ -4,7 +4,7 @@ First ensure that pylinter.bat is in the ansible root directory.
 Step 2:
 Create a folder: result (mkdir result) where the pylinter report will be written to.
 Step 3:
-copy the directory of result into line 8 of the script where result will be written to
+copy the directory of result into line 10 of the script where result will be written to
 Step 4:
 Run:
 >>pylintchecker.bat
