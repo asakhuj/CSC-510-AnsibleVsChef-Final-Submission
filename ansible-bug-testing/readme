@@ -6,3 +6,5 @@ Tested on:
 Dependencies:
 To run this, one must ensure that Python 2 >=2.7.9 or Python 3 >=3.4 is installed. To install pylint use command:
 >>pip install pylint
+
+Note: unfortunately the intially script was written in BAT and can only be tested on DOS systems. If time permits, an equivalent .SH script will be published.
