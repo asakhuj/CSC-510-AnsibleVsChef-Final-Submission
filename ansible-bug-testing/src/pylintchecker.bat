@@ -6,6 +6,7 @@ goto :eof
 rem Do whatever you want here over the files of this subdir, for example:
 for %%f in (*.py) do (
 	echo %%f
+	rem change "C:Users.." to the absolute path of your result folder
 	pylint %%f >> "C:\Users\advai\..\result\%%f.txt" 
 )
 for /D %%d in (*) do (
