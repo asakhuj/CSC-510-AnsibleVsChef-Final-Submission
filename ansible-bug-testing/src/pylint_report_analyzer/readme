@@ -1,4 +1,4 @@
-This python script helps us understand various report. From pylints documentation. The following are the error classes reporte by the pylinter:
+This python script helps us understand the various reports generated. From pylints documentation, the following are the error classes reporte by the pylinter:
   [R]efactor for a "good practice" metric violation
   [C]onvention for coding standard violation
   [W]arning for stylistic problems, or minor programming issues
