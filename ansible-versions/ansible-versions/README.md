@@ -1,8 +1,9 @@
 It feels like Ansible becomes slower with each release? Is it true?
 
 This is an answer. We are using Ansible to measure Ansible's performance.
-There are some tests in place. Just hit `start.sh` and you will 
-get some numbers.
+There are some tests in place.  Please run "preReq.sh" after making it executable using "chmod +x preReq.sh" with sudo priveleges.
+
+I performed the following tests on NCSU VCL machine, creating virtual environments and testing the templates on all stable ansible versions.
 
 My numbers:
 
