@@ -3,4 +3,7 @@ All the scripts are fully automated and executable. All the preRequistes will be
 
 Please run :
 
-chmod +x start.sh
+1) chmod +x start.sh
+2) chmod +x preReq.sh
+3)./preReq.sh
+4)./start.sh
