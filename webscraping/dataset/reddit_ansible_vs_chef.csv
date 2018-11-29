@@ -1,0 +1,812 @@
+,comments,class
+0,"I've used Chef and am just starting to play with Ansible, so please correct me if I'm wrong. 
+
+The author is missing one bit I think... Chef is run via cron job or as a daemon on the clients periodically. That means it can be used to perform self healing. Where Ansible on the other hand is only run as needed. This is important from an audit perspective. A user can go in and modify ntp.conf breaking it (as part of a test or something). Ansible won't automatically fix it unless someone goes and runs the ntp playbook. But chef will automatically repair the issue when it runs next ensuring that the environment is correct. Auditors like that.",chef
+1,"I use Ansible myself but that's mainly because I run a largely Linux environment. Ansible 2.0 is in the pipeline and that's huge news for VMware admins because there's a ton of new VMware related modules which I'm not sure any other CM tool has.
+
+I'd say test it out with Windows connectivity and see how it goes. I'm a huge fan of the whole ""agentless"" deal and it's one less thing I have to worry about going wrong on my endpoints.",ansible
+2,I like SaltStack. Simple to set up and deploy. ,other
+3,"I've only used Puppet and Chef myself, but I came to love Chef.
+
+I didn't find I had to learn a lot of ruby with Chef, but a couple tutorials did help.  With Chef itself, their fundamentals course helped quite a bit to get me started.  https://learn.chef.io/skills/fundamentals-series-week-1/",chef other
+4,What about using powershell dsc?,other
+5,"It's almost as if people are so eager to answer a question, they don't even read it thoroughly. They answer that they run Linux or AWS, which doesn't help you. Only one person recommended Powershell DSC which I think would be great, with more modules (coming). I think Ansible is not a fit. I did some research, and found nothing valuable for Windows. Puppet is a possibility. However, my gut feeling is you'll be doing much of it with straight Powershell.",not-ansible
+6,[deleted],non
+7,"I've used Chef for about 3 years (~1000 nodes), and Puppet for the past year. I have to say the quality of the chef code and the community cookbooks are far higher than Puppet's. I also much prefer being able to use typical scripting code in Chef, the structured node data, correct handling of types, the fact that you can inspect the state of the host in your recipe code (Puppet does a weird thing where code is usually rendered on the puppet master server, which makes this not work). I can't speak for the Windows support since I've been working purely with Linux, but you can look for Windows cookbooks [here](https://supermarket.chef.io/cookbooks?utf8=%E2%9C%93&q=&platforms%5B%5D=windows&platforms%5B%5D=). I've heard that Chef has support for DSC now which is supposed to really improve the quality of cookbooks for Windows. As for vSphere support, there are a couple of Chef projects that might be of interest to you:
+
+ - [knife vSphere](https://github.com/chef-partners/knife-vsphere): CLI tool for managing your machines, it can query both your Chef server data and your vSphere data
+ - [Chef Provisioning](https://github.com/chef/chef-provisioning): Declaratively configure multiple machines. Plugin for vSphere [here](https://github.com/CenturyLinkCloud/chef-provisioning-vsphere).",chef other
+8,SaltStack!,other
+9,"Anisble's Window support is getting better every day, but it is still lagging behind. I don't much care for Chef, but I've found Ansible to be a pleasure to use.
+
+Go read some Chef recipies, then read some Ansible roles, and decide which one clicks with you better, since whichever you pick you'll be writing a lot of them.",ansible
+10,"Ansible fan here, but im a Linux man and no experience on the windows side of things. As mentioned by otherse agentless just makes sense to me.",ansible
+11,"Puppet is pretty easy to use on Windows, and has a powershell module? I picked puppet back when we were choosing CFM because the FLOSS version had a Windows MSI. Now you're spoiled for choice. I will say paired with Foreman, Puppet was similar to GPO in thought processes. I.e. you have an idempotent module, you assign the module to hostgroups and your computers are members of one hostgroup. Inheritance etc works similarly too. 
+
+I haven't heard anything that would make me switch, nor have I heard of people switching from chef to puppet, so either is probably fine. 
+
+Agentless is a bit of a overhyped thing. A) it's a managed computer, deploy the new agent as necessary. and B) I bought into the whole agentless thing back in 2008 with Zenoss for monitoring. It's decent, but things that are dead simple for monitoring programs with an agent can be pretty complex with ""agentless"". I.e. you actually end up configuring a whole bunch of third party agents (SSH, SNMP, WinRM, WMI, and on and on) which means there's all sorts of fun getting everything to work together and stay working together. If MS changes their SNMP OIDs, you get to try and fix Zenoss. If puppet changes it's agent (like v3 to v4) you can time the change, and it's a bug Puppet needs to fix if a puppet 4 server can't talk to a puppet 4 agent. Microsoft isn't going to care that Zenoss's default SNMP template stopped working in patch $foo...",other
+12,"I would say PowerShell for everything. There's not a whole lot of Ansible roles for Windows yet iirc. It's more of a Linux tool as you've probably gathered.
+
+Have you looked at Octopus? https://octopus.com/, it has an agent, but agents usually never have a problem on all agent type of tools. You can pre-load agents using Packer or templates. Chef will install the agent for you without having to touch the node.",chef
+13,"The answer really is Puppet or Ansible. But if the question is about VM lifecycle as you already have something like SCCM for runtime CM, then you want to look at something specifically for that, like Red Hat Cloudforms, or its upstream OSS version, ManageIQ. ","other, ansible"
+14,"I have used all four. I started with Puppet. When I heard my first mention of Salt I considered it too young, back in 2013. I used Puppet at two employers, and went to Puppetconf 2013. Then used Ansible for a bit at a new employer who was already using it. Then got a taste of Chef at yet another employer who was already using it. Then I saw how someone else had used Salt, and officially switched, at the same employer that was already using Chef.
+
+**Puppet**
+
+Puppet was the first modern configuration management tool. Yes, there is still cfengine, but it was not modern. One modern element is being written in an interpretive language, and another is using that language's native templating language.
+
+I will preface this with I haven't used Puppet in a couple years. Last I heard Puppetlabs was talking about moving away from Ruby for Java on the server side. Puppet is generation 1. Puppet suffers from being a first mover. It taught us all the things not to do. Puppet has bolted on many features. The biggest example is that it doesn't do orchestration. That is left to Mcollective, a separate tool, complex to setup, and with it's own key management. It also has multiple ways to do many things, because they​ muddled their way through the creation process. They also dabbled in the idea of writing code in Ruby instead of the DSL, but never made it first class. It also was big on explicit dependency management. It does benefit from being the earliest by having the most people dependent on it, but it is definitely not the best. (Corrections about Java and templating)
+
+Puppet also suffers from having picked Ruby. I really like Ruby as a language, but it isn't part of the standard install of the OS. It means another dependency to install. Ruby has also gone through too many major versions in too few years. So overall it doesn't make a great choice for writing a configuration management tool in.
+
+The lesson learned about dependency management is it sounds good, but is time consuming to declare all the requires. Ultimately the cure is worse than the disease. I learned that even when you think you have set all your requires, and have reliable code, you don't. All you have to do is change one require, and the whole dependency graph restructures itself in a new form that shows you that you were wrong. Going with the model of execution order being the order loaded or written is the way to go. Salt makes this optional. I think Puppet allows it if you change an option.
+
+**Chef**
+
+Chef is generation 1.5. Chef was written by people who were Puppet users, and thought using a full language instead of a DSL was the right choice. Chef also suffers from being written in Ruby, and forces you to learn Ruby. Some people don't want to learn another whole language, and have their reasons for not wanting to learn Ruby. It also is the most heavy and complex to learn the basics.
+
+I am not a fan of the omnibus packaging style, which results in a Chef server package that is over 500mb. It also is like a mini-distribution of it's own that has copies of Erlang, Python, Ruby, Perl, etc. When I was first learning Chef their website tried to get you to use a Chef server hosted by them, and the documentation on how to setup Chef server was poor.
+
+If I had to pick between Puppet and Chef, and was starting from scratch, I would pick Chef. Both are very popular.
+
+**Salt**
+
+Salt is generation 2. It was written by Puppet users who wanted to start fresh with lessons learned from Puppet, but write it in Python instead of Ruby. It really just feels like a reimplantation of Puppet in Python, and with many more features added. They also went back to the idea of a DSL, having seen Chef.
+
+One advantage that Salt added over Puppet and Chef, in my experience with them, is multi-master support. Which was a annoying scaling issue with Puppet that required hacks to make it work. Salt then even takes it further and lets you have masters of masters, Syndics.
+
+Salt has also started branching out to support more than systems. Like the ability to manage network devices. Examples are switches, and routers.
+
+Salt has features like more data store integration. Some of the examples are Cassandra, Rabbitmq, MongoDB, and MySQL. They let you do things like create users, queues, and databases from within the DSL. It also has the Salt mine to let you share details(grains/facts) between systems. It also has the reactor to let you react to events. It also has Salt-ssh which lets you use Salt like Ansible. Though Salt-ssh has plenty of rough edges.
+
+Salt's greatest strength is the community. It is very strong and friendly. Salt's greatest weakness is that the company behind it doesn't have enough unit testing and QA. So it can be quite buggy. That they will very liberally take changes from the community makes the company friendly, but with the lack of testing it leads to many of the bugs. On the other hand bugs get fixed.
+
+The best place to get help is IRC, #salt on Freenode.
+
+I am maintaining my own Salt packages to include the Salt patches I need. The next Salt release with those patches will be months away. At peak I have had about five patches on top of Salt. Right now I have two. For short periods I have been down to zero.
+
+One important configuration change to make in Salt is ""failhard: True"". It makes Salt always stop on the first error, like Puppet does by default.
+
+One big issue with Salt is that the documentation is decent, but doesn't teach you comprehensively how you use it in an advanced way. I have read all the Salt books, and even the ""advanced"" ones don't go over the idea of map.jinjas at all. The best way to learn of advanced ideas is by reading other people's advanced code. There are a few large collections out there. Some can be found with Google, but I found the best ones through the IRC channel.
+
+One thing that was awesome about Salt at first is you could get the latest version from your distribution. They stuck to standard Python module versions. But with the 2015.8 release they abandoned that. They made their own repositories with their own dependency packages. Puppet and Chef also suffers from a separate repository like this. As far as I know Ansible does not.
+
+**Ansible**
+
+Ansible is generation 3. It took the same ideas Salt had of using Python and went in a different direction. It was started by the same guy who wrote Cobbler. It said no more agent, and SSH only. I think this is an OK model for a small shop, but doesn't scale well past one person. (edit to correct that it is Cobbler not Capistrano) 
+
+SSH is slow, and when Ansible first came out it was very slow. The out of the box configuration was taking me 45 minutes to run across 400 systems from my laptop. This was just to check state, not to make any changes. Running from your laptop is part of the problem. The model naturally encourages you to run it from your laptop. But if you are on the west coast and the systems are on the east coast, you are slowed down by the latency. By running it from a system on the east coast, and some Ansible configuration optimizations(not code changes), I got it down to 15 minutes. I am pretty sure Puppet and Salt would have been under 10 minutes.
+
+Everyone running it from their laptop has a logging problem. Running it from a central system has the same problem. The official answer to this problem is Ansible Tower, but it is pay for only. Originally selling it was the business model. Then it was bought by RedHat who has promised to open source it. I do think it will be released one day, but it hasn't happened yet. I am not waiting by sitting on my hands.
+
+On the topic of logging, an open source alternative to Tower is The Foreman. It probably isn't as good for Ansible, but is a nice addition to Salt, Puppet, and Chef. It was originally written for Puppet, and it's installer is written in Puppet. Once you understand The Foreman, it is possible to install it with a configuration management tool, and not the installer. It also gives you a dashboard, and saves your grains or facts to a database.
+
+Another large problem with Ansible is that using no agent encourages is configuration drift. This also goes hand and hand with the problem of running it from your laptop. Say you setup a MySQL cluster a month ago, and today you setup another one. With Ansible you will tend to focus only on whatever servers you are creating, and leave the others to rot. So if you have say added log rotation in the last few days as a feature of your MySQL code. Then your old systems won't get it. This ends up making your systems all snowflakes, not standardized. You can go back, and take the time to run it on your older systems. But unless you automate the process, you will do it less often. If you automate the process, to have basically reinvented the agent/master model, just as push. Some will argue that not automating the process is safer.  That it is closer to the immutable style not to automate the run, since you will be making fewer changes. But with the right testing, you can mostly eliminate the problems with changes. You then are treating systems more like cattle and less like pets. Unless you like to use Ansible to rebuild a new system from scratch on every change.
+
+Even with Tower, SSH is slow, there really is no fixing that. The lack of an agent/master also means you lose features like the reactor.
+
+Being owned by RedHat, the ability to submit code isn't as great. But that also generally means it is more stable and has fewer bugs.
+
+One area where Salt is weak, but Ansible is strong is cloud configuration. Salt has salt-cloud which is comprehensive from the perspective of supporting many forms of cloud, but only does VMs or instances. My understanding is Ansible can do a lot more out of the box.",mixed
+15,"If your willing to look at another alternative. I have been very,very happy with saltstack. It seems to be quite stable, has a good declarative model aswell as optional methods of doing procedural work and it's blazing fast. The only real downside is it needs a client program on your nodes to be able to manage them. ",other
+16,"I've never used chef but I've used ansible and puppet extensively. I would say these tools all fit along a continuum of *descriptive* vs *procedural*. Because ansible is more procedural, I think it's much easier to turn that into a mess of unmaintainable config management code. I've also found some terrible gotchas in ansible's variable processing and templating which I would categorize as show stoppers (e.g. put a dash in as the **value** of an array member in host_vars, iterate using `with_items` and pass that value into a jinja2 template... good luck!) So, clearly my preference is puppet, although it's a little more complex to get off the ground. That being said, ansible, imho, beats a lot of other tools if you think of it as a re-useable distributed command executor.  ",mixed-ansible
+17,"There are a few things to consider here which often aren't discussed. It's less of a technical and more of a procedural side to the technology used.
+
+With puppet (in the standard use case of master/slave servers) customers can disable the puppet agent and prevent puppet from running. You have to anticipate that and prevent it with cron jobs, monitoring and such.
+
+Unless you're lucky and you have no customers with sudo/root privileges, this is can be a PITA, especially with customers not wanting to adhere to or read the standards that are set.
+
+Ansible has the advantage here that it always pushes from a central host over SSH. So unless the Ansible user is removed or SSH is disabled/firewalled, its running isn't impeded.
+
+That being said, on the technical side of things I personally prefer Puppet. It's more mature (especially looking at the code base, Ansible is horrible spaghetti code) and new versions break less because the entire syntax doesn't change.
+
+Puppet does have a steeper learning curve, but I find it's by far the better option for complex architectures. As I mainly have to deal with these, I use Ansible for orchestrating purposes only and Puppet configuration management.","other,not-ansible"
+18,"Saltstack is the best mix of scalability, power, ease of use, and flexibility and is python based.  I feel like the only reason saltstack isn't more popular is because it's newer, otherwise it's simply a superior tech.  Ansible is really nice and easy for small environments but doesn't scale as well as the others .  Puppet is probably the best if you mix in windows environments.  I dislike chef the most, but if your a Ruby guy you might favor it.","other, not-chef"
+19,"I used Puppet back in 2011-2013 in a single big environment of hundreds of systems, mixed Debian and FreeBSD. 
+
+These days I use Ansible exclusively in smaller isolated environments of CentOS, Ubuntu and Debian. 
+
+I think there was clearly a point to having an agent-based pull model in the first case. But I never enjoyed working with the Puppet DSL. 
+
+The biggest issue with Ansible is trying to find your best practices. I've been using Ansible since 0.2 and it's a constant journey. 
+
+I've gathered my best practices in [my own wiki](https://wiki.sydit.se/teknik:ansible:ansible_best_practices), it's in swedish but I think the examples and the links at the bottom are self-explanatory. 
+
+I do prefer Ansible but I believe that's partly due to the type of environments I've worked with since adopting it.
+
+Another issue with Ansible is perhaps more ""meta"" but I hang out in the #Ansible IRC channel @freenode and I constantly see pretty silly things. People are trying to do everything with Ansible, fantastic things that they should not do with Ansible. Also people seem to have very bad understanding of what Ansible is and what it can do. 
+
+With Puppet I had a book called Pro Puppet, I also had predecessors that had made most of the config for me. So I had guidelines to follow. 
+
+But with Ansible it has literally taken me 3 years to make guidelines and practices. So my one tip for you, if you want to use Ansible, make sure you have a plan. Make sure you plan your directory structure, your playbook structure, your roles.
+
+Speaking of roles, I know Ansible galaxy was a nice thought but I've never used it. I'm just too skeptical about using someone elses role from github, often in constant flux. KISS.",ansible
+20,"I've extensively used Salt, Ansible, and Puppet.
+
+I think Salt is the best hands down. 
+
+Ansible can be a full alternative to Puppet/Chef but I think there's a big caveat with Ansible. SSH login I don't like and the fact there's no agent doesn't sit well with me. If you can ensure that nobody can login and change your machines Ansible is great, but if people can login and change things I'd prefer something that'd constantly maintain state.
+
+For everything I do these days though I use Salt or Ansible. Ansible is great with Jenkins and that's about the only place I use it anymore.","other,ansible"
+21,"I've worked some with Ansible, Puppet, and Chef.  Which tool is best is really a matter of environment and personal choice.  For example, Ansible does its magic via ssh, meaning no additional agents necessary on the client side, meaning less impact on hosts resource wise.  This is important for some environments.  Puppet has a wonderfully massive user community and tons of pre-build modules which are written in a very easy to understand meta-language, so I would give it points for ""user friendliness and ease of learning.""  Chef, on the other hand, is pure developer candy.  Its raw ruby, and as such is infinitely extensible and flexible.  If you're already a ruby dev, Chef is your choice.",mixed
+22,"I run Puppet Enterprise across 300 Red Hat nodes.
+I've fully built up the configuration management stack and use it for end to end server build, through to middleware config.
+
+Its strengths are the flexibility and logic in which it enforces system state, enterprise has great reporting.
+
+weakness are performance issues when scaling up, heavy duty puppet runs across hundreds of nodes chomp a lot of master processing capabilities, the duplicate resource declaration issues in a catalogue issue is a pain as well.
+
+I'd look at Ansible for a solid provisioning alternative, but lean on puppet for its powerful configuration management.
+Chef is for devs imo.
+
+Keen to try saltstack but I'm into a new role which has me focusing on Cloud Formation and AWS automation now.",other
+23,"I put together a ""Rosetta Stone"" of the major players. With this basic example which ever feels the best I'd learn first. 
+
+http://jjasghar.github.io/blog/2015/12/20/chef-puppet-ansible-salt-rosetta-stone/",mixed
+24,"We are an Ansible only shop. Moved from Puppet to Ansible a few years back. I like that it is agentless and all I need is ssh. 
+
+We also use the network modules to backup configs and make changes on our IOS/NX-OS/ASA devices. Right now I'm doing a good bit of VMware infrastructure provisioning with it. If the modules don't support it I can definitely do it with the shell module and esxcli on the host. 
+
+For testing I use Ansible to provision a vagrant box locally and then test my roles there. ",ansible
+25,"If you like ruby even in the slightest just go with Chef.
+
+I'd rather be writing idempotent ruby code than dicking around in shell scripts all day.",chef
+26,"I recently picked up Ansible and have been finding it great for our needs.  I need to have something to do with it first before I can find a use case, so for me this was being given a crappy product I needed to push out to 400 Oracle Linux servers, install it, update some config files and apply some firewall rules.   
+Our overseas team said they needed 3 weeks to do this manually with 3x staff, but after spending a day reading up and practicing with Ansible on a test lab, I was able to knock up a really basic playbook and had this pushed out to all 400 servers in 3hrs.   
+Very easy to pickup and best of all the help system for Ansible is really user friendly, on par with Powershell imo.",ansible
+27,"So that's what we're going to do today?
+
+http://m.imgur.com/gallery/LlW6p",mixed
+28,"I've used everything in your list except for Salt. I'm also a registered Puppet Delivery Consultant so keep that in mind.
+
+* Ansible - the new kid on the block (sorta). Brings great things for people who don't understand a DSL or don't spend too much time writing code, but maybe understand how to configure servers from bash. Has some serious issues (you can't re-use modules unless the CORE project of Ansible includes them, and then you have to make a Pull request and wait for a new release. Read: this is beyond awful and retarded).
+
+* Chef - decent enough tool, has been around for a long time so you can pull stuff down from the internet and not reinvent the wheel. Last time I used it, there were a series of overrides that had to be used (think, escalation of code to make sure it runs in the right order). That is a huge PITA and I hope they've fixed it. Anyway, you'll get your hands a little more dirty with Ruby in chef, programmers seem to like it a bit more than puppet/ansible because of the fact you can drop to ruby a little easier. Chef is doing some pretty cool stuff with ecosystem and growing their business model, but if straight CFM is all you're looking for you'd be fine with chef or puppet.
+
+* Puppet - pretty good tool for straight CFM. Tons of available code, most programs already have modules you can download either from the cli or from the forge. Dipping into ruby requires a bit more understanding of module design, but it's there and can provide facts and other ways to write the puppet DSL and make it do stuff. Overall it's my favorite and well developed. Much like chef, they've expanded their product line and are now trying to capture ecosystem, build into other tools like vRO/vRA. So overall expect good integration with the rest of your toolchain.",other
+29,"I been using ansible and might start doing a combination with puppet. I started using ansible since it was easier to understand the format you write the playbooks and the modules. The most awesome part about ansible is that all you need is ssh access. With puppet and the others you need an agent and a master. It also had a higher learning curve since you need to learn how those two work together. We got new customers who used puppet and looking at some manifest and knowing ansible, it was easier to understand. I still go with ansible it does not require a lot to be installed. The only thing (at least in Centos/RHEL:) that if you are using selinux you need ```python-selinux``` rpm installed on all of those servers.",ansible
+30,"Has anyone got any experience with Mcollective? We use Puppet, but I've began to use Ansible for for those times when you need to gather information on x hundred nodes. But wondering is Mcollective is worth the effort in setting up.",mixed
+31,"I had the fun experiment of managing and configuring Docker containers using Chef. I manage all the infrastructure I can at home with Ansible. That's about the long and short of my config mgmt experience, but I greatly prefer the ease of setting up Ansible. That being said, I hate hate hate the documentation in regards to how to make Ansible work with YAML. I have syntax errors every single time I write a playbook.
+
+I like Chef as well. Where I work it's very popular, and it's easy enough that even if you don't know Ruby you can pick it up. 
+
+I'm also slightly more biased towards Ansible since Red Hat owns it, which to me means it's going to get more market coverage. ",ansible
+32,"Briefly tried Chef and Puppet but it was really easy to get started with Salt.
+Trying out Ansible has been on the cards but I don't like it going over SSH.
+
+I like the fact that salt uses an Agent. No need to worry about tunnels, NAT, or key management.
+
+Together with Github webhooks, we use it to do automated deploys upon release across our fleet of AWS instances.
+And we have it integrated with Hubot / Slack for manual operation.
+
+We're now successfully autoscaling in AWS with new instances auto registering themselves to our master and running a state.highstate while unregistering themselves when instances terminate.
+2 simple curl commands to access the salt-api to register the instance.
+and 1 salt-call command to revoke the key on the master.
+No need to create reactors, runners, etc and no need to have a SQS queue. Simple.
+
+It's an amazing piece of OSS that achieves so much.",other
+33,"> I feel like if Salt did something similar in Python rather than YAML & Jinja2, 
+
+You can use Python rather than YAML & Jinja2 if you really want to. Start your state SLS (likely pillar SLS is fine as well) with ""#!py"", define run() function and return high state data. If you want to generate managed file in Python, use py as template renderer and return the file contents in the run function.
+
+http://docs.saltstack.com/en/latest/ref/renderers/all/salt.renderers.py.html
+
+http://docs.saltstack.com/en/latest/ref/states/all/salt.states.file.html
+
+Not that I would know why you would want to do everything like that (there are some use cases where it does make sense)",other
+34,"The reason I use Puppet is mostly because of the DSL. I don't really get the point of learning Ruby or spending time getting more familiar with python to use scripts to manage things. Many people have scripts to manage things, from decades ago. We have them. They work well, but are not idempotent. 
+
+That's the big thing about Puppet and the DSL, it sort of forces you to not only write the initial set state, but also usually ends up being able to enforce the state in a way that is overlooked (frequently IME) with straight scripts.
+
+That being said, I think that if you use Puppet OR Chef, you're unlikely to see something ""better enough"" in the other to switch.
+
+Ansible and Salt are fine, but as you said, they seem to end up either being very limited or using whatever jinja2 is - in which case ... I think I would look for something less odd myself. I haven't really looked into them myself though.",other
+35,"| ansible: ""Because of the agentless architecture, management on bigger scales are painful.""
+
+
+why ?",not-ansible
+36,"Could do without the barbs against people who don't use ruby and that somehow not knowing it makes you a bad admin.  Ruby is yet another (IMO unnecessary) scripting language that has a lot more headaches (incompatibilities down to minor release versions) than other more mature languages like perl and python.  And it betrays your stated intent for the article:
+
+> In this article i will try to be fair as much as possible 
+
+as you have selected Chef and it's probably that you like it the most because it uses ruby as its language.
+
+You also have a pretty strong bias against template engines, which really makes no sense for config management.  You are managing config files that need some code in them, not the other way around, so I'm not going to wrap all of my configs in huge """""" """""" blocks or endless print statements (and this doesn't make me lazy either).
+
+I appreciate the writeup as I'm always weighing the different options in this topic, but I don't think you accomplished your goal of being ""fair as much as possible"".",not-chef
+37,"I'm not sure how you can complain about Jinja making things look too ""complex.""  Jinja is kind of designed to be readable, you probably just need to get an editor that properly highlights Jinja syntax.",Not-relevant
+38,"Didn't read it but let me guess, the granddaddy of them all, CFengine is not included as usual...?",other
+39,"IMO Ansible is the best as it can be used to provision, deploy and monitor.  I don't think 'infrastructure as code' is a good thing if it can be avoided as code == bugs.
+
+",ansible
+40,"I think this is more like a pissing contest than an actual review. 
+
+We did our own review of these tools when picking a future deployment system at work and since we're a consultant firm with many different clients we decided quite easily that the situation must dictate which tool we use. 
+
+For example when we have a small mixed environment of Debian, Ubuntu and RHEL, with mixed roles like general support servers, monitoring hosts, single web, db and mail with occasional pairs of db, DNS and mail then we decided that ansible is superior. 
+
+It's just not worth setting up puppet masters for 50 mixed hosts in mixed networks and sometimes belonging to various clients. 
+
+But when we had one client with 200+ hosts that had to scale up on FreeBSD or Debian then a puppet master was quite fitting. 
+
+So don't get blinded by awesome tools, instead first ask yourself ""what does the situation require?"". ",ansible
+41,[Full print preview](http://www.infoworld.com/print/231308) for the lazy. ,mixed
+42,"I have a love-hate relationship with Salt and Ansible. Perhaps this is down to my inexperience of using them in a live environment. If that's the case I'd really love someone to correct me.
+
+Whilst I appreciate the simplicity of both, especially since they can now both operate over SSH or ZeroMQ, they are fundamentally orchestration tools on speed. 
+
+By that I mean that it seems to be different concept - that of going and do X, rather than the state should be X (like Puppet). Whilst they fundamentally should come down to the same output, to me they are different.
+
+It's a thought that I'm having a hard time shaking, but also a hard time discussing in a coherent manner. Perhaps down to the fact that I've not really used Ansible or Salt in anger.
+
+I suppose what I'm asking is, is it just me? Am I making a problem where there isn't one?","other,ansible"
+43,"Salt development community is more active compared to Puppet.
+See this: https://gist.github.com/baijum/4545747",other
+44,My 2 cents: I have started using Ansible and love its simplicity compared to Puppet and Chef.,ansible
+45,"I've setup 3 or 4 puppet test environments. I like it, but then I setup saltstack. I'm really impressed with it since my focus will be more on grid/cluster/hpc setup rather than just deploying different groups of linux boxes.",other
+47,Several of the points in this article are old information. Push jobs in Chef are very much present in Chef 11 (and is going to be a default part of Chef 12) and Ansible definitely has support for MacOS and Windows.,mixed
+49,"hmm could it be the GuardRail, script rocks product, just works better with ansible therefore thats what they're favoring ?",ansible
+50,"Things to consider:  
+Complexity of the deployment: How many nodes, What do you want to manage, How often do the need to be updated Etc.  
+Ease of Adoption: Do you already have folks familiar w/ the product, are the developers, etc  
+DSL Usage: Are you ok with how the DSL functions, could you extend it if you needed to, etc.  
+Agent v Agent-less: Are you OK with having to bake an agent into your nodes?  
+Push v Pull: Do you want to push changes to your nodes, or do you want your nodes to periodically poll?  
+Integration w/ existing tools: chatops, emails, notifications, hypervisors, cloud providers, CI/CD 
+OS/Object Support: What OS can the master/control node be deployed to what things can I manage easily  
+Product Maturity: Support model, product road map, etc  
+Community Relevance: With any open source tool you have to evaluate the community behind it as it is normally one of the biggest indicators of product health
+
+All of the products you mentioned have answers to those questions. Weigh that against what you need to accomplish. None of the tools are mutually exclusive, I have clients using all three. Feel free to ping me if you want to go deeper.
+
+",mixed
+51,"Chef and Puppet use agents, which need to be installed on the target machines.  These talk to a Master which runs on your server.  They work on a semi-constant basis to maintain your desired end-state.
+
+Ansible is agentless.  It exists only on your server, and talks to your target machines over SSH.  It only runs when you tell it to run, and applies the state you've instructed it to.  It doesn't so much ""maintain"" that state as ""enforce it when asked"".  You can, of course, automate it, and there's an experimental ""Ansible Pull"" mode that works more like an agent.
+
+That said, it's much, much quicker and easier to get started with Ansible and have it doing useful things quickly.  Converting a set of shell scripts and config files into Ansible roles/playbooks is easy, and their documentation is really, really good.  It's also very easy to ""cheat"" with Ansible, if you're not sure how to do things the Ansible Way (tm), and just have the role/play run a shell script of your choosing.
+
+As you scale up, the model slows down, however.  There's some tuning you cna do to make it a little faster, but you're always incurring SSH overhead, just due to the way Ansible works.
+
+Since they use their own backchannel methods to communicate, as you scale up the agent-based methods seem to perform better.  I know Salt uses ZeroMQ, not sure on the others.
+
+The downside is that there's more setup work to start with, and it's (generally) not as quick and easy to get things to a workable state.  If you don't have a lot of in-house Ruby knowledge, Chef and Puppet can be somewhat daunting (Chef moreso than Puppet in this regard).  Salt is similar, but Python-based - if you have more folks in-house who are familiar with Python.
+
+Any of these is better than none of them, and they all are extremely capable tools.  Take a weekend or a couple afternoons and play around with them, see which one ""clicks"" for you, and get started.  If you run into a wall, there are resources to help, even if that's learning a hard truth about the scalability of certain infrastructures.",mixed
+52,"Get a 3 sided dice, and toss it?  Spend a few days reading the docs and going through a basic intro of all of the above?
+
+All three are pretty good.  Are you more familiar with ruby, over python?  Maybe pick chef, or possibly puppet.  If python, maybe ansible.
+
+Do you want to use a tool for more adhoc tasks, or orchestration?  IMO ansible tends to be better for that.
+
+You of course can mix and match puppet/chef for configuration management + ansible for orchestration/adhoc.  Ansible is nice in that it requires almost no setup/agents on the managed machines, so it can be used in addition to almost anything else.
+",ansible
+53,"consider Salt. It's python based and uses YAML for config.
+
+very easy to get up and running, but a lot more powerful than Ansible","other,not-ansible"
+54,"Our company utilizes Chef as we needed the ability to easily extend the functionality of what is typically included with configuration management frameworks. Chef gave us the ability to write custom resources that could utilize existing ruby gems. After using it for the last two years, my opinion is that I really like the capabilities provided by the chef framework but I ended up writing custom cookbooks for every service our company manages. You cannot always rely on the community cookbooks to provide every piece of functionality you might need or that the community cookbooks will be updated in a timely manner following changes/updates for the service the cookbook provides functionality for. You can, however, utilize community cookbooks as a dependency for your own cookbooks (known as wrapper cookbooks). Using this approach you can grab the functionality you need from a community cookbook while maintaining the ability to add custom resource functionality to your own cookbook.",chef
+55,"If you use Ruby internally, are developer oriented, and manage a lot of different machines, IMO go with Chef. It is a better mental fit and can handle edge cases in your infrastructure better.
+
+Ansible is good for one-off tasks, but it doesn’t do much to help you manage inventory or to keep states synchronized. The problem with Ansible isn't so much that it ""scales badly"" than that it doesn't help you solve fundamental like bootstrapping new machines or keeping track of what you have. IMO it’s better thought of as a task runner.
+
+Haven’t used Puppet. My impression is fairly positive — ""enterprise"" buy-in is a good thing, IMO. I think it's unfortunate that they opted for their own DSL though.",chef
+56,"It depends on what platform you use and how many servers you normally use. Ansible is great for small Linux deployments, however, it is known to be slow for large ones. Its Windows support is also lacking since it cannot be run natively on Windows.
+
+If you are deploying Windows, Chef is a much better choice. However, the learning curve for Chef is a tad steeper than it is for Ansible. Also, Terraform supports provisioning with Chef without the use of third-party plugins. ",mixed
+57,"These tools are just a means to an end, pick one thats simple with less management overhead. IMO Ansible or Salt fit the bill. ","other,ansible"
+58,"> The thing is that I will not be probably able to use them at my work, so this is more like preparation to be more competitive on the market.
+
+Then try them all - just small projects to get started with them and see what you think. Most are really easy to get up and running then you can learn the ones you like more in more detail. You will get a much better idea of which is best for you by trying them out over a weekend or two - not a huge amount of time and will give you a much better understanding of their limitations and strengths.
+
+---
+
+Personally, I have only ever used terraform as I generally work with google cloud and it has its advantages that it can provision none AWS resources (consul, databases and other services you might be running). But can also lack support for some of the lesser used AWS resources. From what I have heard most people tend to prefer to terraform over cloud formation - but that is by no means a scientific measure.
+
+I have also been moving away from config management tools and more into immutable infrastructure using packer or docker containers to do the bulk of the work - config then becomes a few environment variables or stored in a database or consul or etcd. Otherwise, I would probably favour salt as I am more familiar with it and it is better designed for a pull setup (which is required for auto-scaling instances - though ansible can work this way as well, salt is slightly more flexible with it). Regardless you should pick up the basics of each system, try them out with a dummy application and try to find when it is best to apply each one - learn the ones you use more or find more useful in more detail.",mixed
+59,"It' really irrelevant, as you said, they are only tools. You choose what you like best. The result is what counts.",mixed
+60,"These choices really come down to your set of circumstances and then personal preference.
+
+I always use Terraform over CloudFormation, even when only deploying into AWS. I like knowing that if I need to I can use the same tool to manage other services and also I just find it easier than CloudFormation to do what I want but thats probably partly down to me having a lot more experience with Terraform. There are some downsides, new services can sometimes take a bit of time before theyre available in Terraform but overall its kept really upto date and a great open source project.
+
+Same thing with configuration management, I use Ansible when working on smaller server estates or when needing only to do basic configuration changes. I use Puppet on bigger environments or when needing to manage every detail on a server as I feel there're each suited to slightly different usecases.
+
+But thats just my personal preferences, I would always try to go with open source over closed source when the choice is there but im sure plenty of people will have different answers and preferences.
+
+Key thing is to make a choice and start trying to make changes with it, come up with a mini project you can do and use a tool to do it",mixed
+61,">(I didnt mention Puppet & Chef because I plan learn Python)
+
+Do you use anything else now like Ruby or something? I think this is key. I could't imagine how much more difficult it would be to do what you're doing without having a foundation in some language like Python.
+
+I started with python last year and it has made things that were extremely difficult in the past easy, just by changing the way i think of problems. Plus having a great tool for interacting with RESTapis or using built in SDKs. Python is the universal hammer, and everything starts looking like a nail. ","other,ansible"
+62,Cloudformation + ansible,ansible
+63,Here's a straight up non-abstract suggestion: terraform & ansible,ansible
+64,"I think this is a good idea. I've definitely seen people get in trouble with forgotten customizations to dependencies fetched via ansible-galaxy (especially in a shop without good CI), and the iron law of third party config management is that it's busted.
+
+Two thoughts though-
+* You should fork early, switching submodule remotes is slightly painful and requires a different workflow
+* I think submodules are straightforward and great, but no one seems to agree with me. Your junior engineers may revolt.",ansible
+65,"Don’t be an open source leach. If a role doesn’t quite meet your needs do the following, in order:
+- send a patch to the upstream role
+- question what you are doing, is there another better way of achieving this thing?
+- create a custom role (or many) for your ad-hoc stuff and put it on galaxy
+- create a new fork based off the old one, explain in the README what role it is based off and why, put it in galaxy. ",irr
+66,"The InfoWorld piece is rife with inaccuracies anyway. Someone who has actually used all these techs should write something :)
+",irr
+67,"Looking at these its more of a technology timeline/chronologically.  
+
+First everyone used chef,  then everyone used puppet, then everyone used salt, then everyone used ansible. 
+
+
+All of them are good for the time and place and problem, but technology moves so fast, so do its adopters.  comparing those would be like comparing windows XP, 7, 8  ",mixed
+68,"I've worked with puppet and ansible, and definitely prefer the latter.
+
+Puppet pros:
+
+ * It's incredibly extensible, due to that ruby stuff
+
+Ansible pros:
+
+ * It's very easy to learn, due to the simple yaml configs, and the great documentation.
+
+ * It doesn't require a special server or an agent or anything. Got SSH? You're ready to go.
+
+ * Tasks are always executed in the order they are written down, which makes things much easier to understand.",ansible
+69,"I evaluated Chef, Puppet, and Saltstack.  Chef was eliminated because I'm not familiar with Ruby, nor do I have any desire to learn it because I have no other use case for it.  I also don't see it on resumes, so I was concerned that it would be difficult to find a sysadmin who could just jump in and start using it.  Puppet was eliminated for similar reasons.
+
+I ended up with Salt because I found it to be the easiest to configure and maintain.   We now use git as a configuration backend with our dev, test, and prod environments each having their own branches.   I should add that after working with Salt, Chef and Puppet configuration doesn't look so intimidating anymore because I understand the concepts.  
+
+One thing you should expect after using any configuration management tool for a few months is a mess.  You can get all the advice in the world, but once you start using the tool (no matter which one it is), you'll find enough things you wish you would have done differently.  THIS IS NOT A BAD THING.  Expect to be reorganizing your configuration files at that point.   We started to use the [reclass](https://reclass.pantsfullofunix.net/index.html) system, which allows us to classify our salt states, services, and servers.  It makes things so much easier once you take a step back and start mapping things out.  Reclass works for puppet and ansible as well.
+
+Good luck!
+
+","other, not-chef"
+70,"I’ve spent a good chunk of the past seven years working with configuration management systems, at all scales.  Here’s my two bits.
+
+Configuration management is a core skill for systems engineers, linux administrators, and people who wear a title with devops in it.  Familiarity with at least two platforms, and expertise in one, is usually a hard requirement.  That said, this is one of those questions where the answer is “if you’re asking, it doesn’t matter yet.”
+
+If you’re trying to beef up you’re resume quickly, or simply looking for a way to configure infrastructure for personal use, Ansible will give you the biggest, fastest bang for buck.  It’s the only option that doesn’t rely heavily on a separate server to provide your assets.  Yes, you can run puppet, chef, and salt in serverless/agent modes, but such approaches are essentially forcing square pegs in round holes.  People tend to find Ansible easiest to learn, especially if they aren’t already Ruby enthusiasts (Chef and Puppet use Ruby under the hood, Salt and Ansible use Python.)
+
+If you’re curious about the platforms in general, they’re all reasonably easy to test-drive for a week, either on VMs or for a nominal cost on a cloud provider; this is a perfect chance to brush up skills on AWS, GCP, or Azure if you’re also learning how to provision cloud infrastructure.  While a $200 AWS bill may seem daunting at first, it’s worth noting that engineers who work in this space are some of the most highly paid in the field.
+
+As to adoption rates, Ansible seems to be the most widely used today, Puppet and Chef neck and neck in the number two spot, with Salt pulling up the rear.  Beyond Salt, you have CFEngine (which is still a thing), followed by various heavily customized integrations of Terraform (usually combined with Packer, so that AMIs/golden-masters replace the ‘need’ for configuration management), fabric, and neckbeard-guys-shell-scripts.  Don’t get me wrong, Terraform is incredibly useful, but a full-fledged configuration management solution it is not (nor meant to be.)  A common workflow usually stands up a cluster with Terraform, then bootstraps with Ansible/Puppet/Chef/Whatever.
+
+Personally, I’ve enjoyed replacing my configuration management tooling with container orchestration (kubernetes), but having a strong background in config management makes that a much easier leap.  In the end, if your goal is to beef up your resume, it won’t matter terribly which CM tool you get to know well, but rather have familiarity with all of them (again, one week each), and admit that during an interview.  Most shops that have grown to need a dedicated CM skilled engineer will already have something in place, and your job (if you’re not already a seasoned veteran), will be to maintain and improve an existing platform.
+
+Personal note: I’m in the “I don’t like Ansible, but it’s my go to” camp.  I miss the days when Chef was my go-to, but as my focus is on container orchestration nowadays, chef is just plain overkill for the handful of tasks I have for CM.  I don’t care that much for Puppet; that hammer isn’t as elegant as Chef, IMO, but it’s perfectly adequate for the job.  I’ve not had occasion to use Salt, and at this point in my career, it doesn’t look like I ever will.",ansible
+71,"Choose the right tool for the job. There is no ""better"" without knowing the underlying task. These tools have different goals and different philosophies. It is possible to use tool A even if B woild be better suited, but it may not be the best choice. Sorry for beeing vague, but there is no easy/right answer.",mixed
+72,"You can use both puppet and ansible. Like Red Hat does with Satellite 6 (Foreman) and their OpenStack (TripleO). So just like others have said, there's not one tool to rule them all. They are all good at different things.
+
+Make a list of what you absolutely need and then try out the tools that fit those requirements",mixed
+73,"Howdy y'all. 
+
+There are use cases for all of them. 
+
+Ansible is probably best if you are using RHEL based systems since they own and maintain it. It's also flexible if you're automating network hardware, and would make sense if you know some Python. 
+
+Puppet and Chef are more geared toward Ruby as a DSL, and frankly I've found both to be equal for the most part. 
+
+Salt I haven't used, but I've heard good things about it. Again, you really need to know your environment and how it will be used to make a good comparison. Hope that helps. 
+
+GIDDYUP Y'ALL!",mixed
+74,"Chef has [Test Kitchen](https://kitchen.ci) which is a tool that allows you to automate spinning up an instance, converging your CM tool, and validating it did what you expect (With InSpec).
+
+REGARDLESS of which tool you use, (Chef, Puppet, Ansible, etc.) I explore you to check out Test Kitchen for testing your Config Management. The biggest mistake I see people make is bikeshedding on which tool to use, then never testing their tool!  Since all these tools give you the power to propagate _any_ change across your organization quickly, it would behoove you to be confident in the change you deploy is not a breaking change!
+
+TK works with all of the test tools, and InSpec is a ""compliance"" validation tool that is completely independent of any CM tool (though you can leverage your CM tool to initiate a scan).
+
+It's also important to be able to run your CM tool on a schedule.  If someone logs in and changes something by hand, my CM tool ABSOLUTELY should change it back.
+
+Now, as for which tool, I'm a bit biased as I've used Chef for nearly a decade (Chef's 9th Birthday is coming up)...  so understand that everything I'm about to say is colored by that lens.  Also, I believe as long as you chose any CM tool, you're much better off than choosing NO CM tool.  Heck, choose CFEngine if it works for you (Mark Burgess is a smart cookie).
+
+From my experience, Ansible is really easy to get started on day one, but becomes much harder once you want to do complex things.  Chef on the other had has a larger learning curve but is capable of doing more complex orchestration.  Puppet and Ansible both suffer from the same architectural decision in that the ""master"" server is the one doing all the work, whereas the Chef Server is just a catalog and the Chef Client is the one doing all the heavy lifting.  Chef is declarative where Ansible is more procedural.  With chef you model your environment by saying ""I want nginx installed, I want the nginx service runinng"" whereas with ansible you say ""install nginx then start nginx"" (the distinction is subtle but important).  Finally, because the Chef Client is doing all the work, if you lose a Chef Server you won't be able to push changes down to your clients, but your clients will continue running on cached data and ensuring state.  With Puppet/Ansible if you lose your Puppet/Ansible server your nodes won't be able to continue ensuring consistency.
+
+Anyway, that's my $0.02.",chef
+75,"I used all of them.
+
+Ansible - simple, just works. Not fast though.
+
+Salt - fast, powerful. Complex. Has weird bugs. Grain targetting is unreliable by design.
+
+Puppet - non-deterministic resource ordering is a pain. The config can easily get messy.
+
+Chef - grossly overcomplicated. Just look up how varibles of different types override each other. It takes significant effort to keep your config clean. Painful server requirements if you want to manage hundreds of machines.
+
+The majority of the people I work with suggest Ansible. Honestly a bad tool used well works better than a good but neglected tool. Any of the above can be made to work well.",ansible
+76,"Knowing puppet certainly helps a lot. I have stumbled somewhere , that if your organization is ""Ops heavy"" , then please use puppet and if your organization is ""dev heavy"" then please use Chef.
+
+&#x200B;
+
+I have no frigging idea about Ansible and whatever little bit I have seen doesn't tell much about it, excepts it's backed by big shop , because they acquire it.
+
+Last time, I touched Salt , and badly bitten by their poor documentation . Quite few years now...but it was looking bloody good then.
+
+In fact, no silver bullet, you got be precise what problem you are trying to solve and what is your core strength.
+
+&#x200B;
+
+So, in nutshell , I have had very limited idea of the full blown stuff of the mentioned,out of those I have used puppet most...because it's old, proven and stand the test of time. (No marketing shit) ...in fact I am still discovering the nuances of it. :)",other
+77,"I've only ever used Ansible and Saltstack. We use both... On mobile so sorry for crap formatting.
+
+Ansible is better for orchestration of cloud resources. It's better supported on this scenario than Salt. 
+
+Ansibles API is less fun to work with than Salt and its architecture makes it difficult (in my opinion) to scale your code if used for config management. It's slow and barfs by default if a task doesn't pass.
+
+Saltstack's master/minion message/subscriber architecture is excellent for configuration management. It's lightning fast, has an excellent API and scales extremely well both in performance and code. Their development community is also receptive to requests and bug reports.
+
+Saltstack's cloud orchestration is always behind Ansible. Salt-ssh is useful in more secure scenarios but killer features such as reactors, beacons and salt mine do not work.","other,ansible"
+78,"Use Ansible. Salt is better, IMO (I like the architecture better), but Ansible is easier to learn and is backed by RedHat, which in the Linux world is huge. It has more traction nowadays, and that's not likely to change soon.
+
+I never really tried Chef, so I can't speak about it. I used Puppet long ago, and I think it was great in its time but now it offers nothing that Salt or Ansible can't do better. It's also slower and has a bigger footprint.
+
+A problem with Ansible and Salt is that there are no FOSS web GUI that are really usable. You won't need them if you only manage a few servers, but it's nice to have with bigger numbers.
+",ansible
+79,"If you have a team which is not afraid to code and want customization then use salt.
+
+If your team is inexperienced, small <5 and your environment small then use ansible.
+
+Generally having config management with agents is always more difficult since the software is as well. You also generally need to have an environment where you can test new agent versions before updating. But you get more options in handling snowflakes.
+
+Ansible with large environments are in my experience more difficult to manage than salt. Especially variables.","other, ansible"
+80,"Each config management tool has its own pros and cons.
+
+These days i avoid chef and puppet because I'm not a ruby fan.
+
+I love salts architecture but i feel like they try to get salt to do too much, this their devs are spread thin and there are always tons of bugs. I've had method signatures randomly change way too often in salt.
+
+I only really like ansible for bootstrapping or provisioning.",not-chef
+81,"Long history and love of Ansible here, huge desire for Salt because it solves a lot of the shortcomings of Ansible's design. That said, the place I'm at for the past two years has used Chef, and I'm now a convert. I was toying with replacing Chef with Salt for awhile, but at this point we're probably just going to move over to Chef Automate. Chef is pretty fun to write once you get the hang of it, and cookbooks make sense. Creating a versioning strategy has still been a bit of a pain, but we're getting there. The Chef Server makes runs a lot easier and trackable. Chef also integrates very well with InSpec, and InSpec is fantastic. Writing tests and compliance controls is... actually fun! Mind you, you can use InSpec with Ansible pretty easily, but the advantage is you're writing everything in a Ruby-like language. Chef also has an incredible tutorial page (https://learn.chef.io) that really helps you understand all components for your particular environment.
+
+That said, they all have their pros and cons. I would evaluate each one on your own and decide what makes the most sense in your organization. You couldn't go wrong with any of the major players, but they do vary in complexity quite a bit. From hardest to easiest I'd probably say Salt, Puppet, Chef, Ansible.
+","mixed,ansible"
+82,"For everyone who is commenting that Ansible ""just works"", I've come across Ubuntu boxes that have a minimal install base which seems to lack the python support Ansible needs. Also AIX systems don't have python by default. This is easily fixed by adding those prerequisites to the provisioning phase but ""Ansible just works because I've got ssh access"" isn't fully correct imho.
+
+That being said, I really love Ansible and been using it for a few years now.",ansible
+83,"Comparisons:  
+
+Chef -> 747 airliner 
+Puppet -> Cessna 2 seater airplane
+Ansible -> Bullet Train
+Salt -> AutoBot
+
+**Chef** is years ahead of the others for Windows support. You can write pure ruby and chef is very disciplined on not breaking environments and avoiding dependency hell. Sometimes the convergent theory gets in the way when you just need something done quick. The testing framework 'test kitchen' is by far the best way to develop code. The learning curve is a little steep and orchestration is very poor.   
+
+**Ansible** is light weight and super agile. Has plugins for everything under the sun baked in. It feels like you have to reinvent the wheel a lot when trying to anything more advanced. It is agentless, but that also makes it very slow to deploy to large infrastructure. 
+
+**Salt** is my personal favorite if you are dealing with all linux or you just need to get things done at the expense of perfect uniformity. (Though I have the least amount of experience with it) It feels a little buggy sometimes, but is the most flexible. It does both push and pull based and the orchestration is really good. 
+
+**Puppet** turns into a hot plate of spaghetti garbage code. You end up defining all your variables multiple times. They want you to use a git branch per environment (yuck), and overall is a ball of mud architecture. The best way to test your code is just to deploy it to your dev environment and hope it doesn't break. 
+
+Personally I'd recommend Chef if in a mixed windows/linux environment. 
+Salt for large linux environments
+Ansible for small linux environments or for rapid development",mixed
+84,"I have been using Puppet for 7 years across 3 employers and it is a great product. That said all of my employers used Redhat and that distro does not have an up to date version of ruby. If you are running an os with a newer version of ruby choose Puppet or Chef.
+
+On Redhat based systems I would recommend Ansible or SaltStack as both are written in python. If there is a limited number of systems, ( <100) then use Ansible. I have has issues with 100+ servers causing the ansible command to hang.",mixed
+85,"If you have any interest in automating network devices, Ansible is really good for it.",ansible
+86,"Personal or professional use?  Puppet is great, but if it's a corporate environment I like ansible because it's a lot easier to find someone that knows ansible.  ",ansible
+87,Have a read at [this](https://labs.ripe.net/Members/marco_giuliani/how-were-migrating-our-configuration-management-system) article from RIPE. Very interesting to know how they manage thousands of servers and RIPE proves all around the worlds with ansible.,mixed
+88,"I've used all four major ones in a professional setting (Chef, Puppet, Ansible, and Saltstack).  My favorite overall is Saltstack for speed and flexibility.  You get configuration management, command channel, and beacon/reactor capability.  You can do quite a bit with it, and it scales very well.
+
+That said, Ansible has AWX (opensource Ansible Tower) which is pretty badass.  Drawbacks are mainly speed (slower execution than most others), and it depends on SSH authentication to work which can become a security concern.  Specifically, managing SSH private keys, passwords, etc.  Be sure if you go this route to develop a strategy to rotate them and do so regularly.
+
+If I were running a smaller environment (a few hundred, maybe a few thousand), i'd consider AWX and Ansible.  Anything larger than that I'd suggest Saltstack.  Both are pretty easy to learn being YAML based.
+
+With either option, get to know Jinja2 templating and use it liberally.  It is your friend, and will let you much more easily move code and configuration between environments (different cloud providers, dev, prod, etc).
+","other, ansible"
+89,"I haven’t replied to all the posts, but I’ve read every single one! Thanks y’all for all the amazing insights/explanations! Really gives a good idea about the strengths and weaknesses of the four, as well as how some just go hand in hand. Understandably a lot of it is also relative to which environment they are deployed in ",irr
+90,"Every time ansible I am.  Puppet, chef or saltstack architecture are running master based orchestrations. But ansible is simply, and ansible good choice for terraform ",ansible
+91,"I've generally found that organizations tend to move between puppet and ansible mostly because after awhile your configuration has gotten too complex to easily upgrade or clean up, and it's significantly easier to rewrite the whole thing for a different platform.  Generally about 3-5years with a given tool before you switch.","other,ansible"
+92,"I had the same question a while ago. I attended a talk by Oscar Healthcare where they presented their learning experiences with each operationally. Their VP of Eng (at the time) and colleague convinced me to start with Ansible since that’s what they had settled on at the time. Each have their pros/cons, sure. But what convinced me was that they found debugging/troubleshooting in Ansible easier. Not sure about everyone else but mistakes and bugs are everywhere so debugging easily is essential. Also that any errors fail fast so you know where to focus your attention. 
+
+I’ve since dabbled in Puppet and Chef implementations at large corporations but without any joy. It just wasn’t for me. And everyone that managed them at those places hated them. They were forced upon them. In fact, I introduced them to Ansible and it’s successfully become a second option internally thanks to it’s welcomed adoption. ",ansible
+93,"For all of my hobby projects, I use Ansible. It's all pretty simple stuff.
+
+For work, we're using terraform to drive the overall infrastructure. It builds all of the resources in our cloud provider. From terraform, we also drive Chef. But we're looking at moving our deployment into Kubernetes instead of managing it with Chef. This way we're doing less individual server hand-holding.",mixed
+94,"Whatever feels the nicest to you, my dude. Seriously.",mixed
+95,"The main difference is that Ansible is agent-less and simply uses SSH or equivalent and sends shell commands or Python scripts to do its job. 
+
+As a result, Ansible is not just for configuring, it can also be used to perform actions. For example, `ansible all -myum '-aname=* state=latest'` will update all packages on all servers. Open source Puppet does not do that kind of things, although I hear it's part of the Enterprise package.
+
+Another consequence is that it can address all kinds of devices _as such_, for example routers with a serial-like CLI. To do the same thing, Puppet has you target a management host, and the actual target(s) is a parameter, so your inventory does not contain the devices but the management host instead. 
+
+Ansible can delegate specific actions associated to a particular host to another. For example, you can use it to have certificates signed on your PKI, or update the content of a database somewhere based on what was found/done on the target system. Doing the same thing with Puppet is more complicated, and I think there are cases where it's very hack-ish.
+
+Consider a database cluster with 3 members. Puppet will see the three members alright, but has no way of describing what to do about the cluster _as a whole_. You can however put a cluster in an Ansible inventory, and have it connect to the VIP to create tables, users and so on. 
+
+
+",ansible
+96,"We used Chef for a year, then migrated all Chef cookbooks into Ansible playbooks/roles and were very happy with it, because at least we dont need to spin up a separate server just for Chef master (which include elasticsearch, redis, postgres, nginx, etc. itself) and install Chef client on each machine.
+
+Ansible sometimes hangs at running specific tasks, but we can retry manually later.",ansible
+97,"In the Red Hat/CentOS ecosystem Ansible has become almost de facto configuration management tool. With Red Hat's backing it seems to have the most momentum currently. However I think the Chef ecosystem is really impressive, but like others have said I think it has a higher learning curve. Puppet I think is the loser here.
+
+What I personally like about Ansible:
+
+\- Very easy to get started, but take a look at some pro level runbooks/roles and you see the full power in action
+
+\- YAML and Jinja2 - what's not to like here
+
+\- Made with Python - plus for me personally
+
+\- AWX/Ansible Tower - you have a tailor made product for running Ansible in a centralized fashion with audit trail
+
+\- Only SSH needed, no agents
+
+\- Feels very natural for someone with sysadmin background
+
+What I dislike:
+
+\- Some hacky feeling that is hard to point finger at
+
+\- Config management tools in general are disappearing in greenfield cloud projects, because things that were previously run on top of Linux are moving to managed cloud services, containers (Dockerfiles replaced config mgmt) and serverless. Not much VMs to manage anymore.",ansible
+98,Agents are a hassle,not-ansible
+99,"Ansible is easy. Ansible is typically managed by the sysadmin group, even in large installations.
+
+As Puppet installations grow, you tend to develop a puppet team. It's large, incredibly extensible, complex, and decidedly nontrivial.
+
+Also, Ansible is owned by RedHat, so it is fairly heavily tied into Satellite. If you're a RH shop (and if you're doing this professionally, you probably are), then Ansible is the way to go.
+
+
+",ansible
+100,"I really need to learn something soon.  My method has always been to just build my own packages for configurations and then put them in a repo and use each system's package manager to keep things all consistent.
+
+At work they use puppet (I am not currently in a sysadmin role), but from what I've read I think I would prefer ansible.",ansible
+101,"I worked with al of them , definitely not puppet , I’d go for ansible this days but less and less as everything we run these days runs on eks ",ansible
+102,"When I chose ansible it was still version 0.2 and I only had experience with Puppet previous to that. I did not know salt existed and I had recently chosen to go from Perl to Python as my primary language. So Ansible felt natural because I could understand and extend it easier.
+
+I've never looked back and I believe you should never need anything other than Ansible.
+
+If I had to start over today I'm not sure what I would have chosen between Salt and Ansible but Puppet is definitely not an option mostly due to Ruby. So to be clear, I suggest you make a practical decision based on what you can work easiest with.
+
+Perhaps look at how active each project is, compare PRs, Issues and other metrics on their git-page. Or just give both a whirl on a PoC environment and see which feels best. Remember, you'll be trapped with that system for years once you commit.",ansible
+103,Choose ansible for the sheer fact it runs in the order you want it to run. play structure is simple to learn and don't take up much resources. ,ansible
+104,"I haven't used any (in production) but the overall consensus out there (user-groups, conferences, etc.) all point to Ansible. ",ansible
+105,Chef hands down! Specially if plan you are scaling out big time. But that’s a personal opinion though.,chef
+106,"I've done all three. My pick is Chef, but I wouldn't recommend. Here's a dump of some of my thoughts.
+
+Chef pros :
+
+* Phenomenal cosmic power
+* Easy to modify / extend
+* Very mature ecosystem
+* Well documented
+* Writing tests is a charm. Test-kitchen is my best friend.
+
+Chef cons:
+
+* Dwindling opensource support. Their attitude towards opensource was, and is still iffy.
+* Limited user base
+* Learning curve is present, but not incredibly hard, but it's certainly the most complex of the three.
+
+
+Saltstack Pros:
+
+* Nope.
+
+Saltstack Cons:
+
+* Saltstack is a f\*\*\*ing dumpster fire.
+* It's full of bugs, development is slow
+* User base is dwindling, a lot of resources are unmaintained
+* The community is generally reluctant to merge PRs, fixing things is hard
+* Testing your states is beyond disastery.
+* Stay away. Run for your life. Nope, nope, nope.
+
+
+Ansible Pros:
+
+* Ansible seems to strike the balance.
+* Large user base, dynamic community
+* Code's not great but it still works
+* It's pretty flexible.
+* Well documented.
+
+Ansible Cons:
+
+* Slightly dumpster-firey, it's not the cleanest of projects
+* Sourcing secrets can be janky
+* Python
+
+
+My recommendation : Ansible.
+
+Do I like it? Absolutely not. Is it the least worse of all three options? Maybe.
+
+I currently use Salt at work, and I... have strong feelings about it. My current lean for new projects is to bootstrap things with Ansible, then pivot onto Kubernetes. Helm is my friend.
+
+Terraform is also in there, but more as a necessary evil. There aren't many infrastructure orchestration tools out there.
+
+_Edit: 5 years Chef, 1 year Salt, 1 year Ansible_",chef
+107,"Terraform is there for provisioning. Chef or Puppet for configuration. Ansible does both.
+
+Personally I prefer Terraform with Chef. Chef's procedural approach gives more flexibility than Puppet's declarative syntax.","other,chef"
+108,"Puppet has one unique feature - it works great with ""Hello Worlds"" examples, ensure a package, start a service.
+
+The moment you start working with real-world scenarios where you need to orchestrate things (seed database, start service), you are about to hit walls. Example:
+
+Postgres startup script on Red Hat is start the daemon, wait two seconds, report success. And this ruins all your Puppet tree of dependencies, fixing this is not easy with declarative based approach. It is doable, I've done that, but challenging enough to avoid that. If you can orchestrate the things, why not to use an orchestration tool? Unless you have 50,000 boxes to manage, it will scale fine.",other
+109,"I use salt, but I only use it to run apt-get update && apt-get upgrade on 3 servers at the same time.",other
+110,salt,other
+111,"We took a look at Puppet, Chef, Salt, and Ansible. We decided to go with Salt. Here's what put us over the top:
+
+* It's python based
+* There's no difference between a free version and a paid version
+* It seemed better suited for our environment (software company, windows, linux, mac environment) - lots of one off / different systems
+* Much more active project than puppet or chef (in terms of contributions)
+
+Chef felt much more suited to a webscale type of shop (more cattle than pets). 
+
+Puppet felt overly complex and archaic - especially for remote execution.
+
+Ansible didn't feel like it was a player for configuration management for us.
+
+One of the engineers from Lyft [wrote up a comparison](http://ryandlane.com/blog/2014/08/04/moving-away-from-puppet-saltstack-or-ansible/) recently as well.",other
+112,"It took me a week to try and install a chef server, learn how it worked, learn ruby so I could write a custom cookbook, and get the chef client to install. And the cookbook still didnt work like I wanted it.
+
+I did all of it (learn it, install, write my custom playbook) in 2 hours with Ansible.",ansible
+113,"When I had to choose, I narrowed it down to salt and Ansible, and eventually went with Ansible, because the docs made it super easy to get going with AWS. Since then I've discovered that the devs aren't super responsive, and tend to mark legitimate issues as wontfix. I've talked with multiple users who have encountered the same problem.",ansible
+114,"Why there's no CFEngine on your list ?
+It's very mature and beats the rest with its performance.",other
+115,"Our environment will have more than 20,000 small electronic devices that run on Linux. The configuration files are all in XML. We have tested to see if it works, and we only use BTSync and Cron to do what we need and its working out better than we thought. We manage only 1 server and 1 small electronic device and the XML changes are synced. Then we execute bash functions periodically using cron.",other
+116,99% of the answer is based purely on how you want your work flow to go.   You really need to demo them all and see what best fits in to how you're current flows go and how you want them to go.  ,mixed
+117,"My company was looking into Puppet and Chef and I kinda jumped into the spot to test out the options and figure out what works best.
+
+We're in a bit of a complicated environment. All our servers are behind a firewall/VPN. We can communicate with the servers but they don't have the ability to communicate with our network. We run exclusively RHEL but it could be possible we will pick up another distro in the future, though unlikely. The whole python vs ruby thing doesn't matter to us, we are also setting up our own yum repos so we will have all necessary packages. All our systems are the same, there's very little difference between each node.
+
+We ended up choosing Puppet. For the most part we chose it due to its maturity. The fact that it's been around so long and so many people have used it for so many different things about every issue you could think of has been solved. I was originally worried about how our nodes couldn't communicate with the Master due to being behind a firewall, but I found a solution to that issue quite easily (will explain below).
+
+There's the enterprise edition which costs money, but we are just going forward without paying and just using puppet. I am also using the foreman as an ENC. I don't really think there is much difference between the paid and free version and I think I like the free version better because I'd prefer to use the foreman over PE dashboard or whatever it's called.
+
+To get around our issue with the firewalls we just have all the nodes configured so that the master is located at localhost. We shell into the box and reverse tunnel the necessary ports and the puppet apply command is forced. I'm in the process of building a tool that will cycle over every machine we have to initiate the connection and tunnels. I have also extended the foreman so that the run puppet button will create the shell connection, tunnels, and force the puppet apply command.
+
+Newer CM tools may be more active, but I feel that's just because they are much newer and require the activity to get to the level that Puppet is on.",other
+118,"If you want VMWare integration, I think only Puppet Enterprise can offer that. 
+
+Disclaimer: I am way more experienced with Puppet than any other I have used though (Chef and Saltstack).",other
+119,"""Golden images"" (the pre-configured virtual machines or templates?) aren't any good if you are a high change environment.  The template needs to be kept up to date, but it won't undergo continuous testing/validation as the rest of your production environment.  Do you have a team working on the environment who you can trust to manually keep that template up to date?  At least I haven't seen them done well before (maybe AIX mksysb where your underlying environment is consistent, but same issues as above in the long run).
+
+You should try to work out which automated build tool (which may not necessarily be puppet) works for you, then follow up with a (possibly different) tool for config management (which may be puppet et al).  If you keep the build as minimal as possible, and you make all changes happen through the config management tool then you can rely on any new builds to match the tried and tested production fleet.
+
+Debian has been my favourite at home for 20 years, but it feels more restricted for Enterprise tooling on commodity server build options, when compared to something like Red Hat with a mature kickstart (Anaconda) build system (which may be integrated into other tools like Satellite/Spacewalk or the new Katello stack, etc).",mixed
+120,"Reasons we eliminated Chef:  requires python 1.9.2 and RHEL approved version is 1.8.7
+Didn't test Salt
+Currently deciding between puppet and ansible.  Things that will influence our decision:
+Puppet requires an agent on all managed systems 
+Puppet is Ruby based
+Ansible uses ssh and thus does not require an agent on managed nodes
+Ansible is python based
+Puppet has a larger volume of community developed modules
+Hope this helps.","other, ansible"
+121," Puppet is nice. You can use it for Linux ,FreeBSD or Windows boxes. Syntax is easy to pickup.",other
+122,They are all powered by companies that are more interested in their own bottom line than the community. Enjoy.,irr
+123,The real world doesn't just run one thing. That's why there's multiple options. Personally I  prefer ansible. ,ansible
+124,"Below cover the most popular of flavors. 
+
+Virtualization: Esxi, kvm
+
+Virtualization mgmt: vcenter, o-virt(kvm)
+
+OS: Any red hat base. RHEL, Centos, Scientific linux, Orcale linux
+
+Config mgmt: Chef, puppet and salt. Pick one and you are fine. I prefer salt because it's python base but they all basically do the same thing. 
+
+Authentication: ldap/krb5 (if pure linux base), sssd (if windows base). Normally if it's a mix windows and linux systems. You want to have the Domain controller as windows not linux. It's easier for us linux admin to configure our linux to join a Windows AD/DC than configuring a windows joining linux via freeipa.  I personally run into all sorts of weird problems with windows cooping with linux. 
+
+","other,not-ansible"
+125,"I used spacewalk to manage a small lab I used to practice for Linux Certification and at a friend small business. I love it and the interface is a bit confusing at first when setting up repository but once that is done, it works well. There is a plugin for managing Debian clients but I have never been able to
+get it to work. Although in my expirence at my job we either manage Linux machines using Bigfix or having developers prove that they have a patching plan in place in exchange for more autonomy.",other
+126,"Have you looked into Ansible Galaxy yet? There are many playbooks for redis deployment and configuration. (example: https://galaxy.ansible.com/list#/roles/730)         
+But generally what you would do is have a template file (jinja2) for the configuration, then using the template module it would replace any variable your put in your vars file.",ansible
+127,"Take a look at this:
+
+https://github.com/DavidWittman/ansible-redis",irr
+128,"I'll just throw in some bits about Salt.  I've been using Ansible for a while and love it for its simplicity and not requiring anything more than SSH, for Linux hosts.  I've never used any CM tool for Windows (I'm not interested in doing that either).
+
+However, I'm on a new team now and using Salt, which like Ansible, is also Python based.  It does require an agent which kind of sucks but. . . it is BLAZING fast.  I'd guess that it's at least an order of magnitude faster than Ansible.
+
+However Salt, like Chef and Puppet, uses its own goofy lexicon which again makes me appreciate Ansible.  Ansible talks about hosts and playbooks. . . the other CM tools talk about pillars, formulas, knives, kitchen, puppets and puppet masters. . .
+
+:)","other, ansible"
+129,"Both have up and down-sides.
+
+Ansible's inventory management is a mess, and can't respond to events on hosts. On the up-side, you don't really need any additional infrastructure, and can manage stuff remotely on systems in control of other parties (we use this extensively for managing software on machines hosted at clients). I'm not sure if they handle community pull requests better these days, I tried to fix a few modules - but unless I poked someone on IRC, I didn't get any response - so I gave up and just maintain versions for my own.
+
+Chef requiring Ruby on every host left a bad taste in my mouth, and although I dislike it, having a fully fledged scripting language at your disposal when writing recipes/cookbooks is pretty nice. Having a `chef-client` permanently running must also be taken into account memory-wise if you're talking about a large number of smaller VM's. Setting up a chef environment can also be pretty daunting, you need to know a lot and will make a ton of mistakes, I know I did before decided to go all-in on Ansible. It's probably better when you fully control all machines you need to manage, but I don't - so Chef wasn't very suitable, and Ansible was.
+
+I currently only use Chef for small Vagrant things, and almost exclusively use Ansible, so I haven't followed anything Chef related in the last few years. Ansible is far from perfect, it just fitted my use-case better, and pursuing both would have been messy and caused a lot of duplicated work.
+
+In the end, the use-case is the most important thing.",mixed
+130,"They are used for very different things. 
+
+Ansible can manage way more devices, which is a major upside because you can use the same skillset to manage servers and things like routers, switches, load balancers, etc. This is very important in enterprise. 
+
+Ansible is also incredibly easy to learn. 
+
+Chef on the other hand has a much steeper learning curve and is very developer-centric. It also requires Ruby on the nodes which can be a big problem. 
+
+However, Chef is extrememly powerful and has so much functionality out of the box. Test Kitchen is fantastic. Chef Automate and Habitat are great. The Chef Supermarket is amazing. 
+
+Also, for those who also need to manage a lot of Windows nodes, Chef utilizes DSC better than the competitors. It actually uses the LCM and allows you to utilize existing custom DSC resources. Using it as the tooling for DSC works really well. 
+
+But as everyone knows already, it's just about use case. I love both.",mixed
+131,"Ansible. I've never used Chef, or Puppet, but after meeting a sales rep for puppet who told me anyone that doesn't use their product wastes their time, I decided I'll never use their product, and will advocate that nobody else does either.
+
+The real truth is that while I like the idea of ansible and use it more and more. I'll likely always prefer shell scripts, vm's and containers.",ansible
+132,I'm not great at Ansible but I know I'm definitely over Chef. Chef is by far the config manager in most used to but it feels like it's fighting me almost regardless of what I'm doing.,ansible
+133,I've used `librarian-ansible` ([github repo](https://github.com/bcoe/librarian-ansible)) for managing dependencies. ,ansible
+134,"We don't deal with versioning at the moment, but one way you could handle it is with `group_vars`.  If you have a Ansible hosts file with some groups: webservers, dbservers; you would then have a separate group_vars file like ./group_vars/webservers and ./group_vars/dbservers.  We're an AWS shop so we use the ec2 inventory file and the group_vars are based on EC2 tags (ie tag_Name_webserver or tag_Env_dev).
+
+
+In those files, you would declare variables for versions.  I typically also use `{{ env }}` and pass that in the playbook `ansible-playbook playbook.yml -e 'env=dev'`",irr
+135,git submodules work for this,irr
+136,"I used Puppet and Chef in the past. Now I use Ansible for everything. I wouldn't look back.
+
+That said, pick the right tool for the right job. I personally don't think Ansible is great at cloud orchestration beyond the initial one-time setup. I think it's very excellent for package and configuration management for a particular server.
+
+If you're looking for something to build out your AWS cloud footprint, I'd recommend looking at something like Terraform. 
+
+In my case, I use Ansible (along with Packer) to build and configure an AMI and then use Terraform to actually create EC2 instances running that AMI, deal with networking, etc.",ansible
+137,"I use Ansible and some things I like about it are: 
+
+- No agents running on the servers
+
+- Focus on idempotency
+
+- You only need SSH access for it to work (for most modules) which is probably already allowed to the server anyways 
+
+- YAML is really easy to work with and read
+
+- Really easy to provision and configure AWS EC2 servers in the same playbook
+
+- Support for a variety of AWS resources - we use it to create EC2, ELBs, Subnets, Security Groups, RDS, ElastiCache, Route53, etc...
+
+- Active community, the Ansible IRC channel is very helpful
+
+- Very much batteries included, we've only had to install 1 custom module ourselves so far
+",ansible
+138,"Ansible and Salt are the new cool kids on the block, but the truth is that if you learn one, that's good enough because you understand the core concepts.","other, ansible"
+139,"I'll say from someone that has played with all 4 you mention and used Puppet in production, Ansible's learning curve is much easier and I find a much more pleasurable tool to work with. 
+
+As others have said one you combine Ansible with Packer and Terraform and throw in Jenkins you have yourself a very powerful system for creating complicated infrastructure at the push of a button. ",ansible
+140,"I used Puppet, Chef, SaltStack and Ansible. Ansible is the best, easy to read easy to write, lightweight, and it's the first time I feel great about building automatic provisioning.",ansible
+141,[deleted],irr
+142,"*Micheal at Amazon also mentioned that you can switch over to NoSQL and use DynamoDB (kind of like a managed MongoDB). Many large game companies run it in US-East, US-West, and Europe and sync them all together with the only inconsistency being in the milliseconds.*
+
+That's a cringeworthy explanation.  DynamoDB is a K-V store, MongoDB is document based, other than falling under the poorly defined ""NoSQL"" umbrella, they don't have much in common.
+
+DynamoDB doesn't support cross-region anything in a near-realtime manner.  Within a region, it has fantastic replication across multiple Availability Zones.  Between regions, you'll have to manage that yourself if you want it to be remotely close to realtime.
+
+My hope is something was lost in translation, my expectation is the Support Rep probably said something very close to what you've provided.",irr
+143,I completely disagree with number 1. They are telling you use our vendor locking solutions!!,irr
+144,"(6) Route53 supports health checks,  http://docs.aws.amazon.com/Route53/latest/DeveloperGuide/dns-failover.html
+
+""Amazon Route 53 can check the health of your resources in both simple and complex configurations:
+
+
+From the docs:
+
+
+""In all configurations, you create a group of resource record sets that all have the same name and type, for example, a group of weighted resource record sets for example.com for which the type is A. You then configure Amazon Route 53 to check the health of the corresponding resources. Amazon Route 53 responds to DNS queries based on the health of your resources. For more information, see [How Health Checks Work in Simple Amazon Route 53 Configurations](http://docs.aws.amazon.com/Route53/latest/DeveloperGuide/dns-failover-simple-configs.html).
+
+In more complex configurations, you use a combination of alias resource record sets, including weighted alias, latency alias, and failover alias resource record sets, to create a tree of resource record sets. As with a simple configuration, you configure Amazon Route 53 to check the health of your resources. However, you can also configure the alias resource record sets to respond to the status of alias targets and to skip to another branch in the tree if all of the alias targets in one branch are unhealthy. Complex configurations give you more control over how Amazon Route 53 responds to your requests. For example, you might use latency-based routing to select a region close to a user and use an Elastic Load Balancing load balancer within each region to protect against the failure of a single endpoint or an availability zone. For more information, see [How Health Checks Work in More Complex Amazon Route 53 Configurations](http://docs.aws.amazon.com/Route53/latest/DeveloperGuide/dns-failover-complex-configs.html).""""",irr
+145,"This blog has current information and good ideas for using Cloudformation, Opsworks and Elastic Beanstalk.
+
+
+http://blogs.aws.amazon.com/application-management/blog
+
+
+This is a cool blog series that goes deeply into managing deploying an aplication on AWS
+
+
+http://blogs.aws.amazon.com/application-management/post/Tx2DUJYZVBMJ92J/-Part-1-span-class-matches-Develop-span-span-class-matches-Deploy-span-and-span
+
+",irr
+146,Personally I really like Terraform. It's a little obtuse at first but it has a lot of support around it and works well.,other
+147,Chef + Terraform + Packer all play fairly well together. I enjoy that they're not ultra tightly bound together. Packer and test-kitchen / kitchen-ec2 is pretty neat as well.,"other,chef"
+148,"> I'm leaning towards Ansible for provisioning and configuring attributes for Chef and then Chef handling the host convergence.
+
+That seems to be a popular option. (Edit: well, provision with Ansible, configure with Chef.)
+
+I like chef for vm-at-a-time configuration but after working hard to make it provision a multi-role app with picky orchestration needs I've pulled all orchestration out of the recipes and am looking at Ansible for future provisioning. (And orchestration.)",mixed
+149,"I read the blog as well.  It is bet to hedge your bets.  So I've written some custom PowerCLI provisioning & there is a DSC provisioner for vSphere. However, I am still using chef provisioning primarily on nodes that are going to be managed by chef post provisioning. The provisioning tools I use for vSphere are still being supported. If for some reason chef provisioning gets dropped in the future I'll start to look into other alternatives. ",chef

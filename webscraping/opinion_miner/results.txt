@@ -1,0 +1,9 @@
+The Overall Counts are:
+Ansible was used: 247
+Chef was used: 169
+Salt was used: 123
+Puppet was used: 167
+Python as a positive influencer is: 11
+Ruby as a positive influencer is: 13
+Python as a negative influencer is: 4
+Ruby as a negative influencer is: 4
