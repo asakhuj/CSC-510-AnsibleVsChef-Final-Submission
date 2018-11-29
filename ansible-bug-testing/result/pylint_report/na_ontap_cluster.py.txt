@@ -1,0 +1,12 @@
+************* Module ansible.modules.storage.netapp.na_ontap_cluster
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 76, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C: 78, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 79, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 80, 0: Import "import ansible.module_utils.netapp as netapp_utils" should be placed at the top of the module (wrong-import-position)
+R: 85, 0: Too many instance attributes (9/7) (too-many-instance-attributes)
+
+-----------------------------------
+Your code has been rated at 9.20/10
+

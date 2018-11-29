@@ -1,0 +1,14 @@
+************* Module units.module_utils.basic.test_dict_converters
+C: 19, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 12, 0: Unable to import 'ansible.module_utils.six.moves' (import-error)
+C: 14, 0: Constant name "realimport" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 17, 0: Missing class docstring (missing-docstring)
+C: 18, 4: Method name "test_module_utils_basic_json_dict_converters" doesn't conform to snake_case naming style (invalid-name)
+C: 18, 4: Missing method docstring (missing-docstring)
+E: 19, 8: Unable to import 'ansible.module_utils.basic' (import-error)
+
+------------------------------------
+Your code has been rated at -4.17/10
+

@@ -1,0 +1,19 @@
+************* Module ansible.module_utils.json_utils
+C: 71, 0: Line too long (112/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+W: 57,18: Using possibly undefined loop variable 'start' (undefined-loop-variable)
+W: 65, 7: Using possibly undefined loop variable 'reverse_end_offset' (undefined-loop-variable)
+W: 68,43: Using possibly undefined loop variable 'reverse_end_offset' (undefined-loop-variable)
+W: 74,33: Using possibly undefined loop variable 'reverse_end_offset' (undefined-loop-variable)
+W: 27, 0: Unused import json (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.31/10
+
+************* Module other_mu_dir.json_utils
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  1, 0: Constant name "data" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+-------------------------------------
+Your code has been rated at -10.00/10
+

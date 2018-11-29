@@ -1,0 +1,24 @@
+************* Module ansible.modules.cloud.cloudscale.cloudscale_floating_ip
+C:210, 0: Line too long (102/100) (line-too-long)
+C:230, 0: Line too long (101/100) (line-too-long)
+C:231, 0: Line too long (111/100) (line-too-long)
+C:252, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:153, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:161, 0: Import "from ansible.module_utils.basic import AnsibleModule, env_fallback" should be placed at the top of the module (wrong-import-position)
+C:162, 0: Import "from ansible.module_utils.cloudscale import AnsibleCloudscaleBase, cloudscale_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:165, 0: Missing class docstring (missing-docstring)
+C:192, 4: Missing method docstring (missing-docstring)
+C:200, 4: Missing method docstring (missing-docstring)
+C:205,12: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:209,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:223, 4: Missing method docstring (missing-docstring)
+C:227, 4: Missing method docstring (missing-docstring)
+C:234, 0: Missing function docstring (missing-docstring)
+W:153, 0: Unused import os (unused-import)
+W:161, 0: Unused env_fallback imported from ansible.module_utils.basic (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.56/10
+

@@ -1,0 +1,29 @@
+************* Module ansible.modules.network.netscaler.netscaler_ssl_certkey
+C:154, 0: Line too long (136/100) (line-too-long)
+C:243, 0: Line too long (102/100) (line-too-long)
+C:321, 0: Line too long (134/100) (line-too-long)
+C:343, 0: Line too long (129/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:150,22: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:153, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:154, 0: Import "from ansible.module_utils.network.netscaler.netscaler import ConfigProxy, get_nitro_client, netscaler_common_arguments, log, loglines, get_immutables_intersection" should be placed at the top of the module (wrong-import-position)
+C:158, 0: Missing function docstring (missing-docstring)
+R:163, 4: The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)
+R:163, 4: Unnecessary "else" after "return" (no-else-return)
+C:169, 0: Missing function docstring (missing-docstring)
+R:177, 4: The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)
+R:177, 4: Unnecessary "else" after "return" (no-else-return)
+C:177, 7: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:183, 0: Missing function docstring (missing-docstring)
+C:188, 0: Missing function docstring (missing-docstring)
+W:245,11: Catching too general exception Exception (broad-except)
+C:242,30: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:245,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:362,30: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:188, 0: Too many branches (26/12) (too-many-branches)
+R:188, 0: Too many statements (74/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 7.78/10
+

@@ -1,0 +1,63 @@
+************* Module units.module_utils.network.ftd.test_fdm_swagger_parser
+C: 32, 0: Line too long (111/100) (line-too-long)
+C: 35, 0: Line too long (108/100) (line-too-long)
+C: 39, 0: Line too long (114/100) (line-too-long)
+C: 41, 0: Line too long (109/100) (line-too-long)
+C: 44, 0: Line too long (115/100) (line-too-long)
+C: 45, 0: Wrong continued indentation (remove 1 space).
+                    },
+                   |^ (bad-continuation)
+C: 50, 0: Line too long (101/100) (line-too-long)
+C: 54, 0: Line too long (127/100) (line-too-long)
+C: 55, 0: Wrong continued indentation (add 11 spaces).
+                                                                            "paging": {
+                                                                            ^          | (bad-continuation)
+C: 56, 0: Line too long (113/100) (line-too-long)
+C: 70, 0: Line too long (102/100) (line-too-long)
+C:200, 0: Line too long (106/100) (line-too-long)
+C:217, 0: Line too long (105/100) (line-too-long)
+C:226, 0: Line too long (106/100) (line-too-long)
+C:235, 0: Line too long (109/100) (line-too-long)
+C:236, 0: Line too long (101/100) (line-too-long)
+C:267, 0: Wrong continued indentation (remove 1 space).
+                                    }
+                                   |^ (bad-continuation)
+C:275, 0: Wrong continued indentation (remove 1 space).
+                                        }]}
+                                       |^ (bad-continuation)
+C:282, 0: Wrong continued indentation (remove 1 space).
+                                          }
+                                         |^ (bad-continuation)
+C:283, 0: Wrong continued indentation (remove 1 space).
+                            },
+                           |^ (bad-continuation)
+C:288, 0: Wrong continued indentation (remove 1 space).
+                                           ]},
+                                          |^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+E: 23, 0: Unable to import 'ansible.module_utils.network.ftd.common' (import-error)
+E: 24, 0: Unable to import 'ansible.module_utils.network.ftd.fdm_swagger_client' (import-error)
+C: 29, 0: Constant name "base" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:111, 0: Missing class docstring (missing-docstring)
+C:113, 4: Missing method docstring (missing-docstring)
+C:204, 4: Method name "test_simple_object_with_documentation" doesn't conform to snake_case naming style (invalid-name)
+C:204, 4: Missing method docstring (missing-docstring)
+C:226,15: Comparison should be self.fdm_data['models']['NetworkObject']['description'] == 'Description for Network Object' (misplaced-comparison-constant)
+C:227,15: Comparison should be self.fdm_data['models']['NetworkObjectWrapper']['description'] == '' (misplaced-comparison-constant)
+C:229,15: Comparison should be network_properties['id']['description'] == '' (misplaced-comparison-constant)
+C:231,15: Comparison should be network_properties['name']['description'] == 'Description for name field' (misplaced-comparison-constant)
+C:235,15: Comparison should be ops['getNetworkObjectList']['description'] == 'Description for getNetworkObjectList operation' (misplaced-comparison-constant)
+C:236,15: Comparison should be ops['addNetworkObject']['description'] == 'Description for addNetworkObject operation' (misplaced-comparison-constant)
+C:237,15: Comparison should be ops['deleteNetworkObject']['description'] == '' (misplaced-comparison-constant)
+C:240,15: Comparison should be get_op_params['query']['offset']['description'] == 'Description for offset field' (misplaced-comparison-constant)
+C:241,15: Comparison should be get_op_params['query']['limit']['description'] == '' (misplaced-comparison-constant)
+C:243, 4: Method name "test_model_operations_should_contain_all_operations" doesn't conform to snake_case naming style (invalid-name)
+C:243, 4: Missing method docstring (missing-docstring)
+R:243, 4: Method could be a function (no-self-use)
+W:114, 8: Attribute '_data' defined outside __init__ (attribute-defined-outside-init)
+W:116, 8: Attribute 'fdm_data' defined outside __init__ (attribute-defined-outside-init)
+W:224, 8: Attribute 'fdm_data' defined outside __init__ (attribute-defined-outside-init)
+
+------------------------------------
+Your code has been rated at -2.09/10
+

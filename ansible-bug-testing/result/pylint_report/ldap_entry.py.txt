@@ -1,0 +1,19 @@
+************* Module ansible.modules.net_tools.ldap.ldap_entry
+C:243, 0: Line too long (112/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 10, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:109, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:111, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:112, 0: Import "from ansible.module_utils.six import string_types" should be placed at the top of the module (wrong-import-position)
+C:113, 0: Import "from ansible.module_utils._text import to_native, to_bytes" should be placed at the top of the module (wrong-import-position)
+C:114, 0: Import "from ansible.module_utils.ldap import LdapGeneric, gen_specs" should be placed at the top of the module (wrong-import-position)
+C:124, 0: Missing class docstring (missing-docstring)
+W:230, 4: Redefining name 'ldap' from outer scope (line 117) (redefined-outer-name)
+C:190, 0: Missing function docstring (missing-docstring)
+R:214,16: Consider merging these isinstance calls to isinstance(module.params['objectClass'], (list, string_types)) (consider-merging-isinstance)
+W:242,15: Catching too general exception Exception (broad-except)
+C:242,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.29/10
+

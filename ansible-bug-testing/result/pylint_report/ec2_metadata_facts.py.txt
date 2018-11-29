@@ -1,0 +1,28 @@
+************* Module ansible.modules.cloud.amazon.ec2_metadata_facts
+C:437, 0: Line too long (125/100) (line-too-long)
+C:453, 0: Line too long (113/100) (line-too-long)
+C:457, 0: Line too long (121/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:418, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C:419, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:420, 0: Import "import socket" should be placed at the top of the module (wrong-import-position)
+C:421, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C:423, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:424, 0: Import "from ansible.module_utils._text import to_text" should be placed at the top of the module (wrong-import-position)
+C:425, 0: Import "from ansible.module_utils.urls import fetch_url" should be placed at the top of the module (wrong-import-position)
+E:426, 0: No name 'urllib' in module '_MovedItems' (no-name-in-module)
+E:426, 0: Unable to import 'ansible.module_utils.six.moves.urllib.parse' (import-error)
+C:426, 0: Import "from ansible.module_utils.six.moves.urllib.parse import quote" should be placed at the top of the module (wrong-import-position)
+C:431, 0: Missing class docstring (missing-docstring)
+R:437, 4: Too many arguments (6/5) (too-many-arguments)
+W:504,24: Redefining built-in 'dict' (redefined-builtin)
+C:485, 4: Missing method docstring (missing-docstring)
+W:508,20: No exception type(s) specified (bare-except)
+R:511, 4: Method could be a function (no-self-use)
+C:522, 4: Missing method docstring (missing-docstring)
+C:539, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.16/10
+

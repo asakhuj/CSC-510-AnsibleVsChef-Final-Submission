@@ -1,0 +1,16 @@
+************* Module ansible.modules.network.fortimanager.fmgr_sys_proxy
+C:171, 0: Line too long (114/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:112, 0: Import "from ansible.module_utils.basic import AnsibleModule, env_fallback" should be placed at the top of the module (wrong-import-position)
+C:113, 0: Import "from ansible.module_utils.network.fortimanager.fortimanager import AnsibleFortiManager" should be placed at the top of the module (wrong-import-position)
+C:124, 0: Missing function docstring (missing-docstring)
+R:124, 0: Too many arguments (6/5) (too-many-arguments)
+W:124,56: Unused argument 'adom' (unused-argument)
+C:145, 0: Missing function docstring (missing-docstring)
+R:145, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+W:118, 4: Unused FortiManager imported from pyFMG.fortimgr (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.25/10
+

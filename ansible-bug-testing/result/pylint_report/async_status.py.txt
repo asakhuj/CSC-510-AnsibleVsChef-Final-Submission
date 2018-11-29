@@ -1,0 +1,25 @@
+************* Module ansible.modules.utilities.logic.async_status
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 42, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C: 43, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C: 45, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 46, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 47, 0: Import "from ansible.module_utils.six import iteritems" should be placed at the top of the module (wrong-import-position)
+C: 50, 0: Missing function docstring (missing-docstring)
+W: 82,11: Catching too general exception Exception (broad-except)
+
+-----------------------------------
+Your code has been rated at 7.63/10
+
+************* Module ansible.plugins.action.async_status
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 12, 0: Missing class docstring (missing-docstring)
+C: 27,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+W: 41,28: Access to a protected member _shell of a client class (protected-access)
+R: 12, 0: Too few public methods (1/2) (too-few-public-methods)
+
+-----------------------------------
+Your code has been rated at 7.78/10
+

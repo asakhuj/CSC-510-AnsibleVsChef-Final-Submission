@@ -1,0 +1,21 @@
+************* Module ansible.modules.network.fortios.fortios_system_sdn_connector
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:371, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:373, 0: Constant name "fos" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:376, 0: Missing function docstring (missing-docstring)
+C:390, 0: Function name "filter_system_sdn_connector_data" doesn't conform to snake_case naming style (invalid-name)
+C:390, 0: Missing function docstring (missing-docstring)
+W:411,31: Redefining name 'fos' from outer scope (line 373) (redefined-outer-name)
+C:411, 0: Missing function docstring (missing-docstring)
+R:411, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+W:428,25: Redefining name 'fos' from outer scope (line 373) (redefined-outer-name)
+C:428, 0: Missing function docstring (missing-docstring)
+W:434,19: Use of eval (eval-used)
+C:441, 0: Missing function docstring (missing-docstring)
+W:528, 4: Using the global statement (global-statement)
+C:528, 4: Constant name "fos" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.14/10
+

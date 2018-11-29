@@ -1,0 +1,21 @@
+************* Module ansible.modules.cloud.cloudstack.cs_instance_nic
+C:  1, 0: Missing module docstring (missing-docstring)
+C:150, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:151, 0: Import "from ansible.module_utils.cloudstack import AnsibleCloudStack, cs_argument_spec, cs_required_together" should be placed at the top of the module (wrong-import-position)
+C:156, 0: Missing class docstring (missing-docstring)
+C:167, 4: Missing method docstring (missing-docstring)
+C:180, 4: Missing method docstring (missing-docstring)
+R:180, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:185, 4: Missing method docstring (missing-docstring)
+C:196,16: Variable name "vm" doesn't conform to snake_case naming style (invalid-name)
+C:200, 4: Missing method docstring (missing-docstring)
+C:216,20: Variable name "vm" doesn't conform to snake_case naming style (invalid-name)
+C:220, 4: Missing method docstring (missing-docstring)
+C:233, 4: Missing method docstring (missing-docstring)
+C:241, 4: Missing method docstring (missing-docstring)
+W:247, 4: Parameters differ from overridden 'get_result' method (arguments-differ)
+C:256, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.12/10
+

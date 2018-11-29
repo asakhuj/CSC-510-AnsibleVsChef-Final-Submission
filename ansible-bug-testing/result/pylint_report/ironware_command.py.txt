@@ -1,0 +1,15 @@
+************* Module ansible.modules.network.ironware.ironware_command
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 98, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C:100, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:101, 0: Import "from ansible.module_utils.network.ironware.ironware import ironware_argument_spec, check_args" should be placed at the top of the module (wrong-import-position)
+C:102, 0: Import "from ansible.module_utils.network.ironware.ironware import run_commands" should be placed at the top of the module (wrong-import-position)
+C:103, 0: Import "from ansible.module_utils.network.common.parsing import Conditional" should be placed at the top of the module (wrong-import-position)
+C:104, 0: Import "from ansible.module_utils.six import string_types" should be placed at the top of the module (wrong-import-position)
+C:107, 0: Missing function docstring (missing-docstring)
+C:114, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.96/10
+

@@ -1,0 +1,27 @@
+************* Module units.modules.network.f5.test_bigip_monitor_snmp_dca
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 17, 0: Unable to import 'ansible.module_utils.basic' (import-error)
+C: 17, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 45, 0: Constant name "fixture_path" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 46, 0: Constant name "fixture_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 49, 0: Missing function docstring (missing-docstring)
+C: 55,23: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+W: 60,11: Catching too general exception Exception (broad-except)
+C: 67, 0: Missing class docstring (missing-docstring)
+C: 68, 4: Missing method docstring (missing-docstring)
+C: 85, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+R: 68, 4: Method could be a function (no-self-use)
+C:100, 4: Missing method docstring (missing-docstring)
+C:123, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+R:100, 4: Method could be a function (no-self-use)
+C:139, 0: Missing class docstring (missing-docstring)
+C:144, 4: Missing method docstring (missing-docstring)
+C:171, 8: Variable name "mm" doesn't conform to snake_case naming style (invalid-name)
+W:144, 0: Unused argument 'args' (unused-argument)
+W: 27, 4: Unused patch imported from test.units.compat.mock (unused-import)
+C: 32, 8: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 6.98/10
+

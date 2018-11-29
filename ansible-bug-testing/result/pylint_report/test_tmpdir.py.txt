@@ -1,0 +1,23 @@
+************* Module units.module_utils.basic.test_tmpdir
+C: 82, 0: Line too long (104/100) (line-too-long)
+C:114, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 17, 0: Unable to import 'ansible.module_utils._text' (import-error)
+E: 19, 0: Unable to import 'ansible.module_utils' (import-error)
+C: 22, 0: Missing class docstring (missing-docstring)
+W: 22, 0: Class has no __init__ method (no-init)
+C: 66, 4: Missing method docstring (missing-docstring)
+W: 69,33: Redefining built-in 'dir' (redefined-builtin)
+C: 69, 8: Missing function docstring (missing-docstring)
+C: 72, 8: Missing function docstring (missing-docstring)
+C: 85,12: Variable name "am" doesn't conform to snake_case naming style (invalid-name)
+W: 95,61: Access to a protected member _remote_tmp of a client class (protected-access)
+R: 66, 4: Method could be a function (no-self-use)
+C:103, 4: Argument name "am" doesn't conform to snake_case naming style (invalid-name)
+C:103, 4: Missing method docstring (missing-docstring)
+R:103, 4: Method could be a function (no-self-use)
+
+-----------------------------------
+Your code has been rated at 4.58/10
+

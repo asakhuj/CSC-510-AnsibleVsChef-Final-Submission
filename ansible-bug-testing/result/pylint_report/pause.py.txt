@@ -1,0 +1,46 @@
+************* Module ansible.modules.utilities.logic.pause
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.67/10
+
+************* Module ansible.plugins.action.pause
+C:118, 0: Line too long (108/100) (line-too-long)
+C:121, 0: Line too long (129/100) (line-too-long)
+C:232, 0: Line too long (109/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 18, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 23, 0: Unable to import 'termios' (import-error)
+E: 45, 8: Module 'curses' has no 'setupterm' member (no-member)
+E: 47,11: Module 'curses' has no 'error' member (no-member)
+E: 53,18: Module 'curses' has no 'tigetstr' member (no-member)
+E: 54,19: Module 'curses' has no 'tigetstr' member (no-member)
+C: 60, 0: Missing class docstring (missing-docstring)
+C: 64, 0: Missing function docstring (missing-docstring)
+W: 64,28: Unused argument 'frame' (unused-argument)
+W: 64,20: Unused argument 'signum' (unused-argument)
+C: 68, 0: Missing function docstring (missing-docstring)
+R: 79, 4: Too many local variables (21/15) (too-many-locals)
+C:107,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:134,33: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+E:154,30: Module 'signal' has no 'SIGALRM' member (no-member)
+E:155,16: Module 'signal' has no 'alarm' member (no-member)
+W:159,16: Expression "(display.display("(ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)\r"), )" is assigned to nothing (expression-not-assigned)
+W:174,28: Access to a protected member _new_stdin of a client class (protected-access)
+W:177,28: Access to a protected member _new_stdin of a client class (protected-access)
+W:191,27: Catching too general exception Exception (broad-except)
+W:198,27: Catching too general exception Exception (broad-except)
+R:148, 8: Too many nested blocks (6/5) (too-many-nested-blocks)
+E:250,20: Module 'signal' has no 'alarm' member (no-member)
+W:251,20: Expression "(display.display("Press 'C' to continue the play or 'A' to abort \r"), )" is assigned to nothing (expression-not-assigned)
+R:148, 8: Too many nested blocks (7/5) (too-many-nested-blocks)
+R: 79, 4: Too many branches (40/12) (too-many-branches)
+R: 79, 4: Too many statements (126/50) (too-many-statements)
+R:283, 4: Method could be a function (no-self-use)
+R: 73, 0: Too few public methods (1/2) (too-few-public-methods)
+C: 37, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 6.18/10
+

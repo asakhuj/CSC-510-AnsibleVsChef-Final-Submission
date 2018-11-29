@@ -1,0 +1,22 @@
+************* Module ansible.modules.cloud.azure.azure_rm_publicipaddress
+C:216, 0: Line too long (107/100) (line-too-long)
+C:221, 0: Line too long (110/100) (line-too-long)
+C:237, 0: Line too long (103/100) (line-too-long)
+C:265, 0: Line too long (114/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:114, 0: Import "from ansible.module_utils.azure_rm_common import AzureRMModuleBase" should be placed at the top of the module (wrong-import-position)
+C:123, 0: Missing function docstring (missing-docstring)
+C:144, 0: Missing class docstring (missing-docstring)
+R:144, 0: Too many instance attributes (10/7) (too-many-instance-attributes)
+R:175, 4: Too many branches (19/12) (too-many-branches)
+R:175, 4: Too many statements (59/50) (too-many-statements)
+C:263, 4: Missing method docstring (missing-docstring)
+W:267,15: Catching too general exception Exception (broad-except)
+C:271, 4: Missing method docstring (missing-docstring)
+W:275,15: Catching too general exception Exception (broad-except)
+C:282, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.47/10
+

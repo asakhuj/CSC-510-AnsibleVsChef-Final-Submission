@@ -1,0 +1,12 @@
+************* Module ansible.module_utils.facts.ansible_collector
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 30, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+R: 55, 4: Method could be a function (no-self-use)
+W: 75,19: Catching too general exception Exception (broad-except)
+C: 75,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:107, 0: Missing function docstring (missing-docstring)
+R:107, 0: Too many arguments (6/5) (too-many-arguments)
+
+-----------------------------------
+Your code has been rated at 8.68/10
+

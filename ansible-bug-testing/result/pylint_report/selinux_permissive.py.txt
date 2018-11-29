@@ -1,0 +1,17 @@
+************* Module ansible.modules.system.selinux_permissive
+C:111, 0: Line too long (103/100) (line-too-long)
+C:119, 0: Line too long (103/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 57, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C: 66, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 67, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 70, 0: Missing function docstring (missing-docstring)
+C: 93,25: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:102,25: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:110,37: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:118,37: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.65/10
+

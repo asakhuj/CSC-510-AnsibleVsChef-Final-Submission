@@ -1,0 +1,12 @@
+************* Module ansible.modules.cloud.azure.azure_rm_managed_disk_facts
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 78, 0: Import "from ansible.module_utils.azure_rm_common import AzureRMModuleBase" should be placed at the top of the module (wrong-import-position)
+W: 82, 0: No exception type(s) specified (bare-except)
+E: 81, 4: Unable to import 'msrestazure.azure_exceptions' (import-error)
+C: 88, 0: Missing function docstring (missing-docstring)
+R:105, 0: Too many instance attributes (8/7) (too-many-instance-attributes)
+
+-----------------------------------
+Your code has been rated at 7.96/10
+

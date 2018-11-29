@@ -1,0 +1,23 @@
+************* Module ansible.module_utils.alicloud_ecs
+C: 49, 0: Line too long (101/100) (line-too-long)
+C: 50, 0: Line too long (109/100) (line-too-long)
+C: 51, 0: Line too long (105/100) (line-too-long)
+C: 52, 0: Line too long (113/100) (line-too-long)
+C: 63, 0: Line too long (101/100) (line-too-long)
+C: 84, 0: Line too long (109/100) (line-too-long)
+C: 87, 0: Line too long (109/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 43, 0: Missing class docstring (missing-docstring)
+C: 47, 0: Missing function docstring (missing-docstring)
+C: 58, 0: Missing function docstring (missing-docstring)
+C: 69, 0: Missing function docstring (missing-docstring)
+C: 79, 0: Missing function docstring (missing-docstring)
+C: 99,34: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:113,34: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:127,34: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:141,34: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:155,34: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.39/10
+

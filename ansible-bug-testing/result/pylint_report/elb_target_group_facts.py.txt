@@ -1,0 +1,35 @@
+************* Module ansible.modules.cloud.amazon.elb_target_group_facts
+C:176, 0: Line too long (107/100) (line-too-long)
+C:183, 0: Line too long (156/100) (line-too-long)
+C:185, 0: Line too long (113/100) (line-too-long)
+C:195, 0: Line too long (134/100) (line-too-long)
+C:197, 0: Line too long (113/100) (line-too-long)
+C:211, 0: Line too long (114/100) (line-too-long)
+C:213, 0: Line too long (114/100) (line-too-long)
+C:220, 0: Line too long (117/100) (line-too-long)
+C:222, 0: Line too long (106/100) (line-too-long)
+C:226, 0: Line too long (108/100) (line-too-long)
+C:229, 0: Line too long (117/100) (line-too-long)
+C:233, 0: Line too long (120/100) (line-too-long)
+C:252, 0: Wrong continued indentation (remove 1 space).
+                           )
+                          |^ (bad-continuation)
+C:260, 0: Line too long (132/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:166, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:175, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:176, 0: Import "from ansible.module_utils.ec2 import boto3_conn, boto3_tag_list_to_ansible_dict, camel_dict_to_snake_dict, ec2_argument_spec, get_aws_connection_info" should be placed at the top of the module (wrong-import-position)
+C:180, 0: Missing function docstring (missing-docstring)
+C:184,26: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:192, 0: Missing function docstring (missing-docstring)
+C:196,26: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:200, 0: Missing function docstring (missing-docstring)
+C:216,26: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:221,33: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:238, 0: Missing function docstring (missing-docstring)
+W:169, 4: Unused import boto3 (unused-import)
+
+-----------------------------------
+Your code has been rated at 5.69/10
+

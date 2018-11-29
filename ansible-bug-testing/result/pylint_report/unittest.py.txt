@@ -1,0 +1,8 @@
+************* Module units.compat.unittest
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 26, 0: Import "import sys" should be placed at the top of the module (wrong-import-position)
+
+-----------------------------------
+Your code has been rated at 7.00/10
+

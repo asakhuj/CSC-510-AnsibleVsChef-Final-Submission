@@ -1,0 +1,29 @@
+************* Module ansible.modules.crypto.openssl_privatekey
+C:192, 0: Line too long (103/100) (line-too-long)
+C:194, 0: Line too long (102/100) (line-too-long)
+C:196, 0: Line too long (106/100) (line-too-long)
+C:197, 0: Line too long (109/100) (line-too-long)
+C:199, 0: Line too long (107/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:127, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:128, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:133, 4: Constant name "pyopenssl_found" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:135, 4: Constant name "pyopenssl_found" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:137, 0: Import "from ansible.module_utils import crypto as crypto_utils" should be placed at the top of the module (wrong-import-position)
+C:138, 0: Import "from ansible.module_utils._text import to_native, to_bytes" should be placed at the top of the module (wrong-import-position)
+C:139, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:140, 0: Import "from ansible.module_utils.six import string_types" should be placed at the top of the module (wrong-import-position)
+C:143, 0: Missing class docstring (missing-docstring)
+C:147, 0: Missing class docstring (missing-docstring)
+R:147, 0: Too many instance attributes (8/7) (too-many-instance-attributes)
+W:170, 4: Parameters differ from overridden 'generate' method (arguments-differ)
+C:187,41: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:189,28: Variable name "st" doesn't conform to snake_case naming style (invalid-name)
+W:190,40: Access to a protected member _symbolic_mode_to_octal of a client class (protected-access)
+C:191,45: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:254, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.95/10
+

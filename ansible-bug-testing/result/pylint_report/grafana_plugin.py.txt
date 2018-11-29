@@ -1,0 +1,31 @@
+************* Module ansible.modules.monitoring.grafana_plugin
+C:109, 0: Line too long (101/100) (line-too-long)
+C:111, 0: Line too long (103/100) (line-too-long)
+C:160, 0: Line too long (103/100) (line-too-long)
+C:190, 0: Line too long (114/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 68, 0: Import "import base64" should be placed at the top of the module (wrong-import-position)
+C: 69, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C: 70, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C: 71, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 73, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 76, 0: Missing class docstring (missing-docstring)
+C: 90, 4: Missing function docstring (missing-docstring)
+W: 93,11: Unused variable 'fname' (unused-variable)
+C:128, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W:128,16: Unused variable 'stderr' (unused-variable)
+W:128, 4: Unused variable 'rc' (unused-variable)
+C:176, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+R:139, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+W:183,20: Unused variable 'plugin_name' (unused-variable)
+R:139, 0: Too many branches (18/12) (too-many-branches)
+C:193, 0: Missing function docstring (missing-docstring)
+W:216,11: Catching too general exception Exception (broad-except)
+C:210,34: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:216,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W: 68, 0: Unused import base64 (unused-import)
+W: 69, 0: Unused import json (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.17/10
+

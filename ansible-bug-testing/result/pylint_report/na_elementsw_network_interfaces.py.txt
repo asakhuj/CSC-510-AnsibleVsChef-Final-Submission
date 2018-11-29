@@ -1,0 +1,22 @@
+************* Module ansible.modules.storage.netapp.na_elementsw_network_interfaces
+C:180, 0: Line too long (101/100) (line-too-long)
+C:191, 0: Line too long (125/100) (line-too-long)
+C:192, 0: Line too long (126/100) (line-too-long)
+C:234, 0: Line too long (106/100) (line-too-long)
+C:270, 0: Line too long (131/100) (line-too-long)
+C: 10, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:157, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:159, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:160, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:161, 0: Import "import ansible.module_utils.netapp as netapp_utils" should be placed at the top of the module (wrong-import-position)
+W:168, 0: No exception type(s) specified (bare-except)
+E:166, 4: Unable to import 'solidfire.models' (import-error)
+R:172, 0: Too many instance attributes (20/7) (too-many-instance-attributes)
+W:233,15: Catching too general exception Exception (broad-except)
+W:269,15: Catching too general exception Exception (broad-except)
+C:269,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:279, 8: Attribute 'network_object' defined outside __init__ (attribute-defined-outside-init)
+
+-----------------------------------
+Your code has been rated at 6.91/10
+

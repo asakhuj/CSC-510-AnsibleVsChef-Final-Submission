@@ -1,0 +1,25 @@
+************* Module ansible.modules.cloud.ovirt.ovirt_permission
+C:179, 0: Line too long (104/100) (line-too-long)
+C:187, 0: Wrong hanging indentation before block (add 4 spaces).
+            equal(module.params['user_name'], user.principal if user else None) and
+            ^   | (bad-continuation)
+C:188, 0: Wrong hanging indentation before block (add 4 spaces).
+            equal(module.params['group_name'], get_link_name(connection, permission.group)) and
+            ^   | (bad-continuation)
+C:189, 0: Wrong hanging indentation before block (add 4 spaces).
+            equal(module.params['role'], get_link_name(connection, permission.role))
+            ^   | (bad-continuation)
+C:279, 0: Line too long (130/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:130, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:132, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:133, 0: Import "from ansible.module_utils.ovirt import BaseModule, check_sdk, create_connection, equal, follow_link, get_link_name, ovirt_full_argument_spec, search_by_attributes, search_by_name, get_id_by_name" should be placed at the top of the module (wrong-import-position)
+R:183, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:194, 0: Missing class docstring (missing-docstring)
+C:244, 0: Missing function docstring (missing-docstring)
+W:303,11: Catching too general exception Exception (broad-except)
+C:303,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.21/10
+

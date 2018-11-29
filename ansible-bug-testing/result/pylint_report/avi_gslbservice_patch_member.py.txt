@@ -1,0 +1,36 @@
+************* Module ansible.modules.network.avi.avi_gslbservice_patch_member
+C:140, 0: Wrong continued indentation (remove 3 spaces).
+                    for m in groups[0].get('members', []) if 'fqdn' not in m])
+                 |  ^ (bad-continuation)
+C:143, 0: Wrong continued indentation (remove 3 spaces).
+                    for m in groups[0].get('members', []) if 'fqdn' in m])
+                 |  ^ (bad-continuation)
+C:183, 0: Wrong continued indentation (remove 1 space).
+                   }
+                  |^ (bad-continuation)
+C:108, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C:109, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C:110, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:111, 0: Import "from copy import deepcopy" should be placed at the top of the module (wrong-import-position)
+C:125, 0: Missing function docstring (missing-docstring)
+R:125, 0: Too many arguments (8/5) (too-many-arguments)
+R:125, 0: Too many local variables (18/15) (too-many-locals)
+C:149, 8: Variable name "m" doesn't conform to snake_case naming style (invalid-name)
+W:125,18: Unused argument 'module' (unused-argument)
+C:171, 0: Missing function docstring (missing-docstring)
+R:171, 0: Too many arguments (9/5) (too-many-arguments)
+R:171, 0: Too many local variables (20/15) (too-many-locals)
+C:208,20: Variable name "m" doesn't conform to snake_case naming style (invalid-name)
+W:218,20: Using possibly undefined loop variable 'm' (undefined-loop-variable)
+W:171,15: Unused argument 'module' (unused-argument)
+R:171, 0: Too many branches (15/12) (too-many-branches)
+C:231, 0: Missing function docstring (missing-docstring)
+R:231, 0: Too many local variables (17/15) (too-many-locals)
+W:276,-1: String statement has no effect (pointless-string-statement)
+W:108, 0: Unused import json (unused-import)
+W:109, 0: Unused import time (unused-import)
+C:111, 0: standard import "from copy import deepcopy" should be placed before "from ansible.module_utils.basic import AnsibleModule" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 7.77/10
+

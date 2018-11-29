@@ -1,0 +1,8 @@
+************* Module ansible.module_utils.ismount
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 66, 8: Variable name "s1" doesn't conform to snake_case naming style (invalid-name)
+C: 80, 8: Variable name "s2" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.42/10
+

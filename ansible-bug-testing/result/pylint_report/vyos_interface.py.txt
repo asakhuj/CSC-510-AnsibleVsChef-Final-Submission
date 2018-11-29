@@ -1,0 +1,33 @@
+************* Module ansible.modules.network.vyos.vyos_interface
+C:320, 0: Line too long (103/100) (line-too-long)
+C:336, 0: Line too long (111/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:163, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:165, 0: Import "from copy import deepcopy" should be placed at the top of the module (wrong-import-position)
+C:166, 0: Import "from time import sleep" should be placed at the top of the module (wrong-import-position)
+C:168, 0: Import "from ansible.module_utils._text import to_text" should be placed at the top of the module (wrong-import-position)
+C:169, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:170, 0: Import "from ansible.module_utils.connection import exec_command" should be placed at the top of the module (wrong-import-position)
+C:171, 0: Import "from ansible.module_utils.network.common.utils import conditional, remove_default_spec" should be placed at the top of the module (wrong-import-position)
+C:172, 0: Import "from ansible.module_utils.network.vyos.vyos import load_config, get_config" should be placed at the top of the module (wrong-import-position)
+C:173, 0: Import "from ansible.module_utils.network.vyos.vyos import vyos_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:176, 0: Missing function docstring (missing-docstring)
+C:177, 8: Variable name "o" doesn't conform to snake_case naming style (invalid-name)
+C:184, 0: Missing function docstring (missing-docstring)
+C:189, 8: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:224, 0: Missing function docstring (missing-docstring)
+C:267, 0: Missing function docstring (missing-docstring)
+C:276,12: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:304, 0: Missing function docstring (missing-docstring)
+R:304, 0: Too many local variables (22/15) (too-many-locals)
+C:307, 8: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:318, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:334,16: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+R:307, 4: Too many nested blocks (7/5) (too-many-nested-blocks)
+R:304, 0: Too many branches (19/12) (too-many-branches)
+R:359, 0: Too many local variables (17/15) (too-many-locals)
+W:420,15: Access to a protected member _diff of a client class (protected-access)
+
+-----------------------------------
+Your code has been rated at 8.50/10
+

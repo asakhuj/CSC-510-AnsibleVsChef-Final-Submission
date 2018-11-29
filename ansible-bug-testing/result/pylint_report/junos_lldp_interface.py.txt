@@ -1,0 +1,15 @@
+************* Module ansible.modules.network.junos.junos_lldp_interface
+C:100, 0: Line too long (109/100) (line-too-long)
+C:101, 0: Line too long (105/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 96, 0: Import "import collections" should be placed at the top of the module (wrong-import-position)
+C: 98, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 99, 0: Import "from ansible.module_utils.network.junos.junos import junos_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:100, 0: Import "from ansible.module_utils.network.junos.junos import load_config, map_params_to_obj, map_obj_to_ele, tostring" should be placed at the top of the module (wrong-import-position)
+C:101, 0: Import "from ansible.module_utils.network.junos.junos import commit_configuration, discard_changes, locked_config" should be placed at the top of the module (wrong-import-position)
+W:155,15: Access to a protected member _diff of a client class (protected-access)
+
+-----------------------------------
+Your code has been rated at 7.67/10
+

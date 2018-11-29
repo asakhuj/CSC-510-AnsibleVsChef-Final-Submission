@@ -1,0 +1,10 @@
+************* Module ansible.modules.network.aos._aos_login
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 87, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 88, 0: Import "from ansible.module_utils.network.aos.aos import check_aos_version" should be placed at the top of the module (wrong-import-position)
+C: 99, 0: Missing function docstring (missing-docstring)
+C:120, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.33/10
+

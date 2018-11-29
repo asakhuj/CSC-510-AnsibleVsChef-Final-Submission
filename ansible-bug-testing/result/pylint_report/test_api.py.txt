@@ -1,0 +1,25 @@
+************* Module units.module_utils.net_tools.nios.test_api
+C:194, 0: Line too long (120/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 12, 0: Unable to import 'ansible.module_utils.net_tools.nios' (import-error)
+C: 15, 0: Missing class docstring (missing-docstring)
+C: 32, 4: Missing method docstring (missing-docstring)
+C: 51, 4: Missing method docstring (missing-docstring)
+W: 59,24: Access to a protected member _check_type_dict of a client class (protected-access)
+C: 75, 4: Missing method docstring (missing-docstring)
+C:100, 4: Missing method docstring (missing-docstring)
+C:126, 4: Missing method docstring (missing-docstring)
+W:147,25: Access to a protected member _check_type_dict of a client class (protected-access)
+C:156, 4: Missing method docstring (missing-docstring)
+W:163,20: Access to a protected member _check_type_dict of a client class (protected-access)
+C:178, 4: Missing method docstring (missing-docstring)
+W:194,74: Access to a protected member _check_type_dict of a client class (protected-access)
+C:196, 4: Missing method docstring (missing-docstring)
+C:221, 4: Missing method docstring (missing-docstring)
+W:244,25: Access to a protected member _check_type_dict of a client class (protected-access)
+W:  7, 0: Unused import sys (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.76/10
+

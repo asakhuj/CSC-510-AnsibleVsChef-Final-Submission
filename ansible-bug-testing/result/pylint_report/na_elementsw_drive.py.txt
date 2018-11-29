@@ -1,0 +1,28 @@
+************* Module ansible.modules.storage.netapp.na_elementsw_drive
+C:243, 0: Line too long (103/100) (line-too-long)
+C:254, 0: Line too long (108/100) (line-too-long)
+C:264, 0: Line too long (103/100) (line-too-long)
+C:285, 0: Line too long (137/100) (line-too-long)
+C:290, 0: Line too long (121/100) (line-too-long)
+C:304, 0: Line too long (109/100) (line-too-long)
+C: 10, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:121, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:123, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:124, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:125, 0: Import "import ansible.module_utils.netapp as netapp_utils" should be placed at the top of the module (wrong-import-position)
+R:130, 0: Too many instance attributes (10/7) (too-many-instance-attributes)
+W:200,32: Unused argument 'drive_id' (unused-argument)
+W:217,35: Unused argument 'drive_id' (unused-argument)
+W:242,15: Catching too general exception Exception (broad-except)
+W:253,15: Catching too general exception Exception (broad-except)
+W:263,15: Catching too general exception Exception (broad-except)
+C:282,19: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:287,47: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:294,19: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:300,19: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+W:273, 8: Attribute 'active_drives' defined outside __init__ (attribute-defined-outside-init)
+W:274, 8: Attribute 'available_drives' defined outside __init__ (attribute-defined-outside-init)
+
+-----------------------------------
+Your code has been rated at 8.02/10
+

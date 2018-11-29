@@ -1,0 +1,30 @@
+************* Module ansible.modules.cloud.google.gcp_storage_bucket_access_control
+C:194, 0: Line too long (138/100) (line-too-long)
+C:271, 0: Line too long (115/100) (line-too-long)
+C:344, 0: Line too long (113/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:194, 0: Import "from ansible.module_utils.gcp_utils import navigate_hash, GcpSession, GcpModule, GcpRequest, remove_nones_from_dict, replace_resource_dict" should be placed at the top of the module (wrong-import-position)
+C:195, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C:250, 0: Missing function docstring (missing-docstring)
+C:255, 0: Missing function docstring (missing-docstring)
+C:260, 0: Missing function docstring (missing-docstring)
+C:265, 0: Missing function docstring (missing-docstring)
+C:275,11: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:282, 0: Missing function docstring (missing-docstring)
+C:287, 0: Missing function docstring (missing-docstring)
+C:291, 0: Missing function docstring (missing-docstring)
+C:295, 0: Missing function docstring (missing-docstring)
+W:295,39: Unused argument 'kind' (unused-argument)
+C:316, 0: Missing function docstring (missing-docstring)
+C:322,11: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:327,11: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:336, 0: Missing function docstring (missing-docstring)
+C:349, 0: Missing class docstring (missing-docstring)
+C:357, 4: Missing method docstring (missing-docstring)
+C:363, 4: Missing method docstring (missing-docstring)
+C:195, 0: standard import "import json" should be placed before "from ansible.module_utils.gcp_utils import navigate_hash, GcpSession, GcpModule, GcpRequest, remove_nones_from_dict, replace_resource_dict" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 7.31/10
+

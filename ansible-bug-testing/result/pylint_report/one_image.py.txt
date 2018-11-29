@@ -1,0 +1,38 @@
+************* Module ansible.modules.cloud.opennebula.one_image
+C:205, 0: Line too long (138/100) (line-too-long)
+C:243, 0: Line too long (110/100) (line-too-long)
+C:247, 0: Line too long (111/100) (line-too-long)
+C:256, 0: Line too long (111/100) (line-too-long)
+C:263, 0: Wrong continued indentation before block.
+       (not enable and state != IMAGE_STATES.index('DISABLED'))):
+       ^|   | (bad-continuation)
+C:310, 0: Line too long (110/100) (line-too-long)
+C:326, 0: Line too long (107/100) (line-too-long)
+C:351, 0: Line too long (122/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:174, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:175, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:178, 0: Missing function docstring (missing-docstring)
+W:178,14: Unused argument 'module' (unused-argument)
+C:190, 0: Missing function docstring (missing-docstring)
+C:194, 0: Missing function docstring (missing-docstring)
+C:198, 0: Missing function docstring (missing-docstring)
+R:199, 4: Unnecessary "else" after "return" (no-else-return)
+C:208, 0: Missing function docstring (missing-docstring)
+C:226, 0: Missing function docstring (missing-docstring)
+C:242, 0: Missing function docstring (missing-docstring)
+C:246, 0: Missing function docstring (missing-docstring)
+C:250, 0: Missing function docstring (missing-docstring)
+C:275, 0: Missing function docstring (missing-docstring)
+C:299, 0: Missing function docstring (missing-docstring)
+C:320, 0: Missing function docstring (missing-docstring)
+C:335, 0: Missing function docstring (missing-docstring)
+W:384, 4: Redefining built-in 'id' (redefined-builtin)
+C:359, 0: Missing function docstring (missing-docstring)
+C:384, 4: Variable name "id" doesn't conform to snake_case naming style (invalid-name)
+C:175, 0: standard import "import os" should be placed before "from ansible.module_utils.basic import AnsibleModule" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 8.01/10
+

@@ -1,0 +1,70 @@
+************* Module lxd
+C:  7, 0: Line too long (128/100) (line-too-long)
+C: 60, 0: Line too long (101/100) (line-too-long)
+C: 93, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 96, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 99, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:101, 0: Line too long (101/100) (line-too-long)
+C:101, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:103, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:  1, 0: Missing module docstring (missing-docstring)
+W: 32, 0: No exception type(s) specified (bare-except)
+C: 36, 0: Constant name "resource" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 37, 0: Constant name "group" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 38, 0: Constant name "connection" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 39, 0: Constant name "hosts" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 40, 0: Constant name "result" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 43, 0: Constant name "config" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 46, 4: Constant name "resource" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 48, 4: Constant name "group" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 50, 4: Constant name "connection" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 60, 4: Constant name "pipe" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 61, 4: Constant name "lxdjson" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 5.80/10 (previous run: 5.80/10, +0.00)
+
+************* Module ansible.module_utils.lxd
+C: 66, 0: Line too long (104/100) (line-too-long)
+C: 72, 0: Line too long (101/100) (line-too-long)
+C: 92, 0: Line too long (120/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+E: 34, 0: No name 'urllib' in module '_MovedItems' (no-name-in-module)
+E: 34, 0: Unable to import 'ansible.module_utils.six.moves.urllib.parse' (import-error)
+E: 35, 0: Unable to import 'ansible.module_utils.six.moves' (import-error)
+C: 39, 0: Constant name "HTTPConnection" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 40, 0: Constant name "HTTPSConnection" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 42, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C: 45, 0: Missing class docstring (missing-docstring)
+C: 50, 4: Missing method docstring (missing-docstring)
+E: 51,29: Module 'socket' has no 'AF_UNIX' member (no-member)
+R: 45, 0: Too few public methods (1/2) (too-few-public-methods)
+W: 53, 8: Attribute 'sock' defined outside __init__ (attribute-defined-outside-init)
+C: 56, 0: Missing class docstring (missing-docstring)
+W: 57, 4: __init__ method from base class 'Exception' is not called (super-init-not-called)
+C: 62, 0: Missing class docstring (missing-docstring)
+C: 91, 4: Method name "do" doesn't conform to snake_case naming style (invalid-name)
+C: 91, 4: Missing method docstring (missing-docstring)
+R: 91, 4: Too many arguments (6/5) (too-many-arguments)
+C:100, 4: Missing method docstring (missing-docstring)
+R:104, 4: Too many arguments (6/5) (too-many-arguments)
+C:125,31: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C: 42, 0: standard import "import json" should be placed before "from ansible.module_utils.urls import generic_urlparse" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 4.88/10
+
+************* Module ansible.plugins.connection.lxd
+C: 74, 0: Line too long (103/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 32, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C: 33, 0: Import "from distutils.spawn import find_executable" should be placed at the top of the module (wrong-import-position)
+C: 34, 0: Import "from subprocess import Popen, PIPE" should be placed at the top of the module (wrong-import-position)
+C: 36, 0: Import "from ansible.errors import AnsibleError, AnsibleConnectionFailure, AnsibleFileNotFound" should be placed at the top of the module (wrong-import-position)
+C: 37, 0: Import "from ansible.module_utils._text import to_bytes, to_text" should be placed at the top of the module (wrong-import-position)
+C: 38, 0: Import "from ansible.plugins.connection import ConnectionBase" should be placed at the top of the module (wrong-import-position)
+
+-----------------------------------
+Your code has been rated at 8.50/10
+

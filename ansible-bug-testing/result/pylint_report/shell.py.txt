@@ -1,0 +1,18 @@
+************* Module ansible.modules.commands.shell
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 12, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.67/10
+
+************* Module ansible.plugins.action.shell
+C: 26, 0: Line too long (109/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 11, 0: Missing class docstring (missing-docstring)
+R: 11, 0: Too few public methods (1/2) (too-few-public-methods)
+W:  8, 0: Unused merge_hash imported from ansible.utils.vars (unused-import)
+
+-----------------------------------
+Your code has been rated at 5.00/10
+

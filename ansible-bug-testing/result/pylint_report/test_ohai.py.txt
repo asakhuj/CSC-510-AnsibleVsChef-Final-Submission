@@ -1,0 +1,14 @@
+************* Module units.module_utils.facts.other.test_ohai
+C:  1, 0: Too many lines in module (6768/1000) (too-many-lines)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 26, 0: Unable to import 'ansible.module_utils.facts.other.ohai' (import-error)
+C: 28, 0: Constant name "ohai_json_output" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:6725, 0: Missing class docstring (missing-docstring)
+C:6742, 4: Missing method docstring (missing-docstring)
+C:6755, 4: Missing method docstring (missing-docstring)
+C: 26, 0: first party import "from ansible.module_utils.facts.other.ohai import OhaiFactCollector" should be placed before "from ..base import BaseFactsTest" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 6.06/10
+

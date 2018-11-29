@@ -1,0 +1,24 @@
+************* Module ansible.modules.cloud.cloudstack.cs_firewall
+C:234, 0: Line too long (123/100) (line-too-long)
+C:237, 0: Line too long (101/100) (line-too-long)
+C:262, 0: Line too long (103/100) (line-too-long)
+C:372, 0: Line too long (106/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:199, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:200, 0: Import "from ansible.module_utils.cloudstack import AnsibleCloudStack, cs_argument_spec, cs_required_together" should be placed at the top of the module (wrong-import-position)
+C:207, 0: Missing class docstring (missing-docstring)
+C:223, 4: Missing method docstring (missing-docstring)
+R:223, 4: Too many local variables (16/15) (too-many-locals)
+R:282, 4: Method could be a function (no-self-use)
+R:290, 4: Method could be a function (no-self-use)
+R:297, 4: Method could be a function (no-self-use)
+R:306, 8: Unnecessary "else" after "return" (no-else-return)
+R:305, 4: Method could be a function (no-self-use)
+C:311, 4: Missing method docstring (missing-docstring)
+C:344, 4: Missing method docstring (missing-docstring)
+W:365, 4: Parameters differ from overridden 'get_result' method (arguments-differ)
+C:376, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.35/10
+

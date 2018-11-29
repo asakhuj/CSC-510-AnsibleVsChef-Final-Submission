@@ -1,0 +1,23 @@
+************* Module ansible.modules.cloud.vmware.vcenter_license
+W:122, 0: FIXME: This does not seem to work on vCenter v6.0 (fixme)
+C:171, 0: Line too long (106/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 85, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 86, 0: Import "from ansible.module_utils.vmware import connect_to_api, vmware_argument_spec" should be placed at the top of the module (wrong-import-position)
+W: 89,23: Redefining built-in 'license' (redefined-builtin)
+C: 89, 0: Missing function docstring (missing-docstring)
+C: 96, 0: Missing function docstring (missing-docstring)
+W:119, 4: Redefining built-in 'license' (redefined-builtin)
+C:106, 0: Missing function docstring (missing-docstring)
+C:125, 8: Variable name "kv" doesn't conform to snake_case naming style (invalid-name)
+C:139, 4: Variable name "lm" doesn't conform to snake_case naming style (invalid-name)
+W:142, 7: Access to a protected member _diff of a client class (protected-access)
+W:159,16: No exception type(s) specified (bare-except)
+W:163,11: Access to a protected member _diff of a client class (protected-access)
+W:179,11: Access to a protected member _diff of a client class (protected-access)
+R:106, 0: Too many branches (14/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 7.57/10
+

@@ -1,0 +1,27 @@
+************* Module ansible.modules.cloud.amazon.ec2_snapshot
+C:150, 0: Line too long (103/100) (line-too-long)
+C:188, 0: Line too long (109/100) (line-too-long)
+C:194, 0: Line too long (124/100) (line-too-long)
+C:199, 0: Line too long (123/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:115, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C:116, 0: Import "import datetime" should be placed at the top of the module (wrong-import-position)
+C:123, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:124, 0: Import "from ansible.module_utils.ec2 import HAS_BOTO, ec2_argument_spec, ec2_connect" should be placed at the top of the module (wrong-import-position)
+C:141, 7: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:179, 0: Missing function docstring (missing-docstring)
+R:179, 0: Too many arguments (12/5) (too-many-arguments)
+R:179, 0: Too many local variables (20/15) (too-many-locals)
+C:195,49: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:208,49: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:221,49: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:236,19: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:238,45: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:179, 0: Too many branches (18/12) (too-many-branches)
+C:248, 0: Missing function docstring (missing-docstring)
+C:268, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.92/10
+

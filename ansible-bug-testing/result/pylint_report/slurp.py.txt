@@ -1,0 +1,11 @@
+************* Module ansible.modules.net_tools.basics.slurp
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 61, 0: Import "import base64" should be placed at the top of the module (wrong-import-position)
+C: 62, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C: 64, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 67, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 6.84/10
+

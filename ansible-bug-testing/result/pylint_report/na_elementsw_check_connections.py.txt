@@ -1,0 +1,20 @@
+************* Module ansible.modules.storage.netapp.na_elementsw_check_connections
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 59, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C: 61, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 62, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 63, 0: Import "import ansible.module_utils.netapp as netapp_utils" should be placed at the top of the module (wrong-import-position)
+C: 64, 0: Import "from ansible.module_utils.netapp_module import NetAppModule" should be placed at the top of the module (wrong-import-position)
+C: 70, 0: Missing class docstring (missing-docstring)
+W:110,15: Catching too general exception Exception (broad-except)
+C:110,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:125,15: Catching too general exception Exception (broad-except)
+C:125,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:129, 4: Missing method docstring (missing-docstring)
+C:146, 0: Missing function docstring (missing-docstring)
+W: 59, 0: Unused import traceback (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.22/10
+

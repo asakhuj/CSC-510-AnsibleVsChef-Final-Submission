@@ -1,0 +1,25 @@
+************* Module units.modules.packaging.language.test_gem
+W: 69, 0: XXX: This test is extremely fragile, and makes assuptions about the module code, and how (fixme)
+W: 95, 0: XXX: This test is also extremely fragile because of mocking. (fixme)
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  8, 0: Unable to import 'ansible.modules.packaging.language' (import-error)
+C: 19, 0: Missing class docstring (missing-docstring)
+C: 37, 8: Missing function docstring (missing-docstring)
+W: 37,24: Unused argument 'remote' (unused-argument)
+W: 37,16: Unused argument 'module' (unused-argument)
+C: 42, 4: Missing method docstring (missing-docstring)
+C: 45, 8: Missing function docstring (missing-docstring)
+W: 45,16: Unused argument 'module' (unused-argument)
+C: 50, 4: Missing method docstring (missing-docstring)
+C: 54, 4: Method name "test_fails_when_user_install_and_install_dir_are_combined" doesn't conform to snake_case naming style (invalid-name)
+C: 54, 4: Missing method docstring (missing-docstring)
+R: 54, 4: Method could be a function (no-self-use)
+C: 68, 4: Missing method docstring (missing-docstring)
+C: 94, 4: Method name "test_passes_install_dir_and_gem_home_when_uninstall_gem" doesn't conform to snake_case naming style (invalid-name)
+C: 94, 4: Missing method docstring (missing-docstring)
+W: 30, 8: Attribute 'mocker' defined outside __init__ (attribute-defined-outside-init)
+W:  4, 0: Unused import json (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.00/10
+

@@ -1,0 +1,20 @@
+************* Module ansible.modules.net_tools.nios.nios_network
+C:171, 0: Line too long (109/100) (line-too-long)
+C:182, 0: Line too long (114/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:137, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:138, 0: Import "from ansible.module_utils.six import iteritems" should be placed at the top of the module (wrong-import-position)
+C:139, 0: Import "from ansible.module_utils.net_tools.nios.api import WapiModule" should be placed at the top of the module (wrong-import-position)
+C:140, 0: Import "from ansible.module_utils.network.common.utils import validate_ip_address, validate_ip_v6_address" should be placed at the top of the module (wrong-import-position)
+C:141, 0: Import "from ansible.module_utils.net_tools.nios.api import NIOS_IPV4_NETWORK" should be placed at the top of the module (wrong-import-position)
+C:142, 0: Import "from ansible.module_utils.net_tools.nios.api import NIOS_IPV6_NETWORK" should be placed at the top of the module (wrong-import-position)
+W:161, 4: Redefining name 'options' from outer scope (line 145) (redefined-outer-name)
+C:170, 0: Argument name "ip" doesn't conform to snake_case naming style (invalid-name)
+R:170, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:181, 0: Function name "check_vendor_specific_dhcp_option" doesn't conform to snake_case naming style (invalid-name)
+W:185,13: Unused variable 'value' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 6.94/10
+

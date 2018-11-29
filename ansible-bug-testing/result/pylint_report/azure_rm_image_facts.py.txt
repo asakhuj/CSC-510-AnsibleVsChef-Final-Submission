@@ -1,0 +1,22 @@
+************* Module ansible.modules.cloud.azure.azure_rm_image_facts
+C:249, 0: Line too long (110/100) (line-too-long)
+C:264, 0: Line too long (113/100) (line-too-long)
+C:283, 0: Line too long (106/100) (line-too-long)
+C:288, 0: Line too long (147/100) (line-too-long)
+C:289, 0: Line too long (137/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+W:170, 0: No exception type(s) specified (bare-except)
+E:169, 4: Unable to import 'msrestazure.azure_exceptions' (import-error)
+C:174, 0: Import "from ansible.module_utils.azure_rm_common import AzureRMModuleBase" should be placed at the top of the module (wrong-import-position)
+C:180, 0: Missing class docstring (missing-docstring)
+W:182, 0: Unused argument 'kwargs' (unused-argument)
+C:269, 4: Missing method docstring (missing-docstring)
+C:270, 8: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:277, 8: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+R:269, 4: Method could be a function (no-self-use)
+C:296, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.20/10
+

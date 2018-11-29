@@ -1,0 +1,11 @@
+************* Module units.modules.network.netact.test_netact_cm_command
+C:150, 0: Line too long (109/100) (line-too-long)
+E: 34, 0: Unable to import 'ansible.module_utils' (import-error)
+E: 35, 0: Unable to import 'ansible.module_utils._text' (import-error)
+E: 36, 0: Unable to import 'ansible.modules.network.netact' (import-error)
+R: 65, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C: 37, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 7.46/10
+

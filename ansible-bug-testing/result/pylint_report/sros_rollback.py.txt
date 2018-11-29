@@ -1,0 +1,22 @@
+************* Module ansible.modules.network.sros.sros_rollback
+C: 94, 0: Line too long (106/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 92, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 93, 0: Import "from ansible.module_utils.network.common.config import NetworkConfig, dumps" should be placed at the top of the module (wrong-import-position)
+C: 94, 0: Import "from ansible.module_utils.network.sros.sros import load_config, get_config, sros_argument_spec, check_args" should be placed at the top of the module (wrong-import-position)
+C: 97, 0: Missing function docstring (missing-docstring)
+R: 97, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:103, 0: Missing function docstring (missing-docstring)
+C:114, 0: Missing function docstring (missing-docstring)
+C:124, 0: Missing function docstring (missing-docstring)
+C:136, 0: Missing function docstring (missing-docstring)
+C:141, 0: Missing function docstring (missing-docstring)
+C:148, 0: Missing function docstring (missing-docstring)
+C:155, 0: Missing function docstring (missing-docstring)
+C:160, 0: Missing function docstring (missing-docstring)
+W: 94, 0: Unused check_args imported from ansible.module_utils.network.sros.sros (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.90/10
+

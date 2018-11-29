@@ -1,0 +1,12 @@
+************* Module required-and-default-attributes
+C: 22, 0: Line too long (103/100) (line-too-long)
+C: 23, 0: Wrong hanging indentation (remove 2 spaces).
+                          path, line + 1, match.start(1) + 1))
+                        | ^ (bad-continuation)
+C:  1, 0: Module name "required-and-default-attributes" doesn't conform to snake_case naming style (invalid-name)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 6.67/10
+

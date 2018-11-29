@@ -1,0 +1,23 @@
+************* Module ansible.modules.packaging.os.pkg5
+C: 74, 0: Line too long (134/100) (line-too-long)
+C: 88, 0: Line too long (103/100) (line-too-long)
+C:140, 0: Line too long (145/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 65, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C: 67, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 70, 0: Missing function docstring (missing-docstring)
+C:101, 0: Missing function docstring (missing-docstring)
+C:140, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:154, 0: Missing function docstring (missing-docstring)
+C:155, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W:155, 8: Unused variable 'out' (unused-variable)
+W:155,13: Unused variable 'err' (unused-variable)
+C:159, 0: Missing function docstring (missing-docstring)
+C:160, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W:160, 8: Unused variable 'out' (unused-variable)
+W:160,13: Unused variable 'err' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 6.67/10
+

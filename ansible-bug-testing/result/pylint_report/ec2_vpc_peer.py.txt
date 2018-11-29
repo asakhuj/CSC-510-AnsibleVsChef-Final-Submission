@@ -1,0 +1,32 @@
+************* Module ansible.modules.cloud.amazon.ec2_vpc_peer
+C:225, 0: Line too long (102/100) (line-too-long)
+C:279, 0: Line too long (108/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:222, 0: Import "import distutils.version" should be placed at the top of the module (wrong-import-position)
+C:224, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:225, 0: Import "from ansible.module_utils.ec2 import boto3_conn, ec2_argument_spec, get_aws_connection_info, HAS_BOTO3" should be placed at the top of the module (wrong-import-position)
+C:228, 0: Missing function docstring (missing-docstring)
+C:248, 0: Missing function docstring (missing-docstring)
+C:265, 0: Missing function docstring (missing-docstring)
+C:269, 0: Missing function docstring (missing-docstring)
+C:273, 0: Missing function docstring (missing-docstring)
+C:300,46: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:304, 0: Missing function docstring (missing-docstring)
+C:324,46: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:328, 0: Missing function docstring (missing-docstring)
+C:335, 0: Missing function docstring (missing-docstring)
+C:348,50: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:355, 0: Missing function docstring (missing-docstring)
+C:363, 0: Missing function docstring (missing-docstring)
+C:367,46: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:371, 0: Missing function docstring (missing-docstring)
+C:374,46: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:378, 0: Missing function docstring (missing-docstring)
+C:381,46: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:385, 0: Missing function docstring (missing-docstring)
+C:408,53: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.25/10
+

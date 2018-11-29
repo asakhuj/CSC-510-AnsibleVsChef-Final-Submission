@@ -1,0 +1,26 @@
+************* Module ansible.modules.cloud.docker.docker_volume
+C:210, 0: Line too long (134/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:118, 0: Import "from ansible.module_utils.docker_common import DockerBaseClass, AnsibleDockerClient" should be placed at the top of the module (wrong-import-position)
+C:119, 0: Import "from ansible.module_utils.six import iteritems, text_type" should be placed at the top of the module (wrong-import-position)
+C:122, 0: Missing class docstring (missing-docstring)
+R:122, 0: Too few public methods (1/2) (too-few-public-methods)
+C:138, 0: Missing class docstring (missing-docstring)
+W:148,20: Access to a protected member _diff of a client class (protected-access)
+E:152,16: Instance of 'TaskParameters' has no 'state' member (no-member)
+C:158, 4: Missing method docstring (missing-docstring)
+C:161,27: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+E:192,25: Non-iterable value self.parameters.labels is used in an iterating context (not-an-iterable)
+C:198, 4: Missing method docstring (missing-docstring)
+C:207,35: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:213, 4: Missing method docstring (missing-docstring)
+C:218,35: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:224, 4: Missing method docstring (missing-docstring)
+C:243, 4: Missing method docstring (missing-docstring)
+C:247, 0: Missing function docstring (missing-docstring)
+C:265, 4: Variable name "cm" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.24/10
+

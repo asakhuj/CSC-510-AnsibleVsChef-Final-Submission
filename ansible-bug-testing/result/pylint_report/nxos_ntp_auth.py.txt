@@ -1,0 +1,27 @@
+************* Module ansible.modules.network.nxos.nxos_ntp_auth
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 87, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C: 89, 0: Import "from ansible.module_utils.network.nxos.nxos import get_config, load_config, run_commands" should be placed at the top of the module (wrong-import-position)
+C: 90, 0: Import "from ansible.module_utils.network.nxos.nxos import nxos_argument_spec, check_args" should be placed at the top of the module (wrong-import-position)
+C: 91, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 94, 0: Missing function docstring (missing-docstring)
+C:109, 0: Missing function docstring (missing-docstring)
+C:119, 0: Missing function docstring (missing-docstring)
+R:125, 4: The if statement can be replaced with 'var = bool(test)' (simplifiable-if-statement)
+C:133, 0: Missing function docstring (missing-docstring)
+C:151, 0: Missing function docstring (missing-docstring)
+C:174, 0: Missing function docstring (missing-docstring)
+C:192, 0: Missing function docstring (missing-docstring)
+R:193, 4: Unnecessary "else" after "return" (no-else-return)
+C:199, 0: Missing function docstring (missing-docstring)
+C:224, 0: Missing function docstring (missing-docstring)
+W:224,54: Unused argument 'trusted_key' (unused-argument)
+C:238, 0: Missing function docstring (missing-docstring)
+R:238, 0: Too many local variables (20/15) (too-many-locals)
+R:238, 0: Too many branches (14/12) (too-many-branches)
+R:238, 0: Too many statements (56/50) (too-many-statements)
+W: 89, 0: Unused get_config imported from ansible.module_utils.network.nxos.nxos (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.52/10
+

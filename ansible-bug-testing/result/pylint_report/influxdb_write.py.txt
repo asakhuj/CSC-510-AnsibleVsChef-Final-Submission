@@ -1,0 +1,15 @@
+************* Module ansible.modules.database.influxdb.influxdb_write
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 64, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 65, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 66, 0: Import "from ansible.module_utils.influxdb import InfluxDb" should be placed at the top of the module (wrong-import-position)
+C: 69, 0: Missing class docstring (missing-docstring)
+C: 71, 4: Missing method docstring (missing-docstring)
+W: 77,15: Catching too general exception Exception (broad-except)
+C: 77,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C: 81, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 6.30/10
+

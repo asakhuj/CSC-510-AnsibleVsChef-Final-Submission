@@ -1,0 +1,31 @@
+************* Module ansible.modules.identity.ipa.ipa_service
+C: 93, 0: Line too long (110/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 81, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C: 83, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 84, 0: Import "from ansible.module_utils.ipa import IPAClient, ipa_argument_spec" should be placed at the top of the module (wrong-import-position)
+C: 85, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 88, 0: Missing class docstring (missing-docstring)
+W: 89, 4: Useless super delegation in method '__init__' (useless-super-delegation)
+C: 92, 4: Missing method docstring (missing-docstring)
+C: 95, 4: Missing method docstring (missing-docstring)
+C: 98, 4: Missing method docstring (missing-docstring)
+C:101, 4: Missing method docstring (missing-docstring)
+C:104, 4: Missing method docstring (missing-docstring)
+C:107, 4: Missing method docstring (missing-docstring)
+C:110, 4: Missing method docstring (missing-docstring)
+C:114, 0: Missing function docstring (missing-docstring)
+C:123, 0: Missing function docstring (missing-docstring)
+C:132, 0: Missing function docstring (missing-docstring)
+C:147,15: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+R:140, 4: Too many nested blocks (6/5) (too-many-nested-blocks)
+R:140, 4: Too many nested blocks (6/5) (too-many-nested-blocks)
+R:132, 0: Too many branches (20/12) (too-many-branches)
+C:181, 0: Missing function docstring (missing-docstring)
+W:203,11: Catching too general exception Exception (broad-except)
+C:203,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.23/10
+

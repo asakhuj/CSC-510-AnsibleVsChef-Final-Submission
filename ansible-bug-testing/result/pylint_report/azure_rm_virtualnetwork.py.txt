@@ -1,0 +1,32 @@
+************* Module ansible.modules.cloud.azure.azure_rm_virtualnetwork
+C:260, 0: Line too long (107/100) (line-too-long)
+C:267, 0: Line too long (107/100) (line-too-long)
+C:277, 0: Line too long (111/100) (line-too-long)
+C:292, 0: Line too long (116/100) (line-too-long)
+C:329, 0: Line too long (112/100) (line-too-long)
+C:332, 0: Line too long (105/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:132, 0: Import "from ansible.module_utils.azure_rm_common import AzureRMModuleBase, CIDR_PATTERN" should be placed at the top of the module (wrong-import-position)
+C:150,29: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:154,30: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:161, 0: Missing class docstring (missing-docstring)
+R:161, 0: Too many instance attributes (10/7) (too-many-instance-attributes)
+E:216,26: Non-iterable value self.address_prefixes_cidr is used in an iterating context (not-an-iterable)
+C:241,23: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+R:226, 8: Too many nested blocks (6/5) (too-many-nested-blocks)
+C:249,23: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:267,68: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+E:303,23: Instance of 'AzureRMVirtualNetwork' has no 'tags' member (no-member)
+E:304,36: Instance of 'AzureRMVirtualNetwork' has no 'tags' member (no-member)
+R:203, 4: Too many branches (29/12) (too-many-branches)
+R:203, 4: Too many statements (81/50) (too-many-statements)
+C:327, 4: Missing method docstring (missing-docstring)
+W:331,15: Catching too general exception Exception (broad-except)
+C:335, 4: Missing method docstring (missing-docstring)
+W:339,15: Catching too general exception Exception (broad-except)
+C:344, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.21/10
+

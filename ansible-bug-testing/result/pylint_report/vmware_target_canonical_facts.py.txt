@@ -1,0 +1,12 @@
+************* Module ansible.modules.cloud.vmware.vmware_target_canonical_facts
+C:121, 0: Line too long (105/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:112, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:113, 0: Import "from ansible.module_utils.vmware import PyVmomi, vmware_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:116, 0: Missing class docstring (missing-docstring)
+C:159, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.37/10
+

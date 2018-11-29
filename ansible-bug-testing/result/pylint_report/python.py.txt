@@ -1,0 +1,17 @@
+************* Module ansible.module_utils.facts.system.python
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 17, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 33, 0: Missing class docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.80/10
+
+************* Module python
+C:  1, 0: Final newline missing (missing-final-newline)
+C:  1, 0: Missing module docstring (missing-docstring)
+W:  1, 0: Statement seems to have no effect (pointless-statement)
+E:  1, 0: Undefined variable 'injector' (undefined-variable)
+
+-------------------------------------
+Your code has been rated at -70.00/10
+

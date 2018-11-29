@@ -1,0 +1,13 @@
+************* Module ansible.module_utils.azure_rm_common_rest
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 15, 0: Missing class docstring (missing-docstring)
+R: 15, 0: Too few public methods (0/2) (too-few-public-methods)
+C: 35, 0: Missing class docstring (missing-docstring)
+C: 42, 4: Missing method docstring (missing-docstring)
+R: 42, 4: Too many arguments (7/5) (too-many-arguments)
+R: 35, 0: Too few public methods (1/2) (too-few-public-methods)
+W:  9, 4: Unused import json (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.33/10
+

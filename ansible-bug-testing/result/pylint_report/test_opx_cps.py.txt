@@ -1,0 +1,30 @@
+************* Module units.modules.network.opx.test_opx_cps
+C: 64, 0: Line too long (106/100) (line-too-long)
+C:164, 0: Line too long (101/100) (line-too-long)
+C:178, 0: Line too long (111/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 23, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 45, 0: Unable to import 'ansible.modules.network.opx' (import-error)
+C: 45, 0: Import "from ansible.modules.network.opx import opx_cps" should be placed at the top of the module (wrong-import-position)
+C: 47, 0: Import "from units.modules.utils import set_module_args" should be placed at the top of the module (wrong-import-position)
+C: 48, 0: Import "from .opx_module import TestOpxModule, load_fixture" should be placed at the top of the module (wrong-import-position)
+C: 51, 0: Missing class docstring (missing-docstring)
+R: 51, 0: Too many instance attributes (8/7) (too-many-instance-attributes)
+C: 77, 4: Missing method docstring (missing-docstring)
+C: 89, 4: Missing method docstring (missing-docstring)
+C:102, 4: Missing method docstring (missing-docstring)
+C:114, 4: Missing method docstring (missing-docstring)
+W:115, 8: Unused variable 'resp' (unused-variable)
+C:124, 4: Missing method docstring (missing-docstring)
+C:136, 4: Missing method docstring (missing-docstring)
+C:148, 4: Missing method docstring (missing-docstring)
+C:160, 4: Missing method docstring (missing-docstring)
+C:172, 4: Method name "test_opx_operation_set_commit_event" doesn't conform to snake_case naming style (invalid-name)
+C:172, 4: Missing method docstring (missing-docstring)
+W: 25, 0: Unused MagicMock imported from units.compat.mock (unused-import)
+C: 26, 0: standard import "import sys" should be placed before "from units.compat.mock import patch, Mock, MagicMock" (wrong-import-order)
+C: 47, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 7.64/10
+

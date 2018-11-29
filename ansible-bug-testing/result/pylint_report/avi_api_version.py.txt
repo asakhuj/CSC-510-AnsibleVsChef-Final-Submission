@@ -1,0 +1,10 @@
+************* Module ansible.modules.network.avi.avi_api_version
+C: 53, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 63, 0: Missing function docstring (missing-docstring)
+W: 85,11: Catching too general exception Exception (broad-except)
+C: 85,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R: 63, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+
+-----------------------------------
+Your code has been rated at 8.21/10
+

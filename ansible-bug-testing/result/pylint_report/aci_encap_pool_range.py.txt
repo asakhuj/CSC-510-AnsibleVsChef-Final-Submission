@@ -1,0 +1,23 @@
+************* Module ansible.modules.network.aci.aci_encap_pool_range
+C:263, 0: Line too long (101/100) (line-too-long)
+C:267, 0: Line too long (103/100) (line-too-long)
+C:269, 0: Line too long (104/100) (line-too-long)
+C:330, 0: Line too long (120/100) (line-too-long)
+C:333, 0: Line too long (128/100) (line-too-long)
+C:336, 0: Line too long (120/100) (line-too-long)
+C:350, 0: Line too long (132/100) (line-too-long)
+C:352, 0: Line too long (112/100) (line-too-long)
+C:357, 0: Line too long (140/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:241, 0: Import "from ansible.module_utils.network.aci.aci import ACIModule, aci_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:242, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:260, 0: Missing function docstring (missing-docstring)
+R:260, 0: Too many local variables (21/15) (too-many-locals)
+C:303, 4: Variable name "ACI_RANGE_MAPPING" doesn't conform to snake_case naming style (invalid-name)
+R:260, 0: Too many branches (22/12) (too-many-branches)
+R:260, 0: Too many statements (60/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 7.39/10
+

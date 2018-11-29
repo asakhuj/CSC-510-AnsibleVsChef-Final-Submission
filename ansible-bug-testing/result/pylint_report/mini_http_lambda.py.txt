@@ -1,0 +1,7 @@
+************* Module mini_http_lambda
+C:  1, 0: Missing module docstring (missing-docstring)
+W:  5,19: Unused argument 'context' (unused-argument)
+
+-----------------------------------
+Your code has been rated at 8.33/10
+

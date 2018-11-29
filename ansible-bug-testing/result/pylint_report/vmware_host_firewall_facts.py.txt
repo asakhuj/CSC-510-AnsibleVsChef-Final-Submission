@@ -1,0 +1,16 @@
+************* Module ansible.modules.cloud.vmware.vmware_host_firewall_facts
+C: 98, 0: Line too long (101/100) (line-too-long)
+C:131, 0: Line too long (106/100) (line-too-long)
+C:151, 0: Line too long (107/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 89, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 90, 0: Import "from ansible.module_utils.vmware import vmware_argument_spec, PyVmomi" should be placed at the top of the module (wrong-import-position)
+C: 93, 0: Missing class docstring (missing-docstring)
+C:101, 4: Missing method docstring (missing-docstring)
+C:124, 4: Missing method docstring (missing-docstring)
+C:135, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.84/10
+

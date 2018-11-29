@@ -1,0 +1,15 @@
+************* Module ansible.modules.cloud.amazon.aws_codecommit
+C:  1, 0: Missing module docstring (missing-docstring)
+C:140, 0: Import "from ansible.module_utils.aws.core import AnsibleAWSModule" should be placed at the top of the module (wrong-import-position)
+C:141, 0: Import "from ansible.module_utils.ec2 import camel_dict_to_snake_dict" should be placed at the top of the module (wrong-import-position)
+C:144, 0: Missing class docstring (missing-docstring)
+C:150, 4: Missing method docstring (missing-docstring)
+C:171,87: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:181,87: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:190,87: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:144, 0: Too few public methods (1/2) (too-few-public-methods)
+C:195, 0: Missing function docstring (missing-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 8.25/10 (previous run: 8.25/10, +0.00)
+

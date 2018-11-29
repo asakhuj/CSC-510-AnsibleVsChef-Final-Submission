@@ -1,0 +1,26 @@
+************* Module ansible.modules.cloud.vmware.vmware_host_powerstate
+C:124, 0: Line too long (101/100) (line-too-long)
+C:145, 0: Line too long (109/100) (line-too-long)
+C:152, 0: Line too long (101/100) (line-too-long)
+C:154, 0: Line too long (118/100) (line-too-long)
+C:156, 0: Line too long (113/100) (line-too-long)
+C:181, 0: Line too long (108/100) (line-too-long)
+C:183, 0: Line too long (104/100) (line-too-long)
+C:184, 0: Line too long (118/100) (line-too-long)
+C:201, 0: Line too long (111/100) (line-too-long)
+C:214, 0: Wrong continued indentation (remove 1 space).
+                           )
+                          |^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 10, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:114, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:115, 0: Import "from ansible.module_utils.vmware import PyVmomi, vmware_argument_spec, wait_for_task, TaskError" should be placed at the top of the module (wrong-import-position)
+C:116, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:119, 0: Missing class docstring (missing-docstring)
+W:182,23: Catching too general exception Exception (broad-except)
+R:128, 4: Too many branches (17/12) (too-many-branches)
+C:197, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.40/10
+

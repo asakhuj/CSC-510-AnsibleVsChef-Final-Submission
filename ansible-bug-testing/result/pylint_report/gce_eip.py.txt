@@ -1,0 +1,17 @@
+************* Module ansible.modules.cloud.google.gce_eip
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:102, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:103, 0: Import "from ansible.module_utils.gcp import gcp_connect" should be placed at the top of the module (wrong-import-position)
+C:173, 0: Missing function docstring (missing-docstring)
+W: 85, 4: Unused literal_eval imported from ast (unused-import)
+W: 91, 4: Unused import libcloud (unused-import)
+W: 94, 4: Unused GoogleBaseError imported from libcloud.common.google (unused-import)
+W: 94, 4: Unused ResourceInUseError imported from libcloud.common.google (unused-import)
+W: 94, 4: Unused QuotaExceededError imported from libcloud.common.google (unused-import)
+W: 94, 4: Unused ResourceExistsError imported from libcloud.common.google (unused-import)
+W: 96, 4: Unused GCEAddress imported from libcloud.compute.drivers.gce (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.36/10
+

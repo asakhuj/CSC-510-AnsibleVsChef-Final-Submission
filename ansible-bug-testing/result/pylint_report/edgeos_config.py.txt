@@ -1,0 +1,42 @@
+************* Module ansible.modules.network.edgeos.edgeos_config
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:122, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:124, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:125, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:126, 0: Import "from ansible.module_utils.network.common.config import NetworkConfig" should be placed at the top of the module (wrong-import-position)
+C:127, 0: Import "from ansible.module_utils.network.edgeos.edgeos import load_config, get_config, run_commands" should be placed at the top of the module (wrong-import-position)
+C:137, 0: Missing function docstring (missing-docstring)
+C:159, 0: Missing function docstring (missing-docstring)
+C:168, 0: Missing function docstring (missing-docstring)
+W:190,16: Redefining name 'line' from outer scope (line 175) (redefined-outer-name)
+C:207, 0: Missing function docstring (missing-docstring)
+C:216, 0: Missing function docstring (missing-docstring)
+C:243, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.56/10
+
+************* Module ansible.plugins.action.edgeos_config
+C: 39, 0: Line too long (148/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 29, 0: No name 'urllib' in module '_MovedItems' (no-name-in-module)
+E: 29, 0: Unable to import 'ansible.module_utils.six.moves.urllib.parse' (import-error)
+C: 35, 0: Missing class docstring (missing-docstring)
+W: 68,11: Access to a protected member _role of a client class (protected-access)
+W: 69,18: Access to a protected member _role_path of a client class (protected-access)
+W: 69,18: Access to a protected member _role of a client class (protected-access)
+C: 76,12: Variable name "fn" doesn't conform to snake_case naming style (invalid-name)
+C: 98,38: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+W:106,11: Access to a protected member _role of a client class (protected-access)
+W:107,30: Access to a protected member _role_path of a client class (protected-access)
+W:107,30: Access to a protected member _role of a client class (protected-access)
+W:109,28: Access to a protected member _block of a client class (protected-access)
+W:112,42: Access to a protected member _role_path of a client class (protected-access)
+R: 83, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R: 35, 0: Too few public methods (1/2) (too-few-public-methods)
+
+-----------------------------------
+Your code has been rated at 6.23/10
+

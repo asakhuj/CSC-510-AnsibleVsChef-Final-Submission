@@ -1,0 +1,95 @@
+************* Module ansible.module_utils.network.common.netconf
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 51, 0: Missing function docstring (missing-docstring)
+W: 52,35: Access to a protected member _socket_path of a client class (protected-access)
+C: 56, 0: Missing class docstring (missing-docstring)
+W: 58, 4: Useless super delegation in method '__init__' (useless-super-delegation)
+C: 80, 4: Missing method docstring (missing-docstring)
+R: 80, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+W: 71, 8: Attribute 'ignore_warning' defined outside __init__ (attribute-defined-outside-init)
+W: 70, 8: Attribute 'check_rc' defined outside __init__ (attribute-defined-outside-init)
+C:111, 0: Missing function docstring (missing-docstring)
+C:137, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.10/10
+
+************* Module ansible.module_utils.network.netconf.netconf
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 37, 0: Missing function docstring (missing-docstring)
+W: 39,15: Access to a protected member _netconf_connection of a client class (protected-access)
+W: 44, 8: Access to a protected member _netconf_connection of a client class (protected-access)
+W: 44,55: Access to a protected member _socket_path of a client class (protected-access)
+W: 48,11: Access to a protected member _netconf_connection of a client class (protected-access)
+C: 51, 0: Missing function docstring (missing-docstring)
+W: 53,15: Access to a protected member _netconf_capabilities of a client class (protected-access)
+W: 55,30: Access to a protected member _socket_path of a client class (protected-access)
+W: 56, 4: Access to a protected member _netconf_capabilities of a client class (protected-access)
+W: 57,11: Access to a protected member _netconf_capabilities of a client class (protected-access)
+C: 60, 0: Missing function docstring (missing-docstring)
+C: 65, 0: Missing function docstring (missing-docstring)
+C: 71, 0: Missing function docstring (missing-docstring)
+W: 79,31: Redefining built-in 'filter' (redefined-builtin)
+C: 79, 0: Missing function docstring (missing-docstring)
+C: 88,30: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W: 98,16: Redefining built-in 'filter' (redefined-builtin)
+C: 98, 0: Missing function docstring (missing-docstring)
+C:108,30: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:118, 0: Missing function docstring (missing-docstring)
+C:122,30: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:128, 0: Missing function docstring (missing-docstring)
+W:130,19: Using deprecated method getiterator() (deprecated-method)
+
+-----------------------------------
+Your code has been rated at 7.04/10
+
+************* Module ansible.plugins.action.netconf
+C: 39, 0: Line too long (111/100) (line-too-long)
+C: 40, 0: Line too long (104/100) (line-too-long)
+C: 41, 0: Line too long (132/100) (line-too-long)
+C: 42, 0: Line too long (104/100) (line-too-long)
+C: 44, 0: Line too long (132/100) (line-too-long)
+C: 60, 0: Line too long (110/100) (line-too-long)
+C: 61, 0: Line too long (133/100) (line-too-long)
+C: 70, 0: Line too long (122/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 34, 0: Missing class docstring (missing-docstring)
+C: 48,12: Variable name "pc" doesn't conform to snake_case naming style (invalid-name)
+E: 48,17: Module 'copy' has no 'deepcopy' member (no-member)
+R: 34, 0: Too few public methods (1/2) (too-few-public-methods)
+C: 30, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 4.72/10
+
+************* Module ansible.plugins.connection.netconf
+C:224, 0: Line too long (104/100) (line-too-long)
+C:228, 0: Line too long (129/100) (line-too-long)
+C:250, 0: Line too long (104/100) (line-too-long)
+C:265, 0: Line too long (102/100) (line-too-long)
+C:276, 0: Line too long (103/100) (line-too-long)
+C:301, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:175, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:176, 0: Import "import logging" should be placed at the top of the module (wrong-import-position)
+C:177, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C:179, 0: Import "from ansible.errors import AnsibleConnectionFailure, AnsibleError" should be placed at the top of the module (wrong-import-position)
+C:180, 0: Import "from ansible.module_utils._text import to_bytes, to_native, to_text" should be placed at the top of the module (wrong-import-position)
+C:181, 0: Import "from ansible.module_utils.parsing.convert_bool import BOOLEANS_TRUE, BOOLEANS_FALSE" should be placed at the top of the module (wrong-import-position)
+C:182, 0: Import "from ansible.plugins.loader import netconf_loader" should be placed at the top of the module (wrong-import-position)
+C:183, 0: Import "from ansible.plugins.connection import NetworkConnectionBase" should be placed at the top of the module (wrong-import-position)
+C:196, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 8.11/10
+
+************* Module ansible.utils.module_docs_fragments.netconf
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 19, 0: Missing class docstring (missing-docstring)
+R: 19, 0: Too few public methods (0/2) (too-few-public-methods)
+
+------------------------------------
+Your code has been rated at -5.00/10
+

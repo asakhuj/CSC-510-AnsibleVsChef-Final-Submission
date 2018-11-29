@@ -1,0 +1,28 @@
+************* Module ansible.modules.storage.netapp._sf_volume_manager
+C:162, 0: Line too long (107/100) (line-too-long)
+C:226, 0: Line too long (105/100) (line-too-long)
+C:260, 0: Line too long (107/100) (line-too-long)
+C:265, 0: Line too long (120/100) (line-too-long)
+C:274, 0: Line too long (110/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:132, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:133, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:134, 0: Import "import ansible.module_utils.netapp as netapp_utils" should be placed at the top of the module (wrong-import-position)
+C:139, 0: Missing class docstring (missing-docstring)
+R:139, 0: Too many instance attributes (14/7) (too-many-instance-attributes)
+C:174, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:216, 4: Missing method docstring (missing-docstring)
+W:225,15: Catching too general exception Exception (broad-except)
+C:229, 4: Missing method docstring (missing-docstring)
+W:233,15: Catching too general exception Exception (broad-except)
+C:237, 4: Missing method docstring (missing-docstring)
+W:246,15: Catching too general exception Exception (broad-except)
+C:250, 4: Missing method docstring (missing-docstring)
+R:250, 4: Too many branches (16/12) (too-many-branches)
+C:314, 0: Missing function docstring (missing-docstring)
+C:315, 4: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.85/10
+

@@ -1,0 +1,16 @@
+************* Module units.module_utils.urls.test_generic_urlparse
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E:  8, 0: Unable to import 'ansible.module_utils.urls' (import-error)
+E:  9, 0: Unable to import 'ansible.module_utils.six.moves.urllib.parse' (import-error)
+C: 12, 0: Missing function docstring (missing-docstring)
+C: 21, 0: Missing function docstring (missing-docstring)
+C: 31, 0: Missing function docstring (missing-docstring)
+C: 42, 0: Function name "test_generic_urlparse_no_netloc_no_auth" doesn't conform to snake_case naming style (invalid-name)
+C: 42, 0: Missing function docstring (missing-docstring)
+C: 50, 0: Function name "test_generic_urlparse_no_netloc_no_host" doesn't conform to snake_case naming style (invalid-name)
+C: 50, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 5.37/10
+

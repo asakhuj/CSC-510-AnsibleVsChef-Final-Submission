@@ -1,0 +1,15 @@
+************* Module ansible.modules.utilities.logic.fail
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.00/10
+
+************* Module ansible.plugins.action.fail
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 19, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+R: 24, 0: Too few public methods (1/2) (too-few-public-methods)
+
+-----------------------------------
+Your code has been rated at 8.24/10
+

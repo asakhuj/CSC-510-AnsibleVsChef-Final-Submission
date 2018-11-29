@@ -1,0 +1,8 @@
+************* Module ansible.module_utils.network.ordnance.ordnance
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  4, 0: Missing function docstring (missing-docstring)
+C: 14, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.00/10
+

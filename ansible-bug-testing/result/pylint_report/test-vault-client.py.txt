@@ -1,0 +1,16 @@
+************* Module test-vault-client
+W: 11, 0: TODO: could read these from the files I suppose... (fixme)
+C: 48, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:  1, 0: Module name "test-vault-client" doesn't conform to snake_case naming style (invalid-name)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Import "import argparse" should be placed at the top of the module (wrong-import-position)
+C:  9, 0: Import "import sys" should be placed at the top of the module (wrong-import-position)
+C: 12, 0: Constant name "secrets" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 20, 0: Missing function docstring (missing-docstring)
+C: 34, 0: Missing function docstring (missing-docstring)
+C: 38, 0: Missing function docstring (missing-docstring)
+C: 39, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.07/10
+

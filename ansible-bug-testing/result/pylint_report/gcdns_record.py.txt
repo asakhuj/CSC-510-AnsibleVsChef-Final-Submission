@@ -1,0 +1,14 @@
+************* Module ansible.modules.cloud.google.gcdns_record
+C:455, 0: Line too long (108/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:298, 0: Import "import socket" should be placed at the top of the module (wrong-import-position)
+C:299, 0: Import "from distutils.version import LooseVersion" should be placed at the top of the module (wrong-import-position)
+C:315, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:316, 0: Import "from ansible.module_utils.gcdns import gcdns_connect" should be placed at the top of the module (wrong-import-position)
+E:570,20: Module 'socket' has no 'inet_pton' member; maybe 'inet_aton'? (no-member)
+R:516, 0: Too many branches (17/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 9.32/10
+

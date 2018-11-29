@@ -1,0 +1,15 @@
+************* Module ansible.modules.network.junos.junos_package
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:100, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:101, 0: Import "from ansible.module_utils.network.junos.junos import junos_argument_spec, get_param" should be placed at the top of the module (wrong-import-position)
+C:102, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:113, 0: Missing function docstring (missing-docstring)
+C:139, 0: Missing function docstring (missing-docstring)
+C:145, 4: Missing function docstring (missing-docstring)
+W:145,21: Unused argument 'dev' (unused-argument)
+W:194, 8: Unused variable 'facts' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 8.51/10
+

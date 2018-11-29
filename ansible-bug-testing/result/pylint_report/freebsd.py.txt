@@ -1,0 +1,51 @@
+************* Module ansible.module_utils.facts.hardware.freebsd
+W:150, 0: TODO: rc, disks, err = self.module.run_command("/sbin/sysctl kern.disks") (fixme)
+W:188, 0: FIXME: why add the fact and then test if it is json? (fixme)
+C: 77, 0: Line too long (112/100) (line-too-long)
+C:150, 0: Line too long (132/100) (line-too-long)
+C:189, 0: Line too long (107/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 17, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 66, 4: Missing method docstring (missing-docstring)
+C: 71,12: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W: 78,19: Catching too general exception Exception (broad-except)
+C: 77,16: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W: 71,21: Unused variable 'err' (unused-variable)
+W: 71,12: Unused variable 'rc' (unused-variable)
+C: 90, 4: Missing method docstring (missing-docstring)
+C: 95,12: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:113,12: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:115,15: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+W: 95,21: Unused variable 'err' (unused-variable)
+W: 95,12: Unused variable 'rc' (unused-variable)
+C:125, 4: Missing method docstring (missing-docstring)
+R:125, 4: Method could be a function (no-self-use)
+C:145, 4: Missing method docstring (missing-docstring)
+C:155,16: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:158,16: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+R:145, 4: Method could be a function (no-self-use)
+C:173, 8: Variable name "DMI_DICT" doesn't conform to snake_case naming style (invalid-name)
+C:183,16: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:185,17: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W:185,26: Unused variable 'err' (unused-variable)
+C:202, 0: Missing class docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.56/10
+
+************* Module ansible.module_utils.facts.network.freebsd
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 17, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 31, 0: Missing class docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 6.67/10
+
+************* Module ansible.module_utils.facts.virtual.freebsd
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 17, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 45, 0: Missing class docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.24/10
+

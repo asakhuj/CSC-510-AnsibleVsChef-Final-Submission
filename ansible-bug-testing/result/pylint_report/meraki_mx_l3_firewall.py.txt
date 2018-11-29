@@ -1,0 +1,44 @@
+************* Module ansible.modules.network.meraki.meraki_mx_l3_firewall
+W:272, 0: FIXME: Work with Meraki so they can implement a check mode (fixme)
+C:202, 0: Wrong continued indentation (remove 1 space).
+                  }
+                 |^ (bad-continuation)
+W:214, 0: Bad indentation. Found 8 spaces, expected 4 (bad-indentation)
+W:215, 0: Bad indentation. Found 8 spaces, expected 4 (bad-indentation)
+W:216, 0: Bad indentation. Found 8 spaces, expected 4 (bad-indentation)
+W:217, 0: Bad indentation. Found 12 spaces, expected 8 (bad-indentation)
+C:232, 0: Wrong continued indentation (remove 1 space).
+                    )
+                   |^ (bad-continuation)
+C:240, 0: Wrong continued indentation (remove 1 space).
+                         )
+                        |^ (bad-continuation)
+C:256, 0: Wrong continued indentation (remove 1 space).
+                           )
+                          |^ (bad-continuation)
+C:308, 0: Line too long (106/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:186, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:187, 0: Import "from ansible.module_utils.basic import AnsibleModule, json, env_fallback" should be placed at the top of the module (wrong-import-position)
+C:188, 0: Import "from ansible.module_utils.urls import fetch_url" should be placed at the top of the module (wrong-import-position)
+C:189, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:190, 0: Import "from ansible.module_utils.network.meraki.meraki import MerakiModule, meraki_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:193, 0: Missing function docstring (missing-docstring)
+C:206,15: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:213, 0: Missing function docstring (missing-docstring)
+R:213, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:220, 0: Missing function docstring (missing-docstring)
+R:220, 0: Too many local variables (17/15) (too-many-locals)
+C:315,20: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+W:247, 4: Unused variable 'result' (unused-variable)
+R:220, 0: Too many branches (20/12) (too-many-branches)
+R:220, 0: Too many statements (56/50) (too-many-statements)
+W:186, 0: Unused import os (unused-import)
+W:187, 0: Unused env_fallback imported from ansible.module_utils.basic (unused-import)
+W:188, 0: Unused fetch_url imported from ansible.module_utils.urls (unused-import)
+W:189, 0: Unused to_native imported from ansible.module_utils._text (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.35/10
+

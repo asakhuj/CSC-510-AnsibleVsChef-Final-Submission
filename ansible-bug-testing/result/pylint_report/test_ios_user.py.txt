@@ -1,0 +1,30 @@
+************* Module units.modules.network.ios.test_ios_user
+C: 63, 0: Line too long (106/100) (line-too-long)
+C: 92, 0: Line too long (102/100) (line-too-long)
+C:112, 0: Line too long (102/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 25, 0: Unable to import 'ansible.modules.network.ios' (import-error)
+C: 30, 0: Missing class docstring (missing-docstring)
+W: 48, 4: Parameters differ from overridden 'load_fixtures' method (arguments-differ)
+W: 48,43: Unused argument 'transport' (unused-argument)
+C: 52, 4: Missing method docstring (missing-docstring)
+C: 57, 4: Missing method docstring (missing-docstring)
+C: 73, 4: Missing method docstring (missing-docstring)
+C: 78, 4: Missing method docstring (missing-docstring)
+C: 83, 4: Missing method docstring (missing-docstring)
+C: 87, 4: Missing method docstring (missing-docstring)
+C:101, 4: Missing method docstring (missing-docstring)
+C:106, 4: Method name "test_ios_user_update_password_changed" doesn't conform to snake_case naming style (invalid-name)
+C:106, 4: Missing method docstring (missing-docstring)
+C:111, 4: Method name "test_ios_user_update_password_on_create_ok" doesn't conform to snake_case naming style (invalid-name)
+C:111, 4: Missing method docstring (missing-docstring)
+C:115, 4: Method name "test_ios_user_update_password_always" doesn't conform to snake_case naming style (invalid-name)
+C:115, 4: Missing method docstring (missing-docstring)
+C:120, 4: Missing method docstring (missing-docstring)
+W: 22, 0: Unused import json (unused-import)
+C: 26, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 6.03/10
+

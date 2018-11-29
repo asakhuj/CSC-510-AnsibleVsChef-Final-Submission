@@ -1,0 +1,16 @@
+************* Module units.module_utils.cloud.test_backoff
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  4, 0: Unable to import 'ansible.module_utils.cloud' (import-error)
+C:  8, 0: Missing class docstring (missing-docstring)
+C:  9, 4: Missing method docstring (missing-docstring)
+C: 14, 4: Missing method docstring (missing-docstring)
+C: 19, 4: Missing method docstring (missing-docstring)
+C: 24, 4: Missing method docstring (missing-docstring)
+C: 30, 0: Missing class docstring (missing-docstring)
+C: 31, 4: Missing method docstring (missing-docstring)
+C: 36, 4: Missing method docstring (missing-docstring)
+C: 40, 8: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 5.45/10
+

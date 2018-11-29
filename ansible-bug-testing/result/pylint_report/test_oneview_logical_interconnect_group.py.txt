@@ -1,0 +1,33 @@
+************* Module test_oneview_logical_interconnect_group
+C:  8, 0: Line too long (119/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  6, 0: Unable to import 'units.compat' (import-error)
+E:  8, 0: Unable to import 'ansible.modules.remote_management.oneview.oneview_logical_interconnect_group' (import-error)
+C: 81, 0: Missing class docstring (missing-docstring)
+C: 83, 4: Method name "setUp" doesn't conform to snake_case naming style (invalid-name)
+C: 83, 4: Missing method docstring (missing-docstring)
+C: 87, 4: Missing method docstring (missing-docstring)
+C:101, 4: Method name "test_should_create_new_with_named_permitted_interconnect_type" doesn't conform to snake_case naming style (invalid-name)
+C:101, 4: Missing method docstring (missing-docstring)
+C:115, 4: Method name "test_should_fail_when_permitted_interconnect_type_name_not_exists" doesn't conform to snake_case naming style (invalid-name)
+C:115, 4: Missing method docstring (missing-docstring)
+C:128, 4: Method name "test_should_not_update_when_data_is_equals" doesn't conform to snake_case naming style (invalid-name)
+C:128, 4: Missing method docstring (missing-docstring)
+C:141, 4: Method name "test_update_when_data_has_modified_attributes" doesn't conform to snake_case naming style (invalid-name)
+C:141, 4: Missing method docstring (missing-docstring)
+C:158, 4: Method name "test_rename_when_resource_exists" doesn't conform to snake_case naming style (invalid-name)
+C:158, 4: Missing method docstring (missing-docstring)
+C:172, 4: Method name "test_create_with_newName_when_resource_not_exists" doesn't conform to snake_case naming style (invalid-name)
+C:172, 4: Missing method docstring (missing-docstring)
+C:186, 4: Missing method docstring (missing-docstring)
+C:198, 4: Method name "test_should_do_nothing_when_lig_not_exist" doesn't conform to snake_case naming style (invalid-name)
+C:198, 4: Missing method docstring (missing-docstring)
+C:210, 4: Method name "test_update_scopes_when_different" doesn't conform to snake_case naming style (invalid-name)
+C:210, 4: Missing method docstring (missing-docstring)
+C:237, 4: Method name "test_should_do_nothing_when_scopes_are_the_same" doesn't conform to snake_case naming style (invalid-name)
+C:237, 4: Missing method docstring (missing-docstring)
+W:  7, 0: Unused OneViewModuleBase imported from oneview_module_loader (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.54/10
+

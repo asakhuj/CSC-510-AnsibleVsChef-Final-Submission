@@ -1,0 +1,19 @@
+************* Module ansible.modules.messaging.rabbitmq.rabbitmq_binding
+C:177, 0: Line too long (101/100) (line-too-long)
+C:277, 0: Line too long (110/100) (line-too-long)
+C:286, 0: Line too long (116/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 78, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+E: 87, 0: No name 'urllib' in module '_MovedItems' (no-name-in-module)
+E: 87, 0: Unable to import 'ansible.module_utils.six.moves.urllib' (import-error)
+C: 87, 0: Import "from ansible.module_utils.six.moves.urllib import parse as urllib_parse" should be placed at the top of the module (wrong-import-position)
+C: 88, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 89, 0: Import "from ansible.module_utils.rabbitmq import rabbitmq_argument_spec" should be placed at the top of the module (wrong-import-position)
+C: 92, 0: Missing class docstring (missing-docstring)
+R: 92, 0: Too many instance attributes (23/7) (too-many-instance-attributes)
+C:269, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.94/10
+

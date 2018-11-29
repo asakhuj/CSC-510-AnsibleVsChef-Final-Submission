@@ -1,0 +1,32 @@
+************* Module ansible.modules.network.nxos.nxos_rpm
+C:119, 0: Line too long (106/100) (line-too-long)
+C:173, 0: Line too long (110/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 80, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C: 82, 0: Import "from copy import deepcopy" should be placed at the top of the module (wrong-import-position)
+C: 84, 0: Import "from ansible.module_utils.network.nxos.nxos import load_config, run_commands" should be placed at the top of the module (wrong-import-position)
+C: 85, 0: Import "from ansible.module_utils.network.nxos.nxos import nxos_argument_spec, check_args" should be placed at the top of the module (wrong-import-position)
+C: 86, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 87, 0: Import "from ansible.module_utils.network.common.utils import remove_default_spec" should be placed at the top of the module (wrong-import-position)
+C: 90, 0: Missing function docstring (missing-docstring)
+C:106, 0: Missing function docstring (missing-docstring)
+C:114, 0: Missing function docstring (missing-docstring)
+C:128, 0: Missing function docstring (missing-docstring)
+C:145, 0: Missing function docstring (missing-docstring)
+C:152, 0: Missing function docstring (missing-docstring)
+C:159, 0: Missing function docstring (missing-docstring)
+C:178, 0: Missing function docstring (missing-docstring)
+C:185, 0: Missing function docstring (missing-docstring)
+C:192, 0: Missing function docstring (missing-docstring)
+C:199, 0: Missing function docstring (missing-docstring)
+R:199, 0: Too many local variables (19/15) (too-many-locals)
+R:199, 0: Too many branches (21/12) (too-many-branches)
+R:199, 0: Too many statements (59/50) (too-many-statements)
+C:284, 0: Missing function docstring (missing-docstring)
+R:284, 0: Too many local variables (16/15) (too-many-locals)
+C:323,12: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+W: 85, 0: Unused check_args imported from ansible.module_utils.network.nxos.nxos (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.51/10
+

@@ -1,0 +1,31 @@
+************* Module ansible.modules.network.nxos.nxos_hsrp
+C:273, 0: Unnecessary parens after 'del' keyword (superfluous-parens)
+C:282, 0: Unnecessary parens after 'del' keyword (superfluous-parens)
+C:311, 0: Line too long (102/100) (line-too-long)
+C:346, 0: Unnecessary parens after 'except' keyword (superfluous-parens)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:149, 0: Import "from ansible.module_utils.network.nxos.nxos import load_config, run_commands" should be placed at the top of the module (wrong-import-position)
+C:150, 0: Import "from ansible.module_utils.network.nxos.nxos import get_capabilities, nxos_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:151, 0: Import "from ansible.module_utils.network.nxos.nxos import get_interface_type" should be placed at the top of the module (wrong-import-position)
+C:152, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:163, 0: Missing function docstring (missing-docstring)
+C:176, 0: Missing function docstring (missing-docstring)
+C:195, 0: Missing function docstring (missing-docstring)
+C:242, 0: Missing function docstring (missing-docstring)
+C:247, 0: Missing function docstring (missing-docstring)
+R:247, 0: Too many local variables (16/15) (too-many-locals)
+R:247, 0: Too many branches (30/12) (too-many-branches)
+R:247, 0: Too many statements (65/50) (too-many-statements)
+C:333, 0: Missing function docstring (missing-docstring)
+R:338, 8: Unnecessary "else" after "return" (no-else-return)
+R:342,12: The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)
+R:342,12: Unnecessary "else" after "return" (no-else-return)
+C:350, 0: Missing function docstring (missing-docstring)
+C:357, 0: Missing function docstring (missing-docstring)
+R:357, 0: Too many local variables (27/15) (too-many-locals)
+R:357, 0: Too many branches (24/12) (too-many-branches)
+R:357, 0: Too many statements (75/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 8.80/10
+

@@ -1,0 +1,19 @@
+************* Module botmeta
+C: 26, 0: Line too long (140/100) (line-too-long)
+C: 26, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 29, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 60, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 65, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 72, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 75, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 85, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+E: 10, 0: Unable to import 'voluptuous' (import-error)
+E: 11, 0: Unable to import 'voluptuous.humanize' (import-error)
+E: 13, 0: Unable to import 'ansible.module_utils.six' (import-error)
+C: 15, 0: Constant name "list_string_types" doesn't conform to UPPER_CASE naming style (invalid-name)
+W: 78, 8: Redefining built-in 'file' (redefined-builtin)
+W: 28,11: Catching too general exception Exception (broad-except)
+
+-----------------------------------
+Your code has been rated at 4.22/10
+

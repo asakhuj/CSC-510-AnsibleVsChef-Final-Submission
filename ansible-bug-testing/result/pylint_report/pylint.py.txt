@@ -1,0 +1,19 @@
+************* Module lib.sanity.pylint
+C: 57, 0: Line too long (148/100) (line-too-long)
+C: 66, 0: Line too long (102/100) (line-too-long)
+C:110, 0: Line too long (159/100) (line-too-long)
+C:148, 0: Line too long (120/100) (line-too-long)
+C:167, 0: Line too long (108/100) (line-too-long)
+C:194, 0: Line too long (120/100) (line-too-long)
+C:207, 0: Line too long (124/100) (line-too-long)
+C:224, 0: Line too long (146/100) (line-too-long)
+C:243, 0: Line too long (148/100) (line-too-long)
+C:289, 0: Line too long (124/100) (line-too-long)
+R: 59, 4: Too many local variables (38/15) (too-many-locals)
+R: 59, 4: Too many branches (25/12) (too-many-branches)
+R:251, 4: Too many local variables (16/15) (too-many-locals)
+W: 33, 0: Unused SanityConfig imported from lib.config (unused-import)
+
+-----------------------------------
+Your code has been rated at 9.03/10
+

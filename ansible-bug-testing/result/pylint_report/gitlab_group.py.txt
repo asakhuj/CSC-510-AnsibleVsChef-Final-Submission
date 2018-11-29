@@ -1,0 +1,31 @@
+************* Module ansible.modules.source_control.gitlab_group
+C:134, 0: Line too long (131/100) (line-too-long)
+C:179, 0: Line too long (117/100) (line-too-long)
+C:192, 0: Line too long (113/100) (line-too-long)
+C:213, 0: Line too long (114/100) (line-too-long)
+C:215, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+W: 93, 0: No exception type(s) specified (bare-except)
+E: 91, 4: Unable to import 'gitlab' (import-error)
+C: 96, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 97, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:104, 8: Attribute name "groupObject" doesn't conform to snake_case naming style (invalid-name)
+C:100, 0: Missing class docstring (missing-docstring)
+C:106, 4: Method name "createOrUpdateGroup" doesn't conform to snake_case naming style (invalid-name)
+C:106, 4: Missing method docstring (missing-docstring)
+W:124,19: Catching too general exception Exception (broad-except)
+C:124,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:130, 4: Method name "deleteGroup" doesn't conform to snake_case naming style (invalid-name)
+C:130, 4: Missing method docstring (missing-docstring)
+W:140,19: Catching too general exception Exception (broad-except)
+C:140,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:130, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:144, 4: Method name "existsGroup" doesn't conform to snake_case naming style (invalid-name)
+R:144, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:152, 0: Missing function docstring (missing-docstring)
+C:195,94: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.51/10
+

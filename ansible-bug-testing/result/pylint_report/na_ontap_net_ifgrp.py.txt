@@ -1,0 +1,26 @@
+************* Module ansible.modules.storage.netapp.na_ontap_net_ifgrp
+C:101, 0: Line too long (112/100) (line-too-long)
+C:155, 0: Line too long (112/100) (line-too-long)
+C:156, 0: Line too long (104/100) (line-too-long)
+C:189, 0: Line too long (108/100) (line-too-long)
+C:218, 0: Line too long (103/100) (line-too-long)
+C:231, 0: Line too long (103/100) (line-too-long)
+C:246, 0: Wrong continued indentation (remove 4 spaces).
+                                      (self.port, self.name, to_native(error)),
+                                  |   ^ (bad-continuation)
+C:261, 0: Wrong continued indentation (remove 4 spaces).
+                                      (self.port, self.name, to_native(error)),
+                                  |   ^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 81, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C: 83, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 84, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 85, 0: Import "import ansible.module_utils.netapp as netapp_utils" should be placed at the top of the module (wrong-import-position)
+R: 90, 0: Too many instance attributes (9/7) (too-many-instance-attributes)
+C:264, 4: Missing method docstring (missing-docstring)
+R:264, 4: Too many branches (17/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 8.84/10
+

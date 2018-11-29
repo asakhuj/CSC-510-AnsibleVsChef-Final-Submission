@@ -1,0 +1,54 @@
+************* Module ansible.modules.network.meraki.meraki_organization
+W:165, 0: FIXME: Work with Meraki so they can implement a check mode (fixme)
+C:128, 0: Wrong continued indentation (remove 1 space).
+                         )
+                        |^ (bad-continuation)
+C:144, 0: Wrong continued indentation (remove 1 space).
+                           )
+                          |^ (bad-continuation)
+C:150, 0: Wrong continued indentation (remove 1 space).
+                   }
+                  |^ (bad-continuation)
+C:152, 0: Wrong continued indentation (remove 1 space).
+                   }
+                  |^ (bad-continuation)
+C:154, 0: Wrong continued indentation (remove 1 space).
+                  }
+                 |^ (bad-continuation)
+C:176, 0: Line too long (119/100) (line-too-long)
+C:191, 0: Wrong continued indentation (remove 1 space).
+                                                            ),
+                                                           |^ (bad-continuation)
+C:206, 0: Line too long (102/100) (line-too-long)
+C:209, 0: Wrong continued indentation (remove 1 space).
+                       }
+                      |^ (bad-continuation)
+C:211, 0: Wrong hanging indentation before block (add 4 spaces).
+                get_org(
+                ^   | (bad-continuation)
+C:218, 0: Wrong continued indentation (remove 1 space).
+                                                                ),
+                                                               |^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:103, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:104, 0: Import "from ansible.module_utils.basic import AnsibleModule, json, env_fallback" should be placed at the top of the module (wrong-import-position)
+C:105, 0: Import "from ansible.module_utils.urls import fetch_url" should be placed at the top of the module (wrong-import-position)
+C:106, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:107, 0: Import "from ansible.module_utils.network.meraki.meraki import MerakiModule, meraki_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:110, 0: Missing function docstring (missing-docstring)
+C:112, 8: Variable name "o" doesn't conform to snake_case naming style (invalid-name)
+W:110,12: Unused argument 'meraki' (unused-argument)
+C:119, 0: Missing function docstring (missing-docstring)
+C:177,16: Variable name "o" doesn't conform to snake_case naming style (invalid-name)
+C:181,16: Variable name "o" doesn't conform to snake_case naming style (invalid-name)
+W:135, 4: Unused variable 'result' (unused-variable)
+R:119, 0: Too many branches (17/12) (too-many-branches)
+W:103, 0: Unused import os (unused-import)
+W:104, 0: Unused env_fallback imported from ansible.module_utils.basic (unused-import)
+W:105, 0: Unused fetch_url imported from ansible.module_utils.urls (unused-import)
+W:106, 0: Unused to_native imported from ansible.module_utils._text (unused-import)
+
+-----------------------------------
+Your code has been rated at 5.51/10
+

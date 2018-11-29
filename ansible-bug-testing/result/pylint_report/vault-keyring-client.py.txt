@@ -1,0 +1,18 @@
+************* Module vault-keyring-client
+C: 39, 0: Line too long (103/100) (line-too-long)
+C:136, 0: Line too long (110/100) (line-too-long)
+C:  1, 0: Module name "vault-keyring-client" doesn't conform to snake_case naming style (invalid-name)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 81, 0: Import "import argparse" should be placed at the top of the module (wrong-import-position)
+C: 82, 0: Import "import sys" should be placed at the top of the module (wrong-import-position)
+C: 83, 0: Import "import getpass" should be placed at the top of the module (wrong-import-position)
+E: 84, 0: Unable to import 'keyring' (import-error)
+C: 84, 0: Import "import keyring" should be placed at the top of the module (wrong-import-position)
+E: 86, 0: Unable to import 'ansible.config.manager' (import-error)
+C: 86, 0: Import "from ansible.config.manager import ConfigManager" should be placed at the top of the module (wrong-import-position)
+C: 91, 0: Missing function docstring (missing-docstring)
+C:105, 0: Missing function docstring (missing-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 5.00/10 (previous run: 5.00/10, +0.00)
+

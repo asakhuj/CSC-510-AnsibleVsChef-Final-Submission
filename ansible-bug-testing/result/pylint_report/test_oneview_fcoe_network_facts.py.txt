@@ -1,0 +1,17 @@
+************* Module test_oneview_fcoe_network_facts
+C: 30, 0: Wrong continued indentation (remove 1 space).
+                           ):
+                          |^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  4, 0: Unable to import 'units.compat' (import-error)
+C: 28, 0: Missing class docstring (missing-docstring)
+C: 31, 4: Method name "setUp" doesn't conform to snake_case naming style (invalid-name)
+C: 31, 4: Missing method docstring (missing-docstring)
+C: 36, 4: Method name "test_should_get_all_fcoe_network" doesn't conform to snake_case naming style (invalid-name)
+C: 36, 4: Missing method docstring (missing-docstring)
+C: 47, 4: Method name "test_should_get_fcoe_network_by_name" doesn't conform to snake_case naming style (invalid-name)
+C: 47, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 4.17/10
+

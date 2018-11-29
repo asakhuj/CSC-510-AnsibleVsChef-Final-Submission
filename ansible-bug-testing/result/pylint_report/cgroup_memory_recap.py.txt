@@ -1,0 +1,16 @@
+************* Module ansible.plugins.callback.cgroup_memory_recap
+C: 83, 0: Line too long (108/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 46, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C: 47, 0: Import "import threading" should be placed at the top of the module (wrong-import-position)
+C: 49, 0: Import "from ansible.plugins.callback import CallbackBase" should be placed at the top of the module (wrong-import-position)
+C: 63,36: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C: 69, 0: Missing class docstring (missing-docstring)
+C: 88,49: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C:114,43: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+W:121,73: Access to a protected member _uuid of a client class (protected-access)
+
+-----------------------------------
+Your code has been rated at 8.14/10
+

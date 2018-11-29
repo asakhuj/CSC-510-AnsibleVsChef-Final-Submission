@@ -1,0 +1,30 @@
+************* Module ansible.modules.cloud.vmware.vcenter_folder
+C:138, 0: Line too long (123/100) (line-too-long)
+C:200, 0: Line too long (102/100) (line-too-long)
+C:205, 0: Line too long (104/100) (line-too-long)
+C:209, 0: Line too long (116/100) (line-too-long)
+C:212, 0: Line too long (121/100) (line-too-long)
+C:221, 0: Line too long (101/100) (line-too-long)
+C:254, 0: Line too long (106/100) (line-too-long)
+C:265, 0: Line too long (120/100) (line-too-long)
+C:274, 0: Line too long (127/100) (line-too-long)
+C:298, 0: Line too long (121/100) (line-too-long)
+C:325, 0: Line too long (102/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:137, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:138, 0: Import "from ansible.module_utils.vmware import vmware_argument_spec, PyVmomi, find_datacenter_by_name, wait_for_task, get_all_objs" should be placed at the top of the module (wrong-import-position)
+C:139, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:142, 0: Missing class docstring (missing-docstring)
+R:157, 4: Too many local variables (17/15) (too-many-locals)
+W:225,19: Catching too general exception Exception (broad-except)
+W:278,23: Catching too general exception Exception (broad-except)
+R:229,13: Too many nested blocks (6/5) (too-many-nested-blocks)
+R:229,13: Too many nested blocks (6/5) (too-many-nested-blocks)
+R:157, 4: Too many branches (32/12) (too-many-branches)
+R:157, 4: Too many statements (86/50) (too-many-statements)
+C:304, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.81/10
+

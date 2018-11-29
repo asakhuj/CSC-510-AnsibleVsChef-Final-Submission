@@ -1,0 +1,27 @@
+************* Module units.modules.network.ftd.test_ftd_file_download
+C: 27, 0: Line too long (103/100) (line-too-long)
+C: 39, 0: Line too long (104/100) (line-too-long)
+C: 62, 0: Line too long (106/100) (line-too-long)
+C: 98, 0: Line too long (103/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+E: 23, 0: Unable to import 'ansible.module_utils' (import-error)
+E: 24, 0: Unable to import 'ansible.module_utils.network.ftd.common' (import-error)
+E: 25, 0: Unable to import 'ansible.module_utils.network.ftd.fdm_swagger_client' (import-error)
+E: 26, 0: Unable to import 'ansible.modules.network.ftd' (import-error)
+C: 30, 0: Missing class docstring (missing-docstring)
+C: 34, 4: Missing method docstring (missing-docstring)
+R: 34, 4: Method could be a function (no-self-use)
+C: 38, 4: Missing method docstring (missing-docstring)
+R: 38, 4: Method could be a function (no-self-use)
+C: 43, 4: Method name "test_module_should_fail_without_required_args" doesn't conform to snake_case naming style (invalid-name)
+C: 43, 4: Missing method docstring (missing-docstring)
+C: 53, 4: Method name "test_module_should_fail_when_no_operation_spec_found" doesn't conform to snake_case naming style (invalid-name)
+C: 53, 4: Missing method docstring (missing-docstring)
+C: 64, 4: Method name "test_module_should_fail_when_not_download_operation_specified" doesn't conform to snake_case naming style (invalid-name)
+C: 64, 4: Missing method docstring (missing-docstring)
+C: 80, 4: Method name "test_module_should_call_download_and_return" doesn't conform to snake_case naming style (invalid-name)
+C: 80, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 1.74/10
+

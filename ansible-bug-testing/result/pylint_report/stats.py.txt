@@ -1,0 +1,10 @@
+************* Module ansible.executor.stats
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 33, 8: Attribute name "ok" doesn't conform to snake_case naming style (invalid-name)
+C: 48, 4: Missing method docstring (missing-docstring)
+R: 79, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+
+------------------------------------------------------------------
+Your code has been rated at 8.84/10 (previous run: 8.84/10, +0.00)
+

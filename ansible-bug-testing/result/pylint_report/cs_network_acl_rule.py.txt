@@ -1,0 +1,20 @@
+************* Module ansible.modules.cloud.cloudstack.cs_network_acl_rule
+C:296, 0: Line too long (118/100) (line-too-long)
+C:299, 0: Line too long (109/100) (line-too-long)
+C:302, 0: Line too long (109/100) (line-too-long)
+C:310, 0: Line too long (102/100) (line-too-long)
+C:335, 0: Line too long (107/100) (line-too-long)
+C:358, 0: Line too long (112/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:246, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:247, 0: Import "from ansible.module_utils.cloudstack import AnsibleCloudStack, cs_argument_spec, cs_required_together" should be placed at the top of the module (wrong-import-position)
+C:254, 0: Missing class docstring (missing-docstring)
+C:273, 4: Missing method docstring (missing-docstring)
+C:286, 4: Missing method docstring (missing-docstring)
+C:313, 4: Missing method docstring (missing-docstring)
+W:377, 4: Parameters differ from overridden 'get_result' method (arguments-differ)
+C:388, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.39/10
+

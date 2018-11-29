@@ -1,0 +1,30 @@
+************* Module ansible.modules.network.opx.opx_cps
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 23, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:178, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:179, 0: Import "from ansible.module_utils.six import iteritems" should be placed at the top of the module (wrong-import-position)
+C:180, 0: Import "from ansible.module_utils.network.common.utils import dict_diff" should be placed at the top of the module (wrong-import-position)
+C:191, 0: Missing function docstring (missing-docstring)
+C:197, 4: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+C:216, 0: Missing function docstring (missing-docstring)
+C:231, 0: Missing function docstring (missing-docstring)
+C:232, 4: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:239, 0: Argument name "db" doesn't conform to snake_case naming style (invalid-name)
+C:239, 0: Missing function docstring (missing-docstring)
+R:239, 0: Too many arguments (7/5) (too-many-arguments)
+C:282, 0: Missing function docstring (missing-docstring)
+C:284, 4: Variable name "RESULT" doesn't conform to snake_case naming style (invalid-name)
+C:286, 4: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+C:296, 0: Missing function docstring (missing-docstring)
+C:298, 4: Variable name "RESULT" doesn't conform to snake_case naming style (invalid-name)
+C:299, 4: Variable name "ch" doesn't conform to snake_case naming style (invalid-name)
+R:309, 0: Too many local variables (17/15) (too-many-locals)
+C:341, 4: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+C:343, 4: Variable name "RESULT" doesn't conform to snake_case naming style (invalid-name)
+W:386,11: Catching too general exception Exception (broad-except)
+C:386,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:309, 0: Too many branches (14/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 8.20/10
+

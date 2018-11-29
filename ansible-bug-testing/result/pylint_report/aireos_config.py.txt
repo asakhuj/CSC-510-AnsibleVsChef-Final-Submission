@@ -1,0 +1,45 @@
+************* Module ansible.modules.network.aireos.aireos_config
+C:202, 0: Line too long (102/100) (line-too-long)
+C:205, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:172, 0: Import "from ansible.module_utils.network.aireos.aireos import run_commands, get_config, load_config" should be placed at the top of the module (wrong-import-position)
+C:173, 0: Import "from ansible.module_utils.network.aireos.aireos import aireos_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:174, 0: Import "from ansible.module_utils.network.aireos.aireos import check_args as aireos_check_args" should be placed at the top of the module (wrong-import-position)
+C:175, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:176, 0: Import "from ansible.module_utils.network.common.config import NetworkConfig, dumps" should be placed at the top of the module (wrong-import-position)
+C:179, 0: Missing function docstring (missing-docstring)
+C:189, 0: Missing function docstring (missing-docstring)
+C:199, 0: Missing function docstring (missing-docstring)
+R:209, 0: Too many local variables (16/15) (too-many-locals)
+W:253,35: Access to a protected member _diff of a client class (protected-access)
+W:294, 7: Access to a protected member _diff of a client class (protected-access)
+R:209, 0: Too many branches (18/12) (too-many-branches)
+R:209, 0: Too many statements (56/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 8.05/10
+
+************* Module ansible.plugins.action.aireos_config
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 29, 0: No name 'urllib' in module '_MovedItems' (no-name-in-module)
+E: 29, 0: Unable to import 'ansible.module_utils.six.moves.urllib.parse' (import-error)
+C: 35, 0: Missing class docstring (missing-docstring)
+W: 66,11: Access to a protected member _role of a client class (protected-access)
+W: 67,18: Access to a protected member _role_path of a client class (protected-access)
+W: 67,18: Access to a protected member _role of a client class (protected-access)
+C: 74,12: Variable name "fn" doesn't conform to snake_case naming style (invalid-name)
+C: 96,38: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+W:104,11: Access to a protected member _role of a client class (protected-access)
+W:105,30: Access to a protected member _role_path of a client class (protected-access)
+W:105,30: Access to a protected member _role of a client class (protected-access)
+W:107,28: Access to a protected member _block of a client class (protected-access)
+W:110,42: Access to a protected member _role_path of a client class (protected-access)
+R: 81, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R: 35, 0: Too few public methods (1/2) (too-few-public-methods)
+W: 30, 0: Unused merge_hash imported from ansible.utils.vars (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.18/10
+

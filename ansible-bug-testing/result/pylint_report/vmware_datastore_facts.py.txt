@@ -1,0 +1,20 @@
+************* Module ansible.modules.cloud.vmware.vmware_datastore_facts
+C:174, 0: Line too long (113/100) (line-too-long)
+C:179, 0: Line too long (113/100) (line-too-long)
+C:189, 0: Line too long (105/100) (line-too-long)
+C:204, 0: Line too long (104/100) (line-too-long)
+C:236, 0: Line too long (103/100) (line-too-long)
+C:263, 0: Wrong continued indentation (remove 1 space).
+                           )
+                          |^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:134, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:135, 0: Import "from ansible.module_utils.vmware import PyVmomi, vmware_argument_spec, get_all_objs, find_cluster_by_name, get_parent_datacenter" should be placed at the top of the module (wrong-import-position)
+C:217,23: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+W:217,23: Unused variable 'v' (unused-variable)
+R:203, 0: Too few public methods (1/2) (too-few-public-methods)
+
+-----------------------------------
+Your code has been rated at 8.84/10
+

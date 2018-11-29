@@ -1,0 +1,22 @@
+************* Module units.module_utils.facts.network.test_generic_bsd
+W:129, 0: TODO: extract module run_command/get_bin_path usage to methods I can mock without mocking all of run_command (fixme)
+C:129, 0: Line too long (114/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 19, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 24, 0: Unable to import 'ansible.module_utils.facts.network' (import-error)
+C: 27, 0: Missing function docstring (missing-docstring)
+C: 35, 0: Constant name "netbsd_ifconfig_a_out_7_1" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 53, 0: Constant name "netbsd_ifconfig_a_out_post_7_1" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:106, 0: Missing function docstring (missing-docstring)
+C:114, 0: Missing function docstring (missing-docstring)
+C:126, 8: Attribute name "maxDiff" doesn't conform to snake_case naming style (invalid-name)
+C:127, 8: Attribute name "longMessage" doesn't conform to snake_case naming style (invalid-name)
+C:122, 0: Missing class docstring (missing-docstring)
+C:130, 4: Missing method docstring (missing-docstring)
+C:140, 4: Missing method docstring (missing-docstring)
+C:150, 4: Method name "test_netbsd_ifconfig_old_and_new" doesn't conform to snake_case naming style (invalid-name)
+C:150, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 6.72/10
+

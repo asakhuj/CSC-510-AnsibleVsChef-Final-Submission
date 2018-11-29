@@ -1,0 +1,13 @@
+************* Module test_oneview_fc_network_facts
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  4, 0: Unable to import 'units.compat' (import-error)
+C: 26, 0: Missing class docstring (missing-docstring)
+C: 28, 4: Method name "setUp" doesn't conform to snake_case naming style (invalid-name)
+C: 28, 4: Missing method docstring (missing-docstring)
+C: 33, 4: Missing method docstring (missing-docstring)
+C: 44, 4: Method name "test_should_get_fc_network_by_name" doesn't conform to snake_case naming style (invalid-name)
+C: 44, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 5.00/10
+

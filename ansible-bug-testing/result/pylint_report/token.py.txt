@@ -1,0 +1,12 @@
+************* Module ansible.galaxy.token
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 22, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 50, 8: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C: 56, 4: Missing method docstring (missing-docstring)
+C: 60, 4: Missing method docstring (missing-docstring)
+C: 63, 4: Missing method docstring (missing-docstring)
+C: 64,37: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 7.88/10 (previous run: 7.88/10, +0.00)
+

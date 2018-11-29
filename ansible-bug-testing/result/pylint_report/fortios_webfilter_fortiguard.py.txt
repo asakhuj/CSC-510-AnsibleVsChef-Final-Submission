@@ -1,0 +1,19 @@
+************* Module ansible.modules.network.fortios.fortios_webfilter_fortiguard
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:212, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:214, 0: Constant name "fos" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:217, 0: Missing function docstring (missing-docstring)
+C:231, 0: Function name "filter_webfilter_fortiguard_data" doesn't conform to snake_case naming style (invalid-name)
+C:231, 0: Missing function docstring (missing-docstring)
+W:245,31: Redefining name 'fos' from outer scope (line 214) (redefined-outer-name)
+C:245, 0: Missing function docstring (missing-docstring)
+W:255,28: Redefining name 'fos' from outer scope (line 214) (redefined-outer-name)
+C:255, 0: Missing function docstring (missing-docstring)
+W:265,19: Use of eval (eval-used)
+W:310, 4: Redefining name 'fos' from outer scope (line 214) (redefined-outer-name)
+C:272, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.50/10
+

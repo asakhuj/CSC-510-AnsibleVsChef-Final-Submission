@@ -1,0 +1,25 @@
+************* Module units.module_utils.common.test_dict_transformations
+C: 20, 0: Line too long (131/100) (line-too-long)
+C: 63, 0: Line too long (108/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+E: 20, 0: Unable to import 'ansible.module_utils.common.dict_transformations' (import-error)
+C: 42, 0: Missing class docstring (missing-docstring)
+C: 44, 4: Missing method docstring (missing-docstring)
+C: 45,16: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C: 48, 4: Missing method docstring (missing-docstring)
+C: 49,16: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C: 53, 0: Missing class docstring (missing-docstring)
+C: 55, 4: Missing method docstring (missing-docstring)
+C: 56,16: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C: 60, 0: Missing class docstring (missing-docstring)
+C: 61, 4: Missing method docstring (missing-docstring)
+C: 62,16: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+W: 62,16: Unused variable 'v' (unused-variable)
+C: 66, 0: Missing class docstring (missing-docstring)
+C: 67, 4: Missing method docstring (missing-docstring)
+C: 74, 0: Missing class docstring (missing-docstring)
+C: 75, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 5.00/10
+

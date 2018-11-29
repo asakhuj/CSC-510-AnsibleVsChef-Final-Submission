@@ -1,0 +1,30 @@
+************* Module ansible.modules.network.cloudengine.ce_bfd_session
+C:169, 0: Line too long (117/100) (line-too-long)
+C:369, 0: Line too long (102/100) (line-too-long)
+C:384, 0: Line too long (110/100) (line-too-long)
+C:415, 0: Line too long (107/100) (line-too-long)
+C:430, 0: Line too long (113/100) (line-too-long)
+C:442, 0: Line too long (114/100) (line-too-long)
+C:448, 0: Line too long (106/100) (line-too-long)
+C:518, 0: Line too long (101/100) (line-too-long)
+C:522, 0: Line too long (105/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:165, 0: Import "import sys" should be placed at the top of the module (wrong-import-position)
+C:166, 0: Import "import socket" should be placed at the top of the module (wrong-import-position)
+C:167, 0: Import "from xml.etree import ElementTree" should be placed at the top of the module (wrong-import-position)
+C:168, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:169, 0: Import "from ansible.module_utils.network.cloudengine.ce import get_nc_config, set_nc_config, ce_argument_spec, check_ip_addr" should be placed at the top of the module (wrong-import-position)
+R:238, 0: Too many branches (20/12) (too-many-branches)
+R:286, 0: Too many instance attributes (22/7) (too-many-instance-attributes)
+R:359, 4: Too many return statements (11/6) (too-many-return-statements)
+R:457, 8: Unnecessary "else" after "return" (no-else-return)
+R:458,12: Unnecessary "else" after "return" (no-else-return)
+R:395, 4: Too many branches (24/12) (too-many-branches)
+R:395, 4: Too many statements (56/50) (too-many-statements)
+R:487, 4: Too many branches (13/12) (too-many-branches)
+W:165, 0: Unused import sys (unused-import)
+W:166, 0: Unused import socket (unused-import)
+
+-----------------------------------
+Your code has been rated at 9.08/10
+

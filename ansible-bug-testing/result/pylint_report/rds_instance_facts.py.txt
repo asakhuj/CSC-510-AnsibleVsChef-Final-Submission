@@ -1,0 +1,17 @@
+************* Module ansible.modules.cloud.amazon.rds_instance_facts
+C:344, 0: Line too long (138/100) (line-too-long)
+C:373, 0: Line too long (129/100) (line-too-long)
+C:374, 0: Line too long (117/100) (line-too-long)
+C:376, 0: Line too long (107/100) (line-too-long)
+C:378, 0: Line too long (124/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:343, 0: Import "from ansible.module_utils.aws.core import AnsibleAWSModule, is_boto3_error_code" should be placed at the top of the module (wrong-import-position)
+C:344, 0: Import "from ansible.module_utils.ec2 import ansible_dict_to_boto3_filter_list, boto3_tag_list_to_ansible_dict, AWSRetry, camel_dict_to_snake_dict" should be placed at the top of the module (wrong-import-position)
+C:353, 0: Missing function docstring (missing-docstring)
+C:368,83: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:375,87: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:381, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 6.84/10
+

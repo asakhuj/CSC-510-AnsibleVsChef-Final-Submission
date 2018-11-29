@@ -1,0 +1,13 @@
+************* Module ansible.modules.network.panos.panos_lic
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 76, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 85, 0: Missing function docstring (missing-docstring)
+C: 87, 4: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C: 97, 0: Missing function docstring (missing-docstring)
+C:114, 0: Missing function docstring (missing-docstring)
+C:130, 0: Missing function docstring (missing-docstring)
+R:130, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+
+-----------------------------------
+Your code has been rated at 8.69/10
+

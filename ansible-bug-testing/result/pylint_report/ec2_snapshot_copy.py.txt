@@ -1,0 +1,18 @@
+************* Module ansible.modules.cloud.amazon.ec2_snapshot_copy
+C:111, 0: Line too long (119/100) (line-too-long)
+C:160, 0: Line too long (144/100) (line-too-long)
+C:162, 0: Line too long (112/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:109, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:110, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:111, 0: Import "from ansible.module_utils.ec2 import boto3_conn, ec2_argument_spec, get_aws_connection_info, camel_dict_to_snake_dict" should be placed at the top of the module (wrong-import-position)
+C:112, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:159,26: Variable name "we" doesn't conform to snake_case naming style (invalid-name)
+C:161,26: Variable name "ce" doesn't conform to snake_case naming style (invalid-name)
+C:167, 0: Missing function docstring (missing-docstring)
+W:112, 0: Unused to_native imported from ansible.module_utils._text (unused-import)
+W:115, 4: Unused import boto3 (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.05/10
+

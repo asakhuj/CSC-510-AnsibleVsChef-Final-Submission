@@ -1,0 +1,20 @@
+************* Module units.modules.network.nxos.test_nxos_interface
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 23, 0: Unable to import 'ansible.modules.network.nxos' (import-error)
+C: 27, 0: Missing class docstring (missing-docstring)
+C: 47, 8: Missing function docstring (missing-docstring)
+C: 52,19: Using type() instead of isinstance() for a typecheck. (unidiomatic-typecheck)
+W: 47, 0: Unused argument 'kwargs' (unused-argument)
+W: 48,12: Unused variable 'module' (unused-variable)
+C: 62, 4: Missing method docstring (missing-docstring)
+C: 67, 4: Missing method docstring (missing-docstring)
+C: 72, 4: Missing method docstring (missing-docstring)
+C: 77, 4: Missing method docstring (missing-docstring)
+C: 82, 4: Missing method docstring (missing-docstring)
+C: 88, 4: Method name "test_nxos_interface_speed_idempotence" doesn't conform to snake_case naming style (invalid-name)
+C: 88, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 6.55/10
+

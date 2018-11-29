@@ -1,0 +1,11 @@
+************* Module native_plugins
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  1, 0: Unable to import 'ansible.module_utils._text' (import-error)
+C:  4, 0: Missing class docstring (missing-docstring)
+C:  5, 4: Missing method docstring (missing-docstring)
+R:  5, 4: Method could be a function (no-self-use)
+R:  4, 0: Too few public methods (1/2) (too-few-public-methods)
+
+-------------------------------------
+Your code has been rated at -15.00/10
+

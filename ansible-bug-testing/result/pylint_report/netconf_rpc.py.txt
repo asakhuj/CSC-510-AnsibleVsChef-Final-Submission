@@ -1,0 +1,18 @@
+************* Module ansible.modules.network.netconf.netconf_rpc
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:147, 0: Import "import ast" should be placed at the top of the module (wrong-import-position)
+C:154, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:155, 0: Import "from ansible.module_utils.network.netconf.netconf import dispatch" should be placed at the top of the module (wrong-import-position)
+C:156, 0: Import "from ansible.module_utils.network.common.netconf import remove_namespaces" should be placed at the top of the module (wrong-import-position)
+C:165, 0: Missing function docstring (missing-docstring)
+R:167, 8: Unnecessary "else" after "return" (no-else-return)
+R:177,12: Unnecessary "else" after "return" (no-else-return)
+W:185, 8: No exception type(s) specified (bare-except)
+R:195, 8: Unnecessary "else" after "return" (no-else-return)
+R:165, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:225, 7: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+
+-----------------------------------
+Your code has been rated at 8.27/10
+

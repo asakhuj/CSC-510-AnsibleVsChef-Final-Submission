@@ -1,0 +1,31 @@
+************* Module ansible.playbook.task_include
+C: 47, 0: Line too long (110/100) (line-too-long)
+C: 48, 0: Line too long (110/100) (line-too-long)
+C: 71, 0: Line too long (118/100) (line-too-long)
+C: 80, 0: Line too long (114/100) (line-too-long)
+C: 89, 0: Line too long (107/100) (line-too-long)
+C: 92, 0: Line too long (125/100) (line-too-long)
+C: 99, 0: Line too long (106/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+R: 61, 4: Too many arguments (6/5) (too-many-arguments)
+C: 62, 8: Variable name "ti" doesn't conform to snake_case naming style (invalid-name)
+E: 66,33: Instance of 'TaskInclude' has no 'args' member; maybe '_args'? (no-member)
+E: 70,24: Instance of 'TaskInclude' has no 'action' member; maybe '_action'? (no-member)
+E: 71,69: Instance of 'TaskInclude' has no 'action' member; maybe '_action'? (no-member)
+E: 73,15: Instance of 'TaskInclude' has no 'args' member; maybe '_args'? (no-member)
+E: 74,12: Instance of 'TaskInclude' has no 'args' member; maybe '_args'? (no-member)
+E: 74,39: Instance of 'TaskInclude' has no 'args' member; maybe '_args'? (no-member)
+E: 76,22: Instance of 'TaskInclude' has no 'args' member; maybe '_args'? (no-member)
+E: 77,27: Instance of 'TaskInclude' has no 'action' member; maybe '_action'? (no-member)
+E: 78,71: Instance of 'TaskInclude' has no 'action' member; maybe '_action'? (no-member)
+E: 91,19: Module 'ansible.constants' has no 'INVALID_TASK_ATTRIBUTE_FAILED' member (no-member)
+E:109,11: Instance of 'TaskInclude' has no 'action' member; maybe '_action'? (no-member)
+E:117,28: Instance of 'TaskInclude' has no 'args' member; maybe '_args'? (no-member)
+E:131,22: Instance of 'TaskInclude' has no 'args' member; maybe '_args'? (no-member)
+W:136,21: Access to a protected member _play of a client class (protected-access)
+C: 31, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+------------------------------------
+Your code has been rated at -1.14/10
+

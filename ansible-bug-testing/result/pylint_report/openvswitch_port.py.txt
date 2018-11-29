@@ -1,0 +1,26 @@
+************* Module ansible.modules.network.ovs.openvswitch_port
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 96, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 97, 0: Import "from ansible.module_utils.six import iteritems" should be placed at the top of the module (wrong-import-position)
+R:103, 4: Unnecessary "else" after "return" (no-else-return)
+C:106, 8: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:108,12: Variable name "kv" doesn't conform to snake_case naming style (invalid-name)
+C:109,12: Variable name "kv" doesn't conform to snake_case naming style (invalid-name)
+C:110,15: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+R:119, 4: Unnecessary "else" after "return" (no-else-return)
+C:125, 0: Missing function docstring (missing-docstring)
+C:143,23: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+R:128, 4: Too many nested blocks (6/5) (too-many-nested-blocks)
+C:176,23: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+R:125, 0: Too many branches (14/12) (too-many-branches)
+C:186, 0: Missing function docstring (missing-docstring)
+C:189, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:202, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:208, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:214, 0: Missing function docstring (missing-docstring)
+C:254,16: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.90/10
+

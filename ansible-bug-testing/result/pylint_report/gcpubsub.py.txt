@@ -1,0 +1,24 @@
+************* Module ansible.modules.cloud.google.gcpubsub
+W:285, 0: TODO(supertom): Enhancement: Provide an option to only delete a topic (fixme)
+W:306, 0: TODO(supertom): if more 'update' operations arise, turn this into a function. (fixme)
+C:256, 0: Line too long (114/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:184,22: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:187, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:188, 0: Import "from ansible.module_utils.gcp import check_min_pkg_version, get_google_cloud_credentials" should be placed at the top of the module (wrong-import-position)
+C:196, 0: Missing function docstring (missing-docstring)
+C:234, 0: Missing function docstring (missing-docstring)
+C:271, 4: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+C:273, 8: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+C:274, 4: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+C:277, 8: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+R:295, 9: Too many nested blocks (6/5) (too-many-nested-blocks)
+C:324,37: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+R:234, 0: Too many branches (20/12) (too-many-branches)
+R:234, 0: Too many statements (60/50) (too-many-statements)
+W:176, 4: Unused literal_eval imported from ast (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.22/10
+

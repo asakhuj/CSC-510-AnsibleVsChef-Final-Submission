@@ -1,0 +1,24 @@
+************* Module ansible.modules.cloud.amazon.ec2_asg_facts
+C:260, 0: Line too long (119/100) (line-too-long)
+C:342, 0: Line too long (127/100) (line-too-long)
+C:370, 0: Unnecessary parens after 'del' keyword (superfluous-parens)
+C:375, 0: Line too long (119/100) (line-too-long)
+C:376, 0: Line too long (111/100) (line-too-long)
+C:406, 0: Line too long (139/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:220, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:227, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:228, 0: Import "from ansible.module_utils.ec2 import get_aws_connection_info, boto3_conn, ec2_argument_spec, camel_dict_to_snake_dict, HAS_BOTO3" should be placed at the top of the module (wrong-import-position)
+C:232, 0: Missing function docstring (missing-docstring)
+R:242, 0: Too many local variables (19/15) (too-many-locals)
+C:335,26: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:343,26: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:377,42: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:242, 0: Too many branches (16/12) (too-many-branches)
+C:387, 0: Missing function docstring (missing-docstring)
+C:407,26: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.56/10
+

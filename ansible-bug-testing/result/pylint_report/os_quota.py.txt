@@ -1,0 +1,31 @@
+************* Module ansible.modules.cloud.openstack.os_quota
+C:229, 0: Line too long (125/100) (line-too-long)
+C:332, 0: Line too long (102/100) (line-too-long)
+C:365, 0: Wrong continued indentation (remove 1 space).
+                           )
+                          |^ (bad-continuation)
+C:398, 0: Line too long (111/100) (line-too-long)
+C:442, 0: Wrong continued indentation (remove 1 space).
+                         )
+                        |^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:228, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:229, 0: Import "from ansible.module_utils.openstack import openstack_full_argument_spec, openstack_module_kwargs, openstack_cloud_from_module" should be placed at the top of the module (wrong-import-position)
+C:262,22: Consider iterating the dictionary directly instead of calling .keys() (consider-iterating-dictionary)
+R:317, 4: The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)
+R:317, 4: Unnecessary "else" after "return" (no-else-return)
+W:312,22: Unused variable 'quota_change_request' (unused-variable)
+C:323, 0: Missing function docstring (missing-docstring)
+R:323, 0: Too many local variables (19/15) (too-many-locals)
+C:379,19: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:402,30: Consider iterating the dictionary directly instead of calling .keys() (consider-iterating-dictionary)
+C:406,65: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:427,34: Consider iterating the dictionary directly instead of calling .keys() (consider-iterating-dictionary)
+C:444,53: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:323, 0: Too many branches (14/12) (too-many-branches)
+W:229, 0: Unused openstack_module_kwargs imported from ansible.module_utils.openstack (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.71/10
+

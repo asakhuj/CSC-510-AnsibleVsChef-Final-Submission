@@ -1,0 +1,26 @@
+************* Module ansible.modules.cloud.centurylink.clc_modify_server
+C:755, 0: Line too long (112/100) (line-too-long)
+C:779, 0: Line too long (105/100) (line-too-long)
+C:891, 0: Line too long (105/100) (line-too-long)
+C:910, 0: Line too long (105/100) (line-too-long)
+C:918, 0: Line too long (107/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:307, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C:308, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:309, 0: Import "from distutils.version import LooseVersion" should be placed at the top of the module (wrong-import-position)
+C:332, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:335, 0: Missing class docstring (missing-docstring)
+C:365, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+R:358, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+W:427,12: Access to a protected member _LOGIN_TOKEN_V2 of a client class (protected-access)
+W:428,12: Access to a protected member _V2_ENABLED of a client class (protected-access)
+R:411, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:451, 4: Too many local variables (16/15) (too-many-locals)
+C:457, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+R:335, 0: Too few public methods (1/2) (too-few-public-methods)
+W:953,20: Access to a protected member _define_module_argument_spec of a client class (protected-access)
+
+-----------------------------------
+Your code has been rated at 9.24/10
+

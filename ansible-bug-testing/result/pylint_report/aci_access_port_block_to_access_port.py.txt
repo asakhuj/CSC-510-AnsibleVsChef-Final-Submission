@@ -1,0 +1,18 @@
+************* Module ansible.modules.network.aci.aci_access_port_block_to_access_port
+C:256, 0: Line too long (130/100) (line-too-long)
+C:257, 0: Line too long (134/100) (line-too-long)
+C:258, 0: Line too long (112/100) (line-too-long)
+C:260, 0: Line too long (150/100) (line-too-long)
+C:261, 0: Line too long (142/100) (line-too-long)
+C:271, 0: Line too long (101/100) (line-too-long)
+C:272, 0: Line too long (126/100) (line-too-long)
+C:296, 0: Line too long (109/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:249, 0: Import "from ansible.module_utils.network.aci.aci import ACIModule, aci_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:250, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:253, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 6.06/10
+

@@ -1,0 +1,26 @@
+************* Module ansible.modules.storage.netapp.na_elementsw_vlan
+C:157, 0: Line too long (122/100) (line-too-long)
+C:159, 0: Line too long (116/100) (line-too-long)
+C:168, 0: Wrong continued indentation (remove 4 spaces).
+                                      % required_keys)
+                                  |   ^ (bad-continuation)
+C:172, 0: Line too long (104/100) (line-too-long)
+C:173, 0: Wrong continued indentation (remove 4 spaces).
+                                          % addr_blk_fields)
+                                      |   ^ (bad-continuation)
+C:184, 0: Line too long (107/100) (line-too-long)
+C:206, 0: Line too long (103/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:106, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:107, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:108, 0: Import "import ansible.module_utils.netapp as netapp_utils" should be placed at the top of the module (wrong-import-position)
+C:109, 0: Import "from ansible.module_utils.netapp_module import NetAppModule" should be placed at the top of the module (wrong-import-position)
+C:110, 0: Import "from ansible.module_utils.netapp_elementsw_module import NaElementSWModule" should be placed at the top of the module (wrong-import-position)
+W:115, 0: No exception type(s) specified (bare-except)
+E:114, 4: Unable to import 'solidfire.common' (import-error)
+E:153,50: Instance of 'ElementSWVlan' has no 'sfe' member (no-member)
+
+-----------------------------------
+Your code has been rated at 7.19/10
+

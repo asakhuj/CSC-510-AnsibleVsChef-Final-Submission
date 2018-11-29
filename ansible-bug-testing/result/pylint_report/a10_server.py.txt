@@ -1,0 +1,30 @@
+************* Module ansible.modules.network.a10.a10_server
+C: 99, 0: Line too long (140/100) (line-too-long)
+C:112, 0: Line too long (120/100) (line-too-long)
+C:128, 0: Line too long (114/100) (line-too-long)
+C:132, 0: Line too long (120/100) (line-too-long)
+C:149, 0: Line too long (115/100) (line-too-long)
+C:196, 0: Line too long (104/100) (line-too-long)
+C:198, 0: Line too long (117/100) (line-too-long)
+C:207, 0: Line too long (105/100) (line-too-long)
+C:209, 0: Line too long (106/100) (line-too-long)
+C:255, 0: Line too long (109/100) (line-too-long)
+C:257, 0: Line too long (110/100) (line-too-long)
+C:263, 0: Line too long (116/100) (line-too-long)
+C:268, 0: Line too long (116/100) (line-too-long)
+C:277, 0: Line too long (113/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 10, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 97, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C: 99, 0: Import "from ansible.module_utils.network.a10.a10 import axapi_call, a10_argument_spec, axapi_authenticate, axapi_failure, axapi_get_port_protocol, axapi_enabled_disabled, AXAPI_PORT_PROTOCOLS" should be placed at the top of the module (wrong-import-position)
+C:101, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:102, 0: Import "from ansible.module_utils.urls import url_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:108, 0: Missing function docstring (missing-docstring)
+W:118,12: No exception type(s) specified (bare-except)
+C:141, 0: Missing function docstring (missing-docstring)
+R:141, 0: Too many local variables (24/15) (too-many-locals)
+R:141, 0: Too many branches (18/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 7.79/10
+

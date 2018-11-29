@@ -1,0 +1,31 @@
+************* Module units.test_constants
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 23, 0: Unable to import 'pwd' (import-error)
+E: 28, 0: Unable to import 'ansible' (import-error)
+E: 29, 0: Unable to import 'ansible.module_utils.six' (import-error)
+E: 30, 0: Unable to import 'ansible.module_utils.six.moves' (import-error)
+E: 31, 0: Unable to import 'ansible.module_utils._text' (import-error)
+C: 35, 0: Missing function docstring (missing-docstring)
+C: 36, 4: Variable name "CFGDATA" doesn't conform to snake_case naming style (invalid-name)
+C: 43, 4: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+W: 50, 4: Redefining name 'user' from outer scope (line 49) (redefined-outer-name)
+C: 49, 0: Missing function docstring (missing-docstring)
+E: 51,18: Module 'os' has no 'geteuid' member (no-member)
+C: 61, 0: Missing function docstring (missing-docstring)
+C: 71, 0: Missing function docstring (missing-docstring)
+C: 80, 0: Missing function docstring (missing-docstring)
+C: 97, 0: Missing class docstring (missing-docstring)
+W: 97, 0: Class has no __init__ method (no-init)
+C: 98, 4: Missing method docstring (missing-docstring)
+R: 98, 4: Method could be a function (no-self-use)
+C:102, 4: Missing method docstring (missing-docstring)
+R:102, 4: Method could be a function (no-self-use)
+C:105, 4: Missing method docstring (missing-docstring)
+R:105, 4: Method could be a function (no-self-use)
+C:116, 4: Missing method docstring (missing-docstring)
+R:116, 4: Method could be a function (no-self-use)
+
+-----------------------------------
+Your code has been rated at 1.80/10
+

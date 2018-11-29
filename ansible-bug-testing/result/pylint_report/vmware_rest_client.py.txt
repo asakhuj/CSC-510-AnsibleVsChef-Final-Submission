@@ -1,0 +1,29 @@
+************* Module ansible.module_utils.vmware_rest_client
+C:  4, 0: Line too long (106/100) (line-too-long)
+C: 62, 0: Line too long (108/100) (line-too-long)
+C: 64, 0: Line too long (113/100) (line-too-long)
+C: 66, 0: Line too long (104/100) (line-too-long)
+C: 68, 0: Line too long (107/100) (line-too-long)
+C:171, 0: Line too long (108/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 42, 0: Missing class docstring (missing-docstring)
+C:121, 4: Missing method docstring (missing-docstring)
+R:140, 4: Method could be a function (no-self-use)
+C:172,12: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+W: 16, 4: Unused connect imported from pyVim (unused-import)
+W: 17, 4: Unused vmodl imported from pyVmomi (unused-import)
+W: 17, 4: Unused vim imported from pyVmomi (unused-import)
+C: 33, 4: Imports from package vmware are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 8.18/10
+
+************* Module ansible.utils.module_docs_fragments.vmware_rest_client
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Missing class docstring (missing-docstring)
+R:  6, 0: Too few public methods (0/2) (too-few-public-methods)
+
+------------------------------------
+Your code has been rated at -5.00/10
+

@@ -1,0 +1,13 @@
+************* Module ansible.modules.network.cloudengine.ce_ntp_auth
+C:198, 0: Line too long (115/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:194, 0: Import "import copy" should be placed at the top of the module (wrong-import-position)
+C:195, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:197, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:198, 0: Import "from ansible.module_utils.network.cloudengine.ce import ce_argument_spec, load_config, get_nc_config, set_nc_config" should be placed at the top of the module (wrong-import-position)
+R:278, 0: Too many instance attributes (18/7) (too-many-instance-attributes)
+R:488, 4: Too many branches (15/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 9.57/10
+

@@ -1,0 +1,18 @@
+************* Module ansible.modules.cloud.cloudstack.cs_instance_facts
+C:226, 0: Line too long (103/100) (line-too-long)
+C:245, 0: Line too long (106/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:185, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:186, 0: Import "from ansible.module_utils.cloudstack import AnsibleCloudStack, cs_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:189, 0: Missing class docstring (missing-docstring)
+C:211, 4: Missing method docstring (missing-docstring)
+C:225,20: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:231, 4: Missing method docstring (missing-docstring)
+C:248, 4: Missing method docstring (missing-docstring)
+W:254, 4: Parameters differ from overridden 'get_result' method (arguments-differ)
+C:277, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.14/10
+

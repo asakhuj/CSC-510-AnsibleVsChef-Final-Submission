@@ -1,0 +1,7 @@
+************* Module lxc_inventory
+E: 35, 0: Unable to import 'lxc' (import-error)
+C: 36, 0: standard import "import json" should be placed before "import lxc" (wrong-import-order)
+
+------------------------------------------------------------------
+Your code has been rated at 6.47/10 (previous run: 6.47/10, +0.00)
+

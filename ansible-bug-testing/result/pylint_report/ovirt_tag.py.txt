@@ -1,0 +1,14 @@
+************* Module ansible.modules.cloud.ovirt.ovirt_tag
+C:  1, 0: Missing module docstring (missing-docstring)
+C:120, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:127, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:128, 0: Import "from ansible.module_utils.ovirt import BaseModule, check_sdk, create_connection, equal, get_id_by_name, ovirt_full_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:138, 0: Missing class docstring (missing-docstring)
+W:153,38: Unused argument 'entity' (unused-argument)
+C:213, 0: Missing function docstring (missing-docstring)
+W:250,11: Catching too general exception Exception (broad-except)
+C:250,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.82/10
+

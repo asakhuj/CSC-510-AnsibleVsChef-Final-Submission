@@ -1,0 +1,21 @@
+************* Module ansible.plugins.inventory.generator
+C:116, 0: Line too long (104/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 74, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C: 76, 0: Import "from ansible import constants as C" should be placed at the top of the module (wrong-import-position)
+C: 77, 0: Import "from ansible.errors import AnsibleParserError" should be placed at the top of the module (wrong-import-position)
+C: 78, 0: Import "from ansible.plugins.cache import FactCache" should be placed at the top of the module (wrong-import-position)
+C: 79, 0: Import "from ansible.plugins.inventory import BaseInventoryPlugin" should be placed at the top of the module (wrong-import-position)
+C: 81, 0: Import "from itertools import product" should be placed at the top of the module (wrong-import-position)
+E:101,47: Module 'ansible.constants' has no 'YAML_FILENAME_EXTENSIONS' member (no-member)
+W: 99,12: Unused variable 'file_name' (unused-variable)
+C:106, 4: Missing method docstring (missing-docstring)
+C:107, 8: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+C:111, 4: Missing method docstring (missing-docstring)
+C:120,20: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C: 81, 0: standard import "from itertools import product" should be placed before "from ansible import constants as C" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 6.00/10
+

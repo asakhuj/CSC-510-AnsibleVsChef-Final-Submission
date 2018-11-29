@@ -1,0 +1,18 @@
+************* Module ansible.modules.notification.rocketchat
+C:153, 0: Line too long (120/100) (line-too-long)
+C:212, 0: Line too long (102/100) (line-too-long)
+C:229, 0: Line too long (129/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 11, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:146, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:147, 0: Import "from ansible.module_utils.urls import fetch_url" should be placed at the top of the module (wrong-import-position)
+C:153, 0: Missing function docstring (missing-docstring)
+R:153, 0: Too many arguments (9/5) (too-many-arguments)
+R:153, 0: Too many branches (14/12) (too-many-branches)
+C:187, 0: Missing function docstring (missing-docstring)
+W:194, 4: Unused variable 'response' (unused-variable)
+C:199, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.87/10
+

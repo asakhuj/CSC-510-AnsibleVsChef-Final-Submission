@@ -1,0 +1,19 @@
+************* Module ansible.modules.cloud.openstack.os_security_group_rule
+C:176, 0: Line too long (125/100) (line-too-long)
+C:213, 0: Wrong continued indentation (remove 3 spaces).
+                    rule_max and int(rule_max) == 65535)):
+                 |  ^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:175, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:176, 0: Import "from ansible.module_utils.openstack import openstack_full_argument_spec, openstack_module_kwargs, openstack_cloud_from_module" should be placed at the top of the module (wrong-import-position)
+R:211,12: Too many boolean expressions in if statement (6/5) (too-many-boolean-expressions)
+R:242,12: Too many boolean expressions in if statement (6/5) (too-many-boolean-expressions)
+C:270, 0: Missing function docstring (missing-docstring)
+R:270, 0: Too many local variables (18/15) (too-many-locals)
+C:364,53: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:270, 0: Too many branches (15/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 8.75/10
+

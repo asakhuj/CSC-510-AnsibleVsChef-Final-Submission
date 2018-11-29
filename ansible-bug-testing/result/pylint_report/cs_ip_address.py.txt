@@ -1,0 +1,13 @@
+************* Module ansible.modules.cloud.cloudstack.cs_ip_address
+C:  1, 0: Missing module docstring (missing-docstring)
+C:145, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:146, 0: Import "from ansible.module_utils.cloudstack import AnsibleCloudStack, cs_argument_spec, cs_required_together" should be placed at the top of the module (wrong-import-position)
+C:153, 0: Missing class docstring (missing-docstring)
+C:183, 4: Missing method docstring (missing-docstring)
+C:194, 4: Missing method docstring (missing-docstring)
+C:214, 4: Missing method docstring (missing-docstring)
+C:234, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.84/10
+

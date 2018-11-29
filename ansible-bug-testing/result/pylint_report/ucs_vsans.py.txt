@@ -1,0 +1,23 @@
+************* Module ansible.modules.remote_management.ucs.ucs_vsans
+C:111, 0: Line too long (129/100) (line-too-long)
+C:113, 0: Line too long (111/100) (line-too-long)
+C:145, 0: Line too long (109/100) (line-too-long)
+C:150, 0: Line too long (103/100) (line-too-long)
+C:173, 0: Unnecessary parens after 'if' keyword (superfluous-parens)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 95, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 96, 0: Import "from ansible.module_utils.remote_management.ucs import UCSModule, ucs_argument_spec" should be placed at the top of the module (wrong-import-position)
+C: 99, 0: Missing function docstring (missing-docstring)
+E:129, 4: Unable to import 'ucsmsdk.mometa.fabric.FabricVsan' (import-error)
+W:191,11: Catching too general exception Exception (broad-except)
+C:154,12: Variable name "dn" doesn't conform to snake_case naming style (invalid-name)
+C:156,12: Variable name "mo" doesn't conform to snake_case naming style (invalid-name)
+C:179,24: Variable name "mo" doesn't conform to snake_case naming style (invalid-name)
+C:191,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R: 99, 0: Too many branches (17/12) (too-many-branches)
+R: 99, 0: Too many statements (52/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 6.39/10
+

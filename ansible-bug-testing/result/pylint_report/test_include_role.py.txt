@@ -1,0 +1,24 @@
+************* Module units.playbook.role.test_include_role
+C:148, 0: Wrong continued indentation (add 13 spaces).
+            loader=self.loader, variable_manager=self.var_manager)
+            ^            | (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 25, 0: Unable to import 'ansible.playbook' (import-error)
+E: 26, 0: Unable to import 'ansible.playbook.role_include' (import-error)
+E: 27, 0: Unable to import 'ansible.playbook.task' (import-error)
+E: 28, 0: Unable to import 'ansible.vars.manager' (import-error)
+C: 34, 0: Missing class docstring (missing-docstring)
+C: 92, 4: Missing method docstring (missing-docstring)
+C: 97,24: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+C:102,20: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+W: 95,24: Unused variable 'handlers' (unused-variable)
+C:105, 4: Missing method docstring (missing-docstring)
+W:107,19: Access to a protected member _role of a client class (protected-access)
+W:131,12: Unused variable 'role' (unused-variable)
+W:152,12: Unused variable 'role' (unused-variable)
+C: 30, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 6.60/10
+

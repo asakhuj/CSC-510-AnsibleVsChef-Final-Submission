@@ -1,0 +1,45 @@
+************* Module ansible.modules.network.voss.voss_config
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:201, 0: Import "from ansible.module_utils._text import to_text" should be placed at the top of the module (wrong-import-position)
+C:202, 0: Import "from ansible.module_utils.connection import ConnectionError" should be placed at the top of the module (wrong-import-position)
+C:203, 0: Import "from ansible.module_utils.network.voss.voss import run_commands, get_config" should be placed at the top of the module (wrong-import-position)
+C:204, 0: Import "from ansible.module_utils.network.voss.voss import get_defaults_flag, get_connection" should be placed at the top of the module (wrong-import-position)
+C:205, 0: Import "from ansible.module_utils.network.voss.voss import get_sublevel_config, VossNetworkConfig" should be placed at the top of the module (wrong-import-position)
+C:206, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:207, 0: Import "from ansible.module_utils.network.common.config import dumps" should be placed at the top of the module (wrong-import-position)
+C:210, 0: Missing function docstring (missing-docstring)
+C:226, 0: Missing function docstring (missing-docstring)
+C:237, 0: Missing function docstring (missing-docstring)
+R:247, 0: Too many local variables (26/15) (too-many-locals)
+W:304,35: Access to a protected member _diff of a client class (protected-access)
+W:370, 7: Access to a protected member _diff of a client class (protected-access)
+R:247, 0: Too many branches (33/12) (too-many-branches)
+R:247, 0: Too many statements (101/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 8.76/10
+
+************* Module ansible.plugins.action.voss_config
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 29, 0: No name 'urllib' in module '_MovedItems' (no-name-in-module)
+E: 29, 0: Unable to import 'ansible.module_utils.six.moves.urllib.parse' (import-error)
+C: 35, 0: Missing class docstring (missing-docstring)
+W: 66,11: Access to a protected member _role of a client class (protected-access)
+W: 67,18: Access to a protected member _role_path of a client class (protected-access)
+W: 67,18: Access to a protected member _role of a client class (protected-access)
+C: 74,12: Variable name "fn" doesn't conform to snake_case naming style (invalid-name)
+C: 96,38: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+W:104,11: Access to a protected member _role of a client class (protected-access)
+W:105,30: Access to a protected member _role_path of a client class (protected-access)
+W:105,30: Access to a protected member _role of a client class (protected-access)
+W:107,28: Access to a protected member _block of a client class (protected-access)
+W:110,42: Access to a protected member _role_path of a client class (protected-access)
+R: 81, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R: 35, 0: Too few public methods (1/2) (too-few-public-methods)
+W: 30, 0: Unused merge_hash imported from ansible.utils.vars (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.18/10
+

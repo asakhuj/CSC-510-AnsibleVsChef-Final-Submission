@@ -1,0 +1,29 @@
+************* Module ansible.modules.crypto.openssh_keypair
+C:141, 0: Line too long (114/100) (line-too-long)
+C:142, 0: Line too long (113/100) (line-too-long)
+C:147, 0: Line too long (104/100) (line-too-long)
+C:152, 0: Line too long (105/100) (line-too-long)
+C:154, 0: Line too long (104/100) (line-too-long)
+C:179, 0: Line too long (102/100) (line-too-long)
+C:265, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:113, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:114, 0: Import "import errno" should be placed at the top of the module (wrong-import-position)
+C:116, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:117, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:120, 0: Missing class docstring (missing-docstring)
+C:124, 0: Missing class docstring (missing-docstring)
+R:124, 0: Too many instance attributes (10/7) (too-many-instance-attributes)
+C:159, 4: Missing method docstring (missing-docstring)
+W:181,19: Catching too general exception Exception (broad-except)
+C:181,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:189, 4: Method name "isValid" doesn't conform to snake_case naming style (invalid-name)
+C:189, 4: Missing method docstring (missing-docstring)
+C:258, 0: Missing function docstring (missing-docstring)
+W:293,15: Catching too general exception Exception (broad-except)
+W:306,15: Catching too general exception Exception (broad-except)
+
+-----------------------------------
+Your code has been rated at 8.05/10
+

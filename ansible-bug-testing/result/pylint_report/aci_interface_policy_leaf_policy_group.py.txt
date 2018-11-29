@@ -1,0 +1,22 @@
+************* Module ansible.modules.network.aci.aci_interface_policy_leaf_policy_group
+C:301, 0: Line too long (118/100) (line-too-long)
+C:303, 0: Line too long (147/100) (line-too-long)
+C:304, 0: Line too long (118/100) (line-too-long)
+C:305, 0: Line too long (110/100) (line-too-long)
+C:311, 0: Line too long (111/100) (line-too-long)
+C:312, 0: Line too long (113/100) (line-too-long)
+C:313, 0: Line too long (101/100) (line-too-long)
+C:314, 0: Line too long (105/100) (line-too-long)
+C:318, 0: Line too long (105/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:294, 0: Import "from ansible.module_utils.network.aci.aci import ACIModule, aci_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:295, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:298, 0: Missing function docstring (missing-docstring)
+R:298, 0: Too many local variables (27/15) (too-many-locals)
+C:342, 4: Variable name "egress_data_plane_policing_policy" doesn't conform to snake_case naming style (invalid-name)
+C:343, 4: Variable name "ingress_data_plane_policing_policy" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.96/10
+

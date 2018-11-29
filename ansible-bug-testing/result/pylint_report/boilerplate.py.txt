@@ -1,0 +1,10 @@
+************* Module boilerplate
+C: 65, 0: Line too long (111/100) (line-too-long)
+C: 65, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 68, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.21/10
+

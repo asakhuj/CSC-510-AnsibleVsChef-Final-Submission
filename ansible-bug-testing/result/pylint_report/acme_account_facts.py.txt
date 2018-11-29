@@ -1,0 +1,21 @@
+************* Module ansible.modules.crypto.acme.acme_account_facts
+C:107, 0: Line too long (122/100) (line-too-long)
+C:110, 0: Line too long (128/100) (line-too-long)
+C:123, 0: Line too long (104/100) (line-too-long)
+C:124, 0: Wrong continued indentation (remove 8 spaces).
+                            'This should only be done for testing against a local ACME server for ' +
+                    |       ^ (bad-continuation)
+C:124, 0: Line too long (101/100) (line-too-long)
+C:125, 0: Wrong continued indentation (remove 8 spaces).
+                            'development purposes, but *never* for production purposes.')
+                    |       ^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 94, 0: Import "from ansible.module_utils.acme import ModuleFailException, ACMEAccount, set_crypto_backend" should be placed at the top of the module (wrong-import-position)
+C: 98, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:101, 0: Missing function docstring (missing-docstring)
+C:150,34: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.00/10
+

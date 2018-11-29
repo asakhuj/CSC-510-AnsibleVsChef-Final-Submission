@@ -1,0 +1,28 @@
+************* Module ansible.modules.network.cloudengine.ce_netstream_global
+C:708, 0: Line too long (114/100) (line-too-long)
+C:710, 0: Wrong continued indentation before block (add 4 spaces).
+                                str(sampler_tmp["sampler_direction"]) != self.sampler_direction):
+                                ^   | (bad-continuation)
+C:722, 0: Line too long (119/100) (line-too-long)
+C:746, 0: Line too long (114/100) (line-too-long)
+C:747, 0: Line too long (125/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:215, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:216, 0: Import "from ansible.module_utils.network.cloudengine.ce import get_config, load_config" should be placed at the top of the module (wrong-import-position)
+C:217, 0: Import "from ansible.module_utils.network.cloudengine.ce import ce_argument_spec" should be placed at the top of the module (wrong-import-position)
+R:250, 0: Too many instance attributes (24/7) (too-many-instance-attributes)
+R:625, 4: Too many branches (17/12) (too-many-branches)
+C:751,23: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:758,23: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+R:691, 4: Too many branches (37/12) (too-many-branches)
+R:691, 4: Too many statements (52/50) (too-many-statements)
+C:813,31: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+R:804, 8: Too many nested blocks (6/5) (too-many-nested-blocks)
+C:819,31: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+R:804, 8: Too many nested blocks (6/5) (too-many-nested-blocks)
+R:767, 4: Too many branches (32/12) (too-many-branches)
+R:767, 4: Too many statements (73/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 9.60/10
+

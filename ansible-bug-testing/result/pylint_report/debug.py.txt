@@ -1,0 +1,43 @@
+************* Module ansible.modules.utilities.logic.debug
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.00/10
+
+************* Module ansible.plugins.action.debug
+C: 52, 0: Line too long (119/100) (line-too-long)
+C: 58, 0: Line too long (122/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 19, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 59,51: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R: 33, 4: Too many branches (13/12) (too-many-branches)
+R: 27, 0: Too few public methods (1/2) (too-few-public-methods)
+
+-----------------------------------
+Your code has been rated at 8.21/10
+
+************* Module ansible.plugins.callback.debug
+C: 41, 0: Line too long (113/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 20, 0: Import "from ansible.plugins.callback.default import CallbackModule as CallbackModule_default" should be placed at the top of the module (wrong-import-position)
+
+-----------------------------------
+Your code has been rated at 8.10/10
+
+************* Module ansible.plugins.strategy.debug
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 16, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 27, 0: Import "import cmd" should be placed at the top of the module (wrong-import-position)
+C: 28, 0: Import "import pprint" should be placed at the top of the module (wrong-import-position)
+C: 29, 0: Import "import sys" should be placed at the top of the module (wrong-import-position)
+C: 31, 0: Import "from ansible.plugins.strategy.linear import StrategyModule as LinearStrategyModule" should be placed at the top of the module (wrong-import-position)
+C: 34, 0: Missing class docstring (missing-docstring)
+W: 27, 0: Unused import cmd (unused-import)
+W: 28, 0: Unused import pprint (unused-import)
+W: 29, 0: Unused import sys (unused-import)
+
+-----------------------------------
+Your code has been rated at 0.91/10
+

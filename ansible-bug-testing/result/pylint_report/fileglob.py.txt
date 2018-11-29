@@ -1,0 +1,16 @@
+************* Module ansible.plugins.lookup.fileglob
+C: 62, 0: Line too long (114/100) (line-too-long)
+C: 63, 0: Line too long (106/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 45, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C: 46, 0: Import "import glob" should be placed at the top of the module (wrong-import-position)
+C: 48, 0: Import "from ansible.plugins.lookup import LookupBase" should be placed at the top of the module (wrong-import-position)
+C: 49, 0: Import "from ansible.errors import AnsibleFileNotFound" should be placed at the top of the module (wrong-import-position)
+C: 50, 0: Import "from ansible.module_utils._text import to_bytes, to_text" should be placed at the top of the module (wrong-import-position)
+C: 53, 0: Missing class docstring (missing-docstring)
+W: 49, 0: Unused AnsibleFileNotFound imported from ansible.errors (unused-import)
+
+-----------------------------------
+Your code has been rated at 4.50/10
+

@@ -1,0 +1,20 @@
+************* Module ansible.modules.system.xfconf
+C:109, 0: Line too long (103/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 89, 0: Import "import pipes" should be placed at the top of the module (wrong-import-position)
+C: 90, 0: Import "import sys" should be placed at the top of the module (wrong-import-position)
+C: 92, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 95, 0: Missing class docstring (missing-docstring)
+W: 96,40: Redefining built-in 'property' (redefined-builtin)
+R: 96, 4: Too many arguments (6/5) (too-many-arguments)
+C:120,12: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:122,26: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+R: 95, 0: Too few public methods (1/2) (too-few-public-methods)
+W:154, 4: Redefining built-in 'property' (redefined-builtin)
+C:133, 0: Missing function docstring (missing-docstring)
+W: 90, 0: Unused import sys (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.66/10
+

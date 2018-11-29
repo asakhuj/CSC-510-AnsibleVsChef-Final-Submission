@@ -1,0 +1,21 @@
+************* Module units.module_utils.test_postgresql
+C: 75, 0: Line too long (102/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  9, 0: Unable to import 'ansible.module_utils.six.moves' (import-error)
+E: 10, 0: Unable to import 'ansible.module_utils._text' (import-error)
+C: 15, 0: Constant name "realimport" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 18, 0: Missing class docstring (missing-docstring)
+C: 19, 4: Missing method docstring (missing-docstring)
+R: 19, 4: Method could be a function (no-self-use)
+C: 25, 4: Method name "test_postgres_pg2_missing_ensure_libs" doesn't conform to snake_case naming style (invalid-name)
+C: 25, 4: Missing method docstring (missing-docstring)
+C: 42, 4: Method name "test_postgres_pg2_found_ensure_libs" doesn't conform to snake_case naming style (invalid-name)
+C: 42, 4: Missing method docstring (missing-docstring)
+C: 59, 4: Method name "test_postgres_pg2_found_ensure_libs_old_version" doesn't conform to snake_case naming style (invalid-name)
+C: 59, 4: Missing method docstring (missing-docstring)
+C: 62,16: Variable name "m" doesn't conform to snake_case naming style (invalid-name)
+C: 13, 0: standard import "import pprint" should be placed before "from units.compat import unittest" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 5.20/10
+

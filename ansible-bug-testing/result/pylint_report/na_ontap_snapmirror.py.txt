@@ -1,0 +1,48 @@
+************* Module ansible.modules.storage.netapp.na_ontap_snapmirror
+C:131, 0: Line too long (101/100) (line-too-long)
+C:144, 0: Wrong continued indentation (remove 1 space).
+                                   ),
+                                  |^ (bad-continuation)
+C:210, 0: Line too long (113/100) (line-too-long)
+C:212, 0: Line too long (102/100) (line-too-long)
+C:260, 0: Wrong continued indentation (remove 4 spaces).
+                                      % (to_native(error)),
+                                  |   ^ (bad-continuation)
+C:291, 0: Wrong continued indentation (remove 4 spaces).
+                                      % (to_native(error)),
+                                  |   ^ (bad-continuation)
+C:306, 0: Wrong continued indentation (remove 4 spaces).
+                                      % (to_native(error)),
+                                  |   ^ (bad-continuation)
+C:321, 0: Wrong continued indentation (remove 4 spaces).
+                                      % (to_native(error)),
+                                  |   ^ (bad-continuation)
+C:331, 0: Line too long (115/100) (line-too-long)
+C:343, 0: Wrong continued indentation (remove 4 spaces).
+                                          % (to_native(error)),
+                                      |   ^ (bad-continuation)
+C:359, 0: Wrong continued indentation (remove 4 spaces).
+                                      % (to_native(error)),
+                                  |   ^ (bad-continuation)
+C:374, 0: Wrong continued indentation (remove 4 spaces).
+                                      % (to_native(error)),
+                                  |   ^ (bad-continuation)
+C:384, 0: Line too long (101/100) (line-too-long)
+C:387, 0: Line too long (107/100) (line-too-long)
+C:388, 0: Line too long (110/100) (line-too-long)
+C:389, 0: Line too long (119/100) (line-too-long)
+C:400, 0: Line too long (103/100) (line-too-long)
+C:406, 0: Line too long (107/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:113, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:114, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:115, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:116, 0: Import "import ansible.module_utils.netapp as netapp_utils" should be placed at the top of the module (wrong-import-position)
+C:117, 0: Import "from ansible.module_utils.netapp_module import NetAppModule" should be placed at the top of the module (wrong-import-position)
+W:370,12: Unused variable 'result' (unused-variable)
+C:396, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.55/10
+

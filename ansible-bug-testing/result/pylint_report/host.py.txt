@@ -1,0 +1,19 @@
+************* Module ansible.inventory.host
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+W: 42,29: Access to a protected member _uuid of a client class (protected-access)
+C: 56, 4: Missing method docstring (missing-docstring)
+C: 70, 4: Missing method docstring (missing-docstring)
+C: 81,12: Variable name "g" doesn't conform to snake_case naming style (invalid-name)
+C:101, 4: Missing method docstring (missing-docstring)
+C:104, 4: Missing method docstring (missing-docstring)
+C:114, 4: Missing method docstring (missing-docstring)
+C:125, 4: Missing method docstring (missing-docstring)
+C:139, 4: Missing method docstring (missing-docstring)
+C:142, 4: Missing method docstring (missing-docstring)
+C:145, 4: Missing method docstring (missing-docstring)
+C:153, 4: Missing method docstring (missing-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 8.37/10 (previous run: 8.37/10, +0.00)
+

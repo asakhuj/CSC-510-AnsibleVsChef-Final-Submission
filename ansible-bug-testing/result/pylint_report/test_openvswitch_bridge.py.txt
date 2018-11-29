@@ -1,0 +1,31 @@
+************* Module units.modules.network.ovs.test_openvswitch_bridge
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 24, 0: Unable to import 'ansible.modules.network.ovs' (import-error)
+C: 28, 0: Constant name "test_name_side_effect_matrix" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 83, 0: Missing class docstring (missing-docstring)
+C:105,12: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+C:106,12: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:115, 4: Method name "test_openvswitch_bridge_absent_idempotent" doesn't conform to snake_case naming style (invalid-name)
+C:115, 4: Missing method docstring (missing-docstring)
+C:120, 4: Method name "test_openvswitch_bridge_absent_removes_bridge" doesn't conform to snake_case naming style (invalid-name)
+C:120, 4: Missing method docstring (missing-docstring)
+C:127, 4: Method name "test_openvswitch_bridge_present_idempotent" doesn't conform to snake_case naming style (invalid-name)
+C:127, 4: Missing method docstring (missing-docstring)
+C:134, 4: Method name "test_openvswitch_bridge_present_creates_bridge" doesn't conform to snake_case naming style (invalid-name)
+C:134, 4: Missing method docstring (missing-docstring)
+C:147, 4: Method name "test_openvswitch_bridge_present_creates_fake_bridge" doesn't conform to snake_case naming style (invalid-name)
+C:147, 4: Missing method docstring (missing-docstring)
+C:158, 4: Method name "test_openvswitch_bridge_present_adds_external_id" doesn't conform to snake_case naming style (invalid-name)
+C:158, 4: Missing method docstring (missing-docstring)
+C:169, 4: Method name "test_openvswitch_bridge_present_clears_external_id" doesn't conform to snake_case naming style (invalid-name)
+C:169, 4: Missing method docstring (missing-docstring)
+C:180, 4: Method name "test_openvswitch_bridge_present_changes_fail_mode" doesn't conform to snake_case naming style (invalid-name)
+C:180, 4: Missing method docstring (missing-docstring)
+C:191, 4: Method name "test_openvswitch_bridge_present_runs_set_mode" doesn't conform to snake_case naming style (invalid-name)
+C:191, 4: Missing method docstring (missing-docstring)
+C: 25, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 5.24/10
+

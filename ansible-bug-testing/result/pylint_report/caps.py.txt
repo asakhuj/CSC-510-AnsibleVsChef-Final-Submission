@@ -1,0 +1,12 @@
+************* Module ansible.module_utils.facts.system.caps
+C: 39, 0: Line too long (103/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 19, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 25, 0: Missing class docstring (missing-docstring)
+C: 39,12: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W: 39,21: Unused variable 'err' (unused-variable)
+W: 39,12: Unused variable 'rc' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 7.31/10
+

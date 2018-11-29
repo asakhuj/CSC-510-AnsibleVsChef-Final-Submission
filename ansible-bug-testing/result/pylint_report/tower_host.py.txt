@@ -1,0 +1,16 @@
+************* Module ansible.modules.web_infrastructure.ansible_tower.tower_host
+C: 67, 0: Line too long (110/100) (line-too-long)
+C:115, 0: Line too long (106/100) (line-too-long)
+C:120, 0: Line too long (114/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 65, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C: 67, 0: Import "from ansible.module_utils.ansible_tower import TowerModule, tower_auth_config, tower_check_mode, HAS_TOWER_CLI" should be placed at the top of the module (wrong-import-position)
+C: 78, 0: Missing function docstring (missing-docstring)
+R: 78, 0: Too many local variables (17/15) (too-many-locals)
+C: 99,40: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+W: 67, 0: Unused HAS_TOWER_CLI imported from ansible.module_utils.ansible_tower (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.71/10
+

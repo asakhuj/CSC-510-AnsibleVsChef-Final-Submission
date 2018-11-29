@@ -1,0 +1,16 @@
+************* Module ansible.modules.network.nso.nso_query
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 23, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 71, 0: Import "from ansible.module_utils.network.nso.nso import connect, verify_version, nso_argument_spec" should be placed at the top of the module (wrong-import-position)
+C: 72, 0: Import "from ansible.module_utils.network.nso.nso import ModuleFailException, NsoException" should be placed at the top of the module (wrong-import-position)
+C: 73, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 76, 0: Missing class docstring (missing-docstring)
+C: 87, 4: Missing method docstring (missing-docstring)
+R: 88, 8: Unnecessary "else" after "return" (no-else-return)
+R: 76, 0: Too few public methods (1/2) (too-few-public-methods)
+C: 94, 0: Missing function docstring (missing-docstring)
+C:105, 4: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.25/10
+

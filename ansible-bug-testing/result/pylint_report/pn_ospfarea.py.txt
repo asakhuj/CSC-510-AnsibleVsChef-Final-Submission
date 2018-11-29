@@ -1,0 +1,8 @@
+************* Module ansible.modules.network.netvisor.pn_ospfarea
+C:117, 0: Import "import shlex" should be placed at the top of the module (wrong-import-position)
+C:120, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+R:139, 0: Too many local variables (17/15) (too-many-locals)
+
+-----------------------------------
+Your code has been rated at 9.40/10
+

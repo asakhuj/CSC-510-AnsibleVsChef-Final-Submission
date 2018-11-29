@@ -1,0 +1,23 @@
+************* Module ansible.modules.source_control.github_hooks
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 83, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C: 84, 0: Import "import base64" should be placed at the top of the module (wrong-import-position)
+C: 86, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 87, 0: Import "from ansible.module_utils.urls import fetch_url" should be placed at the top of the module (wrong-import-position)
+C: 88, 0: Import "from ansible.module_utils._text import to_bytes" should be placed at the top of the module (wrong-import-position)
+C: 91, 0: Missing function docstring (missing-docstring)
+R: 91, 0: Too many arguments (6/5) (too-many-arguments)
+R:103, 4: Unnecessary "else" after "return" (no-else-return)
+R:131, 0: Too many arguments (6/5) (too-many-arguments)
+R:143, 4: Unnecessary "else" after "return" (no-else-return)
+W:151,14: Unused variable 'info' (unused-variable)
+C:155, 0: Missing function docstring (missing-docstring)
+C:176, 9: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:179, 9: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:182, 9: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:185, 9: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.35/10
+

@@ -1,0 +1,24 @@
+************* Module ansible.modules.network.ftd.ftd_file_download
+C: 75, 0: Line too long (112/100) (line-too-long)
+C: 79, 0: Line too long (117/100) (line-too-long)
+C:113, 0: Line too long (106/100) (line-too-long)
+C:114, 0: Wrong hanging indentation (remove 4 spaces).
+                op_name)
+            |   ^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 22, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 72, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 73, 0: Import "from ansible.module_utils.connection import Connection" should be placed at the top of the module (wrong-import-position)
+C: 74, 0: Import "from ansible.module_utils.network.ftd.common import FtdServerError, HTTPMethod" should be placed at the top of the module (wrong-import-position)
+C: 75, 0: Import "from ansible.module_utils.network.ftd.fdm_swagger_client import OperationField, ValidationError, FILE_MODEL_NAME" should be placed at the top of the module (wrong-import-position)
+C: 78, 0: Missing function docstring (missing-docstring)
+C: 82, 0: Missing function docstring (missing-docstring)
+C: 90,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C: 96, 0: Missing function docstring (missing-docstring)
+W:105,28: Access to a protected member _socket_path of a client class (protected-access)
+C:123,29: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:126,30: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.14/10
+

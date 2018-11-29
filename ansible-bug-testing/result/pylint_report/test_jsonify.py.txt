@@ -1,0 +1,13 @@
+************* Module units.parsing.utils.test_jsonify
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 23, 0: Unable to import 'ansible.parsing.utils.jsonify' (import-error)
+C: 26, 0: Missing class docstring (missing-docstring)
+C: 27, 4: Missing method docstring (missing-docstring)
+C: 30, 4: Missing method docstring (missing-docstring)
+C: 35, 4: Missing method docstring (missing-docstring)
+C: 38, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 2.00/10
+

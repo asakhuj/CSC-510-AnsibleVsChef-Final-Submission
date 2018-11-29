@@ -1,0 +1,27 @@
+************* Module ansible.modules.network.ordnance.ordnance_config
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:169, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:170, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C:171, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:173, 0: Import "from ansible.module_utils.network.common.network import NetworkModule, NetworkError" should be placed at the top of the module (wrong-import-position)
+C:174, 0: Import "from ansible.module_utils.network.common.config import NetworkConfig, dumps" should be placed at the top of the module (wrong-import-position)
+C:175, 0: Import "from ansible.module_utils.network.common.parsing import Command" should be placed at the top of the module (wrong-import-position)
+C:176, 0: Import "from ansible.module_utils.network.ordnance.ordnance import get_config" should be placed at the top of the module (wrong-import-position)
+C:177, 0: Import "from ansible.module_utils.six import iteritems" should be placed at the top of the module (wrong-import-position)
+C:178, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:181, 0: Missing function docstring (missing-docstring)
+C:192, 0: Missing function docstring (missing-docstring)
+C:212, 0: Missing function docstring (missing-docstring)
+C:220, 0: Missing function docstring (missing-docstring)
+E:231, 0: function already defined line 176 (function-redefined)
+C:231, 0: Missing function docstring (missing-docstring)
+W:231,23: Unused argument 'result' (unused-argument)
+C:241, 0: Missing function docstring (missing-docstring)
+C:256, 0: Missing function docstring (missing-docstring)
+C:353,27: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:175, 0: Unused Command imported from ansible.module_utils.network.common.parsing (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.85/10
+

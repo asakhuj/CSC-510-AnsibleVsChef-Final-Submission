@@ -1,0 +1,12 @@
+************* Module ansible.modules.web_infrastructure.ansible_tower.tower_job_wait
+C:134, 0: Line too long (115/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 85, 0: Import "from ansible.module_utils.ansible_tower import TowerModule, tower_auth_config, tower_check_mode" should be placed at the top of the module (wrong-import-position)
+E: 86, 0: Unable to import 'ansible.module_utils.six.moves' (import-error)
+C: 86, 0: Import "from ansible.module_utils.six.moves import cStringIO as StringIO" should be placed at the top of the module (wrong-import-position)
+C: 98, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.61/10
+

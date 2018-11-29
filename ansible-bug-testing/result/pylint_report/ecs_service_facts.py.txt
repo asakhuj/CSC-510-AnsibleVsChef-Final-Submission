@@ -1,0 +1,25 @@
+************* Module ansible.modules.cloud.amazon.ecs_service_facts
+C:182, 0: Line too long (107/100) (line-too-long)
+C:234, 0: Line too long (112/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:136, 0: Import "from ansible.module_utils.aws.core import AnsibleAWSModule" should be placed at the top of the module (wrong-import-position)
+C:137, 0: Import "from ansible.module_utils.ec2 import ec2_argument_spec, AWSRetry" should be placed at the top of the module (wrong-import-position)
+C:148, 4: Missing method docstring (missing-docstring)
+C:152,50: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:159, 4: Missing method docstring (missing-docstring)
+C:162, 4: Missing method docstring (missing-docstring)
+C:168,87: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:173, 4: Missing method docstring (missing-docstring)
+C:180,87: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:186, 4: Missing method docstring (missing-docstring)
+C:190,16: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:199,20: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:205, 0: Argument name "l" doesn't conform to snake_case naming style (invalid-name)
+C:205, 0: Argument name "n" doesn't conform to snake_case naming style (invalid-name)
+W:207, 4: String statement has no effect (pointless-string-statement)
+C:212, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.65/10
+

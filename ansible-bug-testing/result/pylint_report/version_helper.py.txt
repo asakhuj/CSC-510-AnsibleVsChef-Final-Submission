@@ -1,0 +1,27 @@
+************* Module versionhelper.version_helper
+W: 20, 0: TODO: allow overrides here for packaging bump etc (fixme)
+C: 26, 0: Line too long (101/100) (line-too-long)
+C: 62, 0: Line too long (103/100) (line-too-long)
+C: 73, 0: Line too long (105/100) (line-too-long)
+C:142, 0: Line too long (115/100) (line-too-long)
+C:188, 0: Line too long (107/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  2, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 12, 0: Missing class docstring (missing-docstring)
+C: 29, 4: Missing method docstring (missing-docstring)
+C: 30, 8: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C: 65, 4: Missing method docstring (missing-docstring)
+C: 69, 4: Missing method docstring (missing-docstring)
+C: 70, 8: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+R: 69, 4: Too many branches (14/12) (too-many-branches)
+C:123, 4: Missing method docstring (missing-docstring)
+C:128, 4: Missing method docstring (missing-docstring)
+C:133, 4: Missing method docstring (missing-docstring)
+C:137, 4: Missing method docstring (missing-docstring)
+C:141, 0: Missing function docstring (missing-docstring)
+E:163, 4: Unable to import 'ansible' (import-error)
+C:171, 4: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.03/10
+

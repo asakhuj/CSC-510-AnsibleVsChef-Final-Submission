@@ -1,0 +1,38 @@
+************* Module ansible.modules.network.cloudengine.ce_config
+C:  1, 0: Missing module docstring (missing-docstring)
+C:191, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:192, 0: Import "from ansible.module_utils.network.common.config import NetworkConfig, dumps" should be placed at the top of the module (wrong-import-position)
+C:193, 0: Import "from ansible.module_utils.network.cloudengine.ce import get_config, load_config, run_commands" should be placed at the top of the module (wrong-import-position)
+C:194, 0: Import "from ansible.module_utils.network.cloudengine.ce import ce_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:195, 0: Import "from ansible.module_utils.network.cloudengine.ce import check_args as ce_check_args" should be placed at the top of the module (wrong-import-position)
+C:198, 0: Missing function docstring (missing-docstring)
+C:202, 0: Missing function docstring (missing-docstring)
+C:212, 0: Missing function docstring (missing-docstring)
+C:222, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.53/10
+
+************* Module ansible.plugins.action.ce_config
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 29, 0: No name 'urllib' in module '_MovedItems' (no-name-in-module)
+E: 29, 0: Unable to import 'ansible.module_utils.six.moves.urllib.parse' (import-error)
+C: 35, 0: Missing class docstring (missing-docstring)
+W: 66,11: Access to a protected member _role of a client class (protected-access)
+W: 67,18: Access to a protected member _role_path of a client class (protected-access)
+W: 67,18: Access to a protected member _role of a client class (protected-access)
+C: 74,12: Variable name "fn" doesn't conform to snake_case naming style (invalid-name)
+C: 96,38: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+W:104,11: Access to a protected member _role of a client class (protected-access)
+W:105,30: Access to a protected member _role_path of a client class (protected-access)
+W:105,30: Access to a protected member _role of a client class (protected-access)
+W:107,28: Access to a protected member _block of a client class (protected-access)
+W:110,42: Access to a protected member _role_path of a client class (protected-access)
+R: 81, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R: 35, 0: Too few public methods (1/2) (too-few-public-methods)
+W: 30, 0: Unused merge_hash imported from ansible.utils.vars (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.18/10
+

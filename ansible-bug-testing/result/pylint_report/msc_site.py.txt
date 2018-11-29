@@ -1,0 +1,13 @@
+************* Module ansible.modules.network.aci.msc_site
+C:163, 0: Line too long (146/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:112, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:113, 0: Import "from ansible.module_utils.network.aci.msc import MSCModule, msc_argument_spec, issubset" should be placed at the top of the module (wrong-import-position)
+C:116, 0: Missing function docstring (missing-docstring)
+R:116, 0: Too many branches (19/12) (too-many-branches)
+R:116, 0: Too many statements (51/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 8.60/10
+

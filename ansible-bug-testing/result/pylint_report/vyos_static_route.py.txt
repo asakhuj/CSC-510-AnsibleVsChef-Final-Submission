@@ -1,0 +1,19 @@
+************* Module ansible.modules.network.vyos.vyos_static_route
+C:  1, 0: Missing module docstring (missing-docstring)
+C:105, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:107, 0: Import "from copy import deepcopy" should be placed at the top of the module (wrong-import-position)
+C:109, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:110, 0: Import "from ansible.module_utils.network.common.utils import remove_default_spec" should be placed at the top of the module (wrong-import-position)
+C:111, 0: Import "from ansible.module_utils.network.vyos.vyos import get_config, load_config" should be placed at the top of the module (wrong-import-position)
+C:112, 0: Import "from ansible.module_utils.network.vyos.vyos import vyos_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:115, 0: Missing function docstring (missing-docstring)
+C:118, 8: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+W:115,30: Unused argument 'module' (unused-argument)
+C:137, 0: Missing function docstring (missing-docstring)
+C:170, 0: Missing function docstring (missing-docstring)
+W:179,12: Access to a protected member _check_required_together of a client class (protected-access)
+C:180,12: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.60/10
+

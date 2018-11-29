@@ -1,0 +1,53 @@
+************* Module ansible.modules.cloud.packet.packet_device
+C:541, 0: Wrong continued indentation (remove 1 space).
+                       },
+                      |^ (bad-continuation)
+C:546, 0: Wrong continued indentation (remove 1 space).
+                         },
+                        |^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:250, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:251, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:252, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C:253, 0: Import "import uuid" should be placed at the top of the module (wrong-import-position)
+C:254, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:256, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:257, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+W:265, 0: Reimport 'AnsibleModule' (imported line 256) (reimported)
+C:265, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:358, 0: Missing function docstring (missing-docstring)
+C:362, 0: Missing function docstring (missing-docstring)
+C:370, 0: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:370, 0: Missing function docstring (missing-docstring)
+R:371, 4: Unnecessary "else" after "return" (no-else-return)
+C:377, 0: Missing function docstring (missing-docstring)
+C:406, 8: Variable name "hn" doesn't conform to snake_case naming style (invalid-name)
+C:416, 0: Missing function docstring (missing-docstring)
+C:424, 8: Variable name "di" doesn't conform to snake_case naming style (invalid-name)
+C:434, 0: Missing function docstring (missing-docstring)
+W:446, 4: Unused variable 'ipxe_script_url' (unused-variable)
+W:447, 4: Unused variable 'always_pxe' (unused-variable)
+C:459, 0: Missing function docstring (missing-docstring)
+C:465, 0: Missing function docstring (missing-docstring)
+C:478, 0: Function name "wait_for_public_IPv" doesn't conform to snake_case naming style (invalid-name)
+C:478, 0: Missing function docstring (missing-docstring)
+C:480, 4: Missing function docstring (missing-docstring)
+C:484, 4: Argument name "ds" doesn't conform to snake_case naming style (invalid-name)
+C:484, 4: Missing function docstring (missing-docstring)
+C:501, 0: Missing function docstring (missing-docstring)
+C:508, 0: Function name "get_specified_device_identifiers" doesn't conform to snake_case naming style (invalid-name)
+C:508, 0: Missing function docstring (missing-docstring)
+R:508, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:517, 0: Missing function docstring (missing-docstring)
+R:517, 0: Too many local variables (20/15) (too-many-locals)
+C:534,12: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+C:550,12: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:586, 0: Missing function docstring (missing-docstring)
+W:635,11: Catching too general exception Exception (broad-except)
+C:635,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:265, 0: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 7.76/10
+

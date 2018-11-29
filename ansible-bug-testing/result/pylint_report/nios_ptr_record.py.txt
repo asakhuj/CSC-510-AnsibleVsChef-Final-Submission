@@ -1,0 +1,11 @@
+************* Module ansible.modules.net_tools.nios.nios_ptr_record
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:109, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:110, 0: Import "from ansible.module_utils.net_tools.nios.api import WapiModule" should be placed at the top of the module (wrong-import-position)
+C:111, 0: Import "from ansible.module_utils.net_tools.nios.api import NIOS_PTR_RECORD" should be placed at the top of the module (wrong-import-position)
+C:114, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.69/10
+

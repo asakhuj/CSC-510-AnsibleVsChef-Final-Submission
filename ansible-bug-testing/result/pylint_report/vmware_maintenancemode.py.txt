@@ -1,0 +1,31 @@
+************* Module ansible.modules.cloud.vmware.vmware_maintenancemode
+C:149, 0: Line too long (128/100) (line-too-long)
+C:170, 0: Line too long (127/100) (line-too-long)
+C:181, 0: Wrong continued indentation (remove 1 space).
+                               ),
+                              |^ (bad-continuation)
+C:185, 0: Wrong continued indentation (remove 1 space).
+                     )
+                    |^ (bad-continuation)
+C:186, 0: Wrong continued indentation (remove 1 space).
+                )
+               |^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:107, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:108, 0: Import "from ansible.module_utils.vmware import PyVmomi, TaskError, vmware_argument_spec, wait_for_task" should be placed at the top of the module (wrong-import-position)
+C:109, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:112, 0: Missing class docstring (missing-docstring)
+C:121, 4: Method name "EnterMaintenanceMode" doesn't conform to snake_case naming style (invalid-name)
+C:121, 4: Missing method docstring (missing-docstring)
+C:148,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:140,21: Unused variable 'result' (unused-variable)
+C:151, 4: Method name "ExitMaintenanceMode" doesn't conform to snake_case naming style (invalid-name)
+C:151, 4: Missing method docstring (missing-docstring)
+C:169,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:162,21: Unused variable 'result' (unused-variable)
+C:173, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 6.30/10
+

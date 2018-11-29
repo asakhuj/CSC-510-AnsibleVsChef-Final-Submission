@@ -1,0 +1,27 @@
+************* Module ansible.modules.network.eos.eos_static_route
+C:177, 0: Line too long (102/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 84, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C: 86, 0: Import "from copy import deepcopy" should be placed at the top of the module (wrong-import-position)
+C: 88, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 89, 0: Import "from ansible.module_utils.network.common.utils import is_masklen, validate_ip_address" should be placed at the top of the module (wrong-import-position)
+C: 90, 0: Import "from ansible.module_utils.network.common.utils import remove_default_spec, validate_prefix" should be placed at the top of the module (wrong-import-position)
+C: 91, 0: Import "from ansible.module_utils.network.eos.eos import get_config, load_config" should be placed at the top of the module (wrong-import-position)
+C: 92, 0: Import "from ansible.module_utils.network.eos.eos import eos_argument_spec, check_args" should be placed at the top of the module (wrong-import-position)
+C: 95, 0: Missing function docstring (missing-docstring)
+C:103, 0: Missing function docstring (missing-docstring)
+C:110, 0: Missing function docstring (missing-docstring)
+C:114, 8: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+W:110,33: Unused argument 'module' (unused-argument)
+C:129, 0: Missing function docstring (missing-docstring)
+W:139,12: Access to a protected member _check_required_together of a client class (protected-access)
+C:140,12: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:154, 0: Missing function docstring (missing-docstring)
+R:188, 0: Too many local variables (16/15) (too-many-locals)
+W:245,36: Access to a protected member _diff of a client class (protected-access)
+W: 92, 0: Unused check_args imported from ansible.module_utils.network.eos.eos (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.10/10
+

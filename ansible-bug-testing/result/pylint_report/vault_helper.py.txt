@@ -1,0 +1,10 @@
+************* Module units.mock.vault_helper
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 16, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 18, 0: Unable to import 'ansible.module_utils._text' (import-error)
+E: 20, 0: Unable to import 'ansible.parsing.vault' (import-error)
+R: 23, 0: Too few public methods (1/2) (too-few-public-methods)
+
+-----------------------------------
+Your code has been rated at 0.00/10
+

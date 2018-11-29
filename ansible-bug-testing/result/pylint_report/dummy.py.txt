@@ -1,0 +1,20 @@
+************* Module dummy
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  2, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 14, 0: Unable to import 'ansible.constants' (import-error)
+C: 14, 0: Import "import ansible.constants as C" should be placed at the top of the module (wrong-import-position)
+E: 15, 0: Unable to import 'ansible.errors' (import-error)
+C: 15, 0: Import "from ansible.errors import AnsibleError" should be placed at the top of the module (wrong-import-position)
+E: 16, 0: Unable to import 'ansible.plugins.connection' (import-error)
+C: 16, 0: Import "from ansible.plugins.connection import ConnectionBase" should be placed at the top of the module (wrong-import-position)
+C: 19, 0: Missing class docstring (missing-docstring)
+E: 30, 4: method already defined line 21 (function-redefined)
+C: 30, 4: Missing method docstring (missing-docstring)
+C: 36, 4: Missing method docstring (missing-docstring)
+C: 39, 4: Missing method docstring (missing-docstring)
+C: 42, 4: Missing method docstring (missing-docstring)
+C: 45, 4: Missing method docstring (missing-docstring)
+
+------------------------------------
+Your code has been rated at -2.40/10
+

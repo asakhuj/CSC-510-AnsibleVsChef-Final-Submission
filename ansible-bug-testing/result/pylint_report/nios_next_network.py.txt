@@ -1,0 +1,13 @@
+************* Module ansible.plugins.lookup.nios_next_network
+C:108, 0: Line too long (121/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 79, 0: Import "from ansible.plugins.lookup import LookupBase" should be placed at the top of the module (wrong-import-position)
+C: 80, 0: Import "from ansible.module_utils.net_tools.nios.api import WapiLookup" should be placed at the top of the module (wrong-import-position)
+C: 81, 0: Import "from ansible.module_utils._text import to_text" should be placed at the top of the module (wrong-import-position)
+C: 82, 0: Import "from ansible.errors import AnsibleError" should be placed at the top of the module (wrong-import-position)
+C: 85, 0: Missing class docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.50/10
+

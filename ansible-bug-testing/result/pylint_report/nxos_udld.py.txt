@@ -1,0 +1,20 @@
+************* Module ansible.modules.network.nxos.nxos_udld
+C:  1, 0: Missing module docstring (missing-docstring)
+C:106, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:108, 0: Import "from ansible.module_utils.network.nxos.nxos import get_config, load_config, run_commands" should be placed at the top of the module (wrong-import-position)
+C:109, 0: Import "from ansible.module_utils.network.nxos.nxos import get_capabilities, nxos_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:110, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:118, 0: Missing function docstring (missing-docstring)
+C:128, 0: Missing function docstring (missing-docstring)
+C:141, 0: Missing function docstring (missing-docstring)
+C:159, 0: Missing function docstring (missing-docstring)
+C:170, 0: Missing function docstring (missing-docstring)
+C:186, 0: Missing function docstring (missing-docstring)
+R:186, 0: Too many local variables (17/15) (too-many-locals)
+W:106, 0: Unused import re (unused-import)
+W:108, 0: Unused get_config imported from ansible.module_utils.network.nxos.nxos (unused-import)
+W:109, 0: Unused get_capabilities imported from ansible.module_utils.network.nxos.nxos (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.57/10
+

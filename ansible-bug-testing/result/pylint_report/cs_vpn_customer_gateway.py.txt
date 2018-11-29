@@ -1,0 +1,18 @@
+************* Module ansible.modules.cloud.cloudstack.cs_vpn_customer_gateway
+C:206, 0: Line too long (123/100) (line-too-long)
+C:290, 0: Line too long (120/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:178, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:179, 0: Import "from ansible.module_utils.cloudstack import AnsibleCloudStack, cs_argument_spec, cs_required_together" should be placed at the top of the module (wrong-import-position)
+C:186, 0: Missing class docstring (missing-docstring)
+C:217, 4: Missing method docstring (missing-docstring)
+R:217, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:231, 4: Missing method docstring (missing-docstring)
+C:271, 4: Missing method docstring (missing-docstring)
+W:286, 4: Parameters differ from overridden 'get_result' method (arguments-differ)
+C:296, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.40/10
+

@@ -1,0 +1,27 @@
+************* Module units.modules.network.netscaler.test_netscaler_module_utils
+C: 24, 0: Line too long (143/100) (line-too-long)
+C: 41, 0: Line too long (114/100) (line-too-long)
+C: 47, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 51, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 66, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 73, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:  1, 0: Missing module docstring (missing-docstring)
+E: 24, 0: Unable to import 'ansible.module_utils.network.netscaler.netscaler' (import-error)
+C: 27, 0: Missing class docstring (missing-docstring)
+C: 29, 4: Missing method docstring (missing-docstring)
+C: 43, 4: Method name "test_none_values_not_copied_to_actual" doesn't conform to snake_case naming style (invalid-name)
+C: 43, 4: Missing method docstring (missing-docstring)
+C: 60, 4: Method name "test_missing_from_values_dict_not_copied_to_actual" doesn't conform to snake_case naming style (invalid-name)
+C: 60, 4: Missing method docstring (missing-docstring)
+C: 76, 4: Missing method docstring (missing-docstring)
+C: 97, 4: Missing method docstring (missing-docstring)
+C:118, 4: Missing method docstring (missing-docstring)
+C:140, 0: Missing class docstring (missing-docstring)
+C:142, 4: Missing method docstring (missing-docstring)
+C:160, 4: Missing method docstring (missing-docstring)
+R:160, 4: Method could be a function (no-self-use)
+C:168, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 6.39/10
+

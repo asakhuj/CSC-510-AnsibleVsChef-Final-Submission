@@ -1,0 +1,19 @@
+************* Module ansible.plugins.lookup.etcd
+C: 86, 0: Line too long (102/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 75, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C: 77, 0: Import "from ansible.plugins.lookup import LookupBase" should be placed at the top of the module (wrong-import-position)
+C: 78, 0: Import "from ansible.module_utils.urls import open_url" should be placed at the top of the module (wrong-import-position)
+C:106, 0: Missing class docstring (missing-docstring)
+C:122,16: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
+C:130, 4: Missing method docstring (missing-docstring)
+W:137,15: Catching too general exception Exception (broad-except)
+C:135,12: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+R:106, 0: Too few public methods (1/2) (too-few-public-methods)
+C:161, 0: Missing class docstring (missing-docstring)
+W:163, 4: Signature differs from overridden 'run' method (signature-differs)
+
+-----------------------------------
+Your code has been rated at 7.45/10
+

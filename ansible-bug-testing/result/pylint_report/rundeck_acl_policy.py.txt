@@ -1,0 +1,37 @@
+************* Module ansible.modules.web_infrastructure.rundeck_acl_policy
+C:114, 0: Line too long (109/100) (line-too-long)
+C:121, 0: Line too long (118/100) (line-too-long)
+C:138, 0: Line too long (106/100) (line-too-long)
+C:143, 0: Line too long (101/100) (line-too-long)
+C:153, 0: Line too long (102/100) (line-too-long)
+C:160, 0: Line too long (103/100) (line-too-long)
+C:161, 0: Wrong continued indentation (remove 4 spaces).
+                                          self.module.params["name"])
+                                      |   ^ (bad-continuation)
+C:165, 0: Line too long (109/100) (line-too-long)
+C:174, 0: Line too long (102/100) (line-too-long)
+C:181, 0: Line too long (103/100) (line-too-long)
+C:182, 0: Wrong continued indentation (remove 4 spaces).
+                                          self.module.params["name"])
+                                      |   ^ (bad-continuation)
+C:184, 0: Line too long (111/100) (line-too-long)
+C:193, 0: Line too long (113/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 10, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:103, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:104, 0: Import "from ansible.module_utils.urls import fetch_url" should be placed at the top of the module (wrong-import-position)
+C:105, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C:108, 0: Missing class docstring (missing-docstring)
+C:112, 4: Missing method docstring (missing-docstring)
+C:119, 4: Missing method docstring (missing-docstring)
+C:137,37: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:142, 4: Missing method docstring (missing-docstring)
+W:143,14: Unused variable 'info' (unused-variable)
+C:146, 4: Missing method docstring (missing-docstring)
+C:186, 4: Missing method docstring (missing-docstring)
+C:197, 0: Missing function docstring (missing-docstring)
+C:105, 0: standard import "import json" should be placed before "from ansible.module_utils.basic import AnsibleModule" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 6.22/10
+

@@ -1,0 +1,16 @@
+************* Module download
+C: 45, 0: Line too long (110/100) (line-too-long)
+C:126, 0: Line too long (151/100) (line-too-long)
+C:130, 0: Line too long (105/100) (line-too-long)
+C:145, 0: Line too long (106/100) (line-too-long)
+C:152, 0: Line too long (101/100) (line-too-long)
+C:180, 0: Line too long (102/100) (line-too-long)
+C:269, 0: Line too long (105/100) (line-too-long)
+C:297, 0: Line too long (101/100) (line-too-long)
+R: 37, 0: Too many local variables (23/15) (too-many-locals)
+R: 37, 0: Too many branches (28/12) (too-many-branches)
+R: 37, 0: Too many statements (109/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 9.34/10
+

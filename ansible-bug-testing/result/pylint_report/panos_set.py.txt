@@ -1,0 +1,11 @@
+************* Module ansible.modules.network.panos.panos_set
+C:153, 0: Line too long (113/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:105, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:114, 0: Missing function docstring (missing-docstring)
+C:145,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:152,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.24/10
+

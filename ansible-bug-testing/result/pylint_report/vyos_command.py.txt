@@ -1,0 +1,16 @@
+************* Module ansible.modules.network.vyos.vyos_command
+C:  1, 0: Missing module docstring (missing-docstring)
+C:139, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C:141, 0: Import "from ansible.module_utils._text import to_text" should be placed at the top of the module (wrong-import-position)
+C:142, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:143, 0: Import "from ansible.module_utils.network.common.parsing import Conditional" should be placed at the top of the module (wrong-import-position)
+C:144, 0: Import "from ansible.module_utils.network.common.utils import transform_commands, to_lines" should be placed at the top of the module (wrong-import-position)
+C:145, 0: Import "from ansible.module_utils.network.vyos.vyos import run_commands" should be placed at the top of the module (wrong-import-position)
+C:146, 0: Import "from ansible.module_utils.network.vyos.vyos import vyos_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:149, 0: Missing function docstring (missing-docstring)
+C:164, 0: Missing function docstring (missing-docstring)
+R:164, 0: Too many local variables (17/15) (too-many-locals)
+
+-----------------------------------
+Your code has been rated at 7.92/10
+

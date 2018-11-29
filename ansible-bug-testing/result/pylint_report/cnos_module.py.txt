@@ -1,0 +1,30 @@
+************* Module units.modules.network.cnos.cnos_module
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 28, 0: Unable to import 'ansible.module_utils' (import-error)
+E: 29, 0: Unable to import 'ansible.module_utils._text' (import-error)
+C: 32, 0: Constant name "fixture_path" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 33, 0: Constant name "fixture_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 36, 0: Missing function docstring (missing-docstring)
+C: 42,23: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+W: 47, 4: No exception type(s) specified (bare-except)
+C: 54, 0: Missing class docstring (missing-docstring)
+C: 58, 0: Missing class docstring (missing-docstring)
+C: 62, 0: Missing class docstring (missing-docstring)
+C: 73, 4: Missing method docstring (missing-docstring)
+R: 73, 4: Too many arguments (6/5) (too-many-arguments)
+W: 74,34: Unused argument 'defaults' (unused-argument)
+C: 95, 4: Missing method docstring (missing-docstring)
+C: 96, 8: Missing function docstring (missing-docstring)
+W: 96, 0: Unused argument 'args' (unused-argument)
+E:102,16: Instance of 'TestCnosModule' has no 'module' member (no-member)
+C:108, 4: Missing method docstring (missing-docstring)
+C:109, 8: Missing function docstring (missing-docstring)
+W:109, 0: Unused argument 'args' (unused-argument)
+E:116,16: Instance of 'TestCnosModule' has no 'module' member (no-member)
+C:122, 4: Missing method docstring (missing-docstring)
+W: 29, 0: Unused to_bytes imported from ansible.module_utils._text (unused-import)
+
+-----------------------------------
+Your code has been rated at 4.06/10
+

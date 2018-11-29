@@ -1,0 +1,14 @@
+************* Module ansible.modules.cloud.misc.cloud_init_data_facts
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 90, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C: 92, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 93, 0: Import "from ansible.module_utils._text import to_text" should be placed at the top of the module (wrong-import-position)
+W:105, 8: Redefining built-in 'filter' (redefined-builtin)
+C: 99, 0: Missing function docstring (missing-docstring)
+C:111,16: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C:120, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.10/10
+

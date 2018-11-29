@@ -1,0 +1,31 @@
+************* Module ansible.modules.cloud.oneandone.oneandone_server
+C:634, 0: Line too long (102/100) (line-too-long)
+C:638, 0: Line too long (107/100) (line-too-long)
+C:641, 0: Line too long (109/100) (line-too-long)
+W:211, 0: Redefining built-in 'xrange' (redefined-builtin)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 18, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:209, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:210, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+E:211, 0: Unable to import 'ansible.module_utils.six.moves' (import-error)
+C:211, 0: Import "from ansible.module_utils.six.moves import xrange" should be placed at the top of the module (wrong-import-position)
+C:212, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:213, 0: Import "from ansible.module_utils.oneandone import get_datacenter, get_fixed_instance_size, get_appliance, get_private_network, get_monitoring_policy, get_firewall_policy, get_load_balancer, get_server, OneAndOneResources, wait_for_resource_creation_completion, wait_for_resource_deletion_completion" should be placed at the top of the module (wrong-import-position)
+R:252, 0: Too many arguments (20/5) (too-many-arguments)
+R:252, 0: Too many local variables (23/15) (too-many-locals)
+W:297,11: Catching too general exception Exception (broad-except)
+R:310, 0: Too many local variables (39/15) (too-many-locals)
+R:310, 0: Too many branches (21/12) (too-many-branches)
+R:310, 0: Too many statements (80/50) (too-many-statements)
+W:491,15: Catching too general exception Exception (broad-except)
+W:542,15: Catching too general exception Exception (broad-except)
+R:596, 4: Unnecessary "else" after "return" (no-else-return)
+C:605, 0: Missing function docstring (missing-docstring)
+W:669,15: Catching too general exception Exception (broad-except)
+W:678,15: Catching too general exception Exception (broad-except)
+W:690,15: Catching too general exception Exception (broad-except)
+R:605, 0: Too many branches (14/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 8.68/10
+

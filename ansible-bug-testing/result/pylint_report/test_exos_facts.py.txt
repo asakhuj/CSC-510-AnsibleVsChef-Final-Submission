@@ -1,0 +1,21 @@
+************* Module units.modules.network.exos.test_exos_facts
+C: 98, 0: Line too long (104/100) (line-too-long)
+C:101, 0: Line too long (120/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 26, 0: Unable to import 'ansible.modules.network.exos' (import-error)
+C: 31, 0: Missing class docstring (missing-docstring)
+C: 47, 8: Missing function docstring (missing-docstring)
+C: 55,39: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+W: 48,12: Unused variable 'module' (unused-variable)
+W: 47, 0: Unused argument 'kwargs' (unused-argument)
+C: 62, 4: Missing method docstring (missing-docstring)
+C: 75, 4: Missing method docstring (missing-docstring)
+C: 85, 4: Missing method docstring (missing-docstring)
+W: 23, 0: Unused import json (unused-import)
+W: 28, 0: Unused load_fixture imported from exos_module (unused-import)
+C: 27, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 6.15/10
+

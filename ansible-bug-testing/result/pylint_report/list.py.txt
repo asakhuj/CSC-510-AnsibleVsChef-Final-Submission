@@ -1,0 +1,12 @@
+************* Module ansible.plugins.lookup.list
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 32, 0: Import "from ansible.module_utils.common._collections_compat import Sequence" should be placed at the top of the module (wrong-import-position)
+C: 33, 0: Import "from ansible.plugins.lookup import LookupBase" should be placed at the top of the module (wrong-import-position)
+C: 34, 0: Import "from ansible.errors import AnsibleError" should be placed at the top of the module (wrong-import-position)
+C: 37, 0: Missing class docstring (missing-docstring)
+W: 39, 4: Parameters differ from overridden 'run' method (arguments-differ)
+
+-----------------------------------
+Your code has been rated at 4.62/10
+

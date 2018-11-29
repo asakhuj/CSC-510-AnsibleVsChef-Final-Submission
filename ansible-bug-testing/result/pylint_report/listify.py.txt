@@ -1,0 +1,11 @@
+************* Module ansible.utils.listify
+C: 33, 0: Line too long (111/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 30, 0: Missing function docstring (missing-docstring)
+W: 30,48: Unused argument 'loader' (unused-argument)
+W: 24, 0: Unused safe_eval imported from ansible.template.safe_eval (unused-import)
+
+-----------------------------------
+Your code has been rated at 5.38/10
+

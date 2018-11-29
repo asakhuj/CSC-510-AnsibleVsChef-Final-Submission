@@ -1,0 +1,15 @@
+************* Module units.modules.network.vyos.test_vyos_static_route
+C: 54, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 23, 0: Unable to import 'ansible.modules.network.vyos' (import-error)
+C: 28, 0: Missing class docstring (missing-docstring)
+W: 47, 4: Parameters differ from overridden 'load_fixtures' method (arguments-differ)
+W: 47,43: Unused argument 'transport' (unused-argument)
+C: 50, 4: Missing method docstring (missing-docstring)
+W: 25, 0: Unused load_fixture imported from vyos_module (unused-import)
+C: 24, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 4.17/10
+

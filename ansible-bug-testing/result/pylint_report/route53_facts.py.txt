@@ -1,0 +1,31 @@
+************* Module ansible.modules.cloud.amazon.route53_facts
+C:415, 0: Wrong continued indentation (add 20 spaces).
+    )
+    ^                   | (bad-continuation)
+C:430, 0: Line too long (131/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:187, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:188, 0: Import "from ansible.module_utils.ec2 import boto3_conn, ec2_argument_spec, get_aws_connection_info" should be placed at the top of the module (wrong-import-position)
+C:191, 0: Missing function docstring (missing-docstring)
+C:203, 0: Missing function docstring (missing-docstring)
+C:220, 0: Missing function docstring (missing-docstring)
+C:236, 0: Missing function docstring (missing-docstring)
+C:252, 0: Missing function docstring (missing-docstring)
+C:264, 0: Missing function docstring (missing-docstring)
+W:264,37: Unused argument 'module' (unused-argument)
+C:269, 0: Missing function docstring (missing-docstring)
+C:278, 0: Missing function docstring (missing-docstring)
+C:296, 0: Missing function docstring (missing-docstring)
+C:313, 0: Missing function docstring (missing-docstring)
+C:326, 0: Missing function docstring (missing-docstring)
+C:349, 0: Missing function docstring (missing-docstring)
+C:363, 0: Missing function docstring (missing-docstring)
+C:376, 0: Missing function docstring (missing-docstring)
+C:431,48: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:176, 4: Unused import botocore (unused-import)
+W:182, 4: Unused import boto3 (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.29/10
+

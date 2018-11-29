@@ -1,0 +1,18 @@
+************* Module ansible.modules.cloud.digital_ocean.digital_ocean_tag
+C:166, 0: Line too long (127/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:105, 0: Import "from traceback import format_exc" should be placed at the top of the module (wrong-import-position)
+C:106, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:107, 0: Import "from ansible.module_utils.digital_ocean import DigitalOceanHelper" should be placed at the top of the module (wrong-import-position)
+C:108, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:111, 0: Missing function docstring (missing-docstring)
+R:111, 0: Too many branches (22/12) (too-many-branches)
+R:111, 0: Too many statements (61/50) (too-many-statements)
+C:191, 0: Missing function docstring (missing-docstring)
+W:204,11: Catching too general exception Exception (broad-except)
+C:204,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.24/10
+

@@ -1,0 +1,19 @@
+************* Module ansible.modules.cloud.rackspace.rax_mon_check
+C:176, 0: Wrong continued indentation (remove 4 spaces).
+                                 (len(existing), label))
+                             |   ^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:135, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:136, 0: Import "from ansible.module_utils.rax import rax_argument_spec, rax_required_together, setup_rax_module" should be placed at the top of the module (wrong-import-position)
+C:139, 0: Missing function docstring (missing-docstring)
+R:139, 0: Too many arguments (13/5) (too-many-arguments)
+R:139, 0: Too many local variables (25/15) (too-many-locals)
+C:157, 4: Variable name "cm" doesn't conform to snake_case naming style (invalid-name)
+R:139, 0: Too many branches (22/12) (too-many-branches)
+R:139, 0: Too many statements (52/50) (too-many-statements)
+C:260, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.57/10
+

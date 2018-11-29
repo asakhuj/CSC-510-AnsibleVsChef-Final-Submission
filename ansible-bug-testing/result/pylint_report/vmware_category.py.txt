@@ -1,0 +1,15 @@
+************* Module ansible.modules.cloud.vmware.vmware_category
+C:166, 0: Line too long (106/100) (line-too-long)
+C:194, 0: Line too long (103/100) (line-too-long)
+C:214, 0: Line too long (102/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 10, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:119, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:120, 0: Import "from ansible.module_utils.vmware_rest_client import VmwareRestClient" should be placed at the top of the module (wrong-import-position)
+C:127, 0: Missing class docstring (missing-docstring)
+R:223, 8: Unnecessary "else" after "return" (no-else-return)
+C:242, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.77/10
+

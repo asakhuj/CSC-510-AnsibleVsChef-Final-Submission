@@ -1,0 +1,24 @@
+************* Module units.modules.network.dellos6.test_dellos6_command
+C: 37, 0: Line too long (102/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 25, 0: Unable to import 'ansible.modules.network.dellos6' (import-error)
+C: 30, 0: Missing class docstring (missing-docstring)
+C: 46, 8: Missing function docstring (missing-docstring)
+W: 47,12: Unused variable 'module' (unused-variable)
+W: 46, 0: Unused argument 'kwargs' (unused-argument)
+C: 62, 4: Missing method docstring (missing-docstring)
+C: 68, 4: Missing method docstring (missing-docstring)
+C: 74, 4: Missing method docstring (missing-docstring)
+C: 79, 4: Method name "test_dellos6_command_wait_for_fails" doesn't conform to snake_case naming style (invalid-name)
+C: 79, 4: Missing method docstring (missing-docstring)
+C: 85, 4: Missing method docstring (missing-docstring)
+C: 91, 4: Missing method docstring (missing-docstring)
+C: 97, 4: Missing method docstring (missing-docstring)
+C:103, 4: Method name "test_dellos6_command_match_all_failure" doesn't conform to snake_case naming style (invalid-name)
+C:103, 4: Missing method docstring (missing-docstring)
+C: 26, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 6.57/10
+

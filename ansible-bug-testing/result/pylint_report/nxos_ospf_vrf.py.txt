@@ -1,0 +1,46 @@
+************* Module ansible.modules.network.nxos.nxos_ospf_vrf
+C:311, 0: Wrong continued indentation before block (add 4 spaces).
+                        PARAM_TO_DEFAULT_KEYMAP.get('timer_throttle_lsa_start') or
+                        ^   | (bad-continuation)
+C:312, 0: Wrong continued indentation before block (add 4 spaces).
+                        existing['timer_throttle_lsa_hold'] !=
+                        ^   | (bad-continuation)
+C:313, 0: Wrong continued indentation before block (add 4 spaces).
+                        PARAM_TO_DEFAULT_KEYMAP.get('timer_throttle_lsa_hold') or
+                        ^   | (bad-continuation)
+C:314, 0: Wrong continued indentation before block (add 4 spaces).
+                        existing['timer_throttle_lsa_max'] !=
+                        ^   | (bad-continuation)
+C:323, 0: Wrong continued indentation before block (add 4 spaces).
+                        PARAM_TO_DEFAULT_KEYMAP.get('timer_throttle_spf_start') or
+                        ^   | (bad-continuation)
+C:324, 0: Wrong continued indentation before block (add 4 spaces).
+                        existing['timer_throttle_spf_hold'] !=
+                        ^   | (bad-continuation)
+C:325, 0: Wrong continued indentation before block (add 4 spaces).
+                        PARAM_TO_DEFAULT_KEYMAP.get('timer_throttle_spf_hold') or
+                        ^   | (bad-continuation)
+C:326, 0: Wrong continued indentation before block (add 4 spaces).
+                        existing['timer_throttle_spf_max'] !=
+                        ^   | (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:127, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:128, 0: Import "from ansible.module_utils.network.nxos.nxos import get_config, load_config" should be placed at the top of the module (wrong-import-position)
+C:129, 0: Import "from ansible.module_utils.network.nxos.nxos import nxos_argument_spec, check_args" should be placed at the top of the module (wrong-import-position)
+C:130, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:131, 0: Import "from ansible.module_utils.network.common.config import CustomNetworkConfig" should be placed at the top of the module (wrong-import-position)
+C:166, 0: Missing function docstring (missing-docstring)
+R:166, 0: Too many branches (19/12) (too-many-branches)
+C:225, 0: Missing function docstring (missing-docstring)
+C:234, 0: Missing function docstring (missing-docstring)
+R:235, 4: Unnecessary "else" after "return" (no-else-return)
+C:241, 0: Missing function docstring (missing-docstring)
+R:241, 0: Too many branches (22/12) (too-many-branches)
+C:300, 0: Missing function docstring (missing-docstring)
+W:300,35: Unused argument 'proposed' (unused-argument)
+R:300, 0: Too many branches (17/12) (too-many-branches)
+C:356, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.63/10
+

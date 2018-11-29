@@ -1,0 +1,21 @@
+************* Module ansible.modules.monitoring.spectrum_device
+C:157, 0: Line too long (106/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:119, 0: Import "from socket import gethostbyname, gaierror" should be placed at the top of the module (wrong-import-position)
+C:120, 0: Import "import xml.etree.ElementTree as ET" should be placed at the top of the module (wrong-import-position)
+C:122, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:123, 0: Import "from ansible.module_utils.urls import fetch_url" should be placed at the top of the module (wrong-import-position)
+C:126, 0: Missing function docstring (missing-docstring)
+C:145, 0: Missing function docstring (missing-docstring)
+C:149, 0: Missing function docstring (missing-docstring)
+C:153, 0: Missing function docstring (missing-docstring)
+C:237, 0: Missing function docstring (missing-docstring)
+C:278, 0: Missing function docstring (missing-docstring)
+C:303, 0: Missing function docstring (missing-docstring)
+W:304, 4: Global variable 'module' undefined at the module level (global-variable-undefined)
+C:304, 4: Constant name "module" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.28/10
+

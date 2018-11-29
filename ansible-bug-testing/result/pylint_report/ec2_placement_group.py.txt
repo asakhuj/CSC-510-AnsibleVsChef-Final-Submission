@@ -1,0 +1,16 @@
+************* Module ansible.modules.cloud.amazon.ec2_placement_group
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 89, 0: Import "from ansible.module_utils.aws.core import AnsibleAWSModule" should be placed at the top of the module (wrong-import-position)
+C: 90, 0: Import "from ansible.module_utils.ec2 import AWSRetry, boto3_conn, ec2_argument_spec, get_aws_connection_info" should be placed at the top of the module (wrong-import-position)
+C:101, 0: Missing function docstring (missing-docstring)
+C:109,43: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:114, 4: Unnecessary "else" after "return" (no-else-return)
+C:126, 0: Missing function docstring (missing-docstring)
+C:133,43: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:151, 0: Missing function docstring (missing-docstring)
+C:157,43: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:165, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.17/10
+

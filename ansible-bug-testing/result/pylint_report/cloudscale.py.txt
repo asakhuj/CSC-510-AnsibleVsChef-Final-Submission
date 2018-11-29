@@ -1,0 +1,16 @@
+************* Module ansible.module_utils.cloudscale
+C:  4, 0: Line too long (106/100) (line-too-long)
+C: 76, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 17, 0: Missing function docstring (missing-docstring)
+C: 26, 0: Missing class docstring (missing-docstring)
+R: 32, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R: 45, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R: 66, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+W: 67, 8: Unused variable 'resp' (unused-variable)
+R: 26, 0: Too few public methods (0/2) (too-few-public-methods)
+
+-----------------------------------
+Your code has been rated at 6.86/10
+

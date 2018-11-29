@@ -1,0 +1,29 @@
+************* Module ansible.plugins.connection.persistent
+C: 63, 0: Line too long (110/100) (line-too-long)
+C: 84, 0: Line too long (114/100) (line-too-long)
+C: 86, 0: Line too long (105/100) (line-too-long)
+C:121, 0: Line too long (120/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 32, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C: 33, 0: Import "import pty" should be placed at the top of the module (wrong-import-position)
+C: 34, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C: 35, 0: Import "import subprocess" should be placed at the top of the module (wrong-import-position)
+C: 36, 0: Import "import sys" should be placed at the top of the module (wrong-import-position)
+E: 37, 0: Unable to import 'termios' (import-error)
+C: 37, 0: Import "import termios" should be placed at the top of the module (wrong-import-position)
+C: 39, 0: Import "from ansible import constants as C" should be placed at the top of the module (wrong-import-position)
+C: 40, 0: Import "from ansible.plugins.connection import ConnectionBase" should be placed at the top of the module (wrong-import-position)
+C: 41, 0: Import "from ansible.module_utils._text import to_text" should be placed at the top of the module (wrong-import-position)
+C: 42, 0: Import "from ansible.module_utils.connection import Connection as SocketConnection, write_to_file_descriptor" should be placed at the top of the module (wrong-import-position)
+C: 43, 0: Import "from ansible.errors import AnsibleError" should be placed at the top of the module (wrong-import-position)
+E: 94,27: Module 'ansible.constants' has no 'ANSIBLE_CONNECTION_PATH' member (no-member)
+C:106, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+E:107,49: Module 'os' has no 'getppid' member; maybe 'getpid'? (no-member)
+E:146,47: Module 'ansible.constants' has no 'COLOR_ERROR' member (no-member)
+R: 90, 4: Too many branches (13/12) (too-many-branches)
+C: 48, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 5.00/10
+

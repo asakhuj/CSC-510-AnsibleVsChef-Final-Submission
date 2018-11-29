@@ -1,0 +1,11 @@
+************* Module ansible.modules.network.panos.panos_dag
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 67, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 79, 0: Missing function docstring (missing-docstring)
+C: 81, 4: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C: 87, 0: Missing function docstring (missing-docstring)
+C:104, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.67/10
+

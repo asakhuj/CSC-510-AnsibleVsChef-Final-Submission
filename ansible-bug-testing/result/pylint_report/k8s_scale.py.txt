@@ -1,0 +1,9 @@
+************* Module ansible.modules.clustering.k8s.k8s_scale
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 10, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:121, 0: Import "from ansible.module_utils.k8s.scale import KubernetesAnsibleScaleModule" should be placed at the top of the module (wrong-import-position)
+C:124, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 6.36/10
+

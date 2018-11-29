@@ -1,0 +1,21 @@
+************* Module ansible.modules.packaging.os.pkg5_publisher
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 69, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 72, 0: Missing function docstring (missing-docstring)
+C: 96, 0: Missing function docstring (missing-docstring)
+R: 96, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:111, 0: Missing function docstring (missing-docstring)
+C:132, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:147, 0: Missing function docstring (missing-docstring)
+C:151, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:166, 0: Missing function docstring (missing-docstring)
+C:167, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W:167,13: Unused variable 'err' (unused-variable)
+W:167, 4: Unused variable 'rc' (unused-variable)
+C:190, 0: Missing function docstring (missing-docstring)
+R:191, 4: Unnecessary "else" after "return" (no-else-return)
+
+-----------------------------------
+Your code has been rated at 7.97/10
+

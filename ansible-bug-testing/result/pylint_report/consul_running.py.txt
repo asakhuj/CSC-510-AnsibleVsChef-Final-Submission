@@ -1,0 +1,9 @@
+************* Module consul_running
+C:  9, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W: 10, 4: No exception type(s) specified (bare-except)
+E:  6, 8: Unable to import 'consul' (import-error)
+C:  7, 8: Constant name "consul" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 0.00/10
+

@@ -1,0 +1,49 @@
+************* Module ansible.module_utils.network.fortios.fortios
+C: 83, 0: Line too long (102/100) (line-too-long)
+C:115, 0: Line too long (111/100) (line-too-long)
+C:177, 0: Line too long (146/100) (line-too-long)
+C:195, 0: Line too long (112/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 45, 0: Constant name "fortios_argument_spec" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 58, 0: Constant name "fortios_required_if" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 64, 0: Constant name "fortios_mutually_exclusive" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 70, 0: Constant name "fortios_error_codes" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 76, 0: Missing function docstring (missing-docstring)
+W: 82, 8: No exception type(s) specified (bare-except)
+C: 85, 7: Comparison should be len(backup_filename) > 0 (misplaced-comparison-constant)
+C: 85, 7: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+W: 91, 4: No exception type(s) specified (bare-except)
+C: 95, 0: Missing class docstring (missing-docstring)
+W:119,19: Catching too general exception Exception (broad-except)
+C:119,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:123, 4: Missing method docstring (missing-docstring)
+C:129,16: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C:132,30: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:141,19: Catching too general exception Exception (broad-except)
+C:141,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:154, 4: Missing method docstring (missing-docstring)
+C:164,20: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C:167,34: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:173,39: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:182, 4: Missing method docstring (missing-docstring)
+C:185, 4: Missing method docstring (missing-docstring)
+C:188, 4: Missing method docstring (missing-docstring)
+R:188, 4: Method could be a function (no-self-use)
+C:199, 4: Missing method docstring (missing-docstring)
+R:199, 4: Method could be a function (no-self-use)
+W:148, 8: Attribute 'candidate_config' defined outside __init__ (attribute-defined-outside-init)
+W:124, 8: Attribute 'path' defined outside __init__ (attribute-defined-outside-init)
+W:107,12: Attribute 'forti_device' defined outside __init__ (attribute-defined-outside-init)
+W:115,12: Attribute 'forti_device' defined outside __init__ (attribute-defined-outside-init)
+
+-----------------------------------
+Your code has been rated at 6.60/10
+
+************* Module ansible.utils.module_docs_fragments.fortios
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Missing class docstring (missing-docstring)
+R: 21, 0: Too few public methods (0/2) (too-few-public-methods)
+
+------------------------------------
+Your code has been rated at -5.00/10
+

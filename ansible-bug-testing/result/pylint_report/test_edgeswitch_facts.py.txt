@@ -1,0 +1,18 @@
+************* Module units.modules.network.edgeswitch.test_edgeswitch_facts
+C: 35, 0: Line too long (106/100) (line-too-long)
+C: 73, 0: Line too long (143/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 19, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 24, 0: Unable to import 'ansible.modules.network.edgeswitch' (import-error)
+C: 29, 0: Missing class docstring (missing-docstring)
+C: 43, 8: Missing function docstring (missing-docstring)
+W: 44,12: Unused variable 'module' (unused-variable)
+C: 55, 4: Missing method docstring (missing-docstring)
+C: 64, 4: Method name "test_edgeswitch_facts_interfaces" doesn't conform to snake_case naming style (invalid-name)
+C: 64, 4: Missing method docstring (missing-docstring)
+W: 21, 0: Unused import json (unused-import)
+C: 25, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 6.14/10
+

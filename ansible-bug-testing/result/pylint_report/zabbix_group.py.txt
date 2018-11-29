@@ -1,0 +1,27 @@
+************* Module ansible.modules.monitoring.zabbix.zabbix_group
+C:149, 0: Line too long (119/100) (line-too-long)
+C:165, 0: Line too long (102/100) (line-too-long)
+C:186, 0: Line too long (109/100) (line-too-long)
+C:193, 0: Line too long (108/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 86, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 89, 0: Missing class docstring (missing-docstring)
+C: 95, 4: Missing method docstring (missing-docstring)
+W:109,15: Catching too general exception Exception (broad-except)
+C:109,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:113, 4: Missing method docstring (missing-docstring)
+W:118,15: Catching too general exception Exception (broad-except)
+C:118,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:122, 4: Missing method docstring (missing-docstring)
+C:132, 0: Missing function docstring (missing-docstring)
+R:132, 0: Too many local variables (18/15) (too-many-locals)
+W:168,11: Catching too general exception Exception (broad-except)
+C:168,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:171, 4: Variable name "hostGroup" doesn't conform to snake_case naming style (invalid-name)
+C:192,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+W: 79, 4: Unused ZabbixAPISubClass imported from zabbix_api (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.38/10
+

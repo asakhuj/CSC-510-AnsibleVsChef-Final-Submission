@@ -1,0 +1,19 @@
+************* Module ansible.playbook.taggable
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 30, 0: Missing class docstring (missing-docstring)
+W: 35, 4: Useless super delegation in method '__init__' (useless-super-delegation)
+E: 36, 8: Super of 'Taggable' has no '__init__' member (no-member)
+C: 38, 4: Argument name "ds" doesn't conform to snake_case naming style (invalid-name)
+R: 43,12: Unnecessary "else" after "return" (no-else-return)
+W: 38,25: Unused argument 'attr' (unused-argument)
+R: 38, 4: Method could be a function (no-self-use)
+E: 53,11: Instance of 'Taggable' has no 'tags' member; maybe '_tags'? (no-member)
+E: 54,37: Instance of 'Taggable' has no '_loader' member (no-member)
+E: 55,36: Instance of 'Taggable' has no 'tags' member; maybe '_tags'? (no-member)
+R: 50, 4: Too many branches (17/12) (too-many-branches)
+R: 30, 0: Too few public methods (1/2) (too-few-public-methods)
+
+-----------------------------------
+Your code has been rated at 4.12/10
+

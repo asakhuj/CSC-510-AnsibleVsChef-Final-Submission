@@ -1,0 +1,28 @@
+************* Module pygments_lexer
+C:479, 0: Line too long (102/100) (line-too-long)
+C:480, 0: Line too long (102/100) (line-too-long)
+C:481, 0: Line too long (102/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+E: 39, 0: No name 'DjangoLexer' in module 'pygments.lexers' (no-name-in-module)
+R: 43, 0: Too few public methods (0/2) (too-few-public-methods)
+C: 69, 8: Missing function docstring (missing-docstring)
+W: 69,21: Unused argument 'lexer' (unused-argument)
+C: 79, 8: Missing function docstring (missing-docstring)
+W: 79,21: Unused argument 'lexer' (unused-argument)
+C: 91, 8: Missing function docstring (missing-docstring)
+E:107,49: Instance of 'AnsibleYamlLexer' has no 'Error' member (no-member)
+W: 91,21: Unused argument 'lexer' (unused-argument)
+C:113, 8: Missing function docstring (missing-docstring)
+W:113,21: Unused argument 'lexer' (unused-argument)
+C:126, 8: Missing function docstring (missing-docstring)
+W:126,21: Unused argument 'lexer' (unused-argument)
+C:143, 8: Missing function docstring (missing-docstring)
+W:143,21: Unused argument 'lexer' (unused-argument)
+C:160, 8: Missing function docstring (missing-docstring)
+W:160,21: Unused argument 'lexer' (unused-argument)
+C:180, 8: Missing function docstring (missing-docstring)
+W:180,21: Unused argument 'lexer' (unused-argument)
+
+------------------------------------------------------------------
+Your code has been rated at 7.80/10 (previous run: 7.80/10, +0.00)
+

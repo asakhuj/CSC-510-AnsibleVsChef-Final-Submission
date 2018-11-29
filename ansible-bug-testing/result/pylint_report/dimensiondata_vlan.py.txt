@@ -1,0 +1,31 @@
+************* Module ansible.modules.cloud.dimensiondata.dimensiondata_vlan
+C:222, 0: Line too long (101/100) (line-too-long)
+C:240, 0: Line too long (102/100) (line-too-long)
+C:387, 0: Line too long (152/100) (line-too-long)
+C:393, 0: Line too long (112/100) (line-too-long)
+C:404, 0: Line too long (151/100) (line-too-long)
+C:482, 0: Line too long (126/100) (line-too-long)
+C:483, 0: Line too long (121/100) (line-too-long)
+C:486, 0: Line too long (118/100) (line-too-long)
+C:501, 0: Line too long (103/100) (line-too-long)
+C:504, 0: Line too long (111/100) (line-too-long)
+C:511, 0: Line too long (109/100) (line-too-long)
+C:515, 0: Line too long (131/100) (line-too-long)
+C:519, 0: Line too long (120/100) (line-too-long)
+C:528, 0: Line too long (122/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 24, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:159, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:160, 0: Import "from ansible.module_utils.dimensiondata import DimensionDataModule, UnknownNetworkError" should be placed at the top of the module (wrong-import-position)
+C:488, 8: Attribute name "private_ipv4_prefix_size_decreased" doesn't conform to snake_case naming style (invalid-name)
+C:482, 8: Attribute name "private_ipv4_base_address_changed" doesn't conform to snake_case naming style (invalid-name)
+C:483, 8: Attribute name "private_ipv4_prefix_size_changed" doesn't conform to snake_case naming style (invalid-name)
+C:487, 8: Attribute name "private_ipv4_prefix_size_increased" doesn't conform to snake_case naming style (invalid-name)
+R:463, 0: Too many instance attributes (8/7) (too-many-instance-attributes)
+C:486, 8: Variable name "private_ipv4_prefix_size_difference" doesn't conform to snake_case naming style (invalid-name)
+C:538, 0: Missing function docstring (missing-docstring)
+C:554, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.14/10
+

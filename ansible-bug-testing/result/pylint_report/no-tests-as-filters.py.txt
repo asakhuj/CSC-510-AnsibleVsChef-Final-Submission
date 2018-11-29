@@ -1,0 +1,12 @@
+************* Module no-tests-as-filters
+C: 27, 0: Line too long (134/100) (line-too-long)
+C: 78, 0: Line too long (126/100) (line-too-long)
+C:  1, 0: Module name "no-tests-as-filters" doesn't conform to snake_case naming style (invalid-name)
+C:  1, 0: Missing module docstring (missing-docstring)
+E: 25, 0: Unable to import 'ansible.plugins.test' (import-error)
+C: 51, 0: Missing function docstring (missing-docstring)
+C: 53,27: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.33/10
+

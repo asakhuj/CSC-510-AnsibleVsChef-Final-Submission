@@ -1,0 +1,31 @@
+************* Module units.modules.network.slxos.test_slxos_linkagg
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 26, 0: Unable to import 'ansible.modules.network.slxos' (import-error)
+C: 31, 0: Missing class docstring (missing-docstring)
+C: 56, 4: Method name "test_slxos_linkagg_group_present" doesn't conform to snake_case naming style (invalid-name)
+C: 56, 4: Missing method docstring (missing-docstring)
+W: 56, 0: Unused argument 'args' (unused-argument)
+W: 56, 0: Unused argument 'kwargs' (unused-argument)
+C: 73, 4: Method name "test_slxos_linkagg_group_members_active" doesn't conform to snake_case naming style (invalid-name)
+C: 73, 4: Missing method docstring (missing-docstring)
+W: 73, 0: Unused argument 'args' (unused-argument)
+W: 73, 0: Unused argument 'kwargs' (unused-argument)
+C: 98, 4: Method name "test_slxos_linkagg_group_member_removal" doesn't conform to snake_case naming style (invalid-name)
+C: 98, 4: Missing method docstring (missing-docstring)
+W: 98, 0: Unused argument 'args' (unused-argument)
+W: 98, 0: Unused argument 'kwargs' (unused-argument)
+C:120, 4: Method name "test_slxos_linkagg_group_members_absent" doesn't conform to snake_case naming style (invalid-name)
+C:120, 4: Missing method docstring (missing-docstring)
+W:120, 0: Unused argument 'args' (unused-argument)
+W:120, 0: Unused argument 'kwargs' (unused-argument)
+C:148, 4: Method name "test_slxos_linkagg_invalid_argument" doesn't conform to snake_case naming style (invalid-name)
+C:148, 4: Missing method docstring (missing-docstring)
+W:148, 0: Unused argument 'args' (unused-argument)
+W:148, 0: Unused argument 'kwargs' (unused-argument)
+W: 23, 0: Unused import json (unused-import)
+C: 27, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 3.75/10
+

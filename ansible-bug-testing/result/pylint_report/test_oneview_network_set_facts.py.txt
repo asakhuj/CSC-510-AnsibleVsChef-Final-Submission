@@ -1,0 +1,19 @@
+************* Module test_oneview_network_set_facts
+C: 46, 0: Line too long (105/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  4, 0: Unable to import 'units.compat' (import-error)
+C: 33, 0: Missing class docstring (missing-docstring)
+C: 35, 4: Method name "setUp" doesn't conform to snake_case naming style (invalid-name)
+C: 35, 4: Missing method docstring (missing-docstring)
+C: 40, 4: Method name "test_should_get_all_network_sets" doesn't conform to snake_case naming style (invalid-name)
+C: 40, 4: Missing method docstring (missing-docstring)
+C: 60, 4: Method name "test_should_get_all_network_sets_without_ethernet" doesn't conform to snake_case naming style (invalid-name)
+C: 60, 4: Missing method docstring (missing-docstring)
+C: 80, 4: Method name "test_should_get_network_set_by_name" doesn't conform to snake_case naming style (invalid-name)
+C: 80, 4: Missing method docstring (missing-docstring)
+C: 97, 4: Method name "test_should_get_network_set_by_name_without_ethernet" doesn't conform to snake_case naming style (invalid-name)
+C: 97, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 5.91/10
+

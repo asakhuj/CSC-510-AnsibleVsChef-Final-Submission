@@ -1,0 +1,18 @@
+************* Module ansible.module_utils.aws.waiters
+C:327, 0: Line too long (112/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Constant name "ec2_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:158, 0: Constant name "waf_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:182, 0: Constant name "eks_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:207, 0: Constant name "rds_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:227, 0: Missing function docstring (missing-docstring)
+C:232, 0: Missing function docstring (missing-docstring)
+C:237, 0: Missing function docstring (missing-docstring)
+C:242, 0: Missing function docstring (missing-docstring)
+C:247, 0: Constant name "waiters_by_name" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:323, 0: Missing function docstring (missing-docstring)
+C:328,66: Consider iterating the dictionary directly instead of calling .keys() (consider-iterating-dictionary)
+
+-----------------------------------
+Your code has been rated at 5.00/10
+

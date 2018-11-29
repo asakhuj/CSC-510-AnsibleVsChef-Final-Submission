@@ -1,0 +1,19 @@
+************* Module ansible.modules.network.cloudengine.ce_snmp_traps
+C:130, 0: Line too long (111/100) (line-too-long)
+C:522, 0: Line too long (103/100) (line-too-long)
+C:524, 0: Line too long (103/100) (line-too-long)
+C:526, 0: Line too long (101/100) (line-too-long)
+C:527, 0: Line too long (104/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:129, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:130, 0: Import "from ansible.module_utils.network.cloudengine.ce import get_config, load_config, ce_argument_spec, run_commands" should be placed at the top of the module (wrong-import-position)
+R:133, 0: Too many instance attributes (16/7) (too-many-instance-attributes)
+R:216, 4: Too many branches (13/12) (too-many-branches)
+R:259, 4: Too many branches (13/12) (too-many-branches)
+R:407, 8: Too many nested blocks (6/5) (too-many-nested-blocks)
+R:396, 4: Too many branches (44/12) (too-many-branches)
+R:396, 4: Too many statements (86/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 9.49/10
+

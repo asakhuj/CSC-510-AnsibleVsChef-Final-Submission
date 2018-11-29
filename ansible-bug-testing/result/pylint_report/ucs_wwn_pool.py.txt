@@ -1,0 +1,26 @@
+************* Module ansible.modules.remote_management.ucs.ucs_wwn_pool
+C:136, 0: Line too long (128/100) (line-too-long)
+C:171, 0: Line too long (109/100) (line-too-long)
+C:197, 0: Unnecessary parens after 'if' keyword (superfluous-parens)
+C:200, 0: Line too long (114/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:118, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:119, 0: Import "from ansible.module_utils.remote_management.ucs import UCSModule, ucs_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:122, 0: Missing function docstring (missing-docstring)
+R:122, 0: Too many local variables (18/15) (too-many-locals)
+E:154, 4: Unable to import 'ucsmsdk.mometa.fcpool.FcpoolInitiators' (import-error)
+E:155, 4: Unable to import 'ucsmsdk.mometa.fcpool.FcpoolBlock' (import-error)
+W:228,11: Catching too general exception Exception (broad-except)
+C:177,12: Variable name "dn" doesn't conform to snake_case naming style (invalid-name)
+C:179,12: Variable name "mo" doesn't conform to snake_case naming style (invalid-name)
+R:158, 4: Too many nested blocks (7/5) (too-many-nested-blocks)
+C:210,24: Variable name "mo" doesn't conform to snake_case naming style (invalid-name)
+C:228,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:158, 4: Too many nested blocks (6/5) (too-many-nested-blocks)
+R:122, 0: Too many branches (20/12) (too-many-branches)
+R:122, 0: Too many statements (59/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 5.67/10
+

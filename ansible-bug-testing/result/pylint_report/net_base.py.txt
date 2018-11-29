@@ -1,0 +1,42 @@
+************* Module ansible.plugins.action.net_base
+C: 65, 0: Line too long (120/100) (line-too-long)
+C: 69, 0: Line too long (116/100) (line-too-long)
+C: 77, 0: Line too long (102/100) (line-too-long)
+C: 79, 0: Line too long (111/100) (line-too-long)
+C: 88, 0: Line too long (123/100) (line-too-long)
+C: 90, 0: Line too long (121/100) (line-too-long)
+C: 98, 0: Line too long (118/100) (line-too-long)
+C:110, 0: Line too long (101/100) (line-too-long)
+C:140, 0: Wrong continued indentation (add 21 spaces).
+                          module_args=new_module_args, task_vars=task_vars,
+                          ^                    | (bad-continuation)
+C:141, 0: Wrong continued indentation (add 21 spaces).
+                          wrap_async=self._task.async_val))
+                          ^                    | (bad-continuation)
+C:150, 0: Line too long (113/100) (line-too-long)
+C:161, 0: Line too long (118/100) (line-too-long)
+C:176, 0: Line too long (109/100) (line-too-long)
+C:180, 0: Line too long (116/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 18, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 44, 0: Missing class docstring (missing-docstring)
+R: 46, 4: Too many local variables (16/15) (too-many-locals)
+E: 50,23: Module 'copy' has no 'deepcopy' member (no-member)
+C: 59,12: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C: 59,15: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C: 59,18: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C: 61,16: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C: 61,19: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C: 61,22: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+E: 80,67: Module 'ansible.constants' has no 'PERSISTENT_COMMAND_TIMEOUT' member (no-member)
+R:121,12: The if statement can be replaced with 'var = bool(test)' (simplifiable-if-statement)
+R: 46, 4: Too many branches (21/12) (too-many-branches)
+R: 46, 4: Too many statements (69/50) (too-many-statements)
+R: 44, 0: Too few public methods (1/2) (too-few-public-methods)
+W: 64,12: Attribute 'provider' defined outside __init__ (attribute-defined-outside-init)
+C: 32, 0: standard import "from imp import find_module, load_module" should be placed before "from ansible import constants as C" (wrong-import-order)
+C: 37, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 6.47/10
+

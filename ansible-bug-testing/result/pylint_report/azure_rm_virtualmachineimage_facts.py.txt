@@ -1,0 +1,22 @@
+************* Module ansible.modules.cloud.azure.azure_rm_virtualmachineimage_facts
+C:126, 0: Line too long (104/100) (line-too-long)
+C:158, 0: Line too long (103/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+W: 93, 0: No exception type(s) specified (bare-except)
+E: 92, 4: Unable to import 'msrestazure.azure_exceptions' (import-error)
+C: 97, 0: Import "from ansible.module_utils.azure_rm_common import AzureRMModuleBase" should be placed at the top of the module (wrong-import-position)
+C:103, 0: Missing class docstring (missing-docstring)
+W:105, 0: Unused argument 'kwargs' (unused-argument)
+C:144, 4: Missing method docstring (missing-docstring)
+C:162, 4: Missing method docstring (missing-docstring)
+W:172,15: Catching too general exception Exception (broad-except)
+C:181, 4: Missing method docstring (missing-docstring)
+W:189,15: Catching too general exception Exception (broad-except)
+C:198, 4: Missing method docstring (missing-docstring)
+W:205,15: Catching too general exception Exception (broad-except)
+C:215, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.59/10
+

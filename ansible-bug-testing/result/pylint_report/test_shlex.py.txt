@@ -1,0 +1,13 @@
+************* Module units.utils.test_shlex
+C:  1, 0: Missing module docstring (missing-docstring)
+E: 20, 0: Unable to import 'ansible.utils.shlex' (import-error)
+C: 23, 0: Missing class docstring (missing-docstring)
+C: 25, 4: Missing method docstring (missing-docstring)
+C: 28, 4: Missing method docstring (missing-docstring)
+C: 31, 4: Missing method docstring (missing-docstring)
+C: 34, 4: Missing method docstring (missing-docstring)
+C: 37, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 0.77/10
+

@@ -1,0 +1,24 @@
+************* Module ansible.modules.network.fortios.fortios_address
+C:208, 0: Line too long (102/100) (line-too-long)
+C:234, 0: Line too long (118/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:109, 0: Import "from ansible.module_utils.network.fortios.fortios import fortios_argument_spec, fortios_required_if" should be placed at the top of the module (wrong-import-position)
+C:110, 0: Import "from ansible.module_utils.network.fortios.fortios import backup, AnsibleFortios" should be placed at the top of the module (wrong-import-position)
+C:112, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+W:119, 0: No exception type(s) specified (bare-except)
+E:117, 4: Unable to import 'netaddr' (import-error)
+W:172, 4: No exception type(s) specified (bare-except)
+R:163, 8: Unnecessary "else" after "return" (no-else-return)
+C:166,12: Variable name "ip" doesn't conform to snake_case naming style (invalid-name)
+C:170,12: Variable name "ip" doesn't conform to snake_case naming style (invalid-name)
+W:167,12: Unused variable 'mask' (unused-variable)
+C:178, 0: Missing function docstring (missing-docstring)
+W:200, 4: Unused variable 'result' (unused-variable)
+R:178, 0: Too many branches (27/12) (too-many-branches)
+R:178, 0: Too many statements (63/50) (too-many-statements)
+W:110, 0: Unused backup imported from ansible.module_utils.network.fortios.fortios (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.44/10
+

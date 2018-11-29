@@ -1,0 +1,30 @@
+************* Module ansible.modules.cloud.vmware.vmware_cluster
+C:430, 0: Line too long (108/100) (line-too-long)
+C:433, 0: Line too long (108/100) (line-too-long)
+C:434, 0: Line too long (106/100) (line-too-long)
+C:435, 0: Line too long (107/100) (line-too-long)
+C:436, 0: Line too long (127/100) (line-too-long)
+C:437, 0: Line too long (136/100) (line-too-long)
+C:438, 0: Line too long (125/100) (line-too-long)
+C:439, 0: Line too long (128/100) (line-too-long)
+C:440, 0: Line too long (135/100) (line-too-long)
+C:453, 0: Line too long (112/100) (line-too-long)
+C:468, 0: Line too long (105/100) (line-too-long)
+C:522, 0: Line too long (105/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 10, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:228, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:229, 0: Import "from ansible.module_utils.vmware import PyVmomi, TaskError, find_datacenter_by_name, vmware_argument_spec, wait_for_task" should be placed at the top of the module (wrong-import-position)
+C:231, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:234, 0: Missing class docstring (missing-docstring)
+R:234, 0: Too many instance attributes (8/7) (too-many-instance-attributes)
+W:359,15: Catching too general exception Exception (broad-except)
+W:380,15: Catching too general exception Exception (broad-except)
+W:418,15: Catching too general exception Exception (broad-except)
+R:429,11: Too many boolean expressions in if statement (12/5) (too-many-boolean-expressions)
+W:492,15: Catching too general exception Exception (broad-except)
+C:497, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.53/10
+

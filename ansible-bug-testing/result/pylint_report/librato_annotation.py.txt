@@ -1,0 +1,12 @@
+************* Module ansible.modules.monitoring.librato_annotation
+C:137, 0: Line too long (120/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 99, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:100, 0: Import "from ansible.module_utils.urls import fetch_url" should be placed at the top of the module (wrong-import-position)
+C:103, 0: Missing function docstring (missing-docstring)
+C:144, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.41/10
+

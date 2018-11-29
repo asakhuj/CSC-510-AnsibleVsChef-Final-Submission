@@ -1,0 +1,25 @@
+************* Module units.modules.network.junos.test_junos_facts
+C: 61, 0: Line too long (102/100) (line-too-long)
+C: 64, 0: Line too long (103/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 28, 0: Unable to import 'ansible.modules.network.junos' (import-error)
+C: 42, 0: Missing class docstring (missing-docstring)
+R: 42, 0: Too many instance attributes (12/7) (too-many-instance-attributes)
+W: 76,43: Redefining built-in 'format' (redefined-builtin)
+C: 77, 8: Missing function docstring (missing-docstring)
+W: 77, 0: Unused argument 'kwargs' (unused-argument)
+C: 91, 4: Missing method docstring (missing-docstring)
+C:106, 4: Method name "test_junos_get_facts_subset_config_set" doesn't conform to snake_case naming style (invalid-name)
+C:106, 4: Missing method docstring (missing-docstring)
+C:117, 4: Method name "test_junos_get_facts_subset_config_json" doesn't conform to snake_case naming style (invalid-name)
+C:117, 4: Missing method docstring (missing-docstring)
+C:128, 4: Method name "test_junos_get_facts_subset_list" doesn't conform to snake_case naming style (invalid-name)
+C:128, 4: Missing method docstring (missing-docstring)
+C:137, 4: Method name "test_junos_get_facts_wrong_subset" doesn't conform to snake_case naming style (invalid-name)
+C:137, 4: Missing method docstring (missing-docstring)
+C: 29, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 7.24/10
+

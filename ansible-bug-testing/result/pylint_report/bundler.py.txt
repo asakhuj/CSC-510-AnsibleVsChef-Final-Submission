@@ -1,0 +1,14 @@
+************* Module ansible.modules.packaging.language.bundler
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:118, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:121, 0: Missing function docstring (missing-docstring)
+C:129, 0: Missing function docstring (missing-docstring)
+R:129, 0: Too many local variables (16/15) (too-many-locals)
+C:164, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:194, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+R:129, 0: Too many branches (13/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 8.39/10
+

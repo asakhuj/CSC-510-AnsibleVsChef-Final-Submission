@@ -1,0 +1,23 @@
+************* Module ansible.modules.cloud.openstack.os_listener
+C:168, 0: Wrong hanging indentation (remove 4 spaces).
+                    (lb.id, lb.provisioning_status)
+                |   ^ (bad-continuation)
+C:176, 0: Wrong hanging indentation (remove 4 spaces).
+            (lb.id, status)
+        |   ^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:146, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C:148, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:149, 0: Import "from ansible.module_utils.openstack import openstack_full_argument_spec, openstack_module_kwargs, openstack_cloud_from_module" should be placed at the top of the module (wrong-import-position)
+C:153, 0: Argument name "lb" doesn't conform to snake_case naming style (invalid-name)
+R:153, 0: Too many arguments (6/5) (too-many-arguments)
+C:180, 0: Missing function docstring (missing-docstring)
+C:202,16: Variable name "lb" doesn't conform to snake_case naming style (invalid-name)
+C:224,16: Variable name "lb" doesn't conform to snake_case naming style (invalid-name)
+C:243,20: Variable name "lb" doesn't conform to snake_case naming style (invalid-name)
+C:251,53: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.81/10
+

@@ -1,0 +1,13 @@
+************* Module ansible.module_utils.aws.batch
+C: 47, 0: Line too long (106/100) (line-too-long)
+C: 60, 0: Wrong continued indentation (remove 1 space).
+                                           ))
+                                          |^ (bad-continuation)
+C: 96, 0: Line too long (109/100) (line-too-long)
+C: 73, 4: Missing method docstring (missing-docstring)
+R: 40, 0: Too few public methods (1/2) (too-few-public-methods)
+C: 77, 0: Function name "cc" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.93/10
+

@@ -1,0 +1,27 @@
+************* Module ansible.modules.messaging.rabbitmq.rabbitmq_user
+C:175, 0: Line too long (113/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:121, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:124, 0: Missing class docstring (missing-docstring)
+R:124, 0: Too many instance attributes (10/7) (too-many-instance-attributes)
+R:125, 4: Too many arguments (8/5) (too-many-arguments)
+C:148,12: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W:148,21: Unused variable 'err' (unused-variable)
+W:148,12: Unused variable 'rc' (unused-variable)
+C:152, 4: Missing method docstring (missing-docstring)
+C:162,20: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:190, 4: Missing method docstring (missing-docstring)
+C:193, 4: Missing method docstring (missing-docstring)
+C:200, 4: Missing method docstring (missing-docstring)
+C:203, 4: Missing method docstring (missing-docstring)
+C:209, 4: Missing method docstring (missing-docstring)
+C:212, 4: Missing method docstring (missing-docstring)
+C:229, 4: Missing method docstring (missing-docstring)
+C:232, 4: Missing method docstring (missing-docstring)
+C:236, 0: Missing function docstring (missing-docstring)
+R:236, 0: Too many local variables (18/15) (too-many-locals)
+
+-----------------------------------
+Your code has been rated at 8.41/10
+

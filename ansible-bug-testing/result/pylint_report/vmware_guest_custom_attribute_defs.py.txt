@@ -1,0 +1,18 @@
+************* Module ansible.modules.cloud.vmware.vmware_guest_custom_attribute_defs
+C:120, 0: Line too long (118/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 82, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 83, 0: Import "from ansible.module_utils.vmware import PyVmomi, vmware_argument_spec" should be placed at the top of the module (wrong-import-position)
+C: 91, 0: Missing class docstring (missing-docstring)
+C: 96, 4: Missing method docstring (missing-docstring)
+C: 98, 8: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C: 99,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:108, 4: Missing method docstring (missing-docstring)
+C:111, 8: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C:112,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:125, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.59/10
+

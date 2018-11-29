@@ -1,0 +1,55 @@
+************* Module units.modules.storage.netapp.test_netapp_e_ldap
+C: 56, 0: Wrong continued indentation (remove 1 space).
+                       )
+                      |^ (bad-continuation)
+C:208, 0: Line too long (104/100) (line-too-long)
+C:220, 0: Line too long (110/100) (line-too-long)
+C:233, 0: Line too long (103/100) (line-too-long)
+C:255, 0: Line too long (101/100) (line-too-long)
+C:263, 0: Wrong continued indentation (remove 1 space).
+                    )
+                   |^ (bad-continuation)
+C:277, 0: Wrong continued indentation (remove 1 space).
+                                            }
+                                           |^ (bad-continuation)
+C:278, 0: Wrong continued indentation (remove 1 space).
+                                           ],
+                                          |^ (bad-continuation)
+C:280, 0: Wrong continued indentation (remove 1 space).
+                        )
+                       |^ (bad-continuation)
+C:318, 0: Line too long (122/100) (line-too-long)
+C:336, 0: Line too long (122/100) (line-too-long)
+C:360, 0: Line too long (122/100) (line-too-long)
+C:397, 0: Line too long (116/100) (line-too-long)
+C:424, 0: Line too long (122/100) (line-too-long)
+C:425, 0: Line too long (116/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  8, 0: Unable to import 'ansible.modules.storage.netapp.netapp_e_ldap' (import-error)
+C: 11, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:283, 8: Attribute name "maxDiff" doesn't conform to snake_case naming style (invalid-name)
+C: 15, 0: Missing class docstring (missing-docstring)
+W: 58, 8: Unused variable 'ldap' (unused-variable)
+W: 63, 8: Unused variable 'ldap' (unused-variable)
+C: 92, 4: Missing method docstring (missing-docstring)
+C:102, 4: Method name "test_get_full_configuration_failure" doesn't conform to snake_case naming style (invalid-name)
+C:102, 4: Missing method docstring (missing-docstring)
+W:105, 8: Unused variable 'resp' (unused-variable)
+C:111, 4: Missing method docstring (missing-docstring)
+C:126, 4: Missing method docstring (missing-docstring)
+W:135,16: Unused variable 'msg' (unused-variable)
+C:155, 4: Missing method docstring (missing-docstring)
+W:164,16: Unused variable 'msg' (unused-variable)
+C:182, 4: Missing method docstring (missing-docstring)
+W:192,20: Unused variable 'msg' (unused-variable)
+C:202, 4: Missing method docstring (missing-docstring)
+W:210,20: Unused variable 'msg' (unused-variable)
+C:214, 4: Missing method docstring (missing-docstring)
+W:223,20: Unused variable 'msg' (unused-variable)
+C:227, 4: Missing method docstring (missing-docstring)
+W:235,20: Unused variable 'msg' (unused-variable)
+C:239, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.54/10
+

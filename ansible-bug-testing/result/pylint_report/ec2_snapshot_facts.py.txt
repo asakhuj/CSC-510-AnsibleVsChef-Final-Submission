@@ -1,0 +1,20 @@
+************* Module ansible.modules.cloud.amazon.ec2_snapshot_facts
+C:182, 0: Line too long (107/100) (line-too-long)
+C:190, 0: Line too long (102/100) (line-too-long)
+C:194, 0: Line too long (156/100) (line-too-long)
+C:232, 0: Wrong continued indentation (remove 1 space).
+                           )
+                          |^ (bad-continuation)
+C:240, 0: Line too long (130/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:180, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:181, 0: Import "from ansible.module_utils.ec2 import ansible_dict_to_boto3_filter_list, boto3_conn, boto3_tag_list_to_ansible_dict, camel_dict_to_snake_dict, ec2_argument_spec, get_aws_connection_info" should be placed at the top of the module (wrong-import-position)
+C:186, 0: Missing function docstring (missing-docstring)
+C:195,26: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:216, 0: Missing function docstring (missing-docstring)
+W:174, 4: Unused import boto3 (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.23/10
+

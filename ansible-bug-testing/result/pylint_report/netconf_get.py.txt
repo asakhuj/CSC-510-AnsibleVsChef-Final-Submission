@@ -1,0 +1,21 @@
+************* Module ansible.modules.network.netconf.netconf_get
+C:159, 0: Line too long (105/100) (line-too-long)
+C:209, 0: Line too long (104/100) (line-too-long)
+C:222, 0: Line too long (108/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:147, 0: Import "import sys" should be placed at the top of the module (wrong-import-position)
+C:158, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:159, 0: Import "from ansible.module_utils.network.netconf.netconf import get_capabilities, locked_config, get_config, get" should be placed at the top of the module (wrong-import-position)
+C:160, 0: Import "from ansible.module_utils.network.common.netconf import remove_namespaces" should be placed at the top of the module (wrong-import-position)
+W:169,20: Redefining built-in 'filter' (redefined-builtin)
+C:169, 0: Missing function docstring (missing-docstring)
+W:197, 4: Redefining built-in 'filter' (redefined-builtin)
+R:180, 0: Too many branches (13/12) (too-many-branches)
+W:150, 4: Unused Element imported from lxml.etree (unused-import)
+W:150, 4: Unused SubElement imported from lxml.etree (unused-import)
+W:159, 0: Unused locked_config imported from ansible.module_utils.network.netconf.netconf (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.81/10
+

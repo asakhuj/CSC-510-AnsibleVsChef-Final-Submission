@@ -1,0 +1,33 @@
+************* Module ansible.modules.cloud.amazon.aws_sgw_facts
+C:196, 0: Line too long (101/100) (line-too-long)
+C:202, 0: Line too long (110/100) (line-too-long)
+C:272, 0: Line too long (111/100) (line-too-long)
+C:350, 0: Line too long (112/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:175, 0: Import "from ansible.module_utils.aws.core import AnsibleAWSModule" should be placed at the top of the module (wrong-import-position)
+C:176, 0: Import "from ansible.module_utils.ec2 import camel_dict_to_snake_dict" should be placed at the top of the module (wrong-import-position)
+C:184, 0: Missing class docstring (missing-docstring)
+C:190, 4: Missing method docstring (missing-docstring)
+W:209,-1: String statement has no effect (pointless-string-statement)
+C:210, 4: Missing method docstring (missing-docstring)
+C:220,16: Variable name "gw" doesn't conform to snake_case naming style (invalid-name)
+C:225,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:231,-1: String statement has no effect (pointless-string-statement)
+W:244,-1: String statement has no effect (pointless-string-statement)
+C:245, 4: Missing method docstring (missing-docstring)
+C:263,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:268,-1: String statement has no effect (pointless-string-statement)
+C:269, 4: Missing method docstring (missing-docstring)
+C:273,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:279,-1: String statement has no effect (pointless-string-statement)
+W:292,-1: String statement has no effect (pointless-string-statement)
+C:293, 4: Missing method docstring (missing-docstring)
+C:309,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:314,-1: String statement has no effect (pointless-string-statement)
+C:315, 4: Missing method docstring (missing-docstring)
+C:334,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:338, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.36/10
+

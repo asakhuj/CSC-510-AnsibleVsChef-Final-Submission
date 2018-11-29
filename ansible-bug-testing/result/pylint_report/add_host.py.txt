@@ -1,0 +1,19 @@
+************* Module ansible.modules.inventory.add_host
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.00/10
+
+************* Module ansible.plugins.action.add_host
+C: 50, 0: Line too long (114/100) (line-too-long)
+C: 69, 0: Line too long (114/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+W: 61, 8: No exception type(s) specified (bare-except)
+R: 35, 0: Too few public methods (1/2) (too-few-public-methods)
+C: 31, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 8.60/10
+

@@ -1,0 +1,28 @@
+************* Module ansible.modules.database.proxysql.proxysql_replication_hostgroups
+C:171, 0: Unnecessary parens after 'return' keyword (superfluous-parens)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 97, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 98, 0: Import "from ansible.module_utils.mysql import mysql_connect, mysql_driver, mysql_driver_fail_msg" should be placed at the top of the module (wrong-import-position)
+C: 99, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:106, 0: Missing function docstring (missing-docstring)
+C:134, 0: Missing function docstring (missing-docstring)
+C:139, 0: Missing function docstring (missing-docstring)
+C:144, 0: Missing class docstring (missing-docstring)
+C:154, 4: Missing method docstring (missing-docstring)
+C:173, 4: Missing method docstring (missing-docstring)
+C:188, 4: Missing method docstring (missing-docstring)
+C:204, 4: Missing method docstring (missing-docstring)
+C:219, 4: Missing method docstring (missing-docstring)
+C:232, 4: Missing method docstring (missing-docstring)
+C:239, 4: Missing method docstring (missing-docstring)
+C:254, 4: Missing method docstring (missing-docstring)
+C:269, 4: Missing method docstring (missing-docstring)
+C:289, 0: Missing function docstring (missing-docstring)
+C:322,33: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:353,37: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:371,37: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.23/10
+

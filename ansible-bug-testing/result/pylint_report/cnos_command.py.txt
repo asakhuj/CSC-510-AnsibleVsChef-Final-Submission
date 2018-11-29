@@ -1,0 +1,16 @@
+************* Module ansible.modules.network.cnos.cnos_command
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:199, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C:201, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:202, 0: Import "from ansible.module_utils.network.cnos.cnos import run_commands, check_args" should be placed at the top of the module (wrong-import-position)
+C:203, 0: Import "from ansible.module_utils.network.cnos.cnos import cnos_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:204, 0: Import "from ansible.module_utils.network.common.parsing import Conditional" should be placed at the top of the module (wrong-import-position)
+C:205, 0: Import "from ansible.module_utils.six import string_types" should be placed at the top of the module (wrong-import-position)
+C:208, 0: Missing function docstring (missing-docstring)
+C:215, 0: Missing function docstring (missing-docstring)
+W:202, 0: Unused check_args imported from ansible.module_utils.network.cnos.cnos (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.71/10
+

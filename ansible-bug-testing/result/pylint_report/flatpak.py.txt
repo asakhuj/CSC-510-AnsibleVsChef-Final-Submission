@@ -1,0 +1,25 @@
+************* Module ansible.modules.packaging.os.flatpak
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 10, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:127, 0: Import "import subprocess" should be placed at the top of the module (wrong-import-position)
+E:128, 0: No name 'urllib' in module '_MovedItems' (no-name-in-module)
+E:128, 0: Unable to import 'ansible.module_utils.six.moves.urllib.parse' (import-error)
+C:128, 0: Import "from ansible.module_utils.six.moves.urllib.parse import urlparse" should be placed at the top of the module (wrong-import-position)
+C:129, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:130, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+W:135, 4: Global variable 'result' undefined at the module level (global-variable-undefined)
+C:135, 4: Constant name "result" doesn't conform to UPPER_CASE naming style (invalid-name)
+W:146, 4: Global variable 'result' undefined at the module level (global-variable-undefined)
+C:146, 4: Constant name "result" doesn't conform to UPPER_CASE naming style (invalid-name)
+W:167, 4: Global variable 'result' undefined at the module level (global-variable-undefined)
+C:167, 4: Constant name "result" doesn't conform to UPPER_CASE naming style (invalid-name)
+R:163, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+W:192, 4: Global variable 'result' undefined at the module level (global-variable-undefined)
+C:192, 4: Constant name "result" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:210, 0: Missing function docstring (missing-docstring)
+W:232, 4: Global variable 'result' undefined at the module level (global-variable-undefined)
+C:232, 4: Constant name "result" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.54/10
+

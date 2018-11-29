@@ -1,0 +1,77 @@
+************* Module ansible.module_utils.gcp
+W:154, 0: TODO(supertom): this message is legacy and integration tests (fixme)
+W:577, 0: TODO(supertom): Isolate 'build-new-request' stuff. (fixme)
+C:181, 0: Line too long (104/100) (line-too-long)
+C:220, 0: Line too long (115/100) (line-too-long)
+C:260, 0: Line too long (106/100) (line-too-long)
+C:272, 0: Line too long (104/100) (line-too-long)
+C:301, 0: Line too long (111/100) (line-too-long)
+C:308, 0: Line too long (111/100) (line-too-long)
+C:317, 0: Line too long (106/100) (line-too-long)
+C:334, 0: Line too long (104/100) (line-too-long)
+C:364, 0: Line too long (104/100) (line-too-long)
+C:581, 0: Line too long (102/100) (line-too-long)
+C:658, 0: Line too long (102/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+E: 63, 0: No name 'urllib' in module '_MovedItems' (no-name-in-module)
+E: 63, 0: Unable to import 'ansible.module_utils.six.moves.urllib.parse' (import-error)
+C:214,22: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:218,25: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:214,22: Unused variable 'e' (unused-variable)
+W:181,57: Unused argument 'require_valid_json' (unused-argument)
+W:240,11: Catching too general exception Exception (broad-except)
+C:238,41: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:240,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:296,11: Catching too general exception Exception (broad-except)
+C:296,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:350,11: Catching too general exception Exception (broad-except)
+C:350,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:355, 0: Too many arguments (6/5) (too-many-arguments)
+W:384,11: Catching too general exception Exception (broad-except)
+C:384,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:384,24: Unused variable 'e' (unused-variable)
+C:393, 0: Missing function docstring (missing-docstring)
+C:395, 8: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+C:397, 8: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+C:424, 8: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:456, 4: Missing method docstring (missing-docstring)
+C:465,12: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:487,15: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+R:502, 4: Too many arguments (6/5) (too-many-arguments)
+C:536,28: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:548, 4: Method name "execute_api_client_operation_req" doesn't conform to snake_case naming style (invalid-name)
+R:548, 4: Too many local variables (17/15) (too-many-locals)
+C:599, 4: Missing method docstring (missing-docstring)
+C:608, 4: Method name "get_gcp_resource_from_methodId" doesn't conform to snake_case naming style (invalid-name)
+C:608, 4: Argument name "methodId" doesn't conform to snake_case naming style (invalid-name)
+C:608, 4: Missing method docstring (missing-docstring)
+R:611,12: Unnecessary "else" after "return" (no-else-return)
+C:619, 4: Method name "get_entity_name_from_resource_name" doesn't conform to snake_case naming style (invalid-name)
+C:619, 4: Missing method docstring (missing-docstring)
+C:670, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+R:645, 4: Too many branches (22/12) (too-many-branches)
+R:645, 4: Too many statements (69/50) (too-many-statements)
+C:770, 4: Missing method docstring (missing-docstring)
+C:774, 4: Missing method docstring (missing-docstring)
+C:794, 4: Argument name "p1" doesn't conform to snake_case naming style (invalid-name)
+C:794, 4: Argument name "p2" doesn't conform to snake_case naming style (invalid-name)
+C:806, 0: Missing class docstring (missing-docstring)
+C:810, 0: Missing class docstring (missing-docstring)
+C:814, 0: Missing class docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.09/10
+
+************* Module ansible.utils.module_docs_fragments.gcp
+W:  7, 0: Bad indentation. Found 8 spaces, expected 4 (bad-indentation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Missing class docstring (missing-docstring)
+R:  5, 0: Too few public methods (0/2) (too-few-public-methods)
+
+-------------------------------------
+Your code has been rated at -10.00/10
+
+
+------------------------------------
+Your code has been rated at 10.00/10
+

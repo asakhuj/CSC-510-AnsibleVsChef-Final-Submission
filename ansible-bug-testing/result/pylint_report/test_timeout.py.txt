@@ -1,0 +1,32 @@
+************* Module units.module_utils.facts.test_timeout
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 30, 0: Unable to import 'ansible.module_utils.facts' (import-error)
+C: 34, 0: Missing function docstring (missing-docstring)
+C: 42, 0: Missing function docstring (missing-docstring)
+C: 50, 0: Missing function docstring (missing-docstring)
+C: 57, 0: Missing function docstring (missing-docstring)
+C: 64, 0: Missing function docstring (missing-docstring)
+C: 70, 0: Function name "test_defaults_still_within_bounds" doesn't conform to snake_case naming style (invalid-name)
+C: 70, 0: Missing function docstring (missing-docstring)
+C: 77, 0: Function name "test_implicit_file_default_succeeds" doesn't conform to snake_case naming style (invalid-name)
+C: 77, 0: Missing function docstring (missing-docstring)
+C: 82, 0: Function name "test_implicit_file_default_timesout" doesn't conform to snake_case naming style (invalid-name)
+C: 82, 0: Missing function docstring (missing-docstring)
+W: 89,43: Redefining name 'set_gather_timeout_higher' from outer scope (line 34) (redefined-outer-name)
+C: 89, 0: Function name "test_implicit_file_overridden_succeeds" doesn't conform to snake_case naming style (invalid-name)
+C: 89, 0: Missing function docstring (missing-docstring)
+W: 89,43: Unused argument 'set_gather_timeout_higher' (unused-argument)
+W: 95,43: Redefining name 'set_gather_timeout_lower' from outer scope (line 42) (redefined-outer-name)
+C: 95, 0: Function name "test_implicit_file_overridden_timesout" doesn't conform to snake_case naming style (invalid-name)
+C: 95, 0: Missing function docstring (missing-docstring)
+W: 95,43: Unused argument 'set_gather_timeout_lower' (unused-argument)
+C:102, 0: Missing function docstring (missing-docstring)
+C:108, 0: Missing function docstring (missing-docstring)
+W: 27, 0: Unused unittest imported from units.compat (unused-import)
+W: 28, 0: Unused MagicMock imported from units.compat.mock (unused-import)
+W: 28, 0: Unused patch imported from units.compat.mock (unused-import)
+
+-----------------------------------
+Your code has been rated at 3.54/10
+

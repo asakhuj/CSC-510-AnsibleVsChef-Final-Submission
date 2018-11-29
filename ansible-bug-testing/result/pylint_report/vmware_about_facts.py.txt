@@ -1,0 +1,13 @@
+************* Module ansible.modules.cloud.vmware.vmware_about_facts
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 77, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 78, 0: Import "from ansible.module_utils.vmware import vmware_argument_spec, PyVmomi" should be placed at the top of the module (wrong-import-position)
+C: 81, 0: Missing class docstring (missing-docstring)
+W: 82, 4: Useless super delegation in method '__init__' (useless-super-delegation)
+C: 85, 4: Missing method docstring (missing-docstring)
+C:113, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 6.52/10
+

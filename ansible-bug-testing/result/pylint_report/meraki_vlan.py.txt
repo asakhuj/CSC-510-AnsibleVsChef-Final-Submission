@@ -1,0 +1,51 @@
+************* Module ansible.modules.network.meraki.meraki_vlan
+W:238, 0: TODO: Allow method to return actual item if True to reduce number of calls needed (fixme)
+W:370, 0: FIXME: Work with Meraki so they can implement a check mode (fixme)
+C:258, 0: Wrong continued indentation (remove 1 space).
+                             )
+                            |^ (bad-continuation)
+C:263, 0: Wrong continued indentation (remove 1 space).
+                                )
+                               |^ (bad-continuation)
+C:266, 0: Line too long (105/100) (line-too-long)
+C:273, 0: Line too long (122/100) (line-too-long)
+C:274, 0: Line too long (122/100) (line-too-long)
+C:277, 0: Wrong continued indentation (remove 1 space).
+                         )
+                        |^ (bad-continuation)
+C:293, 0: Wrong continued indentation (remove 1 space).
+                           )
+                          |^ (bad-continuation)
+C:326, 0: Line too long (112/100) (line-too-long)
+C:334, 0: Wrong continued indentation (remove 1 space).
+                   }
+                  |^ (bad-continuation)
+C:341, 0: Line too long (112/100) (line-too-long)
+C:344, 0: Line too long (101/100) (line-too-long)
+C:349, 0: Line too long (111/100) (line-too-long)
+C:356, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:213, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:214, 0: Import "from ansible.module_utils.basic import AnsibleModule, json, env_fallback" should be placed at the top of the module (wrong-import-position)
+C:215, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:216, 0: Import "from ansible.module_utils.network.meraki.meraki import MerakiModule, meraki_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:219, 0: Missing function docstring (missing-docstring)
+W:219,21: Unused argument 'meraki' (unused-argument)
+C:226, 0: Missing function docstring (missing-docstring)
+C:229, 4: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:233, 0: Missing function docstring (missing-docstring)
+C:239, 0: Missing function docstring (missing-docstring)
+C:247, 0: Missing function docstring (missing-docstring)
+C:251, 0: Missing function docstring (missing-docstring)
+R:251, 0: Too many local variables (19/15) (too-many-locals)
+W:284, 4: Unused variable 'result' (unused-variable)
+R:251, 0: Too many branches (19/12) (too-many-branches)
+R:251, 0: Too many statements (72/50) (too-many-statements)
+W:213, 0: Unused import os (unused-import)
+W:214, 0: Unused env_fallback imported from ansible.module_utils.basic (unused-import)
+W:215, 0: Unused to_native imported from ansible.module_utils._text (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.47/10
+

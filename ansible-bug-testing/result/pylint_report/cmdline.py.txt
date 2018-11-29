@@ -1,0 +1,10 @@
+************* Module ansible.module_utils.facts.system.cmdline
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 17, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 26, 0: Missing class docstring (missing-docstring)
+R: 30, 4: Method could be a function (no-self-use)
+R: 33, 4: Method could be a function (no-self-use)
+
+-----------------------------------
+Your code has been rated at 8.21/10
+

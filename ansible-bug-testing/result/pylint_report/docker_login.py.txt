@@ -1,0 +1,32 @@
+************* Module ansible.modules.cloud.docker.docker_login
+W:210, 0: TODO: docker does not support config file in logout, restore this when they do (fixme)
+C:137, 0: Line too long (121/100) (line-too-long)
+C:175, 0: Line too long (106/100) (line-too-long)
+C:190, 0: Line too long (111/100) (line-too-long)
+C:288, 0: Line too long (105/100) (line-too-long)
+C:289, 0: Line too long (101/100) (line-too-long)
+C:298, 0: Line too long (116/100) (line-too-long)
+C:304, 0: Line too long (119/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 10, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:131, 0: Import "import base64" should be placed at the top of the module (wrong-import-position)
+C:132, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C:133, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:134, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:136, 0: Import "from ansible.module_utils._text import to_bytes, to_text" should be placed at the top of the module (wrong-import-position)
+C:137, 0: Import "from ansible.module_utils.docker_common import AnsibleDockerClient, DEFAULT_DOCKER_REGISTRY, DockerBaseClass, EMAIL_REGEX" should be placed at the top of the module (wrong-import-position)
+C:140, 0: Missing class docstring (missing-docstring)
+R:140, 0: Too many instance attributes (9/7) (too-many-instance-attributes)
+C:163, 4: Missing method docstring (missing-docstring)
+W:189,15: Catching too general exception Exception (broad-except)
+C:215, 9: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W:215,13: Unused variable 'out' (unused-variable)
+C:219, 4: Missing method docstring (missing-docstring)
+W:238,19: Catching too general exception Exception (broad-except)
+C:242, 4: Missing method docstring (missing-docstring)
+W:245,15: Catching too general exception Exception (broad-except)
+C:295, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.43/10
+

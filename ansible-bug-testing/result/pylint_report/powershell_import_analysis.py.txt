@@ -1,0 +1,11 @@
+************* Module lib.powershell_import_analysis
+C: 24, 0: Line too long (112/100) (line-too-long)
+C: 43, 0: Line too long (134/100) (line-too-long)
+C: 65, 0: Line too long (102/100) (line-too-long)
+C: 75, 0: Line too long (107/100) (line-too-long)
+C: 13, 0: Function name "get_powershell_module_utils_imports" doesn't conform to snake_case naming style (invalid-name)
+C: 46, 0: Function name "extract_powershell_module_utils_imports" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.38/10
+

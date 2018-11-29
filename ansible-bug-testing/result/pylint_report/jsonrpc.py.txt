@@ -1,0 +1,21 @@
+************* Module ansible.utils.jsonrpc
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 21, 0: Missing class docstring (missing-docstring)
+C: 25, 4: Missing method docstring (missing-docstring)
+W: 57,19: Catching too general exception Exception (broad-except)
+C: 73, 4: Missing method docstring (missing-docstring)
+C: 76, 4: Missing method docstring (missing-docstring)
+E: 77,40: Instance of 'JsonRpcServer' has no '_identifier' member (no-member)
+C: 79, 4: Missing method docstring (missing-docstring)
+C: 86, 4: Missing method docstring (missing-docstring)
+C: 95, 4: Missing method docstring (missing-docstring)
+C: 98, 4: Missing method docstring (missing-docstring)
+C:101, 4: Missing method docstring (missing-docstring)
+C:104, 4: Missing method docstring (missing-docstring)
+C:107, 4: Missing method docstring (missing-docstring)
+C: 17, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 7.30/10
+

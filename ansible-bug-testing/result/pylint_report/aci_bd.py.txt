@@ -1,0 +1,17 @@
+************* Module ansible.modules.network.aci.aci_bd
+C:383, 0: Line too long (104/100) (line-too-long)
+C:385, 0: Line too long (109/100) (line-too-long)
+C:386, 0: Line too long (116/100) (line-too-long)
+C:429, 0: Line too long (140/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:311, 0: Import "from ansible.module_utils.network.aci.aci import ACIModule, aci_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:312, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:315, 0: Missing function docstring (missing-docstring)
+R:315, 0: Too many local variables (24/15) (too-many-locals)
+C:356, 4: Variable name "bd" doesn't conform to snake_case naming style (invalid-name)
+W:385, 8: Access to a protected member _warnings of a client class (protected-access)
+
+-----------------------------------
+Your code has been rated at 7.65/10
+

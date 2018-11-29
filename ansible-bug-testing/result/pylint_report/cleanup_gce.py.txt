@@ -1,0 +1,29 @@
+************* Module cleanup_gce
+C: 25, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 46, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 93, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W: 30, 0: Redefining built-in 'input' (redefined-builtin)
+E: 30, 0: Unable to import 'ansible.module_utils.six.moves' (import-error)
+W: 33,41: Redefining name 'opts' from outer scope (line 75) (redefined-outer-name)
+C: 33, 0: Missing function docstring (missing-docstring)
+C: 40, 0: Missing function docstring (missing-docstring)
+W: 68,11: Redefining name 'args' from outer scope (line 75) (redefined-outer-name)
+W: 68, 5: Redefining name 'opts' from outer scope (line 75) (redefined-outer-name)
+C: 49, 0: Missing function docstring (missing-docstring)
+C: 75, 5: Constant name "opts" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 75,11: Constant name "args" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 78, 4: Constant name "gce" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 85, 8: Missing function docstring (missing-docstring)
+C: 92,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:  8, 0: Unused import os (unused-import)
+W: 11, 0: Unused import yaml (unused-import)
+W: 14, 4: Unused ResourceNotFoundError imported from libcloud.common.google (unused-import)
+W: 14, 4: Unused GoogleBaseError imported from libcloud.common.google (unused-import)
+W: 14, 4: Unused ResourceInUseError imported from libcloud.common.google (unused-import)
+W: 14, 4: Unused QuotaExceededError imported from libcloud.common.google (unused-import)
+W: 14, 4: Unused ResourceExistsError imported from libcloud.common.google (unused-import)
+W: 21, 4: Unused get_driver imported from libcloud.compute.providers (unused-import)
+
+-----------------------------------
+Your code has been rated at 4.17/10
+

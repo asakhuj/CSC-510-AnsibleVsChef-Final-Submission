@@ -1,0 +1,63 @@
+************* Module ansible.module_utils.network.routeros.routeros
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 36, 0: Constant name "routeros_provider_spec" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 44, 0: Constant name "routeros_argument_spec" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 47, 0: Missing function docstring (missing-docstring)
+C: 51, 0: Missing function docstring (missing-docstring)
+W: 53,15: Access to a protected member _routeros_connection of a client class (protected-access)
+W: 58, 8: Access to a protected member _routeros_connection of a client class (protected-access)
+W: 58,49: Access to a protected member _socket_path of a client class (protected-access)
+W: 62,11: Access to a protected member _routeros_connection of a client class (protected-access)
+C: 65, 0: Missing function docstring (missing-docstring)
+W: 67,15: Access to a protected member _routeros_capabilities of a client class (protected-access)
+W: 69,30: Access to a protected member _socket_path of a client class (protected-access)
+W: 70, 4: Access to a protected member _routeros_capabilities of a client class (protected-access)
+W: 71,11: Access to a protected member _routeros_capabilities of a client class (protected-access)
+C: 74, 0: Missing function docstring (missing-docstring)
+R: 89, 4: Unnecessary "else" after "return" (no-else-return)
+C: 95, 0: Missing function docstring (missing-docstring)
+C:113, 0: Missing function docstring (missing-docstring)
+C:123, 0: Missing function docstring (missing-docstring)
+W:123,35: Unused argument 'check_rc' (unused-argument)
+C:153, 0: Missing function docstring (missing-docstring)
+W:156, 4: Unused variable 'out' (unused-variable)
+W: 30, 0: Unused return_values imported from ansible.module_utils.basic (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.12/10
+
+************* Module ansible.plugins.cliconf.routeros
+C: 71, 0: Line too long (119/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 38, 0: Missing class docstring (missing-docstring)
+C: 40, 4: Missing method docstring (missing-docstring)
+W: 64,43: Redefining built-in 'format' (redefined-builtin)
+W: 64, 4: Parameters differ from overridden 'get_config' method (arguments-differ)
+W: 67, 4: Parameters differ from overridden 'edit_config' method (arguments-differ)
+W: 67,26: Unused argument 'command' (unused-argument)
+R: 70, 4: Too many arguments (6/5) (too-many-arguments)
+W: 70, 4: Parameters differ from overridden 'get' method (arguments-differ)
+W: 25, 0: Unused chain imported from itertools (unused-import)
+W: 27, 0: Unused to_bytes imported from ansible.module_utils._text (unused-import)
+W: 28, 0: Unused to_list imported from ansible.module_utils.network.common.utils (unused-import)
+W: 29, 0: Unused enable_mode imported from ansible.plugins.cliconf (unused-import)
+W: 32, 4: Unused display imported from __main__ (unused-import)
+C: 34, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 6.22/10
+
+************* Module ansible.plugins.terminal.routeros
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 36, 0: Missing class docstring (missing-docstring)
+W: 22, 0: Unused import json (unused-import)
+W: 26, 0: Unused to_bytes imported from ansible.module_utils._text (unused-import)
+W: 26, 0: Unused to_text imported from ansible.module_utils._text (unused-import)
+W: 30, 4: Unused display imported from __main__ (unused-import)
+C: 32, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 7.04/10
+

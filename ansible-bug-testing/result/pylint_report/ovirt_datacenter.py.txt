@@ -1,0 +1,16 @@
+************* Module ansible.modules.cloud.ovirt.ovirt_datacenter
+C:172, 0: Line too long (102/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:104, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:111, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:112, 0: Import "from ansible.module_utils.ovirt import BaseModule, check_sdk, check_params, create_connection, equal, ovirt_full_argument_spec, search_by_name" should be placed at the top of the module (wrong-import-position)
+C:123, 0: Missing class docstring (missing-docstring)
+R:125, 4: Method could be a function (no-self-use)
+R:132, 4: Method could be a function (no-self-use)
+C:183, 0: Missing function docstring (missing-docstring)
+W:224,11: Catching too general exception Exception (broad-except)
+C:224,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.07/10
+

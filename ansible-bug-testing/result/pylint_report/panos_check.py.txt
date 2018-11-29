@@ -1,0 +1,13 @@
+************* Module ansible.modules.network.panos.panos_check
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 75, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 76, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C: 85, 0: Missing function docstring (missing-docstring)
+W: 85,21: Unused argument 'module' (unused-argument)
+C: 97, 0: Missing function docstring (missing-docstring)
+W:126, 8: No exception type(s) specified (bare-except)
+C: 76, 0: standard import "import time" should be placed before "from ansible.module_utils.basic import AnsibleModule" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 8.30/10
+

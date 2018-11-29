@@ -1,0 +1,17 @@
+************* Module ansible.modules.cloud.scaleway.scaleway_sshkey
+C:163, 0: Line too long (125/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 12, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 80, 0: Import "from ansible.module_utils.basic import AnsibleModule, env_fallback" should be placed at the top of the module (wrong-import-position)
+C: 81, 0: Import "from ansible.module_utils.scaleway import scaleway_argument_spec, Scaleway" should be placed at the top of the module (wrong-import-position)
+C: 84, 0: Missing function docstring (missing-docstring)
+C: 90, 0: Missing function docstring (missing-docstring)
+C: 94, 0: Missing function docstring (missing-docstring)
+C:100, 0: Missing function docstring (missing-docstring)
+C:117,37: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:117,37: Unused variable 'e' (unused-variable)
+C:158, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.03/10
+

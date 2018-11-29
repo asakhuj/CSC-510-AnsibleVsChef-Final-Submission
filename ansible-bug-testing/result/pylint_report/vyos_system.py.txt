@@ -1,0 +1,15 @@
+************* Module ansible.modules.network.vyos.vyos_system
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 94, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 95, 0: Import "from ansible.module_utils.network.vyos.vyos import get_config, load_config" should be placed at the top of the module (wrong-import-position)
+C: 96, 0: Import "from ansible.module_utils.network.vyos.vyos import vyos_argument_spec" should be placed at the top of the module (wrong-import-position)
+C: 99, 0: Missing function docstring (missing-docstring)
+C:109, 0: Missing function docstring (missing-docstring)
+C:127, 0: Missing function docstring (missing-docstring)
+C:165, 0: Missing function docstring (missing-docstring)
+C:175, 0: Missing function docstring (missing-docstring)
+W:204, 8: Unused variable 'response' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 8.55/10
+

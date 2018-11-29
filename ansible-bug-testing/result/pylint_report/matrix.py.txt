@@ -1,0 +1,14 @@
+************* Module ansible.modules.notification.matrix
+C:110, 0: Line too long (115/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 75, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 80, 4: Constant name "matrix_found" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 82, 4: Constant name "matrix_found" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 85, 0: Missing function docstring (missing-docstring)
+R: 85, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:130, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.10/10
+

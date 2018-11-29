@@ -1,0 +1,22 @@
+************* Module ansible.module_utils.mysql
+C: 40, 0: Line too long (114/100) (line-too-long)
+C: 43, 0: Line too long (149/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 40, 0: Constant name "mysql_driver_fail_msg" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 43, 0: Argument name "db" doesn't conform to snake_case naming style (invalid-name)
+C: 43, 0: Missing function docstring (missing-docstring)
+R: 43, 0: Too many arguments (10/5) (too-many-arguments)
+R: 77, 4: Unnecessary "else" after "return" (no-else-return)
+R: 43, 0: Too many branches (13/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 7.57/10
+
+************* Module ansible.utils.module_docs_fragments.mysql
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Missing class docstring (missing-docstring)
+R: 20, 0: Too few public methods (0/2) (too-few-public-methods)
+
+------------------------------------
+Your code has been rated at -5.00/10
+

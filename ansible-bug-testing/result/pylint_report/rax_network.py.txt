@@ -1,0 +1,17 @@
+************* Module ansible.modules.cloud.rackspace.rax_network
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 61, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 62, 0: Import "from ansible.module_utils.rax import rax_argument_spec, rax_required_together, setup_rax_module" should be placed at the top of the module (wrong-import-position)
+C: 65, 0: Missing function docstring (missing-docstring)
+W: 87,15: Catching too general exception Exception (broad-except)
+W: 85,19: Catching too general exception Exception (broad-except)
+C: 85,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C: 87,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W: 97,15: Catching too general exception Exception (broad-except)
+C: 97,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:109, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.89/10
+

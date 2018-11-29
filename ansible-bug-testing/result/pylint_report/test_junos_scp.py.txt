@@ -1,0 +1,24 @@
+************* Module units.modules.network.junos.test_junos_scp
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 25, 0: Constant name "jnpr_mock" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 26, 0: Constant name "scp_mock" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 28, 0: Constant name "modules" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 35, 0: Constant name "module_patcher" doesn't conform to UPPER_CASE naming style (invalid-name)
+E: 40, 0: Unable to import 'ansible.modules.network.junos' (import-error)
+C: 40, 0: Import "from ansible.modules.network.junos import junos_scp" should be placed at the top of the module (wrong-import-position)
+C: 43, 0: Missing class docstring (missing-docstring)
+W: 47, 4: Useless super delegation in method 'setUp' (useless-super-delegation)
+W: 50, 4: Useless super delegation in method 'tearDown' (useless-super-delegation)
+C: 53, 4: Missing method docstring (missing-docstring)
+W: 56,14: Unused variable 'kwargs' (unused-variable)
+C: 60, 4: Missing method docstring (missing-docstring)
+C: 66, 4: Missing method docstring (missing-docstring)
+W: 69,14: Unused variable 'kwargs' (unused-variable)
+C: 73, 4: Missing method docstring (missing-docstring)
+C: 82, 4: Missing method docstring (missing-docstring)
+C: 40, 0: first party import "from ansible.modules.network.junos import junos_scp" should be placed before "from .junos_module import TestJunosModule" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 5.58/10
+

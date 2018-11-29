@@ -1,0 +1,23 @@
+************* Module ansible.modules.storage.netapp._sf_check_connections
+C: 97, 0: Line too long (112/100) (line-too-long)
+C:113, 0: Line too long (127/100) (line-too-long)
+C:130, 0: Line too long (127/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 62, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C: 64, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 65, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 66, 0: Import "import ansible.module_utils.netapp as netapp_utils" should be placed at the top of the module (wrong-import-position)
+C: 72, 0: Missing class docstring (missing-docstring)
+C: 87, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+W:112,15: Catching too general exception Exception (broad-except)
+C:112,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:129,15: Catching too general exception Exception (broad-except)
+C:129,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:133, 4: Missing method docstring (missing-docstring)
+C:178, 0: Missing function docstring (missing-docstring)
+C:179, 4: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.50/10
+

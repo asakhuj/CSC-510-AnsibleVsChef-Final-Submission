@@ -1,0 +1,20 @@
+************* Module ansible.modules.cloud.rackspace.rax_cbs
+C:107, 0: Line too long (104/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 98, 0: Import "from distutils.version import LooseVersion" should be placed at the top of the module (wrong-import-position)
+C:106, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:107, 0: Import "from ansible.module_utils.rax import VOLUME_STATUS, rax_argument_spec, rax_find_image, rax_find_volume, rax_required_together, rax_to_dict, setup_rax_module" should be placed at the top of the module (wrong-import-position)
+C:111, 0: Missing function docstring (missing-docstring)
+R:111, 0: Too many arguments (11/5) (too-many-arguments)
+R:111, 0: Too many local variables (19/15) (too-many-locals)
+W:146,19: Catching too general exception Exception (broad-except)
+C:146,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:175,19: Catching too general exception Exception (broad-except)
+C:175,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:111, 0: Too many branches (16/12) (too-many-branches)
+C:181, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.05/10
+

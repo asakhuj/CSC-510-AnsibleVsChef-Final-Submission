@@ -1,0 +1,27 @@
+************* Module units.modules.network.aireos.test_aireos_config
+C: 67, 0: Line too long (115/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 24, 0: Unable to import 'ansible.modules.network.aireos' (import-error)
+C: 29, 0: Missing class docstring (missing-docstring)
+R: 29, 0: Too many instance attributes (8/7) (too-many-instance-attributes)
+C: 59, 4: Missing method docstring (missing-docstring)
+C: 64, 4: Missing method docstring (missing-docstring)
+C: 70, 4: Missing method docstring (missing-docstring)
+C: 75, 4: Missing method docstring (missing-docstring)
+C: 82, 4: Missing method docstring (missing-docstring)
+C: 87, 4: Missing method docstring (missing-docstring)
+C: 92, 4: Method name "test_aireos_config_before_after_no_change" doesn't conform to snake_case naming style (invalid-name)
+C: 92, 4: Missing method docstring (missing-docstring)
+C: 98, 4: Missing method docstring (missing-docstring)
+C:104, 4: Missing method docstring (missing-docstring)
+C:109, 4: Missing method docstring (missing-docstring)
+C:117, 4: Method name "test_nxos_config_save_changed_true" doesn't conform to snake_case naming style (invalid-name)
+C:117, 4: Missing method docstring (missing-docstring)
+C:125, 4: Method name "test_nxos_config_save_changed_false" doesn't conform to snake_case naming style (invalid-name)
+C:125, 4: Missing method docstring (missing-docstring)
+C: 25, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 7.01/10
+

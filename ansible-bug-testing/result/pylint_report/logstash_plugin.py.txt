@@ -1,0 +1,22 @@
+************* Module ansible.modules.monitoring.logstash_plugin
+C:164, 0: Line too long (106/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 74, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 83, 0: Missing function docstring (missing-docstring)
+C: 85, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W: 85,13: Unused variable 'err' (unused-variable)
+W: 85, 8: Unused variable 'out' (unused-variable)
+C: 89, 0: Missing function docstring (missing-docstring)
+C: 97, 0: Missing function docstring (missing-docstring)
+R: 97, 0: Too many arguments (6/5) (too-many-arguments)
+C:109, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:111, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:120, 0: Missing function docstring (missing-docstring)
+C:126, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:128, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:137, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.12/10
+

@@ -1,0 +1,11 @@
+************* Module ansible.modules.remote_management.oneview.oneview_fc_network
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 80, 0: Import "from ansible.module_utils.oneview import OneViewModuleBase" should be placed at the top of the module (wrong-import-position)
+C: 83, 0: Missing class docstring (missing-docstring)
+R:106, 8: Unnecessary "else" after "return" (no-else-return)
+C:119, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.18/10
+

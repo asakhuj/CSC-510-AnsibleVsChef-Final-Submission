@@ -1,0 +1,28 @@
+************* Module ansible.modules.cloud.vmware.vmware_local_user_manager
+C:125, 0: Line too long (132/100) (line-too-long)
+C:175, 0: Line too long (104/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 10, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 73, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 74, 0: Import "from ansible.module_utils.vmware import PyVmomi, vmware_argument_spec" should be placed at the top of the module (wrong-import-position)
+C: 77, 0: Missing class docstring (missing-docstring)
+C: 92, 4: Missing method docstring (missing-docstring)
+W:110,15: Catching too general exception Exception (broad-except)
+C:110,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:113, 4: Missing method docstring (missing-docstring)
+R:115, 8: Unnecessary "else" after "return" (no-else-return)
+C:120, 4: Missing method docstring (missing-docstring)
+C:121, 8: Variable name "searchStr" doesn't conform to snake_case naming style (invalid-name)
+C:122, 8: Variable name "exactMatch" doesn't conform to snake_case naming style (invalid-name)
+C:123, 8: Variable name "findUsers" doesn't conform to snake_case naming style (invalid-name)
+C:124, 8: Variable name "findGroups" doesn't conform to snake_case naming style (invalid-name)
+C:128, 4: Missing method docstring (missing-docstring)
+C:135, 4: Missing method docstring (missing-docstring)
+C:146, 4: Missing method docstring (missing-docstring)
+C:157, 4: Missing method docstring (missing-docstring)
+C:166, 4: Missing method docstring (missing-docstring)
+C:170, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.29/10
+

@@ -1,0 +1,14 @@
+************* Module ansible.modules.net_tools.lldp
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 46, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 49, 0: Missing function docstring (missing-docstring)
+C: 51, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+R: 49, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+W: 51,16: Unused variable 'err' (unused-variable)
+W: 51, 4: Unused variable 'rc' (unused-variable)
+C: 73, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.43/10
+

@@ -1,0 +1,22 @@
+************* Module landscape
+C: 96, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:102, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:  1, 0: Missing module docstring (missing-docstring)
+E: 41, 0: Unable to import 'landscape_api.base' (import-error)
+C: 45, 0: Constant name "_key" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 48, 0: Missing class docstring (missing-docstring)
+R: 48, 0: Too few public methods (0/2) (too-few-public-methods)
+C: 64, 0: Missing function docstring (missing-docstring)
+C: 68, 0: Missing function docstring (missing-docstring)
+C: 72, 0: Missing function docstring (missing-docstring)
+C: 82, 0: Missing function docstring (missing-docstring)
+C: 89, 0: Missing function docstring (missing-docstring)
+C: 99, 0: Missing function docstring (missing-docstring)
+C:105, 0: Missing function docstring (missing-docstring)
+C:116, 0: Missing function docstring (missing-docstring)
+W: 41, 0: Unused HTTPError imported from landscape_api.base (unused-import)
+C: 43, 0: standard import "import json" should be placed before "from landscape_api.base import API, HTTPError" (wrong-import-order)
+
+------------------------------------------------------------------
+Your code has been rated at 6.38/10 (previous run: 6.38/10, +0.00)
+

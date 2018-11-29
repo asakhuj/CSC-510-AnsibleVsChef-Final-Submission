@@ -1,0 +1,16 @@
+************* Module units.modules.network.ios.test_ios_logging
+C: 45, 0: Line too long (102/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 22, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 27, 0: Unable to import 'ansible.modules.network.ios' (import-error)
+C: 32, 0: Missing class docstring (missing-docstring)
+C: 60, 4: Method name "test_ios_logging_buffer_size_changed_implicit" doesn't conform to snake_case naming style (invalid-name)
+C: 60, 4: Missing method docstring (missing-docstring)
+C: 65, 4: Method name "test_ios_logging_buffer_size_changed_explicit" doesn't conform to snake_case naming style (invalid-name)
+C: 65, 4: Missing method docstring (missing-docstring)
+W: 24, 0: Unused import json (unused-import)
+C: 28, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 5.59/10
+

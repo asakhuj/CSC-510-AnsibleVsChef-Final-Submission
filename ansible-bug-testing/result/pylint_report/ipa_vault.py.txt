@@ -1,0 +1,30 @@
+************* Module ansible.modules.identity.ipa.ipa_vault
+C:153, 0: Line too long (108/100) (line-too-long)
+C:179, 0: Line too long (117/100) (line-too-long)
+C:218, 0: Line too long (116/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:129, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:131, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:132, 0: Import "from ansible.module_utils.ipa import IPAClient, ipa_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:133, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:136, 0: Missing class docstring (missing-docstring)
+W:137, 4: Useless super delegation in method '__init__' (useless-super-delegation)
+C:140, 4: Missing method docstring (missing-docstring)
+C:143, 4: Missing method docstring (missing-docstring)
+C:146, 4: Missing method docstring (missing-docstring)
+C:149, 4: Missing method docstring (missing-docstring)
+C:153, 0: Missing function docstring (missing-docstring)
+C:169, 0: Missing function docstring (missing-docstring)
+W:169,52: Unused argument 'module' (unused-argument)
+C:173, 0: Missing function docstring (missing-docstring)
+C:196,19: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+R:186, 4: Too many nested blocks (6/5) (too-many-nested-blocks)
+W:176, 4: Unused variable 'user' (unused-variable)
+C:213, 0: Missing function docstring (missing-docstring)
+W:239,11: Catching too general exception Exception (broad-except)
+C:239,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.71/10
+

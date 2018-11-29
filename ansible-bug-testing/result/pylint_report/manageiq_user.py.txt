@@ -1,0 +1,20 @@
+************* Module ansible.modules.remote_management.manageiq.manageiq_user
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:138, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:139, 0: Import "from ansible.module_utils.manageiq import ManageIQ, manageiq_argument_spec" should be placed at the top of the module (wrong-import-position)
+R:175, 4: Too many arguments (6/5) (too-many-arguments)
+R:175, 4: Method could be a function (no-self-use)
+W:199,15: Catching too general exception Exception (broad-except)
+C:199,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:204, 4: Too many arguments (6/5) (too-many-arguments)
+W:238,15: Catching too general exception Exception (broad-except)
+C:238,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:245, 4: Too many arguments (6/5) (too-many-arguments)
+W:267,15: Catching too general exception Exception (broad-except)
+C:267,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:275, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.35/10
+

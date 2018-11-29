@@ -1,0 +1,19 @@
+************* Module ansible.modules.network.cloudengine.ce_interface_ospf
+C:171, 0: Line too long (102/100) (line-too-long)
+C:618, 0: Line too long (103/100) (line-too-long)
+C:623, 0: Line too long (103/100) (line-too-long)
+C:638, 0: Line too long (103/100) (line-too-long)
+C:641, 0: Line too long (103/100) (line-too-long)
+C:781, 0: Line too long (105/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:169, 0: Import "from xml.etree import ElementTree" should be placed at the top of the module (wrong-import-position)
+C:170, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:171, 0: Import "from ansible.module_utils.network.cloudengine.ce import get_nc_config, set_nc_config, ce_argument_spec" should be placed at the top of the module (wrong-import-position)
+R:278, 0: Too many branches (20/12) (too-many-branches)
+R:348, 0: Too many instance attributes (21/7) (too-many-instance-attributes)
+R:515, 4: Too many branches (14/12) (too-many-branches)
+R:605, 4: Too many branches (26/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 9.61/10
+

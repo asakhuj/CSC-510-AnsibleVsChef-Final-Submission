@@ -1,0 +1,10 @@
+************* Module units.plugins.loader_fixtures.import_fixture
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  3, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:  6, 0: Class name "test" doesn't conform to PascalCase naming style (invalid-name)
+C:  6, 0: Missing class docstring (missing-docstring)
+R:  6, 0: Too few public methods (0/2) (too-few-public-methods)
+
+------------------------------------
+Your code has been rated at -2.50/10
+

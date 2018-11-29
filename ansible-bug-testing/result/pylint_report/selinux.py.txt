@@ -1,0 +1,44 @@
+************* Module ansible.modules.system.selinux
+C:220, 0: Line too long (102/100) (line-too-long)
+C:227, 0: Line too long (129/100) (line-too-long)
+C:237, 0: Line too long (160/100) (line-too-long)
+C:260, 0: Line too long (142/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 89, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C: 90, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C: 91, 0: Import "import tempfile" should be placed at the top of the module (wrong-import-position)
+C: 99, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:100, 0: Import "from ansible.module_utils.facts.utils import get_file_lines" should be placed at the top of the module (wrong-import-position)
+C:104, 0: Missing function docstring (missing-docstring)
+R:104, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:113, 0: Missing function docstring (missing-docstring)
+R:113, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:123, 0: Missing function docstring (missing-docstring)
+W:129, 4: Unused variable 'tmpfd' (unused-variable)
+C:138, 0: Missing function docstring (missing-docstring)
+E:140, 8: Module 'selinux' has no 'security_setenforce' member (no-member)
+E:142, 8: Module 'selinux' has no 'security_setenforce' member (no-member)
+C:150, 0: Missing function docstring (missing-docstring)
+W:159, 4: Unused variable 'tmpfd' (unused-variable)
+C:168, 0: Missing function docstring (missing-docstring)
+E:187,22: Module 'selinux' has no 'is_selinux_enabled' member (no-member)
+E:188,21: Module 'selinux' has no 'selinux_getpolicytype' member (no-member)
+E:194,11: Module 'selinux' has no 'security_getenforce' member (no-member)
+R:168, 0: Too many branches (23/12) (too-many-branches)
+R:168, 0: Too many statements (63/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 5.86/10
+
+************* Module ansible.module_utils.facts.system.selinux
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 19, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 36, 0: Missing class docstring (missing-docstring)
+E: 56,15: Module 'selinux' has no 'is_selinux_enabled' member (no-member)
+C: 67,17: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C: 82,17: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.96/10
+

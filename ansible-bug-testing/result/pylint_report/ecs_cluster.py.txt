@@ -1,0 +1,31 @@
+************* Module ansible.modules.cloud.amazon.ecs_cluster
+C:167, 0: Line too long (118/100) (line-too-long)
+C:176, 0: Line too long (103/100) (line-too-long)
+C:220, 0: Line too long (137/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:104, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C:112, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:113, 0: Import "from ansible.module_utils.ec2 import boto3_conn, ec2_argument_spec, get_aws_connection_info" should be placed at the top of the module (wrong-import-position)
+C:127, 4: Missing method docstring (missing-docstring)
+C:128,12: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+R:127, 4: Method could be a function (no-self-use)
+C:133, 4: Missing method docstring (missing-docstring)
+C:137,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:138,12: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:142,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:143,12: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:148, 4: Argument name "clusterName" doesn't conform to snake_case naming style (invalid-name)
+C:148, 4: Missing method docstring (missing-docstring)
+C:152, 4: Argument name "clusterName" doesn't conform to snake_case naming style (invalid-name)
+C:152, 4: Missing method docstring (missing-docstring)
+C:156, 0: Missing function docstring (missing-docstring)
+W:175,11: Catching too general exception Exception (broad-except)
+C:175,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:219,26: Using possibly undefined loop variable 'i' (undefined-loop-variable)
+R:156, 0: Too many branches (17/12) (too-many-branches)
+W:107, 4: Unused import boto3 (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.08/10
+

@@ -1,0 +1,42 @@
+************* Module ansible.modules.cloud.ovirt.ovirt_host_network
+C:207, 0: Unnecessary parens after 'if' keyword (superfluous-parens)
+C:238, 0: Line too long (127/100) (line-too-long)
+C:280, 0: Line too long (137/100) (line-too-long)
+C:368, 0: Wrong hanging indentation before block (add 4 spaces).
+            state == 'present' and
+            ^   | (bad-continuation)
+C:369, 0: Wrong hanging indentation before block (add 4 spaces).
+            (nic is None or host_networks_module.has_update(nics_service.service(nic.id)))
+            ^   | (bad-continuation)
+C:386, 0: Line too long (102/100) (line-too-long)
+C:446, 0: Line too long (103/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:161, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:168, 0: Import "from ansible.module_utils import six" should be placed at the top of the module (wrong-import-position)
+C:169, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:170, 0: Import "from ansible.module_utils.ovirt import BaseModule, check_sdk, create_connection, equal, get_dict_of_struct, get_entity, get_link_name, ovirt_full_argument_spec, search_by_name" should be placed at the top of the module (wrong-import-position)
+C:183, 0: Missing function docstring (missing-docstring)
+C:184, 4: Variable name "MIIMON_100" doesn't conform to snake_case naming style (invalid-name)
+C:185, 4: Variable name "DEFAULT_MODE_OPTS" doesn't conform to snake_case naming style (invalid-name)
+C:235, 0: Missing class docstring (missing-docstring)
+R:237, 4: Method could be a function (no-self-use)
+C:243, 4: Missing method docstring (missing-docstring)
+C:246,12: Variable name "ip" doesn't conform to snake_case naming style (invalid-name)
+C:268, 4: Missing method docstring (missing-docstring)
+C:323, 0: Missing function docstring (missing-docstring)
+R:323, 0: Too many local variables (38/15) (too-many-locals)
+W:489,11: Catching too general exception Exception (broad-except)
+C:375,16: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+C:378,24: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
+R:341, 4: Too many nested blocks (7/5) (too-many-nested-blocks)
+W:393,28: Access to a protected member _action_save_configuration of a client class (protected-access)
+R:341, 4: Too many nested blocks (6/5) (too-many-nested-blocks)
+R:341, 4: Too many nested blocks (6/5) (too-many-nested-blocks)
+W:470,32: Access to a protected member _action_save_configuration of a client class (protected-access)
+C:489,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:323, 0: Too many branches (18/12) (too-many-branches)
+R:323, 0: Too many statements (56/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 7.87/10
+

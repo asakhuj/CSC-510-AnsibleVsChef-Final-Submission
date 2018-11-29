@@ -1,0 +1,32 @@
+************* Module ansible.modules.cloud.amazon.dynamodb_ttl
+C: 94, 0: Line too long (113/100) (line-too-long)
+C: 96, 0: Line too long (116/100) (line-too-long)
+C:128, 0: Wrong continued indentation (add 20 spaces).
+    )
+    ^                   | (bad-continuation)
+C:135, 0: Line too long (107/100) (line-too-long)
+C:137, 0: Line too long (140/100) (line-too-long)
+C:140, 0: Line too long (114/100) (line-too-long)
+C:141, 0: Line too long (158/100) (line-too-long)
+C:153, 0: Line too long (108/100) (line-too-long)
+C:155, 0: Line too long (133/100) (line-too-long)
+C:163, 0: Line too long (113/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 69, 0: Import "import distutils.version" should be placed at the top of the module (wrong-import-position)
+C: 70, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C: 77, 0: Import "import ansible.module_utils.ec2" should be placed at the top of the module (wrong-import-position)
+C: 78, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 79, 0: Import "from ansible.module_utils.ec2 import ec2_argument_spec, camel_dict_to_snake_dict, HAS_BOTO3" should be placed at the top of the module (wrong-import-position)
+C: 82, 0: Argument name "c" doesn't conform to snake_case naming style (invalid-name)
+C:104, 0: Argument name "c" doesn't conform to snake_case naming style (invalid-name)
+C:122, 0: Missing function docstring (missing-docstring)
+C:142,53: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:162,46: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:164,55: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:166,25: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:146, 4: Unused variable 'state' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 6.15/10
+

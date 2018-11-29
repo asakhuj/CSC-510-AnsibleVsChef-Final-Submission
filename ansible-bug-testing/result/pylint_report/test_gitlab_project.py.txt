@@ -1,0 +1,19 @@
+************* Module units.modules.source_control.test_gitlab_project
+C: 15, 0: Line too long (101/100) (line-too-long)
+C: 56, 0: Line too long (105/100) (line-too-long)
+C: 77, 0: Line too long (118/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  8, 0: Unable to import 'ansible.modules.source_control' (import-error)
+C: 14, 0: Missing function docstring (missing-docstring)
+C: 20, 0: Function name "test_without_required_parameters" doesn't conform to snake_case naming style (invalid-name)
+W: 25, 9: Unused variable 'err' (unused-variable)
+W: 58,56: Redefining name 'patch_gitlab_project' from outer scope (line 14) (redefined-outer-name)
+C: 58, 0: Function name "test_fail_if_url_import_doesnt_exist" doesn't conform to snake_case naming style (invalid-name)
+W: 58,56: Unused argument 'patch_gitlab_project' (unused-argument)
+W: 79, 9: Unused variable 'err' (unused-variable)
+W: 58,41: Unused argument 'mocker' (unused-argument)
+C: 10, 0: third party import "import pytest" should be placed before "from units.compat.mock import MagicMock" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 3.57/10
+

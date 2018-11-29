@@ -1,0 +1,18 @@
+************* Module ansible.modules.cloud.azure.azure_rm_dnszone_facts
+C:155, 0: Line too long (106/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 78, 0: Import "from ansible.module_utils.azure_rm_common import AzureRMModuleBase" should be placed at the top of the module (wrong-import-position)
+W: 83, 0: No exception type(s) specified (bare-except)
+E: 81, 4: Unable to import 'msrestazure.azure_exceptions' (import-error)
+E: 82, 4: Unable to import 'azure.common' (import-error)
+C: 90, 0: Missing class docstring (missing-docstring)
+C:135, 4: Missing method docstring (missing-docstring)
+C:150, 4: Missing method docstring (missing-docstring)
+C:163, 4: Missing method docstring (missing-docstring)
+C:177, 0: Missing function docstring (missing-docstring)
+W: 82, 4: Unused AzureMissingResourceHttpError imported from azure.common (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.96/10
+

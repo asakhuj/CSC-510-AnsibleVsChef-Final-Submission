@@ -1,0 +1,20 @@
+This python script helps us understand the various reports generated. From pylints documentation, the following are the error classes reporte by the pylinter:
+  [R]efactor for a "good practice" metric violation
+  [C]onvention for coding standard violation
+  [W]arning for stylistic problems, or minor programming issues
+  [E]rror for important programming issues (i.e. most probably bug)
+  [F]atal for errors which prevented further processing
+ Beyond this, pylint calculates a score out of 10 based on errors from each .py script
+  
+ The python script helps us understand:
+  1) How many errors of each error classes were exposed
+  2) What were the 10 most popular errors of each classes
+  3) A score estimate per script for the entire project/
+  
+  Dependecy:
+  matplotlib, pandas, glob
+  To install dependency use:
+  pip install <dependency>
+  
+  How to run the script:
+  >>python report_analyzer.py

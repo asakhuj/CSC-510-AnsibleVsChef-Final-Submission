@@ -1,0 +1,15 @@
+************* Module lib.sanity.pslint
+C: 71, 0: Line too long (145/100) (line-too-long)
+C:124, 0: Line too long (120/100) (line-too-long)
+C:137, 0: Line too long (124/100) (line-too-long)
+C:154, 0: Line too long (146/100) (line-too-long)
+C:173, 0: Line too long (148/100) (line-too-long)
+R: 39, 4: Too many local variables (25/15) (too-many-locals)
+R: 39, 4: Too many branches (21/12) (too-many-branches)
+R: 39, 4: Too many statements (57/50) (too-many-statements)
+R: 37, 0: Too few public methods (1/2) (too-few-public-methods)
+W: 24, 0: Unused SanityConfig imported from lib.config (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.73/10
+

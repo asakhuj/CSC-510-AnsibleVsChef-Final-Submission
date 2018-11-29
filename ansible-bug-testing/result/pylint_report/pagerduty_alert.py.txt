@@ -1,0 +1,21 @@
+************* Module ansible.modules.monitoring.pagerduty_alert
+C:130, 0: Line too long (109/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:123, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C:125, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:126, 0: Import "from ansible.module_utils.urls import fetch_url" should be placed at the top of the module (wrong-import-position)
+E:127, 0: No name 'urllib' in module '_MovedItems' (no-name-in-module)
+E:127, 0: Unable to import 'ansible.module_utils.six.moves.urllib.parse' (import-error)
+C:127, 0: Import "from ansible.module_utils.six.moves.urllib.parse import urlparse, urlencode, urlunparse" should be placed at the top of the module (wrong-import-position)
+C:130, 0: Missing function docstring (missing-docstring)
+R:130, 0: Too many arguments (8/5) (too-many-arguments)
+W:130,18: Unused argument 'name' (unused-argument)
+W:130,43: Unused argument 'integration_key' (unused-argument)
+C:163, 0: Missing function docstring (missing-docstring)
+R:163, 0: Too many arguments (7/5) (too-many-arguments)
+C:188, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 6.07/10
+

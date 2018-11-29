@@ -1,0 +1,26 @@
+************* Module ansible.modules.storage.netapp.na_ontap_volume
+W:433, 0: TODO: refactor this method (fixme)
+C:182, 0: Wrong hanging indentation (remove 7 spaces).
+                       'present', 'absent'], default='present'),
+                |      ^ (bad-continuation)
+C:318, 0: Line too long (105/100) (line-too-long)
+C:326, 0: Line too long (105/100) (line-too-long)
+C:370, 0: Line too long (114/100) (line-too-long)
+C:391, 0: Line too long (110/100) (line-too-long)
+C:409, 0: Line too long (117/100) (line-too-long)
+C:412, 0: Line too long (118/100) (line-too-long)
+C:461, 0: Line too long (106/100) (line-too-long)
+C:462, 0: Line too long (116/100) (line-too-long)
+C:489, 0: Line too long (108/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:151, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:153, 0: Import "import ansible.module_utils.netapp as netapp_utils" should be placed at the top of the module (wrong-import-position)
+C:154, 0: Import "from ansible.module_utils.netapp_module import NetAppModule" should be placed at the top of the module (wrong-import-position)
+C:155, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:156, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:472, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 9.07/10
+

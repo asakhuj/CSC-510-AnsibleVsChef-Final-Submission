@@ -1,0 +1,24 @@
+************* Module ansible.modules.cloud.amazon.elasticache_facts
+C:272, 0: Line too long (101/100) (line-too-long)
+C:281, 0: Line too long (104/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:222, 0: Import "from ansible.module_utils.aws.core import AnsibleAWSModule" should be placed at the top of the module (wrong-import-position)
+C:223, 0: Import "from ansible.module_utils.ec2 import boto3_conn, ec2_argument_spec, get_aws_connection_info" should be placed at the top of the module (wrong-import-position)
+C:224, 0: Import "from ansible.module_utils.ec2 import camel_dict_to_snake_dict, AWSRetry" should be placed at the top of the module (wrong-import-position)
+C:225, 0: Import "from ansible.module_utils.ec2 import boto3_tag_list_to_ansible_dict" should be placed at the top of the module (wrong-import-position)
+C:235, 0: Function name "describe_cache_clusters_with_backoff" doesn't conform to snake_case naming style (invalid-name)
+C:235, 0: Missing function docstring (missing-docstring)
+C:242,46: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:252, 0: Function name "get_elasticache_tags_with_backoff" doesn't conform to snake_case naming style (invalid-name)
+C:252, 0: Missing function docstring (missing-docstring)
+C:256, 0: Missing function docstring (missing-docstring)
+C:261,83: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:266,83: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:270, 0: Missing function docstring (missing-docstring)
+C:273,83: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:284,87: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:292, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.03/10
+

@@ -1,0 +1,55 @@
+************* Module ansible.modules.network.junos.junos_config
+C:199, 0: Line too long (105/100) (line-too-long)
+C:200, 0: Line too long (102/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:193, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:194, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C:196, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:197, 0: Import "from ansible.module_utils.network.common.netconf import exec_rpc" should be placed at the top of the module (wrong-import-position)
+C:198, 0: Import "from ansible.module_utils.network.junos.junos import get_diff, load_config, get_configuration" should be placed at the top of the module (wrong-import-position)
+C:199, 0: Import "from ansible.module_utils.network.junos.junos import commit_configuration, discard_changes, locked_config" should be placed at the top of the module (wrong-import-position)
+C:200, 0: Import "from ansible.module_utils.network.junos.junos import junos_argument_spec, load_configuration, tostring" should be placed at the top of the module (wrong-import-position)
+C:201, 0: Import "from ansible.module_utils.six import string_types" should be placed at the top of the module (wrong-import-position)
+C:202, 0: Import "from ansible.module_utils._text import to_native, to_text" should be placed at the top of the module (wrong-import-position)
+C:223, 0: Missing function docstring (missing-docstring)
+W:223,23: Unused argument 'warnings' (unused-argument)
+C:228, 0: Missing function docstring (missing-docstring)
+W:232,18: Redefining built-in 'id' (redefined-builtin)
+C:232, 0: Argument name "id" doesn't conform to snake_case naming style (invalid-name)
+C:232, 0: Missing function docstring (missing-docstring)
+C:236, 0: Missing function docstring (missing-docstring)
+C:255, 0: Missing function docstring (missing-docstring)
+C:273, 0: Missing function docstring (missing-docstring)
+W:361,15: Access to a protected member _diff of a client class (protected-access)
+W:391,23: Access to a protected member _diff of a client class (protected-access)
+R:298, 0: Too many branches (16/12) (too-many-branches)
+R:298, 0: Too many statements (52/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 8.03/10
+
+************* Module ansible.plugins.action.junos_config
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 29, 0: No name 'urllib' in module '_MovedItems' (no-name-in-module)
+E: 29, 0: Unable to import 'ansible.module_utils.six.moves.urllib.parse' (import-error)
+C: 35, 0: Missing class docstring (missing-docstring)
+W: 66,11: Access to a protected member _role of a client class (protected-access)
+W: 67,18: Access to a protected member _role_path of a client class (protected-access)
+W: 67,18: Access to a protected member _role of a client class (protected-access)
+C: 74,12: Variable name "fn" doesn't conform to snake_case naming style (invalid-name)
+C: 78,37: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C: 97,38: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+W:105,11: Access to a protected member _role of a client class (protected-access)
+W:106,30: Access to a protected member _role_path of a client class (protected-access)
+W:106,30: Access to a protected member _role of a client class (protected-access)
+W:108,28: Access to a protected member _block of a client class (protected-access)
+W:111,42: Access to a protected member _role_path of a client class (protected-access)
+R: 82, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R: 35, 0: Too few public methods (1/2) (too-few-public-methods)
+W: 30, 0: Unused merge_hash imported from ansible.utils.vars (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.09/10
+

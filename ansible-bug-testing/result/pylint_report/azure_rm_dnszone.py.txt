@@ -1,0 +1,17 @@
+************* Module ansible.modules.cloud.azure.azure_rm_dnszone
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 22, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:100, 0: Import "from ansible.module_utils.azure_rm_common import AzureRMModuleBase" should be placed at the top of the module (wrong-import-position)
+C:110, 0: Missing class docstring (missing-docstring)
+R:171,12: The if statement can be replaced with 'var = bool(test)' (simplifiable-if-statement)
+R:136, 4: Too many branches (13/12) (too-many-branches)
+C:206, 4: Missing method docstring (missing-docstring)
+W:210,15: Catching too general exception Exception (broad-except)
+C:214, 4: Missing method docstring (missing-docstring)
+W:219,15: Catching too general exception Exception (broad-except)
+C:224, 0: Missing function docstring (missing-docstring)
+C:236, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.48/10
+

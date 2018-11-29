@@ -1,0 +1,12 @@
+************* Module ansible.modules.remote_management.oneview.oneview_network_set
+C:142, 0: Line too long (110/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 93, 0: Import "from ansible.module_utils.oneview import OneViewModuleBase, OneViewModuleResourceNotFound" should be placed at the top of the module (wrong-import-position)
+C: 96, 0: Missing class docstring (missing-docstring)
+R:114, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:149, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.57/10
+

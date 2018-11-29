@@ -1,0 +1,16 @@
+************* Module ansible.modules.cloud.google.gcp_target_proxy
+C:246, 0: Line too long (105/100) (line-too-long)
+C:272, 0: Line too long (113/100) (line-too-long)
+C:276, 0: Line too long (105/100) (line-too-long)
+C:277, 0: Line too long (109/100) (line-too-long)
+C:282, 0: Line too long (105/100) (line-too-long)
+C:283, 0: Line too long (109/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 89, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 90, 0: Import "from ansible.module_utils.gcp import get_google_api_client, GCPUtils" should be placed at the top of the module (wrong-import-position)
+C:234, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.51/10
+

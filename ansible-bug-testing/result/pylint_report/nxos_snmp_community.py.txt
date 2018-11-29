@@ -1,0 +1,24 @@
+************* Module ansible.modules.network.nxos.nxos_snmp_community
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 75, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C: 76, 0: Import "from ansible.module_utils.network.nxos.nxos import load_config, run_commands" should be placed at the top of the module (wrong-import-position)
+C: 77, 0: Import "from ansible.module_utils.network.nxos.nxos import nxos_argument_spec, check_args" should be placed at the top of the module (wrong-import-position)
+C: 78, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 81, 0: Missing function docstring (missing-docstring)
+C: 95, 0: Missing function docstring (missing-docstring)
+C:105, 0: Missing function docstring (missing-docstring)
+C:119, 0: Missing function docstring (missing-docstring)
+C:128, 4: Variable name "mo" doesn't conform to snake_case naming style (invalid-name)
+C:136, 4: Variable name "mo" doesn't conform to snake_case naming style (invalid-name)
+C:142, 4: Variable name "mo" doesn't conform to snake_case naming style (invalid-name)
+C:149, 0: Missing function docstring (missing-docstring)
+C:150, 4: Variable name "CMDS" doesn't conform to snake_case naming style (invalid-name)
+C:156,11: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+W:156,11: Unused variable 'v' (unused-variable)
+C:164, 0: Missing function docstring (missing-docstring)
+R:164, 0: Too many local variables (17/15) (too-many-locals)
+R:164, 0: Too many branches (13/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 8.29/10
+

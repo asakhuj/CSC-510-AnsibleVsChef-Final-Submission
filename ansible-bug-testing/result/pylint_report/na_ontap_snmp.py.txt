@@ -1,0 +1,11 @@
+************* Module ansible.modules.storage.netapp.na_ontap_snmp
+C: 77, 0: Line too long (101/100) (line-too-long)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 63, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 64, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 65, 0: Import "import ansible.module_utils.netapp as netapp_utils" should be placed at the top of the module (wrong-import-position)
+W: 64, 0: Unused to_native imported from ansible.module_utils._text (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.80/10
+

@@ -1,0 +1,17 @@
+************* Module ansible.module_utils.aws.elb_utils
+C: 41, 0: Line too long (107/100) (line-too-long)
+C: 62, 0: Line too long (136/100) (line-too-long)
+C: 87, 0: Line too long (104/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 24,43: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C: 42,43: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W: 29,25: Unused argument 'module' (unused-argument)
+C: 63,43: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C: 66, 4: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+C: 70,12: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+C: 88,43: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:104,43: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.14/10
+

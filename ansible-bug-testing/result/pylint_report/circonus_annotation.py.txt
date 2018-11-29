@@ -1,0 +1,17 @@
+************* Module ansible.modules.monitoring.circonus_annotation
+C:163, 0: Line too long (133/100) (line-too-long)
+C:224, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:140, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C:141, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C:142, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:143, 0: Import "from distutils.version import LooseVersion" should be placed at the top of the module (wrong-import-position)
+C:151, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:152, 0: Import "from ansible.module_utils.six import PY3" should be placed at the top of the module (wrong-import-position)
+C:153, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:223,51: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.97/10
+

@@ -1,0 +1,40 @@
+************* Module ansible.modules.notification.jabber
+C:155, 0: Line too long (103/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 82, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C: 83, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C: 91, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 92, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 95, 0: Missing function docstring (missing-docstring)
+C:119, 8: Variable name "to" doesn't conform to snake_case naming style (invalid-name)
+C:121, 8: Variable name "to" doesn't conform to snake_case naming style (invalid-name)
+W:154,11: Catching too general exception Exception (broad-except)
+C:154,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.86/10
+
+************* Module ansible.plugins.callback.jabber
+C: 75, 0: Line too long (136/100) (line-too-long)
+C:115, 0: Line too long (111/100) (line-too-long)
+C:118, 0: Line too long (107/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 41, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C: 49, 0: Import "from ansible.plugins.callback import CallbackBase" should be placed at the top of the module (wrong-import-position)
+C: 52, 0: Missing class docstring (missing-docstring)
+R: 52, 0: Too many instance attributes (8/7) (too-many-instance-attributes)
+W: 89,28: Access to a protected member _result of a client class (protected-access)
+W: 89,44: Access to a protected member _task of a client class (protected-access)
+W: 90,40: Access to a protected member _result of a client class (protected-access)
+C:106,12: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:107,12: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+W:115,103: Using possibly undefined loop variable 'h' (undefined-loop-variable)
+W: 97, 8: Attribute 'play' defined outside __init__ (attribute-defined-outside-init)
+W: 93, 8: Attribute 'task' defined outside __init__ (attribute-defined-outside-init)
+W: 90, 8: Attribute 'debug' defined outside __init__ (attribute-defined-outside-init)
+
+-----------------------------------
+Your code has been rated at 7.05/10
+

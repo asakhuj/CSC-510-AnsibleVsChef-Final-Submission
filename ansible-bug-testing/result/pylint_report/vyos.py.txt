@@ -1,0 +1,90 @@
+************* Module ansible.module_utils.network.vyos.vyos
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 36, 0: Constant name "vyos_provider_spec" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 46, 0: Constant name "vyos_argument_spec" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 49, 0: Constant name "vyos_top_spec" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 62, 0: Missing function docstring (missing-docstring)
+C: 66, 0: Missing function docstring (missing-docstring)
+W: 68,15: Access to a protected member _vyos_connection of a client class (protected-access)
+W: 73, 8: Access to a protected member _vyos_connection of a client class (protected-access)
+W: 73,45: Access to a protected member _socket_path of a client class (protected-access)
+W: 77,11: Access to a protected member _vyos_connection of a client class (protected-access)
+C: 80, 0: Missing function docstring (missing-docstring)
+W: 82,15: Access to a protected member _vyos_capabilities of a client class (protected-access)
+W: 85,34: Access to a protected member _socket_path of a client class (protected-access)
+W: 89, 4: Access to a protected member _vyos_capabilities of a client class (protected-access)
+W: 90,11: Access to a protected member _vyos_capabilities of a client class (protected-access)
+C: 93, 0: Missing function docstring (missing-docstring)
+W: 94, 4: Using the global statement (global-statement)
+R: 96, 4: Unnecessary "else" after "return" (no-else-return)
+C:109, 0: Missing function docstring (missing-docstring)
+C:118, 0: Missing function docstring (missing-docstring)
+W: 31, 0: Unused return_values imported from ansible.module_utils.basic (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.18/10
+
+************* Module ansible.plugins.action.vyos
+C: 49, 0: Line too long (101/100) (line-too-long)
+C: 65, 0: Line too long (134/100) (line-too-long)
+C: 73, 0: Line too long (122/100) (line-too-long)
+C: 77, 0: Line too long (125/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 39, 0: Missing class docstring (missing-docstring)
+C: 53,12: Variable name "pc" doesn't conform to snake_case naming style (invalid-name)
+E: 53,17: Module 'copy' has no 'deepcopy' member (no-member)
+R: 39, 0: Too few public methods (1/2) (too-few-public-methods)
+W: 25, 0: Unused constants imported from ansible as C (unused-import)
+C: 35, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 7.04/10
+
+************* Module ansible.plugins.cliconf.vyos
+C: 61, 0: Line too long (142/100) (line-too-long)
+C:108, 0: Line too long (104/100) (line-too-long)
+C:115, 0: Line too long (111/100) (line-too-long)
+C:127, 0: Line too long (126/100) (line-too-long)
+C:136, 0: Line too long (135/100) (line-too-long)
+C:245, 0: Line too long (103/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 35, 0: Missing class docstring (missing-docstring)
+C: 37, 4: Missing method docstring (missing-docstring)
+W: 57,37: Redefining built-in 'format' (redefined-builtin)
+W: 57, 4: Parameters differ from overridden 'get_config' method (arguments-differ)
+W: 69, 4: Parameters differ from overridden 'edit_config' method (arguments-differ)
+C: 91,51: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:108, 4: Too many arguments (7/5) (too-many-arguments)
+W:108, 4: Parameters differ from overridden 'get' method (arguments-differ)
+R:127, 4: Too many arguments (7/5) (too-many-arguments)
+R:127, 4: Too many local variables (24/15) (too-many-locals)
+R:127, 4: Too many branches (19/12) (too-many-branches)
+C:211,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:220, 4: Missing method docstring (missing-docstring)
+R:220, 4: Method could be a function (no-self-use)
+C:235, 4: Missing method docstring (missing-docstring)
+R:235, 4: Method could be a function (no-self-use)
+W: 25, 0: Unused chain imported from itertools (unused-import)
+W: 30, 0: Unused dumps imported from ansible.module_utils.network.common.config (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.35/10
+
+************* Module ansible.plugins.terminal.vyos
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 29, 0: Missing class docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.24/10
+
+************* Module ansible.utils.module_docs_fragments.vyos
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Missing class docstring (missing-docstring)
+R: 20, 0: Too few public methods (0/2) (too-few-public-methods)
+
+------------------------------------
+Your code has been rated at -5.00/10
+

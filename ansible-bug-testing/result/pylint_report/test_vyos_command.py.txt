@@ -1,0 +1,24 @@
+************* Module units.modules.network.vyos.test_vyos_command
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 25, 0: Unable to import 'ansible.modules.network.vyos' (import-error)
+C: 30, 0: Missing class docstring (missing-docstring)
+C: 44, 8: Missing function docstring (missing-docstring)
+W: 45,12: Unused variable 'module' (unused-variable)
+W: 44, 0: Unused argument 'kwargs' (unused-argument)
+C: 59, 4: Missing method docstring (missing-docstring)
+C: 65, 4: Missing method docstring (missing-docstring)
+C: 71, 4: Missing method docstring (missing-docstring)
+C: 76, 4: Method name "test_vyos_command_wait_for_fails" doesn't conform to snake_case naming style (invalid-name)
+C: 76, 4: Missing method docstring (missing-docstring)
+C: 82, 4: Missing method docstring (missing-docstring)
+C: 88, 4: Missing method docstring (missing-docstring)
+C: 94, 4: Missing method docstring (missing-docstring)
+C:100, 4: Method name "test_vyos_command_match_all_failure" doesn't conform to snake_case naming style (invalid-name)
+C:100, 4: Missing method docstring (missing-docstring)
+W: 22, 0: Unused import json (unused-import)
+C: 26, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 6.52/10
+

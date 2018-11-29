@@ -1,0 +1,2 @@
+************* Module ansible.module_utils.ansible_release
+E:  1, 0: invalid syntax (<string>, line 1) (syntax-error)

@@ -1,0 +1,28 @@
+************* Module ansible.modules.cloud.azure.azure_rm_mysqldatabase
+C:175, 0: Line too long (112/100) (line-too-long)
+C:192, 0: Line too long (104/100) (line-too-long)
+C:193, 0: Line too long (116/100) (line-too-long)
+C:195, 0: Line too long (110/100) (line-too-long)
+C:222, 0: Line too long (106/100) (line-too-long)
+C:246, 0: Line too long (107/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 94, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C: 95, 0: Import "from ansible.module_utils.azure_rm_common import AzureRMModuleBase" should be placed at the top of the module (wrong-import-position)
+C:107, 0: Missing class docstring (missing-docstring)
+W:107, 0: Class has no __init__ method (no-init)
+R:107, 0: Too few public methods (0/2) (too-few-public-methods)
+R:111, 0: Too many instance attributes (9/7) (too-many-instance-attributes)
+E:198,15: Instance of 'AzureRMDatabases' has no 'force_update' member (no-member)
+W:177, 8: Unused variable 'resource_group' (unused-variable)
+R:159, 4: Too many branches (24/12) (too-many-branches)
+R:159, 4: Too many statements (55/50) (too-many-statements)
+C:269,29: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:266,12: Unused variable 'response' (unused-variable)
+C:290,29: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:290,29: Unused variable 'e' (unused-variable)
+W:101, 4: Unused Model imported from msrest.serialization (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.75/10
+

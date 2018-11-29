@@ -1,0 +1,52 @@
+************* Module setup
+C: 74, 0: Wrong continued indentation (remove 1 space).
+                            }
+                           |^ (bad-continuation)
+C:134, 0: Wrong continued indentation (remove 1 space).
+                    }
+                   |^ (bad-continuation)
+C:241, 0: Line too long (121/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+E: 27, 0: Unable to import 'ansible.release' (import-error)
+C: 27, 0: Import "from ansible.release import __version__, __author__" should be placed at the top of the module (wrong-import-position)
+E: 45,25: Module 'os' has no 'readlink' member (no-member)
+W: 41,19: Unused variable 'dirs' (unused-variable)
+C: 55,37: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C: 64,41: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C: 66,33: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C: 97,34: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+E:101,16: Module 'os' has no 'symlink' member (no-member)
+C:104, 0: Missing class docstring (missing-docstring)
+C:110, 0: Missing class docstring (missing-docstring)
+C:116, 0: Missing class docstring (missing-docstring)
+C:122, 0: Missing class docstring (missing-docstring)
+C:128, 0: Missing class docstring (missing-docstring)
+C:142,33: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C:185, 4: Argument name "r" doesn't conform to snake_case naming style (invalid-name)
+C:185, 4: Missing function docstring (missing-docstring)
+C:186, 8: Variable name "CRYPTO_LIBS" doesn't conform to snake_case naming style (invalid-name)
+C:220, 0: Constant name "static_setup_params" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 7.22/10 (previous run: 7.22/10, +0.00)
+
+************* Module ansible.modules.system.setup
+W:155, 0: TODO: this mimics existing behavior where gather_subset=["!all"] actually means (fixme)
+W:157, 0: TODO: decide what '!all' means, I lean towards making it mean none, but likely needs (fixme)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:132, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:134, 0: Import "from ansible.module_utils.facts.namespace import PrefixFactNamespace" should be placed at the top of the module (wrong-import-position)
+C:135, 0: Import "from ansible.module_utils.facts import ansible_collector" should be placed at the top of the module (wrong-import-position)
+C:137, 0: Import "from ansible.module_utils.facts import default_collectors" should be placed at the top of the module (wrong-import-position)
+C:140, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 5.91/10
+
+************* Module setup
+C:  1, 0: Missing module docstring (missing-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 5.00/10 (previous run: 7.22/10, -2.22)
+

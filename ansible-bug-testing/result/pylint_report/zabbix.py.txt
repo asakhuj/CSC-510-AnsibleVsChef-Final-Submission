@@ -1,0 +1,29 @@
+************* Module zabbix
+C:133, 0: Line too long (105/100) (line-too-long)
+C:149, 0: Line too long (114/100) (line-too-long)
+W: 47, 0: No exception type(s) specified (bare-except)
+E: 46, 4: Unable to import 'zabbix_api' (import-error)
+C: 55, 0: Missing class docstring (missing-docstring)
+C: 57, 4: Missing method docstring (missing-docstring)
+C: 78, 4: Missing method docstring (missing-docstring)
+C: 84, 4: Missing method docstring (missing-docstring)
+R: 84, 4: Method could be a function (no-self-use)
+C: 89, 4: Missing method docstring (missing-docstring)
+W: 89,23: Unused argument 'api' (unused-argument)
+R: 89, 4: Method could be a function (no-self-use)
+C: 93, 4: Missing method docstring (missing-docstring)
+C: 94, 8: Variable name "hostsData" doesn't conform to snake_case naming style (invalid-name)
+C:132,36: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:132,36: Unused variable 'e' (unused-variable)
+
+------------------------------------------------------------------
+Your code has been rated at 7.56/10 (previous run: 7.56/10, +0.00)
+
+************* Module ansible.utils.module_docs_fragments.zabbix
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 19, 0: Missing class docstring (missing-docstring)
+R: 19, 0: Too few public methods (0/2) (too-few-public-methods)
+
+------------------------------------
+Your code has been rated at -5.00/10
+

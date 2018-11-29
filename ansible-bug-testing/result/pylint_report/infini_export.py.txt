@@ -1,0 +1,17 @@
+************* Module ansible.modules.storage.infinidat.infini_export
+C: 93, 0: Line too long (106/100) (line-too-long)
+C:141, 0: Line too long (109/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 92, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 93, 0: Import "from ansible.module_utils.infinibox import HAS_INFINISDK, api_wrapper, get_system, infinibox_argument_spec" should be placed at the top of the module (wrong-import-position)
+C: 96, 0: Argument name "d" doesn't conform to snake_case naming style (invalid-name)
+C: 96, 0: Missing function docstring (missing-docstring)
+W:105, 4: No exception type(s) specified (bare-except)
+C:116, 8: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:110,23: Unused argument 'filesystem' (unused-argument)
+C:157, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.29/10
+

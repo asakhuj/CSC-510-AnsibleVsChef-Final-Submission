@@ -1,0 +1,18 @@
+************* Module ansible.modules.network.aos._aos_rack_type
+C:136, 0: Line too long (140/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:133, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C:135, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:136, 0: Import "from ansible.module_utils.network.aos.aos import get_aos_session, find_collection_item, do_load_resource, check_aos_version, content_to_dict" should be placed at the top of the module (wrong-import-position)
+C:143, 0: Missing function docstring (missing-docstring)
+W:158, 8: No exception type(s) specified (bare-except)
+W:143,29: Unused argument 'aos' (unused-argument)
+C:167, 0: Missing function docstring (missing-docstring)
+C:192, 0: Missing function docstring (missing-docstring)
+W:198, 4: No exception type(s) specified (bare-except)
+C:238, 0: Missing function docstring (missing-docstring)
+W:133, 0: Unused import json (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.59/10
+

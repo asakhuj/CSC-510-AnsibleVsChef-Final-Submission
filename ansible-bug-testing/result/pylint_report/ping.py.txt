@@ -1,0 +1,45 @@
+************* Module ansible.modules.system.ping
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 62, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 65, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.33/10
+
+************* Module ping
+C:  1, 0: Missing module docstring (missing-docstring)
+E: 49, 0: Unable to import 'ansible.module_utils.basic' (import-error)
+C: 49, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 52, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 4.67/10
+
+************* Module ping
+C:  1, 0: Missing module docstring (missing-docstring)
+E: 49, 0: Unable to import 'ansible.module_utils.basic' (import-error)
+C: 49, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 52, 0: Missing function docstring (missing-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 4.67/10 (previous run: 4.67/10, +0.00)
+
+************* Module ping
+C:  1, 0: Missing module docstring (missing-docstring)
+E: 49, 0: Unable to import 'ansible.module_utils.basic' (import-error)
+C: 49, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 52, 0: Missing function docstring (missing-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 4.67/10 (previous run: 4.67/10, +0.00)
+
+************* Module ping
+C:  1, 0: Missing module docstring (missing-docstring)
+E: 49, 0: Unable to import 'ansible.module_utils.basic' (import-error)
+C: 49, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 52, 0: Missing function docstring (missing-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 4.67/10 (previous run: 4.67/10, +0.00)
+

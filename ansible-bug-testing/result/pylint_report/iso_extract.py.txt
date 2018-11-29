@@ -1,0 +1,22 @@
+************* Module ansible.modules.files.iso_extract
+C:130, 0: Line too long (108/100) (line-too-long)
+C:160, 0: Line too long (107/100) (line-too-long)
+C:175, 0: Line too long (110/100) (line-too-long)
+C:177, 0: Line too long (155/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 11, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 87, 0: Import "import os.path" should be placed at the top of the module (wrong-import-position)
+C: 88, 0: Import "import shutil" should be placed at the top of the module (wrong-import-position)
+C: 89, 0: Import "import tempfile" should be placed at the top of the module (wrong-import-position)
+C: 96, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 99, 0: Missing function docstring (missing-docstring)
+R: 99, 0: Too many local variables (19/15) (too-many-locals)
+C:143,12: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C:164, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:180,12: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+R: 99, 0: Too many branches (22/12) (too-many-branches)
+R: 99, 0: Too many statements (59/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 7.67/10
+

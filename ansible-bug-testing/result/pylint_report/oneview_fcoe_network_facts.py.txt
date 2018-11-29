@@ -1,0 +1,11 @@
+************* Module ansible.modules.remote_management.oneview.oneview_fcoe_network_facts
+C: 85, 0: Line too long (104/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 70, 0: Import "from ansible.module_utils.oneview import OneViewModuleBase" should be placed at the top of the module (wrong-import-position)
+C: 73, 0: Missing class docstring (missing-docstring)
+C: 93, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.00/10
+

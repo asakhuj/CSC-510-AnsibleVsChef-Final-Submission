@@ -1,0 +1,65 @@
+************* Module ansible.modules.network.meraki.meraki_ssid
+W:356, 0: FIXME: Work with Meraki so they can implement a check mode (fixme)
+C:251, 0: Wrong continued indentation (remove 1 space).
+                 }
+                |^ (bad-continuation)
+C:262, 0: Wrong continued indentation (remove 1 space).
+                       }
+                      |^ (bad-continuation)
+C:269, 0: Wrong continued indentation (remove 1 space).
+                           )
+                          |^ (bad-continuation)
+C:272, 0: Wrong continued indentation (remove 1 space).
+                         )
+                        |^ (bad-continuation)
+C:275, 0: Line too long (107/100) (line-too-long)
+C:283, 0: Line too long (129/100) (line-too-long)
+C:286, 0: Line too long (102/100) (line-too-long)
+C:290, 0: Line too long (103/100) (line-too-long)
+C:291, 0: Line too long (103/100) (line-too-long)
+C:292, 0: Line too long (106/100) (line-too-long)
+C:299, 0: Line too long (113/100) (line-too-long)
+C:301, 0: Line too long (106/100) (line-too-long)
+C:302, 0: Line too long (121/100) (line-too-long)
+C:304, 0: Line too long (110/100) (line-too-long)
+C:308, 0: Line too long (108/100) (line-too-long)
+C:314, 0: Line too long (113/100) (line-too-long)
+C:317, 0: Line too long (111/100) (line-too-long)
+C:320, 0: Line too long (109/100) (line-too-long)
+C:323, 0: Wrong continued indentation (remove 1 space).
+                         )
+                        |^ (bad-continuation)
+C:339, 0: Wrong continued indentation (remove 1 space).
+                           )
+                          |^ (bad-continuation)
+C:368, 0: Line too long (108/100) (line-too-long)
+C:371, 0: Line too long (129/100) (line-too-long)
+C:373, 0: Line too long (137/100) (line-too-long)
+C:374, 0: Line too long (132/100) (line-too-long)
+C:404, 0: Line too long (112/100) (line-too-long)
+C:412, 0: Line too long (102/100) (line-too-long)
+C:425, 0: Line too long (105/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:198, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:199, 0: Import "from ansible.module_utils.basic import AnsibleModule, json, env_fallback" should be placed at the top of the module (wrong-import-position)
+C:200, 0: Import "from ansible.module_utils.urls import fetch_url" should be placed at the top of the module (wrong-import-position)
+C:201, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:202, 0: Import "from ansible.module_utils.network.meraki.meraki import MerakiModule, meraki_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:205, 0: Missing function docstring (missing-docstring)
+C:212, 0: Missing function docstring (missing-docstring)
+C:219, 0: Missing function docstring (missing-docstring)
+C:224, 0: Missing function docstring (missing-docstring)
+R:224, 0: Too many local variables (21/15) (too-many-locals)
+E:371,12: Instance of 'MerakiModule' has no 'fails_json' member; maybe 'fail_json'? (no-member)
+C:399,15: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+R:224, 0: Too many branches (27/12) (too-many-branches)
+R:224, 0: Too many statements (85/50) (too-many-statements)
+W:198, 0: Unused import os (unused-import)
+W:199, 0: Unused env_fallback imported from ansible.module_utils.basic (unused-import)
+W:200, 0: Unused fetch_url imported from ansible.module_utils.urls (unused-import)
+W:201, 0: Unused to_native imported from ansible.module_utils._text (unused-import)
+
+-----------------------------------
+Your code has been rated at 5.32/10
+

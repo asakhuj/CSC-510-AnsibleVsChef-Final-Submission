@@ -1,0 +1,25 @@
+************* Module ansible.modules.storage.zfs.zfs_facts
+C:227, 0: Line too long (106/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:156, 0: Import "from collections import defaultdict" should be placed at the top of the module (wrong-import-position)
+C:158, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:159, 0: Import "from ansible.module_utils.six import iteritems" should be placed at the top of the module (wrong-import-position)
+C:165, 0: Missing class docstring (missing-docstring)
+R:165, 0: Too many instance attributes (9/7) (too-many-instance-attributes)
+C:180, 4: Missing method docstring (missing-docstring)
+C:186, 9: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+R:188, 8: The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)
+R:188, 8: Unnecessary "else" after "return" (no-else-return)
+W:186,18: Unused variable 'err' (unused-variable)
+W:186,13: Unused variable 'out' (unused-variable)
+W:217,25: Redefining built-in 'property' (redefined-builtin)
+C:193, 4: Missing method docstring (missing-docstring)
+C:213, 9: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:221,19: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+R:193, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:232, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.26/10
+

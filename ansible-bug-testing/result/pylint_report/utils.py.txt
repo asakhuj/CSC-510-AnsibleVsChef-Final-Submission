@@ -1,0 +1,108 @@
+************* Module ansible.module_utils.facts.utils
+C: 33, 0: Line too long (112/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 19, 0: Missing function docstring (missing-docstring)
+W: 32,15: Catching too general exception Exception (broad-except)
+C: 28,19: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C: 49, 0: Missing function docstring (missing-docstring)
+E: 53,25: Module 'os' has no 'statvfs' member (no-member)
+
+-----------------------------------
+Your code has been rated at 7.11/10
+
+************* Module ansible.module_utils.network.common.utils
+C:203, 0: Line too long (128/100) (line-too-long)
+C:467, 0: Line too long (119/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 60, 0: Missing function docstring (missing-docstring)
+R: 61, 4: Unnecessary "else" after "return" (no-else-return)
+C: 69, 0: Missing function docstring (missing-docstring)
+C: 76, 0: Missing function docstring (missing-docstring)
+C: 89, 0: Missing function docstring (missing-docstring)
+R:125, 4: Too many arguments (6/5) (too-many-arguments)
+W:142,12: Unused variable 'name' (unused-variable)
+C:157, 4: Missing method docstring (missing-docstring)
+C:160, 4: Missing method docstring (missing-docstring)
+W:207,31: Access to a protected member _CHECK_ARGUMENT_TYPES_DISPATCHER of a client class (protected-access)
+R:169, 4: Too many branches (16/12) (too-many-branches)
+C:230, 0: Missing class docstring (missing-docstring)
+C:235, 0: Missing class docstring (missing-docstring)
+R:279, 0: Too many branches (21/12) (too-many-branches)
+C:341, 0: Missing function docstring (missing-docstring)
+C:344, 8: Variable name "op" doesn't conform to snake_case naming style (invalid-name)
+C:346, 8: Variable name "op" doesn't conform to snake_case naming style (invalid-name)
+C:357, 4: Variable name "op" doesn't conform to snake_case naming style (invalid-name)
+R:368, 4: Unnecessary "else" after "return" (no-else-return)
+C:374, 0: Missing function docstring (missing-docstring)
+C:380, 0: Missing function docstring (missing-docstring)
+C:388, 0: Missing function docstring (missing-docstring)
+E:390, 8: Module 'socket' has no 'inet_pton' member; maybe 'inet_aton'? (no-member)
+C:396, 0: Missing function docstring (missing-docstring)
+C:402, 0: Missing function docstring (missing-docstring)
+C:434, 0: Missing class docstring (missing-docstring)
+C:434, 0: Old-style class defined. (old-style-class)
+W:460,12: No exception type(s) specified (bare-except)
+C:465, 4: Missing method docstring (missing-docstring)
+W: 37, 0: Unused inet_aton imported from socket (unused-import)
+W: 44, 0: Unused to_bits imported from ansible.module_utils.common.network (unused-import)
+W: 44, 0: Unused is_masklen imported from ansible.module_utils.common.network (unused-import)
+W: 44, 0: Unused VALID_MASKS imported from ansible.module_utils.common.network (unused-import)
+W: 44, 0: Unused to_subnet imported from ansible.module_utils.common.network (unused-import)
+W: 44, 0: Unused to_masklen imported from ansible.module_utils.common.network (unused-import)
+W: 44, 0: Unused to_ipv6_network imported from ansible.module_utils.common.network (unused-import)
+W: 44, 0: Unused to_netmask imported from ansible.module_utils.common.network (unused-import)
+W: 44, 0: Unused is_netmask imported from ansible.module_utils.common.network (unused-import)
+C: 37, 0: Imports from package socket are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 8.29/10
+
+************* Module validate-modules.utils
+W:104, 0: TODO: Better line/column detection (fixme)
+C: 65, 0: Line too long (101/100) (line-too-long)
+C: 66, 0: Line too long (101/100) (line-too-long)
+C:142, 0: Line too long (155/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+E: 27, 0: Unable to import 'ansible.module_utils._text' (import-error)
+E: 28, 0: Unable to import 'ansible.module_utils.basic' (import-error)
+C: 31, 0: Missing class docstring (missing-docstring)
+C: 32, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C: 32, 4: Missing method docstring (missing-docstring)
+R: 31, 0: Too few public methods (1/2) (too-few-public-methods)
+C: 36, 0: Argument name "g" doesn't conform to snake_case naming style (invalid-name)
+C: 59, 0: Old-style class defined. (old-style-class)
+W: 59, 0: Class has no __init__ method (no-init)
+W: 64, 8: Attribute 'sys_stderr' defined outside __init__ (attribute-defined-outside-init)
+W: 63, 8: Attribute 'sys_stdout' defined outside __init__ (attribute-defined-outside-init)
+W: 66,21: Attribute 'stderr' defined outside __init__ (attribute-defined-outside-init)
+W: 65,21: Attribute 'stdout' defined outside __init__ (attribute-defined-outside-init)
+C: 79, 0: Missing function docstring (missing-docstring)
+C: 93,35: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:102,38: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:110,29: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:127, 0: Argument name "a" doesn't conform to snake_case naming style (invalid-name)
+C:127, 0: Argument name "b" doesn't conform to snake_case naming style (invalid-name)
+R:137, 0: Too few public methods (0/2) (too-few-public-methods)
+W:142, 8: Attribute 'params' defined outside __init__ (attribute-defined-outside-init)
+
+-----------------------------------
+Your code has been rated at 5.41/10
+
+************* Module units.modules.utils
+C: 41, 0: Line too long (104/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  5, 0: Unable to import 'ansible.module_utils' (import-error)
+E:  6, 0: Unable to import 'ansible.module_utils._text' (import-error)
+C:  9, 0: Missing function docstring (missing-docstring)
+W: 16, 4: Access to a protected member _ANSIBLE_ARGS of a client class (protected-access)
+C: 19, 0: Missing class docstring (missing-docstring)
+C: 23, 0: Missing class docstring (missing-docstring)
+C: 27, 0: Missing function docstring (missing-docstring)
+W: 27, 0: Unused argument 'args' (unused-argument)
+C: 33, 0: Missing function docstring (missing-docstring)
+W: 33, 0: Unused argument 'args' (unused-argument)
+C: 38, 0: Missing class docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 2.76/10
+

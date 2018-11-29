@@ -1,0 +1,103 @@
+************* Module ansible.module_utils.network.ios.ios
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 37, 0: Constant name "ios_provider_spec" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 47, 0: Constant name "ios_argument_spec" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 51, 0: Constant name "ios_top_spec" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 64, 0: Missing function docstring (missing-docstring)
+C: 68, 0: Missing function docstring (missing-docstring)
+W: 70,15: Access to a protected member _ios_connection of a client class (protected-access)
+W: 75, 8: Access to a protected member _ios_connection of a client class (protected-access)
+W: 75,44: Access to a protected member _socket_path of a client class (protected-access)
+W: 79,11: Access to a protected member _ios_connection of a client class (protected-access)
+C: 82, 0: Missing function docstring (missing-docstring)
+W: 84,15: Access to a protected member _ios_capabilities of a client class (protected-access)
+W: 86,34: Access to a protected member _socket_path of a client class (protected-access)
+W: 89, 4: Access to a protected member _ios_capabilities of a client class (protected-access)
+W: 90,11: Access to a protected member _ios_capabilities of a client class (protected-access)
+C: 93, 0: Missing function docstring (missing-docstring)
+W: 93,15: Unused argument 'module' (unused-argument)
+W: 93,23: Unused argument 'warnings' (unused-argument)
+C: 97, 0: Missing function docstring (missing-docstring)
+C:106, 0: Missing function docstring (missing-docstring)
+C:122, 0: Missing function docstring (missing-docstring)
+C:130, 0: Missing function docstring (missing-docstring)
+R:140, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:140, 0: Too many branches (17/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 7.71/10
+
+************* Module ansible.plugins.action.ios
+C: 49, 0: Line too long (101/100) (line-too-long)
+C: 69, 0: Line too long (134/100) (line-too-long)
+C: 77, 0: Line too long (122/100) (line-too-long)
+C: 81, 0: Line too long (125/100) (line-too-long)
+C: 92, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 39, 0: Missing class docstring (missing-docstring)
+C: 53,12: Variable name "pc" doesn't conform to snake_case naming style (invalid-name)
+E: 53,17: Module 'copy' has no 'deepcopy' member (no-member)
+R: 39, 0: Too few public methods (1/2) (too-few-public-methods)
+W: 25, 0: Unused constants imported from ansible as C (unused-import)
+C: 35, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 7.21/10
+
+************* Module ansible.plugins.cliconf.ios
+C: 59, 0: Line too long (128/100) (line-too-long)
+C: 68, 0: Line too long (111/100) (line-too-long)
+C: 73, 0: Line too long (106/100) (line-too-long)
+C: 75, 0: Line too long (103/100) (line-too-long)
+C:102, 0: Line too long (135/100) (line-too-long)
+C:105, 0: Line too long (141/100) (line-too-long)
+C:116, 0: Line too long (117/100) (line-too-long)
+C:180, 0: Line too long (104/100) (line-too-long)
+C:186, 0: Line too long (119/100) (line-too-long)
+C:234, 0: Line too long (110/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 37, 0: Missing class docstring (missing-docstring)
+W: 40,55: Redefining built-in 'format' (redefined-builtin)
+R: 59, 4: Too many arguments (7/5) (too-many-arguments)
+R: 59, 4: Too many local variables (18/15) (too-many-locals)
+W:128, 4: Parameters differ from overridden 'edit_config' method (arguments-differ)
+C:154, 4: Missing method docstring (missing-docstring)
+E:157, 8: Instance of 'Cliconf' has no 'check_edit_config_capabiltiy' member (no-member)
+R:180, 4: Too many arguments (7/5) (too-many-arguments)
+W:180, 4: Parameters differ from overridden 'get' method (arguments-differ)
+C:188, 4: Missing method docstring (missing-docstring)
+C:209, 4: Missing method docstring (missing-docstring)
+R:209, 4: Method could be a function (no-self-use)
+C:224, 4: Missing method docstring (missing-docstring)
+R:224, 4: Method could be a function (no-self-use)
+C:291,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:314, 8: Unnecessary "else" after "return" (no-else-return)
+R:319, 4: Method could be a function (no-self-use)
+R:338, 4: Method could be a function (no-self-use)
+W: 26, 0: Unused chain imported from itertools (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.21/10
+
+************* Module ansible.plugins.terminal.ios
+C: 68, 0: Line too long (103/100) (line-too-long)
+C: 75, 0: Line too long (122/100) (line-too-long)
+C: 78, 0: Line too long (141/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 30, 0: Missing class docstring (missing-docstring)
+C: 76,43: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.29/10
+
+************* Module ansible.utils.module_docs_fragments.ios
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Missing class docstring (missing-docstring)
+R: 20, 0: Too few public methods (0/2) (too-few-public-methods)
+
+------------------------------------
+Your code has been rated at -5.00/10
+

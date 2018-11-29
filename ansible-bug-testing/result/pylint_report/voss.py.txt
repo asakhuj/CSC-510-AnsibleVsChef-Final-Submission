@@ -1,0 +1,75 @@
+************* Module ansible.module_utils.network.voss.voss
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 45, 0: Missing function docstring (missing-docstring)
+W: 47,15: Access to a protected member _voss_connection of a client class (protected-access)
+W: 52, 8: Access to a protected member _voss_connection of a client class (protected-access)
+W: 52,45: Access to a protected member _socket_path of a client class (protected-access)
+W: 56,11: Access to a protected member _voss_connection of a client class (protected-access)
+C: 59, 0: Missing function docstring (missing-docstring)
+W: 61,15: Access to a protected member _voss_capabilities of a client class (protected-access)
+W: 63,34: Access to a protected member _socket_path of a client class (protected-access)
+W: 66, 4: Access to a protected member _voss_capabilities of a client class (protected-access)
+W: 67,11: Access to a protected member _voss_capabilities of a client class (protected-access)
+C: 70, 0: Missing function docstring (missing-docstring)
+C: 79, 0: Missing function docstring (missing-docstring)
+C: 95, 0: Missing function docstring (missing-docstring)
+C:105, 0: Missing function docstring (missing-docstring)
+C:114, 0: Missing function docstring (missing-docstring)
+C:124, 0: Missing function docstring (missing-docstring)
+W:130,19: Access to a protected member _children of a client class (protected-access)
+C:131, 8: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:138, 0: Missing function docstring (missing-docstring)
+R:138, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:147, 0: Missing function docstring (missing-docstring)
+W:184,16: Access to a protected member _parents of a client class (protected-access)
+W:189,12: Access to a protected member _parents of a client class (protected-access)
+W:147,22: Unused argument 'indent' (unused-argument)
+C:205, 0: Missing class docstring (missing-docstring)
+W:215,31: Access to a protected member _parents of a client class (protected-access)
+
+-----------------------------------
+Your code has been rated at 7.95/10
+
+************* Module ansible.plugins.cliconf.voss
+C: 55, 0: Line too long (128/100) (line-too-long)
+C: 64, 0: Line too long (111/100) (line-too-long)
+C: 69, 0: Line too long (106/100) (line-too-long)
+C: 71, 0: Line too long (103/100) (line-too-long)
+C: 98, 0: Line too long (135/100) (line-too-long)
+C:101, 0: Line too long (141/100) (line-too-long)
+C:109, 0: Line too long (103/100) (line-too-long)
+C:110, 0: Line too long (117/100) (line-too-long)
+C:148, 0: Line too long (119/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 34, 0: Missing class docstring (missing-docstring)
+W: 37,55: Redefining built-in 'format' (redefined-builtin)
+R: 55, 4: Too many arguments (7/5) (too-many-arguments)
+W:121, 4: Parameters differ from overridden 'edit_config' method (arguments-differ)
+R:147, 4: Too many arguments (6/5) (too-many-arguments)
+W:147, 4: Parameters differ from overridden 'get' method (arguments-differ)
+C:150, 4: Missing method docstring (missing-docstring)
+C:171, 4: Missing method docstring (missing-docstring)
+R:171, 4: Method could be a function (no-self-use)
+C:186, 4: Missing method docstring (missing-docstring)
+R:186, 4: Method could be a function (no-self-use)
+C:218,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:227, 4: Missing method docstring (missing-docstring)
+R:227, 4: Method could be a function (no-self-use)
+W: 28, 0: Unused NetworkConfig imported from ansible.module_utils.network.common.config (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.72/10
+
+************* Module ansible.plugins.terminal.voss
+C: 66, 0: Line too long (103/100) (line-too-long)
+C: 73, 0: Line too long (122/100) (line-too-long)
+C: 76, 0: Line too long (141/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 30, 0: Missing class docstring (missing-docstring)
+C: 74,43: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.25/10
+

@@ -1,0 +1,29 @@
+************* Module ansible.modules.storage.netapp.na_ontap_export_policy_rule
+C:143, 0: Line too long (101/100) (line-too-long)
+C:157, 0: Line too long (112/100) (line-too-long)
+C:372, 0: Line too long (111/100) (line-too-long)
+C:389, 0: Line too long (106/100) (line-too-long)
+C:406, 0: Line too long (106/100) (line-too-long)
+C:413, 0: Line too long (103/100) (line-too-long)
+C:423, 0: Line too long (130/100) (line-too-long)
+C:439, 0: Line too long (116/100) (line-too-long)
+C:455, 0: Line too long (112/100) (line-too-long)
+C:497, 0: Line too long (101/100) (line-too-long)
+C:501, 0: Line too long (105/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:125, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:127, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C:128, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:129, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:130, 0: Import "import ansible.module_utils.netapp as netapp_utils" should be placed at the top of the module (wrong-import-position)
+R:136, 0: Too many instance attributes (13/7) (too-many-instance-attributes)
+R:193, 4: Too many local variables (16/15) (too-many-locals)
+C:413, 8: Variable name "export_rule_modify_super_user_security" doesn't conform to snake_case naming style (invalid-name)
+R:458, 4: Too many branches (26/12) (too-many-branches)
+R:458, 4: Too many statements (65/50) (too-many-statements)
+W:127, 0: Unused import json (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.86/10
+

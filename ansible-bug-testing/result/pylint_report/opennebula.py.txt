@@ -1,0 +1,40 @@
+************* Module ansible.module_utils.opennebula
+W:215, 0: TODO: check formally available data types in templates (fixme)
+W:216, 0: TODO: some arrays might be converted to space separated (fixme)
+C:  3, 0: Line too long (106/100) (line-too-long)
+C: 33, 0: Line too long (111/100) (line-too-long)
+C: 79, 0: Line too long (102/100) (line-too-long)
+C: 84, 0: Line too long (102/100) (line-too-long)
+C:205, 0: Line too long (104/100) (line-too-long)
+C:249, 0: Unnecessary parens after 'not' keyword (superfluous-parens)
+C:257, 0: Line too long (103/100) (line-too-long)
+C:278, 0: Line too long (107/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 23, 0: Old-style class defined. (old-style-class)
+W: 63,40: Access to a protected member _create_unverified_context of a client class (protected-access)
+R: 88, 8: Unnecessary "else" after "return" (no-else-return)
+R:144, 8: Unnecessary "else" after "return" (no-else-return)
+C:166,12: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:181,12: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:196,12: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+R:251, 4: Too many arguments (8/5) (too-many-arguments)
+W:295,15: Catching too general exception Exception (broad-except)
+C:295,31: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.29/10
+
+************* Module ansible.utils.module_docs_fragments.opennebula
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Missing class docstring (missing-docstring)
+R:  7, 0: Too few public methods (0/2) (too-few-public-methods)
+
+------------------------------------
+Your code has been rated at -5.00/10
+
+************* Module lib.cloud.opennebula
+C: 14, 0: Line too long (101/100) (line-too-long)
+
+-----------------------------------
+Your code has been rated at 9.52/10
+

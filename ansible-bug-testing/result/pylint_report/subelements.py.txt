@@ -1,0 +1,20 @@
+************* Module ansible.plugins.lookup.subelements
+C:128, 0: Line too long (118/100) (line-too-long)
+C:151, 0: Line too long (112/100) (line-too-long)
+C:157, 0: Line too long (128/100) (line-too-long)
+C:162, 0: Line too long (118/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 85, 0: Import "from ansible.errors import AnsibleError" should be placed at the top of the module (wrong-import-position)
+C: 86, 0: Import "from ansible.module_utils.six import string_types" should be placed at the top of the module (wrong-import-position)
+C: 87, 0: Import "from ansible.module_utils.parsing.convert_bool import boolean" should be placed at the top of the module (wrong-import-position)
+C: 88, 0: Import "from ansible.plugins.lookup import LookupBase" should be placed at the top of the module (wrong-import-position)
+C: 89, 0: Import "from ansible.utils.listify import listify_lookup_plugin_terms" should be placed at the top of the module (wrong-import-position)
+C: 95, 0: Missing class docstring (missing-docstring)
+R: 97, 4: Too many local variables (17/15) (too-many-locals)
+W: 97, 4: Signature differs from overridden 'run' method (signature-differs)
+R: 97, 4: Too many branches (24/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 7.58/10
+

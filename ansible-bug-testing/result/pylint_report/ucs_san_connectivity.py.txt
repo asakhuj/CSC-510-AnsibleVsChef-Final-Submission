@@ -1,0 +1,33 @@
+************* Module ansible.modules.remote_management.ucs.ucs_san_connectivity
+C:120, 0: Line too long (141/100) (line-too-long)
+C:121, 0: Line too long (111/100) (line-too-long)
+C:122, 0: Line too long (107/100) (line-too-long)
+C:146, 0: Line too long (102/100) (line-too-long)
+C:157, 0: Line too long (109/100) (line-too-long)
+C:176, 0: Unnecessary parens after 'if' keyword (superfluous-parens)
+C:183, 0: Unnecessary parens after 'if' keyword (superfluous-parens)
+C:195, 0: Unnecessary parens after 'if' keyword (superfluous-parens)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:104, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:105, 0: Import "from ansible.module_utils.remote_management.ucs import UCSModule, ucs_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:108, 0: Missing function docstring (missing-docstring)
+R:108, 0: Too many local variables (22/15) (too-many-locals)
+E:138, 4: Unable to import 'ucsmsdk.mometa.vnic.VnicSanConnPolicy' (import-error)
+E:139, 4: Unable to import 'ucsmsdk.mometa.vnic.VnicFcNode' (import-error)
+E:140, 4: Unable to import 'ucsmsdk.mometa.vnic.VnicFc' (import-error)
+E:141, 4: Unable to import 'ucsmsdk.mometa.vnic.VnicFcIf' (import-error)
+W:237,11: Catching too general exception Exception (broad-except)
+C:169,12: Variable name "dn" doesn't conform to snake_case naming style (invalid-name)
+C:171,12: Variable name "mo" doesn't conform to snake_case naming style (invalid-name)
+R:144, 4: Too many nested blocks (9/5) (too-many-nested-blocks)
+C:209,24: Variable name "mo" doesn't conform to snake_case naming style (invalid-name)
+C:237,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:144, 4: Too many nested blocks (7/5) (too-many-nested-blocks)
+W:228,32: Unused variable 'mo_2_1' (unused-variable)
+R:108, 0: Too many branches (26/12) (too-many-branches)
+R:108, 0: Too many statements (72/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 4.76/10
+

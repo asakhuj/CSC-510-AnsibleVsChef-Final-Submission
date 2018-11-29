@@ -1,0 +1,21 @@
+************* Module ansible.modules.database.influxdb.influxdb_retention_policy
+C:119, 0: Line too long (114/100) (line-too-long)
+C:132, 0: Line too long (102/100) (line-too-long)
+C:163, 0: Line too long (105/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 93, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:101, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:102, 0: Import "from ansible.module_utils.influxdb import InfluxDb" should be placed at the top of the module (wrong-import-position)
+C:103, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:106, 0: Missing function docstring (missing-docstring)
+C:118,50: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:123, 0: Missing function docstring (missing-docstring)
+C:133,49: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:138, 0: Missing function docstring (missing-docstring)
+C:164,53: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:170, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.95/10
+

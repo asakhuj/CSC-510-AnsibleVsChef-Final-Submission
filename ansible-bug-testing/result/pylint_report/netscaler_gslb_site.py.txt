@@ -1,0 +1,28 @@
+************* Module ansible.modules.network.netscaler.netscaler_gslb_site
+C:299, 0: Line too long (102/100) (line-too-long)
+C:373, 0: Line too long (132/100) (line-too-long)
+C:395, 0: Line too long (143/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:186,22: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:189, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:190, 0: Import "from ansible.module_utils.network.netscaler.netscaler import ConfigProxy, get_nitro_client, netscaler_common_arguments, log, loglines, ensure_feature_is_enabled, get_immutables_intersection" should be placed at the top of the module (wrong-import-position)
+C:201, 0: Missing function docstring (missing-docstring)
+R:202, 4: The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)
+R:202, 4: Unnecessary "else" after "return" (no-else-return)
+C:208, 0: Missing function docstring (missing-docstring)
+R:211, 4: The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)
+R:211, 4: Unnecessary "else" after "return" (no-else-return)
+C:211, 7: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:217, 0: Missing function docstring (missing-docstring)
+C:222, 0: Missing function docstring (missing-docstring)
+W:301,11: Catching too general exception Exception (broad-except)
+C:298,30: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:301,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:414,30: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:222, 0: Too many branches (26/12) (too-many-branches)
+R:222, 0: Too many statements (76/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 7.72/10
+

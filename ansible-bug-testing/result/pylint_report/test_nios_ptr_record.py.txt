@@ -1,0 +1,21 @@
+************* Module units.modules.net_tools.nios.test_nios_ptr_record
+C: 78, 0: Line too long (126/100) (line-too-long)
+C:108, 0: Line too long (105/100) (line-too-long)
+C:162, 0: Line too long (118/100) (line-too-long)
+C:175, 0: Line too long (153/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 18, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 21, 0: Unable to import 'ansible.modules.net_tools.nios' (import-error)
+E: 22, 0: Unable to import 'ansible.module_utils.net_tools.nios' (import-error)
+C: 27, 0: Missing class docstring (missing-docstring)
+C: 61, 4: Missing method docstring (missing-docstring)
+C: 80, 4: Missing method docstring (missing-docstring)
+C:106, 4: Method name "test_nios_ptr_record_update_comment" doesn't conform to snake_case naming style (invalid-name)
+C:106, 4: Missing method docstring (missing-docstring)
+C:133, 4: Method name "test_nios_ptr_record_update_record_ptrdname" doesn't conform to snake_case naming style (invalid-name)
+C:133, 4: Missing method docstring (missing-docstring)
+C:160, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 6.76/10
+

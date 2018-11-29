@@ -1,0 +1,19 @@
+************* Module test_icinga2_feature
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  8, 0: Unable to import 'ansible.modules.monitoring' (import-error)
+E:  9, 0: Unable to import 'units.modules.utils' (import-error)
+E: 10, 0: Unable to import 'units.compat.mock' (import-error)
+E: 11, 0: Unable to import 'ansible.module_utils' (import-error)
+W: 14, 0: Unused argument 'args' (unused-argument)
+W: 14, 0: Unused argument 'kwargs' (unused-argument)
+C: 22, 4: Method name "setUp" doesn't conform to snake_case naming style (invalid-name)
+C: 30, 4: Method name "tearDown" doesn't conform to snake_case naming style (invalid-name)
+W: 30, 4: Useless super delegation in method 'tearDown' (useless-super-delegation)
+C: 34, 4: Method name "test_without_required_parameters" doesn't conform to snake_case naming style (invalid-name)
+C: 54, 4: Method name "test_enable_feature_with_check_mode" doesn't conform to snake_case naming style (invalid-name)
+C: 83, 4: Method name "test_disable_feature_with_check_mode" doesn't conform to snake_case naming style (invalid-name)
+C: 11, 0: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 4.34/10
+

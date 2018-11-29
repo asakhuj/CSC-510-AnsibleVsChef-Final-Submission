@@ -1,0 +1,26 @@
+************* Module ansible.modules.cloud.vmware.vmware_drs_rule_facts
+C:115, 0: Line too long (108/100) (line-too-long)
+C:128, 0: Line too long (104/100) (line-too-long)
+C:130, 0: Line too long (103/100) (line-too-long)
+C:185, 0: Wrong continued indentation (remove 1 space).
+                    )
+                   |^ (bad-continuation)
+C:209, 0: Line too long (102/100) (line-too-long)
+C:212, 0: Line too long (111/100) (line-too-long)
+C:216, 0: Wrong continued indentation (remove 1 space).
+                    )
+                   |^ (bad-continuation)
+C:229, 0: Line too long (115/100) (line-too-long)
+C:230, 0: Line too long (122/100) (line-too-long)
+C:232, 0: Line too long (114/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:114, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:115, 0: Import "from ansible.module_utils.vmware import vmware_argument_spec, PyVmomi, find_datacenter_by_name, get_all_objs" should be placed at the top of the module (wrong-import-position)
+C:118, 0: Missing class docstring (missing-docstring)
+R:140, 4: Method could be a function (no-self-use)
+C:237, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.46/10
+

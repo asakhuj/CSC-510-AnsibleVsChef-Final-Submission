@@ -1,0 +1,16 @@
+************* Module ansible.modules.network.cloudengine.ce_eth_trunk
+C:138, 0: Line too long (102/100) (line-too-long)
+C:228, 0: Line too long (101/100) (line-too-long)
+C:230, 0: Line too long (101/100) (line-too-long)
+C:520, 0: Line too long (104/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:136, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:137, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:138, 0: Import "from ansible.module_utils.network.cloudengine.ce import get_nc_config, set_nc_config, ce_argument_spec" should be placed at the top of the module (wrong-import-position)
+R:233, 0: Too many branches (20/12) (too-many-branches)
+R:301, 0: Too many instance attributes (16/7) (too-many-instance-attributes)
+R:487, 4: Too many branches (13/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 9.62/10
+

@@ -1,0 +1,33 @@
+************* Module ansible.modules.network.slxos.slxos_vlan
+C:169, 0: Line too long (103/100) (line-too-long)
+C:220, 0: Line too long (127/100) (line-too-long)
+C:253, 0: Line too long (102/100) (line-too-long)
+C:254, 0: Line too long (102/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 97, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C: 98, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C:100, 0: Import "from copy import deepcopy" should be placed at the top of the module (wrong-import-position)
+C:102, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:103, 0: Import "from ansible.module_utils.network.common.utils import remove_default_spec" should be placed at the top of the module (wrong-import-position)
+C:104, 0: Import "from ansible.module_utils.network.slxos.slxos import load_config, run_commands" should be placed at the top of the module (wrong-import-position)
+C:107, 0: Missing function docstring (missing-docstring)
+C:109, 8: Variable name "o" doesn't conform to snake_case naming style (invalid-name)
+W:108, 4: Unused variable 'obj' (unused-variable)
+C:115, 0: Missing function docstring (missing-docstring)
+R:115, 0: Too many local variables (17/15) (too-many-locals)
+C:120, 8: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+R:120, 4: Too many nested blocks (6/5) (too-many-nested-blocks)
+R:120, 4: Too many nested blocks (6/5) (too-many-nested-blocks)
+C:177,12: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+R:115, 0: Too many branches (20/12) (too-many-branches)
+C:185, 0: Missing function docstring (missing-docstring)
+C:194,12: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:209, 0: Missing function docstring (missing-docstring)
+C:219, 8: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+C:245, 0: Missing function docstring (missing-docstring)
+C:250,12: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.10/10
+

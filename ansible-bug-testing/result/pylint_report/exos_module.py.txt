@@ -1,0 +1,20 @@
+************* Module units.modules.network.exos.exos_module
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 19, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 27, 0: Constant name "fixture_path" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 28, 0: Constant name "fixture_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 31, 0: Missing function docstring (missing-docstring)
+W: 42, 4: No exception type(s) specified (bare-except)
+C: 49, 0: Missing class docstring (missing-docstring)
+C: 51, 4: Missing method docstring (missing-docstring)
+R: 51, 4: Too many arguments (6/5) (too-many-arguments)
+W: 51,84: Unused argument 'defaults' (unused-argument)
+C: 70, 4: Missing method docstring (missing-docstring)
+E: 72,12: Instance of 'TestExosModule' has no 'module' member (no-member)
+C: 78, 4: Missing method docstring (missing-docstring)
+E: 80,12: Instance of 'TestExosModule' has no 'module' member (no-member)
+C: 86, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 5.00/10
+

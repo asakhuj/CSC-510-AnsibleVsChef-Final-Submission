@@ -1,0 +1,15 @@
+************* Module ansible.modules.notification.rabbitmq_publish
+C:170, 0: Line too long (108/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:142, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:143, 0: Import "from ansible.module_utils._text import to_native, to_text" should be placed at the top of the module (wrong-import-position)
+C:144, 0: Import "from ansible.module_utils.rabbitmq import RabbitClient" should be placed at the top of the module (wrong-import-position)
+C:147, 0: Missing function docstring (missing-docstring)
+W:136, 4: Unused import pika (unused-import)
+W:143, 0: Unused to_text imported from ansible.module_utils._text (unused-import)
+W:143, 0: Unused to_native imported from ansible.module_utils._text (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.15/10
+

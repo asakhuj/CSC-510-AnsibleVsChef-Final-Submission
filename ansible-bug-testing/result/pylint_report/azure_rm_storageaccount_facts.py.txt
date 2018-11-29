@@ -1,0 +1,21 @@
+************* Module ansible.modules.cloud.azure.azure_rm_storageaccount_facts
+C:151, 0: Line too long (105/100) (line-too-long)
+C:163, 0: Line too long (103/100) (line-too-long)
+C:165, 0: Line too long (105/100) (line-too-long)
+C:176, 0: Line too long (103/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+W: 96, 0: No exception type(s) specified (bare-except)
+E: 95, 4: Unable to import 'msrestazure.azure_exceptions' (import-error)
+C:100, 0: Import "from ansible.module_utils.azure_rm_common import AzureRMModuleBase" should be placed at the top of the module (wrong-import-position)
+C:106, 0: Missing class docstring (missing-docstring)
+C:145, 4: Missing method docstring (missing-docstring)
+C:160, 4: Missing method docstring (missing-docstring)
+W:164,15: Catching too general exception Exception (broad-except)
+C:173, 4: Missing method docstring (missing-docstring)
+W:177,15: Catching too general exception Exception (broad-except)
+C:187, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.06/10
+

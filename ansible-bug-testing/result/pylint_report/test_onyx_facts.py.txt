@@ -1,0 +1,16 @@
+************* Module units.modules.network.onyx.test_onyx_facts
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 12, 0: Unable to import 'ansible.modules.network.onyx' (import-error)
+C: 15, 0: Missing class docstring (missing-docstring)
+C: 33, 8: Missing function docstring (missing-docstring)
+W: 33, 0: Unused argument 'kwargs' (unused-argument)
+C: 43, 4: Missing method docstring (missing-docstring)
+C: 51, 4: Missing method docstring (missing-docstring)
+C: 59, 4: Missing method docstring (missing-docstring)
+C: 67, 4: Missing method docstring (missing-docstring)
+C: 12, 0: first party import "from ansible.modules.network.onyx import onyx_facts" should be placed before "from .onyx_module import TestOnyxModule, load_fixture" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 7.00/10
+

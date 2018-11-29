@@ -1,0 +1,22 @@
+************* Module ansible.modules.cloud.vmware.vmware_guest_facts
+C:205, 0: Line too long (110/100) (line-too-long)
+C:219, 0: Line too long (108/100) (line-too-long)
+C:220, 0: Line too long (107/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:153, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:154, 0: Import "from ansible.module_utils._text import to_text" should be placed at the top of the module (wrong-import-position)
+C:155, 0: Import "from ansible.module_utils.vmware import PyVmomi, vmware_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:156, 0: Import "from ansible.module_utils.vmware_rest_client import VmwareRestClient" should be placed at the top of the module (wrong-import-position)
+C:165, 0: Missing class docstring (missing-docstring)
+W:166, 4: Useless super delegation in method '__init__' (useless-super-delegation)
+C:170, 0: Missing class docstring (missing-docstring)
+C:177, 0: Missing function docstring (missing-docstring)
+C:197, 4: Variable name "vm" doesn't conform to snake_case naming style (invalid-name)
+W:216,15: Catching too general exception Exception (broad-except)
+W:213,59: Access to a protected member _moId of a client class (protected-access)
+W:158, 4: Unused DynamicID imported from com.vmware.vapi.std_client (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.30/10
+

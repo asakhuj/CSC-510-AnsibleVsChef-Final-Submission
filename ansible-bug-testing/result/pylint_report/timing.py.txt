@@ -1,0 +1,7 @@
+************* Module timing
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Constant name "start" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.14/10
+

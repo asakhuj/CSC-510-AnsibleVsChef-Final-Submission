@@ -1,0 +1,11 @@
+************* Module ansible.vars.reserved
+W: 41, 0: FIXME: find a way to 'not hardcode', possibly need role deps/includes (fixme)
+W: 59, 0: FIXME: remove after with_ is not only deprecated but removed (fixme)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 80, 0: Missing function docstring (missing-docstring)
+C: 30, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 8.42/10
+

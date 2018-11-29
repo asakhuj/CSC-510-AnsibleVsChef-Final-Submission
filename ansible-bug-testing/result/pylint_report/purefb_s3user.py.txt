@@ -1,0 +1,17 @@
+************* Module ansible.modules.storage.purestorage.purefb_s3user
+C:154, 0: Line too long (103/100) (line-too-long)
+C:178, 0: Line too long (133/100) (line-too-long)
+C:182, 0: Line too long (104/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 76, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 77, 0: Import "from ansible.module_utils.pure import get_blade, purefb_argument_spec" should be placed at the top of the module (wrong-import-position)
+W:116, 8: No exception type(s) specified (bare-except)
+W:141, 4: No exception type(s) specified (bare-except)
+W:137,12: No exception type(s) specified (bare-except)
+W:153, 4: No exception type(s) specified (bare-except)
+C:158, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.70/10
+

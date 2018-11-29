@@ -1,0 +1,32 @@
+************* Module ansible.modules.system.facter
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 35, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C: 37, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 40, 0: Missing function docstring (missing-docstring)
+C: 49, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W: 49,13: Unused variable 'err' (unused-variable)
+W: 49, 4: Unused variable 'rc' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 4.67/10
+
+************* Module ansible.module_utils.facts.other.facter
+W: 75, 0: TODO: if we fail, should we add a empty facter key or nothing? (fixme)
+W: 82, 0: FIXME: maybe raise a FactCollectorError with some info attrs? (fixme)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 17, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 26, 0: Missing class docstring (missing-docstring)
+C: 36, 4: Missing method docstring (missing-docstring)
+R: 36, 4: Method could be a function (no-self-use)
+C: 46, 4: Missing method docstring (missing-docstring)
+C: 49, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+R: 46, 4: Method could be a function (no-self-use)
+C: 52, 4: Missing method docstring (missing-docstring)
+C: 57, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W: 57,17: Unused variable 'err' (unused-variable)
+W: 81,15: Catching too general exception Exception (broad-except)
+
+-----------------------------------
+Your code has been rated at 6.50/10
+

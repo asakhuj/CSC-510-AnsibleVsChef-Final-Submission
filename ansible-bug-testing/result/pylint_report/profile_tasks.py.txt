@@ -1,0 +1,31 @@
+************* Module ansible.plugins.callback.profile_tasks
+C:129, 0: Line too long (108/100) (line-too-long)
+C:190, 0: Line too long (132/100) (line-too-long)
+W: 66, 0: Redefining built-in 'reduce' (redefined-builtin)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 10, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 63, 0: Import "import collections" should be placed at the top of the module (wrong-import-position)
+C: 64, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+E: 66, 0: Unable to import 'ansible.module_utils.six.moves' (import-error)
+C: 66, 0: Import "from ansible.module_utils.six.moves import reduce" should be placed at the top of the module (wrong-import-position)
+C: 67, 0: Import "from ansible.plugins.callback import CallbackBase" should be placed at the top of the module (wrong-import-position)
+C: 71, 0: Constant name "t0" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 71, 5: Constant name "tn" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 74, 0: Function name "secondsToStr" doesn't conform to snake_case naming style (invalid-name)
+C: 74, 0: Argument name "t" doesn't conform to snake_case naming style (invalid-name)
+C: 74, 0: Missing function docstring (missing-docstring)
+C: 76, 4: Argument name "ll" doesn't conform to snake_case naming style (invalid-name)
+C: 76, 4: Argument name "b" doesn't conform to snake_case naming style (invalid-name)
+C: 76, 4: Missing function docstring (missing-docstring)
+C: 82, 0: Missing function docstring (missing-docstring)
+C: 83, 7: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C: 94, 0: Missing function docstring (missing-docstring)
+C: 99, 0: Missing function docstring (missing-docstring)
+W:100, 4: Using the global statement (global-statement)
+C:100, 4: Constant name "tn" doesn't conform to UPPER_CASE naming style (invalid-name)
+W:155,23: Access to a protected member _uuid of a client class (protected-access)
+W:189,12: Unused variable 'uuid' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 6.43/10
+

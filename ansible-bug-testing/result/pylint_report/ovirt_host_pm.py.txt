@@ -1,0 +1,17 @@
+************* Module ansible.modules.cloud.ovirt.ovirt_host_pm
+C:153, 0: Line too long (122/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:115, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:122, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:123, 0: Import "from ansible.module_utils.ovirt import BaseModule, check_sdk, create_connection, equal, ovirt_full_argument_spec, search_by_name" should be placed at the top of the module (wrong-import-position)
+C:133, 0: Missing class docstring (missing-docstring)
+C:145, 0: Missing class docstring (missing-docstring)
+C:171, 8: Missing function docstring (missing-docstring)
+W:149, 8: Attribute 'entity' defined outside __init__ (attribute-defined-outside-init)
+C:191, 0: Missing function docstring (missing-docstring)
+W:253,11: Catching too general exception Exception (broad-except)
+C:253,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.00/10
+

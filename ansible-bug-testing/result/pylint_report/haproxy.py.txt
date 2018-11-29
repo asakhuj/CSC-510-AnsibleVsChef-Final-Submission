@@ -1,0 +1,29 @@
+************* Module ansible.modules.net_tools.haproxy
+C:323, 0: Line too long (106/100) (line-too-long)
+C:347, 0: Line too long (128/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:190, 0: Import "import csv" should be placed at the top of the module (wrong-import-position)
+C:191, 0: Import "import socket" should be placed at the top of the module (wrong-import-position)
+C:192, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C:193, 0: Import "from string import Template" should be placed at the top of the module (wrong-import-position)
+C:195, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:196, 0: Import "from ansible.module_utils._text import to_bytes, to_text" should be placed at the top of the module (wrong-import-position)
+C:207, 0: Missing class docstring (missing-docstring)
+R:211, 0: Too many instance attributes (14/7) (too-many-instance-attributes)
+E:244,36: Module 'socket' has no 'AF_UNIX' member (no-member)
+W:239,27: Unused argument 'timeout' (unused-argument)
+C:278, 8: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+W:279,21: map/filter on lambda could be replaced by comprehension (deprecated-lambda)
+W:279,48: map/filter on lambda could be replaced by comprehension (deprecated-lambda)
+C:327, 8: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+W:329,12: map/filter on lambda could be replaced by comprehension (deprecated-lambda)
+W:331,16: map/filter on lambda could be replaced by comprehension (deprecated-lambda)
+R:337, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+W:344,12: Unused variable 'i' (unused-variable)
+W:244, 8: Attribute 'client' defined outside __init__ (attribute-defined-outside-init)
+C:425, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.94/10
+

@@ -1,0 +1,8 @@
+************* Module ansible.utils.module_docs_fragments.backup
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 19, 0: Missing class docstring (missing-docstring)
+R: 19, 0: Too few public methods (0/2) (too-few-public-methods)
+
+------------------------------------
+Your code has been rated at -5.00/10
+

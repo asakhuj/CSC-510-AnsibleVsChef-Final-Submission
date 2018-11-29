@@ -1,0 +1,12 @@
+************* Module adhoc_example1
+C: 25, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  4, 0: Unable to import 'ansible_runner' (import-error)
+C:  7, 0: Constant name "output_dir" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 10, 0: Constant name "r" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 17, 0: Constant name "data" doesn't conform to UPPER_CASE naming style (invalid-name)
+W:  2, 0: Unused import os (unused-import)
+
+------------------------------------
+Your code has been rated at -2.22/10
+

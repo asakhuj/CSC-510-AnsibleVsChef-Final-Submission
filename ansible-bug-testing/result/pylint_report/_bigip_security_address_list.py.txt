@@ -1,0 +1,9 @@
+************* Module ansible.modules.network.f5._bigip_security_address_list
+C:  1, 0: Final newline missing (missing-final-newline)
+C:  1, 0: Missing module docstring (missing-docstring)
+W:  1, 0: Statement seems to have no effect (pointless-statement)
+E:  1, 0: Undefined variable 'bigip_firewall_address_list' (undefined-variable)
+
+-------------------------------------
+Your code has been rated at -70.00/10
+

@@ -1,0 +1,11 @@
+************* Module ansible.plugins.cache.memory
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 20, 0: Import "from ansible.plugins.cache import BaseCacheModule" should be placed at the top of the module (wrong-import-position)
+C: 23, 0: Missing class docstring (missing-docstring)
+W: 25, 0: Unused argument 'args' (unused-argument)
+W: 25, 0: Unused argument 'kwargs' (unused-argument)
+
+-----------------------------------
+Your code has been rated at 7.60/10
+

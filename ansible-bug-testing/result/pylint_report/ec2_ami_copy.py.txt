@@ -1,0 +1,25 @@
+************* Module ansible.modules.cloud.amazon.ec2_ami_copy
+W:223, 0: TODO: Check botocore version (fixme)
+C:171, 0: Wrong continued indentation (remove 1 space).
+              }
+             |^ (bad-continuation)
+C:177, 0: Line too long (109/100) (line-too-long)
+C:220, 0: Wrong continued indentation (add 17 spaces).
+        tag_equality=dict(type='bool', default=False))
+        ^                | (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:142, 0: Import "from ansible.module_utils.aws.core import AnsibleAWSModule" should be placed at the top of the module (wrong-import-position)
+C:143, 0: Import "from ansible.module_utils.ec2 import ec2_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:144, 0: Import "from ansible.module_utils.ec2 import camel_dict_to_snake_dict, ansible_dict_to_boto3_tag_list" should be placed at the top of the module (wrong-import-position)
+C:145, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+W:204,11: Catching too general exception Exception (broad-except)
+C:180,15: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:200,26: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:202,43: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:204,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:208, 0: Missing function docstring (missing-docstring)
+W:148, 4: Unused NoCredentialsError imported from botocore.exceptions (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.98/10
+

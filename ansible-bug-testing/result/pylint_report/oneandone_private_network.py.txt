@@ -1,0 +1,27 @@
+************* Module ansible.modules.cloud.oneandone.oneandone_private_network
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 18, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:152, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:153, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:154, 0: Import "from ansible.module_utils.oneandone import get_private_network, get_server, get_datacenter, OneAndOneResources, wait_for_resource_creation_completion, wait_for_resource_deletion_completion" should be placed at the top of the module (wrong-import-position)
+W:194,11: Catching too general exception Exception (broad-except)
+C:194,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:216,11: Catching too general exception Exception (broad-except)
+W:272,11: Catching too general exception Exception (broad-except)
+C:272,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:276, 0: Too many local variables (18/15) (too-many-locals)
+W:344,11: Catching too general exception Exception (broad-except)
+W:378,11: Catching too general exception Exception (broad-except)
+C:378,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:382, 0: Missing function docstring (missing-docstring)
+W:430,15: Catching too general exception Exception (broad-except)
+C:430,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:438,15: Catching too general exception Exception (broad-except)
+C:438,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:446,15: Catching too general exception Exception (broad-except)
+C:446,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:382, 0: Too many branches (13/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 8.58/10
+

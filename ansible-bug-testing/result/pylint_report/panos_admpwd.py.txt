@@ -1,0 +1,18 @@
+************* Module ansible.modules.network.panos.panos_admpwd
+C:200, 0: Line too long (102/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 81, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 82, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C: 83, 0: Import "import sys" should be placed at the top of the module (wrong-import-position)
+C: 94, 0: Missing function docstring (missing-docstring)
+C:101,15: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:110, 0: Missing function docstring (missing-docstring)
+C:177, 0: Missing function docstring (missing-docstring)
+W:202,11: Catching too general exception Exception (broad-except)
+C:203, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C: 82, 0: standard import "import time" should be placed before "from ansible.module_utils.basic import AnsibleModule" (wrong-import-order)
+C: 83, 0: standard import "import sys" should be placed before "from ansible.module_utils.basic import AnsibleModule" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 8.38/10
+

@@ -1,0 +1,19 @@
+************* Module ansible.modules.network.illumos.dladm_etherstub
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 73, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 76, 0: Missing class docstring (missing-docstring)
+C: 85, 4: Missing method docstring (missing-docstring)
+C: 91, 9: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+R: 93, 8: The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)
+R: 93, 8: Unnecessary "else" after "return" (no-else-return)
+C: 98, 4: Missing method docstring (missing-docstring)
+C:109, 4: Missing method docstring (missing-docstring)
+C:121, 0: Missing function docstring (missing-docstring)
+C:133, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:145,13: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:152,13: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.97/10
+

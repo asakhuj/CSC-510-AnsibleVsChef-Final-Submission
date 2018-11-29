@@ -1,0 +1,16 @@
+************* Module ansible.modules.remote_management.redfish.redfish_config
+C:197, 0: Line too long (130/100) (line-too-long)
+C:203, 0: Line too long (129/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:147, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:148, 0: Import "from ansible.module_utils.redfish_utils import RedfishUtils" should be placed at the top of the module (wrong-import-position)
+C:149, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:159, 0: Missing function docstring (missing-docstring)
+W:208,17: Access to a protected member _find_systems_resource of a client class (protected-access)
+W:220,17: Access to a protected member _find_managers_resource of a client class (protected-access)
+R:159, 0: Too many branches (14/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 7.66/10
+

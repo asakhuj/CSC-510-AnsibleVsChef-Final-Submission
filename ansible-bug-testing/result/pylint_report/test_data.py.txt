@@ -1,0 +1,25 @@
+************* Module test_data
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  3, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E:  5, 0: Unable to import 'units.compat' (import-error)
+E:  7, 0: Unable to import 'ansible.config.data' (import-error)
+E:  8, 0: Unable to import 'ansible.config.manager' (import-error)
+C: 11, 0: Constant name "mykey" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 12, 0: Constant name "mykey2" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 13, 0: Constant name "mykey3" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 16, 0: Missing class docstring (missing-docstring)
+C: 18, 4: Method name "setUp" doesn't conform to snake_case naming style (invalid-name)
+C: 18, 4: Missing method docstring (missing-docstring)
+C: 21, 4: Method name "tearDown" doesn't conform to snake_case naming style (invalid-name)
+C: 21, 4: Missing method docstring (missing-docstring)
+C: 24, 4: Missing method docstring (missing-docstring)
+W: 27,38: Access to a protected member _global_settings of a client class (protected-access)
+C: 29, 4: Missing method docstring (missing-docstring)
+C: 32, 4: Missing method docstring (missing-docstring)
+W: 33, 8: Access to a protected member _global_settings of a client class (protected-access)
+C: 36, 4: Missing method docstring (missing-docstring)
+W: 38, 8: Access to a protected member _global_settings of a client class (protected-access)
+
+------------------------------------
+Your code has been rated at -1.85/10
+

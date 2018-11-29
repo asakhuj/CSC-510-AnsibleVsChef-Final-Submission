@@ -1,0 +1,27 @@
+************* Module units.modules.network.nxos.test_nxos_bgp
+C: 81, 0: Line too long (116/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 23, 0: Unable to import 'ansible.modules.network.nxos' (import-error)
+C: 27, 0: Missing class docstring (missing-docstring)
+C: 49, 4: Missing method docstring (missing-docstring)
+C: 54, 4: Missing method docstring (missing-docstring)
+C: 58, 4: Missing method docstring (missing-docstring)
+C: 63, 4: Missing method docstring (missing-docstring)
+C: 67, 4: Missing method docstring (missing-docstring)
+C: 71, 4: Method name "test_nxos_bgp_remove_nonexistant_vrf" doesn't conform to snake_case naming style (invalid-name)
+C: 71, 4: Missing method docstring (missing-docstring)
+C: 75, 4: Missing method docstring (missing-docstring)
+C: 79, 4: Missing method docstring (missing-docstring)
+C: 84, 4: Missing method docstring (missing-docstring)
+C: 88, 4: Method name "test_nxos_bgp_global_param_outside_default" doesn't conform to snake_case naming style (invalid-name)
+C: 88, 4: Missing method docstring (missing-docstring)
+C: 93, 4: Missing method docstring (missing-docstring)
+C:101, 0: Missing class docstring (missing-docstring)
+C:123, 4: Missing method docstring (missing-docstring)
+C:127, 4: Missing method docstring (missing-docstring)
+C:132, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 6.83/10
+

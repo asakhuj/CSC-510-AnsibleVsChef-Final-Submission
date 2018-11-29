@@ -1,0 +1,21 @@
+************* Module ansible.plugins.callback.syslog_json
+C: 81, 0: Line too long (139/100) (line-too-long)
+C: 84, 0: Line too long (134/100) (line-too-long)
+C: 87, 0: Line too long (125/100) (line-too-long)
+C: 90, 0: Line too long (144/100) (line-too-long)
+C: 93, 0: Line too long (139/100) (line-too-long)
+C: 96, 0: Line too long (138/100) (line-too-long)
+C: 99, 0: Line too long (140/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 45, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C: 46, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C: 48, 0: Import "import logging" should be placed at the top of the module (wrong-import-position)
+C: 49, 0: Import "import logging.handlers" should be placed at the top of the module (wrong-import-position)
+C: 51, 0: Import "import socket" should be placed at the top of the module (wrong-import-position)
+C: 53, 0: Import "from ansible.plugins.callback import CallbackBase" should be placed at the top of the module (wrong-import-position)
+W: 46, 0: Unused import json (unused-import)
+
+-----------------------------------
+Your code has been rated at 5.43/10
+

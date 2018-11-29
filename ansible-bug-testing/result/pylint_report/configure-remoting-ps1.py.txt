@@ -1,0 +1,13 @@
+************* Module configure-remoting-ps1
+C:  7, 0: Line too long (111/100) (line-too-long)
+C: 18, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 21, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 24, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 27, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:  1, 0: Module name "configure-remoting-ps1" doesn't conform to snake_case naming style (invalid-name)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 5.56/10
+

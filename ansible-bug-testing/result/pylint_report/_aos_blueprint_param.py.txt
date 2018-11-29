@@ -1,0 +1,35 @@
+************* Module ansible.modules.network.aos._aos_blueprint_param
+C:169, 0: Line too long (105/100) (line-too-long)
+C:247, 0: Wrong continued indentation (remove 4 spaces).
+                                     (margs['name'], to_native(exc)))
+                                 |   ^ (bad-continuation)
+C:272, 0: Line too long (105/100) (line-too-long)
+C:306, 0: Line too long (102/100) (line-too-long)
+C:311, 0: Wrong continued indentation (remove 4 spaces).
+                             (margs['blueprint'], ','.join(aos.Blueprints.names)))
+                         |   ^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:166, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C:168, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:169, 0: Import "from ansible.module_utils.network.aos.aos import get_aos_session, find_collection_item, check_aos_version" should be placed at the top of the module (wrong-import-position)
+C:170, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:184, 0: Constant name "param_map_list" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:197, 0: Missing function docstring (missing-docstring)
+W:210, 8: No exception type(s) specified (bare-except)
+R:221, 8: Unnecessary "else" after "return" (no-else-return)
+C:229, 0: Missing function docstring (missing-docstring)
+W:245,19: Catching too general exception Exception (broad-except)
+W:229,36: Unused argument 'aos' (unused-argument)
+C:262, 0: Missing function docstring (missing-docstring)
+W:271,19: Catching too general exception Exception (broad-except)
+W:262,35: Unused argument 'aos' (unused-argument)
+W:262,58: Unused argument 'param_value' (unused-argument)
+C:286, 0: Missing function docstring (missing-docstring)
+W:295, 4: No exception type(s) specified (bare-except)
+W:305, 4: No exception type(s) specified (bare-except)
+C:359, 0: Missing function docstring (missing-docstring)
+W:166, 0: Unused import json (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.26/10
+

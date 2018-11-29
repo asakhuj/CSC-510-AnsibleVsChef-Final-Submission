@@ -1,0 +1,42 @@
+************* Module ansible.modules.cloud.vmware.vmware_guest_snapshot
+C:251, 0: Line too long (114/100) (line-too-long)
+C:264, 0: Line too long (131/100) (line-too-long)
+C:282, 0: Line too long (101/100) (line-too-long)
+C:288, 0: Line too long (120/100) (line-too-long)
+C:305, 0: Wrong hanging indentation (remove 4 spaces).
+                    (self.module.params["snapshot_name"],
+                |   ^ (bad-continuation)
+C:331, 0: Line too long (109/100) (line-too-long)
+C:332, 0: Line too long (139/100) (line-too-long)
+C:383, 0: Wrong continued indentation (remove 1 space).
+                           )
+                          |^ (bad-continuation)
+C:396, 0: Line too long (112/100) (line-too-long)
+C:397, 0: Line too long (111/100) (line-too-long)
+C:400, 0: Line too long (105/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:222, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C:228, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:229, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:230, 0: Import "from ansible.module_utils.vmware import PyVmomi, list_snapshots, vmware_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:233, 0: Missing class docstring (missing-docstring)
+W:234, 4: Useless super delegation in method '__init__' (useless-super-delegation)
+C:238, 4: Missing method docstring (missing-docstring)
+C:245, 4: Method name "get_snapshots_by_name_recursively" doesn't conform to snake_case naming style (invalid-name)
+C:245, 4: Missing method docstring (missing-docstring)
+C:254, 4: Argument name "vm" doesn't conform to snake_case naming style (invalid-name)
+C:254, 4: Missing method docstring (missing-docstring)
+W:280,15: Catching too general exception Exception (broad-except)
+C:285, 4: Argument name "vm" doesn't conform to snake_case naming style (invalid-name)
+C:285, 4: Missing method docstring (missing-docstring)
+C:309, 4: Argument name "vm" doesn't conform to snake_case naming style (invalid-name)
+C:309, 4: Missing method docstring (missing-docstring)
+C:336, 4: Argument name "vm" doesn't conform to snake_case naming style (invalid-name)
+C:336, 4: Missing method docstring (missing-docstring)
+C:363, 0: Missing function docstring (missing-docstring)
+C:392, 4: Variable name "vm" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.16/10
+

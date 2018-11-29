@@ -1,0 +1,13 @@
+************* Module ansible.modules.system.mksysb
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 10, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:106, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:107, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:110, 0: Missing function docstring (missing-docstring)
+R:110, 0: Too many local variables (25/15) (too-many-locals)
+C:191,12: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:107, 0: standard import "import os" should be placed before "from ansible.module_utils.basic import AnsibleModule" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 8.05/10
+

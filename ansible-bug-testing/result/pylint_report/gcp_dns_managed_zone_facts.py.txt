@@ -1,0 +1,16 @@
+************* Module ansible.modules.cloud.google.gcp_dns_managed_zone_facts
+C:141, 0: Line too long (102/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:111, 0: Import "from ansible.module_utils.gcp_utils import navigate_hash, GcpSession, GcpModule, GcpRequest" should be placed at the top of the module (wrong-import-position)
+C:112, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C:119, 0: Missing function docstring (missing-docstring)
+C:140, 0: Missing function docstring (missing-docstring)
+C:144, 0: Missing function docstring (missing-docstring)
+C:150, 0: Missing function docstring (missing-docstring)
+W:111, 0: Unused GcpRequest imported from ansible.module_utils.gcp_utils (unused-import)
+C:112, 0: standard import "import json" should be placed before "from ansible.module_utils.gcp_utils import navigate_hash, GcpSession, GcpModule, GcpRequest" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 7.18/10
+

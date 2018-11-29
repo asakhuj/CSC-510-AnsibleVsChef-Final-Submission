@@ -1,0 +1,29 @@
+************* Module ansible.modules.web_infrastructure.apache2_mod_proxy
+C:202, 0: Line too long (107/100) (line-too-long)
+C:247, 0: Line too long (127/100) (line-too-long)
+C:292, 0: Line too long (116/100) (line-too-long)
+C:317, 0: Line too long (117/100) (line-too-long)
+C:323, 0: Line too long (147/100) (line-too-long)
+C:326, 0: Line too long (110/100) (line-too-long)
+C:340, 0: Line too long (113/100) (line-too-long)
+C:368, 0: Line too long (121/100) (line-too-long)
+C:370, 0: Line too long (151/100) (line-too-long)
+C:400, 0: Line too long (107/100) (line-too-long)
+C:435, 0: Line too long (150/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:192, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+R:241, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:269,20: Consider iterating the dictionary directly instead of calling .keys() (consider-iterating-dictionary)
+R:270,12: The if statement can be replaced with 'var = bool(test)' (simplifiable-if-statement)
+C:284,17: Consider iterating the dictionary directly instead of calling .keys() (consider-iterating-dictionary)
+R:301, 4: Too many arguments (6/5) (too-many-arguments)
+R:313, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:401,20: Consider iterating the dictionary directly instead of calling .keys() (consider-iterating-dictionary)
+R:345, 0: Too many branches (22/12) (too-many-branches)
+C:438, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:439, 0: Import "from ansible.module_utils.urls import fetch_url" should be placed at the top of the module (wrong-import-position)
+
+-----------------------------------
+Your code has been rated at 8.31/10
+

@@ -1,0 +1,20 @@
+************* Module ansible.modules.packaging.os.homebrew_tap
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 12, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 71, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C: 73, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 85, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W: 85,13: Unused variable 'err' (unused-variable)
+W: 85, 4: Unused variable 'rc' (unused-variable)
+C:108, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W:108,17: Unused variable 'err' (unused-variable)
+W:108,12: Unused variable 'out' (unused-variable)
+C:164, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W:164,17: Unused variable 'err' (unused-variable)
+W:164, 8: Unused variable 'rc' (unused-variable)
+W:164,12: Unused variable 'out' (unused-variable)
+C:207, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.54/10
+

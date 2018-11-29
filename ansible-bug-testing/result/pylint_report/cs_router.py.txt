@@ -1,0 +1,22 @@
+************* Module ansible.modules.cloud.cloudstack.cs_router
+C:351, 0: Line too long (104/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:169, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:170, 0: Import "from ansible.module_utils.cloudstack import AnsibleCloudStack, cs_argument_spec, cs_required_together" should be placed at the top of the module (wrong-import-position)
+C:177, 0: Missing class docstring (missing-docstring)
+C:190, 4: Missing method docstring (missing-docstring)
+C:201,16: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+R:190, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:206, 4: Missing method docstring (missing-docstring)
+C:223,20: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:229, 4: Missing method docstring (missing-docstring)
+C:249, 4: Missing method docstring (missing-docstring)
+C:269, 4: Missing method docstring (missing-docstring)
+C:288, 4: Missing method docstring (missing-docstring)
+R:288, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:305, 4: Missing method docstring (missing-docstring)
+C:346, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.58/10
+

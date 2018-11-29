@@ -1,0 +1,20 @@
+************* Module ansible.modules.network.junos.junos_l2_interface
+C:150, 0: Line too long (120/100) (line-too-long)
+C:201, 0: Line too long (141/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:142, 0: Import "import collections" should be placed at the top of the module (wrong-import-position)
+C:144, 0: Import "from copy import deepcopy" should be placed at the top of the module (wrong-import-position)
+C:146, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:147, 0: Import "from ansible.module_utils.network.common.utils import remove_default_spec" should be placed at the top of the module (wrong-import-position)
+C:148, 0: Import "from ansible.module_utils.network.junos.junos import junos_argument_spec, tostring" should be placed at the top of the module (wrong-import-position)
+C:149, 0: Import "from ansible.module_utils.network.junos.junos import load_config, map_params_to_obj, map_obj_to_ele" should be placed at the top of the module (wrong-import-position)
+C:150, 0: Import "from ansible.module_utils.network.junos.junos import commit_configuration, discard_changes, locked_config, to_param_list" should be placed at the top of the module (wrong-import-position)
+C:155, 0: Missing function docstring (missing-docstring)
+C:160, 0: Missing function docstring (missing-docstring)
+R:170, 0: Too many local variables (20/15) (too-many-locals)
+W:264,15: Access to a protected member _diff of a client class (protected-access)
+
+-----------------------------------
+Your code has been rated at 7.83/10
+

@@ -1,0 +1,42 @@
+************* Module jail
+C: 33, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 35, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 24, 0: Constant name "result" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 27, 0: Constant name "pipe" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 6.43/10 (previous run: 6.43/10, +0.00)
+
+************* Module ansible.plugins.connection.jail
+C:101, 0: Line too long (122/100) (line-too-long)
+C:166, 0: Line too long (115/100) (line-too-long)
+C:175, 0: Line too long (143/100) (line-too-long)
+C:201, 0: Line too long (139/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 34, 0: Import "import distutils.spawn" should be placed at the top of the module (wrong-import-position)
+C: 35, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C: 36, 0: Import "import os.path" should be placed at the top of the module (wrong-import-position)
+C: 37, 0: Import "import subprocess" should be placed at the top of the module (wrong-import-position)
+C: 38, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C: 39, 0: Import "import ansible.constants as C" should be placed at the top of the module (wrong-import-position)
+C: 41, 0: Import "from ansible.errors import AnsibleError" should be placed at the top of the module (wrong-import-position)
+E: 42, 0: Unable to import 'ansible.module_utils.six.moves' (import-error)
+C: 42, 0: Import "from ansible.module_utils.six.moves import shlex_quote" should be placed at the top of the module (wrong-import-position)
+C: 43, 0: Import "from ansible.module_utils._text import to_bytes, to_native, to_text" should be placed at the top of the module (wrong-import-position)
+C: 44, 0: Import "from ansible.plugins.connection import ConnectionBase, BUFSIZE" should be placed at the top of the module (wrong-import-position)
+E: 72,11: Module 'os' has no 'geteuid' member (no-member)
+C: 88, 4: Missing method docstring (missing-docstring)
+C: 89, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+W: 93,16: Unused variable 'stderr' (unused-variable)
+C:125, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:134, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+R:139, 4: Method could be a function (no-self-use)
+C:166,20: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:186,12: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C: 49, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 6.90/10
+

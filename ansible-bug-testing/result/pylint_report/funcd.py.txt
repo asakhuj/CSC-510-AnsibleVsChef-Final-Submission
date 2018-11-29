@@ -1,0 +1,25 @@
+************* Module ansible.plugins.connection.funcd
+C: 67, 0: Line too long (102/100) (line-too-long)
+C: 71, 0: Line too long (106/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 36, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C: 37, 0: Import "import tempfile" should be placed at the top of the module (wrong-import-position)
+C: 38, 0: Import "import shutil" should be placed at the top of the module (wrong-import-position)
+C: 40, 0: Import "from ansible.errors import AnsibleError" should be placed at the top of the module (wrong-import-position)
+W: 54, 0: Unused argument 'kwargs' (unused-argument)
+W: 54, 0: Unused argument 'args' (unused-argument)
+C: 60, 4: Missing method docstring (missing-docstring)
+W: 60,22: Unused argument 'port' (unused-argument)
+R: 67, 4: Too many arguments (6/5) (too-many-arguments)
+C: 75, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+W: 67,66: Unused argument 'executable' (unused-argument)
+W: 67,50: Unused argument 'sudoable' (unused-argument)
+W: 67,32: Unused argument 'become_user' (unused-argument)
+R: 78, 4: Method could be a function (no-self-use)
+W: 64, 8: Attribute 'client' defined outside __init__ (attribute-defined-outside-init)
+C: 45, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 6.23/10
+

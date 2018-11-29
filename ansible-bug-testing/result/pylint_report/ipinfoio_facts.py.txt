@@ -1,0 +1,13 @@
+************* Module ansible.modules.net_tools.ipinfoio_facts
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 83, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 85, 0: Import "from ansible.module_utils.urls import fetch_url" should be placed at the top of the module (wrong-import-position)
+C: 91, 0: Missing class docstring (missing-docstring)
+C: 98, 4: Missing method docstring (missing-docstring)
+R: 91, 0: Too few public methods (1/2) (too-few-public-methods)
+C:118, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.58/10
+

@@ -1,0 +1,27 @@
+************* Module ansible.module_utils.pure
+C: 67, 0: Line too long (128/100) (line-too-long)
+C: 69, 0: Line too long (137/100) (line-too-long)
+C: 73, 0: Line too long (101/100) (line-too-long)
+C: 96, 0: Line too long (105/100) (line-too-long)
+C:105, 0: Line too long (105/100) (line-too-long)
+C:107, 0: Line too long (137/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 43, 0: Import "from functools import wraps" should be placed at the top of the module (wrong-import-position)
+C: 44, 0: Import "from os import environ" should be placed at the top of the module (wrong-import-position)
+C: 45, 0: Import "from os import path" should be placed at the top of the module (wrong-import-position)
+C: 46, 0: Import "import platform" should be placed at the top of the module (wrong-import-position)
+W: 72,11: Catching too general exception Exception (broad-except)
+W: 94,16: Access to a protected member _api_client of a client class (protected-access)
+C: 95,36: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:103,16: Access to a protected member _api_client of a client class (protected-access)
+C:104,36: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W: 95,36: Unused variable 'e' (unused-variable)
+W: 39, 4: Unused SnapshotSuffix imported from purity_fb (unused-import)
+W: 39, 4: Unused FileSystem imported from purity_fb (unused-import)
+W: 39, 4: Unused FileSystemSnapshot imported from purity_fb (unused-import)
+W: 43, 0: Unused wraps imported from functools (unused-import)
+W: 45, 0: Unused path imported from os (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.27/10
+

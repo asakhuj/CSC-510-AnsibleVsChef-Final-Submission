@@ -1,0 +1,12 @@
+************* Module ansible.module_utils.netapp_elementsw_module
+C:156, 0: Unnecessary parens after 'return' keyword (superfluous-parens)
+C:  1, 0: Missing module docstring (missing-docstring)
+W:  9, 0: No exception type(s) specified (bare-except)
+E:  6, 4: Unable to import 'solidfire.common' (import-error)
+C: 13, 0: Missing function docstring (missing-docstring)
+C: 17, 0: Missing class docstring (missing-docstring)
+R:145, 4: Method could be a function (no-self-use)
+
+-----------------------------------
+Your code has been rated at 8.36/10
+

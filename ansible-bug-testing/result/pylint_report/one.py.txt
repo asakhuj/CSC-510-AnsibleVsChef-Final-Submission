@@ -1,0 +1,14 @@
+************* Module module_utils.baz1.one
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  1, 0: Constant name "data" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+-------------------------------------
+Your code has been rated at -10.00/10
+
+************* Module module_utils.baz2.one
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  1, 0: Constant name "data" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+-------------------------------------
+Your code has been rated at -10.00/10
+

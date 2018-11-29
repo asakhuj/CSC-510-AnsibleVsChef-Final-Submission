@@ -1,0 +1,31 @@
+************* Module ansible.modules.clustering.consul_session
+C:225, 0: Wrong hanging indentation (remove 13 spaces).
+                         session_id, e))
+            |            ^ (bad-continuation)
+C:251, 0: Line too long (105/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:122, 4: Constant name "python_consul_installed" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:124, 4: Constant name "python_consul_installed" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:126, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:129, 0: Missing function docstring (missing-docstring)
+C:141, 0: Missing function docstring (missing-docstring)
+W:175,11: Catching too general exception Exception (broad-except)
+C:175,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:179, 0: Missing function docstring (missing-docstring)
+W:206,11: Catching too general exception Exception (broad-except)
+C:206,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:210, 0: Missing function docstring (missing-docstring)
+W:223,11: Catching too general exception Exception (broad-except)
+C:223,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:228, 0: Missing function docstring (missing-docstring)
+E:229,11: Module 'consul' has no 'Consul' member; maybe 'consul'? (no-member)
+C:233, 0: Missing function docstring (missing-docstring)
+C:239, 0: Missing function docstring (missing-docstring)
+W:264,11: Catching too general exception Exception (broad-except)
+C:261,30: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:264,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.63/10
+

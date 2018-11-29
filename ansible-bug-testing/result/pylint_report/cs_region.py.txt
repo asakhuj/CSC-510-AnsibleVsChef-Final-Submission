@@ -1,0 +1,15 @@
+************* Module ansible.modules.cloud.cloudstack.cs_region
+C:  1, 0: Missing module docstring (missing-docstring)
+C:101, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:102, 0: Import "from ansible.module_utils.cloudstack import AnsibleCloudStack, cs_argument_spec, cs_required_together" should be placed at the top of the module (wrong-import-position)
+C:109, 0: Missing class docstring (missing-docstring)
+W:120, 8: Redefining built-in 'id' (redefined-builtin)
+C:119, 4: Missing method docstring (missing-docstring)
+C:120, 8: Variable name "id" doesn't conform to snake_case naming style (invalid-name)
+C:126, 4: Missing method docstring (missing-docstring)
+C:159, 4: Missing method docstring (missing-docstring)
+C:168, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.25/10
+

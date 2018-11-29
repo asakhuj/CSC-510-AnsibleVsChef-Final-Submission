@@ -1,0 +1,31 @@
+************* Module ansible.modules.database.proxysql.proxysql_mysql_users
+C:208, 0: Unnecessary parens after 'return' keyword (superfluous-parens)
+C:230, 0: Unnecessary parens after 'return' keyword (superfluous-parens)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:139, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:140, 0: Import "from ansible.module_utils.mysql import mysql_connect, mysql_driver, mysql_driver_fail_msg" should be placed at the top of the module (wrong-import-position)
+C:141, 0: Import "from ansible.module_utils.six import iteritems" should be placed at the top of the module (wrong-import-position)
+C:142, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:149, 0: Missing function docstring (missing-docstring)
+C:160, 0: Missing function docstring (missing-docstring)
+C:165, 0: Missing function docstring (missing-docstring)
+C:170, 0: Missing class docstring (missing-docstring)
+C:193, 4: Missing method docstring (missing-docstring)
+C:210, 4: Missing method docstring (missing-docstring)
+C:232, 4: Missing method docstring (missing-docstring)
+C:249, 4: Missing method docstring (missing-docstring)
+C:279, 4: Missing method docstring (missing-docstring)
+C:305, 4: Missing method docstring (missing-docstring)
+C:320, 4: Missing method docstring (missing-docstring)
+C:327, 4: Missing method docstring (missing-docstring)
+C:342, 4: Missing method docstring (missing-docstring)
+C:357, 4: Missing method docstring (missing-docstring)
+C:377, 0: Missing function docstring (missing-docstring)
+C:418,33: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:447,37: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:462,37: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.35/10
+

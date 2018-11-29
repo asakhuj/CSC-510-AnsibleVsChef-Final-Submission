@@ -1,0 +1,19 @@
+************* Module ansible.modules.system.debconf
+W:132, 0: TODO: enable passing array of options and/or debconf file from get-selections dump (fixme)
+C:124, 0: Line too long (145/100) (line-too-long)
+C:146, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 84, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 87, 0: Missing function docstring (missing-docstring)
+C: 89, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:103, 0: Missing function docstring (missing-docstring)
+R:103, 0: Too many arguments (6/5) (too-many-arguments)
+C:119, 0: Missing function docstring (missing-docstring)
+C:153,12: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:153,21: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:162,11: Access to a protected member _diff of a client class (protected-access)
+
+-----------------------------------
+Your code has been rated at 7.70/10
+

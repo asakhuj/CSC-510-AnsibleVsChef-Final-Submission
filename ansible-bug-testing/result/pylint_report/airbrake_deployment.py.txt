@@ -1,0 +1,14 @@
+************* Module ansible.modules.monitoring.airbrake_deployment
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 70, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 71, 0: Import "from ansible.module_utils.urls import fetch_url" should be placed at the top of the module (wrong-import-position)
+E: 72, 0: No name 'urllib' in module '_MovedItems' (no-name-in-module)
+E: 72, 0: Unable to import 'ansible.module_utils.six.moves.urllib.parse' (import-error)
+C: 72, 0: Import "from ansible.module_utils.six.moves.urllib.parse import urlencode" should be placed at the top of the module (wrong-import-position)
+C: 79, 0: Missing function docstring (missing-docstring)
+W:119, 4: Unused variable 'response' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 4.33/10
+

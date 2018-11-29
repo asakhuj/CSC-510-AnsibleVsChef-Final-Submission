@@ -1,0 +1,11 @@
+************* Module ansible.playbook.handler_task_include
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 27, 0: Missing class docstring (missing-docstring)
+R: 27, 0: Too many ancestors (9/7) (too-many-ancestors)
+R: 30, 4: Too many arguments (6/5) (too-many-arguments)
+C: 31, 8: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 2.50/10
+

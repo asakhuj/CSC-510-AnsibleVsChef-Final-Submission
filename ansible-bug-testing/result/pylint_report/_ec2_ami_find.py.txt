@@ -1,0 +1,23 @@
+************* Module ansible.modules.cloud.amazon._ec2_ami_find
+C:300, 0: Line too long (151/100) (line-too-long)
+C:301, 0: Line too long (124/100) (line-too-long)
+C:312, 0: Wrong continued indentation (add 20 spaces).
+    )
+    ^                   | (bad-continuation)
+C:319, 0: Line too long (112/100) (line-too-long)
+C:322, 0: Line too long (102/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:261, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C:263, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:264, 0: Import "from ansible.module_utils.ec2 import HAS_BOTO, ec2_argument_spec, ec2_connect" should be placed at the top of the module (wrong-import-position)
+W:343, 4: Redefining built-in 'filter' (redefined-builtin)
+C:286, 0: Missing function docstring (missing-docstring)
+R:286, 0: Too many local variables (27/15) (too-many-locals)
+C:371,38: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+R:286, 0: Too many branches (23/12) (too-many-branches)
+R:286, 0: Too many statements (73/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 8.26/10
+

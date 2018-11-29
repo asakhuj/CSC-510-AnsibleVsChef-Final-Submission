@@ -1,0 +1,31 @@
+************* Module ansible.modules.network.vyos.vyos_user
+C:176, 0: Line too long (105/100) (line-too-long)
+C:296, 0: Line too long (110/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:133, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:135, 0: Import "from copy import deepcopy" should be placed at the top of the module (wrong-import-position)
+C:136, 0: Import "from functools import partial" should be placed at the top of the module (wrong-import-position)
+C:138, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:139, 0: Import "from ansible.module_utils.network.common.utils import remove_default_spec" should be placed at the top of the module (wrong-import-position)
+C:140, 0: Import "from ansible.module_utils.network.vyos.vyos import get_config, load_config" should be placed at the top of the module (wrong-import-position)
+C:141, 0: Import "from ansible.module_utils.six import iteritems" should be placed at the top of the module (wrong-import-position)
+C:142, 0: Import "from ansible.module_utils.network.vyos.vyos import vyos_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:145, 0: Missing function docstring (missing-docstring)
+C:150, 0: Missing function docstring (missing-docstring)
+C:155, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:155, 4: Missing function docstring (missing-docstring)
+C:158, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:158, 4: Missing function docstring (missing-docstring)
+W:152, 4: Unused variable 'state' (unused-variable)
+C:181, 0: Missing function docstring (missing-docstring)
+R:181, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:188, 0: Missing function docstring (missing-docstring)
+R:188, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:195, 0: Missing function docstring (missing-docstring)
+C:220, 0: Missing function docstring (missing-docstring)
+C:233, 0: Missing function docstring (missing-docstring)
+C:261, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.98/10
+

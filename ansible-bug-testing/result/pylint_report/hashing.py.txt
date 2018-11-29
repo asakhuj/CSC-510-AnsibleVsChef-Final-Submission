@@ -1,0 +1,15 @@
+************* Module ansible.utils.hashing
+C: 55, 0: Line too long (102/100) (line-too-long)
+C: 57, 0: Line too long (130/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 68,22: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C: 74, 0: Constant name "checksum" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 75, 0: Constant name "checksum_s" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 89, 0: Missing function docstring (missing-docstring)
+C: 95, 0: Missing function docstring (missing-docstring)
+C: 33, 4: Imports from package hashlib are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 7.83/10
+

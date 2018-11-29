@@ -1,0 +1,18 @@
+************* Module ansible.module_utils.cloud
+C:161, 0: Line too long (109/100) (line-too-long)
+C:177, 0: Line too long (105/100) (line-too-long)
+C:217, 0: Line too long (125/100) (line-too-long)
+E: 44, 0: Unable to import 'syslog' (import-error)
+C: 67, 4: Missing function docstring (missing-docstring)
+C: 96, 4: Missing function docstring (missing-docstring)
+C:135, 8: Argument name "f" doesn't conform to snake_case naming style (invalid-name)
+C:135, 8: Missing function docstring (missing-docstring)
+C:137,12: Missing function docstring (missing-docstring)
+W:141,27: Catching too general exception Exception (broad-except)
+C:141,40: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+E:143,28: Assigning to function call which doesn't return (assignment-from-no-return)
+R:161, 4: Too many arguments (6/5) (too-many-arguments)
+
+-----------------------------------
+Your code has been rated at 5.33/10
+

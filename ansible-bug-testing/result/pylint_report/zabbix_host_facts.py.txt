@@ -1,0 +1,22 @@
+************* Module ansible.modules.monitoring.zabbix.zabbix_host_facts
+C: 88, 0: Line too long (118/100) (line-too-long)
+C: 89, 0: Line too long (101/100) (line-too-long)
+C:165, 0: Line too long (119/100) (line-too-long)
+C:182, 0: Line too long (109/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 75, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 84, 4: Missing class docstring (missing-docstring)
+R: 87, 8: Too many arguments (6/5) (too-many-arguments)
+R: 84, 4: Too few public methods (0/2) (too-few-public-methods)
+C: 96, 0: Missing class docstring (missing-docstring)
+R:101, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:146, 0: Missing function docstring (missing-docstring)
+R:146, 0: Too many local variables (18/15) (too-many-locals)
+W:185,11: Catching too general exception Exception (broad-except)
+C:185,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:196,44: Access to a protected member _zapi of a client class (protected-access)
+
+-----------------------------------
+Your code has been rated at 8.07/10
+

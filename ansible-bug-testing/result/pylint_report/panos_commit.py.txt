@@ -1,0 +1,8 @@
+************* Module ansible.modules.network.panos.panos_commit
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 70, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 79, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 9.00/10
+

@@ -1,0 +1,10 @@
+************* Module ansible.module_utils.netapp_module
+W: 32, 0: Redefining built-in 'cmp' (redefined-builtin)
+C: 32, 0: Argument name "a" doesn't conform to snake_case naming style (invalid-name)
+C: 32, 0: Argument name "b" doesn't conform to snake_case naming style (invalid-name)
+C: 54, 4: Missing method docstring (missing-docstring)
+C:115,19: Using type() instead of isinstance() for a typecheck. (unidiomatic-typecheck)
+
+-----------------------------------
+Your code has been rated at 9.02/10
+

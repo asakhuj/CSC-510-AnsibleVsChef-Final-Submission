@@ -1,0 +1,17 @@
+************* Module ansible.modules.network.exos.exos_command
+C:153, 0: Line too long (104/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:119, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:120, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C:122, 0: Import "from ansible.module_utils.network.exos.exos import run_commands" should be placed at the top of the module (wrong-import-position)
+C:123, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:124, 0: Import "from ansible.module_utils.network.common.utils import ComplexList" should be placed at the top of the module (wrong-import-position)
+C:125, 0: Import "from ansible.module_utils.network.common.parsing import Conditional" should be placed at the top of the module (wrong-import-position)
+C:126, 0: Import "from ansible.module_utils.six import string_types" should be placed at the top of the module (wrong-import-position)
+C:129, 0: Missing function docstring (missing-docstring)
+C:136, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.03/10
+

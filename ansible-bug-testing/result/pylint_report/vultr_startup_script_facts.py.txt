@@ -1,0 +1,16 @@
+************* Module ansible.modules.cloud.vultr.vultr_startup_script_facts
+C:120, 0: Line too long (111/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 79, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 80, 0: Import "from ansible.module_utils.vultr import Vultr, vultr_argument_spec" should be placed at the top of the module (wrong-import-position)
+C: 86, 0: Missing class docstring (missing-docstring)
+C:100, 4: Missing method docstring (missing-docstring)
+W:108,30: Redefining built-in 'id' (redefined-builtin)
+C:104, 0: Missing function docstring (missing-docstring)
+W:108,30: Unused variable 'id' (unused-variable)
+C:111, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 5.93/10
+

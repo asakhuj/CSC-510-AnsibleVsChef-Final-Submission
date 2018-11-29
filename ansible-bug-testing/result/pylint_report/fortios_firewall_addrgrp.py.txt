@@ -1,0 +1,20 @@
+************* Module ansible.modules.network.fortios.fortios_firewall_addrgrp
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:228, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:230, 0: Constant name "fos" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:233, 0: Missing function docstring (missing-docstring)
+C:247, 0: Missing function docstring (missing-docstring)
+W:260,27: Redefining name 'fos' from outer scope (line 230) (redefined-outer-name)
+C:260, 0: Missing function docstring (missing-docstring)
+R:260, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+W:277,27: Redefining name 'fos' from outer scope (line 230) (redefined-outer-name)
+C:277, 0: Missing function docstring (missing-docstring)
+W:283,19: Use of eval (eval-used)
+C:290, 0: Missing function docstring (missing-docstring)
+W:335, 4: Using the global statement (global-statement)
+C:335, 4: Constant name "fos" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.32/10
+

@@ -1,0 +1,19 @@
+************* Module ansible.modules.cloud.google.gcp_compute_subnetwork_facts
+C:201, 0: Line too long (122/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:170, 0: Import "from ansible.module_utils.gcp_utils import navigate_hash, GcpSession, GcpModule, GcpRequest" should be placed at the top of the module (wrong-import-position)
+C:171, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C:178, 0: Missing function docstring (missing-docstring)
+C:200, 0: Missing function docstring (missing-docstring)
+C:204, 0: Missing function docstring (missing-docstring)
+C:210, 0: Missing function docstring (missing-docstring)
+R:214, 4: Unnecessary "else" after "return" (no-else-return)
+C:218,12: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C:228, 0: Missing function docstring (missing-docstring)
+W:170, 0: Unused GcpRequest imported from ansible.module_utils.gcp_utils (unused-import)
+C:171, 0: standard import "import json" should be placed before "from ansible.module_utils.gcp_utils import navigate_hash, GcpSession, GcpModule, GcpRequest" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 7.20/10
+

@@ -1,0 +1,30 @@
+************* Module ansible.modules.network.cloudengine.ce_vrf_af
+C:187, 0: Line too long (102/100) (line-too-long)
+C:526, 0: Line too long (105/100) (line-too-long)
+C:609, 0: Line too long (109/100) (line-too-long)
+C:610, 0: Line too long (112/100) (line-too-long)
+C:624, 0: Line too long (102/100) (line-too-long)
+C:625, 0: Line too long (112/100) (line-too-long)
+C:691, 0: Line too long (104/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:184, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:185, 0: Import "from xml.etree import ElementTree" should be placed at the top of the module (wrong-import-position)
+C:186, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:187, 0: Import "from ansible.module_utils.network.cloudengine.ce import get_nc_config, set_nc_config, ce_argument_spec" should be placed at the top of the module (wrong-import-position)
+R:321, 0: Too many return statements (18/6) (too-many-return-statements)
+R:321, 0: Too many branches (22/12) (too-many-branches)
+R:369, 0: Too many instance attributes (20/7) (too-many-instance-attributes)
+R:437,16: Unnecessary "else" after "return" (no-else-return)
+R:455,16: Unnecessary "else" after "return" (no-else-return)
+R:463, 4: Too many branches (14/12) (too-many-branches)
+R:493, 4: Too many branches (18/12) (too-many-branches)
+R:572, 8: Too many nested blocks (7/5) (too-many-nested-blocks)
+R:572, 8: Too many nested blocks (7/5) (too-many-nested-blocks)
+R:549, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:549, 4: Too many branches (15/12) (too-many-branches)
+R:630, 4: Too many branches (23/12) (too-many-branches)
+R:630, 4: Too many statements (57/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 9.32/10
+

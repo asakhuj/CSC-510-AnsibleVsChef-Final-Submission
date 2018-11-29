@@ -1,0 +1,19 @@
+************* Module ansible.modules.monitoring.honeybadger_deployment
+C:118, 0: Line too long (113/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 65, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C: 67, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+E: 68, 0: No name 'urllib' in module '_MovedItems' (no-name-in-module)
+E: 68, 0: Unable to import 'ansible.module_utils.six.moves.urllib.parse' (import-error)
+C: 68, 0: Import "from ansible.module_utils.six.moves.urllib.parse import urlencode" should be placed at the top of the module (wrong-import-position)
+C: 69, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 70, 0: Import "from ansible.module_utils.urls import fetch_url" should be placed at the top of the module (wrong-import-position)
+C: 77, 0: Missing function docstring (missing-docstring)
+W:117,11: Catching too general exception Exception (broad-except)
+C:117,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:116, 8: Unused variable 'response' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 3.89/10
+

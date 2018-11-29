@@ -1,0 +1,11 @@
+************* Module ansible.modules.web_infrastructure.ansible_tower.tower_workflow_template
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 82, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 83, 0: Import "from ansible.module_utils.ansible_tower import TowerModule, tower_auth_config, tower_check_mode" should be placed at the top of the module (wrong-import-position)
+C: 97, 0: Missing function docstring (missing-docstring)
+W: 82, 0: Unused AnsibleModule imported from ansible.module_utils.basic (unused-import)
+
+-----------------------------------
+Your code has been rated at 9.02/10
+

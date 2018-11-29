@@ -1,0 +1,25 @@
+************* Module ansible.modules.packaging.os.package
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.00/10
+
+************* Module ansible.plugins.action.package
+C: 48, 0: Line too long (126/100) (line-too-long)
+C: 56, 0: Line too long (152/100) (line-too-long)
+C: 71, 0: Line too long (158/100) (line-too-long)
+C: 73, 0: Line too long (138/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 18, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 30, 0: Missing class docstring (missing-docstring)
+W: 51,19: Catching too general exception Exception (broad-except)
+C: 75,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W: 80,38: Access to a protected member _shell of a client class (protected-access)
+R: 34, 4: Too many branches (14/12) (too-many-branches)
+R: 30, 0: Too few public methods (1/2) (too-few-public-methods)
+C: 26, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 7.05/10
+

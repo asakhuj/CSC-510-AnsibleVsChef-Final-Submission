@@ -1,0 +1,14 @@
+************* Module units.modules.network.onyx.test_onyx_lldp
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 26, 0: Unable to import 'ansible.modules.network.onyx' (import-error)
+C: 31, 0: Missing class docstring (missing-docstring)
+C: 58, 4: Missing method docstring (missing-docstring)
+C: 62, 4: Missing method docstring (missing-docstring)
+C: 67, 4: Missing method docstring (missing-docstring)
+W: 23, 0: Unused import json (unused-import)
+C: 27, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 6.39/10
+

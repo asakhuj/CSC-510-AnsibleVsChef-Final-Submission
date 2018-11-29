@@ -1,0 +1,21 @@
+************* Module ansible.modules.cloud.amazon.aws_eks_cluster
+C:  1, 0: Missing module docstring (missing-docstring)
+C:154, 0: Import "from ansible.module_utils.aws.core import AnsibleAWSModule, is_boto3_error_code" should be placed at the top of the module (wrong-import-position)
+C:155, 0: Import "from ansible.module_utils.ec2 import camel_dict_to_snake_dict, get_ec2_security_group_ids_from_names" should be placed at the top of the module (wrong-import-position)
+C:156, 0: Import "from ansible.module_utils.aws.waiters import get_waiter" should be placed at the top of the module (wrong-import-position)
+C:164, 0: Missing function docstring (missing-docstring)
+C:174,83: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:205,58: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:207,83: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:219, 0: Missing function docstring (missing-docstring)
+C:227,62: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:229,87: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:234, 0: Missing function docstring (missing-docstring)
+C:240,58: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:242,83: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:246, 0: Missing function docstring (missing-docstring)
+C:255, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.20/10
+

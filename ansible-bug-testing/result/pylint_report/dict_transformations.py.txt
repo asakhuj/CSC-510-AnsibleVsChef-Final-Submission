@@ -1,0 +1,30 @@
+************* Module ansible.module_utils.common.dict_transformations
+C: 44, 0: Line too long (107/100) (line-too-long)
+C: 66, 0: Line too long (112/100) (line-too-long)
+W:120, 0: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
+C:129, 0: Unnecessary parens after 'in' keyword (superfluous-parens)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 28, 4: Missing function docstring (missing-docstring)
+C: 42,11: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C: 60, 4: Missing function docstring (missing-docstring)
+C: 68,12: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+R: 60, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R: 78, 4: Unnecessary "else" after "return" (no-else-return)
+W: 89, 4: Redefining name 're' from outer scope (line 10) (redefined-outer-name)
+C: 86, 4: Argument name "m" doesn't conform to snake_case naming style (invalid-name)
+C: 86, 4: Missing function docstring (missing-docstring)
+W: 89, 4: Reimport 're' (imported line 10) (reimported)
+C: 97, 4: Variable name "s1" doesn't conform to snake_case naming style (invalid-name)
+C:100, 8: Variable name "s1" doesn't conform to snake_case naming style (invalid-name)
+C:107, 4: Variable name "s2" doesn't conform to snake_case naming style (invalid-name)
+C:111, 0: Argument name "a" doesn't conform to snake_case naming style (invalid-name)
+C:111, 0: Argument name "b" doesn't conform to snake_case naming style (invalid-name)
+C:118,11: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:126, 0: Missing function docstring (missing-docstring)
+R:138, 4: Unnecessary "else" after "return" (no-else-return)
+W: 10, 0: Unused import re (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.88/10
+

@@ -1,0 +1,27 @@
+************* Module ansible.modules.cloud.amazon.ecs_ecr
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:123, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C:124, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:131, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:132, 0: Import "from ansible.module_utils.ec2 import HAS_BOTO3, boto3_conn, boto_exception, ec2_argument_spec, get_aws_connection_info, sort_json_policy_dict" should be placed at the top of the module (wrong-import-position)
+R:143, 4: Unnecessary "else" after "return" (no-else-return)
+C:149, 0: Missing class docstring (missing-docstring)
+C:164, 4: Missing method docstring (missing-docstring)
+C:176, 4: Missing method docstring (missing-docstring)
+C:188, 4: Missing method docstring (missing-docstring)
+R:195, 8: Unnecessary "else" after "return" (no-else-return)
+C:203, 4: Missing method docstring (missing-docstring)
+R:203, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:222, 4: Missing method docstring (missing-docstring)
+C:235, 4: Missing method docstring (missing-docstring)
+C:249, 0: Missing function docstring (missing-docstring)
+W:319,11: Catching too general exception Exception (broad-except)
+R:249, 0: Too many branches (18/12) (too-many-branches)
+R:249, 0: Too many statements (60/50) (too-many-statements)
+C:336, 0: Missing function docstring (missing-docstring)
+W:356,45: Access to a protected member _verbosity of a client class (protected-access)
+
+-----------------------------------
+Your code has been rated at 8.66/10
+

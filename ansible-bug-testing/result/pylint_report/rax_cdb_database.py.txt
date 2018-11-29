@@ -1,0 +1,25 @@
+************* Module ansible.modules.cloud.rackspace.rax_cdb_database
+C: 67, 0: Line too long (108/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 66, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 67, 0: Import "from ansible.module_utils.rax import rax_argument_spec, rax_required_together, rax_to_dict, setup_rax_module" should be placed at the top of the module (wrong-import-position)
+C: 70, 0: Missing function docstring (missing-docstring)
+W: 73,11: Catching too general exception Exception (broad-except)
+C: 79, 0: Missing function docstring (missing-docstring)
+W: 84,11: Catching too general exception Exception (broad-except)
+C: 84,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W: 96,15: Catching too general exception Exception (broad-except)
+C: 96,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:105, 0: Missing function docstring (missing-docstring)
+W:110,11: Catching too general exception Exception (broad-except)
+C:110,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:120,15: Catching too general exception Exception (broad-except)
+C:120,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:129, 0: Missing function docstring (missing-docstring)
+R:129, 0: Too many arguments (6/5) (too-many-arguments)
+C:138, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.06/10
+

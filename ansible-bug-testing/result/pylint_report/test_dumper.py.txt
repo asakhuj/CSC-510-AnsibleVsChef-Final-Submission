@@ -1,0 +1,15 @@
+************* Module units.parsing.yaml.test_dumper
+C: 53, 0: Line too long (137/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 19, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 24, 0: Unable to import 'ansible.parsing' (import-error)
+E: 25, 0: Unable to import 'ansible.parsing.yaml' (import-error)
+E: 26, 0: Unable to import 'ansible.parsing.yaml.loader' (import-error)
+C: 32, 0: Missing class docstring (missing-docstring)
+R: 42, 4: Method could be a function (no-self-use)
+C: 50, 4: Missing method docstring (missing-docstring)
+C: 28, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 3.12/10
+

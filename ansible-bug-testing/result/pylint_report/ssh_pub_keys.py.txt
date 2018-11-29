@@ -1,0 +1,8 @@
+************* Module ansible.module_utils.facts.system.ssh_pub_keys
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 17, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 24, 0: Missing class docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.57/10
+

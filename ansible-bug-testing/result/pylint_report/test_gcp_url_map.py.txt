@@ -1,0 +1,29 @@
+************* Module units.modules.cloud.google.test_gcp_url_map
+C: 15, 0: Wrong hanging indentation (remove 4 spaces).
+                        'www.example.com',
+                    |   ^ (bad-continuation)
+C: 16, 0: Wrong hanging indentation (remove 4 spaces).
+                        'www2.example.com'
+                    |   ^ (bad-continuation)
+C: 27, 0: Wrong hanging indentation (remove 4 spaces).
+                        {
+                    |   ^ (bad-continuation)
+C: 41, 0: Wrong hanging indentation (remove 4 spaces).
+                        {
+                    |   ^ (bad-continuation)
+C: 86, 0: Line too long (145/100) (line-too-long)
+C: 95, 0: Line too long (128/100) (line-too-long)
+C:100, 0: Line too long (145/100) (line-too-long)
+C:109, 0: Line too long (128/100) (line-too-long)
+C:134, 0: Line too long (149/100) (line-too-long)
+C:143, 0: Line too long (132/100) (line-too-long)
+C:148, 0: Line too long (149/100) (line-too-long)
+C:157, 0: Line too long (132/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  3, 0: Unable to import 'ansible.modules.cloud.google.gcp_url_map' (import-error)
+C: 53, 4: Missing method docstring (missing-docstring)
+C:117, 4: Missing method docstring (missing-docstring)
+
+------------------------------------
+Your code has been rated at -5.38/10
+

@@ -1,0 +1,27 @@
+************* Module ansible.modules.system.pam_limits
+C:143, 0: Line too long (150/100) (line-too-long)
+C:186, 0: Line too long (124/100) (line-too-long)
+C:192, 0: Line too long (152/100) (line-too-long)
+C:243, 0: Line too long (129/100) (line-too-long)
+C:277, 0: Line too long (114/100) (line-too-long)
+C:290, 0: Line too long (106/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:133, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:134, 0: Import "import os.path" should be placed at the top of the module (wrong-import-position)
+C:135, 0: Import "import tempfile" should be placed at the top of the module (wrong-import-position)
+C:136, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:138, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:139, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:142, 0: Missing function docstring (missing-docstring)
+R:142, 0: Too many local variables (33/15) (too-many-locals)
+C:201, 4: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C:203, 4: Variable name "nf" doesn't conform to snake_case naming style (invalid-name)
+W:223, 8: No exception type(s) specified (bare-except)
+W:302, 4: No exception type(s) specified (bare-except)
+R:142, 0: Too many branches (33/12) (too-many-branches)
+R:142, 0: Too many statements (115/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 8.21/10
+

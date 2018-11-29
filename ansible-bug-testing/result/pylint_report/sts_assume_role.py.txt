@@ -1,0 +1,12 @@
+************* Module ansible.modules.cloud.amazon.sts_assume_role
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:106, 0: Import "from ansible.module_utils.aws.core import AnsibleAWSModule" should be placed at the top of the module (wrong-import-position)
+C:107, 0: Import "from ansible.module_utils.ec2 import boto3_conn, get_aws_connection_info, ec2_argument_spec, camel_dict_to_snake_dict" should be placed at the top of the module (wrong-import-position)
+C:131, 0: Missing function docstring (missing-docstring)
+C:148,50: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:155, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.25/10
+

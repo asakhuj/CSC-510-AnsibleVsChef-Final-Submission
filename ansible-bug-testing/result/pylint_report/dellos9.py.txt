@@ -1,0 +1,76 @@
+************* Module ansible.module_utils.network.dellos9.dellos9
+C: 90, 0: Line too long (120/100) (line-too-long)
+C:121, 0: Line too long (114/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 48, 0: Constant name "dellos9_provider_spec" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 58, 0: Constant name "dellos9_argument_spec" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 61, 0: Constant name "dellos9_top_spec" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 74, 0: Missing function docstring (missing-docstring)
+W: 74,15: Unused argument 'module' (unused-argument)
+W: 74,23: Unused argument 'warnings' (unused-argument)
+C: 78, 0: Missing function docstring (missing-docstring)
+C: 88, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C: 96, 0: Missing function docstring (missing-docstring)
+C:106, 0: Missing function docstring (missing-docstring)
+C:111, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:118, 0: Missing function docstring (missing-docstring)
+C:119, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:126, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W:119, 8: Unused variable 'out' (unused-variable)
+C:133, 0: Missing function docstring (missing-docstring)
+C:143, 8: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+W: 32, 0: Unused import re (unused-import)
+W: 35, 0: Unused return_values imported from ansible.module_utils.basic (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.86/10
+
+************* Module ansible.plugins.action.dellos9
+C: 51, 0: Line too long (101/100) (line-too-long)
+C: 78, 0: Line too long (122/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 22, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 41, 0: Missing class docstring (missing-docstring)
+C: 55,12: Variable name "pc" doesn't conform to snake_case naming style (invalid-name)
+E: 55,17: Module 'copy' has no 'deepcopy' member (no-member)
+E: 63,57: Module 'ansible.constants' has no 'PERSISTENT_COMMAND_TIMEOUT' member (no-member)
+R: 41, 0: Too few public methods (1/2) (too-few-public-methods)
+C: 37, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 6.84/10
+
+************* Module ansible.plugins.cliconf.dellos9
+C: 75, 0: Line too long (119/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 22, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 34, 0: Missing class docstring (missing-docstring)
+C: 36, 4: Missing method docstring (missing-docstring)
+W: 60,43: Redefining built-in 'format' (redefined-builtin)
+W: 60, 4: Parameters differ from overridden 'get_config' method (arguments-differ)
+E: 62,19: Instance of 'Cliconf' has no 'invalid_params' member (no-member)
+W: 70, 4: Parameters differ from overridden 'edit_config' method (arguments-differ)
+R: 74, 4: Too many arguments (6/5) (too-many-arguments)
+W: 74, 4: Parameters differ from overridden 'get' method (arguments-differ)
+W: 29, 0: Unused to_bytes imported from ansible.module_utils._text (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.19/10
+
+************* Module ansible.plugins.terminal.dellos9
+C: 40, 0: Line too long (127/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 22, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 32, 0: Missing class docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.92/10
+
+************* Module ansible.utils.module_docs_fragments.dellos9
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 22, 0: Missing class docstring (missing-docstring)
+R: 22, 0: Too few public methods (0/2) (too-few-public-methods)
+
+------------------------------------
+Your code has been rated at -5.00/10
+

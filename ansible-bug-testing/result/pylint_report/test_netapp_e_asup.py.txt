@@ -1,0 +1,21 @@
+************* Module units.modules.storage.netapp.test_netapp_e_asup
+C: 69, 0: Line too long (120/100) (line-too-long)
+C: 87, 0: Line too long (120/100) (line-too-long)
+C:111, 0: Line too long (120/100) (line-too-long)
+C:148, 0: Line too long (114/100) (line-too-long)
+C:175, 0: Line too long (120/100) (line-too-long)
+C:176, 0: Line too long (114/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  5, 0: Unable to import 'ansible.modules.storage.netapp.netapp_e_asup' (import-error)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 12, 0: Missing class docstring (missing-docstring)
+C: 27, 4: Method name "test_get_config_asup_capable_false" doesn't conform to snake_case naming style (invalid-name)
+C: 38, 4: Method name "test_get_config_on_demand_capable_false" doesn't conform to snake_case naming style (invalid-name)
+C: 78, 4: Method name "test_update_configuration_asup_disable" doesn't conform to snake_case naming style (invalid-name)
+C:102, 4: Method name "test_update_configuration_enable" doesn't conform to snake_case naming style (invalid-name)
+C:128, 4: Method name "test_update_configuration_request_exception" doesn't conform to snake_case naming style (invalid-name)
+W:152, 8: Expression "(self.assertEquals(asup.days, ['sunday', 'monday', 'tuesday']), )" is assigned to nothing (expression-not-assigned)
+
+-----------------------------------
+Your code has been rated at 8.06/10
+

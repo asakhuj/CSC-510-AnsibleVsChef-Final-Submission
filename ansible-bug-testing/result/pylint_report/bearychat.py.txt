@@ -1,0 +1,18 @@
+************* Module ansible.modules.notification.bearychat
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 22, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+W: 96, 0: No exception type(s) specified (bare-except)
+E: 94, 4: No name 'urllib' in module '_MovedItems' (no-name-in-module)
+E: 94, 4: Unable to import 'ansible.module_utils.six.moves.urllib.parse' (import-error)
+C: 98, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 99, 0: Import "from ansible.module_utils.urls import fetch_url" should be placed at the top of the module (wrong-import-position)
+C:102, 0: Missing function docstring (missing-docstring)
+C:120, 0: Function name "build_payload_for_bearychat_attachment" doesn't conform to snake_case naming style (invalid-name)
+C:120, 0: Missing function docstring (missing-docstring)
+C:145, 0: Missing function docstring (missing-docstring)
+W:146, 4: Unused variable 'response' (unused-variable)
+C:156, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 6.77/10
+

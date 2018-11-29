@@ -1,0 +1,11 @@
+************* Module ansible.module_utils.network.cnos.cnos_errorcodes
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 34, 0: Constant name "errorDict" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:253, 0: Function name "getErrorString" doesn't conform to snake_case naming style (invalid-name)
+C:253, 0: Argument name "errorCode" doesn't conform to snake_case naming style (invalid-name)
+C:253, 0: Missing function docstring (missing-docstring)
+C:254, 4: Variable name "retVal" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------
+Your code has been rated at -5.00/10
+

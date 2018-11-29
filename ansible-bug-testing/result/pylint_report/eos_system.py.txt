@@ -1,0 +1,30 @@
+************* Module ansible.modules.network.eos.eos_system
+C:190, 0: Line too long (102/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:130, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:132, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:133, 0: Import "from ansible.module_utils.network.common.utils import ComplexList" should be placed at the top of the module (wrong-import-position)
+C:134, 0: Import "from ansible.module_utils.network.eos.eos import load_config, get_config" should be placed at the top of the module (wrong-import-position)
+C:135, 0: Import "from ansible.module_utils.network.eos.eos import eos_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:140, 0: Missing function docstring (missing-docstring)
+W:141, 4: Using the global statement (global-statement)
+C:150, 0: Missing function docstring (missing-docstring)
+C:154, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:154, 4: Missing function docstring (missing-docstring)
+R:164, 4: Too many nested blocks (6/5) (too-many-nested-blocks)
+R:164, 4: Too many nested blocks (6/5) (too-many-nested-blocks)
+R:150, 0: Too many branches (31/12) (too-many-branches)
+C:230, 0: Missing function docstring (missing-docstring)
+R:230, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:236, 0: Missing function docstring (missing-docstring)
+R:236, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:242, 0: Missing function docstring (missing-docstring)
+C:246,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:252, 0: Missing function docstring (missing-docstring)
+C:259, 0: Missing function docstring (missing-docstring)
+C:270, 0: Missing function docstring (missing-docstring)
+W:330,36: Access to a protected member _diff of a client class (protected-access)
+
+-----------------------------------
+Your code has been rated at 8.00/10
+

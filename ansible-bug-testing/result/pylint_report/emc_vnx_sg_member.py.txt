@@ -1,0 +1,29 @@
+************* Module ansible.modules.storage.emc.emc_vnx_sg_member
+C:117, 0: Wrong continued indentation (remove 1 space).
+                         )
+                        |^ (bad-continuation)
+W:159, 0: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
+C:161, 0: Wrong continued indentation (remove 4 spaces).
+                                     **result)
+                                 |   ^ (bad-continuation)
+W:163, 0: Bad indentation. Found 12 spaces, expected 8 (bad-indentation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 10, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 82, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 83, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 84, 0: Import "from ansible.module_utils.storage.emc.emc_vnx import emc_vnx_argument_spec" should be placed at the top of the module (wrong-import-position)
+W: 91, 0: No exception type(s) specified (bare-except)
+E: 87, 4: Unable to import 'storops' (import-error)
+E: 88, 4: Unable to import 'storops.exception' (import-error)
+C: 95, 0: Missing function docstring (missing-docstring)
+C:132, 8: Variable name "sg" doesn't conform to snake_case naming style (invalid-name)
+C:141,72: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:154,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:162,33: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R: 95, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R: 95, 0: Too many branches (13/12) (too-many-branches)
+C:168, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 5.17/10
+

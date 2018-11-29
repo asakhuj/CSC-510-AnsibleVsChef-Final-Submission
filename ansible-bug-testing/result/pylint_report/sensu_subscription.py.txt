@@ -1,0 +1,20 @@
+************* Module ansible.modules.monitoring.sensu_subscription
+C:139, 0: Wrong continued indentation (remove 1 space).
+                }
+               |^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 68, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C: 69, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C: 71, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 72, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 75, 0: Missing function docstring (missing-docstring)
+C: 81,22: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R: 82,11: Comparison to literal (literal-comparison)
+C:127,26: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R: 75, 0: Too many branches (15/12) (too-many-branches)
+C:134, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.12/10
+

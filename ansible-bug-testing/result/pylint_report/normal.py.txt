@@ -1,0 +1,30 @@
+************* Module ansible.plugins.action.normal
+C: 28, 0: Line too long (101/100) (line-too-long)
+C: 46, 0: Line too long (105/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 18, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 24, 0: Missing class docstring (missing-docstring)
+W: 55,34: Access to a protected member _shell of a client class (protected-access)
+R: 24, 0: Too few public methods (1/2) (too-few-public-methods)
+
+-----------------------------------
+Your code has been rated at 6.50/10
+
+************* Module normal
+C: 29, 0: Line too long (101/100) (line-too-long)
+C: 47, 0: Line too long (105/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 18, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 20, 0: Unable to import 'ansible.errors' (import-error)
+E: 21, 0: Unable to import 'ansible.plugins.action' (import-error)
+E: 22, 0: Unable to import 'ansible.utils.vars' (import-error)
+C: 25, 0: Missing class docstring (missing-docstring)
+C: 27, 4: Missing method docstring (missing-docstring)
+W: 60,34: Access to a protected member _shell of a client class (protected-access)
+R: 25, 0: Too few public methods (1/2) (too-few-public-methods)
+W: 30, 8: Attribute '_supports_check_mode' defined outside __init__ (attribute-defined-outside-init)
+W: 31, 8: Attribute '_supports_async' defined outside __init__ (attribute-defined-outside-init)
+
+------------------------------------
+Your code has been rated at -0.87/10
+

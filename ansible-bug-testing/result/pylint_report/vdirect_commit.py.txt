@@ -1,0 +1,25 @@
+************* Module ansible.modules.network.radware.vdirect_commit
+C:255, 0: Line too long (107/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 23, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:134, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:135, 0: Import "from ansible.module_utils.basic import env_fallback" should be placed at the top of the module (wrong-import-position)
+C:157, 0: Constant name "meta_args" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:195, 0: Missing class docstring (missing-docstring)
+W:196, 4: __init__ method from base class 'Exception' is not called (super-init-not-called)
+C:204, 0: Missing class docstring (missing-docstring)
+C:227, 8: Attribute name "devicesMap" doesn't conform to snake_case naming style (invalid-name)
+C:211, 0: Missing class docstring (missing-docstring)
+C:250,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:255, 4: Too many arguments (6/5) (too-many-arguments)
+W:277,15: Catching too general exception Exception (broad-except)
+C:277,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:285, 4: Missing method docstring (missing-docstring)
+R:211, 0: Too few public methods (1/2) (too-few-public-methods)
+C:325, 0: Missing function docstring (missing-docstring)
+W:337,11: Catching too general exception Exception (broad-except)
+C:337,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.36/10
+

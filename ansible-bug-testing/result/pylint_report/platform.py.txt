@@ -1,0 +1,22 @@
+************* Module ansible.module_utils.facts.system.platform
+C: 90, 0: Line too long (104/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 17, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 29, 0: Constant name "solaris_i86_re" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 32, 0: Missing class docstring (missing-docstring)
+E: 44,35: Module 'platform' has no 'system' member (no-member)
+E: 45,35: Module 'platform' has no 'release' member (no-member)
+E: 46,36: Module 'platform' has no 'machine' member (no-member)
+E: 48,43: Module 'platform' has no 'python_version' member (no-member)
+E: 51,37: Module 'platform' has no 'node' member (no-member)
+E: 52,37: Module 'platform' has no 'node' member (no-member)
+E: 56,20: Module 'platform' has no 'architecture' member (no-member)
+C: 79,16: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C: 84,16: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+E: 88,45: Module 'platform' has no 'uname' member (no-member)
+W: 79,25: Unused variable 'err' (unused-variable)
+W: 79,16: Unused variable 'rc' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 0.93/10
+

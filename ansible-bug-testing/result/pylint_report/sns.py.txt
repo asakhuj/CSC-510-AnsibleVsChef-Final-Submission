@@ -1,0 +1,19 @@
+************* Module ansible.modules.cloud.amazon.sns
+C:186, 0: Line too long (112/100) (line-too-long)
+C:196, 0: Line too long (119/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:126, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C:127, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:134, 0: Import "from ansible.module_utils.aws.core import AnsibleAWSModule" should be placed at the top of the module (wrong-import-position)
+C:137, 0: Missing function docstring (missing-docstring)
+C:147,43: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:153, 0: Missing function docstring (missing-docstring)
+C:173, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:193, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:216,43: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:127, 0: Unused import traceback (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.59/10
+

@@ -1,0 +1,17 @@
+************* Module ansible.modules.remote_management.redfish.redfish_facts
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:119, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:120, 0: Import "from ansible.module_utils.redfish_utils import RedfishUtils" should be placed at the top of the module (wrong-import-position)
+C:141, 0: Missing function docstring (missing-docstring)
+W:198,23: Access to a protected member _find_systems_resource of a client class (protected-access)
+W:222,23: Access to a protected member _find_chassis_resource of a client class (protected-access)
+W:232,23: Access to a protected member _find_accountservice_resource of a client class (protected-access)
+W:242,23: Access to a protected member _find_updateservice_resource of a client class (protected-access)
+W:252,23: Access to a protected member _find_managers_resource of a client class (protected-access)
+R:141, 0: Too many branches (40/12) (too-many-branches)
+R:141, 0: Too many statements (72/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 8.67/10
+

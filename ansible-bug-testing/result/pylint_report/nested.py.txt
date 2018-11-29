@@ -1,0 +1,20 @@
+************* Module ansible.plugins.lookup.nested
+C: 63, 0: Line too long (129/100) (line-too-long)
+C: 65, 0: Line too long (114/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 50, 0: Import "from jinja2.exceptions import UndefinedError" should be placed at the top of the module (wrong-import-position)
+C: 52, 0: Import "from ansible.errors import AnsibleError, AnsibleUndefinedVariable" should be placed at the top of the module (wrong-import-position)
+C: 53, 0: Import "from ansible.plugins.lookup import LookupBase" should be placed at the top of the module (wrong-import-position)
+C: 54, 0: Import "from ansible.utils.listify import listify_lookup_plugin_terms" should be placed at the top of the module (wrong-import-position)
+C: 57, 0: Missing class docstring (missing-docstring)
+C: 61,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C: 64,37: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W: 59,39: Unused argument 'variables' (unused-argument)
+C: 76,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C: 79,14: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C: 83,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 5.59/10
+

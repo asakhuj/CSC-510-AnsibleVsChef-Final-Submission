@@ -1,0 +1,18 @@
+************* Module ansible.modules.packaging.os.rhn_channel
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 62, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+E: 63, 0: Unable to import 'ansible.module_utils.six.moves' (import-error)
+C: 63, 0: Import "from ansible.module_utils.six.moves import xmlrpc_client" should be placed at the top of the module (wrong-import-position)
+C: 66, 0: Missing function docstring (missing-docstring)
+R: 66, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C: 75, 0: Missing function docstring (missing-docstring)
+W: 75,53: Unused argument 'sysname' (unused-argument)
+C: 81, 0: Missing function docstring (missing-docstring)
+W: 81,55: Unused argument 'sysname' (unused-argument)
+C: 87, 0: Missing function docstring (missing-docstring)
+C: 96, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 6.91/10
+

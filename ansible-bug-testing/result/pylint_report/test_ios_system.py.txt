@@ -1,0 +1,25 @@
+************* Module units.modules.network.ios.test_ios_system
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 24, 0: Unable to import 'ansible.modules.network.ios' (import-error)
+C: 29, 0: Missing class docstring (missing-docstring)
+C: 51, 4: Method name "test_ios_system_hostname_changed" doesn't conform to snake_case naming style (invalid-name)
+C: 51, 4: Missing method docstring (missing-docstring)
+C: 56, 4: Missing method docstring (missing-docstring)
+C: 63, 4: Method name "test_ios_system_domain_name_complex" doesn't conform to snake_case naming style (invalid-name)
+C: 63, 4: Missing method docstring (missing-docstring)
+C: 70, 4: Missing method docstring (missing-docstring)
+C: 79, 4: Method name "test_ios_system_domain_search_complex" doesn't conform to snake_case naming style (invalid-name)
+C: 79, 4: Missing method docstring (missing-docstring)
+C: 87, 4: Missing method docstring (missing-docstring)
+C: 92, 4: Missing method docstring (missing-docstring)
+C: 99, 4: Method name "rest_ios_system_name_servers_complex" doesn't conform to snake_case naming style (invalid-name)
+C: 99, 4: Missing method docstring (missing-docstring)
+C:107, 4: Missing method docstring (missing-docstring)
+C:116, 4: Missing method docstring (missing-docstring)
+C:120, 4: Missing method docstring (missing-docstring)
+C: 25, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 6.36/10
+

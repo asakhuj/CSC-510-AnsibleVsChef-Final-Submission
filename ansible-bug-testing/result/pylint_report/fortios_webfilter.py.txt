@@ -1,0 +1,30 @@
+************* Module ansible.modules.network.fortios.fortios_webfilter
+C:475, 0: Line too long (113/100) (line-too-long)
+C:478, 0: Line too long (105/100) (line-too-long)
+C:480, 0: Line too long (111/100) (line-too-long)
+C:499, 0: Line too long (112/100) (line-too-long)
+C:500, 0: Line too long (105/100) (line-too-long)
+C:502, 0: Line too long (113/100) (line-too-long)
+C:505, 0: Line too long (103/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:359, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:361, 0: Constant name "fos" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:364, 0: Missing function docstring (missing-docstring)
+C:375, 0: Missing function docstring (missing-docstring)
+C:388, 0: Missing function docstring (missing-docstring)
+W:400,24: Redefining name 'fos' from outer scope (line 361) (redefined-outer-name)
+C:400, 0: Missing function docstring (missing-docstring)
+R:400, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+W:418,28: Redefining name 'fos' from outer scope (line 361) (redefined-outer-name)
+C:418, 0: Missing function docstring (missing-docstring)
+R:418, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+W:436,28: Redefining name 'fos' from outer scope (line 361) (redefined-outer-name)
+C:436, 0: Missing function docstring (missing-docstring)
+W:446,19: Use of eval (eval-used)
+W:519, 4: Redefining name 'fos' from outer scope (line 361) (redefined-outer-name)
+C:453, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 6.53/10
+

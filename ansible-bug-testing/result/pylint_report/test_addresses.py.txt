@@ -1,0 +1,17 @@
+************* Module units.parsing.utils.test_addresses
+C: 19, 0: Line too long (101/100) (line-too-long)
+C: 20, 0: Line too long (104/100) (line-too-long)
+C: 21, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  5, 0: Unable to import 'ansible.parsing.utils.addresses' (import-error)
+C:  8, 0: Missing class docstring (missing-docstring)
+C: 71, 4: Missing method docstring (missing-docstring)
+C: 72,12: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+W: 77,12: No exception type(s) specified (bare-except)
+C: 84, 4: Missing method docstring (missing-docstring)
+C: 85,12: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+W: 90,12: No exception type(s) specified (bare-except)
+
+-----------------------------------
+Your code has been rated at 3.60/10
+

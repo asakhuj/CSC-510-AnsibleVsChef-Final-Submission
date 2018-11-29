@@ -1,0 +1,16 @@
+************* Module units.modules.network.fortimanager.fortimanager_module
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 26, 0: Missing class docstring (missing-docstring)
+C: 28, 4: Missing method docstring (missing-docstring)
+R: 28, 4: Too many arguments (6/5) (too-many-arguments)
+W: 28,84: Unused argument 'defaults' (unused-argument)
+C: 47, 4: Missing method docstring (missing-docstring)
+E: 49,12: Instance of 'TestFortimanagerModule' has no 'module' member (no-member)
+C: 55, 4: Missing method docstring (missing-docstring)
+E: 57,12: Instance of 'TestFortimanagerModule' has no 'module' member (no-member)
+C: 63, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 3.67/10
+

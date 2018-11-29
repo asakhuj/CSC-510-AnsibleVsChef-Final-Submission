@@ -1,0 +1,17 @@
+************* Module nagios_livestatus
+C: 64, 0: Line too long (118/100) (line-too-long)
+C: 94, 0: Line too long (135/100) (line-too-long)
+C:120, 0: Line too long (114/100) (line-too-long)
+C:170, 0: Line too long (110/100) (line-too-long)
+C:170, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:172, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 52, 0: Missing class docstring (missing-docstring)
+C: 54, 4: Missing method docstring (missing-docstring)
+C:104, 4: Missing method docstring (missing-docstring)
+C:111, 4: Missing method docstring (missing-docstring)
+R:131,12: Redefining argument with the local name 'host' (redefined-argument-from-local)
+C:163,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+
+------------------------------------------------------------------
+Your code has been rated at 8.81/10 (previous run: 8.81/10, +0.00)
+

@@ -1,0 +1,16 @@
+************* Module ansible.modules.cloud.digital_ocean.digital_ocean_snapshot_facts
+C:125, 0: Line too long (111/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:105, 0: Import "from traceback import format_exc" should be placed at the top of the module (wrong-import-position)
+C:106, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:107, 0: Import "from ansible.module_utils.digital_ocean import DigitalOceanHelper" should be placed at the top of the module (wrong-import-position)
+C:108, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:111, 0: Missing function docstring (missing-docstring)
+C:138, 0: Missing function docstring (missing-docstring)
+W:157,11: Catching too general exception Exception (broad-except)
+C:157,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.11/10
+

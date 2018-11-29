@@ -1,0 +1,15 @@
+************* Module lib.import_analysis
+C: 25, 0: Line too long (106/100) (line-too-long)
+C: 31, 0: Line too long (108/100) (line-too-long)
+C: 67, 0: Line too long (105/100) (line-too-long)
+C: 96, 0: Line too long (130/100) (line-too-long)
+C:105, 0: Line too long (114/100) (line-too-long)
+C:109, 0: Line too long (111/100) (line-too-long)
+C:160, 0: Line too long (113/100) (line-too-long)
+C:230, 0: Line too long (112/100) (line-too-long)
+C:242, 0: Line too long (104/100) (line-too-long)
+C:146, 0: Function name "extract_python_module_utils_imports" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 9.19/10
+

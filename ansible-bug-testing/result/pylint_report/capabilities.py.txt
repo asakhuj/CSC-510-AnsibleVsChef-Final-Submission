@@ -1,0 +1,25 @@
+************* Module ansible.modules.system.capabilities
+C: 94, 0: Line too long (137/100) (line-too-long)
+C:102, 0: Line too long (137/100) (line-too-long)
+C:116, 0: Line too long (118/100) (line-too-long)
+C:137, 0: Line too long (110/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 60, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 65, 0: Missing class docstring (missing-docstring)
+C: 80, 4: Missing method docstring (missing-docstring)
+W: 91,31: map/filter on lambda could be replaced by comprehension (deprecated-lambda)
+W:101,26: map/filter on lambda could be replaced by comprehension (deprecated-lambda)
+C:105, 4: Missing method docstring (missing-docstring)
+C:108, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:125,35: Variable name "op" doesn't conform to snake_case naming style (invalid-name)
+C:132, 4: Missing method docstring (missing-docstring)
+C:135, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+R:132, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+W:148, 8: No exception type(s) specified (bare-except)
+C:153, 8: Variable name "op" doesn't conform to snake_case naming style (invalid-name)
+C:161, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.40/10
+

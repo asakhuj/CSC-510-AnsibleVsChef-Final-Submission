@@ -1,0 +1,14 @@
+************* Module ansible.modules.remote_management.oneview.oneview_logical_interconnect_group
+C:150, 0: Line too long (103/100) (line-too-long)
+C:152, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:101, 0: Import "from ansible.module_utils.oneview import OneViewModuleBase, OneViewModuleResourceNotFound" should be placed at the top of the module (wrong-import-position)
+C:104, 0: Missing class docstring (missing-docstring)
+R:124, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:150,20: Variable name "permitted_interconnect_type_name" doesn't conform to snake_case naming style (invalid-name)
+C:163, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.20/10
+

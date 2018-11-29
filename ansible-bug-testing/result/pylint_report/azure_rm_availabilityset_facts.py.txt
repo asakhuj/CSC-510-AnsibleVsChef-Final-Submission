@@ -1,0 +1,10 @@
+************* Module ansible.modules.cloud.azure.azure_rm_availabilityset_facts
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 73, 0: Import "from ansible.module_utils.azure_rm_common import AzureRMModuleBase" should be placed at the top of the module (wrong-import-position)
+W: 77, 0: No exception type(s) specified (bare-except)
+E: 76, 4: Unable to import 'msrestazure.azure_exceptions' (import-error)
+
+-----------------------------------
+Your code has been rated at 8.57/10
+

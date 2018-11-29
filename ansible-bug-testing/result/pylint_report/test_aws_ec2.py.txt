@@ -1,0 +1,80 @@
+************* Module units.plugins.inventory.test_aws_ec2
+C: 27, 0: Line too long (102/100) (line-too-long)
+C: 57, 0: Wrong hanging indentation (add 1 space).
+            {u'Status': 'in-use',
+            ^| (bad-continuation)
+C: 86, 0: Wrong hanging indentation in dict value.
+                {u'PublicIp': '12.345.67.890',
+             |  ^| (bad-continuation)
+C: 91, 0: Wrong hanging indentation in dict value.
+            {u'Tenancy': 'default',
+         |  ^| (bad-continuation)
+C: 96, 0: Wrong hanging indentation (add 1 space).
+            {u'DeviceName': '/dev/xvda',
+            ^| (bad-continuation)
+C: 98, 0: Wrong hanging indentation in dict value.
+                {u'Status': 'attached',
+             |  ^| (bad-continuation)
+C:129, 0: Line too long (120/100) (line-too-long)
+C:145, 0: Line too long (107/100) (line-too-long)
+C:188, 0: Line too long (108/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 22, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 28, 0: Constant name "boto3" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 29, 0: Constant name "botocore" doesn't conform to UPPER_CASE naming style (invalid-name)
+E: 31, 0: Unable to import 'ansible.errors' (import-error)
+C: 31, 0: Import "from ansible.errors import AnsibleError, AnsibleParserError" should be placed at the top of the module (wrong-import-position)
+E: 32, 0: Unable to import 'ansible.plugins.inventory.aws_ec2' (import-error)
+C: 32, 0: Import "from ansible.plugins.inventory.aws_ec2 import InventoryModule" should be placed at the top of the module (wrong-import-position)
+E: 33, 0: Unable to import 'ansible.plugins.inventory.aws_ec2' (import-error)
+C: 33, 0: Import "from ansible.plugins.inventory.aws_ec2 import instance_data_filter_to_boto_attr" should be placed at the top of the module (wrong-import-position)
+C: 35, 0: Constant name "instances" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:115, 0: Missing function docstring (missing-docstring)
+W:119,24: Redefining name 'inventory' from outer scope (line 115) (redefined-outer-name)
+C:119, 0: Missing function docstring (missing-docstring)
+W:123,22: Access to a protected member _compile_values of a client class (protected-access)
+W:127,29: Redefining name 'inventory' from outer scope (line 115) (redefined-outer-name)
+C:127, 0: Missing function docstring (missing-docstring)
+W:129,11: Access to a protected member _get_boto_attr_chain of a client class (protected-access)
+W:132,20: Redefining name 'inventory' from outer scope (line 115) (redefined-outer-name)
+C:132, 0: Missing function docstring (missing-docstring)
+W:133, 4: Access to a protected member _options of a client class (protected-access)
+W:137, 4: Access to a protected member _set_credentials of a client class (protected-access)
+W:139,34: Access to a protected member _boto3_conn of a client class (protected-access)
+W:139,24: Unused variable 'region' (unused-variable)
+W:139,12: Unused variable 'connection' (unused-variable)
+W:143,30: Redefining name 'inventory' from outer scope (line 115) (redefined-outer-name)
+C:143, 0: Missing function docstring (missing-docstring)
+W:145,11: Access to a protected member _get_hostname of a client class (protected-access)
+W:148,22: Redefining name 'inventory' from outer scope (line 115) (redefined-outer-name)
+C:148, 0: Missing function docstring (missing-docstring)
+W:151,11: Access to a protected member _get_hostname of a client class (protected-access)
+W:154,25: Redefining name 'inventory' from outer scope (line 115) (redefined-outer-name)
+C:154, 0: Missing function docstring (missing-docstring)
+W:155, 4: Access to a protected member _options of a client class (protected-access)
+W:159, 4: Access to a protected member _set_credentials of a client class (protected-access)
+W:167,34: Redefining name 'inventory' from outer scope (line 115) (redefined-outer-name)
+C:167, 0: Missing function docstring (missing-docstring)
+W:168, 4: Access to a protected member _options of a client class (protected-access)
+W:175, 8: Access to a protected member _set_credentials of a client class (protected-access)
+W:179,25: Redefining name 'inventory' from outer scope (line 115) (redefined-outer-name)
+C:179, 0: Missing function docstring (missing-docstring)
+W:180,28: Access to a protected member _validate_option of a client class (protected-access)
+W:181,28: Access to a protected member _validate_option of a client class (protected-access)
+W:184,24: Redefining name 'inventory' from outer scope (line 115) (redefined-outer-name)
+C:184, 0: Missing function docstring (missing-docstring)
+W:187, 8: Access to a protected member _validate_option of a client class (protected-access)
+C:188,15: Comparison should be error_message == "The option filters ([{'tag:Environment': 'dev'}]) must be a <class 'dict'>" (misplaced-comparison-constant)
+W:191,36: Redefining name 'inventory' from outer scope (line 115) (redefined-outer-name)
+C:191, 0: Missing function docstring (missing-docstring)
+W:192,54: Access to a protected member _get_query_options of a client class (protected-access)
+W:197,29: Redefining name 'inventory' from outer scope (line 115) (redefined-outer-name)
+C:197, 0: Missing function docstring (missing-docstring)
+W:198,54: Access to a protected member _get_query_options of a client class (protected-access)
+W:210,32: Redefining name 'inventory' from outer scope (line 115) (redefined-outer-name)
+C:210, 0: Missing function docstring (missing-docstring)
+C: 25, 0: standard import "import datetime" should be placed before "import pytest" (wrong-import-order)
+
+------------------------------------
+Your code has been rated at -1.67/10
+

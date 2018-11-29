@@ -1,0 +1,31 @@
+************* Module ansible.modules.cloud.amazon.ec2_elb
+C:232, 0: Unnecessary parens after 'return' keyword (superfluous-parens)
+C:331, 0: Wrong continued indentation (add 20 spaces).
+    )
+    ^                   | (bad-continuation)
+C:344, 0: Line too long (152/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 89, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C:101, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:102, 0: Import "from ansible.module_utils.ec2 import AnsibleAWSError, HAS_BOTO, connect_to_aws, ec2_argument_spec, get_aws_connection_info" should be placed at the top of the module (wrong-import-position)
+C:122,12: Variable name "lb" doesn't conform to snake_case naming style (invalid-name)
+C:146,12: Variable name "lb" doesn't conform to snake_case naming style (invalid-name)
+C:165,12: Variable name "lb" doesn't conform to snake_case naming style (invalid-name)
+C:171, 4: Argument name "lb" doesn't conform to snake_case naming style (invalid-name)
+C:185, 4: Argument name "lb" doesn't conform to snake_case naming style (invalid-name)
+R:223, 4: Method could be a function (no-self-use)
+C:234, 4: Argument name "lb" doesn't conform to snake_case naming style (invalid-name)
+C:241,49: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:259,71: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:280,16: Variable name "lb" doesn't conform to snake_case naming style (invalid-name)
+C:292,71: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:316,71: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:321, 0: Missing function docstring (missing-docstring)
+R:321, 0: Too many local variables (16/15) (too-many-locals)
+W:341,12: Unused variable 'ec2_url' (unused-variable)
+W: 96, 4: Unused RegionInfo imported from boto.regioninfo (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.55/10
+

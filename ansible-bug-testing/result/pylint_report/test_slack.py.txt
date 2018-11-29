@@ -1,0 +1,24 @@
+************* Module test_slack
+C: 52, 0: Line too long (106/100) (line-too-long)
+C: 85, 0: Line too long (106/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  3, 0: Unable to import 'units.compat.mock' (import-error)
+E:  4, 0: Unable to import 'ansible.modules.notification' (import-error)
+E:  5, 0: Unable to import 'units.modules.utils' (import-error)
+E:  6, 0: Unable to import 'ansible' (import-error)
+C:  9, 0: Missing class docstring (missing-docstring)
+C: 11, 4: Method name "setUp" doesn't conform to snake_case naming style (invalid-name)
+C: 11, 4: Missing method docstring (missing-docstring)
+C: 15, 4: Method name "tearDown" doesn't conform to snake_case naming style (invalid-name)
+C: 15, 4: Missing method docstring (missing-docstring)
+W: 15, 4: Useless super delegation in method 'tearDown' (useless-super-delegation)
+C: 19, 4: Missing method docstring (missing-docstring)
+R: 19, 4: Method could be a function (no-self-use)
+C: 22, 4: Method name "test_without_required_parameters" doesn't conform to snake_case naming style (invalid-name)
+W:  6, 0: Unused module_utils imported from ansible (unused-import)
+C:  5, 0: Imports from package units are not grouped (ungrouped-imports)
+C:  6, 0: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 3.14/10
+

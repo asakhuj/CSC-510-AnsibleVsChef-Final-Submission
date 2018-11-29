@@ -1,0 +1,37 @@
+************* Module ansible.modules.network.meraki.meraki_switchport
+W:264, 0: TODO: Add support for serial in the construct_path() method (fixme)
+W:278, 0: FIXME: Work with Meraki so they can implement a check mode (fixme)
+C:207, 0: Wrong continued indentation (remove 1 space).
+             }
+            |^ (bad-continuation)
+C:239, 0: Line too long (136/100) (line-too-long)
+C:242, 0: Line too long (131/100) (line-too-long)
+C:244, 0: Wrong continued indentation (remove 1 space).
+                         )
+                        |^ (bad-continuation)
+C:252, 0: Wrong continued indentation (remove 1 space).
+                           )
+                          |^ (bad-continuation)
+C:262, 0: Line too long (113/100) (line-too-long)
+C:332, 0: Line too long (102/100) (line-too-long)
+C:334, 0: Line too long (112/100) (line-too-long)
+C:342, 0: Line too long (109/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:186, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:187, 0: Import "from ansible.module_utils.basic import AnsibleModule, json, env_fallback" should be placed at the top of the module (wrong-import-position)
+C:188, 0: Import "from ansible.module_utils.urls import fetch_url" should be placed at the top of the module (wrong-import-position)
+C:189, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:190, 0: Import "from ansible.module_utils.network.meraki.meraki import MerakiModule, meraki_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:193, 0: Constant name "param_map" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:210, 0: Missing function docstring (missing-docstring)
+C:222, 0: Missing function docstring (missing-docstring)
+R:222, 0: Too many statements (76/50) (too-many-statements)
+W:186, 0: Unused import os (unused-import)
+W:187, 0: Unused env_fallback imported from ansible.module_utils.basic (unused-import)
+W:188, 0: Unused fetch_url imported from ansible.module_utils.urls (unused-import)
+W:189, 0: Unused to_native imported from ansible.module_utils._text (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.35/10
+

@@ -1,0 +1,22 @@
+************* Module ansible.modules.network.onyx.onyx_l2_interface
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 70, 0: Import "from copy import deepcopy" should be placed at the top of the module (wrong-import-position)
+C: 71, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C: 73, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 74, 0: Import "from ansible.module_utils.six import iteritems" should be placed at the top of the module (wrong-import-position)
+C: 75, 0: Import "from ansible.module_utils.network.common.utils import remove_default_spec" should be placed at the top of the module (wrong-import-position)
+C: 77, 0: Import "from ansible.module_utils.network.onyx.onyx import BaseOnyxModule" should be placed at the top of the module (wrong-import-position)
+C: 78, 0: Import "from ansible.module_utils.network.onyx.onyx import get_interfaces_config" should be placed at the top of the module (wrong-import-position)
+C: 81, 0: Missing class docstring (missing-docstring)
+C:146, 4: Missing method docstring (missing-docstring)
+C:151, 4: Missing method docstring (missing-docstring)
+C:159, 4: Missing method docstring (missing-docstring)
+R:159, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:189, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+E:265,22: Instance of 'OnyxL2InterfaceModule' has no 'get_switchport_command_name' member; maybe '_get_switchport_command_name'? (no-member)
+E:275,22: Instance of 'OnyxL2InterfaceModule' has no 'get_switchport_command_name' member; maybe '_get_switchport_command_name'? (no-member)
+
+-----------------------------------
+Your code has been rated at 8.38/10
+

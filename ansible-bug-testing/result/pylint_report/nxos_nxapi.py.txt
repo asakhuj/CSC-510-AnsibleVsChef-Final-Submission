@@ -1,0 +1,32 @@
+************* Module ansible.modules.network.nxos.nxos_nxapi
+C:179, 0: Line too long (101/100) (line-too-long)
+C:250, 0: Line too long (103/100) (line-too-long)
+C:258, 0: Line too long (122/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:162, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:164, 0: Import "from distutils.version import LooseVersion" should be placed at the top of the module (wrong-import-position)
+C:165, 0: Import "from ansible.module_utils.network.nxos.nxos import run_commands, load_config" should be placed at the top of the module (wrong-import-position)
+C:166, 0: Import "from ansible.module_utils.network.nxos.nxos import nxos_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:167, 0: Import "from ansible.module_utils.network.nxos.nxos import get_capabilities" should be placed at the top of the module (wrong-import-position)
+C:168, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:169, 0: Import "from ansible.module_utils.six import iteritems" should be placed at the top of the module (wrong-import-position)
+C:172, 0: Missing function docstring (missing-docstring)
+C:200, 0: Missing function docstring (missing-docstring)
+R:200, 0: Too many local variables (17/15) (too-many-locals)
+C:215, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:215, 4: Missing function docstring (missing-docstring)
+C:257,15: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+W:200,36: Unused argument 'module' (unused-argument)
+R:200, 0: Too many branches (23/12) (too-many-branches)
+C:269, 0: Missing function docstring (missing-docstring)
+C:282, 0: Missing function docstring (missing-docstring)
+C:295, 0: Missing function docstring (missing-docstring)
+C:303, 0: Missing function docstring (missing-docstring)
+C:316, 0: Missing function docstring (missing-docstring)
+C:324, 0: Missing function docstring (missing-docstring)
+C:345, 0: Missing function docstring (missing-docstring)
+W:169, 0: Unused iteritems imported from ansible.module_utils.six (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.29/10
+

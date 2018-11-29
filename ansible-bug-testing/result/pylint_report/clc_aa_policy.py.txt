@@ -1,0 +1,22 @@
+************* Module ansible.modules.cloud.centurylink.clc_aa_policy
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:129, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:131, 0: Import "from distutils.version import LooseVersion" should be placed at the top of the module (wrong-import-position)
+C:153, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:156, 0: Missing class docstring (missing-docstring)
+C:200, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+W:233,12: Access to a protected member _LOGIN_TOKEN_V2 of a client class (protected-access)
+W:234,12: Access to a protected member _V2_ENABLED of a client class (protected-access)
+R:217, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:245, 4: Argument name "p" doesn't conform to snake_case naming style (invalid-name)
+C:259, 4: Argument name "p" doesn't conform to snake_case naming style (invalid-name)
+C:274, 4: Argument name "p" doesn't conform to snake_case naming style (invalid-name)
+C:299, 4: Argument name "p" doesn't conform to snake_case naming style (invalid-name)
+C:312, 4: Argument name "p" doesn't conform to snake_case naming style (invalid-name)
+R:156, 0: Too few public methods (1/2) (too-few-public-methods)
+W:343,22: Access to a protected member _define_module_argument_spec of a client class (protected-access)
+
+-----------------------------------
+Your code has been rated at 8.53/10
+

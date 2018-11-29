@@ -1,0 +1,15 @@
+************* Module ansible.plugins.lookup.random_choice
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 34, 0: Import "import random" should be placed at the top of the module (wrong-import-position)
+C: 36, 0: Import "from ansible.errors import AnsibleError" should be placed at the top of the module (wrong-import-position)
+C: 37, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 38, 0: Import "from ansible.plugins.lookup import LookupBase" should be placed at the top of the module (wrong-import-position)
+C: 41, 0: Missing class docstring (missing-docstring)
+W: 43, 4: Parameters differ from overridden 'run' method (arguments-differ)
+C: 49,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W: 43,25: Unused argument 'inject' (unused-argument)
+
+-----------------------------------
+Your code has been rated at 4.44/10
+

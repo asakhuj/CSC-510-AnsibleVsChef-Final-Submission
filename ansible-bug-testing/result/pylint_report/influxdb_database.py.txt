@@ -1,0 +1,17 @@
+************* Module ansible.modules.database.influxdb.influxdb_database
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 73, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 74, 0: Import "from ansible.module_utils.influxdb import InfluxDb" should be placed at the top of the module (wrong-import-position)
+C: 77, 0: Missing function docstring (missing-docstring)
+C: 82,12: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+C: 86,50: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C: 91, 0: Missing function docstring (missing-docstring)
+C: 95,54: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:101, 0: Missing function docstring (missing-docstring)
+C:105,49: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:111, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.89/10
+

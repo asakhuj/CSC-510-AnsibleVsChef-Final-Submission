@@ -1,0 +1,21 @@
+************* Module ansible.modules.storage.purestorage.purefa_host
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:115, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:116, 0: Import "from ansible.module_utils.pure import get_system, purefa_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:146, 0: Missing function docstring (missing-docstring)
+C:158, 0: Missing function docstring (missing-docstring)
+W:168, 4: No exception type(s) specified (bare-except)
+W:163,22: Access to a protected member _list_available_rest_versions of a client class (protected-access)
+C:173, 0: Missing function docstring (missing-docstring)
+W:175,18: Access to a protected member _list_available_rest_versions of a client class (protected-access)
+W:180, 8: No exception type(s) specified (bare-except)
+C:185, 0: Missing function docstring (missing-docstring)
+C:194, 0: Missing function docstring (missing-docstring)
+W:221, 8: No exception type(s) specified (bare-except)
+W:214, 4: Unused variable 'protocol' (unused-variable)
+W:123, 4: Unused purestorage imported from purestorage (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.12/10
+

@@ -1,0 +1,21 @@
+************* Module ansible.modules.network.iosxr.iosxr_netconf
+C:133, 0: Line too long (115/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 75, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C: 77, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 78, 0: Import "from ansible.module_utils.network.iosxr.iosxr import iosxr_argument_spec" should be placed at the top of the module (wrong-import-position)
+C: 79, 0: Import "from ansible.module_utils.network.iosxr.iosxr import get_config, load_config" should be placed at the top of the module (wrong-import-position)
+C: 80, 0: Import "from ansible.module_utils.six import iteritems" should be placed at the top of the module (wrong-import-position)
+C: 85, 0: Missing function docstring (missing-docstring)
+C:115, 0: Missing function docstring (missing-docstring)
+R:115, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:121, 0: Missing function docstring (missing-docstring)
+R:121, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:127, 0: Missing function docstring (missing-docstring)
+C:149, 0: Missing function docstring (missing-docstring)
+C:154, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.07/10
+

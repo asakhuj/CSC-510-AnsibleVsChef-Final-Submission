@@ -1,0 +1,84 @@
+************* Module ansible.module_utils.network.sros.sros
+C: 78, 0: Line too long (120/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 40, 0: Constant name "sros_provider_spec" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 48, 0: Constant name "sros_argument_spec" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 51, 0: Constant name "sros_top_spec" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 62, 0: Missing function docstring (missing-docstring)
+W: 62,15: Unused argument 'module' (unused-argument)
+W: 62,23: Unused argument 'warnings' (unused-argument)
+C: 66, 0: Missing function docstring (missing-docstring)
+C: 76, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C: 84, 0: Missing function docstring (missing-docstring)
+C: 94, 0: Missing function docstring (missing-docstring)
+C: 99, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:106, 0: Missing function docstring (missing-docstring)
+C:108, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W:108,12: Unused variable 'out' (unused-variable)
+W: 31, 0: Unused import re (unused-import)
+W: 34, 0: Unused return_values imported from ansible.module_utils.basic (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.09/10
+
+************* Module ansible.plugins.action.sros
+C: 45, 0: Line too long (101/100) (line-too-long)
+C: 69, 0: Wrong continued indentation (add 7 spaces).
+                        'https://docs.ansible.com/ansible/network_debug_troubleshooting.html#unable-to-open-shell'}
+                        ^      | (bad-continuation)
+C: 69, 0: Line too long (115/100) (line-too-long)
+C: 73, 0: Line too long (125/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 37, 0: Missing class docstring (missing-docstring)
+C: 50,12: Variable name "pc" doesn't conform to snake_case naming style (invalid-name)
+E: 50,17: Module 'copy' has no 'deepcopy' member (no-member)
+E: 58,57: Module 'ansible.constants' has no 'PERSISTENT_COMMAND_TIMEOUT' member (no-member)
+R: 37, 0: Too few public methods (1/2) (too-few-public-methods)
+C: 33, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 5.35/10
+
+************* Module ansible.plugins.netconf.sros
+C: 57, 0: Line too long (102/100) (line-too-long)
+C: 60, 0: Line too long (116/100) (line-too-long)
+C: 61, 0: Line too long (121/100) (line-too-long)
+C: 62, 0: Line too long (102/100) (line-too-long)
+C: 68, 0: Line too long (105/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 45, 0: Missing class docstring (missing-docstring)
+C: 46, 4: Missing method docstring (missing-docstring)
+R: 46, 4: Method could be a function (no-self-use)
+C: 52, 4: Missing method docstring (missing-docstring)
+C: 57, 8: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C: 80,12: Variable name "m" doesn't conform to snake_case naming style (invalid-name)
+C: 95,12: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+W: 25, 0: Unused constants imported from ansible as C (unused-import)
+W: 26, 0: Unused to_bytes imported from ansible.module_utils._text (unused-import)
+W: 29, 0: Unused ensure_connected imported from ansible.plugins.netconf (unused-import)
+W: 33, 4: Unused RPCError imported from ncclient.operations (unused-import)
+W: 35, 4: Unused new_ele imported from ncclient.xml_ (unused-import)
+W: 35, 4: Unused to_xml imported from ncclient.xml_ (unused-import)
+W: 40, 4: Unused etree imported from lxml (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.38/10
+
+************* Module ansible.plugins.terminal.sros
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 28, 0: Missing class docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.69/10
+
+************* Module ansible.utils.module_docs_fragments.sros
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Missing class docstring (missing-docstring)
+R: 20, 0: Too few public methods (0/2) (too-few-public-methods)
+
+------------------------------------
+Your code has been rated at -5.00/10
+

@@ -1,0 +1,27 @@
+************* Module ansible.modules.cloud.amazon.elb_classic_lb_facts
+C:164, 0: Line too long (120/100) (line-too-long)
+C:172, 0: Line too long (147/100) (line-too-long)
+C:173, 0: Line too long (156/100) (line-too-long)
+C:174, 0: Line too long (155/100) (line-too-long)
+C:181, 0: Line too long (118/100) (line-too-long)
+C:193, 0: Line too long (141/100) (line-too-long)
+C:203, 0: Wrong continued indentation (add 20 spaces).
+    )
+    ^                   | (bad-continuation)
+C:208, 0: Line too long (126/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:143, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:145, 0: Import "from ansible.module_utils.aws.core import AnsibleAWSModule" should be placed at the top of the module (wrong-import-position)
+C:146, 0: Import "from ansible.module_utils.ec2 import AWSRetry, boto3_conn, ec2_argument_spec, get_aws_connection_info, camel_dict_to_snake_dict, boto3_tag_list_to_ansible_dict" should be placed at the top of the module (wrong-import-position)
+C:162, 0: Missing function docstring (missing-docstring)
+C:167, 8: Variable name "lb" doesn't conform to snake_case naming style (invalid-name)
+C:180, 0: Missing function docstring (missing-docstring)
+C:185, 0: Missing function docstring (missing-docstring)
+C:192, 0: Missing function docstring (missing-docstring)
+C:198, 0: Missing function docstring (missing-docstring)
+C:212,83: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:143, 0: Unused import traceback (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.08/10
+

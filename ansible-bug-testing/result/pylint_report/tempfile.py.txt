@@ -1,0 +1,15 @@
+************* Module ansible.modules.files.tempfile
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 68, 0: Import "from os import close" should be placed at the top of the module (wrong-import-position)
+C: 69, 0: Import "from tempfile import mkstemp, mkdtemp" should be placed at the top of the module (wrong-import-position)
+C: 70, 0: Import "from traceback import format_exc" should be placed at the top of the module (wrong-import-position)
+C: 72, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 73, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 76, 0: Missing function docstring (missing-docstring)
+W:102,11: Catching too general exception Exception (broad-except)
+C:102,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 5.83/10
+

@@ -1,0 +1,21 @@
+************* Module ansible.modules.cloud.scaleway.scaleway_security_group_rule
+C:126, 0: Line too long (114/100) (line-too-long)
+C:138, 0: Line too long (133/100) (line-too-long)
+C:139, 0: Line too long (119/100) (line-too-long)
+C:139, 0: Wrong continued indentation before block (add 4 spaces).
+            sgr['direction'] == security_group_rule['direction'] and sgr['action'] == security_group_rule['action'] and
+            ^   | (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 12, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:126, 0: Import "from ansible.module_utils.scaleway import SCALEWAY_LOCATION, scaleway_argument_spec, Scaleway, payload_from_object" should be placed at the top of the module (wrong-import-position)
+C:127, 0: Import "from ansible.module_utils.compat.ipaddress import ip_network" should be placed at the top of the module (wrong-import-position)
+C:128, 0: Import "from ansible.module_utils._text import to_text" should be placed at the top of the module (wrong-import-position)
+C:129, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:146, 0: Missing function docstring (missing-docstring)
+C:179, 0: Missing function docstring (missing-docstring)
+C:209, 0: Missing function docstring (missing-docstring)
+C:236, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.74/10
+

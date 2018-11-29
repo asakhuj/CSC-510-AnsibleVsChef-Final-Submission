@@ -1,0 +1,21 @@
+************* Module ansible.modules.net_tools.netbox.netbox_device
+C:171, 0: Line too long (111/100) (line-too-long)
+W:183, 0: Bad indentation. Found 12 spaces, expected 8 (bad-indentation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:170, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:171, 0: Import "from ansible.module_utils.net_tools.netbox.netbox_utils import find_ids, normalize_data, DEVICE_STATUS, FACE_ID" should be placed at the top of the module (wrong-import-position)
+C:172, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+W:176, 0: No exception type(s) specified (bare-except)
+E:174, 4: Unable to import 'pynetbox' (import-error)
+C:180, 0: Argument name "nb" doesn't conform to snake_case naming style (invalid-name)
+C:180, 0: Missing function docstring (missing-docstring)
+C:189,36: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:193, 0: Missing function docstring (missing-docstring)
+W:237,11: Catching too general exception Exception (broad-except)
+C:236, 8: Variable name "nb" doesn't conform to snake_case naming style (invalid-name)
+C:172, 0: standard import "import json" should be placed before "from ansible.module_utils.basic import AnsibleModule" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 7.01/10
+

@@ -1,0 +1,51 @@
+************* Module ansible.parsing.metadata
+C:225, 0: Line too long (103/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+W: 40,47: Unused argument 'start_col' (unused-argument)
+W:114,24: Unused argument 'module_data' (unused-argument)
+W:114,37: Unused argument 'start_line' (unused-argument)
+W:114,76: Unused argument 'next_node_col' (unused-argument)
+W:114,60: Unused argument 'next_node_line' (unused-argument)
+W:114,49: Unused argument 'start_col' (unused-argument)
+R:155, 0: Too many local variables (16/15) (too-many-locals)
+E:218,35: Module 'yaml' has no 'safe_load' member (no-member)
+E:224,49: Module 'ast' has no 'Bytes' member (no-member)
+E:225,35: Module 'yaml' has no 'safe_load' member (no-member)
+R:155, 0: Too many branches (14/12) (too-many-branches)
+W: 23, 0: Unused import sys (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.49/10
+
+************* Module ansible.playbook.role.metadata
+C: 57, 0: Line too long (110/100) (line-too-long)
+C: 59, 0: Line too long (103/100) (line-too-long)
+C: 91, 0: Line too long (146/100) (line-too-long)
+C: 94, 0: Line too long (120/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 59, 8: Variable name "m" doesn't conform to snake_case naming style (invalid-name)
+C: 62, 4: Argument name "ds" doesn't conform to snake_case naming style (invalid-name)
+W: 88,48: Access to a protected member _role_path of a client class (protected-access)
+W: 91,50: Access to a protected member _play of a client class (protected-access)
+C: 93,33: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W: 62,33: Unused argument 'attr' (unused-argument)
+C: 96, 4: Argument name "ds" doesn't conform to snake_case naming style (invalid-name)
+W: 96,32: Unused argument 'attr' (unused-argument)
+R: 96, 4: Method could be a function (no-self-use)
+W: 26, 0: Unused iteritems imported from ansible.module_utils.six (unused-import)
+W: 27, 0: Unused Attribute imported from ansible.playbook.attribute (unused-import)
+W: 30, 0: Unused RoleInclude imported from ansible.playbook.role.include (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.67/10
+
+************* Module lib.metadata
+C: 40, 0: Line too long (133/100) (line-too-long)
+C: 49, 0: Line too long (109/100) (line-too-long)
+W: 11, 0: Unused FileDiff imported from lib.diff (unused-import)
+
+-----------------------------------
+Your code has been rated at 9.54/10
+

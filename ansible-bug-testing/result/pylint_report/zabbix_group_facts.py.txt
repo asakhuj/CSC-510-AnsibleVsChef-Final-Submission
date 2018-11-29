@@ -1,0 +1,21 @@
+************* Module ansible.modules.monitoring.zabbix.zabbix_group_facts
+C: 71, 0: Line too long (118/100) (line-too-long)
+C: 72, 0: Line too long (101/100) (line-too-long)
+C:107, 0: Line too long (119/100) (line-too-long)
+C:121, 0: Line too long (109/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 58, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 67, 4: Missing class docstring (missing-docstring)
+R: 70, 8: Too many arguments (6/5) (too-many-arguments)
+R: 67, 4: Too few public methods (0/2) (too-few-public-methods)
+C: 79, 0: Missing class docstring (missing-docstring)
+C: 84, 4: Missing method docstring (missing-docstring)
+R: 79, 0: Too few public methods (1/2) (too-few-public-methods)
+C: 91, 0: Missing function docstring (missing-docstring)
+W:124,11: Catching too general exception Exception (broad-except)
+C:124,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.73/10
+

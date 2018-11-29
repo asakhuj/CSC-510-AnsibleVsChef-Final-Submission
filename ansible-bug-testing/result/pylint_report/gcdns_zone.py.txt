@@ -1,0 +1,11 @@
+************* Module ansible.modules.cloud.google.gcdns_zone
+C:195, 0: Line too long (107/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:108, 0: Import "from distutils.version import LooseVersion" should be placed at the top of the module (wrong-import-position)
+C:123, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:124, 0: Import "from ansible.module_utils.gcdns import gcdns_connect" should be placed at the top of the module (wrong-import-position)
+
+-----------------------------------
+Your code has been rated at 9.41/10
+

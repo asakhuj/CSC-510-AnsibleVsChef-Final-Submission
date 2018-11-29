@@ -1,0 +1,27 @@
+************* Module ansible.modules.network.onyx.onyx_interface
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:121, 0: Import "from copy import deepcopy" should be placed at the top of the module (wrong-import-position)
+C:122, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:123, 0: Import "from time import sleep" should be placed at the top of the module (wrong-import-position)
+C:125, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:126, 0: Import "from ansible.module_utils.six import iteritems" should be placed at the top of the module (wrong-import-position)
+C:127, 0: Import "from ansible.module_utils.network.common.utils import conditional" should be placed at the top of the module (wrong-import-position)
+C:128, 0: Import "from ansible.module_utils.network.common.utils import remove_default_spec" should be placed at the top of the module (wrong-import-position)
+C:130, 0: Import "from ansible.module_utils.network.onyx.onyx import BaseOnyxModule" should be placed at the top of the module (wrong-import-position)
+C:131, 0: Import "from ansible.module_utils.network.onyx.onyx import get_interfaces_config" should be placed at the top of the module (wrong-import-position)
+C:134, 0: Missing class docstring (missing-docstring)
+C:205, 4: Missing method docstring (missing-docstring)
+C:210, 4: Missing method docstring (missing-docstring)
+C:293, 4: Missing method docstring (missing-docstring)
+C:297, 4: Missing method docstring (missing-docstring)
+C:302, 4: Missing method docstring (missing-docstring)
+C:309, 4: Missing method docstring (missing-docstring)
+R:309, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:426, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:434, 4: Too many local variables (16/15) (too-many-locals)
+R:434, 4: Too many branches (18/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 9.15/10
+

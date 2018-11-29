@@ -1,0 +1,31 @@
+************* Module ansible.modules.packaging.os.rhsm_repository
+C: 92, 0: Line too long (105/100) (line-too-long)
+C: 94, 0: Line too long (106/100) (line-too-long)
+C: 95, 0: Line too long (106/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 78, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C: 79, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C: 80, 0: Import "from fnmatch import fnmatch" should be placed at the top of the module (wrong-import-position)
+C: 81, 0: Import "from copy import deepcopy" should be placed at the top of the module (wrong-import-position)
+C: 82, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 85, 0: Missing function docstring (missing-docstring)
+C: 92, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+E: 94,88: Module 'os' has no 'getuid' member; maybe 'getpid'? (no-member)
+R: 85, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:104, 0: Missing function docstring (missing-docstring)
+R:104, 0: Too many local variables (22/15) (too-many-locals)
+C:112, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W:112,13: Unused variable 'err' (unused-variable)
+W:112, 4: Unused variable 'rc' (unused-variable)
+C:164, 0: Missing function docstring (missing-docstring)
+R:164, 0: Too many local variables (18/15) (too-many-locals)
+C:184,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:209, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W:209,17: Unused variable 'err' (unused-variable)
+W:209, 8: Unused variable 'rc' (unused-variable)
+C:214, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.27/10
+

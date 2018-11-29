@@ -1,0 +1,23 @@
+************* Module ansible.modules.cloud.azure.azure_rm_postgresqlserver_facts
+C:175, 0: Unnecessary parens after 'elif' keyword (superfluous-parens)
+C:198, 0: Line too long (117/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:133, 0: Import "from ansible.module_utils.azure_rm_common import AzureRMModuleBase" should be placed at the top of the module (wrong-import-position)
+C:144, 0: Missing class docstring (missing-docstring)
+C:179, 4: Missing method docstring (missing-docstring)
+C:186,29: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:186,29: Unused variable 'e' (unused-variable)
+C:194, 4: Missing method docstring (missing-docstring)
+C:200,29: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:200,29: Unused variable 'e' (unused-variable)
+C:210, 4: Missing method docstring (missing-docstring)
+C:211, 8: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:212, 8: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:230, 0: Missing function docstring (missing-docstring)
+W:137, 4: Unused PostgreSQLManagementClient imported from azure.mgmt.rdbms.postgresql (unused-import)
+W:138, 4: Unused Model imported from msrest.serialization (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.05/10
+

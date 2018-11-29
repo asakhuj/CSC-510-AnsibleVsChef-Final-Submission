@@ -1,0 +1,33 @@
+************* Module ansible.modules.network.edgeswitch.edgeswitch_facts
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 90, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C: 92, 0: Import "from ansible.module_utils.network.edgeswitch.edgeswitch import run_commands" should be placed at the top of the module (wrong-import-position)
+C: 93, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 94, 0: Import "from ansible.module_utils.six import iteritems" should be placed at the top of the module (wrong-import-position)
+C: 97, 0: Missing class docstring (missing-docstring)
+C:106, 4: Missing method docstring (missing-docstring)
+C:109, 4: Missing method docstring (missing-docstring)
+C:113, 0: Missing class docstring (missing-docstring)
+C:126, 4: Missing method docstring (missing-docstring)
+R:126, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:126, 4: Method could be a function (no-self-use)
+C:131, 4: Missing method docstring (missing-docstring)
+R:131, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:131, 4: Method could be a function (no-self-use)
+C:136, 4: Missing method docstring (missing-docstring)
+R:136, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:136, 4: Method could be a function (no-self-use)
+C:141, 4: Missing method docstring (missing-docstring)
+R:141, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:141, 4: Method could be a function (no-self-use)
+C:147, 0: Missing class docstring (missing-docstring)
+C:158, 0: Missing class docstring (missing-docstring)
+C:178, 4: Missing method docstring (missing-docstring)
+R:178, 4: Method could be a function (no-self-use)
+C:189, 4: Missing method docstring (missing-docstring)
+R:189, 4: Method could be a function (no-self-use)
+
+-----------------------------------
+Your code has been rated at 7.74/10
+

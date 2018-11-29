@@ -1,0 +1,20 @@
+************* Module ansible.modules.cloud.google.gcspanner
+W:233, 0: TODO(supertom): support DDL (fixme)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:129,22: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:132, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:133, 0: Import "from ansible.module_utils.gcp import check_min_pkg_version, get_google_cloud_credentials" should be placed at the top of the module (wrong-import-position)
+C:134, 0: Import "from ansible.module_utils.six import string_types" should be placed at the top of the module (wrong-import-position)
+C:142, 0: Missing function docstring (missing-docstring)
+C:182, 0: Missing function docstring (missing-docstring)
+C:231, 4: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:235, 8: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+R:182, 0: Too many branches (19/12) (too-many-branches)
+R:182, 0: Too many statements (65/50) (too-many-statements)
+W:120, 4: Unused literal_eval imported from ast (unused-import)
+W:127, 4: Unused GaxError imported from google.gax.errors (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.56/10
+

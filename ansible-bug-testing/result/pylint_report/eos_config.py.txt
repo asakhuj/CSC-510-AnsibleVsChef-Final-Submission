@@ -1,0 +1,45 @@
+************* Module ansible.modules.network.eos.eos_config
+C:388, 0: Line too long (146/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:267, 0: Import "from ansible.module_utils._text import to_text" should be placed at the top of the module (wrong-import-position)
+C:268, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:269, 0: Import "from ansible.module_utils.connection import ConnectionError" should be placed at the top of the module (wrong-import-position)
+C:270, 0: Import "from ansible.module_utils.network.common.config import NetworkConfig, dumps" should be placed at the top of the module (wrong-import-position)
+C:271, 0: Import "from ansible.module_utils.network.eos.eos import get_config, load_config, get_connection" should be placed at the top of the module (wrong-import-position)
+C:272, 0: Import "from ansible.module_utils.network.eos.eos import run_commands" should be placed at the top of the module (wrong-import-position)
+C:273, 0: Import "from ansible.module_utils.network.eos.eos import eos_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:274, 0: Import "from ansible.module_utils.network.eos.eos import check_args" should be placed at the top of the module (wrong-import-position)
+C:277, 0: Missing function docstring (missing-docstring)
+C:289, 0: Missing function docstring (missing-docstring)
+C:299, 0: Missing function docstring (missing-docstring)
+R:310, 0: Too many local variables (27/15) (too-many-locals)
+W:373,35: Access to a protected member _diff of a client class (protected-access)
+W:438, 7: Access to a protected member _diff of a client class (protected-access)
+R:310, 0: Too many branches (28/12) (too-many-branches)
+R:310, 0: Too many statements (92/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 8.57/10
+
+************* Module ansible.plugins.action.eos_config
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 29, 0: No name 'urllib' in module '_MovedItems' (no-name-in-module)
+E: 29, 0: Unable to import 'ansible.module_utils.six.moves.urllib.parse' (import-error)
+C: 36, 0: Missing class docstring (missing-docstring)
+W: 67,11: Access to a protected member _role of a client class (protected-access)
+W: 68,18: Access to a protected member _role_path of a client class (protected-access)
+W: 68,18: Access to a protected member _role of a client class (protected-access)
+C: 75,12: Variable name "fn" doesn't conform to snake_case naming style (invalid-name)
+C: 97,38: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+W:105,11: Access to a protected member _role of a client class (protected-access)
+W:106,30: Access to a protected member _role_path of a client class (protected-access)
+W:106,30: Access to a protected member _role of a client class (protected-access)
+W:108,28: Access to a protected member _block of a client class (protected-access)
+W:111,42: Access to a protected member _role_path of a client class (protected-access)
+R: 82, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+W: 30, 0: Unused merge_hash imported from ansible.utils.vars (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.32/10
+

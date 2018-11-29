@@ -1,0 +1,17 @@
+************* Module ansible.modules.network.aci.aci_config_rollback
+C:268, 0: Line too long (106/100) (line-too-long)
+C:269, 0: Line too long (120/100) (line-too-long)
+C:280, 0: Line too long (127/100) (line-too-long)
+C:283, 0: Line too long (158/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:178, 0: Import "from ansible.module_utils.network.aci.aci import ACIModule, aci_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:179, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:180, 0: Import "from ansible.module_utils._text import to_bytes" should be placed at the top of the module (wrong-import-position)
+C:181, 0: Import "from ansible.module_utils.urls import fetch_url" should be placed at the top of the module (wrong-import-position)
+C:192, 0: Missing function docstring (missing-docstring)
+I:301,14: Module 'lxml.etree' has not 'fromstring' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+
+-----------------------------------
+Your code has been rated at 8.25/10
+

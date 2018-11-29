@@ -1,0 +1,9 @@
+************* Module units.modules.cloud.amazon.test_ec2_utils
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  3, 0: Unable to import 'ansible.module_utils.ec2' (import-error)
+C:  6, 0: Missing class docstring (missing-docstring)
+C:  7, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 1.11/10
+

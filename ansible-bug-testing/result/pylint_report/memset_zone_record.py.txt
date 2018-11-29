@@ -1,0 +1,32 @@
+************* Module ansible.modules.cloud.memset.memset_zone_record
+C:233, 0: Line too long (124/100) (line-too-long)
+C:248, 0: Line too long (116/100) (line-too-long)
+C:274, 0: Line too long (120/100) (line-too-long)
+C:305, 0: Unnecessary parens after 'return' keyword (superfluous-parens)
+C:307, 0: Line too long (108/100) (line-too-long)
+C:318, 0: Unnecessary parens after 'return' keyword (superfluous-parens)
+C:329, 0: Line too long (131/100) (line-too-long)
+C:332, 0: Line too long (114/100) (line-too-long)
+C:340, 0: Unnecessary parens after 'return' keyword (superfluous-parens)
+C:347, 0: Line too long (101/100) (line-too-long)
+C:350, 0: Line too long (107/100) (line-too-long)
+C:353, 0: Line too long (134/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:160, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:161, 0: Import "from ansible.module_utils.memset import get_zone_id" should be placed at the top of the module (wrong-import-position)
+C:162, 0: Import "from ansible.module_utils.memset import memset_api_call" should be placed at the top of the module (wrong-import-position)
+W:163, 0: Reimport 'get_zone_id' (imported line 161) (reimported)
+C:163, 0: Import "from ansible.module_utils.memset import get_zone_id" should be placed at the top of the module (wrong-import-position)
+W:233,33: Unused variable 'response' (unused-variable)
+W:274,29: Unused variable 'response' (unused-variable)
+R:284, 0: Too many local variables (18/15) (too-many-locals)
+W:338,27: Use of eval (eval-used)
+W:291, 9: Unused variable 'memset_api' (unused-variable)
+C:343, 0: Missing function docstring (missing-docstring)
+W:344, 4: Global variable 'module' undefined at the module level (global-variable-undefined)
+C:344, 4: Constant name "module" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.92/10
+

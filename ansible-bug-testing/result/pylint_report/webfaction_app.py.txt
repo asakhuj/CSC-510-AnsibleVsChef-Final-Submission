@@ -1,0 +1,13 @@
+************* Module ansible.modules.cloud.webfaction.webfaction_app
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 15, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 99, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+E:100, 0: Unable to import 'ansible.module_utils.six.moves' (import-error)
+C:100, 0: Import "from ansible.module_utils.six.moves import xmlrpc_client" should be placed at the top of the module (wrong-import-position)
+C:103, 0: Constant name "webfaction" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:106, 0: Missing function docstring (missing-docstring)
+W:127,20: Unused variable 'account' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 6.67/10
+

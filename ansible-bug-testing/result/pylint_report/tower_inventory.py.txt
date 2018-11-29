@@ -1,0 +1,12 @@
+************* Module ansible.modules.web_infrastructure.ansible_tower.tower_inventory
+C:115, 0: Line too long (102/100) (line-too-long)
+C:121, 0: Line too long (122/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 70, 0: Import "from ansible.module_utils.ansible_tower import TowerModule, tower_auth_config, tower_check_mode" should be placed at the top of the module (wrong-import-position)
+C: 81, 0: Missing function docstring (missing-docstring)
+R: 81, 0: Too many local variables (16/15) (too-many-locals)
+
+-----------------------------------
+Your code has been rated at 8.37/10
+

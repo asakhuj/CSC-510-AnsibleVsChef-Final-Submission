@@ -1,0 +1,31 @@
+************* Module ansible.modules.source_control.github_deploy_key
+C:161, 0: Line too long (110/100) (line-too-long)
+C:203, 0: Line too long (129/100) (line-too-long)
+C:205, 0: Line too long (103/100) (line-too-long)
+C:207, 0: Line too long (110/100) (line-too-long)
+C:210, 0: Line too long (121/100) (line-too-long)
+C:219, 0: Line too long (129/100) (line-too-long)
+C:221, 0: Line too long (103/100) (line-too-long)
+C:226, 0: Line too long (106/100) (line-too-long)
+C:229, 0: Line too long (115/100) (line-too-long)
+C:235, 0: Line too long (101/100) (line-too-long)
+C:237, 0: Line too long (118/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:154, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C:156, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:157, 0: Import "from ansible.module_utils.urls import fetch_url" should be placed at the top of the module (wrong-import-position)
+C:160, 0: Missing class docstring (missing-docstring)
+R:160, 0: Too many instance attributes (10/7) (too-many-instance-attributes)
+R:161, 4: Too many arguments (8/5) (too-many-arguments)
+C:182, 4: Missing method docstring (missing-docstring)
+R:182, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:209, 4: Missing method docstring (missing-docstring)
+C:228, 4: Missing method docstring (missing-docstring)
+W:229, 8: Unused variable 'resp' (unused-variable)
+C:240, 0: Missing function docstring (missing-docstring)
+C:281, 4: Variable name "GITHUB_API_URL" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.35/10
+

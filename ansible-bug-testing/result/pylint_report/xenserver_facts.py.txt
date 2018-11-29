@@ -1,0 +1,20 @@
+************* Module ansible.modules.cloud.misc.xenserver_facts
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 49, 0: Import "import platform" should be placed at the top of the module (wrong-import-position)
+C: 58, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 61, 0: Missing class docstring (missing-docstring)
+C: 72, 4: Missing method docstring (missing-docstring)
+C: 78, 4: Missing method docstring (missing-docstring)
+C: 87, 0: Missing function docstring (missing-docstring)
+C: 93, 0: Missing function docstring (missing-docstring)
+C: 99, 0: Missing function docstring (missing-docstring)
+C:115, 0: Missing function docstring (missing-docstring)
+C:153, 0: Missing function docstring (missing-docstring)
+C:161, 0: Missing function docstring (missing-docstring)
+C:169, 0: Missing function docstring (missing-docstring)
+C:178,29: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.54/10
+

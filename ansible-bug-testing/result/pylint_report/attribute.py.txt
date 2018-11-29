@@ -1,0 +1,54 @@
+************* Module ansible.playbook.attribute
+C: 31, 0: Wrong hanging indentation before block (add 4 spaces).
+        self,
+        ^   | (bad-continuation)
+C: 32, 0: Wrong hanging indentation before block (add 4 spaces).
+        isa=None,
+        ^   | (bad-continuation)
+C: 33, 0: Wrong hanging indentation before block (add 4 spaces).
+        private=False,
+        ^   | (bad-continuation)
+C: 34, 0: Wrong hanging indentation before block (add 4 spaces).
+        default=None,
+        ^   | (bad-continuation)
+C: 35, 0: Wrong hanging indentation before block (add 4 spaces).
+        required=False,
+        ^   | (bad-continuation)
+C: 36, 0: Wrong hanging indentation before block (add 4 spaces).
+        listof=None,
+        ^   | (bad-continuation)
+C: 37, 0: Wrong hanging indentation before block (add 4 spaces).
+        priority=0,
+        ^   | (bad-continuation)
+C: 38, 0: Wrong hanging indentation before block (add 4 spaces).
+        class_type=None,
+        ^   | (bad-continuation)
+C: 39, 0: Wrong hanging indentation before block (add 4 spaces).
+        always_post_validate=False,
+        ^   | (bad-continuation)
+C: 40, 0: Wrong hanging indentation before block (add 4 spaces).
+        inherit=True,
+        ^   | (bad-continuation)
+C: 41, 0: Wrong hanging indentation before block (add 4 spaces).
+        alias=None,
+        ^   | (bad-continuation)
+C: 42, 0: Wrong hanging indentation before block (add 4 spaces).
+        extend=False,
+        ^   | (bad-continuation)
+C: 43, 0: Wrong hanging indentation before block (add 4 spaces).
+        prepend=False,
+        ^   | (bad-continuation)
+C: 91, 0: Line too long (112/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 28, 0: Missing class docstring (missing-docstring)
+R: 28, 0: Too many instance attributes (12/7) (too-many-instance-attributes)
+R: 30, 4: Too many arguments (13/5) (too-many-arguments)
+C:114, 0: Missing class docstring (missing-docstring)
+R:114, 0: Too few public methods (0/2) (too-few-public-methods)
+W: 22, 0: Unused copy imported from copy (unused-import)
+W: 22, 0: Unused deepcopy imported from copy (unused-import)
+
+-----------------------------------
+Your code has been rated at 3.24/10
+

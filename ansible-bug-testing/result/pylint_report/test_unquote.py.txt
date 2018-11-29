@@ -1,0 +1,10 @@
+************* Module units.parsing.test_unquote
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 23, 0: Unable to import 'ansible.parsing.quoting' (import-error)
+C: 50, 0: Missing function docstring (missing-docstring)
+C: 25, 0: third party import "import pytest" should be placed before "from ansible.parsing.quoting import unquote" (wrong-import-order)
+
+------------------------------------
+Your code has been rated at -2.86/10
+

@@ -1,0 +1,29 @@
+************* Module ansible.module_utils.facts.hardware.darwin
+C: 80, 0: Line too long (118/100) (line-too-long)
+C: 82, 0: Line too long (107/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 18, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 52, 4: Missing method docstring (missing-docstring)
+C: 53, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W: 53,17: Unused variable 'err' (unused-variable)
+C: 63, 4: Missing method docstring (missing-docstring)
+C: 65, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W: 65,17: Unused variable 'err' (unused-variable)
+C: 73, 4: Missing method docstring (missing-docstring)
+C: 86, 4: Missing method docstring (missing-docstring)
+C: 91, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W: 91,17: Unused variable 'err' (unused-variable)
+W: 41, 8: Attribute 'sysctl' defined outside __init__ (attribute-defined-outside-init)
+C: 98, 0: Missing class docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.04/10
+
+************* Module ansible.module_utils.facts.network.darwin
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 17, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 47, 0: Missing class docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.42/10
+

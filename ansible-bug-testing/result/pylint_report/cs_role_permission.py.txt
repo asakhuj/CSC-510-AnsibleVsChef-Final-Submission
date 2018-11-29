@@ -1,0 +1,21 @@
+************* Module ansible.modules.cloud.cloudstack.cs_role_permission
+C:  1, 0: Missing module docstring (missing-docstring)
+C:108, 0: Import "from distutils.version import LooseVersion" should be placed at the top of the module (wrong-import-position)
+C:110, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:111, 0: Import "from ansible.module_utils.cloudstack import AnsibleCloudStack, cs_argument_spec, cs_required_together" should be placed at the top of the module (wrong-import-position)
+C:118, 0: Missing class docstring (missing-docstring)
+C:150,16: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+R:142, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:162, 8: Variable name "rp" doesn't conform to snake_case naming style (invalid-name)
+W:185,16: Unused variable 'i' (unused-variable)
+C:190, 4: Missing method docstring (missing-docstring)
+C:208, 4: Missing method docstring (missing-docstring)
+C:229, 4: Missing method docstring (missing-docstring)
+C:239, 4: Missing method docstring (missing-docstring)
+C:257, 4: Missing method docstring (missing-docstring)
+C:293, 4: Missing method docstring (missing-docstring)
+C:309, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.78/10
+

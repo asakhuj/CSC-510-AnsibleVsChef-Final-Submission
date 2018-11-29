@@ -1,0 +1,12 @@
+************* Module ansible.modules.notification.say
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 48, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C: 50, 0: Import "from ansible.module_utils.basic import AnsibleModule, get_platform" should be placed at the top of the module (wrong-import-position)
+C: 53, 0: Missing function docstring (missing-docstring)
+C: 60, 0: Missing function docstring (missing-docstring)
+W: 48, 0: Unused import os (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.67/10
+

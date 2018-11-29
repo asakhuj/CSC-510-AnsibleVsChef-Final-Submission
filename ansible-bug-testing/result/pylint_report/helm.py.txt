@@ -1,0 +1,12 @@
+************* Module ansible.modules.cloud.misc.helm
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:115, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:118, 0: Missing function docstring (missing-docstring)
+C:144, 0: Missing function docstring (missing-docstring)
+W:157,11: Access to a protected member _Rendezvous of a client class (protected-access)
+W:157,11: Access to a protected member _channel of a client class (protected-access)
+
+-----------------------------------
+Your code has been rated at 8.87/10
+

@@ -1,0 +1,39 @@
+************* Module ansible.module_utils.network.aci.msc
+C:164, 0: Wrong continued indentation (remove 1 space).
+                               )
+                              |^ (bad-continuation)
+C:189, 0: Line too long (122/100) (line-too-long)
+C:191, 0: Line too long (105/100) (line-too-long)
+C:231, 0: Unnecessary parens after 'del' keyword (superfluous-parens)
+C:236, 0: Unnecessary parens after 'del' keyword (superfluous-parens)
+C:  1, 0: Missing module docstring (missing-docstring)
+E: 34, 0: No name 'urllib' in module '_MovedItems' (no-name-in-module)
+E: 34, 0: Unable to import 'ansible.module_utils.six.moves.urllib.parse' (import-error)
+R: 39, 0: Too many return statements (9/6) (too-many-return-statements)
+R: 39, 0: Too many branches (13/12) (too-many-branches)
+C: 68, 0: Missing function docstring (missing-docstring)
+C: 82, 0: Missing class docstring (missing-docstring)
+R: 82, 0: Too many instance attributes (15/7) (too-many-instance-attributes)
+W:115,11: Access to a protected member _debug of a client class (protected-access)
+W:186,12: No exception type(s) specified (bare-except)
+C:195, 4: Missing method docstring (missing-docstring)
+C:199,23: Consider iterating the dictionary directly instead of calling .keys() (consider-iterating-dictionary)
+C:208, 4: Missing method docstring (missing-docstring)
+C:210,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:216, 4: Missing method docstring (missing-docstring)
+W:268,11: Access to a protected member _diff of a client class (protected-access)
+W: 33, 0: Unused AnsibleModule imported from ansible.module_utils.basic (unused-import)
+W: 36, 0: Unused to_bytes imported from ansible.module_utils._text (unused-import)
+W: 36, 0: Unused to_native imported from ansible.module_utils._text (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.05/10
+
+************* Module ansible.utils.module_docs_fragments.msc
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Missing class docstring (missing-docstring)
+R:  7, 0: Too few public methods (0/2) (too-few-public-methods)
+
+------------------------------------
+Your code has been rated at -5.00/10
+

@@ -1,0 +1,32 @@
+************* Module ansible.modules.monitoring.sensu_check
+C:237, 0: Wrong continued indentation (remove 1 space).
+                       ]
+                      |^ (bad-continuation)
+C:253, 0: Line too long (127/100) (line-too-long)
+C:255, 0: Line too long (155/100) (line-too-long)
+C:270, 0: Line too long (124/100) (line-too-long)
+C:288, 0: Wrong continued indentation (remove 1 space).
+                      }
+                     |^ (bad-continuation)
+C:341, 0: Wrong continued indentation (remove 1 space).
+                }
+               |^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:168, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C:169, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:171, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:172, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:175, 0: Missing function docstring (missing-docstring)
+R:175, 0: Too many local variables (19/15) (too-many-locals)
+C:184,26: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:185,15: Comparison to literal (literal-comparison)
+C:258,19: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:306,30: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:175, 0: Too many branches (38/12) (too-many-branches)
+R:175, 0: Too many statements (100/50) (too-many-statements)
+C:315, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.29/10
+

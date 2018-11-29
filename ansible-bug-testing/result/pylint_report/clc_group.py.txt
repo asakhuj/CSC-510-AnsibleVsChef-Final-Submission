@@ -1,0 +1,21 @@
+************* Module ansible.modules.cloud.centurylink.clc_group
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:210, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:211, 0: Import "from distutils.version import LooseVersion" should be placed at the top of the module (wrong-import-position)
+C:233, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:236, 0: Missing class docstring (missing-docstring)
+W:277,28: Redefining name 'requests' from outer scope (line 214) (redefined-outer-name)
+W:322,12: Access to a protected member _LOGIN_TOKEN_V2 of a client class (protected-access)
+W:323,12: Access to a protected member _V2_ENABLED of a client class (protected-access)
+R:306, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+W:360,15: Unused variable 'parent' (unused-variable)
+W:422,17: Unused variable 'grandparent' (unused-variable)
+W:439,13: Unused variable 'group' (unused-variable)
+C:465,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+R:236, 0: Too few public methods (1/2) (too-few-public-methods)
+W:504,22: Access to a protected member _define_module_argument_spec of a client class (protected-access)
+
+-----------------------------------
+Your code has been rated at 8.99/10
+

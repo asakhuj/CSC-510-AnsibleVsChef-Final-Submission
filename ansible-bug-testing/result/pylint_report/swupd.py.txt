@@ -1,0 +1,26 @@
+************* Module ansible.modules.packaging.os.swupd
+C:255, 0: Line too long (137/100) (line-too-long)
+C:304, 0: Line too long (104/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:100, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:101, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:125, 8: Attribute name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:104, 0: Missing class docstring (missing-docstring)
+R:104, 0: Too many instance attributes (8/7) (too-many-instance-attributes)
+E:135,11: Instance of 'Swupd' has no 'format' member (no-member)
+E:136,36: Instance of 'Swupd' has no 'format' member (no-member)
+E:137,11: Instance of 'Swupd' has no 'manifest' member (no-member)
+E:138,38: Instance of 'Swupd' has no 'manifest' member (no-member)
+E:139,11: Instance of 'Swupd' has no 'url' member (no-member)
+E:140,33: Instance of 'Swupd' has no 'url' member (no-member)
+E:142,15: Instance of 'Swupd' has no 'contenturl' member (no-member)
+E:143,44: Instance of 'Swupd' has no 'contenturl' member (no-member)
+E:144,15: Instance of 'Swupd' has no 'versionurl' member (no-member)
+E:145,44: Instance of 'Swupd' has no 'versionurl' member (no-member)
+R:149, 4: Method could be a function (no-self-use)
+R:157, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+
+-----------------------------------
+Your code has been rated at 5.70/10
+

@@ -1,0 +1,7 @@
+************* Module ansible.module_utils.facts.compat
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 30, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.89/10
+

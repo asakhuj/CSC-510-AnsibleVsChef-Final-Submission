@@ -1,0 +1,30 @@
+************* Module ansible.modules.network.cloudengine.ce_acl
+C:189, 0: Line too long (117/100) (line-too-long)
+C:389, 0: Line too long (106/100) (line-too-long)
+C:457, 0: Line too long (113/100) (line-too-long)
+C:474, 0: Line too long (102/100) (line-too-long)
+C:601, 0: Line too long (117/100) (line-too-long)
+C:602, 0: Line too long (110/100) (line-too-long)
+C:639, 0: Line too long (112/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:187, 0: Import "from xml.etree import ElementTree" should be placed at the top of the module (wrong-import-position)
+C:188, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:189, 0: Import "from ansible.module_utils.network.cloudengine.ce import get_nc_config, set_nc_config, ce_argument_spec, check_ip_addr" should be placed at the top of the module (wrong-import-position)
+R:293, 0: Too many instance attributes (27/7) (too-many-instance-attributes)
+R:380, 8: Too many nested blocks (6/5) (too-many-nested-blocks)
+R:373, 4: Too many branches (40/12) (too-many-branches)
+R:373, 4: Too many statements (77/50) (too-many-statements)
+R:491, 4: Too many local variables (18/15) (too-many-locals)
+R:498, 8: Too many nested blocks (7/5) (too-many-nested-blocks)
+R:498, 8: Too many nested blocks (7/5) (too-many-nested-blocks)
+R:498, 8: Too many nested blocks (6/5) (too-many-nested-blocks)
+R:491, 4: Too many branches (57/12) (too-many-branches)
+R:491, 4: Too many statements (114/50) (too-many-statements)
+R:658, 4: Too many branches (14/12) (too-many-branches)
+R:788, 4: Too many branches (17/12) (too-many-branches)
+R:843, 4: Too many branches (23/12) (too-many-branches)
+R:843, 4: Too many statements (59/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 9.48/10
+

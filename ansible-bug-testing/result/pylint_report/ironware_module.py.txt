@@ -1,0 +1,23 @@
+************* Module units.modules.network.ironware.ironware_module
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 25, 0: Unable to import 'ansible.module_utils' (import-error)
+C: 29, 0: Constant name "fixture_path" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 30, 0: Constant name "fixture_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 33, 0: Missing function docstring (missing-docstring)
+C: 39,23: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+W: 44, 4: No exception type(s) specified (bare-except)
+C: 51, 0: Missing class docstring (missing-docstring)
+C: 53, 4: Missing method docstring (missing-docstring)
+R: 53, 4: Too many arguments (6/5) (too-many-arguments)
+W: 53,84: Unused argument 'defaults' (unused-argument)
+C: 72, 4: Missing method docstring (missing-docstring)
+E: 74,12: Instance of 'TestIronwareModule' has no 'module' member (no-member)
+C: 80, 4: Missing method docstring (missing-docstring)
+E: 82,12: Instance of 'TestIronwareModule' has no 'module' member (no-member)
+C: 88, 4: Missing method docstring (missing-docstring)
+W: 25, 0: Unused basic imported from ansible.module_utils (unused-import)
+
+-----------------------------------
+Your code has been rated at 3.62/10
+

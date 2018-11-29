@@ -1,0 +1,230 @@
+************* Module ovirt
+C: 82, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:152, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:172, 0: Line too long (154/100) (line-too-long)
+C:173, 0: Line too long (153/100) (line-too-long)
+C:186, 0: Line too long (104/100) (line-too-long)
+C:187, 0: Line too long (111/100) (line-too-long)
+C:189, 0: Line too long (114/100) (line-too-long)
+C: 68, 0: Import "import sys" should be placed at the top of the module (wrong-import-position)
+C: 69, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C: 70, 0: Import "import argparse" should be placed at the top of the module (wrong-import-position)
+C: 71, 0: Import "import ConfigParser" should be placed at the top of the module (wrong-import-position)
+C: 72, 0: Import "from collections import defaultdict" should be placed at the top of the module (wrong-import-position)
+C: 74, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C: 86, 0: Missing class docstring (missing-docstring)
+C:219,42: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:229, 4: Missing method docstring (missing-docstring)
+R:229, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+W:239,15: Catching too general exception Exception (broad-except)
+C:239,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:239,28: Unused variable 'e' (unused-variable)
+C:257,16: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+R:282, 8: Unnecessary "else" after "return" (no-else-return)
+
+------------------------------------------------------------------
+Your code has been rated at 8.02/10 (previous run: 8.02/10, +0.00)
+
+************* Module ansible.modules.cloud.misc.ovirt
+W:436, 0: FIXME: refactor, use keyword args. (fixme)
+C:238, 0: Line too long (138/100) (line-too-long)
+C:241, 0: Line too long (118/100) (line-too-long)
+C:242, 0: Line too long (104/100) (line-too-long)
+C:243, 0: Line too long (107/100) (line-too-long)
+C:245, 0: Line too long (147/100) (line-too-long)
+C:247, 0: Line too long (123/100) (line-too-long)
+C:253, 0: Line too long (118/100) (line-too-long)
+C:254, 0: Line too long (104/100) (line-too-long)
+C:255, 0: Line too long (107/100) (line-too-long)
+C:257, 0: Line too long (148/100) (line-too-long)
+C:258, 0: Line too long (137/100) (line-too-long)
+C:280, 0: Line too long (148/100) (line-too-long)
+C:298, 0: Line too long (104/100) (line-too-long)
+C:301, 0: Line too long (121/100) (line-too-long)
+C:302, 0: Line too long (106/100) (line-too-long)
+C:304, 0: Line too long (102/100) (line-too-long)
+C:359, 0: Line too long (119/100) (line-too-long)
+C:372, 0: Line too long (132/100) (line-too-long)
+C:434, 0: Line too long (103/100) (line-too-long)
+C:438, 0: Line too long (150/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:212, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C:221, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:227, 0: Missing function docstring (missing-docstring)
+W:230, 8: Unused variable 'value' (unused-variable)
+W:238,14: Redefining name 'conn' from outer scope (line 227) (redefined-outer-name)
+C:238, 0: Missing function docstring (missing-docstring)
+R:238, 0: Too many arguments (14/5) (too-many-arguments)
+R:238, 0: Too many local variables (19/15) (too-many-locals)
+C:267, 4: Variable name "vm" doesn't conform to snake_case naming style (invalid-name)
+W:238,55: Unused argument 'vmcpus' (unused-argument)
+W:279,23: Redefining name 'conn' from outer scope (line 227) (redefined-outer-name)
+C:279, 0: Missing function docstring (missing-docstring)
+W:288,13: Redefining name 'conn' from outer scope (line 227) (redefined-outer-name)
+C:288, 0: Argument name "ip" doesn't conform to snake_case naming style (invalid-name)
+C:288, 0: Missing function docstring (missing-docstring)
+R:288, 0: Too many arguments (10/5) (too-many-arguments)
+R:288, 0: Too many local variables (17/15) (too-many-locals)
+C:290, 4: Variable name "vm" doesn't conform to snake_case naming style (invalid-name)
+R:294, 7: Too many boolean expressions in if statement (8/5) (too-many-boolean-expressions)
+W:309,12: Redefining name 'conn' from outer scope (line 227) (redefined-outer-name)
+C:309, 0: Missing function docstring (missing-docstring)
+C:310, 4: Variable name "vm" doesn't conform to snake_case naming style (invalid-name)
+W:315,15: Redefining name 'conn' from outer scope (line 227) (redefined-outer-name)
+C:315, 0: Missing function docstring (missing-docstring)
+C:317, 4: Variable name "vm" doesn't conform to snake_case naming style (invalid-name)
+W:316, 4: Unused variable 'state' (unused-variable)
+W:325,14: Redefining name 'conn' from outer scope (line 227) (redefined-outer-name)
+C:325, 0: Missing function docstring (missing-docstring)
+C:326, 4: Variable name "vm" doesn't conform to snake_case naming style (invalid-name)
+W:334,14: Redefining name 'conn' from outer scope (line 227) (redefined-outer-name)
+C:334, 0: Missing function docstring (missing-docstring)
+W:340,11: Redefining name 'conn' from outer scope (line 227) (redefined-outer-name)
+C:340, 0: Missing function docstring (missing-docstring)
+C:341, 4: Variable name "vm" doesn't conform to snake_case naming style (invalid-name)
+C:356, 0: Missing function docstring (missing-docstring)
+R:356, 0: Too many local variables (31/15) (too-many-locals)
+C:414, 4: Variable name "ip" doesn't conform to snake_case naming style (invalid-name)
+W:424,11: Catching too general exception Exception (broad-except)
+C:423, 8: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:424,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:432,23: Catching too general exception Exception (broad-except)
+C:432,36: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:439,23: Catching too general exception Exception (broad-except)
+C:439,36: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:412, 4: Unused variable 'region' (unused-variable)
+R:356, 0: Too many branches (22/12) (too-many-branches)
+R:356, 0: Too many statements (78/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 5.65/10
+
+************* Module ansible.module_utils.ovirt
+C:312, 0: Wrong hanging indentation before block (add 4 spaces).
+    service,
+    ^   | (bad-continuation)
+C:313, 0: Wrong hanging indentation before block (add 4 spaces).
+    condition,
+    ^   | (bad-continuation)
+C:314, 0: Wrong hanging indentation before block (add 4 spaces).
+    fail_condition=lambda e: False,
+    ^   | (bad-continuation)
+C:315, 0: Wrong hanging indentation before block (add 4 spaces).
+    timeout=180,
+    ^   | (bad-continuation)
+C:316, 0: Wrong hanging indentation before block (add 4 spaces).
+    wait=True,
+    ^   | (bad-continuation)
+C:317, 0: Wrong hanging indentation before block (add 4 spaces).
+    poll_interval=3,
+    ^   | (bad-continuation)
+C:524, 0: Wrong hanging indentation before block (add 4 spaces).
+        self,
+        ^   | (bad-continuation)
+C:525, 0: Wrong hanging indentation before block (add 4 spaces).
+        entity=None,
+        ^   | (bad-continuation)
+C:526, 0: Wrong hanging indentation before block (add 4 spaces).
+        result_state=None,
+        ^   | (bad-continuation)
+C:527, 0: Wrong hanging indentation before block (add 4 spaces).
+        fail_condition=lambda e: False,
+        ^   | (bad-continuation)
+C:528, 0: Wrong hanging indentation before block (add 4 spaces).
+        search_params=None,
+        ^   | (bad-continuation)
+C:529, 0: Wrong hanging indentation before block (add 4 spaces).
+        update_params=None,
+        ^   | (bad-continuation)
+C:530, 0: Wrong hanging indentation before block (add 4 spaces).
+        **kwargs
+        ^   | (bad-continuation)
+C:545, 0: Line too long (121/100) (line-too-long)
+C:690, 0: Wrong hanging indentation before block (add 4 spaces).
+        self,
+        ^   | (bad-continuation)
+C:691, 0: Wrong hanging indentation before block (add 4 spaces).
+        action,
+        ^   | (bad-continuation)
+C:692, 0: Wrong hanging indentation before block (add 4 spaces).
+        entity=None,
+        ^   | (bad-continuation)
+C:693, 0: Wrong hanging indentation before block (add 4 spaces).
+        action_condition=lambda e: e,
+        ^   | (bad-continuation)
+C:694, 0: Wrong hanging indentation before block (add 4 spaces).
+        wait_condition=lambda e: e,
+        ^   | (bad-continuation)
+C:695, 0: Wrong hanging indentation before block (add 4 spaces).
+        fail_condition=lambda e: False,
+        ^   | (bad-continuation)
+C:696, 0: Wrong hanging indentation before block (add 4 spaces).
+        pre_action=lambda e: e,
+        ^   | (bad-continuation)
+C:697, 0: Wrong hanging indentation before block (add 4 spaces).
+        post_action=lambda e: None,
+        ^   | (bad-continuation)
+C:698, 0: Wrong hanging indentation before block (add 4 spaces).
+        search_params=None,
+        ^   | (bad-continuation)
+C:699, 0: Wrong hanging indentation before block (add 4 spaces).
+        **kwargs
+        ^   | (bad-continuation)
+C:715, 0: Line too long (103/100) (line-too-long)
+C:716, 0: Line too long (121/100) (line-too-long)
+C:785, 0: Line too long (105/100) (line-too-long)
+C:789, 0: Line too long (115/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 51, 0: Missing function docstring (missing-docstring)
+C: 64, 4: Missing function docstring (missing-docstring)
+C: 70, 4: Missing function docstring (missing-docstring)
+R: 75,13: Consider merging these isinstance calls to isinstance(value, (Enum, datetime)) (consider-merging-isinstance)
+R: 77,13: Consider merging these isinstance calls to isinstance(value, (list, sdk.List)) (consider-merging-isinstance)
+W:121, 4: Redefining name 'engine_version' from outer scope (line 116) (redefined-outer-name)
+R:189, 4: Unnecessary "else" after "return" (no-else-return)
+R:204, 4: Unnecessary "else" after "return" (no-else-return)
+R:298, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+W:298,52: Unused argument 'ignore_case' (unused-argument)
+W:316, 4: Redefining name 'wait' from outer scope (line 311) (redefined-outer-name)
+R:311, 0: Too many arguments (6/5) (too-many-arguments)
+C:347, 4: Variable name "OVIRT_URL" doesn't conform to snake_case naming style (invalid-name)
+C:348, 4: Variable name "OVIRT_HOSTNAME" doesn't conform to snake_case naming style (invalid-name)
+C:349, 4: Variable name "OVIRT_USERNAME" doesn't conform to snake_case naming style (invalid-name)
+C:350, 4: Variable name "OVIRT_PASSWORD" doesn't conform to snake_case naming style (invalid-name)
+C:351, 4: Variable name "OVIRT_TOKEN" doesn't conform to snake_case naming style (invalid-name)
+C:352, 4: Variable name "OVIRT_CAFILE" doesn't conform to snake_case naming style (invalid-name)
+C:353, 4: Variable name "OVIRT_INSECURE" doesn't conform to snake_case naming style (invalid-name)
+C:357, 8: Variable name "OVIRT_URL" doesn't conform to snake_case naming style (invalid-name)
+C:419, 0: Missing function docstring (missing-docstring)
+C:454, 4: Missing method docstring (missing-docstring)
+W:481,27: Unused argument 'entity' (unused-argument)
+R:481, 4: Method could be a function (no-self-use)
+C:515, 4: Missing method docstring (missing-docstring)
+C:516,15: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+R:523, 4: Too many arguments (6/5) (too-many-arguments)
+W:571,19: Access to a protected member _diff of a client class (protected-access)
+C:598,12: Missing function docstring (missing-docstring)
+E:603,16: function already defined line 598 (function-redefined)
+C:603,16: Missing function docstring (missing-docstring)
+W:563,20: Unused variable 'updated_entity' (unused-variable)
+C:635, 4: Missing method docstring (missing-docstring)
+R:635, 4: Method could be a function (no-self-use)
+R:689, 4: Too many arguments (9/5) (too-many-arguments)
+C:765, 4: Missing method docstring (missing-docstring)
+R:765, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:793, 4: Method could be a function (no-self-use)
+R:800, 4: Method could be a function (no-self-use)
+C:817, 0: Missing class docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.63/10
+
+************* Module ansible.utils.module_docs_fragments.ovirt
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 22, 0: Missing class docstring (missing-docstring)
+R: 22, 0: Too few public methods (0/2) (too-few-public-methods)
+
+------------------------------------
+Your code has been rated at -5.00/10
+

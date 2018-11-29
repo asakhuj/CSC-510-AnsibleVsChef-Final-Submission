@@ -1,0 +1,14 @@
+************* Module ansible.modules.network.panos.panos_pg
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 87, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 88, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:103, 0: Missing function docstring (missing-docstring)
+C:105, 4: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:111, 0: Missing function docstring (missing-docstring)
+R:111, 0: Too many arguments (9/5) (too-many-arguments)
+C:146, 0: Missing function docstring (missing-docstring)
+R:146, 0: Too many local variables (17/15) (too-many-locals)
+
+-----------------------------------
+Your code has been rated at 8.66/10
+

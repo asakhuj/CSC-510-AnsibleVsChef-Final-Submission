@@ -1,0 +1,183 @@
+************* Module linode
+C: 97, 0: Line too long (115/100) (line-too-long)
+C:147, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:173, 0: Line too long (105/100) (line-too-long)
+C:179, 0: Line too long (126/100) (line-too-long)
+C:270, 0: Wrong hanging indentation before block (add 4 spaces).
+            "api_id",
+            ^   | (bad-continuation)
+C:271, 0: Wrong hanging indentation before block (add 4 spaces).
+            "datacenter_id",
+            ^   | (bad-continuation)
+C:272, 0: Wrong hanging indentation before block (add 4 spaces).
+            "label",
+            ^   | (bad-continuation)
+C:273, 0: Wrong hanging indentation before block (add 4 spaces).
+            "display_group",
+            ^   | (bad-continuation)
+C:274, 0: Wrong hanging indentation before block (add 4 spaces).
+            "create_dt",
+            ^   | (bad-continuation)
+C:275, 0: Wrong hanging indentation before block (add 4 spaces).
+            "total_hd",
+            ^   | (bad-continuation)
+C:276, 0: Wrong hanging indentation before block (add 4 spaces).
+            "total_xfer",
+            ^   | (bad-continuation)
+C:277, 0: Wrong hanging indentation before block (add 4 spaces).
+            "total_ram",
+            ^   | (bad-continuation)
+C:278, 0: Wrong hanging indentation before block (add 4 spaces).
+            "status",
+            ^   | (bad-continuation)
+C:279, 0: Wrong hanging indentation before block (add 4 spaces).
+            "alert_cpu_enabled",
+            ^   | (bad-continuation)
+C:280, 0: Wrong hanging indentation before block (add 4 spaces).
+            "alert_cpu_threshold",
+            ^   | (bad-continuation)
+C:281, 0: Wrong hanging indentation before block (add 4 spaces).
+            "alert_diskio_enabled",
+            ^   | (bad-continuation)
+C:282, 0: Wrong hanging indentation before block (add 4 spaces).
+            "alert_diskio_threshold",
+            ^   | (bad-continuation)
+C:283, 0: Wrong hanging indentation before block (add 4 spaces).
+            "alert_bwin_enabled",
+            ^   | (bad-continuation)
+C:284, 0: Wrong hanging indentation before block (add 4 spaces).
+            "alert_bwin_threshold",
+            ^   | (bad-continuation)
+C:285, 0: Wrong hanging indentation before block (add 4 spaces).
+            "alert_bwout_enabled",
+            ^   | (bad-continuation)
+C:286, 0: Wrong hanging indentation before block (add 4 spaces).
+            "alert_bwout_threshold",
+            ^   | (bad-continuation)
+C:287, 0: Wrong hanging indentation before block (add 4 spaces).
+            "alert_bwquota_enabled",
+            ^   | (bad-continuation)
+C:288, 0: Wrong hanging indentation before block (add 4 spaces).
+            "alert_bwquota_threshold",
+            ^   | (bad-continuation)
+C:289, 0: Wrong hanging indentation before block (add 4 spaces).
+            "backup_weekly_daily",
+            ^   | (bad-continuation)
+C:290, 0: Wrong hanging indentation before block (add 4 spaces).
+            "backup_window",
+            ^   | (bad-continuation)
+C:291, 0: Wrong hanging indentation before block (add 4 spaces).
+            "watchdog"
+            ^   | (bad-continuation)
+W: 91, 0: No exception type(s) specified (bare-except)
+E: 87, 4: Unable to import 'chube' (import-error)
+E: 88, 4: Unable to import 'chube' (import-error)
+E: 89, 4: Unable to import 'chube.datacenter' (import-error)
+E: 90, 4: Unable to import 'chube.linode_obj' (import-error)
+C: 96, 8: Constant name "old_path" doesn't conform to UPPER_CASE naming style (invalid-name)
+E: 99, 8: Unable to import 'chube' (import-error)
+E:100, 8: Unable to import 'chube' (import-error)
+E:101, 8: Unable to import 'chube.datacenter' (import-error)
+E:102, 8: Unable to import 'chube.linode_obj' (import-error)
+C:105,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:111, 0: Import "import ConfigParser" should be placed at the top of the module (wrong-import-position)
+C:114, 0: Missing class docstring (missing-docstring)
+R:114, 0: Too many instance attributes (8/7) (too-many-instance-attributes)
+R:115, 4: Method could be a function (no-self-use)
+C:193,48: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:200,48: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:196, 4: Method could be a function (no-self-use)
+C:207,12: Variable name "dc" doesn't conform to snake_case naming style (invalid-name)
+R:244, 4: Method could be a function (no-self-use)
+C:251,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+R:310, 4: Method could be a function (no-self-use)
+R:336, 4: Method could be a function (no-self-use)
+R:342, 8: Unnecessary "else" after "return" (no-else-return)
+R:340, 4: Method could be a function (no-self-use)
+
+------------------------------------------------------------------
+Your code has been rated at 4.50/10 (previous run: 4.50/10, +0.00)
+
+************* Module ansible.modules.cloud.linode.linode
+W:347, 0: TODO: validate all the plan / distribution / datacenter are valid (fixme)
+W:427, 0: TODO: destroy linode ? (fixme)
+C:363, 0: Line too long (111/100) (line-too-long)
+C:372, 0: Line too long (113/100) (line-too-long)
+C:423, 0: Line too long (131/100) (line-too-long)
+C:496, 0: Line too long (111/100) (line-too-long)
+C:517, 0: Unnecessary parens after 'in' keyword (superfluous-parens)
+C:537, 0: Unnecessary parens after 'in' keyword (superfluous-parens)
+C:576, 0: Line too long (110/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:265, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:266, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C:274, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:293, 4: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:297, 0: Function name "getInstanceDetails" doesn't conform to snake_case naming style (invalid-name)
+C:307, 8: Variable name "ip" doesn't conform to snake_case naming style (invalid-name)
+C:322, 0: Function name "linodeServers" doesn't conform to snake_case naming style (invalid-name)
+C:322, 0: Missing function docstring (missing-docstring)
+R:322, 0: Too many arguments (19/5) (too-many-arguments)
+R:322, 0: Too many local variables (40/15) (too-many-locals)
+W:375,19: Catching too general exception Exception (broad-except)
+C:375,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+E:376,44: Instance of 'Exception' has no 'value' member (no-member)
+W:382,19: Catching too general exception Exception (broad-except)
+C:382,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+E:383,44: Instance of 'Exception' has no 'value' member (no-member)
+W:426,19: Catching too general exception Exception (broad-except)
+C:426,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+E:428,44: Instance of 'Exception' has no 'value' member (no-member)
+R:346, 4: Too many nested blocks (6/5) (too-many-nested-blocks)
+W:470,19: Catching too general exception Exception (broad-except)
+C:470,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+E:471,44: Instance of 'Exception' has no 'value' member (no-member)
+W:529,23: Catching too general exception Exception (broad-except)
+C:529,36: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+E:530,48: Instance of 'Exception' has no 'value' member (no-member)
+W:548,19: Catching too general exception Exception (broad-except)
+C:548,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+E:549,44: Instance of 'Exception' has no 'value' member (no-member)
+W:559,19: Catching too general exception Exception (broad-except)
+C:559,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+E:560,44: Instance of 'Exception' has no 'value' member (no-member)
+R:322, 0: Too many branches (58/12) (too-many-branches)
+R:322, 0: Too many statements (146/50) (too-many-statements)
+C:572, 0: Missing function docstring (missing-docstring)
+R:572, 0: Too many local variables (38/15) (too-many-locals)
+C:669,27: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:676,11: Catching too general exception Exception (broad-except)
+C:676,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+E:677,36: Instance of 'Exception' has no 'value' member (no-member)
+E:677,36: Instance of 'KeyError' has no 'value' member (no-member)
+W:626, 4: Unused variable 'backupsenabled' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 6.32/10
+
+************* Module ansible.module_utils.linode
+C:  1, 0: Missing module docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.33/10
+
+************* Module ansible.plugins.inventory.linode
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 57, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C: 59, 0: Import "from ansible.errors import AnsibleError, AnsibleParserError" should be placed at the top of the module (wrong-import-position)
+C: 60, 0: Import "from ansible.module_utils.six import string_types" should be placed at the top of the module (wrong-import-position)
+C: 61, 0: Import "from ansible.plugins.inventory import BaseInventoryPlugin" should be placed at the top of the module (wrong-import-position)
+C: 71, 0: Missing class docstring (missing-docstring)
+W:136,23: Access to a protected member _raw_json of a client class (protected-access)
+R:144, 4: Method could be a function (no-self-use)
+W: 97,12: Attribute 'instances' defined outside __init__ (attribute-defined-outside-init)
+W:117,12: Attribute 'instances' defined outside __init__ (attribute-defined-outside-init)
+W:123,12: Attribute 'instances' defined outside __init__ (attribute-defined-outside-init)
+W: 92, 8: Attribute 'client' defined outside __init__ (attribute-defined-outside-init)
+W:103, 8: Attribute 'linode_groups' defined outside __init__ (attribute-defined-outside-init)
+
+-----------------------------------
+Your code has been rated at 8.21/10
+

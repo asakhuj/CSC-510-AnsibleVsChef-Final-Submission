@@ -1,0 +1,36 @@
+************* Module ansible.modules.identity.ipa.ipa_group
+C:186, 0: Line too long (111/100) (line-too-long)
+C:187, 0: Line too long (101/100) (line-too-long)
+C:238, 0: Wrong continued indentation (remove 1 space).
+                           )
+                          |^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:109, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:111, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:112, 0: Import "from ansible.module_utils.ipa import IPAClient, ipa_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:113, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:116, 0: Missing class docstring (missing-docstring)
+W:117, 4: Useless super delegation in method '__init__' (useless-super-delegation)
+C:120, 4: Missing method docstring (missing-docstring)
+C:123, 4: Missing method docstring (missing-docstring)
+C:126, 4: Missing method docstring (missing-docstring)
+C:129, 4: Missing method docstring (missing-docstring)
+C:132, 4: Missing method docstring (missing-docstring)
+C:135, 4: Missing method docstring (missing-docstring)
+C:138, 4: Missing method docstring (missing-docstring)
+C:141, 4: Missing method docstring (missing-docstring)
+C:144, 4: Missing method docstring (missing-docstring)
+C:147, 4: Missing method docstring (missing-docstring)
+C:151, 0: Missing function docstring (missing-docstring)
+C:164, 0: Missing function docstring (missing-docstring)
+W:165, 4: Unused variable 'data' (unused-variable)
+C:180, 0: Missing function docstring (missing-docstring)
+C:198,15: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:225, 0: Missing function docstring (missing-docstring)
+W:249,11: Catching too general exception Exception (broad-except)
+C:249,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.01/10
+

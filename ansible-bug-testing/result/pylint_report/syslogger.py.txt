@@ -1,0 +1,19 @@
+************* Module ansible.modules.notification.syslogger
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 73, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+E: 74, 0: Unable to import 'syslog' (import-error)
+C: 74, 0: Import "import syslog" should be placed at the top of the module (wrong-import-position)
+C: 77, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C: 77, 0: Missing function docstring (missing-docstring)
+C:100, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:100, 0: Missing function docstring (missing-docstring)
+C:113, 0: Missing function docstring (missing-docstring)
+W:162, 4: No exception type(s) specified (bare-except)
+R:113, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:168, 0: Missing function docstring (missing-docstring)
+C: 74, 0: standard import "import syslog" should be placed before "from ansible.module_utils.basic import AnsibleModule" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 4.38/10
+

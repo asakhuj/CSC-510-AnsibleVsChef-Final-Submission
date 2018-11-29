@@ -1,0 +1,35 @@
+************* Module ansible.module_utils.vca
+W:269, 0: TODO: this function needs to be refactored (fixme)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 34, 0: Missing class docstring (missing-docstring)
+C: 41, 0: Missing function docstring (missing-docstring)
+C: 57, 0: Missing class docstring (missing-docstring)
+C: 76, 4: Missing method docstring (missing-docstring)
+C: 80, 4: Missing method docstring (missing-docstring)
+C: 92, 4: Missing method docstring (missing-docstring)
+C:102, 4: Missing method docstring (missing-docstring)
+C:108, 4: Missing method docstring (missing-docstring)
+C:117, 4: Missing method docstring (missing-docstring)
+C:135, 4: Missing method docstring (missing-docstring)
+C:152,27: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:155, 4: Missing method docstring (missing-docstring)
+C:161, 4: Missing method docstring (missing-docstring)
+C:172, 4: Missing method docstring (missing-docstring)
+C:186, 4: Missing method docstring (missing-docstring)
+C:193, 4: Missing method docstring (missing-docstring)
+C:196, 4: Missing method docstring (missing-docstring)
+C:238, 0: Missing function docstring (missing-docstring)
+C:282, 0: Missing function docstring (missing-docstring)
+C:329,23: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.92/10
+
+************* Module ansible.utils.module_docs_fragments.vca
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 19, 0: Missing class docstring (missing-docstring)
+R: 19, 0: Too few public methods (0/2) (too-few-public-methods)
+
+------------------------------------
+Your code has been rated at -5.00/10
+

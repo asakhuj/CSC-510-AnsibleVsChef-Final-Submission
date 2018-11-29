@@ -1,0 +1,18 @@
+************* Module ansible.modules.network.vyos.vyos_lldp_interface
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 92, 0: Import "from copy import deepcopy" should be placed at the top of the module (wrong-import-position)
+C: 94, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 95, 0: Import "from ansible.module_utils.network.common.utils import remove_default_spec" should be placed at the top of the module (wrong-import-position)
+C: 96, 0: Import "from ansible.module_utils.network.vyos.vyos import get_config, load_config" should be placed at the top of the module (wrong-import-position)
+C: 97, 0: Import "from ansible.module_utils.network.vyos.vyos import vyos_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:100, 0: Missing function docstring (missing-docstring)
+C:101, 8: Variable name "o" doesn't conform to snake_case naming style (invalid-name)
+C:108, 0: Missing function docstring (missing-docstring)
+C:112, 8: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+W:108,33: Unused argument 'module' (unused-argument)
+C:135, 0: Missing function docstring (missing-docstring)
+C:158, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.49/10
+

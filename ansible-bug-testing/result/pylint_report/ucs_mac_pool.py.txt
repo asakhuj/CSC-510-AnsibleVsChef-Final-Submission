@@ -1,0 +1,22 @@
+************* Module ansible.modules.remote_management.ucs.ucs_mac_pool
+C:113, 0: Line too long (105/100) (line-too-long)
+C:142, 0: Unnecessary parens after 'if' keyword (superfluous-parens)
+C:146, 0: Line too long (130/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 94, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 95, 0: Import "from ansible.module_utils.remote_management.ucs import UCSModule, ucs_argument_spec" should be placed at the top of the module (wrong-import-position)
+C: 98, 0: Missing function docstring (missing-docstring)
+E:118, 4: Unable to import 'ucsmsdk.mometa.macpool.MacpoolPool' (import-error)
+E:119, 4: Unable to import 'ucsmsdk.mometa.macpool.MacpoolBlock' (import-error)
+W:175,11: Catching too general exception Exception (broad-except)
+C:126, 8: Variable name "dn" doesn't conform to snake_case naming style (invalid-name)
+C:127, 8: Variable name "mo" doesn't conform to snake_case naming style (invalid-name)
+R:122, 4: Too many nested blocks (6/5) (too-many-nested-blocks)
+C:157,20: Variable name "mo" doesn't conform to snake_case naming style (invalid-name)
+C:175,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R: 98, 0: Too many branches (15/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 5.61/10
+

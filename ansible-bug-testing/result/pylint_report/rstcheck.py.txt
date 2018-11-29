@@ -1,0 +1,10 @@
+************* Module lib.sanity.rstcheck
+C: 40, 0: Line too long (104/100) (line-too-long)
+C: 44, 0: Line too long (109/100) (line-too-long)
+C: 72, 0: Line too long (119/100) (line-too-long)
+R: 31, 0: Too few public methods (1/2) (too-few-public-methods)
+W: 22, 0: Unused SanityConfig imported from lib.config (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.53/10
+

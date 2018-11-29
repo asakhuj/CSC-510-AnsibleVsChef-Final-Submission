@@ -1,0 +1,106 @@
+************* Module ansible.modules.packaging.os.pulp_repo
+C:218, 0: Wrong hanging indentation before block (add 4 spaces).
+        self,
+        ^   | (bad-continuation)
+C:219, 0: Wrong hanging indentation before block (add 4 spaces).
+        repo_id,
+        ^   | (bad-continuation)
+C:220, 0: Wrong hanging indentation before block (add 4 spaces).
+        relative_url,
+        ^   | (bad-continuation)
+C:221, 0: Wrong hanging indentation before block (add 4 spaces).
+        feed=None,
+        ^   | (bad-continuation)
+C:222, 0: Wrong hanging indentation before block (add 4 spaces).
+        serve_http=False,
+        ^   | (bad-continuation)
+C:223, 0: Wrong hanging indentation before block (add 4 spaces).
+        serve_https=True,
+        ^   | (bad-continuation)
+C:224, 0: Wrong hanging indentation before block (add 4 spaces).
+        proxy_host=None,
+        ^   | (bad-continuation)
+C:225, 0: Wrong hanging indentation before block (add 4 spaces).
+        proxy_port=None,
+        ^   | (bad-continuation)
+C:226, 0: Wrong hanging indentation before block (add 4 spaces).
+        ssl_ca_cert=None,
+        ^   | (bad-continuation)
+C:227, 0: Wrong hanging indentation before block (add 4 spaces).
+        ssl_client_cert=None,
+        ^   | (bad-continuation)
+C:228, 0: Wrong hanging indentation before block (add 4 spaces).
+        ssl_client_key=None,
+        ^   | (bad-continuation)
+C:229, 0: Wrong hanging indentation before block (add 4 spaces).
+        add_export_distributor=False
+        ^   | (bad-continuation)
+C:472, 0: Line too long (112/100) (line-too-long)
+C:603, 0: Wrong hanging indentation before block (add 4 spaces).
+                repo,
+                ^   | (bad-continuation)
+C:604, 0: Wrong hanging indentation before block (add 4 spaces).
+                feed=feed,
+                ^   | (bad-continuation)
+C:605, 0: Wrong hanging indentation before block (add 4 spaces).
+                proxy_host=proxy_host,
+                ^   | (bad-continuation)
+C:606, 0: Wrong hanging indentation before block (add 4 spaces).
+                proxy_port=proxy_port,
+                ^   | (bad-continuation)
+C:607, 0: Wrong hanging indentation before block (add 4 spaces).
+                ssl_ca_cert=importer_ssl_ca_cert,
+                ^   | (bad-continuation)
+C:608, 0: Wrong hanging indentation before block (add 4 spaces).
+                ssl_client_cert=importer_ssl_client_cert,
+                ^   | (bad-continuation)
+C:609, 0: Wrong hanging indentation before block (add 4 spaces).
+                ssl_client_key=importer_ssl_client_key
+                ^   | (bad-continuation)
+C:625, 0: Wrong hanging indentation before block (add 4 spaces).
+                    repo,
+                    ^   | (bad-continuation)
+C:626, 0: Wrong hanging indentation before block (add 4 spaces).
+                    relative_url=relative_url
+                    ^   | (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:163, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C:164, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:165, 0: Import "from time import sleep" should be placed at the top of the module (wrong-import-position)
+C:168, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:169, 0: Import "from ansible.module_utils.urls import fetch_url" should be placed at the top of the module (wrong-import-position)
+C:170, 0: Import "from ansible.module_utils.urls import url_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:173, 0: Class name "pulp_server" doesn't conform to PascalCase naming style (invalid-name)
+C:185, 4: Missing method docstring (missing-docstring)
+C:193, 4: Missing method docstring (missing-docstring)
+C:203, 4: Missing method docstring (missing-docstring)
+C:217, 4: Missing method docstring (missing-docstring)
+R:217, 4: Too many arguments (12/5) (too-many-arguments)
+R:217, 4: Too many local variables (18/15) (too-many-locals)
+R:217, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+W:283, 8: Unused variable 'response' (unused-variable)
+C:298, 4: Missing method docstring (missing-docstring)
+C:314, 4: Missing method docstring (missing-docstring)
+C:321, 4: Missing method docstring (missing-docstring)
+C:366, 4: Missing method docstring (missing-docstring)
+C:382, 4: Missing method docstring (missing-docstring)
+W:394,12: Unused variable 'response' (unused-variable)
+C:407, 4: Missing method docstring (missing-docstring)
+W:421, 8: Unused variable 'response' (unused-variable)
+C:435, 4: Missing method docstring (missing-docstring)
+C:448, 4: Missing method docstring (missing-docstring)
+W:446, 8: Attribute 'repo_list' defined outside __init__ (attribute-defined-outside-init)
+C:477, 0: Missing function docstring (missing-docstring)
+R:477, 0: Too many local variables (27/15) (too-many-locals)
+C:526,12: Variable name "importer_ssl_ca_cert_file_object" doesn't conform to snake_case naming style (invalid-name)
+C:533, 8: Variable name "importer_ssl_client_cert_file_path" doesn't conform to snake_case naming style (invalid-name)
+C:535,12: Variable name "importer_ssl_client_cert_file_object" doesn't conform to snake_case naming style (invalid-name)
+C:542, 8: Variable name "importer_ssl_client_key_file_path" doesn't conform to snake_case naming style (invalid-name)
+C:544,12: Variable name "importer_ssl_client_key_file_object" doesn't conform to snake_case naming style (invalid-name)
+R:477, 0: Too many branches (34/12) (too-many-branches)
+R:477, 0: Too many statements (90/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 7.70/10
+

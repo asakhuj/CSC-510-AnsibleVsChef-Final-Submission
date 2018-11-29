@@ -1,0 +1,21 @@
+************* Module test_oneview_ethernet_network_facts
+C: 43, 0: Line too long (101/100) (line-too-long)
+C: 44, 0: Line too long (101/100) (line-too-long)
+C: 52, 0: Wrong continued indentation (remove 1 space).
+                               ):
+                              |^ (bad-continuation)
+C: 83, 0: Line too long (108/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  4, 0: Unable to import 'units.compat' (import-error)
+C: 50, 0: Missing class docstring (missing-docstring)
+C: 53, 4: Method name "setUp" doesn't conform to snake_case naming style (invalid-name)
+C: 53, 4: Missing method docstring (missing-docstring)
+C: 58, 4: Missing method docstring (missing-docstring)
+C: 69, 4: Missing method docstring (missing-docstring)
+C: 80, 4: Method name "test_should_get_enet_by_name_with_options" doesn't conform to snake_case naming style (invalid-name)
+C: 80, 4: Missing method docstring (missing-docstring)
+W:  4, 0: Unused mock imported from units.compat (unused-import)
+
+-----------------------------------
+Your code has been rated at 5.26/10
+

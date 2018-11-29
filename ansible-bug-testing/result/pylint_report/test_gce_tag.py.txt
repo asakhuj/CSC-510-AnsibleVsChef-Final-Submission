@@ -1,0 +1,13 @@
+************* Module units.modules.cloud.google.test_gce_tag
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  3, 0: Unable to import 'ansible.modules.cloud.google.gce_tag' (import-error)
+C: 14, 8: Variable name "listA" doesn't conform to snake_case naming style (invalid-name)
+C: 15, 8: Variable name "listB" doesn't conform to snake_case naming style (invalid-name)
+C: 24, 8: Variable name "listA" doesn't conform to snake_case naming style (invalid-name)
+C: 25, 8: Variable name "listB" doesn't conform to snake_case naming style (invalid-name)
+C: 42, 8: Variable name "listA" doesn't conform to snake_case naming style (invalid-name)
+C: 43, 8: Variable name "listB" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.67/10
+

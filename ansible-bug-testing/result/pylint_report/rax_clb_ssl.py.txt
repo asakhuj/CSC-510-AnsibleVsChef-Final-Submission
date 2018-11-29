@@ -1,0 +1,22 @@
+************* Module ansible.modules.cloud.rackspace.rax_clb_ssl
+C:105, 0: Wrong continued indentation (remove 1 space).
+                                      )
+                                     |^ (bad-continuation)
+C:157, 0: Line too long (129/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 99, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:100, 0: Import "from ansible.module_utils.rax import rax_argument_spec, rax_find_loadbalancer, rax_required_together, rax_to_dict, setup_rax_module" should be placed at the top of the module (wrong-import-position)
+C:108, 0: Missing function docstring (missing-docstring)
+R:108, 0: Too many arguments (12/5) (too-many-arguments)
+R:108, 0: Too many local variables (25/15) (too-many-locals)
+C:165,54: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:173,54: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:185,50: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:108, 0: Too many branches (26/12) (too-many-branches)
+R:108, 0: Too many statements (65/50) (too-many-statements)
+C:229, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.40/10
+

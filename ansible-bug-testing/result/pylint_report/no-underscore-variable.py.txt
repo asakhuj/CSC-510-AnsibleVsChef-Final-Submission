@@ -1,0 +1,8 @@
+************* Module no-underscore-variable
+C:  1, 0: Module name "no-underscore-variable" doesn't conform to snake_case naming style (invalid-name)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 13, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.00/10
+

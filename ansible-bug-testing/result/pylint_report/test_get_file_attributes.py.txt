@@ -1,0 +1,13 @@
+************* Module units.module_utils.basic.test_get_file_attributes
+C:  4, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 12, 0: Unable to import 'ansible.module_utils.basic' (import-error)
+C: 44, 0: Argument name "am" doesn't conform to snake_case naming style (invalid-name)
+C: 44, 0: Missing function docstring (missing-docstring)
+W: 44,33: Unused argument 'stdin' (unused-argument)
+C: 14, 0: third party import "import pytest" should be placed before "from ansible.module_utils.basic import AnsibleModule" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 0.00/10
+

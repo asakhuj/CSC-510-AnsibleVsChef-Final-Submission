@@ -1,0 +1,18 @@
+************* Module ansible.modules.network.routeros.routeros_command
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:111, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:112, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C:114, 0: Import "from ansible.module_utils.network.routeros.routeros import run_commands" should be placed at the top of the module (wrong-import-position)
+C:115, 0: Import "from ansible.module_utils.network.routeros.routeros import routeros_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:116, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:117, 0: Import "from ansible.module_utils.network.common.utils import ComplexList" should be placed at the top of the module (wrong-import-position)
+C:118, 0: Import "from ansible.module_utils.network.common.parsing import Conditional" should be placed at the top of the module (wrong-import-position)
+C:119, 0: Import "from ansible.module_utils.six import string_types" should be placed at the top of the module (wrong-import-position)
+C:122, 0: Missing function docstring (missing-docstring)
+W:111, 0: Unused import re (unused-import)
+W:117, 0: Unused ComplexList imported from ansible.module_utils.network.common.utils (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.35/10
+

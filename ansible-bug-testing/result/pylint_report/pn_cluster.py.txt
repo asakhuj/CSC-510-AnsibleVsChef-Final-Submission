@@ -1,0 +1,11 @@
+************* Module ansible.modules.network.netvisor.pn_cluster
+C:113, 0: Import "import shlex" should be placed at the top of the module (wrong-import-position)
+C:116, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+W:168, 4: Using the global statement (global-statement)
+R:170, 4: The if statement can be replaced with 'var = bool(test)' (simplifiable-if-statement)
+R:174, 4: The if statement can be replaced with 'var = bool(test)' (simplifiable-if-statement)
+R:178, 4: The if statement can be replaced with 'var = bool(test)' (simplifiable-if-statement)
+
+-----------------------------------
+Your code has been rated at 9.32/10
+

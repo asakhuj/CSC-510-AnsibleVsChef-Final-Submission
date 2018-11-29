@@ -1,0 +1,30 @@
+************* Module units.modules.cloud.amazon.test_aws_api_gateway
+C:  1, 0: Missing module docstring (missing-docstring)
+E: 27, 0: Unable to import 'ansible.module_utils.ec2' (import-error)
+C: 31, 4: Constant name "pytestmark" doesn't conform to UPPER_CASE naming style (invalid-name)
+E: 33, 0: Unable to import 'ansible.modules.cloud.amazon.aws_api_gateway' (import-error)
+C: 33, 0: Import "import ansible.modules.cloud.amazon.aws_api_gateway as agw" should be placed at the top of the module (wrong-import-position)
+E: 34, 0: Unable to import 'ansible.module_utils.aws' (import-error)
+C: 34, 0: Import "from ansible.module_utils.aws import core" should be placed at the top of the module (wrong-import-position)
+C: 37, 0: Constant name "exit_return_dict" doesn't conform to UPPER_CASE naming style (invalid-name)
+W: 42, 4: Using the global statement (global-statement)
+C: 42, 4: Constant name "exit_return_dict" doesn't conform to UPPER_CASE naming style (invalid-name)
+W: 40,19: Unused argument 'self' (unused-argument)
+C: 47, 0: Missing function docstring (missing-docstring)
+C: 48, 4: Missing class docstring (missing-docstring)
+C: 48, 4: Old-style class defined. (old-style-class)
+W: 48, 4: Class has no __init__ method (no-init)
+C: 50, 8: Missing method docstring (missing-docstring)
+W: 50, 0: Unused argument 'args' (unused-argument)
+R: 50, 8: Method could be a function (no-self-use)
+R: 48, 4: Too few public methods (1/2) (too-few-public-methods)
+C: 54, 4: Missing function docstring (missing-docstring)
+W: 54, 0: Unused argument 'args' (unused-argument)
+W: 54, 0: Unused argument 'kwargs' (unused-argument)
+C: 72, 0: Function name "test_warn_if_region_not_specified" doesn't conform to snake_case naming style (invalid-name)
+C: 72, 0: Missing function docstring (missing-docstring)
+C: 33, 0: Imports from package ansible are not grouped (ungrouped-imports)
+
+------------------------------------
+Your code has been rated at -1.94/10
+

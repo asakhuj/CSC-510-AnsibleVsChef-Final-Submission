@@ -1,0 +1,12 @@
+************* Module ansible.module_utils.common.process
+C:  2, 0: Line too long (106/100) (line-too-long)
+C: 41, 0: Line too long (110/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 24, 8: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C: 30, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C: 33, 8: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.31/10
+

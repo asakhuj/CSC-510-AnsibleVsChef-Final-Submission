@@ -1,0 +1,37 @@
+************* Module ansible.module_utils.network.panos.panos
+C:243, 0: Unnecessary parens after 'del' keyword (superfluous-parens)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 29, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 43, 0: Missing class docstring (missing-docstring)
+R: 43, 0: Too many instance attributes (12/7) (too-many-instance-attributes)
+R: 64, 4: Too many local variables (18/15) (too-many-locals)
+C: 81, 8: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C: 83,12: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C: 86,12: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C: 95,33: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:110,20: Variable name "ts" doesn't conform to snake_case naming style (invalid-name)
+C:123,20: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+C:136,20: Variable name "vo" doesn't conform to snake_case naming style (invalid-name)
+C:146,24: Variable name "dg" doesn't conform to snake_case naming style (invalid-name)
+C:158,20: Variable name "rb" doesn't conform to snake_case naming style (invalid-name)
+C:162,20: Variable name "rb" doesn't conform to snake_case naming style (invalid-name)
+E:177,16: Instance of 'ConnectionHelper' has no 'con' member (no-member)
+C:181,16: Variable name "rb" doesn't conform to snake_case naming style (invalid-name)
+R: 64, 4: Too many branches (30/12) (too-many-branches)
+R: 64, 4: Too many statements (71/50) (too-many-statements)
+R: 43, 0: Too few public methods (1/2) (too-few-public-methods)
+R:189, 0: Too many arguments (10/5) (too-many-arguments)
+R:189, 0: Too many branches (23/12) (too-many-branches)
+R:189, 0: Too many statements (62/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 8.16/10
+
+************* Module ansible.utils.module_docs_fragments.panos
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Missing class docstring (missing-docstring)
+R:  9, 0: Too few public methods (0/2) (too-few-public-methods)
+
+------------------------------------
+Your code has been rated at -5.00/10
+

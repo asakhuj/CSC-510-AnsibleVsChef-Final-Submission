@@ -1,0 +1,49 @@
+************* Module ansible.modules.cloud.amazon.aws_application_scaling_policy
+W:320, 0: Bad indentation. Found 12 spaces, expected 8 (bad-indentation)
+C:330, 0: Line too long (107/100) (line-too-long)
+C:331, 0: Line too long (110/100) (line-too-long)
+C:326, 0: Wrong hanging indentation before block (add 4 spaces).
+        not scalable_targets['ScalableTargets']
+        ^   | (bad-continuation)
+C:327, 0: Wrong hanging indentation before block (add 4 spaces).
+        or (
+        ^   | (bad-continuation)
+C:358, 0: Unnecessary parens after 'if' keyword (superfluous-parens)
+C:390, 0: Line too long (107/100) (line-too-long)
+C:401, 0: Line too long (101/100) (line-too-long)
+C:402, 0: Line too long (121/100) (line-too-long)
+C:407, 0: Unnecessary parens after 'if' keyword (superfluous-parens)
+C:416, 0: Unnecessary parens after 'elif' keyword (superfluous-parens)
+C:423, 0: Line too long (119/100) (line-too-long)
+C:439, 0: Unnecessary parens after 'if' keyword (superfluous-parens)
+C:452, 0: Line too long (127/100) (line-too-long)
+C:456, 0: Line too long (103/100) (line-too-long)
+C:462, 0: Wrong continued indentation (remove 1 space).
+                                                        ], type='str'),
+                                                       |^ (bad-continuation)
+C:463, 0: Line too long (102/100) (line-too-long)
+C:488, 0: Line too long (144/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:255, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:257, 0: Import "from ansible.module_utils.aws.core import AnsibleAWSModule" should be placed at the top of the module (wrong-import-position)
+C:258, 0: Import "from ansible.module_utils.ec2 import _camel_to_snake, camel_dict_to_snake_dict, ec2_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:268, 0: Missing function docstring (missing-docstring)
+R:269, 4: The if statement can be replaced with 'var = bool(test)' (simplifiable-if-statement)
+C:280, 0: Missing function docstring (missing-docstring)
+C:290,83: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:302,87: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:308, 0: Missing function docstring (missing-docstring)
+C:319,83: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:344,87: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:355,83: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:366, 0: Missing function docstring (missing-docstring)
+C:375,83: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:425,87: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:436,83: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:447, 0: Missing function docstring (missing-docstring)
+W:255, 0: Unused import traceback (unused-import)
+
+------------------------------------------------------------------
+Your code has been rated at 6.27/10 (previous run: 6.27/10, +0.00)
+

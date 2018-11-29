@@ -1,0 +1,28 @@
+************* Module ansible.plugins.callback.grafana_annotations
+C:172, 0: Line too long (108/100) (line-too-long)
+C:242, 0: Line too long (107/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 18, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:141, 0: Argument name "dt" doesn't conform to snake_case naming style (invalid-name)
+C:141, 0: Missing function docstring (missing-docstring)
+R:145, 0: Too many instance attributes (16/7) (too-many-instance-attributes)
+W:196,24: Access to a protected member _file_name of a client class (protected-access)
+E:208,30: Module 'json' has no 'dumps' member (no-member)
+E:224,49: Module 'json' has no 'dumps' member (no-member)
+E:237,30: Module 'json' has no 'dumps' member (no-member)
+W:239, 4: Parameters differ from overridden 'v2_runner_on_failed' method (arguments-differ)
+W:241,70: Access to a protected member _task of a client class (protected-access)
+W:242,46: Access to a protected member _host of a client class (protected-access)
+W:242,91: Access to a protected member _result of a client class (protected-access)
+E:253,30: Module 'json' has no 'dumps' member (no-member)
+W:239, 0: Unused argument 'kwargs' (unused-argument)
+W:262,15: Catching too general exception Exception (broad-except)
+C:262,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:257,12: Unused variable 'response' (unused-variable)
+W:196, 8: Attribute 'playbook' defined outside __init__ (attribute-defined-outside-init)
+W: 20, 0: Unused import os (unused-import)
+W: 24, 0: Unused b64encode imported from base64 (unused-import)
+
+-----------------------------------
+Your code has been rated at 5.47/10
+

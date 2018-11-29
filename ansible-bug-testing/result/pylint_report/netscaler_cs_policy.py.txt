@@ -1,0 +1,28 @@
+************* Module ansible.modules.network.netscaler.netscaler_cs_policy
+C:115, 0: Line too long (160/100) (line-too-long)
+C:190, 0: Line too long (102/100) (line-too-long)
+C:258, 0: Line too long (139/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:114, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:115, 0: Import "from ansible.module_utils.network.netscaler.netscaler import ConfigProxy, get_nitro_client, netscaler_common_arguments, log, loglines, ensure_feature_is_enabled" should be placed at the top of the module (wrong-import-position)
+C:120,22: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:124, 0: Missing function docstring (missing-docstring)
+R:126, 4: The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)
+R:126, 4: Unnecessary "else" after "return" (no-else-return)
+C:132, 0: Missing function docstring (missing-docstring)
+R:140, 4: The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)
+R:140, 4: Unnecessary "else" after "return" (no-else-return)
+C:140, 7: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:146, 0: Missing function docstring (missing-docstring)
+C:151, 0: Missing function docstring (missing-docstring)
+W:192,11: Catching too general exception Exception (broad-except)
+C:189,30: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:192,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:277,30: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:151, 0: Too many branches (25/12) (too-many-branches)
+R:151, 0: Too many statements (72/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 7.77/10
+

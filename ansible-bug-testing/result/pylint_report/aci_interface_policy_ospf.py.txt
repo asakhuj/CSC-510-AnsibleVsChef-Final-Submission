@@ -1,0 +1,16 @@
+************* Module ansible.modules.network.aci.aci_interface_policy_ospf
+C:288, 0: Line too long (114/100) (line-too-long)
+C:289, 0: Line too long (123/100) (line-too-long)
+C:329, 0: Line too long (101/100) (line-too-long)
+C:333, 0: Line too long (102/100) (line-too-long)
+C:343, 0: Line too long (107/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:281, 0: Import "from ansible.module_utils.network.aci.aci import ACIModule, aci_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:282, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:285, 0: Missing function docstring (missing-docstring)
+R:285, 0: Too many local variables (16/15) (too-many-locals)
+
+-----------------------------------
+Your code has been rated at 7.84/10
+

@@ -1,0 +1,29 @@
+************* Module ansible.modules.storage.netapp.na_ontap_iscsi
+W:262, 0: TODO: include other details about the lun (size, etc.) (fixme)
+C: 97, 0: Wrong hanging indentation (remove 7 spaces).
+                       'present', 'absent'], default='present'),
+                |      ^ (bad-continuation)
+C: 99, 0: Wrong hanging indentation (remove 15 spaces).
+                               'started', 'stopped'], default=None),
+                |              ^ (bad-continuation)
+C:165, 0: Wrong continued indentation (remove 1 space).
+               })
+              |^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 81, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C: 83, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 84, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 85, 0: Import "import ansible.module_utils.netapp as netapp_utils" should be placed at the top of the module (wrong-import-position)
+C: 90, 0: Missing class docstring (missing-docstring)
+C:170,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:188,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:204,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:219,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:225, 4: Missing method docstring (missing-docstring)
+C:266, 0: Missing function docstring (missing-docstring)
+C:267, 4: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.20/10
+

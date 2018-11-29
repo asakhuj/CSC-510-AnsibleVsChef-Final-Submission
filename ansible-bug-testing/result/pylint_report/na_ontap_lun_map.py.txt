@@ -1,0 +1,20 @@
+************* Module ansible.modules.storage.netapp.na_ontap_lun_map
+C:208, 0: Line too long (105/100) (line-too-long)
+C:243, 0: Line too long (160/100) (line-too-long)
+C: 10, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:116, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:118, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:119, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:120, 0: Import "import ansible.module_utils.netapp as netapp_utils" should be placed at the top of the module (wrong-import-position)
+C:125, 0: Missing class docstring (missing-docstring)
+R:125, 0: Too many instance attributes (9/7) (too-many-instance-attributes)
+C:150, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:234,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:247,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:252, 4: Missing method docstring (missing-docstring)
+C:272, 0: Missing function docstring (missing-docstring)
+C:273, 4: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.30/10
+

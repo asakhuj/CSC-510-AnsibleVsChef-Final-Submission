@@ -1,0 +1,52 @@
+************* Module ansible.module_utils.network.exos.exos
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 37, 0: Missing function docstring (missing-docstring)
+W: 39,15: Access to a protected member _exos_connection of a client class (protected-access)
+W: 45, 8: Access to a protected member _exos_connection of a client class (protected-access)
+W: 45,45: Access to a protected member _socket_path of a client class (protected-access)
+W: 49,11: Access to a protected member _exos_connection of a client class (protected-access)
+C: 52, 0: Missing function docstring (missing-docstring)
+W: 54,15: Access to a protected member _exos_capabilities of a client class (protected-access)
+W: 56,30: Access to a protected member _socket_path of a client class (protected-access)
+W: 57, 4: Access to a protected member _exos_capabilities of a client class (protected-access)
+W: 59,11: Access to a protected member _exos_capabilities of a client class (protected-access)
+C: 62, 0: Missing function docstring (missing-docstring)
+W: 63, 4: Using the global statement (global-statement)
+R: 65, 4: Unnecessary "else" after "return" (no-else-return)
+W: 62,23: Unused argument 'flags' (unused-argument)
+C: 75, 0: Missing function docstring (missing-docstring)
+W: 75,35: Unused argument 'check_rc' (unused-argument)
+C: 99, 0: Missing function docstring (missing-docstring)
+W:101, 4: Unused variable 'out' (unused-variable)
+W: 30, 0: Unused env_fallback imported from ansible.module_utils.basic (unused-import)
+W: 30, 0: Unused return_values imported from ansible.module_utils.basic (unused-import)
+
+-----------------------------------
+Your code has been rated at 5.88/10
+
+************* Module ansible.plugins.cliconf.exos
+C: 91, 0: Line too long (119/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 32, 0: Missing class docstring (missing-docstring)
+C: 34, 4: Missing method docstring (missing-docstring)
+W: 55, 4: Parameters differ from overridden 'get_config' method (arguments-differ)
+W: 75, 4: Parameters differ from overridden 'edit_config' method (arguments-differ)
+R: 90, 4: Too many arguments (6/5) (too-many-arguments)
+W: 90, 4: Parameters differ from overridden 'get' method (arguments-differ)
+C: 93, 4: Missing method docstring (missing-docstring)
+R: 93, 4: Method could be a function (no-self-use)
+C:108, 4: Missing method docstring (missing-docstring)
+R:108, 4: Method could be a function (no-self-use)
+
+-----------------------------------
+Your code has been rated at 8.03/10
+
+************* Module ansible.plugins.terminal.exos
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 28, 0: Missing class docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.86/10
+

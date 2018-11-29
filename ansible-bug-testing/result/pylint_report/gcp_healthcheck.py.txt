@@ -1,0 +1,21 @@
+************* Module ansible.modules.cloud.google.gcp_healthcheck
+C:381, 0: Line too long (105/100) (line-too-long)
+C:424, 0: Line too long (106/100) (line-too-long)
+C:425, 0: Line too long (110/100) (line-too-long)
+C:430, 0: Line too long (102/100) (line-too-long)
+C:431, 0: Line too long (106/100) (line-too-long)
+C:437, 0: Line too long (102/100) (line-too-long)
+C:438, 0: Line too long (106/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:177, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:178, 0: Import "from ansible.module_utils.gcp import get_google_api_client, GCPUtils" should be placed at the top of the module (wrong-import-position)
+R:237, 4: Unnecessary "else" after "return" (no-else-return)
+R:322, 0: Too many arguments (6/5) (too-many-arguments)
+C:363, 0: Missing function docstring (missing-docstring)
+W:403,11: Catching too general exception Exception (broad-except)
+C:403,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.57/10
+

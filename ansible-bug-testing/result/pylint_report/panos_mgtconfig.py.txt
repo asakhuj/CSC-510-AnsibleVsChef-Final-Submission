@@ -1,0 +1,11 @@
+************* Module ansible.modules.network.panos.panos_mgtconfig
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 73, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 74, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 90, 0: Missing function docstring (missing-docstring)
+C:113, 0: Missing function docstring (missing-docstring)
+C:136, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 9.18/10
+

@@ -1,0 +1,11 @@
+************* Module deprecated
+C: 89, 0: Line too long (102/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 15, 0: Unable to import 'ansible.release' (import-error)
+C: 63, 4: Missing method docstring (missing-docstring)
+R: 65, 8: Too many nested blocks (6/5) (too-many-nested-blocks)
+
+-----------------------------------
+Your code has been rated at 7.83/10
+

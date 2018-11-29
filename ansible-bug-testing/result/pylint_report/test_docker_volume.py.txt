@@ -1,0 +1,13 @@
+************* Module units.modules.cloud.docker.test_docker_volume
+C: 20, 0: Line too long (107/100) (line-too-long)
+C: 31, 0: Line too long (110/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  7, 0: Unable to import 'ansible.modules.cloud.docker' (import-error)
+E:  8, 0: Unable to import 'ansible.module_utils' (import-error)
+C: 10, 0: Constant name "pytestmark" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 21, 0: Function name "test_create_volume_on_invalid_docker_version" doesn't conform to snake_case naming style (invalid-name)
+C: 21, 0: Missing function docstring (missing-docstring)
+
+------------------------------------
+Your code has been rated at -0.67/10
+

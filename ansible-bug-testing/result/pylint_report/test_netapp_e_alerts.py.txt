@@ -1,0 +1,22 @@
+************* Module units.modules.storage.netapp.test_netapp_e_alerts
+C: 38, 0: Line too long (102/100) (line-too-long)
+C: 64, 0: Line too long (104/100) (line-too-long)
+C: 86, 0: Wrong continued indentation (remove 1 space).
+                       )
+                      |^ (bad-continuation)
+C: 88, 0: Line too long (112/100) (line-too-long)
+C: 89, 0: Line too long (115/100) (line-too-long)
+C:162, 0: Line too long (108/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  5, 0: Unable to import 'ansible.modules.storage.netapp.netapp_e_alerts' (import-error)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 12, 0: Missing class docstring (missing-docstring)
+C: 57, 4: Missing method docstring (missing-docstring)
+W: 96,68: Unused variable 'req' (unused-variable)
+C:150, 4: Method name "test_send_test_email_fail_connection" doesn't conform to snake_case naming style (invalid-name)
+C:160, 4: Missing method docstring (missing-docstring)
+W:  3, 0: Unused import json (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.35/10
+

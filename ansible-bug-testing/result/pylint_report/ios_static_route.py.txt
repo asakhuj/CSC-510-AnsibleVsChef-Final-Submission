@@ -1,0 +1,24 @@
+************* Module ansible.modules.network.ios.ios_static_route
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 99, 0: Import "from copy import deepcopy" should be placed at the top of the module (wrong-import-position)
+C:100, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:102, 0: Import "from ansible.module_utils._text import to_text" should be placed at the top of the module (wrong-import-position)
+C:103, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:104, 0: Import "from ansible.module_utils.connection import ConnectionError" should be placed at the top of the module (wrong-import-position)
+C:105, 0: Import "from ansible.module_utils.network.common.utils import remove_default_spec" should be placed at the top of the module (wrong-import-position)
+C:106, 0: Import "from ansible.module_utils.network.ios.ios import get_config, load_config, run_commands" should be placed at the top of the module (wrong-import-position)
+C:107, 0: Import "from ansible.module_utils.network.ios.ios import ios_argument_spec, check_args" should be placed at the top of the module (wrong-import-position)
+C:116, 0: Missing function docstring (missing-docstring)
+C:119, 8: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:121,12: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:131,12: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+W:116,36: Unused argument 'module' (unused-argument)
+C:153, 0: Missing function docstring (missing-docstring)
+C:161,16: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:204, 0: Missing function docstring (missing-docstring)
+W:216,12: Access to a protected member _check_required_together of a client class (protected-access)
+W:219, 8: Access to a protected member _check_required_together of a client class (protected-access)
+
+-----------------------------------
+Your code has been rated at 8.42/10
+

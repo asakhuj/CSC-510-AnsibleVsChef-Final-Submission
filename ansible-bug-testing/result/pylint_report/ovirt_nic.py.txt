@@ -1,0 +1,23 @@
+************* Module ansible.modules.cloud.ovirt.ovirt_nic
+W:221, 0: TODO: We have to modify the search_by_name function to accept raise_error=True/False, (fixme)
+C:175, 0: Line too long (115/100) (line-too-long)
+C:182, 0: Line too long (111/100) (line-too-long)
+C:188, 0: Line too long (105/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:127, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:129, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:130, 0: Import "from ansible.module_utils.ovirt import BaseModule, check_sdk, create_connection, equal, get_link_name, ovirt_full_argument_spec, search_by_name" should be placed at the top of the module (wrong-import-position)
+C:141, 0: Missing class docstring (missing-docstring)
+C:148, 4: Missing method docstring (missing-docstring)
+R:170, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+W:153, 8: Attribute '_vnic_id' defined outside __init__ (attribute-defined-outside-init)
+C:186, 0: Missing function docstring (missing-docstring)
+R:186, 0: Too many local variables (21/15) (too-many-locals)
+W:281,11: Catching too general exception Exception (broad-except)
+C:241,12: Variable name "dc" doesn't conform to snake_case naming style (invalid-name)
+C:281,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:186, 0: Too many branches (14/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 7.66/10
+

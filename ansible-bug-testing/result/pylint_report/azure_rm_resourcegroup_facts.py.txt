@@ -1,0 +1,14 @@
+************* Module ansible.modules.cloud.azure.azure_rm_resourcegroup_facts
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+W: 80, 0: No exception type(s) specified (bare-except)
+E: 79, 4: Unable to import 'msrestazure.azure_exceptions' (import-error)
+C: 84, 0: Import "from ansible.module_utils.azure_rm_common import AzureRMModuleBase" should be placed at the top of the module (wrong-import-position)
+C: 90, 0: Missing class docstring (missing-docstring)
+C:123, 4: Missing method docstring (missing-docstring)
+C:138, 4: Missing method docstring (missing-docstring)
+C:152, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.50/10
+

@@ -1,0 +1,16 @@
+************* Module ansible.module_utils.facts.default_collectors
+W:167, 0: TODO: make config driven (fixme)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 29, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 90, 0: Constant name "_base" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 97, 0: Constant name "_restrictive" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:105, 0: Constant name "_general" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:119, 0: Constant name "_virtual" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:130, 0: Constant name "_hardware" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:144, 0: Constant name "_network" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:161, 0: Constant name "_extra_facts" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:168, 0: Constant name "collectors" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.23/10
+

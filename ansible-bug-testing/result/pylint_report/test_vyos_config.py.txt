@@ -1,0 +1,24 @@
+************* Module units.modules.network.vyos.test_vyos_config
+C: 80, 0: Line too long (110/100) (line-too-long)
+C: 87, 0: Line too long (102/100) (line-too-long)
+C: 88, 0: Line too long (110/100) (line-too-long)
+C:100, 0: Line too long (110/100) (line-too-long)
+C:116, 0: Line too long (114/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 24, 0: Unable to import 'ansible.modules.network.vyos' (import-error)
+E: 25, 0: Unable to import 'ansible.plugins.cliconf.vyos' (import-error)
+C: 30, 0: Missing class docstring (missing-docstring)
+R: 30, 0: Too many instance attributes (11/7) (too-many-instance-attributes)
+C: 69, 4: Missing method docstring (missing-docstring)
+C: 75, 4: Missing method docstring (missing-docstring)
+C: 83, 4: Missing method docstring (missing-docstring)
+C: 91, 4: Missing method docstring (missing-docstring)
+C: 96, 4: Missing method docstring (missing-docstring)
+C:103, 4: Missing method docstring (missing-docstring)
+C:111, 4: Missing method docstring (missing-docstring)
+C: 26, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 6.45/10
+

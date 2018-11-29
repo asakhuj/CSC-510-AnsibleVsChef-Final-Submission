@@ -1,0 +1,13 @@
+************* Module ansible.modules.net_tools.ip_netns
+W:104, 0: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 19, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 63, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 64, 0: Import "from ansible.module_utils._text import to_text" should be placed at the top of the module (wrong-import-position)
+C: 81, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W: 88,13: Unused variable 'out' (unused-variable)
+W: 95,13: Unused variable 'out' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 8.57/10
+

@@ -1,0 +1,16 @@
+************* Module ansible.modules.network.routing.net_static_route
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.67/10
+
+************* Module ansible.plugins.action.net_static_route
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 18, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 23, 0: Missing class docstring (missing-docstring)
+R: 23, 0: Too few public methods (1/2) (too-few-public-methods)
+
+-----------------------------------
+Your code has been rated at 5.00/10
+

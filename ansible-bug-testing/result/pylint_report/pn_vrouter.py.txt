@@ -1,0 +1,13 @@
+************* Module ansible.modules.network.netvisor.pn_vrouter
+C:150, 0: Import "import shlex" should be placed at the top of the module (wrong-import-position)
+C:153, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+W:197, 4: Using the global statement (global-statement)
+R:211, 4: The if statement can be replaced with 'var = bool(test)' (simplifiable-if-statement)
+R:222, 4: The if statement can be replaced with 'var = bool(test)' (simplifiable-if-statement)
+R:288, 0: Too many local variables (19/15) (too-many-locals)
+R:288, 0: Too many branches (20/12) (too-many-branches)
+R:288, 0: Too many statements (62/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 9.35/10
+

@@ -1,0 +1,29 @@
+************* Module ansible.modules.network.netscaler.netscaler_cs_action
+C:176, 0: Line too long (102/100) (line-too-long)
+C:233, 0: Line too long (130/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 96, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C:102,22: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:105, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:106, 0: Import "from ansible.module_utils.network.netscaler.netscaler import ConfigProxy, get_nitro_client, netscaler_common_arguments, log, loglines, ensure_feature_is_enabled, get_immutables_intersection" should be placed at the top of the module (wrong-import-position)
+C:116, 0: Missing function docstring (missing-docstring)
+R:117, 4: The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)
+R:117, 4: Unnecessary "else" after "return" (no-else-return)
+C:123, 0: Missing function docstring (missing-docstring)
+R:124, 4: The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)
+R:124, 4: Unnecessary "else" after "return" (no-else-return)
+C:124, 7: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+W:132, 4: Redefining name 'diff_list' from outer scope (line 130) (redefined-outer-name)
+C:130, 0: Missing function docstring (missing-docstring)
+C:140, 0: Missing function docstring (missing-docstring)
+W:178,11: Catching too general exception Exception (broad-except)
+C:175,30: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:178,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:278,30: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:140, 0: Too many branches (26/12) (too-many-branches)
+R:140, 0: Too many statements (74/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 7.67/10
+

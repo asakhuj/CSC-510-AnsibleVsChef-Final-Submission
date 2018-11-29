@@ -1,0 +1,15 @@
+************* Module ansible.modules.cloud.univention.udm_group
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 79, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 80, 0: Import "from ansible.module_utils.univention_umc import umc_module_for_add, umc_module_for_edit, ldap_search, base_dn" should be placed at the top of the module (wrong-import-position)
+C: 88, 0: Missing function docstring (missing-docstring)
+C:110, 4: Variable name "ou" doesn't conform to snake_case naming style (invalid-name)
+C:123,12: Variable name "ou" doesn't conform to snake_case naming style (invalid-name)
+W:146, 8: No exception type(s) specified (bare-except)
+W:157, 8: No exception type(s) specified (bare-except)
+R: 88, 0: Too many branches (14/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 8.11/10
+

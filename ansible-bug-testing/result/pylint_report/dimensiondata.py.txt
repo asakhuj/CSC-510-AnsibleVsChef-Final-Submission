@@ -1,0 +1,33 @@
+************* Module ansible.module_utils.dimensiondata
+C: 34, 0: Line too long (107/100) (line-too-long)
+C:133, 0: Line too long (129/100) (line-too-long)
+C:186, 0: Line too long (107/100) (line-too-long)
+C:226, 0: Line too long (136/100) (line-too-long)
+C:246, 0: Line too long (114/100) (line-too-long)
+C:247, 0: Line too long (136/100) (line-too-long)
+C:265, 0: Line too long (130/100) (line-too-long)
+C:266, 0: Line too long (157/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+E: 29, 0: Unable to import 'ansible.module_utils.six.moves' (import-error)
+R: 54, 0: Too many instance attributes (10/7) (too-many-instance-attributes)
+C:326, 0: Argument name "u" doesn't conform to snake_case naming style (invalid-name)
+W: 28, 0: Unused AnsibleModule imported from ansible.module_utils.basic (unused-import)
+W: 34, 4: Unused DimensionDataStatus imported from libcloud.common.dimensiondata (unused-import)
+W: 34, 4: Unused DimensionDataAPIException imported from libcloud.common.dimensiondata (unused-import)
+W: 35, 4: Unused Node imported from libcloud.compute.base (unused-import)
+W: 35, 4: Unused NodeLocation imported from libcloud.compute.base (unused-import)
+C: 30, 0: standard import "from os.path import expanduser" should be placed before "from ansible.module_utils.basic import AnsibleModule" (wrong-import-order)
+C: 31, 0: standard import "from uuid import UUID" should be placed before "from ansible.module_utils.basic import AnsibleModule" (wrong-import-order)
+C: 30, 0: Imports from package os are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 8.03/10
+
+************* Module ansible.utils.module_docs_fragments.dimensiondata
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 22, 0: Missing class docstring (missing-docstring)
+R: 22, 0: Too few public methods (0/2) (too-few-public-methods)
+
+------------------------------------
+Your code has been rated at -5.00/10
+

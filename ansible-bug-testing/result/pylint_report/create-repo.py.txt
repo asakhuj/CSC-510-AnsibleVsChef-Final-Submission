@@ -1,0 +1,10 @@
+************* Module create-repo
+C: 41, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:  1, 0: Module name "create-repo" doesn't conform to snake_case naming style (invalid-name)
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  6, 0: Unable to import 'rpmfluff' (import-error)
+C: 23, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 5.91/10
+

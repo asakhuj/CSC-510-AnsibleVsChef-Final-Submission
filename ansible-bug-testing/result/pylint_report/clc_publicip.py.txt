@@ -1,0 +1,17 @@
+************* Module ansible.modules.cloud.centurylink.clc_publicip
+C:275, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:117, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:118, 0: Import "from distutils.version import LooseVersion" should be placed at the top of the module (wrong-import-position)
+C:140, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:143, 0: Missing class docstring (missing-docstring)
+W:177,41: Redefining name 'requests' from outer scope (line 121) (redefined-outer-name)
+W:311,12: Access to a protected member _LOGIN_TOKEN_V2 of a client class (protected-access)
+W:312,12: Access to a protected member _V2_ENABLED of a client class (protected-access)
+R:295, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+W:348,22: Access to a protected member _define_module_argument_spec of a client class (protected-access)
+
+-----------------------------------
+Your code has been rated at 9.11/10
+

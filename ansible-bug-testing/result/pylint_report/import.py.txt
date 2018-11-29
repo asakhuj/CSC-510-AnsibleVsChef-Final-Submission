@@ -1,0 +1,21 @@
+************* Module lib.sanity.import
+C: 56, 0: Line too long (109/100) (line-too-long)
+C: 65, 0: Line too long (113/100) (line-too-long)
+C: 66, 0: Line too long (117/100) (line-too-long)
+C: 73, 0: Line too long (121/100) (line-too-long)
+C: 80, 0: Line too long (105/100) (line-too-long)
+C:106, 0: Line too long (111/100) (line-too-long)
+C:107, 0: Line too long (109/100) (line-too-long)
+C:108, 0: Line too long (111/100) (line-too-long)
+C:109, 0: Line too long (104/100) (line-too-long)
+C:120, 0: Line too long (145/100) (line-too-long)
+R: 41, 4: Too many local variables (26/15) (too-many-locals)
+E: 83,12: Module 'os' has no 'symlink' member (no-member)
+E: 98,16: Module 'os' has no 'symlink' member (no-member)
+R: 41, 4: Too many statements (51/50) (too-many-statements)
+R: 39, 0: Too few public methods (1/2) (too-few-public-methods)
+W: 34, 0: Unused SanityConfig imported from lib.config (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.13/10
+

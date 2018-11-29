@@ -1,0 +1,22 @@
+************* Module ansible.modules.network.nso.nso_config
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 23, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:141, 0: Import "from ansible.module_utils.network.nso.nso import connect, verify_version, nso_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:142, 0: Import "from ansible.module_utils.network.nso.nso import State, ValueBuilder" should be placed at the top of the module (wrong-import-position)
+C:143, 0: Import "from ansible.module_utils.network.nso.nso import ModuleFailException, NsoException" should be placed at the top of the module (wrong-import-position)
+C:144, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:147, 0: Missing class docstring (missing-docstring)
+C:164, 4: Missing method docstring (missing-docstring)
+C:179, 8: Variable name "th" doesn't conform to snake_case naming style (invalid-name)
+C:204,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:206,15: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:211,31: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:231,19: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+E:233,24: No value for argument 'deps' in constructor call (no-value-for-parameter)
+R:147, 0: Too few public methods (1/2) (too-few-public-methods)
+C:254, 0: Missing function docstring (missing-docstring)
+C:264, 4: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.79/10
+

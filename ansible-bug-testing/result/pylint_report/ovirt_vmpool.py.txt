@@ -1,0 +1,16 @@
+************* Module ansible.modules.cloud.ovirt.ovirt_vmpool
+C:169, 0: Line too long (106/100) (line-too-long)
+C:223, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:129, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:131, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:132, 0: Import "from ansible.module_utils.ovirt import BaseModule, check_params, check_sdk, create_connection, equal, get_link_name, ovirt_full_argument_spec, wait" should be placed at the top of the module (wrong-import-position)
+C:144, 0: Missing class docstring (missing-docstring)
+C:178, 0: Missing function docstring (missing-docstring)
+W:231,11: Catching too general exception Exception (broad-except)
+C:220,20: Variable name "vm" doesn't conform to snake_case naming style (invalid-name)
+C:231,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.38/10
+

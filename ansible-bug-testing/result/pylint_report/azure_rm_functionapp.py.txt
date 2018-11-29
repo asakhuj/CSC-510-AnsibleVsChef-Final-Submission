@@ -1,0 +1,16 @@
+************* Module ansible.modules.cloud.azure.azure_rm_functionapp
+C:268, 0: Line too long (112/100) (line-too-long)
+C:269, 0: Line too long (103/100) (line-too-long)
+C:271, 0: Line too long (103/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:126, 0: Import "from ansible.module_utils.azure_rm_common import AzureRMModuleBase" should be placed at the top of the module (wrong-import-position)
+C:137, 0: Missing class docstring (missing-docstring)
+R:137, 0: Too many instance attributes (8/7) (too-many-instance-attributes)
+R:173, 4: Too many branches (15/12) (too-many-branches)
+W:130, 4: Unused SiteSourceControl imported from azure.mgmt.web.models (unused-import)
+W:131, 4: Unused ResourceManagementClient imported from azure.mgmt.resource.resources (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.83/10
+

@@ -1,0 +1,33 @@
+************* Module ansible.modules.network.f5.bigip_hostname
+C:220, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 52, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 72, 0: Missing class docstring (missing-docstring)
+C: 77, 4: Missing method docstring (missing-docstring)
+C: 85, 4: Missing method docstring (missing-docstring)
+C: 91, 0: Missing class docstring (missing-docstring)
+C: 95, 0: Missing class docstring (missing-docstring)
+C: 99, 0: Missing class docstring (missing-docstring)
+C:103, 0: Missing class docstring (missing-docstring)
+C:107, 0: Missing class docstring (missing-docstring)
+C:111, 0: Missing class docstring (missing-docstring)
+C:116, 4: Missing method docstring (missing-docstring)
+R:123, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:111, 0: Too few public methods (1/2) (too-few-public-methods)
+C:133, 0: Missing class docstring (missing-docstring)
+W:134, 0: Unused argument 'args' (unused-argument)
+C:164, 4: Missing method docstring (missing-docstring)
+C:202, 4: Missing method docstring (missing-docstring)
+C:225, 4: Missing method docstring (missing-docstring)
+C:234, 4: Missing method docstring (missing-docstring)
+C:240, 4: Missing method docstring (missing-docstring)
+C:282, 0: Missing class docstring (missing-docstring)
+R:282, 0: Too few public methods (0/2) (too-few-public-methods)
+C:295, 0: Missing function docstring (missing-docstring)
+C:306, 8: Variable name "mm" doesn't conform to snake_case naming style (invalid-name)
+C: 63, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 8.53/10
+

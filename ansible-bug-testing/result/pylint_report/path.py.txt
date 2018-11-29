@@ -1,0 +1,20 @@
+************* Module ansible.utils.path
+C: 32, 0: Line too long (125/100) (line-too-long)
+C: 51, 0: Line too long (101/100) (line-too-long)
+C: 81, 0: Line too long (115/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 18, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+W: 30,35: Redefining name 'basedir' from outer scope (line 84) (redefined-outer-name)
+C: 79,26: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.29/10
+
+************* Module units.mock.path
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  2, 0: Unable to import 'ansible.utils.path' (import-error)
+C:  5, 0: Constant name "mock_unfrackpath_noop" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+-------------------------------------
+Your code has been rated at -13.33/10
+

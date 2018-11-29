@@ -1,0 +1,33 @@
+************* Module ansible.modules.packaging.os.pkgutil
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 11, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 69, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 72, 0: Missing function docstring (missing-docstring)
+C: 76, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+R: 77, 4: The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)
+R: 77, 4: Unnecessary "else" after "return" (no-else-return)
+W: 76,13: Unused variable 'err' (unused-variable)
+W: 76, 8: Unused variable 'out' (unused-variable)
+C: 83, 0: Missing function docstring (missing-docstring)
+C: 89, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W: 89,13: Unused variable 'err' (unused-variable)
+W: 89, 4: Unused variable 'rc' (unused-variable)
+C: 96, 0: Missing function docstring (missing-docstring)
+C:102, 0: Missing function docstring (missing-docstring)
+C:111, 5: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:115, 0: Missing function docstring (missing-docstring)
+C:122, 5: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:126, 0: Missing function docstring (missing-docstring)
+C:128, 5: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:132, 0: Missing function docstring (missing-docstring)
+C:146, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:157,13: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:173,13: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:187,17: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:201,13: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+R:132, 0: Too many branches (32/12) (too-many-branches)
+R:132, 0: Too many statements (75/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 7.69/10
+

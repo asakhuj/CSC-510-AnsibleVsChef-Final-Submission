@@ -1,0 +1,27 @@
+************* Module ansible.modules.cloud.amazon.ec2_metric_alarm
+C:218, 0: Line too long (139/100) (line-too-long)
+C:222, 0: Line too long (125/100) (line-too-long)
+C:224, 0: Line too long (152/100) (line-too-long)
+C:294, 0: Line too long (104/100) (line-too-long)
+C:298, 0: Line too long (146/100) (line-too-long)
+C:299, 0: Line too long (154/100) (line-too-long)
+C:300, 0: Line too long (155/100) (line-too-long)
+C:301, 0: Line too long (106/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:165, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:166, 0: Import "from ansible.module_utils.ec2 import AnsibleAWSError, HAS_BOTO, connect_to_aws, ec2_argument_spec, get_aws_connection_info" should be placed at the top of the module (wrong-import-position)
+C:170, 0: Missing function docstring (missing-docstring)
+R:170, 0: Too many local variables (28/15) (too-many-locals)
+C:211,34: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:248,34: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:170, 0: Too many statements (51/50) (too-many-statements)
+C:272, 0: Missing function docstring (missing-docstring)
+C:281,34: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:287, 0: Missing function docstring (missing-docstring)
+C:324,56: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:319,12: Unused variable 'ec2_url' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 7.71/10
+

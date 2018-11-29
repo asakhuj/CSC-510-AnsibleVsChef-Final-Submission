@@ -1,0 +1,18 @@
+************* Module ansible.modules.packaging.language.cpanm
+C:139, 0: Line too long (106/100) (line-too-long)
+C:140, 0: Line too long (104/100) (line-too-long)
+C:211, 0: Line too long (115/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:121, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:123, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+W:135, 9: Unused variable 'stdout' (unused-variable)
+W:135,17: Unused variable 'stderr' (unused-variable)
+W:126,50: Unused argument 'cpanm' (unused-argument)
+R:139, 0: Too many arguments (9/5) (too-many-arguments)
+C:176, 0: Missing function docstring (missing-docstring)
+R:176, 0: Too many local variables (18/15) (too-many-locals)
+
+-----------------------------------
+Your code has been rated at 7.97/10
+

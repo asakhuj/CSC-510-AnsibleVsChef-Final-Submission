@@ -1,0 +1,18 @@
+************* Module ansible.modules.net_tools.ldap.ldap_passwd
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 70, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 71, 0: Import "from ansible.module_utils.ldap import LdapGeneric, gen_specs" should be placed at the top of the module (wrong-import-position)
+C: 81, 0: Missing class docstring (missing-docstring)
+C: 88, 4: Missing method docstring (missing-docstring)
+C: 91,33: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C: 97,37: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:104,33: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:111, 4: Missing method docstring (missing-docstring)
+C:119,33: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:136, 4: Redefining name 'ldap' from outer scope (line 74) (redefined-outer-name)
+C:126, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.59/10
+

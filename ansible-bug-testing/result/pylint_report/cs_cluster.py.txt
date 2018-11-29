@@ -1,0 +1,16 @@
+************* Module ansible.modules.cloud.cloudstack.cs_cluster
+C:243, 0: Line too long (125/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:199, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:200, 0: Import "from ansible.module_utils.cloudstack import AnsibleCloudStack, cs_argument_spec, cs_required_together, CS_HYPERVISORS" should be placed at the top of the module (wrong-import-position)
+C:208, 0: Missing class docstring (missing-docstring)
+C:235, 4: Missing method docstring (missing-docstring)
+R:235, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:245, 4: Missing method docstring (missing-docstring)
+C:266, 4: Missing method docstring (missing-docstring)
+C:326, 4: Missing method docstring (missing-docstring)
+C:341, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.94/10
+

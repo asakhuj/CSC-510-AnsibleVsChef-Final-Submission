@@ -1,0 +1,33 @@
+************* Module ansible.modules.database.vertica.vertica_configuration
+C:112, 0: Line too long (110/100) (line-too-long)
+C:120, 0: Line too long (110/100) (line-too-long)
+C:121, 0: Line too long (105/100) (line-too-long)
+C:181, 0: Line too long (104/100) (line-too-long)
+C:183, 0: Line too long (104/100) (line-too-long)
+C:190, 0: Line too long (125/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 67, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C: 72, 4: Constant name "pyodbc_found" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 74, 4: Constant name "pyodbc_found" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 76, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 77, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 80, 0: Missing class docstring (missing-docstring)
+C: 84, 0: Missing class docstring (missing-docstring)
+C: 90, 0: Missing function docstring (missing-docstring)
+C:110, 0: Missing function docstring (missing-docstring)
+C:117, 0: Missing function docstring (missing-docstring)
+C:130, 0: Missing function docstring (missing-docstring)
+C:148, 4: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+C:150, 8: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+W:167,11: Catching too general exception Exception (broad-except)
+C:167,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:187,11: Catching too general exception Exception (broad-except)
+C:178,35: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:180,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:182,30: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:187,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.32/10
+

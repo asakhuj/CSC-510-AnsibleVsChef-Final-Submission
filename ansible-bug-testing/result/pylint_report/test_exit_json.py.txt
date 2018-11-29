@@ -1,0 +1,32 @@
+************* Module units.module_utils.basic.test_exit_json
+C: 32, 0: Line too long (104/100) (line-too-long)
+C:100, 0: Line too long (114/100) (line-too-long)
+C:112, 0: Line too long (114/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+W: 17, 0: Class has no __init__ method (no-init)
+C: 33, 4: Argument name "am" doesn't conform to snake_case naming style (invalid-name)
+C: 33, 4: Missing method docstring (missing-docstring)
+W: 38,13: Unused variable 'err' (unused-variable)
+R: 33, 4: Method could be a function (no-self-use)
+C: 47, 4: Argument name "am" doesn't conform to snake_case naming style (invalid-name)
+C: 47, 4: Missing method docstring (missing-docstring)
+W: 52,13: Unused variable 'err' (unused-variable)
+R: 47, 4: Method could be a function (no-self-use)
+C: 59, 4: Argument name "am" doesn't conform to snake_case naming style (invalid-name)
+C: 59, 4: Missing method docstring (missing-docstring)
+R: 59, 4: Method could be a function (no-self-use)
+W: 65, 0: Class has no __init__ method (no-init)
+C:103, 4: Argument name "am" doesn't conform to snake_case naming style (invalid-name)
+C:103, 4: Missing method docstring (missing-docstring)
+W:106,13: Unused variable 'err' (unused-variable)
+R:103, 4: Method could be a function (no-self-use)
+C:115, 4: Argument name "am" doesn't conform to snake_case naming style (invalid-name)
+C:115, 4: Missing method docstring (missing-docstring)
+W:118,12: Expression "am.fail_json(**return_val) == expected" is assigned to nothing (expression-not-assigned)
+W:119,13: Unused variable 'err' (unused-variable)
+R:115, 4: Method could be a function (no-self-use)
+
+-----------------------------------
+Your code has been rated at 3.25/10
+

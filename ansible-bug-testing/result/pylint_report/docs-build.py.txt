@@ -1,0 +1,18 @@
+************* Module docs-build
+C: 21, 0: Line too long (107/100) (line-too-long)
+C: 40, 0: Line too long (107/100) (line-too-long)
+C: 41, 0: Line too long (102/100) (line-too-long)
+C: 49, 0: Line too long (115/100) (line-too-long)
+C: 50, 0: Line too long (114/100) (line-too-long)
+C: 51, 0: Line too long (103/100) (line-too-long)
+C: 56, 0: Line too long (137/100) (line-too-long)
+C: 66, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 93, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:  1, 0: Module name "docs-build" doesn't conform to snake_case naming style (invalid-name)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Missing function docstring (missing-docstring)
+R:  9, 0: Too many local variables (20/15) (too-many-locals)
+
+-----------------------------------
+Your code has been rated at 8.31/10
+

@@ -1,0 +1,37 @@
+************* Module units.modules.system.test_known_hosts
+C: 15, 0: Line too long (107/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  3, 0: Unable to import 'ansible.module_utils' (import-error)
+E:  6, 0: Unable to import 'ansible.module_utils._text' (import-error)
+E:  7, 0: Unable to import 'ansible.module_utils.basic' (import-error)
+E:  9, 0: Unable to import 'ansible.modules.system.known_hosts' (import-error)
+C: 12, 0: Missing class docstring (missing-docstring)
+C: 21, 4: Missing method docstring (missing-docstring)
+C: 32, 4: Missing method docstring (missing-docstring)
+C: 45, 4: Missing method docstring (missing-docstring)
+C: 59, 4: Missing method docstring (missing-docstring)
+C: 73, 4: Missing method docstring (missing-docstring)
+C: 87, 4: Missing method docstring (missing-docstring)
+C:100, 4: Missing method docstring (missing-docstring)
+W:101, 8: Access to a protected member _load_params of a client class (protected-access)
+R:100, 4: Method could be a function (no-self-use)
+C:  6, 0: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 3.53/10
+
+************* Module units.module_utils.test_known_hosts
+C: 93, 0: Line too long (110/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 14, 0: Unable to import 'ansible.module_utils' (import-error)
+C: 89, 0: Missing function docstring (missing-docstring)
+C: 94, 0: Missing function docstring (missing-docstring)
+C:102, 0: Argument name "am" doesn't conform to snake_case naming style (invalid-name)
+C:102, 0: Missing function docstring (missing-docstring)
+W:  9, 0: Unused import json (unused-import)
+W: 10, 0: Unused import os.path (unused-import)
+
+-----------------------------------
+Your code has been rated at 4.40/10
+

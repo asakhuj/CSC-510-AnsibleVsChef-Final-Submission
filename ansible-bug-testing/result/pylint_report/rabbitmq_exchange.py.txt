@@ -1,0 +1,34 @@
+************* Module ansible.modules.messaging.rabbitmq.rabbitmq_exchange
+C:121, 0: Line too long (116/100) (line-too-long)
+C:127, 0: Line too long (104/100) (line-too-long)
+C:149, 0: Wrong hanging indentation before block (add 4 spaces).
+            response['durable'] == module.params['durable'] and
+            ^   | (bad-continuation)
+C:150, 0: Wrong hanging indentation before block (add 4 spaces).
+            response['auto_delete'] == module.params['auto_delete'] and
+            ^   | (bad-continuation)
+C:151, 0: Wrong hanging indentation before block (add 4 spaces).
+            response['internal'] == module.params['internal'] and
+            ^   | (bad-continuation)
+C:152, 0: Wrong hanging indentation before block (add 4 spaces).
+            response['type'] == module.params['exchange_type']
+            ^   | (bad-continuation)
+C:183, 0: Line too long (105/100) (line-too-long)
+C:184, 0: Line too long (115/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 83, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C: 91, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+E: 92, 0: No name 'urllib' in module '_MovedItems' (no-name-in-module)
+E: 92, 0: Unable to import 'ansible.module_utils.six.moves.urllib' (import-error)
+C: 92, 0: Import "from ansible.module_utils.six.moves.urllib import parse as urllib_parse" should be placed at the top of the module (wrong-import-position)
+C: 93, 0: Import "from ansible.module_utils.rabbitmq import rabbitmq_argument_spec" should be placed at the top of the module (wrong-import-position)
+C: 96, 0: Missing function docstring (missing-docstring)
+C:126, 4: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:168,12: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:183,12: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+R: 96, 0: Too many branches (15/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 4.53/10
+

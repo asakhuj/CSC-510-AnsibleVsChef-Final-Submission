@@ -1,0 +1,32 @@
+************* Module ansible.modules.storage.netapp.na_ontap_fcp
+C: 91, 0: Line too long (114/100) (line-too-long)
+C:115, 0: Wrong continued indentation (remove 4 spaces).
+                                      (to_native(error)),
+                                  |   ^ (bad-continuation)
+C:127, 0: Wrong continued indentation (remove 4 spaces).
+                                      (to_native(error)),
+                                  |   ^ (bad-continuation)
+C:136, 0: Line too long (101/100) (line-too-long)
+C:139, 0: Wrong continued indentation (remove 4 spaces).
+                                      (to_native(error)),
+                                  |   ^ (bad-continuation)
+C:159, 0: Line too long (109/100) (line-too-long)
+C:163, 0: Wrong continued indentation (remove 4 spaces).
+                                      (to_native(error)),
+                                  |   ^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 57, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C: 59, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 60, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 61, 0: Import "import ansible.module_utils.netapp as netapp_utils" should be placed at the top of the module (wrong-import-position)
+C: 62, 0: Import "from ansible.module_utils.netapp_module import NetAppModule" should be placed at the top of the module (wrong-import-position)
+C:142, 4: Missing method docstring (missing-docstring)
+R:151, 8: The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)
+R:151, 8: Unnecessary "else" after "return" (no-else-return)
+C:157, 4: Missing method docstring (missing-docstring)
+C:166, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.82/10
+

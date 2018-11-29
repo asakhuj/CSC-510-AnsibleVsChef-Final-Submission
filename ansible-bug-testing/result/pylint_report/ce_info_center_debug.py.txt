@@ -1,0 +1,24 @@
+************* Module ansible.modules.network.cloudengine.ce_info_center_debug
+C:142, 0: Line too long (102/100) (line-too-long)
+C:387, 0: Line too long (106/100) (line-too-long)
+C:391, 0: Line too long (102/100) (line-too-long)
+C:536, 0: Line too long (102/100) (line-too-long)
+C:538, 0: Line too long (106/100) (line-too-long)
+C:595, 0: Line too long (103/100) (line-too-long)
+C:596, 0: Line too long (110/100) (line-too-long)
+C:601, 0: Line too long (105/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:140, 0: Import "from xml.etree import ElementTree" should be placed at the top of the module (wrong-import-position)
+C:141, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:142, 0: Import "from ansible.module_utils.network.cloudengine.ce import get_nc_config, set_nc_config, ce_argument_spec" should be placed at the top of the module (wrong-import-position)
+R:242, 0: Too many instance attributes (16/7) (too-many-instance-attributes)
+R:280, 8: Too many nested blocks (6/5) (too-many-nested-blocks)
+R:273, 4: Too many branches (14/12) (too-many-branches)
+R:331, 8: Too many nested blocks (6/5) (too-many-nested-blocks)
+R:324, 4: Too many branches (28/12) (too-many-branches)
+R:324, 4: Too many statements (58/50) (too-many-statements)
+R:519, 4: Too many branches (13/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 9.28/10
+

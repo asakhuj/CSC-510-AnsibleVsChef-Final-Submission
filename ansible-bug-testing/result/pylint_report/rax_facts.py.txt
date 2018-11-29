@@ -1,0 +1,21 @@
+************* Module ansible.modules.cloud.rackspace.rax_facts
+C: 63, 0: Wrong continued indentation (remove 1 space).
+                                      )
+                                     |^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 58, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 59, 0: Import "from ansible.module_utils.rax import rax_argument_spec, rax_required_together, rax_to_dict, setup_rax_module" should be placed at the top of the module (wrong-import-position)
+C: 66, 0: Missing function docstring (missing-docstring)
+C: 69, 4: Variable name "cs" doesn't conform to snake_case naming style (invalid-name)
+W: 83,15: Catching too general exception Exception (broad-except)
+C: 83,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W: 93,15: Catching too general exception Exception (broad-except)
+C: 93,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W: 99,15: Catching too general exception Exception (broad-except)
+C: 99,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:113, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.67/10
+

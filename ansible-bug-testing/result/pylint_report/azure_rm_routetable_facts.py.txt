@@ -1,0 +1,19 @@
+************* Module ansible.modules.cloud.azure.azure_rm_routetable_facts
+C:170, 0: Line too long (114/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+W:101, 0: No exception type(s) specified (bare-except)
+E:100, 4: Unable to import 'msrestazure.azure_exceptions' (import-error)
+C:105, 0: Import "from ansible.module_utils.azure_rm_common import AzureRMModuleBase, azure_id_to_dict" should be placed at the top of the module (wrong-import-position)
+C:106, 0: Import "from ansible.module_utils.common.dict_transformations import _camel_to_snake" should be placed at the top of the module (wrong-import-position)
+C:109, 0: Missing function docstring (missing-docstring)
+C:122, 0: Missing function docstring (missing-docstring)
+C:134, 0: Missing class docstring (missing-docstring)
+C:173, 4: Missing method docstring (missing-docstring)
+C:182, 4: Missing method docstring (missing-docstring)
+C:190, 4: Missing method docstring (missing-docstring)
+C:199, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.10/10
+

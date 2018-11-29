@@ -1,0 +1,30 @@
+************* Module ansible.modules.network.ios.ios_logging
+C:196, 0: Line too long (105/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:121, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:123, 0: Import "from copy import deepcopy" should be placed at the top of the module (wrong-import-position)
+C:124, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:125, 0: Import "from ansible.module_utils.network.common.utils import remove_default_spec, validate_ip_address" should be placed at the top of the module (wrong-import-position)
+C:126, 0: Import "from ansible.module_utils.network.ios.ios import get_config, load_config" should be placed at the top of the module (wrong-import-position)
+C:127, 0: Import "from ansible.module_utils.network.ios.ios import get_capabilities" should be placed at the top of the module (wrong-import-position)
+C:128, 0: Import "from ansible.module_utils.network.ios.ios import ios_argument_spec, check_args" should be placed at the top of the module (wrong-import-position)
+C:131, 0: Missing function docstring (missing-docstring)
+R:131, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:139, 0: Missing function docstring (missing-docstring)
+R:139, 0: Too many local variables (17/15) (too-many-locals)
+C:143, 8: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+R:139, 0: Too many branches (27/12) (too-many-branches)
+R:139, 0: Too many statements (54/50) (too-many-statements)
+C:214, 0: Missing function docstring (missing-docstring)
+C:224, 0: Missing function docstring (missing-docstring)
+C:238, 0: Missing function docstring (missing-docstring)
+C:249, 0: Missing function docstring (missing-docstring)
+C:270, 0: Missing function docstring (missing-docstring)
+C:310, 0: Missing function docstring (missing-docstring)
+W:320,12: Access to a protected member _check_required_if of a client class (protected-access)
+C:322,12: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+R:310, 0: Too many branches (17/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 8.61/10
+

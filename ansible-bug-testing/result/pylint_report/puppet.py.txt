@@ -1,0 +1,22 @@
+************* Module ansible.modules.system.puppet
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:114, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C:115, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:116, 0: Import "import pipes" should be placed at the top of the module (wrong-import-position)
+C:117, 0: Import "import stat" should be placed at the top of the module (wrong-import-position)
+C:119, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+R:123, 4: Unnecessary "else" after "return" (no-else-return)
+E:123, 7: Module 'os' has no 'getuid' member; maybe 'getpid'? (no-member)
+C:144, 0: Missing function docstring (missing-docstring)
+C:173, 4: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+W:175, 4: Global variable 'PUPPET_CMD' undefined at the module level (global-variable-undefined)
+W:182, 4: Global variable 'TIMEOUT_CMD' undefined at the module level (global-variable-undefined)
+C:193, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:263, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+R:144, 0: Too many branches (38/12) (too-many-branches)
+R:144, 0: Too many statements (84/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 7.90/10
+

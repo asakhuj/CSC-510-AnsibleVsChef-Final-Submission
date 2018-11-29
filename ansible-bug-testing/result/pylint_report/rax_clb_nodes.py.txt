@@ -1,0 +1,31 @@
+************* Module ansible.modules.cloud.rackspace.rax_clb_nodes
+C:123, 0: Line too long (117/100) (line-too-long)
+C:194, 0: Wrong hanging indentation (remove 17 spaces).
+                                 virtualenv, e))
+                |                ^ (bad-continuation)
+C:267, 0: Wrong hanging indentation (remove 4 spaces).
+                    (wait_timeout, lb.status.lower()))
+                |   ^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:114, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:122, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:123, 0: Import "from ansible.module_utils.rax import rax_argument_spec, rax_clb_node_to_dict, rax_required_together, setup_rax_module" should be placed at the top of the module (wrong-import-position)
+C:128,32: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+W:130, 8: Use of exec (exec-used)
+C:133, 0: Argument name "lb" doesn't conform to snake_case naming style (invalid-name)
+C:150, 0: Missing function docstring (missing-docstring)
+R:150, 0: Too many local variables (25/15) (too-many-locals)
+C:192,26: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:204, 8: Variable name "lb" doesn't conform to snake_case naming style (invalid-name)
+C:205,39: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:220,43: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:237,51: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:258,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:235,20: Unused variable 'resp' (unused-variable)
+R:150, 0: Too many branches (21/12) (too-many-branches)
+R:150, 0: Too many statements (72/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 7.84/10
+

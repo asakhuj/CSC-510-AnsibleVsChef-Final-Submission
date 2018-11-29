@@ -1,0 +1,15 @@
+************* Module no-illegal-filenames
+C: 62, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 65, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 71, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:  1, 0: Module name "no-illegal-filenames" doesn't conform to snake_case naming style (invalid-name)
+C:  1, 0: Missing module docstring (missing-docstring)
+E: 11, 0: Unable to import 'ansible.module_utils.basic' (import-error)
+C: 56, 0: Missing function docstring (missing-docstring)
+W: 58, 4: Unused variable 'parent' (unused-variable)
+W: 59,10: Unused variable 'ext' (unused-variable)
+C: 74, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 6.00/10
+

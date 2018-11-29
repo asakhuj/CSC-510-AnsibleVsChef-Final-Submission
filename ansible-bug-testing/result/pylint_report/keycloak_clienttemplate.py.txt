@@ -1,0 +1,18 @@
+************* Module ansible.modules.identity.keycloak.keycloak_clienttemplate
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:248, 0: Import "from ansible.module_utils.keycloak import KeycloakAPI, camel, keycloak_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:249, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+R:252, 0: Too many local variables (17/15) (too-many-locals)
+C:291, 4: Variable name "kc" doesn't conform to snake_case naming style (invalid-name)
+W:339,15: Access to a protected member _diff of a client class (protected-access)
+W:349,11: Access to a protected member _diff of a client class (protected-access)
+W:368,19: Access to a protected member _diff of a client class (protected-access)
+W:379,15: Access to a protected member _diff of a client class (protected-access)
+W:389,15: Access to a protected member _diff of a client class (protected-access)
+R:252, 0: Too many branches (21/12) (too-many-branches)
+R:252, 0: Too many statements (78/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 8.51/10
+

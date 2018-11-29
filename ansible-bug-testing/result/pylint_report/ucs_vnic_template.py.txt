@@ -1,0 +1,25 @@
+************* Module ansible.modules.remote_management.ucs.ucs_vnic_template
+C:218, 0: Line too long (118/100) (line-too-long)
+C:242, 0: Line too long (116/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:204, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:205, 0: Import "from ansible.module_utils.remote_management.ucs import UCSModule, ucs_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:208, 0: Missing function docstring (missing-docstring)
+R:208, 0: Too many local variables (16/15) (too-many-locals)
+E:243, 4: Unable to import 'ucsmsdk.mometa.vnic.VnicLanConnTempl' (import-error)
+E:244, 4: Unable to import 'ucsmsdk.mometa.vnic.VnicEtherIf' (import-error)
+W:366,11: Catching too general exception Exception (broad-except)
+C:251, 8: Variable name "dn" doesn't conform to snake_case naming style (invalid-name)
+C:253, 8: Variable name "mo" doesn't conform to snake_case naming style (invalid-name)
+R:247, 4: Too many nested blocks (9/5) (too-many-nested-blocks)
+C:320,24: Variable name "mo" doesn't conform to snake_case naming style (invalid-name)
+C:330,24: Variable name "mo" doesn't conform to snake_case naming style (invalid-name)
+C:366,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:247, 4: Too many nested blocks (7/5) (too-many-nested-blocks)
+R:208, 0: Too many branches (31/12) (too-many-branches)
+R:208, 0: Too many statements (86/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 7.02/10
+

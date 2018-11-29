@@ -1,0 +1,17 @@
+************* Module ansible.modules.cloud.ovirt.ovirt_quota
+C:176, 0: Line too long (107/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:139, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:141, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:142, 0: Import "from ansible.module_utils.ovirt import BaseModule, check_sdk, create_connection, equal, get_link_name, ovirt_full_argument_spec, search_by_name" should be placed at the top of the module (wrong-import-position)
+C:153, 0: Missing class docstring (missing-docstring)
+C:166, 4: Missing method docstring (missing-docstring)
+C:184, 4: Missing method docstring (missing-docstring)
+C:225, 0: Missing function docstring (missing-docstring)
+R:225, 0: Too many local variables (16/15) (too-many-locals)
+W:300,11: Catching too general exception Exception (broad-except)
+C:300,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.29/10
+

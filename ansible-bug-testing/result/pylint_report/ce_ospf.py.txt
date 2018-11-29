@@ -1,0 +1,25 @@
+************* Module ansible.modules.network.cloudengine.ce_ospf
+C:141, 0: Line too long (102/100) (line-too-long)
+C:462, 0: Line too long (110/100) (line-too-long)
+C:519, 0: Line too long (113/100) (line-too-long)
+C:609, 0: Line too long (116/100) (line-too-long)
+C:646, 0: Line too long (101/100) (line-too-long)
+C:685, 0: Line too long (116/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:139, 0: Import "from xml.etree import ElementTree" should be placed at the top of the module (wrong-import-position)
+C:140, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:141, 0: Import "from ansible.module_utils.network.cloudengine.ce import get_nc_config, set_nc_config, ce_argument_spec" should be placed at the top of the module (wrong-import-position)
+R:340, 0: Too many instance attributes (21/7) (too-many-instance-attributes)
+R:430, 4: Too many local variables (20/15) (too-many-locals)
+R:475, 8: Too many nested blocks (7/5) (too-many-nested-blocks)
+R:430, 4: Too many branches (19/12) (too-many-branches)
+R:546,16: Unnecessary "else" after "return" (no-else-return)
+R:629, 4: Too many branches (16/12) (too-many-branches)
+R:748, 4: Method could be a function (no-self-use)
+C:770, 8: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+R:775, 4: Too many branches (26/12) (too-many-branches)
+R:340, 0: Too many public methods (22/20) (too-many-public-methods)
+
+-----------------------------------
+Your code has been rated at 9.52/10
+

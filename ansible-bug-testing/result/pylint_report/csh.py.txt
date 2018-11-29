@@ -1,0 +1,8 @@
+************* Module ansible.plugins.shell.csh
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 21, 0: Missing class docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.24/10
+

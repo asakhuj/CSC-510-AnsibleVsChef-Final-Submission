@@ -1,0 +1,25 @@
+************* Module units.modules.network.slxos.test_slxos_command
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 25, 0: Unable to import 'ansible.modules.network.slxos' (import-error)
+C: 30, 0: Missing class docstring (missing-docstring)
+C: 46, 8: Missing function docstring (missing-docstring)
+W: 47,12: Unused variable 'module' (unused-variable)
+W: 46, 0: Unused argument 'kwargs' (unused-argument)
+C: 62, 4: Missing method docstring (missing-docstring)
+C: 68, 4: Missing method docstring (missing-docstring)
+C: 74, 4: Missing method docstring (missing-docstring)
+C: 79, 4: Method name "test_slxos_command_wait_for_fails" doesn't conform to snake_case naming style (invalid-name)
+C: 79, 4: Missing method docstring (missing-docstring)
+C: 85, 4: Missing method docstring (missing-docstring)
+C: 91, 4: Missing method docstring (missing-docstring)
+C: 97, 4: Missing method docstring (missing-docstring)
+C:103, 4: Method name "test_slxos_command_match_all_failure" doesn't conform to snake_case naming style (invalid-name)
+C:103, 4: Missing method docstring (missing-docstring)
+C:110, 4: Method name "test_slxos_command_configure_error" doesn't conform to snake_case naming style (invalid-name)
+C:110, 4: Missing method docstring (missing-docstring)
+C: 26, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 6.67/10
+

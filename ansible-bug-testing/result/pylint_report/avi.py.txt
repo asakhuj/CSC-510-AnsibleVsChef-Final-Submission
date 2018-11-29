@@ -1,0 +1,19 @@
+************* Module ansible.module_utils.network.avi.avi
+C: 42, 0: Line too long (105/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 41, 4: Constant name "sdk_version" doesn't conform to UPPER_CASE naming style (invalid-name)
+E: 41,26: Module 'avi' has no 'sdk' member (no-member)
+R: 66, 0: Too many arguments (6/5) (too-many-arguments)
+W: 45, 4: Unused avi_ansible_api imported from avi.sdk.utils.ansible_utils (unused-import)
+
+-----------------------------------
+Your code has been rated at 5.00/10
+
+************* Module ansible.utils.module_docs_fragments.avi
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 24, 0: Missing class docstring (missing-docstring)
+R: 24, 0: Too few public methods (0/2) (too-few-public-methods)
+
+------------------------------------
+Your code has been rated at -5.00/10
+

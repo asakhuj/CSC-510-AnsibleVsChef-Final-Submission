@@ -1,0 +1,86 @@
+************* Module ansible.modules.storage.netapp.netapp_e_volume_copy
+C:137, 0: Line too long (115/100) (line-too-long)
+C:151, 0: Line too long (115/100) (line-too-long)
+C:165, 0: Line too long (115/100) (line-too-long)
+C:179, 0: Line too long (118/100) (line-too-long)
+C:195, 0: Line too long (118/100) (line-too-long)
+C:214, 0: Line too long (118/100) (line-too-long)
+C:264, 0: Wrong continued indentation (add 19 spaces).
+        mutually_exclusive=[['volume_copy_pair_id', 'destination_volume_id'],
+        ^                  | (bad-continuation)
+C:269, 0: Wrong continued indentation (remove 1 space).
+                            ],
+                           |^ (bad-continuation)
+C:270, 0: Wrong continued indentation (add 19 spaces).
+        required_together=[['source_volume_id', 'destination_volume_id'],
+        ^                  | (bad-continuation)
+C:271, 0: Wrong continued indentation (remove 1 space).
+                           ],
+                          |^ (bad-continuation)
+C:272, 0: Wrong continued indentation (add 19 spaces).
+        required_if=[["create_copy_pair_if_does_not_exist", True, ['source_volume_id', 'destination_volume_id'], ],
+        ^                  | (bad-continuation)
+C:272, 0: Line too long (115/100) (line-too-long)
+C:275, 0: Wrong continued indentation (remove 1 space).
+                     ]
+                    |^ (bad-continuation)
+C:277, 0: Wrong continued indentation (add 22 spaces).
+    )
+    ^                     | (bad-continuation)
+C:288, 0: Line too long (104/100) (line-too-long)
+C:291, 0: Line too long (145/100) (line-too-long)
+C:308, 0: Line too long (109/100) (line-too-long)
+C:316, 0: Line too long (106/100) (line-too-long)
+C:342, 0: Line too long (117/100) (line-too-long)
+C:353, 0: Line too long (103/100) (line-too-long)
+C:355, 0: Line too long (105/100) (line-too-long)
+C:360, 0: Line too long (115/100) (line-too-long)
+C:365, 0: Line too long (108/100) (line-too-long)
+C:369, 0: Line too long (143/100) (line-too-long)
+C:370, 0: Wrong hanging indentation (remove 4 spaces).
+                            params['volume_copy_pair_id'])
+                        |   ^ (bad-continuation)
+C:381, 0: Line too long (117/100) (line-too-long)
+C:385, 0: Line too long (106/100) (line-too-long)
+C:389, 0: Line too long (109/100) (line-too-long)
+C:393, 0: Line too long (116/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 98, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C:100, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:101, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:102, 0: Import "from ansible.module_utils.netapp import request" should be placed at the top of the module (wrong-import-position)
+C:110, 0: Function name "find_volume_copy_pair_id_from_source_volume_id_and_destination_volume_id" doesn't conform to snake_case naming style (invalid-name)
+C:110, 0: Missing function docstring (missing-docstring)
+C:114, 5: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W:114, 5: Unused variable 'rc' (unused-variable)
+C:127, 0: Missing function docstring (missing-docstring)
+C:131, 4: Variable name "rData" doesn't conform to snake_case naming style (invalid-name)
+C:136, 5: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+R:139, 4: Unnecessary "else" after "return" (no-else-return)
+C:145, 0: Function name "delete_copy_pair_by_copy_pair_id" doesn't conform to snake_case naming style (invalid-name)
+C:145, 0: Missing function docstring (missing-docstring)
+C:150, 5: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+R:153, 4: Unnecessary "else" after "return" (no-else-return)
+C:159, 0: Function name "find_volume_copy_pair_id_by_volume_copy_pair_id" doesn't conform to snake_case naming style (invalid-name)
+C:159, 0: Missing function docstring (missing-docstring)
+C:164, 5: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+R:167, 4: Unnecessary "else" after "return" (no-else-return)
+C:173, 0: Missing function docstring (missing-docstring)
+R:183, 4: Unnecessary "else" after "return" (no-else-return)
+C:189, 0: Missing function docstring (missing-docstring)
+R:199, 4: Unnecessary "else" after "return" (no-else-return)
+R:200, 8: Unnecessary "else" after "return" (no-else-return)
+C:209, 0: Function name "find_valid_copy_pair_targets_and_sources" doesn't conform to snake_case naming style (invalid-name)
+C:209, 0: Missing function docstring (missing-docstring)
+C:246, 0: Missing function docstring (missing-docstring)
+R:246, 0: Too many local variables (18/15) (too-many-locals)
+W:287,15: Catching too general exception Exception (broad-except)
+C:287,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:350,32: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+R:246, 0: Too many branches (27/12) (too-many-branches)
+R:246, 0: Too many statements (58/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 5.15/10
+

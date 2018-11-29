@@ -1,0 +1,15 @@
+************* Module ovirt4
+C: 79, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:227, 0: Wrong hanging indentation before block (add 4 spaces).
+                    v.name for v in connection.follow_link(group.vms)
+                    ^   | (bad-continuation)
+C:144, 0: Argument name "vm" doesn't conform to snake_case naming style (invalid-name)
+R:188, 0: Too many local variables (17/15) (too-many-locals)
+C:196, 8: Variable name "vm" doesn't conform to snake_case naming style (invalid-name)
+C:204,12: Variable name "vm" doesn't conform to snake_case naming style (invalid-name)
+C:243, 0: Missing function docstring (missing-docstring)
+W: 77, 4: Unused ovirtsdk4.types imported as otypes (unused-import)
+
+------------------------------------------------------------------
+Your code has been rated at 8.92/10 (previous run: 8.92/10, +0.00)
+

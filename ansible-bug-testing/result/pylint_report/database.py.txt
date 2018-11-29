@@ -1,0 +1,13 @@
+************* Module ansible.module_utils.database
+C:117, 0: Line too long (134/100) (line-too-long)
+C:124, 0: Line too long (132/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 30, 0: Missing class docstring (missing-docstring)
+C: 34, 0: Missing class docstring (missing-docstring)
+R: 67, 0: Too many branches (13/12) (too-many-branches)
+C:114, 0: Missing function docstring (missing-docstring)
+C:121, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.96/10
+

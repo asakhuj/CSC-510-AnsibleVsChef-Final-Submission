@@ -1,0 +1,11 @@
+************* Module units.modules.cloud.google.test_gcp_forwarding_rule
+C: 22, 0: Line too long (123/100) (line-too-long)
+C: 23, 0: Line too long (123/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  3, 0: Unable to import 'ansible.modules.cloud.google.gcp_forwarding_rule' (import-error)
+C: 18, 4: Method name "test__build_global_forwarding_rule_dict" doesn't conform to snake_case naming style (invalid-name)
+C: 18, 4: Missing method docstring (missing-docstring)
+
+------------------------------------
+Your code has been rated at -2.50/10
+

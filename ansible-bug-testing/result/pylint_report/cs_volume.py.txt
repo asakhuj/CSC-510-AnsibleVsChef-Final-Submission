@@ -1,0 +1,20 @@
+************* Module ansible.modules.cloud.cloudstack.cs_volume
+C:360, 0: Line too long (144/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:217, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:218, 0: Import "from ansible.module_utils.cloudstack import AnsibleCloudStack, cs_required_together, cs_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:225, 0: Missing class docstring (missing-docstring)
+C:239, 4: Missing method docstring (missing-docstring)
+C:253,20: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:259, 4: Missing method docstring (missing-docstring)
+R:259, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:275, 4: Missing method docstring (missing-docstring)
+C:314, 4: Missing method docstring (missing-docstring)
+C:339, 4: Missing method docstring (missing-docstring)
+C:355, 4: Missing method docstring (missing-docstring)
+C:372, 4: Missing method docstring (missing-docstring)
+C:398, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.79/10
+

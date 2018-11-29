@@ -1,0 +1,29 @@
+************* Module ansible.modules.cloud.vmware.vmware_vm_shell
+C:216, 0: Line too long (111/100) (line-too-long)
+C:222, 0: Line too long (105/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:189, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C:195, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:196, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:197, 0: Import "from ansible.module_utils.vmware import PyVmomi, find_cluster_by_name, find_datacenter_by_name, find_vm_by_id, vmware_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:208, 8: Attribute name "pm" doesn't conform to snake_case naming style (invalid-name)
+C:202, 0: Missing class docstring (missing-docstring)
+C:225,12: Variable name "vm" doesn't conform to snake_case naming style (invalid-name)
+C:230,12: Variable name "vm" doesn't conform to snake_case naming style (invalid-name)
+W:249,15: Catching too general exception Exception (broad-except)
+C:249,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:252, 4: Argument name "vm" doesn't conform to snake_case naming style (invalid-name)
+C:252, 4: Missing method docstring (missing-docstring)
+C:291, 4: Argument name "vm" doesn't conform to snake_case naming style (invalid-name)
+C:291, 4: Missing method docstring (missing-docstring)
+R:297, 8: Unnecessary "else" after "return" (no-else-return)
+C:302, 4: Argument name "vm" doesn't conform to snake_case naming style (invalid-name)
+C:302, 4: Missing method docstring (missing-docstring)
+W:312,23: Access to a protected member _moId of a client class (protected-access)
+C:321, 0: Missing function docstring (missing-docstring)
+W:350, 4: Unused variable 'vm_shell_mgr' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 7.50/10
+

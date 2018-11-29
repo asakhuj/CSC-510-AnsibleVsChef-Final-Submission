@@ -1,0 +1,12 @@
+************* Module ansible.modules.network.aci.msc_role
+C:166, 0: Line too long (146/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:107, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:108, 0: Import "from ansible.module_utils.network.aci.msc import MSCModule, msc_argument_spec, issubset" should be placed at the top of the module (wrong-import-position)
+C:111, 0: Missing function docstring (missing-docstring)
+R:111, 0: Too many branches (19/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 8.73/10
+

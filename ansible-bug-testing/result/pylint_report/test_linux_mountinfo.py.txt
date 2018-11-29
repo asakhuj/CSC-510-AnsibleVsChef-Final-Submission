@@ -1,0 +1,10 @@
+************* Module units.modules.system.test_linux_mountinfo
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  5, 0: Unable to import 'ansible.module_utils._text' (import-error)
+E:  7, 0: Unable to import 'ansible.modules.system.mount' (import-error)
+C: 10, 0: Missing class docstring (missing-docstring)
+C: 19, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 1.88/10
+

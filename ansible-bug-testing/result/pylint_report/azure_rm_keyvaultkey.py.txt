@@ -1,0 +1,19 @@
+************* Module ansible.modules.cloud.azure.azure_rm_keyvaultkey
+C:206, 0: Line too long (112/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 83, 0: Import "from ansible.module_utils.azure_rm_common import AzureRMModuleBase" should be placed at the top of the module (wrong-import-position)
+R: 98, 0: Too many instance attributes (9/7) (too-many-instance-attributes)
+C:140, 8: Missing function docstring (missing-docstring)
+W:140,34: Unused argument 'resource' (unused-argument)
+W:140,44: Unused argument 'scope' (unused-argument)
+W:140,26: Unused argument 'server' (unused-argument)
+R:216, 4: Too many arguments (11/5) (too-many-arguments)
+R:216, 4: Too many local variables (19/15) (too-many-locals)
+C:267,40: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C:281,42: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C:290, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.88/10
+

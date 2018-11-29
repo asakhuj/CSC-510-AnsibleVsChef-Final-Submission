@@ -1,0 +1,17 @@
+************* Module ansible.module_utils.aws.direct_connect
+C: 82, 0: Line too long (104/100) (line-too-long)
+C: 40, 0: Missing class docstring (missing-docstring)
+W: 41, 4: __init__ method from base class 'Exception' is not called (super-init-not-called)
+C: 47, 0: Missing function docstring (missing-docstring)
+C: 50,46: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C: 56, 0: Missing function docstring (missing-docstring)
+C: 60,46: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C: 67, 0: Missing function docstring (missing-docstring)
+C: 71,46: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C: 78, 0: Missing function docstring (missing-docstring)
+C: 81,46: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W: 37, 0: Unused camel_dict_to_snake_dict imported from ansible.module_utils.ec2 (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.13/10
+

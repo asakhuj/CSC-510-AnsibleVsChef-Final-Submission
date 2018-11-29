@@ -1,0 +1,21 @@
+************* Module units.modules.network.onyx.test_onyx_config
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 24, 0: Unable to import 'ansible.modules.network.onyx' (import-error)
+C: 29, 0: Missing class docstring (missing-docstring)
+C: 56, 4: Missing method docstring (missing-docstring)
+C: 61, 4: Missing method docstring (missing-docstring)
+C: 68, 4: Missing method docstring (missing-docstring)
+C: 73, 4: Missing method docstring (missing-docstring)
+C: 82, 4: Method name "test_onyx_config_lines_wo_parents" doesn't conform to snake_case naming style (invalid-name)
+C: 82, 4: Missing method docstring (missing-docstring)
+C: 87, 4: Missing method docstring (missing-docstring)
+C: 92, 4: Missing method docstring (missing-docstring)
+C: 97, 4: Missing method docstring (missing-docstring)
+C:104, 4: Missing method docstring (missing-docstring)
+C:110, 4: Missing method docstring (missing-docstring)
+C: 25, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 7.18/10
+

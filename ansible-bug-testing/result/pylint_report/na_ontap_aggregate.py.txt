@@ -1,0 +1,33 @@
+************* Module ansible.modules.storage.netapp.na_ontap_aggregate
+C:159, 0: Wrong hanging indentation (remove 7 spaces).
+                       'present', 'absent'], default='present'),
+                |      ^ (bad-continuation)
+C:164, 0: Line too long (112/100) (line-too-long)
+C:226, 0: Line too long (101/100) (line-too-long)
+C:227, 0: Line too long (117/100) (line-too-long)
+C:244, 0: Line too long (112/100) (line-too-long)
+C:260, 0: Line too long (112/100) (line-too-long)
+C:273, 0: Wrong continued indentation (remove 1 space).
+                   }
+                  |^ (bad-continuation)
+C:282, 0: Line too long (101/100) (line-too-long)
+C:293, 0: Wrong continued indentation (remove 4 spaces).
+                                      % (self.parameters['name'], to_native(error)),
+                                  |   ^ (bad-continuation)
+C:308, 0: Line too long (118/100) (line-too-long)
+C:323, 0: Wrong continued indentation (remove 4 spaces).
+                                      % (self.parameters['from_name'], to_native(error)),
+                                  |   ^ (bad-continuation)
+C:359, 0: Line too long (106/100) (line-too-long)
+C:361, 0: Line too long (119/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:142, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:144, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:145, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:146, 0: Import "import ansible.module_utils.netapp as netapp_utils" should be placed at the top of the module (wrong-import-position)
+C:147, 0: Import "from ansible.module_utils.netapp_module import NetAppModule" should be placed at the top of the module (wrong-import-position)
+
+-----------------------------------
+Your code has been rated at 8.43/10
+

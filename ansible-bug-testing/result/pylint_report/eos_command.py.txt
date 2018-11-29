@@ -1,0 +1,16 @@
+************* Module ansible.modules.network.eos.eos_command
+C:  1, 0: Missing module docstring (missing-docstring)
+C:154, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C:156, 0: Import "from ansible.module_utils._text import to_text" should be placed at the top of the module (wrong-import-position)
+C:157, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:158, 0: Import "from ansible.module_utils.network.common.parsing import Conditional" should be placed at the top of the module (wrong-import-position)
+C:159, 0: Import "from ansible.module_utils.network.common.utils import transform_commands, to_lines" should be placed at the top of the module (wrong-import-position)
+C:160, 0: Import "from ansible.module_utils.network.eos.eos import run_commands" should be placed at the top of the module (wrong-import-position)
+C:161, 0: Import "from ansible.module_utils.network.eos.eos import eos_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:166, 0: Missing function docstring (missing-docstring)
+C:181, 0: Missing function docstring (missing-docstring)
+R:188, 0: Too many local variables (16/15) (too-many-locals)
+
+-----------------------------------
+Your code has been rated at 8.17/10
+

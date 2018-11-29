@@ -1,0 +1,18 @@
+************* Module units.modules.network.onyx.test_onyx_ospf
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 10, 0: Unable to import 'ansible.modules.network.onyx' (import-error)
+C: 15, 0: Missing class docstring (missing-docstring)
+C: 52, 4: Missing method docstring (missing-docstring)
+C: 56, 4: Missing method docstring (missing-docstring)
+C: 62, 4: Missing method docstring (missing-docstring)
+C: 67, 4: Missing method docstring (missing-docstring)
+C: 74, 4: Missing method docstring (missing-docstring)
+C: 80, 4: Missing method docstring (missing-docstring)
+C: 88, 4: Missing method docstring (missing-docstring)
+C: 93, 4: Missing method docstring (missing-docstring)
+C: 11, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 7.42/10
+

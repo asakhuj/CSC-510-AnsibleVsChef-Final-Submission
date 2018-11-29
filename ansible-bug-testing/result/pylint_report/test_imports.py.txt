@@ -1,0 +1,25 @@
+************* Module units.module_utils.basic.test_imports
+W: 79, 0: FIXME: doesn't work yet (fixme)
+C: 86, 0: Line too long (103/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 16, 0: Unable to import 'ansible.module_utils.six.moves' (import-error)
+C: 18, 0: Constant name "realimport" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 21, 0: Missing class docstring (missing-docstring)
+C: 23, 4: Missing method docstring (missing-docstring)
+R: 23, 4: Method could be a function (no-self-use)
+C: 29, 4: Method name "test_module_utils_basic_import_syslog" doesn't conform to snake_case naming style (invalid-name)
+C: 29, 4: Missing method docstring (missing-docstring)
+C: 45, 4: Method name "test_module_utils_basic_import_selinux" doesn't conform to snake_case naming style (invalid-name)
+C: 45, 4: Missing method docstring (missing-docstring)
+C: 65, 4: Method name "test_module_utils_basic_import_json" doesn't conform to snake_case naming style (invalid-name)
+C: 65, 4: Missing method docstring (missing-docstring)
+C: 87, 4: Method name "test_module_utils_basic_import_literal_eval" doesn't conform to snake_case naming style (invalid-name)
+C: 87, 4: Missing method docstring (missing-docstring)
+C:112, 4: Method name "test_module_utils_basic_import_systemd_journal" doesn't conform to snake_case naming style (invalid-name)
+C:112, 4: Missing method docstring (missing-docstring)
+W: 15, 0: Unused MagicMock imported from units.compat.mock (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.27/10
+

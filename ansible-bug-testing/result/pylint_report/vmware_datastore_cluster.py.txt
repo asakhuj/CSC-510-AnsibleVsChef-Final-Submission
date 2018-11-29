@@ -1,0 +1,21 @@
+************* Module ansible.modules.cloud.vmware.vmware_datastore_cluster
+C: 95, 0: Line too long (101/100) (line-too-long)
+C:107, 0: Line too long (109/100) (line-too-long)
+C:116, 0: Line too long (116/100) (line-too-long)
+C:119, 0: Line too long (119/100) (line-too-long)
+C:125, 0: Line too long (110/100) (line-too-long)
+C:131, 0: Line too long (112/100) (line-too-long)
+C:133, 0: Line too long (124/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 81, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 82, 0: Import "from ansible.module_utils.vmware import PyVmomi, vmware_argument_spec, wait_for_task" should be placed at the top of the module (wrong-import-position)
+C: 83, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 86, 0: Missing class docstring (missing-docstring)
+W:126,27: Catching too general exception Exception (broad-except)
+W:112,29: Unused variable 'result' (unused-variable)
+C:137, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 6.92/10
+

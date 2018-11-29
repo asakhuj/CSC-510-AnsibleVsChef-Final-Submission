@@ -1,0 +1,40 @@
+************* Module ansible.modules.network.ironware.ironware_config
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:158, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:159, 0: Import "from ansible.module_utils.network.ironware.ironware import ironware_argument_spec, check_args" should be placed at the top of the module (wrong-import-position)
+C:160, 0: Import "from ansible.module_utils.network.ironware.ironware import get_config, load_config, run_commands" should be placed at the top of the module (wrong-import-position)
+C:161, 0: Import "from ansible.module_utils.network.common.config import NetworkConfig, dumps, ConfigLine" should be placed at the top of the module (wrong-import-position)
+C:162, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:165, 0: Missing function docstring (missing-docstring)
+C:175, 0: Missing function docstring (missing-docstring)
+W:257, 4: Unused variable 'config' (unused-variable)
+W:161, 0: Unused ConfigLine imported from ansible.module_utils.network.common.config (unused-import)
+W:162, 0: Unused to_native imported from ansible.module_utils._text (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.10/10
+
+************* Module ansible.plugins.action.ironware_config
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 29, 0: No name 'urllib' in module '_MovedItems' (no-name-in-module)
+E: 29, 0: Unable to import 'ansible.module_utils.six.moves.urllib.parse' (import-error)
+C: 35, 0: Missing class docstring (missing-docstring)
+W: 66,11: Access to a protected member _role of a client class (protected-access)
+W: 67,18: Access to a protected member _role_path of a client class (protected-access)
+W: 67,18: Access to a protected member _role of a client class (protected-access)
+C: 74,12: Variable name "fn" doesn't conform to snake_case naming style (invalid-name)
+C: 96,38: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+W:104,11: Access to a protected member _role of a client class (protected-access)
+W:105,30: Access to a protected member _role_path of a client class (protected-access)
+W:105,30: Access to a protected member _role of a client class (protected-access)
+W:107,28: Access to a protected member _block of a client class (protected-access)
+W:110,42: Access to a protected member _role_path of a client class (protected-access)
+R: 81, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R: 35, 0: Too few public methods (1/2) (too-few-public-methods)
+W: 30, 0: Unused merge_hash imported from ansible.utils.vars (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.18/10
+

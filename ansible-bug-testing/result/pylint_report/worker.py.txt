@@ -1,0 +1,27 @@
+************* Module ansible.executor.process.worker
+C: 60, 0: Line too long (114/100) (line-too-long)
+C:121, 0: Line too long (116/100) (line-too-long)
+C:148, 0: Line too long (120/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+W: 33, 0: No exception type(s) specified (bare-except)
+C: 39, 0: Import "from ansible.errors import AnsibleConnectionFailure" should be placed at the top of the module (wrong-import-position)
+C: 40, 0: Import "from ansible.executor.task_executor import TaskExecutor" should be placed at the top of the module (wrong-import-position)
+C: 41, 0: Import "from ansible.executor.task_result import TaskResult" should be placed at the top of the module (wrong-import-position)
+C: 42, 0: Import "from ansible.module_utils._text import to_text" should be placed at the top of the module (wrong-import-position)
+R: 53, 0: Too many instance attributes (9/7) (too-many-instance-attributes)
+R: 60, 4: Too many arguments (9/5) (too-many-arguments)
+W:147,15: Catching too general exception Exception (broad-except)
+W:121,98: Access to a protected member _uuid of a client class (protected-access)
+W:126,16: Access to a protected member _uuid of a client class (protected-access)
+W:132,62: Access to a protected member _uuid of a client class (protected-access)
+W:134,67: Access to a protected member _uuid of a client class (protected-access)
+W:141,16: Access to a protected member _uuid of a client class (protected-access)
+C:147,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:159,16: No exception type(s) specified (bare-except)
+W:154,24: Access to a protected member _uuid of a client class (protected-access)
+C: 47, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+------------------------------------------------------------------
+Your code has been rated at 7.07/10 (previous run: 7.07/10, +0.00)
+

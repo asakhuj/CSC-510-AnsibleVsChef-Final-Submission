@@ -1,0 +1,12 @@
+************* Module units.modules.network.nso.test_nso_query
+C: 45, 0: Line too long (104/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+E: 22, 0: Unable to import 'ansible.modules.network.nso' (import-error)
+C: 29, 0: Missing class docstring (missing-docstring)
+C: 33, 4: Missing method docstring (missing-docstring)
+C: 26, 0: first party import "from units.modules.utils import set_module_args" should be placed before "from . import nso_module" (wrong-import-order)
+C: 26, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 3.12/10
+

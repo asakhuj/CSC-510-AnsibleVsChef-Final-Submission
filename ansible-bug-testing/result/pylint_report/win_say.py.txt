@@ -1,0 +1,6 @@
+************* Module ansible.modules.windows.win_say
+C:  1, 0: Missing module docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.50/10
+

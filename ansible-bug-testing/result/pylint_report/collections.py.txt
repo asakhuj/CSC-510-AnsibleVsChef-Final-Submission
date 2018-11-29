@@ -1,0 +1,32 @@
+************* Module ansible.module_utils.common.collections
+C:  2, 0: Line too long (106/100) (line-too-long)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.89/10
+
+************* Module units.module_utils.common.collections
+C:  3, 0: Line too long (106/100) (line-too-long)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 11, 0: Unable to import 'ansible.module_utils.common._collections_compat' (import-error)
+E: 12, 0: Unable to import 'ansible.module_utils.common.collections' (import-error)
+W: 15, 0: Class has no __init__ method (no-init)
+R: 15, 0: Too few public methods (0/2) (too-few-public-methods)
+C: 27, 0: Missing class docstring (missing-docstring)
+W: 27, 0: Class has no __init__ method (no-init)
+R: 28, 4: Method could be a function (no-self-use)
+R: 27, 0: Too few public methods (1/2) (too-few-public-methods)
+C: 32, 0: Missing class docstring (missing-docstring)
+W: 32, 0: Class has no __init__ method (no-init)
+E: 33, 4: __iter__ returns non-iterator (non-iterator-returned)
+R: 32, 0: Too few public methods (1/2) (too-few-public-methods)
+C: 69, 0: Function name "test_sequence_string_types_with_strings" doesn't conform to snake_case naming style (invalid-name)
+C: 75, 0: Function name "test_sequence_string_types_without_strings" doesn't conform to snake_case naming style (invalid-name)
+C: 83, 0: Missing function docstring (missing-docstring)
+C: 90, 0: Missing function docstring (missing-docstring)
+C: 96, 0: Missing function docstring (missing-docstring)
+C:101, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 0.86/10
+

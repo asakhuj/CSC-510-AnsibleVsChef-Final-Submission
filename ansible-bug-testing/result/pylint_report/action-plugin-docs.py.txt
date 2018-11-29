@@ -1,0 +1,14 @@
+************* Module action-plugin-docs
+C: 14, 0: Line too long (114/100) (line-too-long)
+C: 15, 0: Line too long (117/100) (line-too-long)
+C: 20, 0: Line too long (129/100) (line-too-long)
+C: 67, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 70, 0: Line too long (132/100) (line-too-long)
+C: 70, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:  1, 0: Module name "action-plugin-docs" doesn't conform to snake_case naming style (invalid-name)
+W: 44,14: Unused variable 'dirs' (unused-variable)
+W: 44, 8: Unused variable 'root' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 6.40/10
+

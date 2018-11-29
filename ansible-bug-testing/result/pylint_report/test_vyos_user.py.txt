@@ -1,0 +1,27 @@
+************* Module units.modules.network.vyos.test_vyos_user
+C: 53, 0: Line too long (118/100) (line-too-long)
+C: 78, 0: Line too long (115/100) (line-too-long)
+C: 81, 0: Line too long (102/100) (line-too-long)
+C: 87, 0: Line too long (118/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 23, 0: Unable to import 'ansible.modules.network.vyos' (import-error)
+C: 28, 0: Missing class docstring (missing-docstring)
+W: 46, 4: Parameters differ from overridden 'load_fixtures' method (arguments-differ)
+W: 46,43: Unused argument 'transport' (unused-argument)
+C: 50, 4: Missing method docstring (missing-docstring)
+C: 55, 4: Missing method docstring (missing-docstring)
+C: 60, 4: Missing method docstring (missing-docstring)
+C: 65, 4: Missing method docstring (missing-docstring)
+C: 69, 4: Missing method docstring (missing-docstring)
+C: 75, 4: Method name "test_vyos_user_update_password_changed" doesn't conform to snake_case naming style (invalid-name)
+C: 75, 4: Missing method docstring (missing-docstring)
+C: 80, 4: Method name "test_vyos_user_update_password_on_create_ok" doesn't conform to snake_case naming style (invalid-name)
+C: 80, 4: Missing method docstring (missing-docstring)
+C: 84, 4: Method name "test_vyos_user_update_password_always" doesn't conform to snake_case naming style (invalid-name)
+C: 84, 4: Missing method docstring (missing-docstring)
+C: 24, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 4.90/10
+

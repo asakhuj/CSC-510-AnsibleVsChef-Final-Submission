@@ -1,0 +1,15 @@
+************* Module ansible.modules.network.onyx.onyx_protocol
+C:103, 0: Wrong continued indentation (remove 5 spaces).
+                        disable="no ip l3"),
+                   |    ^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 80, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 81, 0: Import "from ansible.module_utils.six import iteritems" should be placed at the top of the module (wrong-import-position)
+C: 83, 0: Import "from ansible.module_utils.network.onyx.onyx import BaseOnyxModule" should be placed at the top of the module (wrong-import-position)
+C: 84, 0: Import "from ansible.module_utils.network.onyx.onyx import show_cmd" should be placed at the top of the module (wrong-import-position)
+C: 87, 0: Missing class docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.79/10
+

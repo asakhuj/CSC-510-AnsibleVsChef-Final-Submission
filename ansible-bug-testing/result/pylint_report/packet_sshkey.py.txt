@@ -1,0 +1,23 @@
+************* Module ansible.modules.cloud.packet.packet_sshkey
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 99, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:100, 0: Import "import uuid" should be placed at the top of the module (wrong-import-position)
+C:102, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:114, 0: Missing function docstring (missing-docstring)
+C:122, 0: Missing function docstring (missing-docstring)
+C:130, 0: Missing function docstring (missing-docstring)
+C:143, 0: Missing function docstring (missing-docstring)
+C:150, 8: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C:162, 4: Missing function docstring (missing-docstring)
+R:163, 8: Unnecessary "else" after "return" (no-else-return)
+C:172, 0: Missing function docstring (missing-docstring)
+C:183,60: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C:208,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:220, 0: Missing function docstring (missing-docstring)
+W:260,15: Catching too general exception Exception (broad-except)
+C:260,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.33/10
+

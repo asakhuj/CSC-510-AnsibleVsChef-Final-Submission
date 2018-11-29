@@ -1,0 +1,18 @@
+************* Module ansible.modules.messaging.rabbitmq_vhost_limits
+C:118, 0: Line too long (114/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 78, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C: 79, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 82, 0: Missing class docstring (missing-docstring)
+C: 96, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C: 99, 4: Missing method docstring (missing-docstring)
+C:115, 4: Missing method docstring (missing-docstring)
+C:121, 4: Missing method docstring (missing-docstring)
+C:127, 0: Missing function docstring (missing-docstring)
+W:143, 4: Unused variable 'node' (unused-variable)
+W:145, 4: Unused variable 'vhost' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 8.03/10
+

@@ -1,0 +1,12 @@
+************* Module ansible.modules.cloud.vultr.vultr_dns_domain_facts
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 74, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 75, 0: Import "from ansible.module_utils.vultr import Vultr, vultr_argument_spec" should be placed at the top of the module (wrong-import-position)
+C: 81, 0: Missing class docstring (missing-docstring)
+C: 91, 4: Missing method docstring (missing-docstring)
+C: 95, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 6.96/10
+

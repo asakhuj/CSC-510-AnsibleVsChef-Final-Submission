@@ -1,0 +1,13 @@
+************* Module units.modules.network.nxos.test_nxos_interface_ospf
+C: 37, 0: Line too long (101/100) (line-too-long)
+C: 52, 0: Line too long (111/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 23, 0: Unable to import 'ansible.modules.network.nxos' (import-error)
+C: 27, 0: Missing class docstring (missing-docstring)
+C: 50, 4: Missing method docstring (missing-docstring)
+C: 54, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 5.86/10
+

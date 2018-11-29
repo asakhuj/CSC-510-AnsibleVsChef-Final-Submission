@@ -1,0 +1,21 @@
+************* Module ansible.modules.cloud.ovirt.ovirt_snapshot
+C:250, 0: Line too long (110/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:132, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:139, 0: Import "from datetime import datetime" should be placed at the top of the module (wrong-import-position)
+C:140, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:141, 0: Import "from ansible.module_utils.ovirt import check_sdk, create_connection, get_dict_of_struct, get_entity, ovirt_full_argument_spec, search_by_name, wait" should be placed at the top of the module (wrong-import-position)
+C:152, 0: Missing function docstring (missing-docstring)
+W:152,28: Unused argument 'vm_service' (unused-argument)
+C:179, 0: Missing function docstring (missing-docstring)
+W:179,28: Unused argument 'vm_service' (unused-argument)
+C:206, 0: Missing function docstring (missing-docstring)
+C:242, 0: Missing function docstring (missing-docstring)
+C:256, 0: Missing function docstring (missing-docstring)
+C:287, 4: Variable name "vm" doesn't conform to snake_case naming style (invalid-name)
+W:307,11: Catching too general exception Exception (broad-except)
+C:307,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.24/10
+

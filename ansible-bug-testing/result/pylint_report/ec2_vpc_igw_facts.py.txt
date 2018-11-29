@@ -1,0 +1,16 @@
+************* Module ansible.modules.cloud.amazon.ec2_vpc_igw_facts
+C: 98, 0: Line too long (109/100) (line-too-long)
+C:142, 0: Line too long (130/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 96, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 97, 0: Import "from ansible.module_utils.ec2 import ec2_argument_spec, get_aws_connection_info, boto3_conn, camel_dict_to_snake_dict, ansible_dict_to_boto3_filter_list, HAS_BOTO3" should be placed at the top of the module (wrong-import-position)
+C:101, 0: Missing function docstring (missing-docstring)
+C:108, 0: Missing function docstring (missing-docstring)
+C:118,46: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:125, 0: Missing function docstring (missing-docstring)
+C:143,53: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.25/10
+

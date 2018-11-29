@@ -1,0 +1,54 @@
+************* Module ansible.modules.network.netconf.netconf_config
+C:229, 0: Line too long (101/100) (line-too-long)
+C:236, 0: Line too long (120/100) (line-too-long)
+C:249, 0: Line too long (114/100) (line-too-long)
+C:250, 0: Line too long (114/100) (line-too-long)
+C:251, 0: Line too long (120/100) (line-too-long)
+C:267, 0: Line too long (121/100) (line-too-long)
+C:299, 0: Line too long (113/100) (line-too-long)
+C:303, 0: Line too long (105/100) (line-too-long)
+C:309, 0: Line too long (123/100) (line-too-long)
+C:349, 0: Line too long (110/100) (line-too-long)
+C:357, 0: Line too long (105/100) (line-too-long)
+C:370, 0: Line too long (109/100) (line-too-long)
+C:379, 0: Line too long (107/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:218, 0: Import "from ansible.module_utils._text import to_text" should be placed at the top of the module (wrong-import-position)
+C:219, 0: Import "from ansible.module_utils.basic import AnsibleModule, env_fallback" should be placed at the top of the module (wrong-import-position)
+C:220, 0: Import "from ansible.module_utils.connection import Connection, ConnectionError" should be placed at the top of the module (wrong-import-position)
+C:221, 0: Import "from ansible.module_utils.network.netconf.netconf import get_capabilities, get_config, sanitize_xml" should be placed at the top of the module (wrong-import-position)
+R:224, 0: Too many local variables (32/15) (too-many-locals)
+W:280,22: Access to a protected member _socket_path of a client class (protected-access)
+E:330,23: No value for argument 'filter' in function call (no-value-for-parameter)
+W:389,19: Access to a protected member _diff of a client class (protected-access)
+C:392,30: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:224, 0: Too many branches (38/12) (too-many-branches)
+R:224, 0: Too many statements (111/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 7.46/10
+
+************* Module ansible.plugins.action.netconf_config
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 29, 0: No name 'urllib' in module '_MovedItems' (no-name-in-module)
+E: 29, 0: Unable to import 'ansible.module_utils.six.moves.urllib.parse' (import-error)
+C: 34, 0: Missing class docstring (missing-docstring)
+W: 64,11: Access to a protected member _role of a client class (protected-access)
+W: 65,18: Access to a protected member _role_path of a client class (protected-access)
+W: 65,18: Access to a protected member _role of a client class (protected-access)
+C: 72,12: Variable name "fn" doesn't conform to snake_case naming style (invalid-name)
+C: 76,37: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C: 95,38: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+W:103,11: Access to a protected member _role of a client class (protected-access)
+W:104,30: Access to a protected member _role_path of a client class (protected-access)
+W:104,30: Access to a protected member _role of a client class (protected-access)
+W:106,28: Access to a protected member _block of a client class (protected-access)
+W:109,42: Access to a protected member _role_path of a client class (protected-access)
+R: 80, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R: 34, 0: Too few public methods (1/2) (too-few-public-methods)
+
+-----------------------------------
+Your code has been rated at 6.18/10
+

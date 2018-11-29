@@ -1,0 +1,63 @@
+************* Module ansible.modules.cloud.ovh.ovh_ip_loadbalancing_backend
+C:197, 0: Wrong hanging indentation (remove 4 spaces).
+                .format(apiError))
+            |   ^ (bad-continuation)
+C:225, 0: Wrong hanging indentation (remove 4 spaces).
+                        .format(apiError))
+                    |   ^ (bad-continuation)
+C:238, 0: Wrong hanging indentation (remove 4 spaces).
+                        .format(apiError))
+                    |   ^ (bad-continuation)
+C:240, 0: Unnecessary parens after 'if' keyword (superfluous-parens)
+C:250, 0: Wrong hanging indentation (remove 4 spaces).
+                                .format(timeout))
+                            |   ^ (bad-continuation)
+C:256, 0: Wrong hanging indentation (remove 4 spaces).
+                            .format(apiError))
+                        |   ^ (bad-continuation)
+C:259, 0: Unnecessary parens after 'if' keyword (superfluous-parens)
+C:270, 0: Wrong hanging indentation (remove 4 spaces).
+                                .format(timeout))
+                            |   ^ (bad-continuation)
+C:277, 0: Wrong hanging indentation (remove 4 spaces).
+                            .format(apiError))
+                        |   ^ (bad-continuation)
+C:291, 0: Wrong hanging indentation (remove 4 spaces).
+                            .format(apiError))
+                        |   ^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:105, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C:115, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:118, 0: Function name "getOvhClient" doesn't conform to snake_case naming style (invalid-name)
+C:118, 0: Argument name "ansibleModule" doesn't conform to snake_case naming style (invalid-name)
+C:118, 0: Missing function docstring (missing-docstring)
+C:132, 0: Function name "waitForNoTask" doesn't conform to snake_case naming style (invalid-name)
+C:132, 0: Missing function docstring (missing-docstring)
+C:133, 4: Variable name "currentTimeout" doesn't conform to snake_case naming style (invalid-name)
+C:134,10: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:136, 8: Variable name "currentTimeout" doesn't conform to snake_case naming style (invalid-name)
+C:142, 0: Missing function docstring (missing-docstring)
+C:176, 8: Variable name "loadBalancings" doesn't conform to snake_case naming style (invalid-name)
+C:177,23: Variable name "apiError" doesn't conform to snake_case naming style (invalid-name)
+C:192,23: Variable name "apiError" doesn't conform to snake_case naming style (invalid-name)
+C:201,23: Variable name "apiError" doesn't conform to snake_case naming style (invalid-name)
+C:208, 4: Variable name "backendExists" doesn't conform to snake_case naming style (invalid-name)
+C:209, 4: Variable name "moduleChanged" doesn't conform to snake_case naming style (invalid-name)
+C:220,31: Variable name "apiError" doesn't conform to snake_case naming style (invalid-name)
+C:226,12: Variable name "moduleChanged" doesn't conform to snake_case naming style (invalid-name)
+C:231,16: Variable name "backendProperties" doesn't conform to snake_case naming style (invalid-name)
+C:233,31: Variable name "apiError" doesn't conform to snake_case naming style (invalid-name)
+C:251,35: Variable name "apiError" doesn't conform to snake_case naming style (invalid-name)
+C:257,16: Variable name "moduleChanged" doesn't conform to snake_case naming style (invalid-name)
+C:271,35: Variable name "apiError" doesn't conform to snake_case naming style (invalid-name)
+C:278,16: Variable name "moduleChanged" doesn't conform to snake_case naming style (invalid-name)
+C:286,35: Variable name "apiError" doesn't conform to snake_case naming style (invalid-name)
+C:297,31: Variable name "apiError" doesn't conform to snake_case naming style (invalid-name)
+C:302,12: Variable name "moduleChanged" doesn't conform to snake_case naming style (invalid-name)
+R:142, 0: Too many branches (22/12) (too-many-branches)
+R:142, 0: Too many statements (71/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 5.84/10
+

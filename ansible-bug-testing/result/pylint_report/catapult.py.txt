@@ -1,0 +1,16 @@
+************* Module ansible.modules.notification.catapult
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 10, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 94, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C: 96, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 97, 0: Import "from ansible.module_utils.urls import fetch_url" should be placed at the top of the module (wrong-import-position)
+R:100, 0: Too many arguments (8/5) (too-many-arguments)
+C:104, 4: Variable name "AGENT" doesn't conform to snake_case naming style (invalid-name)
+C:105, 4: Variable name "URI" doesn't conform to snake_case naming style (invalid-name)
+C:119, 0: Missing function docstring (missing-docstring)
+C:141, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W:141, 8: Unused variable 'rc' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 7.11/10
+

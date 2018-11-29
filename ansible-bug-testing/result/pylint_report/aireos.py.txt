@@ -1,0 +1,78 @@
+************* Module ansible.module_utils.network.aireos.aireos
+C: 60, 0: Line too long (113/100) (line-too-long)
+C: 88, 0: Line too long (123/100) (line-too-long)
+C:120, 0: Line too long (117/100) (line-too-long)
+C:127, 0: Line too long (103/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 35, 0: Constant name "aireos_provider_spec" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 43, 0: Constant name "aireos_argument_spec" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 47, 0: Constant name "aireos_top_spec" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 58, 0: Missing function docstring (missing-docstring)
+C: 68, 0: Missing function docstring (missing-docstring)
+C: 72, 0: Missing function docstring (missing-docstring)
+W: 72,15: Unused argument 'module' (unused-argument)
+W: 72,23: Unused argument 'warnings' (unused-argument)
+C: 76, 0: Missing function docstring (missing-docstring)
+C: 86, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C: 94, 0: Missing function docstring (missing-docstring)
+C:104, 0: Missing function docstring (missing-docstring)
+C:109, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:116, 0: Missing function docstring (missing-docstring)
+C:118, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:125, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W: 29, 0: Unused return_values imported from ansible.module_utils.basic (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.14/10
+
+************* Module ansible.plugins.action.aireos
+C: 72, 0: Line too long (118/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 40, 0: Missing class docstring (missing-docstring)
+C: 54, 8: Variable name "pc" doesn't conform to snake_case naming style (invalid-name)
+E: 54,13: Module 'copy' has no 'deepcopy' member (no-member)
+E: 61,53: Module 'ansible.constants' has no 'PERSISTENT_COMMAND_TIMEOUT' member (no-member)
+R: 40, 0: Too few public methods (1/2) (too-few-public-methods)
+C: 36, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 6.38/10
+
+************* Module ansible.plugins.cliconf.aireos
+C: 73, 0: Line too long (119/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 32, 0: Missing class docstring (missing-docstring)
+C: 34, 4: Missing method docstring (missing-docstring)
+W: 58,43: Redefining built-in 'format' (redefined-builtin)
+W: 58, 4: Parameters differ from overridden 'get_config' method (arguments-differ)
+E: 60,19: Instance of 'Cliconf' has no 'invalid_params' member (no-member)
+W: 68, 4: Parameters differ from overridden 'edit_config' method (arguments-differ)
+R: 72, 4: Too many arguments (6/5) (too-many-arguments)
+W: 72, 4: Parameters differ from overridden 'get' method (arguments-differ)
+
+-----------------------------------
+Your code has been rated at 6.59/10
+
+************* Module ansible.plugins.terminal.aireos
+C: 50, 0: Line too long (128/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 30, 0: Missing class docstring (missing-docstring)
+W: 50,42: Access to a protected member _play_context of a client class (protected-access)
+W: 51,24: Access to a protected member _play_context of a client class (protected-access)
+W: 22, 0: Unused import json (unused-import)
+W: 24, 0: Unused import time (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.00/10
+
+************* Module ansible.utils.module_docs_fragments.aireos
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Missing class docstring (missing-docstring)
+R: 20, 0: Too few public methods (0/2) (too-few-public-methods)
+
+------------------------------------
+Your code has been rated at -5.00/10
+

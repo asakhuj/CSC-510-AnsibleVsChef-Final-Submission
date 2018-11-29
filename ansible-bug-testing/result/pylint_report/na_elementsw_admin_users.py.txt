@@ -1,0 +1,20 @@
+************* Module ansible.modules.storage.netapp.na_elementsw_admin_users
+C:140, 0: Line too long (105/100) (line-too-long)
+C:166, 0: Line too long (141/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 90, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C: 92, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 93, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 94, 0: Import "import ansible.module_utils.netapp as netapp_utils" should be placed at the top of the module (wrong-import-position)
+C: 95, 0: Import "from ansible.module_utils.netapp_elementsw_module import NaElementSWModule" should be placed at the top of the module (wrong-import-position)
+C:129, 8: Attribute name "acceptEula" doesn't conform to snake_case naming style (invalid-name)
+R:101, 0: Too many instance attributes (10/7) (too-many-instance-attributes)
+C:221, 0: Missing function docstring (missing-docstring)
+C:222, 4: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+W: 90, 0: Unused import traceback (unused-import)
+W: 93, 0: Unused to_native imported from ansible.module_utils._text (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.89/10
+

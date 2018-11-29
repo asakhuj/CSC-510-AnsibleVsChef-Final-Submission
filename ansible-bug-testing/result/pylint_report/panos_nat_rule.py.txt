@@ -1,0 +1,31 @@
+************* Module ansible.modules.network.panos.panos_nat_rule
+C:278, 0: Line too long (113/100) (line-too-long)
+C:333, 0: Line too long (113/100) (line-too-long)
+C:371, 0: Line too long (104/100) (line-too-long)
+C:375, 0: Line too long (115/100) (line-too-long)
+C:438, 0: Line too long (109/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:134, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:135, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:154, 0: Missing function docstring (missing-docstring)
+C:163, 0: Missing function docstring (missing-docstring)
+C:169, 8: Variable name "dg" doesn't conform to snake_case naming style (invalid-name)
+C:179, 0: Missing function docstring (missing-docstring)
+R:182, 4: Unnecessary "else" after "return" (no-else-return)
+C:188, 0: Missing function docstring (missing-docstring)
+C:243, 0: Missing function docstring (missing-docstring)
+R:244, 4: Unnecessary "else" after "return" (no-else-return)
+C:252, 0: Missing function docstring (missing-docstring)
+R:253, 4: Unnecessary "else" after "return" (no-else-return)
+C:261, 0: Missing function docstring (missing-docstring)
+R:261, 0: Too many local variables (36/15) (too-many-locals)
+R:261, 0: Too many branches (24/12) (too-many-branches)
+R:261, 0: Too many statements (89/50) (too-many-statements)
+W:138, 4: Unused import pan.xapi (unused-import)
+W:142, 4: Unused firewall imported from pandevice (unused-import)
+W:144, 4: Unused objects imported from pandevice (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.47/10
+

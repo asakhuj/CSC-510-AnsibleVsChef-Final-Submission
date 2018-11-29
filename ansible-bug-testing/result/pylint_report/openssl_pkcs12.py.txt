@@ -1,0 +1,33 @@
+************* Module ansible.modules.crypto.openssl_pkcs12
+C:231, 0: Wrong hanging indentation (remove 24 spaces).
+                                        self.certificate_path))
+                |                       ^ (bad-continuation)
+C:238, 0: Wrong hanging indentation (remove 23 spaces).
+                                       self.privatekey_path,
+                |                      ^ (bad-continuation)
+C:239, 0: Wrong hanging indentation (remove 23 spaces).
+                                       self.privatekey_passphrase)
+                |                      ^ (bad-continuation)
+C:240, 0: Wrong continued indentation (remove 1 space).
+                                       )
+                                      |^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:141, 0: Import "import stat" should be placed at the top of the module (wrong-import-position)
+C:142, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:147, 4: Constant name "pyopenssl_found" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:149, 4: Constant name "pyopenssl_found" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:151, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:152, 0: Import "from ansible.module_utils import crypto as crypto_utils" should be placed at the top of the module (wrong-import-position)
+C:153, 0: Import "from ansible.module_utils._text import to_bytes, to_native" should be placed at the top of the module (wrong-import-position)
+C:156, 0: Missing class docstring (missing-docstring)
+C:160, 0: Missing class docstring (missing-docstring)
+R:160, 0: Too many instance attributes (12/7) (too-many-instance-attributes)
+W:214, 4: Parameters differ from overridden 'generate' method (arguments-differ)
+W:253,20: Unused argument 'module' (unused-argument)
+C:277, 0: Missing function docstring (missing-docstring)
+R:277, 0: Too many branches (15/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 8.51/10
+

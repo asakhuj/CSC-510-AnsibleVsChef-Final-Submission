@@ -1,0 +1,28 @@
+************* Module ansible.modules.cloud.vmware.vsphere_copy
+C:112, 0: Line too long (106/100) (line-too-long)
+C:172, 0: Line too long (130/100) (line-too-long)
+C:196, 0: Line too long (155/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 96, 0: Import "import atexit" should be placed at the top of the module (wrong-import-position)
+C: 97, 0: Import "import errno" should be placed at the top of the module (wrong-import-position)
+C: 98, 0: Import "import mmap" should be placed at the top of the module (wrong-import-position)
+C: 99, 0: Import "import socket" should be placed at the top of the module (wrong-import-position)
+C:100, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:102, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+E:103, 0: No name 'urllib' in module '_MovedItems' (no-name-in-module)
+E:103, 0: Unable to import 'ansible.module_utils.six.moves.urllib.parse' (import-error)
+C:103, 0: Import "from ansible.module_utils.six.moves.urllib.parse import urlencode, quote" should be placed at the top of the module (wrong-import-position)
+C:104, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:105, 0: Import "from ansible.module_utils.urls import open_url" should be placed at the top of the module (wrong-import-position)
+C:123, 0: Missing function docstring (missing-docstring)
+R:123, 0: Too many local variables (21/15) (too-many-locals)
+C:151, 4: Variable name "fd" doesn't conform to snake_case naming style (invalid-name)
+W:176,11: Catching too general exception Exception (broad-except)
+C:166, 8: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:169,27: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:176,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 5.30/10
+

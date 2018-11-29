@@ -1,0 +1,16 @@
+************* Module units.modules.net_tools.nios.test_nios_dns_view
+C: 78, 0: Line too long (120/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 23, 0: Unable to import 'ansible.modules.net_tools.nios' (import-error)
+E: 24, 0: Unable to import 'ansible.module_utils.net_tools.nios' (import-error)
+C: 29, 0: Missing class docstring (missing-docstring)
+C: 61, 4: Missing method docstring (missing-docstring)
+W: 78,74: Access to a protected member _check_type_dict of a client class (protected-access)
+C: 80, 4: Method name "test_nios_dns_view_update_comment" doesn't conform to snake_case naming style (invalid-name)
+C: 80, 4: Missing method docstring (missing-docstring)
+C:104, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 6.67/10
+

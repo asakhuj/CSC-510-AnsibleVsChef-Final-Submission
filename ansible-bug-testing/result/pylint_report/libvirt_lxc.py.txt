@@ -1,0 +1,43 @@
+************* Module libvirt_lxc
+C: 27, 0: Line too long (111/100) (line-too-long)
+C: 33, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 35, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 24, 0: Constant name "result" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 27, 0: Constant name "pipe" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 5.71/10 (previous run: 5.71/10, +0.00)
+
+************* Module ansible.plugins.connection.libvirt_lxc
+C:146, 0: Line too long (115/100) (line-too-long)
+C:155, 0: Line too long (121/100) (line-too-long)
+C:181, 0: Line too long (117/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 28, 0: Import "import distutils.spawn" should be placed at the top of the module (wrong-import-position)
+C: 29, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C: 30, 0: Import "import os.path" should be placed at the top of the module (wrong-import-position)
+C: 31, 0: Import "import subprocess" should be placed at the top of the module (wrong-import-position)
+C: 32, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C: 34, 0: Import "from ansible import constants as C" should be placed at the top of the module (wrong-import-position)
+C: 35, 0: Import "from ansible.errors import AnsibleError" should be placed at the top of the module (wrong-import-position)
+E: 36, 0: Unable to import 'ansible.module_utils.six.moves' (import-error)
+C: 36, 0: Import "from ansible.module_utils.six.moves import shlex_quote" should be placed at the top of the module (wrong-import-position)
+C: 37, 0: Import "from ansible.module_utils._text import to_bytes" should be placed at the top of the module (wrong-import-position)
+C: 38, 0: Import "from ansible.plugins.connection import ConnectionBase, BUFSIZE" should be placed at the top of the module (wrong-import-position)
+R: 67, 4: Method could be a function (no-self-use)
+C: 74, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+E: 95,56: Module 'ansible.constants' has no 'DEFAULT_EXECUTABLE' member (no-member)
+E: 95,21: Module 'ansible.constants' has no 'DEFAULT_EXECUTABLE' member (no-member)
+E: 98,11: Module 'ansible.constants' has no 'DEFAULT_LIBVIRT_LXC_NOSECLABEL' member (no-member)
+C:105, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:114, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+R:119, 4: Method could be a function (no-self-use)
+C:146,20: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:166,12: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C: 44, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 5.98/10
+

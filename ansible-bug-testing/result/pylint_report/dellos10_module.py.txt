@@ -1,0 +1,21 @@
+************* Module units.modules.network.dellos10.dellos10_module
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 22, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 30, 0: Constant name "fixture_path" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 31, 0: Constant name "fixture_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 34, 0: Missing function docstring (missing-docstring)
+C: 40,23: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+W: 45, 4: No exception type(s) specified (bare-except)
+C: 52, 0: Missing class docstring (missing-docstring)
+C: 54, 4: Missing method docstring (missing-docstring)
+R: 54, 4: Too many arguments (6/5) (too-many-arguments)
+W: 54,84: Unused argument 'defaults' (unused-argument)
+C: 73, 4: Missing method docstring (missing-docstring)
+E: 75,12: Instance of 'TestDellos10Module' has no 'module' member (no-member)
+C: 81, 4: Missing method docstring (missing-docstring)
+E: 83,12: Instance of 'TestDellos10Module' has no 'module' member (no-member)
+C: 89, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 4.78/10
+

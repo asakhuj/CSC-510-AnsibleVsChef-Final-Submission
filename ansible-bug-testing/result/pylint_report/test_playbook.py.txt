@@ -1,0 +1,40 @@
+************* Module units.cli.test_playbook
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 25, 0: Unable to import 'ansible.inventory.manager' (import-error)
+E: 26, 0: Unable to import 'ansible.vars.manager' (import-error)
+E: 28, 0: Unable to import 'ansible.cli.playbook' (import-error)
+C: 31, 0: Missing class docstring (missing-docstring)
+C: 32, 4: Missing method docstring (missing-docstring)
+W: 42,38: Access to a protected member _fact_cache of a client class (protected-access)
+W: 44, 8: Access to a protected member _flush_cache of a client class (protected-access)
+W: 45,39: Access to a protected member _fact_cache of a client class (protected-access)
+
+------------------------------------
+Your code has been rated at -1.58/10
+
+************* Module units.playbook.test_playbook
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 24, 0: Unable to import 'ansible.errors' (import-error)
+E: 25, 0: Unable to import 'ansible.playbook' (import-error)
+E: 26, 0: Unable to import 'ansible.vars.manager' (import-error)
+C: 31, 0: Missing class docstring (missing-docstring)
+C: 39, 4: Missing method docstring (missing-docstring)
+C: 41, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+W: 41, 8: Unused variable 'p' (unused-variable)
+R: 39, 4: Method could be a function (no-self-use)
+C: 43, 4: Missing method docstring (missing-docstring)
+C: 49, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+W: 50, 8: Unused variable 'plays' (unused-variable)
+R: 43, 4: Method could be a function (no-self-use)
+C: 52, 4: Missing method docstring (missing-docstring)
+C: 66, 8: Variable name "vm" doesn't conform to snake_case naming style (invalid-name)
+W: 23, 0: Unused MagicMock imported from units.compat.mock (unused-import)
+W: 23, 0: Unused patch imported from units.compat.mock (unused-import)
+W: 24, 0: Unused AnsibleError imported from ansible.errors (unused-import)
+C: 28, 0: Imports from package units are not grouped (ungrouped-imports)
+
+------------------------------------
+Your code has been rated at -2.80/10
+

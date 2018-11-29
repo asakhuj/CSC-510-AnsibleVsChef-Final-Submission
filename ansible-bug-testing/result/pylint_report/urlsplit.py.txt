@@ -1,0 +1,17 @@
+************* Module ansible.plugins.filter.urlsplit
+C: 23, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 16, 0: Import "from ansible.errors import AnsibleFilterError" should be placed at the top of the module (wrong-import-position)
+E: 17, 0: No name 'urllib' in module '_MovedItems' (no-name-in-module)
+E: 17, 0: Unable to import 'ansible.module_utils.six.moves.urllib.parse' (import-error)
+C: 17, 0: Import "from ansible.module_utils.six.moves.urllib.parse import urlsplit" should be placed at the top of the module (wrong-import-position)
+C: 18, 0: Import "from ansible.utils import helpers" should be placed at the top of the module (wrong-import-position)
+C: 21, 0: Missing function docstring (missing-docstring)
+C: 39, 4: Missing method docstring (missing-docstring)
+R: 39, 4: Method could be a function (no-self-use)
+R: 36, 0: Too few public methods (1/2) (too-few-public-methods)
+
+------------------------------------
+Your code has been rated at -2.50/10
+

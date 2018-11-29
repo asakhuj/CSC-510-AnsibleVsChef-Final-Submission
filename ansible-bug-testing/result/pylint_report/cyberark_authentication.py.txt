@@ -1,0 +1,31 @@
+************* Module ansible.modules.identity.cyberark.cyberark_authentication
+C:147, 0: Line too long (103/100) (line-too-long)
+C:151, 0: Line too long (106/100) (line-too-long)
+C:176, 0: Line too long (104/100) (line-too-long)
+C:178, 0: Line too long (107/100) (line-too-long)
+C:198, 0: Line too long (103/100) (line-too-long)
+C:207, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:107, 0: Import "from ansible.module_utils._text import to_text" should be placed at the top of the module (wrong-import-position)
+C:108, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:109, 0: Import "from ansible.module_utils.urls import open_url" should be placed at the top of the module (wrong-import-position)
+E:110, 0: No name 'urllib' in module '_MovedItems' (no-name-in-module)
+E:110, 0: Unable to import 'ansible.module_utils.six.moves.urllib.error' (import-error)
+C:110, 0: Import "from ansible.module_utils.six.moves.urllib.error import HTTPError" should be placed at the top of the module (wrong-import-position)
+C:111, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C:119, 0: Function name "processAuthentication" doesn't conform to snake_case naming style (invalid-name)
+C:119, 0: Missing function docstring (missing-docstring)
+R:119, 0: Too many local variables (21/15) (too-many-locals)
+W:203,11: Catching too general exception Exception (broad-except)
+W:224,19: Catching too general exception Exception (broad-except)
+C:224,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:119, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:119, 0: Too many branches (19/12) (too-many-branches)
+R:119, 0: Too many statements (61/50) (too-many-statements)
+C:258, 0: Missing function docstring (missing-docstring)
+C:111, 0: standard import "import json" should be placed before "from ansible.module_utils._text import to_text" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 5.75/10
+

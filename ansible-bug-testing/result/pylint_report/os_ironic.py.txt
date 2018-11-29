@@ -1,0 +1,19 @@
+************* Module ansible.modules.cloud.openstack.os_ironic
+W:261, 0: TODO(TheJulia): Presently this does not support updating (fixme)
+C:142, 0: Line too long (125/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:141, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:142, 0: Import "from ansible.module_utils.openstack import openstack_full_argument_spec, openstack_module_kwargs, openstack_cloud_from_module" should be placed at the top of the module (wrong-import-position)
+C:146, 4: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:157, 4: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:197, 0: Missing function docstring (missing-docstring)
+W:301,27: Catching too general exception Exception (broad-except)
+C:301,40: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:331,53: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:197, 0: Too many branches (20/12) (too-many-branches)
+R:197, 0: Too many statements (55/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 8.56/10
+

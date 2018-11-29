@@ -1,0 +1,22 @@
+************* Module ansible.modules.remote_management.foreman._foreman
+C:130, 0: Line too long (112/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 73, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+W: 79, 0: No exception type(s) specified (bare-except)
+E: 76, 4: Unable to import 'nailgun' (import-error)
+E: 77, 4: Unable to import 'nailgun.config' (import-error)
+C: 82, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 83, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 86, 0: Missing class docstring (missing-docstring)
+W: 87,31: Redefining name 'entities' from outer scope (line 76) (redefined-outer-name)
+C: 92, 4: Missing method docstring (missing-docstring)
+C:101, 4: Missing method docstring (missing-docstring)
+C:116, 0: Missing function docstring (missing-docstring)
+C:144, 4: Variable name "ng" doesn't conform to snake_case naming style (invalid-name)
+W:150,11: Catching too general exception Exception (broad-except)
+C:150,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 5.76/10
+

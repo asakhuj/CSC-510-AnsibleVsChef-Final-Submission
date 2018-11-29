@@ -1,0 +1,14 @@
+************* Module units.module_utils.facts.other.test_facter
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 26, 0: Unable to import 'ansible.module_utils.facts.other.facter' (import-error)
+C: 28, 0: Constant name "facter_json_output" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:185, 0: Missing class docstring (missing-docstring)
+C:202, 4: Missing method docstring (missing-docstring)
+C:215, 4: Method name "test_facter_non_zero_return_code" doesn't conform to snake_case naming style (invalid-name)
+C:215, 4: Missing method docstring (missing-docstring)
+C: 26, 0: first party import "from ansible.module_utils.facts.other.facter import FacterFactCollector" should be placed before "from ..base import BaseFactsTest" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 6.06/10
+

@@ -1,0 +1,29 @@
+************* Module units.modules.network.onyx.test_onyx_igmp
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 10, 0: Unable to import 'ansible.modules.network.onyx' (import-error)
+C: 15, 0: Missing class docstring (missing-docstring)
+C: 44, 4: Missing method docstring (missing-docstring)
+C: 48, 4: Missing method docstring (missing-docstring)
+C: 53, 4: Method name "test_igmp_last_member_query_interval" doesn't conform to snake_case naming style (invalid-name)
+C: 53, 4: Missing method docstring (missing-docstring)
+C: 60, 4: Missing method docstring (missing-docstring)
+C: 67, 4: Missing method docstring (missing-docstring)
+C: 74, 4: Method name "test_igmp_report_suppression_interval" doesn't conform to snake_case naming style (invalid-name)
+C: 74, 4: Missing method docstring (missing-docstring)
+C: 81, 4: Method name "test_igmp_proxy_reporting_disabled" doesn't conform to snake_case naming style (invalid-name)
+C: 81, 4: Missing method docstring (missing-docstring)
+C: 87, 4: Method name "test_igmp_proxy_reporting_enabled" doesn't conform to snake_case naming style (invalid-name)
+C: 87, 4: Missing method docstring (missing-docstring)
+C: 94, 4: Method name "test_igmp_unregistered_multicast_flood" doesn't conform to snake_case naming style (invalid-name)
+C: 94, 4: Missing method docstring (missing-docstring)
+C:100, 4: Method name "test_igmp_unregistered_multicast_forward" doesn't conform to snake_case naming style (invalid-name)
+C:100, 4: Missing method docstring (missing-docstring)
+C:110, 4: Missing method docstring (missing-docstring)
+C:117, 4: Missing method docstring (missing-docstring)
+C:123, 4: Missing method docstring (missing-docstring)
+C: 11, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 6.46/10
+

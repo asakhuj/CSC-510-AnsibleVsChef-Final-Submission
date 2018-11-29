@@ -1,0 +1,37 @@
+************* Module ansible.modules.cloud.vmware.vmware_dvs_host
+C:125, 0: Line too long (120/100) (line-too-long)
+C:235, 0: Wrong continued indentation (remove 1 space).
+                              )
+                             |^ (bad-continuation)
+C:236, 0: Wrong continued indentation (remove 1 space).
+                         )
+                        |^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 10, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 73,22: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C: 78,22: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C: 81, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 82, 0: Import "from ansible.module_utils.vmware import PyVmomi, find_dvs_by_name, find_hostsystem_by_name, vmware_argument_spec, wait_for_task" should be placed at the top of the module (wrong-import-position)
+C: 84, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 87, 0: Missing class docstring (missing-docstring)
+R: 87, 0: Too many instance attributes (8/7) (too-many-instance-attributes)
+C:100, 4: Missing method docstring (missing-docstring)
+W:119,15: Catching too general exception Exception (broad-except)
+C:119,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:122, 4: Missing method docstring (missing-docstring)
+C:125,68: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:129, 4: Missing method docstring (missing-docstring)
+C:156, 4: Missing method docstring (missing-docstring)
+C:163, 4: Missing method docstring (missing-docstring)
+C:166, 4: Missing method docstring (missing-docstring)
+C:173, 4: Missing method docstring (missing-docstring)
+C:180, 4: Missing method docstring (missing-docstring)
+C:187, 4: Missing method docstring (missing-docstring)
+C:192,20: Variable name "pnicSpec" doesn't conform to snake_case naming style (invalid-name)
+C:197, 4: Missing method docstring (missing-docstring)
+R:221,12: Unnecessary "else" after "return" (no-else-return)
+C:227, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.63/10
+

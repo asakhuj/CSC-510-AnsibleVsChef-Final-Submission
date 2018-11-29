@@ -1,0 +1,18 @@
+************* Module units.modules.network.iosxr.test_iosxr_netconf
+C: 56, 0: Line too long (146/100) (line-too-long)
+C: 63, 0: Line too long (137/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 23, 0: Unable to import 'ansible.modules.network.iosxr' (import-error)
+C: 28, 0: Missing class docstring (missing-docstring)
+C: 46, 4: Method name "test_iosxr_disable_netconf_service" doesn't conform to snake_case naming style (invalid-name)
+C: 46, 4: Missing method docstring (missing-docstring)
+C: 58, 4: Method name "test_iosxr_enable_netconf_service" doesn't conform to snake_case naming style (invalid-name)
+C: 58, 4: Missing method docstring (missing-docstring)
+C: 65, 4: Missing method docstring (missing-docstring)
+C: 77, 4: Missing method docstring (missing-docstring)
+C: 24, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 5.95/10
+

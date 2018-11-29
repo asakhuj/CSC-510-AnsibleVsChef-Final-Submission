@@ -1,0 +1,14 @@
+************* Module lib.cloud.cs
+C: 49, 0: Line too long (106/100) (line-too-long)
+C: 74, 0: Line too long (117/100) (line-too-long)
+C:105, 0: Line too long (101/100) (line-too-long)
+C:110, 0: Line too long (112/100) (line-too-long)
+C:137, 0: Line too long (132/100) (line-too-long)
+C:158, 0: Line too long (103/100) (line-too-long)
+C:167, 0: Line too long (101/100) (line-too-long)
+C:206, 0: Line too long (141/100) (line-too-long)
+C:258, 0: Line too long (101/100) (line-too-long)
+
+-----------------------------------
+Your code has been rated at 9.36/10
+

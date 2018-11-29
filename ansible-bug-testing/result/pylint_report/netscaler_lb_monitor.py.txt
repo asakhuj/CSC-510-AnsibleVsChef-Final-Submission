@@ -1,0 +1,28 @@
+************* Module ansible.modules.network.netscaler.netscaler_lb_monitor
+C:1154, 0: Line too long (102/100) (line-too-long)
+C:1324, 0: Line too long (132/100) (line-too-long)
+C:1369, 0: Line too long (107/100) (line-too-long)
+C:  1, 0: Too many lines in module (1380/1000) (too-many-lines)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:828, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:830, 0: Import "from ansible.module_utils.network.netscaler.netscaler import ConfigProxy, get_nitro_client, netscaler_common_arguments, log, loglines, ensure_feature_is_enabled, get_immutables_intersection" should be placed at the top of the module (wrong-import-position)
+C:844,22: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:848, 0: Missing function docstring (missing-docstring)
+R:850, 4: The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)
+R:850, 4: Unnecessary "else" after "return" (no-else-return)
+C:856, 0: Missing function docstring (missing-docstring)
+R:876, 4: The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)
+R:876, 4: Unnecessary "else" after "return" (no-else-return)
+C:882, 0: Missing function docstring (missing-docstring)
+C:887, 0: Missing function docstring (missing-docstring)
+W:1156,11: Catching too general exception Exception (broad-except)
+C:1153,30: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:1156,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:1370,30: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:887, 0: Too many branches (26/12) (too-many-branches)
+R:887, 0: Too many statements (82/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 8.02/10
+

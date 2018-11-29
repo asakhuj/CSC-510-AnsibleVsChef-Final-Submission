@@ -1,0 +1,13 @@
+************* Module injector
+C: 51, 0: Line too long (111/100) (line-too-long)
+C: 52, 0: Line too long (109/100) (line-too-long)
+C: 93, 0: Line too long (118/100) (line-too-long)
+C:110, 0: Line too long (130/100) (line-too-long)
+C:118, 0: Line too long (108/100) (line-too-long)
+C:120, 0: Line too long (122/100) (line-too-long)
+E: 34, 0: Unable to import 'resource' (import-error)
+R: 41, 0: Too few public methods (0/2) (too-few-public-methods)
+
+-----------------------------------
+Your code has been rated at 8.99/10
+

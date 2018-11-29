@@ -1,0 +1,16 @@
+************* Module ansible.modules.cloud.amazon.iam_server_certificate_facts
+C:112, 0: Line too long (111/100) (line-too-long)
+C:122, 0: Line too long (104/100) (line-too-long)
+C:128, 0: Line too long (137/100) (line-too-long)
+C:159, 0: Line too long (123/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 92, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 93, 0: Import "from ansible.module_utils.ec2 import boto3_conn, ec2_argument_spec, get_aws_connection_info" should be placed at the top of the module (wrong-import-position)
+C:146, 0: Missing function docstring (missing-docstring)
+C:160,46: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W: 86, 4: Unused import boto3 (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.50/10
+

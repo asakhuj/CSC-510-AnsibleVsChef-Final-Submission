@@ -1,0 +1,22 @@
+************* Module ansible.modules.cloud.openstack.os_user_role
+C: 81, 0: Line too long (125/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 80, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 81, 0: Import "from ansible.module_utils.openstack import openstack_full_argument_spec, openstack_module_kwargs, openstack_cloud_from_module" should be placed at the top of the module (wrong-import-position)
+C:105, 0: Missing function docstring (missing-docstring)
+R:105, 0: Too many local variables (21/15) (too-many-locals)
+C:134, 8: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:140,12: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:146,16: Variable name "u" doesn't conform to snake_case naming style (invalid-name)
+C:148,16: Variable name "u" doesn't conform to snake_case naming style (invalid-name)
+C:154,12: Variable name "g" doesn't conform to snake_case naming style (invalid-name)
+C:160,16: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:167,16: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:194,53: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:105, 0: Too many branches (19/12) (too-many-branches)
+R:105, 0: Too many statements (61/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 8.02/10
+

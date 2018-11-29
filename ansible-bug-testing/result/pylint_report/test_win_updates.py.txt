@@ -1,0 +1,21 @@
+************* Module units.plugins.action.test_win_updates
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 12, 0: Unable to import 'ansible.plugins.action.win_updates' (import-error)
+E: 13, 0: Unable to import 'ansible.playbook.task' (import-error)
+C: 16, 0: Missing class docstring (missing-docstring)
+C: 46, 4: Missing method docstring (missing-docstring)
+R: 46, 4: Method could be a function (no-self-use)
+C: 78, 4: Missing method docstring (missing-docstring)
+R: 78, 4: Too many arguments (8/5) (too-many-arguments)
+C: 80, 8: Missing function docstring (missing-docstring)
+C: 81,12: Variable name "pc" doesn't conform to snake_case naming style (invalid-name)
+W: 80, 0: Unused argument 'kwargs' (unused-argument)
+W:101,21: Access to a protected member _execute_module_with_become of a client class (protected-access)
+C:114, 4: Missing method docstring (missing-docstring)
+R:114, 4: Method could be a function (no-self-use)
+W: 11, 0: Unused mock_open imported from units.compat.mock (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.31/10
+

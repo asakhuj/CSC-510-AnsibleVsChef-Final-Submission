@@ -1,0 +1,15 @@
+************* Module ansible.module_utils.network.f5.iworkflow
+C: 38, 0: Line too long (105/100) (line-too-long)
+C: 39, 0: Line too long (107/100) (line-too-long)
+C: 54, 0: Line too long (113/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 27, 0: Missing class docstring (missing-docstring)
+C: 33,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+W: 51,19: Catching too general exception Exception (broad-except)
+W: 33,12: Unused variable 'x' (unused-variable)
+W: 14, 4: Unused iControlUnexpectedHTTPError imported from icontrol.exceptions (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.30/10
+

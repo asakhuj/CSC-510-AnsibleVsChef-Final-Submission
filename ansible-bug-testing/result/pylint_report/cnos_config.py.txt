@@ -1,0 +1,43 @@
+************* Module ansible.modules.network.cnos.cnos_config
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:202, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:203, 0: Import "from ansible.module_utils.network.cnos.cnos import load_config, get_config" should be placed at the top of the module (wrong-import-position)
+C:204, 0: Import "from ansible.module_utils.network.cnos.cnos import cnos_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:205, 0: Import "from ansible.module_utils.network.cnos.cnos import check_args" should be placed at the top of the module (wrong-import-position)
+C:206, 0: Import "from ansible.module_utils.network.common.config import NetworkConfig, dumps" should be placed at the top of the module (wrong-import-position)
+C:212, 0: Missing function docstring (missing-docstring)
+C:219, 0: Missing function docstring (missing-docstring)
+C:229, 0: Missing function docstring (missing-docstring)
+E:260, 8: Assigning to function call which doesn't return (assignment-from-no-return)
+W:234, 4: Unused variable 'comment' (unused-variable)
+W:235, 4: Unused variable 'admin' (unused-variable)
+W:236, 4: Unused variable 'check_mode' (unused-variable)
+W:232, 4: Unused variable 'replace_config' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 7.12/10
+
+************* Module ansible.plugins.action.cnos_config
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 16, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 25, 0: No name 'urllib' in module '_MovedItems' (no-name-in-module)
+E: 25, 0: Unable to import 'ansible.module_utils.six.moves.urllib.parse' (import-error)
+C: 31, 0: Missing class docstring (missing-docstring)
+W: 62,11: Access to a protected member _role of a client class (protected-access)
+W: 63,18: Access to a protected member _role_path of a client class (protected-access)
+W: 63,18: Access to a protected member _role of a client class (protected-access)
+C: 70,12: Variable name "fn" doesn't conform to snake_case naming style (invalid-name)
+C: 92,38: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+W:100,11: Access to a protected member _role of a client class (protected-access)
+W:101,30: Access to a protected member _role_path of a client class (protected-access)
+W:101,30: Access to a protected member _role of a client class (protected-access)
+W:103,28: Access to a protected member _block of a client class (protected-access)
+W:106,42: Access to a protected member _role_path of a client class (protected-access)
+R: 77, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R: 31, 0: Too few public methods (1/2) (too-few-public-methods)
+W: 26, 0: Unused merge_hash imported from ansible.utils.vars (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.18/10
+

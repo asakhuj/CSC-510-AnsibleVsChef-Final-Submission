@@ -1,0 +1,20 @@
+************* Module none
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E:  9, 0: Unable to import 'ansible.plugins.cache' (import-error)
+C: 21, 0: Missing class docstring (missing-docstring)
+W: 22, 0: Unused argument 'args' (unused-argument)
+W: 22, 0: Unused argument 'kwargs' (unused-argument)
+C: 25, 4: Missing method docstring (missing-docstring)
+C: 28, 4: Missing method docstring (missing-docstring)
+W: 28,18: Unused argument 'key' (unused-argument)
+R: 28, 4: Method could be a function (no-self-use)
+C: 31, 4: Missing method docstring (missing-docstring)
+C: 34, 4: Missing method docstring (missing-docstring)
+C: 37, 4: Missing method docstring (missing-docstring)
+C: 40, 4: Missing method docstring (missing-docstring)
+C: 43, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 2.40/10
+

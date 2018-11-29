@@ -1,0 +1,28 @@
+************* Module ansible.modules.network.cloudengine.ce_vxlan_gateway
+C:419, 0: Line too long (117/100) (line-too-long)
+C:664, 0: Line too long (108/100) (line-too-long)
+C:755, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:177, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:178, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:179, 0: Import "from ansible.module_utils.network.cloudengine.ce import get_config, load_config" should be placed at the top of the module (wrong-import-position)
+C:180, 0: Import "from ansible.module_utils.network.cloudengine.ce import ce_argument_spec" should be placed at the top of the module (wrong-import-position)
+R:212, 0: Too many return statements (8/6) (too-many-return-statements)
+R:244, 4: Unnecessary "else" after "return" (no-else-return)
+R:255, 4: Unnecessary "else" after "return" (no-else-return)
+R:265, 4: Unnecessary "else" after "return" (no-else-return)
+R:276, 4: Unnecessary "else" after "return" (no-else-return)
+R:289, 4: Unnecessary "else" after "return" (no-else-return)
+R:299, 4: Unnecessary "else" after "return" (no-else-return)
+R:309, 4: Unnecessary "else" after "return" (no-else-return)
+R:320, 4: Unnecessary "else" after "return" (no-else-return)
+R:326, 0: Too many instance attributes (28/7) (too-many-instance-attributes)
+R:404, 4: Too many branches (42/12) (too-many-branches)
+R:404, 4: Too many statements (114/50) (too-many-statements)
+R:563, 4: Too many branches (23/12) (too-many-branches)
+R:563, 4: Too many statements (61/50) (too-many-statements)
+R:672, 4: Too many branches (26/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 9.54/10
+

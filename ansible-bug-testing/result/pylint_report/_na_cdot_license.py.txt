@@ -1,0 +1,23 @@
+************* Module ansible.modules.storage.netapp._na_cdot_license
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:132, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:134, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:135, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:136, 0: Import "import ansible.module_utils.netapp as netapp_utils" should be placed at the top of the module (wrong-import-position)
+C:142, 0: Missing class docstring (missing-docstring)
+C:158, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:183,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:214,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:226,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:238,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:267,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:271,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:276,51: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:280, 4: Missing method docstring (missing-docstring)
+C:293, 0: Missing function docstring (missing-docstring)
+C:294, 4: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.12/10
+

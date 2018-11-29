@@ -1,0 +1,17 @@
+************* Module ansible.modules.storage.netapp.na_ontap_job_schedule
+C: 82, 0: Wrong hanging indentation (remove 7 spaces).
+                       'present', 'absent'], default='present'),
+                |      ^ (bad-continuation)
+C:135, 0: Wrong continued indentation (add 15 spaces).
+                .get_child_content('cron-minute')
+                ^              | (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 66, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C: 67, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 68, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 69, 0: Import "import ansible.module_utils.netapp as netapp_utils" should be placed at the top of the module (wrong-import-position)
+
+-----------------------------------
+Your code has been rated at 9.08/10
+

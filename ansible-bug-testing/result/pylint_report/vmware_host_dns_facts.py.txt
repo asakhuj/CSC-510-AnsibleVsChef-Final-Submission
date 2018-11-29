@@ -1,0 +1,13 @@
+************* Module ansible.modules.cloud.vmware.vmware_host_dns_facts
+C: 92, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 83, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 84, 0: Import "from ansible.module_utils.vmware import vmware_argument_spec, PyVmomi" should be placed at the top of the module (wrong-import-position)
+C: 87, 0: Missing class docstring (missing-docstring)
+C: 94, 4: Missing method docstring (missing-docstring)
+C:109, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.71/10
+

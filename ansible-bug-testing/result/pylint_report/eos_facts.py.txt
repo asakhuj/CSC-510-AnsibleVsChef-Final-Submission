@@ -1,0 +1,27 @@
+************* Module ansible.modules.network.eos.eos_facts
+C:  1, 0: Missing module docstring (missing-docstring)
+C:138, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:140, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:141, 0: Import "from ansible.module_utils.six import iteritems" should be placed at the top of the module (wrong-import-position)
+C:142, 0: Import "from ansible.module_utils.network.eos.eos import run_commands" should be placed at the top of the module (wrong-import-position)
+C:143, 0: Import "from ansible.module_utils.network.eos.eos import eos_argument_spec, check_args" should be placed at the top of the module (wrong-import-position)
+C:146, 0: Missing class docstring (missing-docstring)
+C:155, 4: Missing method docstring (missing-docstring)
+R:146, 0: Too few public methods (1/2) (too-few-public-methods)
+C:159, 0: Missing class docstring (missing-docstring)
+C:183, 4: Missing method docstring (missing-docstring)
+C:195, 0: Missing class docstring (missing-docstring)
+C:207, 4: Missing method docstring (missing-docstring)
+C:213, 8: Variable name "fs" doesn't conform to snake_case naming style (invalid-name)
+C:216, 4: Missing method docstring (missing-docstring)
+C:224, 0: Missing class docstring (missing-docstring)
+R:224, 0: Too few public methods (1/2) (too-few-public-methods)
+C:233, 0: Missing class docstring (missing-docstring)
+C:264, 4: Missing method docstring (missing-docstring)
+C:291, 4: Missing method docstring (missing-docstring)
+C:297, 4: Missing method docstring (missing-docstring)
+R:297, 4: Method could be a function (no-self-use)
+
+-----------------------------------
+Your code has been rated at 8.54/10
+

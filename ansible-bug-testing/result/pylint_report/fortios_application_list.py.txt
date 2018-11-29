@@ -1,0 +1,20 @@
+************* Module ansible.modules.network.fortios.fortios_application_list
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:417, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:419, 0: Constant name "fos" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:422, 0: Missing function docstring (missing-docstring)
+C:436, 0: Missing function docstring (missing-docstring)
+W:451,27: Redefining name 'fos' from outer scope (line 419) (redefined-outer-name)
+C:451, 0: Missing function docstring (missing-docstring)
+R:451, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+W:468,30: Redefining name 'fos' from outer scope (line 419) (redefined-outer-name)
+C:468, 0: Missing function docstring (missing-docstring)
+W:474,19: Use of eval (eval-used)
+C:481, 0: Missing function docstring (missing-docstring)
+W:581, 4: Using the global statement (global-statement)
+C:581, 4: Constant name "fos" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.32/10
+

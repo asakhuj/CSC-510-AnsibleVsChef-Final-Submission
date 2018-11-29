@@ -1,0 +1,30 @@
+************* Module ansible.modules.network.nxos.nxos_static_route
+C:191, 0: Line too long (118/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 93, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C: 94, 0: Import "from copy import deepcopy" should be placed at the top of the module (wrong-import-position)
+C: 96, 0: Import "from ansible.module_utils.network.nxos.nxos import get_config, load_config, run_commands" should be placed at the top of the module (wrong-import-position)
+C: 97, 0: Import "from ansible.module_utils.network.nxos.nxos import nxos_argument_spec" should be placed at the top of the module (wrong-import-position)
+C: 98, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 99, 0: Import "from ansible.module_utils.network.common.config import CustomNetworkConfig" should be placed at the top of the module (wrong-import-position)
+C:100, 0: Import "from ansible.module_utils.network.common.utils import remove_default_spec" should be placed at the top of the module (wrong-import-position)
+C:103, 0: Argument name "w" doesn't conform to snake_case naming style (invalid-name)
+C:103, 0: Missing function docstring (missing-docstring)
+R:103, 0: Too many branches (14/12) (too-many-branches)
+C:147, 0: Argument name "w" doesn't conform to snake_case naming style (invalid-name)
+C:147, 0: Missing function docstring (missing-docstring)
+C:151, 0: Missing function docstring (missing-docstring)
+C:165, 0: Argument name "w" doesn't conform to snake_case naming style (invalid-name)
+C:165, 0: Missing function docstring (missing-docstring)
+C:187, 0: Missing function docstring (missing-docstring)
+C:195, 0: Missing function docstring (missing-docstring)
+C:201, 0: Missing function docstring (missing-docstring)
+C:226, 0: Missing function docstring (missing-docstring)
+C:243, 0: Missing function docstring (missing-docstring)
+C:252,12: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:269, 0: Missing function docstring (missing-docstring)
+C:306, 8: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.34/10
+

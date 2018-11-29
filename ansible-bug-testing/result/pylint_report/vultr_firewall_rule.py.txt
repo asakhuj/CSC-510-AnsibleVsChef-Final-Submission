@@ -1,0 +1,21 @@
+************* Module ansible.modules.cloud.vultr.vultr_firewall_rule
+C:223, 0: Wrong hanging indentation (remove 5 spaces).
+                 % (firewall_group_id, ip_version))
+            |    ^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:166, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:167, 0: Import "from ansible.module_utils.vultr import Vultr, vultr_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:173, 0: Missing class docstring (missing-docstring)
+C:189, 4: Missing method docstring (missing-docstring)
+R:189, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+W:195,16: Unused variable 'firewall_group_id' (unused-variable)
+C:214, 4: Missing method docstring (missing-docstring)
+W:228,16: Unused variable 'firewall_rule_id' (unused-variable)
+C:265, 4: Missing method docstring (missing-docstring)
+C:316, 4: Missing method docstring (missing-docstring)
+C:349, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.82/10
+

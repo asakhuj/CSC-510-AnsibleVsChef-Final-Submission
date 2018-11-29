@@ -1,0 +1,9 @@
+************* Module test_override
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  2, 0: Unable to import 'ansible.module_utils.basic' (import-error)
+E:  3, 0: Unable to import 'ansible.module_utils.facts' (import-error)
+C:  5, 0: Constant name "results" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+-------------------------------------
+Your code has been rated at -20.00/10
+

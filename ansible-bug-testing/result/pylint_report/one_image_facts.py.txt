@@ -1,0 +1,22 @@
+************* Module ansible.modules.cloud.opennebula.one_image_facts
+C:162, 0: Line too long (138/100) (line-too-long)
+C:195, 0: Line too long (129/100) (line-too-long)
+C:245, 0: Line too long (122/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:150, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:151, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:154, 0: Missing function docstring (missing-docstring)
+C:165, 0: Missing function docstring (missing-docstring)
+C:183, 0: Missing function docstring (missing-docstring)
+C:191,15: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:194, 7: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:200, 0: Missing function docstring (missing-docstring)
+C:223,27: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:229, 0: Missing function docstring (missing-docstring)
+C:253, 0: Missing function docstring (missing-docstring)
+C:151, 0: standard import "import os" should be placed before "from ansible.module_utils.basic import AnsibleModule" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 8.13/10
+

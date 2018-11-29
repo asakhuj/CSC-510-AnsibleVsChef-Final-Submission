@@ -1,0 +1,7 @@
+************* Module ansible.module_utils.pycompat24
+C: 72, 0: Line too long (128/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 9.35/10
+

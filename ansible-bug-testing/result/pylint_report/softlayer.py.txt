@@ -1,0 +1,27 @@
+************* Module softlayer
+C: 83, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 86, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 89, 0: Line too long (104/100) (line-too-long)
+C:104, 0: Line too long (108/100) (line-too-long)
+C:130, 0: Line too long (145/100) (line-too-long)
+C:154, 0: Line too long (102/100) (line-too-long)
+C:160, 0: Line too long (112/100) (line-too-long)
+C:163, 0: Line too long (101/100) (line-too-long)
+E: 35, 0: Unable to import 'SoftLayer' (import-error)
+C: 42, 0: Missing class docstring (missing-docstring)
+R: 71, 4: Method could be a function (no-self-use)
+R: 88, 4: Method could be a function (no-self-use)
+R: 93, 4: Method could be a function (no-self-use)
+R:114, 8: Unnecessary "else" after "return" (no-else-return)
+R:111, 4: Method could be a function (no-self-use)
+C:182, 8: Variable name "vs" doesn't conform to snake_case naming style (invalid-name)
+C:191, 8: Variable name "hw" doesn't conform to snake_case naming style (invalid-name)
+C:198, 4: Missing method docstring (missing-docstring)
+C: 36, 0: standard import "import re" should be placed before "import SoftLayer" (wrong-import-order)
+C: 37, 0: standard import "import argparse" should be placed before "import SoftLayer" (wrong-import-order)
+C: 38, 0: standard import "import itertools" should be placed before "import SoftLayer" (wrong-import-order)
+C: 39, 0: standard import "import json" should be placed before "import SoftLayer" (wrong-import-order)
+
+------------------------------------------------------------------
+Your code has been rated at 6.87/10 (previous run: 6.87/10, +0.00)
+

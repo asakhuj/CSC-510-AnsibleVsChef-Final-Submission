@@ -1,0 +1,14 @@
+************* Module ansible.modules.network.slxos.slxos_lldp
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 67, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C: 68, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 69, 0: Import "from ansible.module_utils.network.common.config import CustomNetworkConfig" should be placed at the top of the module (wrong-import-position)
+C: 70, 0: Import "from ansible.module_utils.network.slxos.slxos import load_config, get_config" should be placed at the top of the module (wrong-import-position)
+C: 78, 0: Missing function docstring (missing-docstring)
+C: 85, 8: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+C:104, 4: Variable name "HAS_LLDP" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 8.00/10
+

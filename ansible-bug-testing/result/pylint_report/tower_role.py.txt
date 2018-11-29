@@ -1,0 +1,13 @@
+************* Module ansible.modules.web_infrastructure.ansible_tower.tower_role
+C:107, 0: Line too long (111/100) (line-too-long)
+C:116, 0: Line too long (103/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 74, 0: Import "from ansible.module_utils.ansible_tower import TowerModule, tower_auth_config, tower_check_mode" should be placed at the top of the module (wrong-import-position)
+C: 85, 0: Argument name "p" doesn't conform to snake_case naming style (invalid-name)
+C:100,11: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:111, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.33/10
+

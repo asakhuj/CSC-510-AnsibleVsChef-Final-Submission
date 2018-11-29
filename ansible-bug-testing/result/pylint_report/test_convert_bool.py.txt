@@ -1,0 +1,23 @@
+************* Module test_convert_bool
+C:  3, 0: Line too long (108/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 11, 0: Unable to import 'ansible.module_utils.parsing.convert_bool' (import-error)
+C: 14, 0: Missing class docstring (missing-docstring)
+W: 14, 0: Class has no __init__ method (no-init)
+C: 15, 4: Missing method docstring (missing-docstring)
+R: 15, 4: Method could be a function (no-self-use)
+C: 19, 4: Missing method docstring (missing-docstring)
+R: 19, 4: Method could be a function (no-self-use)
+C: 24, 4: Missing method docstring (missing-docstring)
+R: 24, 4: Method could be a function (no-self-use)
+C: 35, 4: Missing method docstring (missing-docstring)
+R: 35, 4: Method could be a function (no-self-use)
+C: 43, 4: Missing method docstring (missing-docstring)
+R: 43, 4: Method could be a function (no-self-use)
+C: 49, 4: Missing method docstring (missing-docstring)
+R: 49, 4: Method could be a function (no-self-use)
+
+-----------------------------------
+Your code has been rated at 4.05/10
+

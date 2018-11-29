@@ -1,0 +1,16 @@
+************* Module ansible.modules.monitoring.datadog_event
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 12, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 92, 0: Import "import platform" should be placed at the top of the module (wrong-import-position)
+C: 93, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+W: 99, 0: No exception type(s) specified (bare-except)
+E: 97, 4: Unable to import 'datadog' (import-error)
+C:102, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:103, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:106, 0: Missing function docstring (missing-docstring)
+W:158,11: Catching too general exception Exception (broad-except)
+C:158,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 5.45/10
+

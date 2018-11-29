@@ -1,0 +1,24 @@
+************* Module ansible.modules.packaging.os.package_facts
+W:192, 0: FIXME: add more listing methods (fixme)
+W:211, 0: FIXME: add more detection methods (fixme)
+C:154, 0: Line too long (142/100) (line-too-long)
+C:177, 0: Line too long (142/100) (line-too-long)
+C:184, 0: Line too long (108/100) (line-too-long)
+C:225, 0: Line too long (116/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:143, 0: Import "import sys" should be placed at the top of the module (wrong-import-position)
+C:145, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:146, 0: Import "from ansible.module_utils._text import to_text" should be placed at the top of the module (wrong-import-position)
+C:149, 0: Missing function docstring (missing-docstring)
+C:172, 0: Missing function docstring (missing-docstring)
+E:179,16: Module 'apt' has no 'Cache' member (no-member)
+C:193, 0: Missing function docstring (missing-docstring)
+W:194, 4: Global variable 'module' undefined at the module level (global-variable-undefined)
+C:194, 4: Constant name "module" doesn't conform to UPPER_CASE naming style (invalid-name)
+W:223,11: Catching too general exception Exception (broad-except)
+C:223,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.62/10
+

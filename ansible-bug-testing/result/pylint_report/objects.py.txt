@@ -1,0 +1,15 @@
+************* Module ansible.parsing.yaml.objects
+W: 72, 0: TODO: is there a reason these objects are subclasses for YAMLObject? (fixme)
+W:105, 0: FIXME: raise exception? (fixme)
+C: 81, 0: Line too long (125/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+R: 28, 0: Too few public methods (0/2) (too-few-public-methods)
+C: 73, 0: Missing class docstring (missing-docstring)
+C: 79, 4: Missing method docstring (missing-docstring)
+C:103, 4: Missing method docstring (missing-docstring)
+C:136, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.46/10
+

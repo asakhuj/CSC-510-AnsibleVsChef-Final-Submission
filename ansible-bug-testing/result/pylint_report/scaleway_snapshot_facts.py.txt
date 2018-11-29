@@ -1,0 +1,11 @@
+************* Module ansible.modules.cloud.scaleway.scaleway_snapshot_facts
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 69, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 70, 0: Import "from ansible.module_utils.scaleway import Scaleway, ScalewayException, scaleway_argument_spec, SCALEWAY_LOCATION" should be placed at the top of the module (wrong-import-position)
+C: 78, 0: Missing class docstring (missing-docstring)
+C: 88, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.50/10
+

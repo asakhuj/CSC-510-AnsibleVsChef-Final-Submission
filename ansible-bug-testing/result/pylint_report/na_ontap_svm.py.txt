@@ -1,0 +1,47 @@
+************* Module ansible.modules.storage.netapp.na_ontap_svm
+C:201, 0: Wrong hanging indentation (remove 7 spaces).
+                       'present', 'absent'], default='present'),
+                |      ^ (bad-continuation)
+C:210, 0: Wrong continued indentation (remove 1 space).
+                                                                 ]),
+                                                                |^ (bad-continuation)
+C:289, 0: Line too long (112/100) (line-too-long)
+C:290, 0: Line too long (122/100) (line-too-long)
+C:426, 0: Line too long (103/100) (line-too-long)
+C:427, 0: Line too long (118/100) (line-too-long)
+C:428, 0: Line too long (133/100) (line-too-long)
+C:429, 0: Line too long (128/100) (line-too-long)
+C:430, 0: Line too long (148/100) (line-too-long)
+C:431, 0: Line too long (133/100) (line-too-long)
+C:433, 0: Line too long (114/100) (line-too-long)
+C:435, 0: Line too long (114/100) (line-too-long)
+C:453, 0: Line too long (108/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:186, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:188, 0: Import "import ansible.module_utils.netapp as netapp_utils" should be placed at the top of the module (wrong-import-position)
+C:189, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:190, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:195, 0: Missing class docstring (missing-docstring)
+R:195, 0: Too many instance attributes (15/7) (too-many-instance-attributes)
+C:224, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+W:274,12: String statement has no effect (pointless-string-statement)
+W:282,12: String statement has no effect (pointless-string-statement)
+C:298, 4: Missing method docstring (missing-docstring)
+C:318,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:325, 4: Missing method docstring (missing-docstring)
+C:332,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:339, 4: Missing method docstring (missing-docstring)
+C:347,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:352, 4: Missing method docstring (missing-docstring)
+C:379,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:384, 4: Missing method docstring (missing-docstring)
+W:395, 8: Unused variable 'rename_vserver' (unused-variable)
+R:384, 4: Too many branches (25/12) (too-many-branches)
+R:384, 4: Too many statements (58/50) (too-many-statements)
+C:460, 0: Missing function docstring (missing-docstring)
+C:461, 4: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.80/10
+

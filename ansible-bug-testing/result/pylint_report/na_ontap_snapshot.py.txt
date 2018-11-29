@@ -1,0 +1,16 @@
+************* Module ansible.modules.storage.netapp.na_ontap_snapshot
+W:257, 0: TODO: Snapshot with the same name will mess this up, (fixme)
+C:121, 0: Wrong hanging indentation (remove 7 spaces).
+                       'present', 'absent'], default='present'),
+                |      ^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:103, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:105, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:106, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:107, 0: Import "import ansible.module_utils.netapp as netapp_utils" should be placed at the top of the module (wrong-import-position)
+R:112, 0: Too many instance attributes (12/7) (too-many-instance-attributes)
+
+-----------------------------------
+Your code has been rated at 9.29/10
+

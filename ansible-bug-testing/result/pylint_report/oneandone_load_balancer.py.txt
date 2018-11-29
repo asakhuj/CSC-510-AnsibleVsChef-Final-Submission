@@ -1,0 +1,26 @@
+************* Module ansible.modules.cloud.oneandone.oneandone_load_balancer
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 18, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:253, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:254, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:255, 0: Import "from ansible.module_utils.oneandone import get_load_balancer, get_server, get_datacenter, OneAndOneResources, wait_for_resource_creation_completion" should be placed at the top of the module (wrong-import-position)
+W:306,11: Catching too general exception Exception (broad-except)
+W:327,11: Catching too general exception Exception (broad-except)
+W:358,11: Catching too general exception Exception (broad-except)
+W:380,11: Catching too general exception Exception (broad-except)
+R:384, 0: Too many local variables (22/15) (too-many-locals)
+R:416, 8: Too many boolean expressions in if statement (9/5) (too-many-boolean-expressions)
+W:486,11: Catching too general exception Exception (broad-except)
+R:384, 0: Too many statements (51/50) (too-many-statements)
+R:490, 0: Too many local variables (24/15) (too-many-locals)
+W:562,11: Catching too general exception Exception (broad-except)
+W:588,11: Catching too general exception Exception (broad-except)
+C:592, 0: Missing function docstring (missing-docstring)
+W:650,15: Catching too general exception Exception (broad-except)
+W:658,15: Catching too general exception Exception (broad-except)
+W:669,15: Catching too general exception Exception (broad-except)
+R:592, 0: Too many branches (14/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 9.00/10
+

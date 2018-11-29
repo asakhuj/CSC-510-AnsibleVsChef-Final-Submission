@@ -1,0 +1,17 @@
+************* Module ansible.modules.cloud.univention.udm_dns_record
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 84, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 85, 0: Import "from ansible.module_utils.univention_umc import umc_module_for_add, umc_module_for_edit, ldap_search, base_dn, config, uldap" should be placed at the top of the module (wrong-import-position)
+W:119, 4: Redefining built-in 'type' (redefined-builtin)
+C: 95, 0: Missing function docstring (missing-docstring)
+R: 95, 0: Too many local variables (16/15) (too-many-locals)
+C:133, 4: Variable name "dn" doesn't conform to snake_case naming style (invalid-name)
+C:138,16: Variable name "so" doesn't conform to snake_case naming style (invalid-name)
+C:153,19: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:162,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:173,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.86/10
+

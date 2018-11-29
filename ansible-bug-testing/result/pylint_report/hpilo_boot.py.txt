@@ -1,0 +1,19 @@
+************* Module ansible.modules.remote_management.hpilo.hpilo_boot
+W:163, 0: TODO: Verify if image URL exists/works (fixme)
+C:129, 0: Line too long (107/100) (line-too-long)
+C:131, 0: Line too long (142/100) (line-too-long)
+C:133, 0: Line too long (118/100) (line-too-long)
+C:147, 0: Line too long (110/100) (line-too-long)
+C:177, 0: Line too long (102/100) (line-too-long)
+C:183, 0: Line too long (102/100) (line-too-long)
+C:195, 0: Unnecessary parens after 'in' keyword (superfluous-parens)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:106, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C:107, 0: Import "import warnings" should be placed at the top of the module (wrong-import-position)
+C:115, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:122, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.85/10
+

@@ -1,0 +1,27 @@
+************* Module ansible.modules.utilities.logic.include
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.67/10
+
+************* Module ansible.playbook.role.include
+C: 47, 0: Line too long (129/100) (line-too-long)
+C: 50, 0: Line too long (103/100) (line-too-long)
+C: 52, 0: Line too long (117/100) (line-too-long)
+C: 58, 0: Line too long (117/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+R: 50, 4: Too many arguments (6/5) (too-many-arguments)
+W: 50, 4: Parameters differ from overridden 'load' method (arguments-differ)
+R: 52,16: Consider merging these isinstance calls to isinstance(data, (AnsibleBaseYAMLObject, dict, string_types)) (consider-merging-isinstance)
+C: 58, 8: Variable name "ri" doesn't conform to snake_case naming style (invalid-name)
+W: 50,49: Unused argument 'parent_role' (unused-argument)
+W: 22, 0: Unused import os (unused-import)
+W: 25, 0: Unused iteritems imported from ansible.module_utils.six (unused-import)
+W: 27, 0: Unused Attribute imported from ansible.playbook.attribute (unused-import)
+W: 29, 0: Unused RoleRequirement imported from ansible.playbook.role.requirement (unused-import)
+
+-----------------------------------
+Your code has been rated at 3.48/10
+

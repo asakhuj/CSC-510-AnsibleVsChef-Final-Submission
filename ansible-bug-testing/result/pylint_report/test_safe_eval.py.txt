@@ -1,0 +1,31 @@
+************* Module units.module_utils.basic.test_safe_eval
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 41, 0: Argument name "am" doesn't conform to snake_case naming style (invalid-name)
+C: 41, 0: Missing function docstring (missing-docstring)
+C: 49, 0: Function name "test_simple_types_with_exceptions" doesn't conform to snake_case naming style (invalid-name)
+C: 49, 0: Argument name "am" doesn't conform to snake_case naming style (invalid-name)
+C: 49, 0: Missing function docstring (missing-docstring)
+C: 57, 0: Argument name "am" doesn't conform to snake_case naming style (invalid-name)
+C: 57, 0: Missing function docstring (missing-docstring)
+C: 64, 0: Function name "test_invalid_strings_with_exceptions" doesn't conform to snake_case naming style (invalid-name)
+C: 64, 0: Argument name "am" doesn't conform to snake_case naming style (invalid-name)
+C: 64, 0: Missing function docstring (missing-docstring)
+C: 70,15: Using type() instead of isinstance() for a typecheck. (unidiomatic-typecheck)
+
+-----------------------------------
+Your code has been rated at 3.16/10
+
+************* Module units.template.test_safe_eval
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 27, 0: Unable to import 'ansible.template.safe_eval' (import-error)
+C: 30, 0: Missing class docstring (missing-docstring)
+C: 38, 4: Missing method docstring (missing-docstring)
+C: 50, 4: Missing method docstring (missing-docstring)
+W: 26, 0: Unused MagicMock imported from units.compat.mock (unused-import)
+W: 26, 0: Unused patch imported from units.compat.mock (unused-import)
+
+-----------------------------------
+Your code has been rated at 4.29/10
+

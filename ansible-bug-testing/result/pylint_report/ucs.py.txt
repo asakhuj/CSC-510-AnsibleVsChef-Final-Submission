@@ -1,0 +1,25 @@
+************* Module ansible.module_utils.remote_management.ucs
+C:  1, 0: Missing module docstring (missing-docstring)
+W: 34, 0: No exception type(s) specified (bare-except)
+E: 32, 4: Unable to import 'ucsmsdk' (import-error)
+C: 37, 0: Constant name "ucs_argument_spec" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 48, 0: Missing class docstring (missing-docstring)
+C: 48, 0: Old-style class defined. (old-style-class)
+C: 60, 4: Missing method docstring (missing-docstring)
+E: 61, 8: Unable to import 'ucsmsdk.ucshandle' (import-error)
+W: 81,15: Catching too general exception Exception (broad-except)
+C: 81,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C: 86, 4: Missing method docstring (missing-docstring)
+W: 32, 4: Unused import ucsmsdk (unused-import)
+
+-----------------------------------
+Your code has been rated at 3.75/10
+
+************* Module ansible.utils.module_docs_fragments.ucs
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 33, 0: Missing class docstring (missing-docstring)
+R: 33, 0: Too few public methods (0/2) (too-few-public-methods)
+
+------------------------------------
+Your code has been rated at -5.00/10
+

@@ -1,0 +1,72 @@
+************* Module ansible.modules.cloud.amazon.iam_user
+C:102, 0: Line too long (117/100) (line-too-long)
+C:172, 0: Line too long (117/100) (line-too-long)
+C:175, 0: Line too long (117/100) (line-too-long)
+C:191, 0: Line too long (104/100) (line-too-long)
+C:193, 0: Line too long (101/100) (line-too-long)
+C:194, 0: Wrong hanging indentation (remove 13 spaces).
+                                         policy_arn, params['UserName'], to_native(e)),
+                            |            ^ (bad-continuation)
+C:195, 0: Line too long (114/100) (line-too-long)
+C:197, 0: Line too long (101/100) (line-too-long)
+C:198, 0: Wrong hanging indentation (remove 13 spaces).
+                                         policy_arn, params['UserName'], to_native(e)),
+                            |            ^ (bad-continuation)
+C:209, 0: Line too long (104/100) (line-too-long)
+C:212, 0: Wrong hanging indentation (remove 13 spaces).
+                                         policy_arn, params['UserName'], to_native(e)),
+                            |            ^ (bad-continuation)
+C:213, 0: Line too long (114/100) (line-too-long)
+C:216, 0: Wrong hanging indentation (remove 13 spaces).
+                                         policy_arn, params['UserName'], to_native(e)),
+                            |            ^ (bad-continuation)
+C:240, 0: Line too long (105/100) (line-too-long)
+C:243, 0: Wrong hanging indentation (remove 13 spaces).
+                             policy['PolicyArn'], params['UserName'], to_native(e)),
+                |            ^ (bad-continuation)
+C:244, 0: Line too long (102/100) (line-too-long)
+C:247, 0: Wrong hanging indentation (remove 13 spaces).
+                             policy['PolicyArn'], params['UserName'], to_native(e)),
+                |            ^ (bad-continuation)
+C:253, 0: Line too long (107/100) (line-too-long)
+C:254, 0: Line too long (102/100) (line-too-long)
+C:256, 0: Line too long (107/100) (line-too-long)
+C:288, 0: Line too long (103/100) (line-too-long)
+C:313, 0: Line too long (126/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:100, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:101, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:102, 0: Import "from ansible.module_utils.ec2 import camel_dict_to_snake_dict, ec2_argument_spec, get_aws_connection_info, boto3_conn" should be placed at the top of the module (wrong-import-position)
+C:103, 0: Import "from ansible.module_utils.ec2 import HAS_BOTO3" should be placed at the top of the module (wrong-import-position)
+C:105, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:113, 0: Missing function docstring (missing-docstring)
+C:116, 7: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:119, 4: Variable name "current_attached_policies_arn_list" doesn't conform to snake_case naming style (invalid-name)
+R:123, 4: The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)
+R:123, 4: Unnecessary "else" after "return" (no-else-return)
+C:129, 0: Missing function docstring (missing-docstring)
+C:145,23: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:149, 0: Missing function docstring (missing-docstring)
+C:171,30: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:174,39: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:180, 8: Variable name "current_attached_policies_arn_list" doesn't conform to snake_case naming style (invalid-name)
+C:192,42: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:196,51: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:210,42: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:214,51: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:149, 0: Too many branches (18/12) (too-many-branches)
+C:227, 0: Missing function docstring (missing-docstring)
+C:241,30: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:245,39: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:252,30: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:255,39: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:265, 0: Missing function docstring (missing-docstring)
+C:272,26: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:280, 0: Missing function docstring (missing-docstring)
+C:284,26: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:292, 0: Missing function docstring (missing-docstring)
+C:105, 0: standard import "import traceback" should be placed before "from ansible.module_utils._text import to_native" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 5.90/10
+

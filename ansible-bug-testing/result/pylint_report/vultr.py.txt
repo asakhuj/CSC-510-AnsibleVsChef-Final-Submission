@@ -1,0 +1,82 @@
+************* Module ansible.module_utils.vultr
+C:  3, 0: Line too long (106/100) (line-too-long)
+C: 36, 0: Line too long (132/100) (line-too-long)
+C: 60, 0: Line too long (105/100) (line-too-long)
+C: 61, 0: Line too long (104/100) (line-too-long)
+C: 62, 0: Line too long (119/100) (line-too-long)
+C: 66, 0: Line too long (112/100) (line-too-long)
+C: 67, 0: Line too long (102/100) (line-too-long)
+C: 70, 0: Line too long (104/100) (line-too-long)
+C:179, 0: Line too long (131/100) (line-too-long)
+C:208, 0: Line too long (115/100) (line-too-long)
+C:267, 0: Line too long (111/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 11, 0: Unable to import 'ansible.module_utils.six.moves' (import-error)
+C: 20, 0: Missing function docstring (missing-docstring)
+C: 31, 0: Missing class docstring (missing-docstring)
+W: 35,11: Access to a protected member _name of a client class (protected-access)
+C: 64,29: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C: 87, 4: Missing method docstring (missing-docstring)
+R: 87, 4: Method could be a function (no-self-use)
+C: 98, 4: Missing method docstring (missing-docstring)
+W:109,15: Access to a protected member _sections of a client class (protected-access)
+C:114, 4: Missing method docstring (missing-docstring)
+C:118, 4: Missing method docstring (missing-docstring)
+R:118, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:122, 4: Missing method docstring (missing-docstring)
+R:137,12: Unnecessary "else" after "return" (no-else-return)
+R:122, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:142, 4: Missing method docstring (missing-docstring)
+C:148,19: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:150,24: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+E:154,58: Module 'urllib' has no 'parse' member (no-member)
+E:160,23: Module 'urllib' has no 'parse' member (no-member)
+C:162,12: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+C:205,29: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:142, 4: Too many branches (13/12) (too-many-branches)
+C:208, 4: Missing method docstring (missing-docstring)
+R:208, 4: Too many arguments (7/5) (too-many-arguments)
+R:208, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+W:229,16: Unused variable 'r_id' (unused-variable)
+C:239, 4: Missing method docstring (missing-docstring)
+C:264, 4: Missing method docstring (missing-docstring)
+E:267,76: Instance of 'Vultr' has no 'returns' member (no-member)
+E:269,79: Instance of 'Vultr' has no 'returns' member (no-member)
+C:273, 4: Missing method docstring (missing-docstring)
+C:283, 4: Missing method docstring (missing-docstring)
+C:294, 4: Missing method docstring (missing-docstring)
+C:304, 4: Missing method docstring (missing-docstring)
+W: 12, 0: Unused to_text imported from ansible.module_utils._text (unused-import)
+
+-----------------------------------
+Your code has been rated at 5.77/10
+
+************* Module ansible.plugins.inventory.vultr
+C:135, 0: Line too long (112/100) (line-too-long)
+C:148, 0: Line too long (104/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 50, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C: 52, 0: Import "from ansible.errors import AnsibleError" should be placed at the top of the module (wrong-import-position)
+C: 53, 0: Import "from ansible.plugins.inventory import BaseInventoryPlugin" should be placed at the top of the module (wrong-import-position)
+E: 54, 0: Unable to import 'ansible.module_utils.six.moves' (import-error)
+C: 54, 0: Import "from ansible.module_utils.six.moves import configparser" should be placed at the top of the module (wrong-import-position)
+C: 55, 0: Import "from ansible.module_utils.urls import open_url" should be placed at the top of the module (wrong-import-position)
+C: 56, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 57, 0: Import "from ansible.module_utils.vultr import Vultr, VULTR_API_ENDPOINT, VULTR_USER_AGENT" should be placed at the top of the module (wrong-import-position)
+W: 99,15: Access to a protected member _sections of a client class (protected-access)
+C:120,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:124, 0: Missing class docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 6.20/10
+
+************* Module ansible.utils.module_docs_fragments.vultr
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Missing class docstring (missing-docstring)
+R:  6, 0: Too few public methods (0/2) (too-few-public-methods)
+
+------------------------------------
+Your code has been rated at -5.00/10
+

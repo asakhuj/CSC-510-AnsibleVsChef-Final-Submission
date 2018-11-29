@@ -1,0 +1,20 @@
+************* Module ansible.modules.cloud.cloudstack.cs_vpn_connection
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:177, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:178, 0: Import "from ansible.module_utils.cloudstack import AnsibleCloudStack, cs_argument_spec, cs_required_together" should be placed at the top of the module (wrong-import-position)
+C:185, 0: Missing class docstring (missing-docstring)
+C:202, 4: Missing method docstring (missing-docstring)
+R:202, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:222, 4: Missing method docstring (missing-docstring)
+R:222, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:242, 4: Missing method docstring (missing-docstring)
+R:242, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:256, 4: Missing method docstring (missing-docstring)
+C:276, 4: Missing method docstring (missing-docstring)
+W:294, 4: Parameters differ from overridden 'get_result' method (arguments-differ)
+C:310, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.30/10
+

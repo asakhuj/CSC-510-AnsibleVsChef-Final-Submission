@@ -1,0 +1,21 @@
+************* Module ansible.modules.cloud.vmware.vmware_guest_tools_wait
+C:134, 0: Line too long (133/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:106, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C:108, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:109, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:110, 0: Import "from ansible.module_utils.vmware import PyVmomi, gather_vm_facts, vmware_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:113, 0: Missing class docstring (missing-docstring)
+W:114, 4: Useless super delegation in method '__init__' (useless-super-delegation)
+C:120, 4: Argument name "vm" doesn't conform to snake_case naming style (invalid-name)
+C:120, 4: Missing method docstring (missing-docstring)
+W:120,29: Unused argument 'vm' (unused-argument)
+C:142, 0: Missing function docstring (missing-docstring)
+C:161, 4: Variable name "vm" doesn't conform to snake_case naming style (invalid-name)
+W:171,11: Catching too general exception Exception (broad-except)
+C:171,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.92/10
+

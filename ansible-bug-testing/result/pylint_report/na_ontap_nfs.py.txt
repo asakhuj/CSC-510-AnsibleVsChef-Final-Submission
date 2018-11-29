@@ -1,0 +1,77 @@
+************* Module ansible.modules.storage.netapp.na_ontap_nfs
+C:145, 0: Line too long (101/100) (line-too-long)
+C:151, 0: Line too long (108/100) (line-too-long)
+C:157, 0: Line too long (103/100) (line-too-long)
+C:158, 0: Line too long (104/100) (line-too-long)
+C:160, 0: Line too long (103/100) (line-too-long)
+C:161, 0: Line too long (104/100) (line-too-long)
+C:216, 0: Line too long (103/100) (line-too-long)
+C:218, 0: Line too long (108/100) (line-too-long)
+C:226, 0: Line too long (120/100) (line-too-long)
+C:227, 0: Line too long (118/100) (line-too-long)
+C:229, 0: Line too long (120/100) (line-too-long)
+C:230, 0: Line too long (118/100) (line-too-long)
+C:409, 0: Line too long (116/100) (line-too-long)
+C:410, 0: Line too long (152/100) (line-too-long)
+C:411, 0: Line too long (117/100) (line-too-long)
+C:412, 0: Line too long (119/100) (line-too-long)
+C:413, 0: Line too long (110/100) (line-too-long)
+C:414, 0: Line too long (110/100) (line-too-long)
+C:415, 0: Line too long (131/100) (line-too-long)
+C:416, 0: Line too long (107/100) (line-too-long)
+C:417, 0: Line too long (140/100) (line-too-long)
+C:418, 0: Line too long (107/100) (line-too-long)
+C:419, 0: Line too long (140/100) (line-too-long)
+C:420, 0: Line too long (128/100) (line-too-long)
+C:421, 0: Line too long (140/100) (line-too-long)
+C:410, 0: Wrong continued indentation before block (add 4 spaces).
+                ((self.nfsv3_fsid_change is not None) and state_changed(self.nfsv3_fsid_change, nfs_service_details['is_nfsv3_fsid_change_enabled'])) or
+                ^   | (bad-continuation)
+C:411, 0: Wrong continued indentation before block (add 4 spaces).
+                ((self.nfsv4 is not None) and state_changed(self.nfsv4, nfs_service_details['is_nfsv40_enabled'])) or
+                ^   | (bad-continuation)
+C:412, 0: Wrong continued indentation before block (add 4 spaces).
+                ((self.nfsv41 is not None) and state_changed(self.nfsv41, nfs_service_details['is_nfsv41_enabled'])) or
+                ^   | (bad-continuation)
+C:413, 0: Wrong continued indentation before block (add 4 spaces).
+                ((self.tcp is not None) and state_changed(self.tcp, nfs_service_details['is_tcp_enabled'])) or
+                ^   | (bad-continuation)
+C:414, 0: Wrong continued indentation before block (add 4 spaces).
+                ((self.udp is not None) and state_changed(self.udp, nfs_service_details['is_udp_enabled'])) or
+                ^   | (bad-continuation)
+C:415, 0: Wrong continued indentation before block (add 4 spaces).
+                ((self.nfsv40_acl is not None) and state_changed(self.nfsv40_acl, nfs_service_details['is_nfsv40_acl_enabled'])) or
+                ^   | (bad-continuation)
+C:416, 0: Wrong continued indentation before block (add 4 spaces).
+                ((self.nfsv40_write_delegation is not None) and state_changed(self.nfsv40_write_delegation,
+                ^   | (bad-continuation)
+C:418, 0: Wrong continued indentation before block (add 4 spaces).
+                ((self.nfsv40_write_delegation is not None) and state_changed(self.nfsv40_write_delegation,
+                ^   | (bad-continuation)
+C:420, 0: Wrong continued indentation before block (add 4 spaces).
+                ((self.showmount is not None) and state_changed(self.showmount, nfs_service_details['is_showmount_enabled'])) or
+                ^   | (bad-continuation)
+C:426, 0: Line too long (119/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:129, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:131, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:132, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:133, 0: Import "import ansible.module_utils.netapp as netapp_utils" should be placed at the top of the module (wrong-import-position)
+R:139, 0: Too many instance attributes (21/7) (too-many-instance-attributes)
+R:197, 4: Too many local variables (22/15) (too-many-locals)
+C:226,12: Variable name "is_nfsv40_write_delegation_enabled" doesn't conform to snake_case naming style (invalid-name)
+C:227,12: Variable name "is_nfsv40_read_delegation_enabled" doesn't conform to snake_case naming style (invalid-name)
+C:229,12: Variable name "is_nfsv41_write_delegation_enabled" doesn't conform to snake_case naming style (invalid-name)
+C:230,12: Variable name "is_nfsv41_read_delegation_enabled" doesn't conform to snake_case naming style (invalid-name)
+R:292, 4: Too many branches (29/12) (too-many-branches)
+R:292, 4: Too many statements (62/50) (too-many-statements)
+C:401, 8: Missing function docstring (missing-docstring)
+C:408, 8: Missing function docstring (missing-docstring)
+R:409,16: Too many boolean expressions in if statement (22/5) (too-many-boolean-expressions)
+C:425, 8: Missing function docstring (missing-docstring)
+R:389, 4: Too many branches (21/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 7.65/10
+

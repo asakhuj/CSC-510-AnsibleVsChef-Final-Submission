@@ -1,0 +1,14 @@
+************* Module ansible.modules.network.panos.panos_restart
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 55, 0: Import "import sys" should be placed at the top of the module (wrong-import-position)
+C: 56, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C: 64, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 65, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 68, 0: Missing function docstring (missing-docstring)
+W: 95,11: Catching too general exception Exception (broad-except)
+C: 95,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W: 55, 0: Unused import sys (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.43/10
+

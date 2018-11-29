@@ -1,0 +1,22 @@
+************* Module ansible.plugins.lookup.aws_service_ip_ranges
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 45, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C: 47, 0: Import "from ansible.errors import AnsibleError" should be placed at the top of the module (wrong-import-position)
+C: 48, 0: Import "from ansible.plugins.lookup import LookupBase" should be placed at the top of the module (wrong-import-position)
+C: 49, 0: Import "from ansible.module_utils.urls import open_url, ConnectionError, SSLValidationError" should be placed at the top of the module (wrong-import-position)
+C: 50, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+E: 51, 0: No name 'urllib' in module '_MovedItems' (no-name-in-module)
+E: 51, 0: Unable to import 'ansible.module_utils.six.moves.urllib.error' (import-error)
+C: 51, 0: Import "from ansible.module_utils.six.moves.urllib.error import HTTPError, URLError" should be placed at the top of the module (wrong-import-position)
+C: 54, 0: Missing class docstring (missing-docstring)
+W: 55, 4: Signature differs from overridden 'run' method (signature-differs)
+C: 59,71: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C: 63,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C: 65,37: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C: 67,27: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C: 69,34: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 2.42/10
+

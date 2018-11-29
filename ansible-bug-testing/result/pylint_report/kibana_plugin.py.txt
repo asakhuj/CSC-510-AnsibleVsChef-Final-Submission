@@ -1,0 +1,26 @@
+************* Module ansible.modules.database.misc.kibana_plugin
+C:247, 0: Line too long (107/100) (line-too-long)
+C:256, 0: Line too long (103/100) (line-too-long)
+C:261, 0: Line too long (120/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 10, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:114, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:115, 0: Import "from distutils.version import LooseVersion" should be placed at the top of the module (wrong-import-position)
+C:116, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:125, 0: Missing function docstring (missing-docstring)
+R:137, 8: Redefining argument with the local name 'string' (redefined-argument-from-local)
+C:144, 0: Missing function docstring (missing-docstring)
+C:148, 0: Missing function docstring (missing-docstring)
+C:156, 0: Missing function docstring (missing-docstring)
+R:156, 0: Too many arguments (6/5) (too-many-arguments)
+C:178, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:186, 0: Missing function docstring (missing-docstring)
+C:198, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:206, 0: Missing function docstring (missing-docstring)
+C:209, 4: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:216, 0: Missing function docstring (missing-docstring)
+R:247, 7: Too many boolean expressions in if statement (6/5) (too-many-boolean-expressions)
+
+-----------------------------------
+Your code has been rated at 7.74/10
+

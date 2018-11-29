@@ -1,0 +1,15 @@
+************* Module ansible.modules.network.onyx.onyx_ptp_global
+C: 98, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 67, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 68, 0: Import "from ansible.module_utils.network.onyx.onyx import show_cmd" should be placed at the top of the module (wrong-import-position)
+C: 69, 0: Import "from ansible.module_utils.network.onyx.onyx import BaseOnyxModule" should be placed at the top of the module (wrong-import-position)
+C: 72, 0: Missing class docstring (missing-docstring)
+C:100, 4: Missing method docstring (missing-docstring)
+C:104, 4: Missing method docstring (missing-docstring)
+C:108, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 9.04/10
+

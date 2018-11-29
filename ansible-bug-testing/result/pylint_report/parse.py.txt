@@ -1,0 +1,13 @@
+************* Module parse
+C: 10, 0: Line too long (116/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  3, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:  9, 0: Missing function docstring (missing-docstring)
+C: 13, 0: Missing class docstring (missing-docstring)
+C: 14, 4: Missing method docstring (missing-docstring)
+R: 14, 4: Method could be a function (no-self-use)
+R: 13, 0: Too few public methods (1/2) (too-few-public-methods)
+
+-----------------------------------
+Your code has been rated at 1.11/10
+

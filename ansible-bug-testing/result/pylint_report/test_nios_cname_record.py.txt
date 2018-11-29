@@ -1,0 +1,21 @@
+************* Module units.modules.net_tools.nios.test_nios_cname_record
+C: 40, 0: Line too long (101/100) (line-too-long)
+C: 63, 0: Line too long (101/100) (line-too-long)
+C: 79, 0: Line too long (119/100) (line-too-long)
+C: 80, 0: Line too long (103/100) (line-too-long)
+C: 84, 0: Line too long (114/100) (line-too-long)
+C:110, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 23, 0: Unable to import 'ansible.modules.net_tools.nios' (import-error)
+E: 24, 0: Unable to import 'ansible.module_utils.net_tools.nios' (import-error)
+C: 29, 0: Missing class docstring (missing-docstring)
+C: 61, 4: Missing method docstring (missing-docstring)
+W: 79,74: Access to a protected member _check_type_dict of a client class (protected-access)
+C: 82, 4: Method name "test_nios_a_record_update_comment" doesn't conform to snake_case naming style (invalid-name)
+C: 82, 4: Missing method docstring (missing-docstring)
+C:108, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 5.79/10
+

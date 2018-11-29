@@ -1,0 +1,27 @@
+************* Module ansible.modules.storage.netapp.na_elementsw_backup
+C:165, 0: Line too long (109/100) (line-too-long)
+C:206, 0: Line too long (116/100) (line-too-long)
+C:207, 0: Line too long (105/100) (line-too-long)
+C:211, 0: Line too long (115/100) (line-too-long)
+C:226, 0: Wrong continued indentation (add 39 spaces).
+                "range": {"lba": 0, "blocks": 244224}}
+                ^                                      | (bad-continuation)
+C:231, 0: Line too long (102/100) (line-too-long)
+C:233, 0: Line too long (102/100) (line-too-long)
+C:234, 0: Line too long (124/100) (line-too-long)
+C:237, 0: Line too long (109/100) (line-too-long)
+C:249, 0: Line too long (104/100) (line-too-long)
+C: 10, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:119, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:120, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:121, 0: Import "import ansible.module_utils.netapp as netapp_utils" should be placed at the top of the module (wrong-import-position)
+C:122, 0: Import "from ansible.module_utils.netapp_elementsw_module import NaElementSWModule" should be placed at the top of the module (wrong-import-position)
+C:123, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+W:128, 0: No exception type(s) specified (bare-except)
+E:127, 4: Unable to import 'solidfire.common' (import-error)
+E:186,50: Instance of 'ElementSWBackup' has no 'sfe' member (no-member)
+C:123, 0: standard import "import time" should be placed before "from ansible.module_utils.basic import AnsibleModule" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 6.11/10
+

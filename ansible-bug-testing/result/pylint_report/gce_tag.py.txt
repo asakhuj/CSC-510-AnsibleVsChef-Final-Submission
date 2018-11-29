@@ -1,0 +1,24 @@
+************* Module ansible.modules.cloud.google.gce_tag
+C:194, 0: Line too long (109/100) (line-too-long)
+C:198, 0: Line too long (103/100) (line-too-long)
+C:208, 0: Line too long (103/100) (line-too-long)
+C:210, 0: Line too long (150/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 87, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C: 88, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:101, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:102, 0: Import "from ansible.module_utils.gce import gce_connect" should be placed at the top of the module (wrong-import-position)
+C:145,53: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:149, 0: Missing function docstring (missing-docstring)
+R:149, 0: Too many local variables (16/15) (too-many-locals)
+C:191,16: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:193,31: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:199,30: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W: 92, 4: Unused get_driver imported from libcloud.compute.providers (unused-import)
+W: 93, 4: Unused QuotaExceededError imported from libcloud.common.google (unused-import)
+W: 93, 4: Unused ResourceExistsError imported from libcloud.common.google (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.59/10
+

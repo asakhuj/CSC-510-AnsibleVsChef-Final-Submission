@@ -1,0 +1,27 @@
+************* Module ansible.modules.storage.purestorage.purefa_pgsnap
+C:133, 0: Line too long (105/100) (line-too-long)
+C:218, 0: Line too long (102/100) (line-too-long)
+C:231, 0: Line too long (120/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:105, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:106, 0: Import "from ansible.module_utils.pure import get_system, purefa_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:108, 0: Import "from datetime import datetime" should be placed at the top of the module (wrong-import-position)
+W:115, 4: No exception type(s) specified (bare-except)
+W:126, 4: No exception type(s) specified (bare-except)
+R:119, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+W:137, 4: No exception type(s) specified (bare-except)
+R:130, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+W:148, 4: No exception type(s) specified (bare-except)
+R:141, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+W:160, 4: No exception type(s) specified (bare-except)
+W:171, 4: No exception type(s) specified (bare-except)
+W:176,30: Unused argument 'array' (unused-argument)
+W:194, 4: No exception type(s) specified (bare-except)
+W:192,12: No exception type(s) specified (bare-except)
+C:199, 0: Missing function docstring (missing-docstring)
+C:108, 0: standard import "from datetime import datetime" should be placed before "from ansible.module_utils.basic import AnsibleModule" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 7.90/10
+

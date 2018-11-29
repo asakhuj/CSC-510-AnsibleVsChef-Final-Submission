@@ -1,0 +1,28 @@
+************* Module ansible.modules.network.cli.cli_config
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:145, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C:147, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:148, 0: Import "from ansible.module_utils.connection import Connection" should be placed at the top of the module (wrong-import-position)
+C:149, 0: Import "from ansible.module_utils._text import to_text" should be placed at the top of the module (wrong-import-position)
+C:188, 0: Missing function docstring (missing-docstring)
+R:188, 0: Too many local variables (20/15) (too-many-locals)
+W:266, 7: Access to a protected member _diff of a client class (protected-access)
+R:188, 0: Too many branches (26/12) (too-many-branches)
+R:188, 0: Too many statements (73/50) (too-many-statements)
+W:309,28: Access to a protected member _socket_path of a client class (protected-access)
+W:328,11: Catching too general exception Exception (broad-except)
+
+-----------------------------------
+Your code has been rated at 8.93/10
+
+************* Module ansible.plugins.action.cli_config
+C: 29, 0: Line too long (131/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 25, 0: Missing class docstring (missing-docstring)
+R: 25, 0: Too few public methods (1/2) (too-few-public-methods)
+
+-----------------------------------
+Your code has been rated at 3.75/10
+

@@ -1,0 +1,12 @@
+************* Module ansible.modules.remote_management.oneview.oneview_enclosure_facts
+C:177, 0: Line too long (109/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:140, 0: Import "from ansible.module_utils.oneview import OneViewModuleBase" should be placed at the top of the module (wrong-import-position)
+C:143, 0: Missing class docstring (missing-docstring)
+W:182,34: Redefining built-in 'filter' (redefined-builtin)
+C:200, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.44/10
+

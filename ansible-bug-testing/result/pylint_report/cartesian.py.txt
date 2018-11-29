@@ -1,0 +1,14 @@
+************* Module ansible.plugins.lookup.cartesian
+C: 62, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 41, 0: Import "from itertools import product" should be placed at the top of the module (wrong-import-position)
+C: 43, 0: Import "from ansible.errors import AnsibleError" should be placed at the top of the module (wrong-import-position)
+C: 44, 0: Import "from ansible.plugins.lookup import LookupBase" should be placed at the top of the module (wrong-import-position)
+C: 45, 0: Import "from ansible.utils.listify import listify_lookup_plugin_terms" should be placed at the top of the module (wrong-import-position)
+C: 61,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C: 71,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+
+-----------------------------------
+Your code has been rated at 5.91/10
+

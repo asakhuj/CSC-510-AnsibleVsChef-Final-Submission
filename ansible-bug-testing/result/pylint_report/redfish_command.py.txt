@@ -1,0 +1,20 @@
+************* Module ansible.modules.remote_management.redfish.redfish_command
+C:190, 0: Line too long (130/100) (line-too-long)
+C:196, 0: Line too long (129/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:136, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:137, 0: Import "from ansible.module_utils.redfish_utils import RedfishUtils" should be placed at the top of the module (wrong-import-position)
+C:138, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:152, 0: Missing function docstring (missing-docstring)
+C:200, 8: Variable name "ACCOUNTS_COMMANDS" doesn't conform to snake_case naming style (invalid-name)
+W:210,17: Access to a protected member _find_accountservice_resource of a client class (protected-access)
+W:219,17: Access to a protected member _find_systems_resource of a client class (protected-access)
+W:230,25: Access to a protected member _find_managers_resource of a client class (protected-access)
+C:236, 8: Variable name "MANAGER_COMMANDS" doesn't conform to snake_case naming style (invalid-name)
+W:242,17: Access to a protected member _find_managers_resource of a client class (protected-access)
+R:152, 0: Too many branches (18/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 7.46/10
+

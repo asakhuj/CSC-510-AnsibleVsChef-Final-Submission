@@ -1,0 +1,30 @@
+************* Module ansible.modules.remote_management.ucs.ucs_ip_pool
+C:183, 0: Line too long (105/100) (line-too-long)
+C:214, 0: Unnecessary parens after 'if' keyword (superfluous-parens)
+C:218, 0: Line too long (114/100) (line-too-long)
+C:225, 0: Unnecessary parens after 'if' keyword (superfluous-parens)
+C:233, 0: Line too long (108/100) (line-too-long)
+C:235, 0: Line too long (142/100) (line-too-long)
+C:242, 0: Unnecessary parens after 'if' keyword (superfluous-parens)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:153, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:154, 0: Import "from ansible.module_utils.remote_management.ucs import UCSModule, ucs_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:157, 0: Missing function docstring (missing-docstring)
+R:157, 0: Too many local variables (16/15) (too-many-locals)
+E:188, 4: Unable to import 'ucsmsdk.mometa.ippool.IppoolPool' (import-error)
+E:189, 4: Unable to import 'ucsmsdk.mometa.ippool.IppoolBlock' (import-error)
+E:190, 4: Unable to import 'ucsmsdk.mometa.ippool.IppoolIpV6Block' (import-error)
+W:286,11: Catching too general exception Exception (broad-except)
+C:197, 8: Variable name "dn" doesn't conform to snake_case naming style (invalid-name)
+C:199, 8: Variable name "mo" doesn't conform to snake_case naming style (invalid-name)
+R:193, 4: Too many nested blocks (7/5) (too-many-nested-blocks)
+R:193, 4: Too many nested blocks (7/5) (too-many-nested-blocks)
+C:252,20: Variable name "mo" doesn't conform to snake_case naming style (invalid-name)
+C:286,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:157, 0: Too many branches (21/12) (too-many-branches)
+R:157, 0: Too many statements (69/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 5.13/10
+

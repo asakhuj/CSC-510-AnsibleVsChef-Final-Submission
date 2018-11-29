@@ -1,0 +1,22 @@
+************* Module units.module_utils.basic.test_no_log
+C: 81, 0: Line too long (104/100) (line-too-long)
+C: 85, 0: Line too long (114/100) (line-too-long)
+C: 86, 0: Line too long (128/100) (line-too-long)
+C: 87, 0: Line too long (128/100) (line-too-long)
+C:117, 0: Line too long (101/100) (line-too-long)
+C:119, 0: Line too long (115/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 11, 0: Unable to import 'ansible.module_utils.basic' (import-error)
+C: 14, 0: Missing class docstring (missing-docstring)
+C: 43, 4: Missing method docstring (missing-docstring)
+C: 47, 4: Missing method docstring (missing-docstring)
+C: 51, 0: Missing class docstring (missing-docstring)
+C:123, 4: Missing method docstring (missing-docstring)
+C:127, 4: Missing method docstring (missing-docstring)
+C:131, 4: Missing method docstring (missing-docstring)
+W:138,12: Unused variable 'i' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 5.12/10
+

@@ -1,0 +1,21 @@
+************* Module ansible.modules.cloud.cloudstack.cs_user
+C:379, 0: Line too long (106/100) (line-too-long)
+C:392, 0: Line too long (114/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:185, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:186, 0: Import "from ansible.module_utils.cloudstack import AnsibleCloudStack, cs_argument_spec, cs_required_together" should be placed at the top of the module (wrong-import-position)
+C:193, 0: Missing class docstring (missing-docstring)
+C:213, 4: Missing method docstring (missing-docstring)
+C:217, 4: Missing method docstring (missing-docstring)
+C:228,20: Variable name "u" doesn't conform to snake_case naming style (invalid-name)
+C:234, 4: Missing method docstring (missing-docstring)
+C:249, 4: Missing method docstring (missing-docstring)
+C:271, 4: Missing method docstring (missing-docstring)
+C:289, 4: Missing method docstring (missing-docstring)
+C:359, 4: Missing method docstring (missing-docstring)
+W:369, 4: Parameters differ from overridden 'get_result' method (arguments-differ)
+C:387, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.83/10
+

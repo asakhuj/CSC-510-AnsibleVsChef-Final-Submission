@@ -1,0 +1,18 @@
+************* Module ansible.modules.system.alternatives
+C:144, 0: Line too long (125/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 71, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C: 72, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C: 73, 0: Import "import subprocess" should be placed at the top of the module (wrong-import-position)
+C: 75, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 78, 0: Missing function docstring (missing-docstring)
+R: 78, 0: Too many local variables (18/15) (too-many-locals)
+C: 97, 4: Variable name "UPDATE_ALTERNATIVES" doesn't conform to snake_case naming style (invalid-name)
+C:103, 5: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:126,12: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+R: 78, 0: Too many branches (13/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 7.45/10
+

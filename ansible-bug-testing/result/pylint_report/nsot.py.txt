@@ -1,0 +1,27 @@
+************* Module nsot
+C:261, 0: Wrong continued indentation (remove 1 space).
+                     )
+                    |^ (bad-continuation)
+E:147, 0: Unable to import 'pynsot.client' (import-error)
+E:148, 0: Unable to import 'pynsot.app' (import-error)
+C:154, 0: Missing function docstring (missing-docstring)
+W:169,19: Catching too general exception Exception (broad-except)
+C:169,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:172,38: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+W:178,23: Catching too general exception Exception (broad-except)
+C:178,36: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:211, 4: Missing method docstring (missing-docstring)
+W:257, 8: No exception type(s) specified (bare-except)
+C:268,34: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:295, 0: Missing function docstring (missing-docstring)
+W:142, 0: Unused import pkg_resources (unused-import)
+C:143, 0: standard import "import argparse" should be placed before "import pkg_resources" (wrong-import-order)
+C:144, 0: standard import "import json" should be placed before "import pkg_resources" (wrong-import-order)
+C:145, 0: third party import "import yaml" should be placed before "import pkg_resources" (wrong-import-order)
+C:146, 0: standard import "from textwrap import dedent" should be placed before "import yaml" (wrong-import-order)
+C:149, 0: third party import "from click.exceptions import UsageError" should be placed before "import pkg_resources" (wrong-import-order)
+C:151, 0: third party import "from six import string_types" should be placed before "import pkg_resources" (wrong-import-order)
+
+------------------------------------------------------------------
+Your code has been rated at 7.36/10 (previous run: 7.36/10, +0.00)
+

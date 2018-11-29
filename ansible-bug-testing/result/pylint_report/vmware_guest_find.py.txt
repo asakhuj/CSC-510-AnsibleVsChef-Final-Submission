@@ -1,0 +1,22 @@
+************* Module ansible.modules.cloud.vmware.vmware_guest_find
+C:101, 0: Line too long (106/100) (line-too-long)
+C:105, 0: Line too long (107/100) (line-too-long)
+C:128, 0: Wrong continued indentation (remove 1 space).
+                           )
+                          |^ (bad-continuation)
+C:141, 0: Line too long (108/100) (line-too-long)
+C:142, 0: Line too long (107/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 78, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 79, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 80, 0: Import "from ansible.module_utils.vmware import PyVmomi, vmware_argument_spec, find_vm_by_id" should be placed at the top of the module (wrong-import-position)
+C: 88, 0: Missing class docstring (missing-docstring)
+C: 94, 4: Missing method docstring (missing-docstring)
+C:110,12: Variable name "vm" doesn't conform to snake_case naming style (invalid-name)
+C:117, 0: Missing function docstring (missing-docstring)
+W:138,15: Catching too general exception Exception (broad-except)
+
+-----------------------------------
+Your code has been rated at 6.94/10
+

@@ -1,0 +1,25 @@
+************* Module ansible.modules.remote_management.cobbler.cobbler_sync
+C:127, 0: Line too long (143/100) (line-too-long)
+C:129, 0: Line too long (103/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 72, 0: Import "import datetime" should be placed at the top of the module (wrong-import-position)
+C: 73, 0: Import "import ssl" should be placed at the top of the module (wrong-import-position)
+C: 75, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+E: 76, 0: Unable to import 'ansible.module_utils.six.moves' (import-error)
+C: 76, 0: Import "from ansible.module_utils.six.moves import xmlrpc_client" should be placed at the top of the module (wrong-import-position)
+C: 77, 0: Import "from ansible.module_utils._text import to_text" should be placed at the top of the module (wrong-import-position)
+C: 80, 0: Missing function docstring (missing-docstring)
+W:114,12: Access to a protected member _create_default_context of a client class (protected-access)
+W:114,42: Access to a protected member _create_unverified_context of a client class (protected-access)
+W:116,12: Access to a protected member _create_default_https_context of a client class (protected-access)
+W:116,48: Access to a protected member _create_unverified_https_context of a client class (protected-access)
+W:128,11: Catching too general exception Exception (broad-except)
+C:126,34: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:128,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:134,15: Catching too general exception Exception (broad-except)
+C:134,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 5.10/10
+

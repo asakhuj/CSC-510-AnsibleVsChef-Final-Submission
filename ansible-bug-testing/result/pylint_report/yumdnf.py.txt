@@ -1,0 +1,17 @@
+************* Module ansible.module_utils.yumdnf
+C: 43, 0: Line too long (110/100) (line-too-long)
+C:132, 0: Line too long (106/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Constant name "yumdnf_argument_spec" doesn't conform to UPPER_CASE naming style (invalid-name)
+R: 55, 0: Too many instance attributes (26/7) (too-many-instance-attributes)
+E:132,87: Instance of 'YumDnf' has no 'pkg_mgr_name' member (no-member)
+W:128,20: Unused variable 'iteration' (unused-variable)
+C:134, 4: Method name "listify_comma_sep_strings_in_list" doesn't conform to snake_case naming style (invalid-name)
+R:134, 4: Method could be a function (no-self-use)
+C:158, 4: Missing method docstring (missing-docstring)
+W: 15, 0: Unused import tempfile (unused-import)
+W: 18, 0: Unused to_native imported from ansible.module_utils._text (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.75/10
+

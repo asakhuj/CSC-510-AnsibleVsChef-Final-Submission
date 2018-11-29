@@ -1,0 +1,64 @@
+************* Module ansible.modules.cloud.amazon.elb_target_facts
+C:271, 0: Wrong continued indentation (remove 1 space).
+                                      )
+                                     |^ (bad-continuation)
+C:281, 0: Wrong continued indentation (remove 1 space).
+                                      )
+                                     |^ (bad-continuation)
+C:300, 0: Wrong continued indentation (remove 4 spaces).
+                                          " for instance '%s'" %
+                                      |   ^ (bad-continuation)
+C:301, 0: Wrong continued indentation (remove 4 spaces).
+                                          (self.instance_id)
+                                      |   ^ (bad-continuation)
+C:302, 0: Wrong continued indentation (remove 1 space).
+                                      )
+                                     |^ (bad-continuation)
+C:333, 0: Wrong continued indentation (remove 4 spaces).
+                                          " groups"
+                                      |   ^ (bad-continuation)
+C:334, 0: Wrong continued indentation (remove 1 space).
+                                      )
+                                     |^ (bad-continuation)
+C:349, 0: Wrong continued indentation (remove 1 space).
+                            )
+                           |^ (bad-continuation)
+C:370, 0: Wrong continued indentation (remove 4 spaces).
+                                              "health for target group %s" %
+                                          |   ^ (bad-continuation)
+C:371, 0: Wrong continued indentation (remove 4 spaces).
+                                              tg.target_group_arn
+                                          |   ^ (bad-continuation)
+C:372, 0: Wrong continued indentation (remove 1 space).
+                                          )
+                                         |^ (bad-continuation)
+C:426, 0: Wrong continued indentation (remove 1 space).
+                                      )
+                                     |^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:210, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:218, 0: Import "from ansible.module_utils.aws.core import AnsibleAWSModule" should be placed at the top of the module (wrong-import-position)
+C:219, 0: Import "from ansible.module_utils.ec2 import HAS_BOTO3, camel_dict_to_snake_dict, AWSRetry" should be placed at the top of the module (wrong-import-position)
+C:231, 4: Missing method docstring (missing-docstring)
+R:231, 4: Method could be a function (no-self-use)
+R:223, 0: Too few public methods (1/2) (too-few-public-methods)
+C:244, 4: Missing method docstring (missing-docstring)
+C:250, 4: Missing method docstring (missing-docstring)
+C:255, 4: Missing method docstring (missing-docstring)
+C:259, 0: Missing class docstring (missing-docstring)
+C:268,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:278,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:296,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:317,16: Variable name "ip" doesn't conform to snake_case naming style (invalid-name)
+C:330,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:360,12: Variable name "tg" doesn't conform to snake_case naming style (invalid-name)
+C:367,51: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:374,16: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+C:386,20: Variable name "az" doesn't conform to snake_case naming style (invalid-name)
+R:259, 0: Too few public methods (0/2) (too-few-public-methods)
+C:408, 0: Missing function docstring (missing-docstring)
+W:219, 0: Unused HAS_BOTO3 imported from ansible.module_utils.ec2 (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.53/10
+

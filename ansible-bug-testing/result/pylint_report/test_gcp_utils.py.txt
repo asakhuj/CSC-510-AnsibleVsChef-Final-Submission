@@ -1,0 +1,26 @@
+************* Module test_gcp_utils
+C:  1, 0: Missing module docstring (missing-docstring)
+E: 21, 0: Unable to import 'units.compat' (import-error)
+E: 22, 0: Unable to import 'ansible.module_utils.gcp_utils' (import-error)
+C: 25, 0: Missing class docstring (missing-docstring)
+C: 26, 4: Missing method docstring (missing-docstring)
+C: 34, 4: Missing method docstring (missing-docstring)
+C: 51, 4: Method name "test_nested_dictionaries_no_difference" doesn't conform to snake_case naming style (invalid-name)
+C: 51, 4: Missing method docstring (missing-docstring)
+C: 64, 4: Method name "test_nested_dictionaries_with_difference" doesn't conform to snake_case naming style (invalid-name)
+C: 64, 4: Missing method docstring (missing-docstring)
+C: 96, 4: Method name "test_arrays_strings_no_difference" doesn't conform to snake_case naming style (invalid-name)
+C: 96, 4: Missing method docstring (missing-docstring)
+C:106, 4: Method name "test_arrays_strings_with_difference" doesn't conform to snake_case naming style (invalid-name)
+C:106, 4: Missing method docstring (missing-docstring)
+C:130, 4: Method name "test_arrays_dicts_with_no_difference" doesn't conform to snake_case naming style (invalid-name)
+C:130, 4: Missing method docstring (missing-docstring)
+C:145, 4: Method name "test_arrays_dicts_with_difference" doesn't conform to snake_case naming style (invalid-name)
+C:145, 4: Missing method docstring (missing-docstring)
+W: 18, 0: Unused import os (unused-import)
+W: 19, 0: Unused import sys (unused-import)
+W: 21, 0: Unused mock imported from units.compat (unused-import)
+
+-----------------------------------
+Your code has been rated at 4.53/10
+

@@ -1,0 +1,49 @@
+************* Module ansible.modules.network.nxos.nxos_gir
+C:201, 0: Wrong continued indentation (remove 2 spaces).
+            mode == 'normal'):
+          | ^ (bad-continuation)
+C:200, 0: Wrong hanging indentation before block (add 4 spaces).
+        'system_mode_maintenance_dont_generate_profile'] is True and
+        ^   | (bad-continuation)
+C:204, 0: Wrong hanging indentation before block.
+          'system_mode_maintenance_dont_generate_profile'] is False and
+        | ^ | (bad-continuation)
+C:213, 0: Wrong hanging indentation (remove 12 spaces).
+                            module.params['system_mode_maintenance_timeout']))
+                |           ^ (bad-continuation)
+C:215, 0: Wrong continued indentation (remove 2 spaces).
+                timeout == module.params['system_mode_maintenance_timeout']):
+              | ^ (bad-continuation)
+C:217, 0: Wrong hanging indentation (remove 12 spaces).
+                            module.params['system_mode_maintenance_timeout']))
+                |           ^ (bad-continuation)
+C:220, 0: Wrong continued indentation (remove 2 spaces).
+            mode == 'normal'):
+          | ^ (bad-continuation)
+C:223, 0: Wrong hanging indentation before block.
+          'system_mode_maintenance_shutdown'] is False and
+        | ^ | (bad-continuation)
+C:230, 0: Line too long (118/100) (line-too-long)
+C:257, 0: Line too long (111/100) (line-too-long)
+C:258, 0: Line too long (113/100) (line-too-long)
+C:259, 0: Line too long (111/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:161, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:162, 0: Import "from ansible.module_utils.network.nxos.nxos import get_config, load_config, run_commands" should be placed at the top of the module (wrong-import-position)
+C:163, 0: Import "from ansible.module_utils.network.nxos.nxos import get_capabilities, nxos_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:164, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:167, 0: Missing function docstring (missing-docstring)
+C:177, 0: Missing function docstring (missing-docstring)
+C:184, 0: Missing function docstring (missing-docstring)
+C:190, 0: Missing function docstring (missing-docstring)
+W:192, 4: Unused variable 'system_mode' (unused-variable)
+R:190, 0: Too many branches (13/12) (too-many-branches)
+C:249, 0: Missing function docstring (missing-docstring)
+W:299, 7: Access to a protected member _verbosity of a client class (protected-access)
+W:161, 0: Unused import re (unused-import)
+W:162, 0: Unused get_config imported from ansible.module_utils.network.nxos.nxos (unused-import)
+W:163, 0: Unused get_capabilities imported from ansible.module_utils.network.nxos.nxos (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.41/10
+

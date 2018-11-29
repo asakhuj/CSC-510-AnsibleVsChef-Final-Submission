@@ -1,0 +1,30 @@
+************* Module units.modules.network.enos.enos_module
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 27, 0: Unable to import 'ansible.module_utils' (import-error)
+E: 28, 0: Unable to import 'ansible.module_utils._text' (import-error)
+C: 31, 0: Constant name "fixture_path" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 32, 0: Constant name "fixture_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 35, 0: Missing function docstring (missing-docstring)
+C: 41,23: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+W: 46, 4: No exception type(s) specified (bare-except)
+C: 53, 0: Missing class docstring (missing-docstring)
+C: 57, 0: Missing class docstring (missing-docstring)
+C: 61, 0: Missing class docstring (missing-docstring)
+C: 63, 4: Missing method docstring (missing-docstring)
+R: 63, 4: Too many arguments (6/5) (too-many-arguments)
+W: 64,34: Unused argument 'defaults' (unused-argument)
+C: 85, 4: Missing method docstring (missing-docstring)
+C: 86, 8: Missing function docstring (missing-docstring)
+W: 86, 0: Unused argument 'args' (unused-argument)
+E: 92,16: Instance of 'TestEnosModule' has no 'module' member (no-member)
+C: 98, 4: Missing method docstring (missing-docstring)
+C: 99, 8: Missing function docstring (missing-docstring)
+W: 99, 0: Unused argument 'args' (unused-argument)
+E:106,16: Instance of 'TestEnosModule' has no 'module' member (no-member)
+C:112, 4: Missing method docstring (missing-docstring)
+W: 28, 0: Unused to_bytes imported from ansible.module_utils._text (unused-import)
+
+-----------------------------------
+Your code has been rated at 3.39/10
+

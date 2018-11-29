@@ -1,0 +1,27 @@
+************* Module ansible.modules.cloud.vmware.vmware_host_service_manager
+C:127, 0: Line too long (101/100) (line-too-long)
+C:137, 0: Line too long (125/100) (line-too-long)
+C:142, 0: Line too long (117/100) (line-too-long)
+C:147, 0: Wrong continued indentation (remove 1 space).
+                                               )
+                                              |^ (bad-continuation)
+C:203, 0: Line too long (107/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:116, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:117, 0: Import "from ansible.module_utils.vmware import vmware_argument_spec, PyVmomi" should be placed at the top of the module (wrong-import-position)
+C:118, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:121, 0: Missing class docstring (missing-docstring)
+C:133, 4: Missing method docstring (missing-docstring)
+R:136, 8: Too many nested blocks (6/5) (too-many-nested-blocks)
+R:136, 8: Too many nested blocks (6/5) (too-many-nested-blocks)
+C:174,83: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:136, 8: Too many nested blocks (6/5) (too-many-nested-blocks)
+R:133, 4: Too many branches (15/12) (too-many-branches)
+C:182, 4: Missing method docstring (missing-docstring)
+R:182, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:198, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.53/10
+

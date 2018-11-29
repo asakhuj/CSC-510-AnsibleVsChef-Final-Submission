@@ -1,0 +1,18 @@
+************* Module vault-keyring
+C:  1, 0: Module name "vault-keyring" doesn't conform to snake_case naming style (invalid-name)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 64, 0: Import "import sys" should be placed at the top of the module (wrong-import-position)
+C: 65, 0: Import "import getpass" should be placed at the top of the module (wrong-import-position)
+E: 66, 0: Unable to import 'keyring' (import-error)
+C: 66, 0: Import "import keyring" should be placed at the top of the module (wrong-import-position)
+E: 68, 0: Unable to import 'ansible.config.manager' (import-error)
+C: 68, 0: Import "from ansible.config.manager import ConfigManager, get_ini_config_value" should be placed at the top of the module (wrong-import-position)
+C: 71, 0: Missing function docstring (missing-docstring)
+W: 74, 8: Access to a protected member _parsers of a client class (protected-access)
+W: 74,24: Access to a protected member _config_file of a client class (protected-access)
+W: 79, 8: Access to a protected member _parsers of a client class (protected-access)
+W: 79,24: Access to a protected member _config_file of a client class (protected-access)
+
+------------------------------------------------------------------
+Your code has been rated at 0.45/10 (previous run: 0.45/10, +0.00)
+

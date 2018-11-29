@@ -1,0 +1,70 @@
+************* Module ansible.modules.network.netscaler.netscaler_servicegroup
+C:397, 0: Line too long (126/100) (line-too-long)
+C:401, 0: Line too long (150/100) (line-too-long)
+C:404, 0: Line too long (132/100) (line-too-long)
+C:405, 0: Line too long (129/100) (line-too-long)
+C:413, 0: Line too long (106/100) (line-too-long)
+C:423, 0: Line too long (112/100) (line-too-long)
+C:473, 0: Line too long (104/100) (line-too-long)
+C:475, 0: Line too long (121/100) (line-too-long)
+C:533, 0: Wrong hanging indentation before block (add 4 spaces).
+            hasattr(actual_service, 'ip'),
+            ^   | (bad-continuation)
+C:534, 0: Wrong hanging indentation before block (add 4 spaces).
+            actual_service.ip is not None,
+            ^   | (bad-continuation)
+C:535, 0: Wrong hanging indentation before block (add 4 spaces).
+            hasattr(actual_service, 'servername'),
+            ^   | (bad-continuation)
+C:536, 0: Wrong hanging indentation before block (add 4 spaces).
+            actual_service.servername is not None,
+            ^   | (bad-continuation)
+C:634, 0: Line too long (127/100) (line-too-long)
+C:635, 0: Line too long (139/100) (line-too-long)
+C:678, 0: Line too long (116/100) (line-too-long)
+C:837, 0: Line too long (102/100) (line-too-long)
+C:966, 0: Line too long (102/100) (line-too-long)
+C:968, 0: Line too long (123/100) (line-too-long)
+C:997, 0: Line too long (119/100) (line-too-long)
+C:1012, 0: Line too long (108/100) (line-too-long)
+C:  1, 0: Too many lines in module (1042/1000) (too-many-lines)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:394, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:395, 0: Import "import copy" should be placed at the top of the module (wrong-import-position)
+C:397, 0: Import "from ansible.module_utils.network.netscaler.netscaler import ConfigProxy, get_nitro_client, netscaler_common_arguments, log, loglines, get_immutables_intersection" should be placed at the top of the module (wrong-import-position)
+C:407,22: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:411, 0: Missing function docstring (missing-docstring)
+R:415, 4: The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)
+R:415, 4: Unnecessary "else" after "return" (no-else-return)
+C:421, 0: Missing function docstring (missing-docstring)
+R:424, 4: The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)
+R:424, 4: Unnecessary "else" after "return" (no-else-return)
+C:430, 0: Missing function docstring (missing-docstring)
+C:470, 0: Missing function docstring (missing-docstring)
+C:478,30: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:486, 0: Missing function docstring (missing-docstring)
+C:510, 0: Missing function docstring (missing-docstring)
+C:555, 0: Missing function docstring (missing-docstring)
+C:563, 0: Missing function docstring (missing-docstring)
+C:588, 0: Missing function docstring (missing-docstring)
+C:594,30: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:612, 0: Missing function docstring (missing-docstring)
+C:624, 7: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:643, 0: Missing function docstring (missing-docstring)
+C:662, 8: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+C:677, 0: Missing function docstring (missing-docstring)
+C:683, 0: Missing function docstring (missing-docstring)
+C:693, 0: Missing function docstring (missing-docstring)
+R:693, 0: Too many local variables (16/15) (too-many-locals)
+W:839,11: Catching too general exception Exception (broad-except)
+C:836,30: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:839,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:1033,30: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:693, 0: Too many branches (36/12) (too-many-branches)
+R:693, 0: Too many statements (99/50) (too-many-statements)
+C:395, 0: standard import "import copy" should be placed before "from ansible.module_utils.basic import AnsibleModule" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 7.97/10
+

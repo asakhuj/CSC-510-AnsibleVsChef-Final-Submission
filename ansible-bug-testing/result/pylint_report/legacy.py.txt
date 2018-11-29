@@ -1,0 +1,19 @@
+************* Module ansible.module_utils.network.f5.legacy
+C: 86, 0: Line too long (115/100) (line-too-long)
+C: 88, 0: Line too long (104/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 11, 4: Constant name "bigsuds_found" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 13, 4: Constant name "bigsuds_found" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 19, 0: Missing function docstring (missing-docstring)
+C: 61, 0: Missing function docstring (missing-docstring)
+C: 83, 0: Missing function docstring (missing-docstring)
+W:104,16: Access to a protected member _create_default_https_context of a client class (protected-access)
+W:104,52: Access to a protected member _create_unverified_context of a client class (protected-access)
+C:111, 0: Missing function docstring (missing-docstring)
+C:118, 0: Missing function docstring (missing-docstring)
+W:121,11: map/filter on lambda could be replaced by comprehension (deprecated-lambda)
+
+-----------------------------------
+Your code has been rated at 6.59/10
+

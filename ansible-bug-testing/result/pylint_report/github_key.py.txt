@@ -1,0 +1,27 @@
+************* Module ansible.modules.source_control.github_key
+C:122, 0: Unnecessary parens after 'not' keyword (superfluous-parens)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 81, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C: 82, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C: 84, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 85, 0: Import "from ansible.module_utils.urls import fetch_url" should be placed at the top of the module (wrong-import-position)
+C: 91, 0: Missing class docstring (missing-docstring)
+C: 96, 4: Missing method docstring (missing-docstring)
+C: 99, 4: Missing method docstring (missing-docstring)
+C:109, 0: Missing class docstring (missing-docstring)
+C:114, 4: Missing method docstring (missing-docstring)
+R:109, 0: Too few public methods (1/2) (too-few-public-methods)
+C:129, 0: Missing function docstring (missing-docstring)
+C:133, 8: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:139, 0: Missing function docstring (missing-docstring)
+R:140, 4: Unnecessary "else" after "return" (no-else-return)
+C:159, 0: Missing function docstring (missing-docstring)
+C:167, 0: Missing function docstring (missing-docstring)
+C:175, 0: Missing function docstring (missing-docstring)
+R:175, 0: Too many arguments (6/5) (too-many-arguments)
+C:205, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.71/10
+

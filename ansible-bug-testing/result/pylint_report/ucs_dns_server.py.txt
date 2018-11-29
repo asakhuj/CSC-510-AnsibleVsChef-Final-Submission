@@ -1,0 +1,17 @@
+************* Module ansible.modules.remote_management.ucs.ucs_dns_server
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 93, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 94, 0: Import "from ansible.module_utils.remote_management.ucs import UCSModule, ucs_argument_spec" should be placed at the top of the module (wrong-import-position)
+C: 97, 0: Missing function docstring (missing-docstring)
+E:116, 4: Unable to import 'ucsmsdk.mometa.comm.CommDnsProvider' (import-error)
+W:154,11: Catching too general exception Exception (broad-except)
+C:125, 8: Variable name "dn" doesn't conform to snake_case naming style (invalid-name)
+C:127, 8: Variable name "mo" doesn't conform to snake_case naming style (invalid-name)
+C:147,20: Variable name "mo" doesn't conform to snake_case naming style (invalid-name)
+C:154,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:164, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 6.80/10
+

@@ -1,0 +1,16 @@
+************* Module ansible.modules.network.cloudengine.ce_link_status
+C:328, 0: Line too long (109/100) (line-too-long)
+C:329, 0: Line too long (103/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:129, 0: Import "from xml.etree import ElementTree" should be placed at the top of the module (wrong-import-position)
+C:130, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:131, 0: Import "from ansible.module_utils.network.cloudengine.ce import ce_argument_spec, get_nc_config" should be placed at the top of the module (wrong-import-position)
+R:191, 0: Too many branches (20/12) (too-many-branches)
+R:315, 4: Too many branches (17/12) (too-many-branches)
+R:415, 8: Too many nested blocks (7/5) (too-many-nested-blocks)
+R:415, 8: Too many nested blocks (6/5) (too-many-nested-blocks)
+R:395, 4: Too many branches (15/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 9.59/10
+

@@ -1,0 +1,36 @@
+************* Module ansible.module_utils.facts.hardware.openbsd
+W: 50, 0: TODO: change name (fixme)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 17, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 71, 4: Missing method docstring (missing-docstring)
+R: 71, 4: Method could be a function (no-self-use)
+C: 92, 4: Missing method docstring (missing-docstring)
+C: 98, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:107, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W: 98,17: Unused variable 'err' (unused-variable)
+C:118, 4: Missing method docstring (missing-docstring)
+W:121,12: Unused variable 'i' (unused-variable)
+C:137, 4: Missing method docstring (missing-docstring)
+C:145, 4: Missing method docstring (missing-docstring)
+W: 48, 8: Attribute 'sysctl' defined outside __init__ (attribute-defined-outside-init)
+C:168, 0: Missing class docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.17/10
+
+************* Module ansible.module_utils.facts.network.openbsd
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 17, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 40, 0: Missing class docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.86/10
+
+************* Module ansible.module_utils.facts.virtual.openbsd
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 17, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 62, 0: Missing class docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.93/10
+

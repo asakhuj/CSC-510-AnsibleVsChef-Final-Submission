@@ -1,0 +1,11 @@
+************* Module ansible.plugins.strategy.host_pinned
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 19, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 35, 0: Import "from ansible.plugins.strategy.free import StrategyModule as FreeStrategyModule" should be placed at the top of the module (wrong-import-position)
+C: 45, 0: Missing class docstring (missing-docstring)
+W: 39, 4: Unused display imported from __main__ (unused-import)
+C: 41, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 5.38/10
+

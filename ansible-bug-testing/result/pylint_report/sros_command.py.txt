@@ -1,0 +1,16 @@
+************* Module ansible.modules.network.sros.sros_command
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:131, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C:133, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:134, 0: Import "from ansible.module_utils.network.common.parsing import Conditional" should be placed at the top of the module (wrong-import-position)
+C:135, 0: Import "from ansible.module_utils.network.common.utils import ComplexList" should be placed at the top of the module (wrong-import-position)
+C:136, 0: Import "from ansible.module_utils.six import string_types" should be placed at the top of the module (wrong-import-position)
+C:137, 0: Import "from ansible.module_utils.network.sros.sros import run_commands, sros_argument_spec, check_args" should be placed at the top of the module (wrong-import-position)
+C:140, 0: Missing function docstring (missing-docstring)
+C:147, 0: Missing function docstring (missing-docstring)
+W:154, 8: Unused variable 'index' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 8.17/10
+

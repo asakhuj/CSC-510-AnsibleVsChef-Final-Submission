@@ -1,0 +1,18 @@
+************* Module ansible.modules.cloud.amazon.ec2_ami_facts
+C:190, 0: Line too long (128/100) (line-too-long)
+C:213, 0: Line too long (130/100) (line-too-long)
+C:223, 0: Line too long (134/100) (line-too-long)
+C:231, 0: Line too long (150/100) (line-too-long)
+C:232, 0: Line too long (109/100) (line-too-long)
+C:234, 0: Line too long (116/100) (line-too-long)
+C:237, 0: Line too long (120/100) (line-too-long)
+C:259, 0: Line too long (130/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:189, 0: Import "from ansible.module_utils.aws.core import AnsibleAWSModule" should be placed at the top of the module (wrong-import-position)
+C:190, 0: Import "from ansible.module_utils.ec2 import boto3_conn, ec2_argument_spec, get_aws_connection_info, ansible_dict_to_boto3_filter_list, camel_dict_to_snake_dict, boto3_tag_list_to_ansible_dict" should be placed at the top of the module (wrong-import-position)
+C:194, 0: Missing function docstring (missing-docstring)
+C:241, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.55/10
+

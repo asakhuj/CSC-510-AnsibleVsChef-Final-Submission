@@ -1,0 +1,9 @@
+************* Module ansible.module_utils.gitlab
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 16, 0: Missing function docstring (missing-docstring)
+R: 16, 0: Too many arguments (8/5) (too-many-arguments)
+R: 32, 4: Unnecessary "else" after "return" (no-else-return)
+
+-----------------------------------
+Your code has been rated at 8.33/10
+

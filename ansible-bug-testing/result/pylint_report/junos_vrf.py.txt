@@ -1,0 +1,18 @@
+************* Module ansible.modules.network.junos.junos_vrf
+C:177, 0: Line too long (114/100) (line-too-long)
+C:178, 0: Line too long (105/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:170, 0: Import "import collections" should be placed at the top of the module (wrong-import-position)
+C:172, 0: Import "from copy import deepcopy" should be placed at the top of the module (wrong-import-position)
+C:174, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:175, 0: Import "from ansible.module_utils.network.common.utils import remove_default_spec" should be placed at the top of the module (wrong-import-position)
+C:176, 0: Import "from ansible.module_utils.network.junos.junos import junos_argument_spec, tostring" should be placed at the top of the module (wrong-import-position)
+C:177, 0: Import "from ansible.module_utils.network.junos.junos import load_config, map_params_to_obj, map_obj_to_ele, to_param_list" should be placed at the top of the module (wrong-import-position)
+C:178, 0: Import "from ansible.module_utils.network.junos.junos import commit_configuration, discard_changes, locked_config" should be placed at the top of the module (wrong-import-position)
+R:183, 0: Too many local variables (19/15) (too-many-locals)
+W:264,15: Access to a protected member _diff of a client class (protected-access)
+
+-----------------------------------
+Your code has been rated at 7.68/10
+

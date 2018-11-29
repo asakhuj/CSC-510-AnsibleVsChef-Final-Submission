@@ -1,0 +1,23 @@
+************* Module ansible.modules.cloud.vmware.vmware_vm_vss_dvs_migrate
+C: 79, 0: Line too long (105/100) (line-too-long)
+C:127, 0: Line too long (105/100) (line-too-long)
+C:130, 0: Line too long (119/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 57, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 58, 0: Import "from ansible.module_utils.vmware import HAS_PYVMOMI, connect_to_api, get_all_objs, vmware_argument_spec, wait_for_task" should be placed at the top of the module (wrong-import-position)
+C: 66, 8: Attribute name "vm" doesn't conform to snake_case naming style (invalid-name)
+C: 62, 0: Missing class docstring (missing-docstring)
+C: 70, 4: Missing method docstring (missing-docstring)
+C: 78, 4: Missing method docstring (missing-docstring)
+C: 85, 4: Missing method docstring (missing-docstring)
+C: 87,12: Variable name "vm" doesn't conform to snake_case naming style (invalid-name)
+C: 92, 4: Missing method docstring (missing-docstring)
+C: 98, 8: Variable name "pg" doesn't conform to snake_case naming style (invalid-name)
+C:119, 4: Missing method docstring (missing-docstring)
+C:122, 4: Missing method docstring (missing-docstring)
+C:139, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.78/10
+

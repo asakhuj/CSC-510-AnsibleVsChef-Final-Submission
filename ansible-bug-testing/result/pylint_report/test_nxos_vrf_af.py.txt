@@ -1,0 +1,13 @@
+************* Module units.modules.network.nxos.test_nxos_vrf_af
+C: 60, 0: Line too long (102/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 23, 0: Unable to import 'ansible.modules.network.nxos' (import-error)
+C: 27, 0: Missing class docstring (missing-docstring)
+C: 48, 4: Missing method docstring (missing-docstring)
+C: 54, 4: Missing method docstring (missing-docstring)
+C: 59, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 6.13/10
+

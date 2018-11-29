@@ -1,0 +1,18 @@
+************* Module infoblox
+C:  1, 0: Missing module docstring (missing-docstring)
+E: 25, 0: Unable to import 'ansible.parsing.dataloader' (import-error)
+E: 26, 0: Unable to import 'ansible.module_utils.six' (import-error)
+E: 27, 0: Unable to import 'ansible.module_utils._text' (import-error)
+E: 28, 0: Unable to import 'ansible.module_utils.net_tools.nios.api' (import-error)
+E: 29, 0: Unable to import 'ansible.module_utils.net_tools.nios.api' (import-error)
+C: 38, 0: Missing function docstring (missing-docstring)
+C: 50, 0: Missing function docstring (missing-docstring)
+R: 50, 0: Too many local variables (19/15) (too-many-locals)
+W: 65,11: Catching too general exception Exception (broad-except)
+W: 62,39: Using possibly undefined loop variable 'config_file' (undefined-loop-variable)
+R: 98, 4: Too many nested blocks (6/5) (too-many-nested-blocks)
+R: 50, 0: Too many branches (17/12) (too-many-branches)
+
+------------------------------------------------------------------
+Your code has been rated at 4.68/10 (previous run: 4.68/10, +0.00)
+

@@ -1,0 +1,26 @@
+************* Module ansible.modules.storage.netapp._na_cdot_user
+C:193, 0: Line too long (109/100) (line-too-long)
+C:260, 0: Line too long (111/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:107, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:109, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:110, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:111, 0: Import "import ansible.module_utils.netapp as netapp_utils" should be placed at the top of the module (wrong-import-position)
+R:117, 0: Too many instance attributes (10/7) (too-many-instance-attributes)
+C:149, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+R:193,12: The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)
+R:193,12: Unnecessary "else" after "return" (no-else-return)
+C:198,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:206, 4: Missing method docstring (missing-docstring)
+C:220,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:224, 4: Missing method docstring (missing-docstring)
+C:235,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:256,47: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:266, 4: Missing method docstring (missing-docstring)
+C:300, 0: Missing function docstring (missing-docstring)
+C:301, 4: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.77/10
+

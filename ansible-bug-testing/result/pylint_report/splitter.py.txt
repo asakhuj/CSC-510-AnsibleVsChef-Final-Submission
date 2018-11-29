@@ -1,0 +1,42 @@
+************* Module ansible.module_utils.splitter
+C:161, 0: Line too long (114/100) (line-too-long)
+C:183, 0: Line too long (120/100) (line-too-long)
+C:199, 0: Line too long (103/100) (line-too-long)
+C:209, 0: Line too long (103/100) (line-too-long)
+C:213, 0: Line too long (107/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+R: 65, 0: Too many local variables (22/15) (too-many-locals)
+R: 65, 0: Too many branches (19/12) (too-many-branches)
+R: 65, 0: Too many statements (65/50) (too-many-statements)
+C:208, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.91/10
+
+************* Module ansible.parsing.splitter
+W: 88, 0: FIXME: make the retrieval of this list of shell/command (fixme)
+C: 65, 0: Line too long (116/100) (line-too-long)
+C:231, 0: Line too long (108/100) (line-too-long)
+C:246, 0: Line too long (114/100) (line-too-long)
+C:268, 0: Line too long (120/100) (line-too-long)
+C:283, 0: Line too long (129/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 42, 0: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C: 43, 4: Missing function docstring (missing-docstring)
+C: 63,29: Variable name "ve" doesn't conform to snake_case naming style (invalid-name)
+C: 71,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C: 86,16: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C: 99,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+R: 49, 0: Too many branches (13/12) (too-many-branches)
+C:140, 0: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:146, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:147,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+R:154, 0: Too many local variables (20/15) (too-many-locals)
+C:205,15: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+R:154, 0: Too many branches (16/12) (too-many-branches)
+R:154, 0: Too many statements (56/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 8.29/10
+

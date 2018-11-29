@@ -1,0 +1,25 @@
+************* Module units.modules.network.onyx.test_onyx_interface
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 10, 0: Unable to import 'ansible.modules.network.onyx' (import-error)
+C: 15, 0: Missing class docstring (missing-docstring)
+R: 15, 0: Too many instance attributes (10/7) (too-many-instance-attributes)
+C: 52, 4: Missing method docstring (missing-docstring)
+C: 56, 4: Missing method docstring (missing-docstring)
+C: 61, 4: Missing method docstring (missing-docstring)
+C: 65, 4: Missing method docstring (missing-docstring)
+C: 70, 4: Missing method docstring (missing-docstring)
+C: 76, 4: Missing method docstring (missing-docstring)
+C: 80, 4: Missing method docstring (missing-docstring)
+C: 85, 4: Missing method docstring (missing-docstring)
+C: 91, 4: Missing method docstring (missing-docstring)
+C: 98, 4: Missing method docstring (missing-docstring)
+C:103, 4: Missing method docstring (missing-docstring)
+C:109, 4: Missing method docstring (missing-docstring)
+C:115, 4: Missing method docstring (missing-docstring)
+C:121, 4: Missing method docstring (missing-docstring)
+C: 11, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 7.21/10
+

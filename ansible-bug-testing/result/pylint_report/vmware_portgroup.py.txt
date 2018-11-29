@@ -1,0 +1,49 @@
+************* Module ansible.modules.cloud.vmware.vmware_portgroup
+C:255, 0: Line too long (102/100) (line-too-long)
+C:256, 0: Line too long (105/100) (line-too-long)
+C:259, 0: Line too long (105/100) (line-too-long)
+C:260, 0: Line too long (107/100) (line-too-long)
+C:277, 0: Line too long (128/100) (line-too-long)
+C:283, 0: Line too long (105/100) (line-too-long)
+C:320, 0: Line too long (107/100) (line-too-long)
+C:323, 0: Line too long (113/100) (line-too-long)
+C:337, 0: Line too long (103/100) (line-too-long)
+C:345, 0: Line too long (102/100) (line-too-long)
+C:348, 0: Line too long (118/100) (line-too-long)
+C:351, 0: Line too long (117/100) (line-too-long)
+C:453, 0: Wrong continued indentation (remove 1 space).
+                            ),
+                           |^ (bad-continuation)
+C:468, 0: Wrong continued indentation (remove 1 space).
+                                         )
+                                        |^ (bad-continuation)
+C:478, 0: Wrong continued indentation (add 20 spaces).
+    )
+    ^                   | (bad-continuation)
+C:485, 0: Wrong continued indentation (remove 1 space).
+                           )
+                          |^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 10, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:194, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:195, 0: Import "from ansible.module_utils.vmware import PyVmomi, vmware_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:196, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:199, 0: Missing class docstring (missing-docstring)
+R:199, 0: Too many instance attributes (9/7) (too-many-instance-attributes)
+C:238,12: Variable name "pg" doesn't conform to snake_case naming style (invalid-name)
+R:255,11: Too many boolean expressions in if statement (7/5) (too-many-boolean-expressions)
+R:283, 4: Too many arguments (6/5) (too-many-arguments)
+W:324,19: Catching too general exception Exception (broad-except)
+C:311,46: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:352,23: Catching too general exception Exception (broad-except)
+C:339,50: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:311,46: Unused variable 'e' (unused-variable)
+R:283, 4: Too many branches (13/12) (too-many-branches)
+W:427,19: Catching too general exception Exception (broad-except)
+C:433, 0: Missing function docstring (missing-docstring)
+W:494,11: Catching too general exception Exception (broad-except)
+C:494,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.66/10
+

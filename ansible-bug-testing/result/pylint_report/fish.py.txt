@@ -1,0 +1,12 @@
+************* Module ansible.plugins.shell.fish
+C: 83, 0: Line too long (369/100) (line-too-long)
+C: 85, 0: Line too long (396/100) (line-too-long)
+C: 86, 0: Line too long (368/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E:  8, 0: Unable to import 'ansible.module_utils.six.moves' (import-error)
+C: 23, 0: Missing class docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 6.94/10
+

@@ -1,0 +1,47 @@
+************* Module ansible.modules.network.files.net_put
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.67/10
+
+************* Module ansible.plugins.action.net_put
+C:240, 0: Line too long (109/100) (line-too-long)
+C:244, 0: Line too long (116/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 18, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 32, 0: No name 'urllib' in module '_MovedItems' (no-name-in-module)
+E: 32, 0: Unable to import 'ansible.module_utils.six.moves.urllib.parse' (import-error)
+C: 41, 0: Missing class docstring (missing-docstring)
+R: 43, 4: Too many local variables (20/15) (too-many-locals)
+E: 46,23: Module 'copy' has no 'deepcopy' member (no-member)
+C: 89,48: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+W:115,15: Catching too general exception Exception (broad-except)
+W:124,15: Catching too general exception Exception (broad-except)
+W:120,12: Unused variable 'out' (unused-variable)
+R: 43, 4: Too many branches (18/12) (too-many-branches)
+R: 43, 4: Too many statements (64/50) (too-many-statements)
+R:142, 4: Too many arguments (6/5) (too-many-arguments)
+R:142, 4: Too many local variables (23/15) (too-many-locals)
+W:151,15: Catching too general exception Exception (broad-except)
+C:165,38: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C:167,43: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+R:183, 8: Unnecessary "else" after "return" (no-else-return)
+W:147,12: Unused variable 'out' (unused-variable)
+W:190,11: Access to a protected member _role of a client class (protected-access)
+W:191,18: Access to a protected member _role_path of a client class (protected-access)
+W:191,18: Access to a protected member _role of a client class (protected-access)
+C:209,38: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+W:217,11: Access to a protected member _role of a client class (protected-access)
+W:218,30: Access to a protected member _role_path of a client class (protected-access)
+W:218,30: Access to a protected member _role of a client class (protected-access)
+W:220,28: Access to a protected member _block of a client class (protected-access)
+W:223,42: Access to a protected member _role_path of a client class (protected-access)
+R: 41, 0: Too few public methods (1/2) (too-few-public-methods)
+W: 22, 0: Unused import time (unused-import)
+W: 25, 0: Unused import sys (unused-import)
+C: 37, 4: Imports from package ansible are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 7.37/10
+

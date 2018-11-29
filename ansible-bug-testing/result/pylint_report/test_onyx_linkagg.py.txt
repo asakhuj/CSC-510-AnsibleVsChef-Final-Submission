@@ -1,0 +1,26 @@
+************* Module units.modules.network.onyx.test_onyx_linkagg
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 10, 0: Unable to import 'ansible.modules.network.onyx' (import-error)
+C: 15, 0: Missing class docstring (missing-docstring)
+C: 39, 4: Missing method docstring (missing-docstring)
+C: 44, 4: Missing method docstring (missing-docstring)
+C: 48, 4: Missing method docstring (missing-docstring)
+C: 52, 4: Missing method docstring (missing-docstring)
+C: 58, 4: Missing method docstring (missing-docstring)
+C: 64, 4: Missing method docstring (missing-docstring)
+C: 72, 4: Missing method docstring (missing-docstring)
+C: 79, 4: Missing method docstring (missing-docstring)
+C: 85, 4: Method name "test_mlag_port_channel_no_change" doesn't conform to snake_case naming style (invalid-name)
+C: 85, 4: Missing method docstring (missing-docstring)
+C: 91, 4: Missing method docstring (missing-docstring)
+C: 97, 4: Missing method docstring (missing-docstring)
+C:105, 4: Method name "test_mlag_port_channel_add_member" doesn't conform to snake_case naming style (invalid-name)
+C:105, 4: Missing method docstring (missing-docstring)
+C:112, 4: Method name "test_mlag_port_channel_remove_member" doesn't conform to snake_case naming style (invalid-name)
+C:112, 4: Missing method docstring (missing-docstring)
+C: 11, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 6.84/10
+

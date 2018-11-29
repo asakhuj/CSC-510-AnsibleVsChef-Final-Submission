@@ -1,0 +1,18 @@
+************* Module ansible.modules.cloud.azure.azure_rm_sqlserver_facts
+C:152, 0: Unnecessary parens after 'elif' keyword (superfluous-parens)
+C:185, 0: Line too long (110/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:113, 0: Import "from ansible.module_utils.azure_rm_common import AzureRMModuleBase" should be placed at the top of the module (wrong-import-position)
+C:124, 0: Missing class docstring (missing-docstring)
+C:168,29: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:168,29: Unused variable 'e' (unused-variable)
+C:187,29: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:187,29: Unused variable 'e' (unused-variable)
+C:197, 0: Missing function docstring (missing-docstring)
+W:117, 4: Unused SqlManagementClient imported from azure.mgmt.sql (unused-import)
+W:118, 4: Unused Model imported from msrest.serialization (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.64/10
+

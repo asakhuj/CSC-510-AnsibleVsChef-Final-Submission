@@ -1,0 +1,30 @@
+************* Module ansible.modules.cloud.google.gce_mig
+W:348, 0: TODO(supertom): check utilization fields (fixme)
+C:813, 0: Wrong continued indentation (add 13 spaces).
+                    changed=False)
+                    ^            | (bad-continuation)
+C:841, 0: Wrong continued indentation (remove 1 space).
+             ) = recreate_instances_in_mig(mig)
+            |^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:270, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:271, 0: Import "from ansible.module_utils.gce import gce_connect" should be placed at the top of the module (wrong-import-position)
+C:291, 8: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:377, 8: Variable name "np" doesn't conform to snake_case naming style (invalid-name)
+C:690, 0: Missing function docstring (missing-docstring)
+R:690, 0: Too many local variables (17/15) (too-many-locals)
+R:690, 0: Too many branches (31/12) (too-many-branches)
+R:690, 0: Too many statements (96/50) (too-many-statements)
+W:253, 4: Unused literal_eval imported from ast (unused-import)
+W:259, 4: Unused import libcloud (unused-import)
+W:261, 4: Unused get_driver imported from libcloud.compute.providers (unused-import)
+W:262, 4: Unused GoogleBaseError imported from libcloud.common.google (unused-import)
+W:262, 4: Unused ResourceInUseError imported from libcloud.common.google (unused-import)
+W:262, 4: Unused QuotaExceededError imported from libcloud.common.google (unused-import)
+W:262, 4: Unused ResourceExistsError imported from libcloud.common.google (unused-import)
+W:264, 4: Unused GCEAddress imported from libcloud.compute.drivers.gce (unused-import)
+
+-----------------------------------
+Your code has been rated at 9.13/10
+

@@ -1,0 +1,16 @@
+************* Module ansible.modules.notification.grove
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 63, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+E: 64, 0: No name 'urllib' in module '_MovedItems' (no-name-in-module)
+E: 64, 0: Unable to import 'ansible.module_utils.six.moves.urllib.parse' (import-error)
+C: 64, 0: Import "from ansible.module_utils.six.moves.urllib.parse import urlencode" should be placed at the top of the module (wrong-import-position)
+C: 65, 0: Import "from ansible.module_utils.urls import fetch_url" should be placed at the top of the module (wrong-import-position)
+C: 74, 0: Missing function docstring (missing-docstring)
+R: 74, 0: Too many arguments (6/5) (too-many-arguments)
+W: 84, 4: Unused variable 'response' (unused-variable)
+C: 92, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 3.87/10
+

@@ -1,0 +1,33 @@
+************* Module units.modules.net_tools.nios.test_nios_zone
+C:155, 0: Line too long (117/100) (line-too-long)
+C:156, 0: Line too long (123/100) (line-too-long)
+C:157, 0: Line too long (124/100) (line-too-long)
+C:159, 0: Wrong continued indentation (remove 1 space).
+                                                                  })
+                                                                 |^ (bad-continuation)
+C:176, 0: Line too long (107/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 23, 0: Unable to import 'ansible.modules.net_tools.nios' (import-error)
+E: 24, 0: Unable to import 'ansible.module_utils.net_tools.nios' (import-error)
+C: 29, 0: Missing class docstring (missing-docstring)
+C: 61, 4: Missing method docstring (missing-docstring)
+C: 80, 4: Missing method docstring (missing-docstring)
+C:104, 4: Missing method docstring (missing-docstring)
+C:128, 4: Method name "test_nios_zone_create_using_grid_primary_secondaries" doesn't conform to snake_case naming style (invalid-name)
+C:128, 4: Missing method docstring (missing-docstring)
+W:137, 8: Unused variable 'grid_spec' (unused-variable)
+C:161, 4: Method name "test_nios_zone_remove_using_grid_primary_secondaries" doesn't conform to snake_case naming style (invalid-name)
+C:161, 4: Missing method docstring (missing-docstring)
+C:195, 4: Method name "test_nios_zone_create_using_name_server_group" doesn't conform to snake_case naming style (invalid-name)
+C:195, 4: Missing method docstring (missing-docstring)
+C:216, 4: Method name "test_nios_zone_remove_using_name_server_group" doesn't conform to snake_case naming style (invalid-name)
+C:216, 4: Missing method docstring (missing-docstring)
+C:242, 4: Method name "test_nios_zone_create_using_zone_format" doesn't conform to snake_case naming style (invalid-name)
+C:242, 4: Missing method docstring (missing-docstring)
+C:263, 4: Method name "test_nios_zone_remove_using_using_zone_format" doesn't conform to snake_case naming style (invalid-name)
+C:263, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 6.96/10
+

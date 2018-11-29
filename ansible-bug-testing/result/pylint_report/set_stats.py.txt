@@ -1,0 +1,20 @@
+************* Module ansible.modules.utilities.logic.set_stats
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.00/10
+
+************* Module ansible.plugins.action.set_stats
+W: 32, 0: TODO: document this in non-empty set_stats.py module (fixme)
+C: 68, 0: Line too long (153/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 19, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 27, 0: Missing class docstring (missing-docstring)
+C: 62,20: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+R: 27, 0: Too few public methods (1/2) (too-few-public-methods)
+W: 21, 0: Unused string_types imported from ansible.module_utils.six (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.95/10
+

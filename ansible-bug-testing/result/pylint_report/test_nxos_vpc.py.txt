@@ -1,0 +1,13 @@
+************* Module units.modules.network.nxos.test_nxos_vpc
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 23, 0: Unable to import 'ansible.modules.network.nxos' (import-error)
+C: 27, 0: Missing class docstring (missing-docstring)
+C: 46, 8: Missing function docstring (missing-docstring)
+W: 46, 0: Unused argument 'kwargs' (unused-argument)
+W: 47,12: Unused variable 'module' (unused-variable)
+C: 58, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 6.00/10
+

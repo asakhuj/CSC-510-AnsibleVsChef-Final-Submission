@@ -1,0 +1,18 @@
+************* Module lib.sanity.compile
+C: 48, 0: Line too long (155/100) (line-too-long)
+C:100, 0: Line too long (139/100) (line-too-long)
+R: 34, 4: Too many local variables (18/15) (too-many-locals)
+R: 32, 0: Too few public methods (1/2) (too-few-public-methods)
+W: 23, 0: Unused SanityConfig imported from lib.config (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.81/10
+
+************* Module compile
+C:  8, 0: Missing function docstring (missing-docstring)
+W: 18,25: Unused variable 'ex_traceback' (unused-variable)
+W: 18,12: Unused variable 'ex_type' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 8.33/10
+

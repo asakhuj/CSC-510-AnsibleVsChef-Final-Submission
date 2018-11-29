@@ -1,0 +1,19 @@
+************* Module ansible.modules.cloud.amazon.cloudwatchlogs_log_group_facts
+C: 76, 0: Line too long (128/100) (line-too-long)
+C: 92, 0: Line too long (106/100) (line-too-long)
+C: 95, 0: Line too long (106/100) (line-too-long)
+C:111, 0: Line too long (121/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 73, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C: 74, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C: 75, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 76, 0: Import "from ansible.module_utils.ec2 import HAS_BOTO3, camel_dict_to_snake_dict, boto3_conn, ec2_argument_spec, get_aws_connection_info" should be placed at the top of the module (wrong-import-position)
+C: 84, 0: Missing function docstring (missing-docstring)
+C: 91,46: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C: 94,48: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C: 99, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 6.59/10
+

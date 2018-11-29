@@ -1,0 +1,14 @@
+************* Module ansible.plugins.inventory.auto
+C: 45, 0: Line too long (135/100) (line-too-long)
+C: 50, 0: Line too long (119/100) (line-too-long)
+C: 53, 0: Line too long (126/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 25, 0: Import "from ansible.errors import AnsibleParserError" should be placed at the top of the module (wrong-import-position)
+C: 26, 0: Import "from ansible.plugins.inventory import BaseInventoryPlugin" should be placed at the top of the module (wrong-import-position)
+C: 27, 0: Import "from ansible.plugins.loader import inventory_loader" should be placed at the top of the module (wrong-import-position)
+C: 30, 0: Missing class docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 6.25/10
+

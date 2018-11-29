@@ -1,0 +1,10 @@
+************* Module ansible.modules.web_infrastructure.ansible_tower.tower_label
+C: 93, 0: Line too long (118/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 52, 0: Import "from ansible.module_utils.ansible_tower import TowerModule, tower_auth_config, tower_check_mode" should be placed at the top of the module (wrong-import-position)
+C: 63, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.72/10
+

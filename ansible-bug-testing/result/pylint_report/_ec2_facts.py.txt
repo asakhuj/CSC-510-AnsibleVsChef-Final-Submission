@@ -1,0 +1,8 @@
+************* Module ansible.modules.cloud.amazon._ec2_facts
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 15, 0: Import "from ansible.module_utils.common.removed import removed_module" should be placed at the top of the module (wrong-import-position)
+
+-----------------------------------
+Your code has been rated at 5.00/10
+

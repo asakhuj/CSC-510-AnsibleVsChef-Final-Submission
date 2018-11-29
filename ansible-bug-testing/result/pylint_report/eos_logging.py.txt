@@ -1,0 +1,30 @@
+************* Module ansible.modules.network.eos.eos_logging
+C:  1, 0: Missing module docstring (missing-docstring)
+C:115, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:118, 0: Import "from copy import deepcopy" should be placed at the top of the module (wrong-import-position)
+C:119, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:120, 0: Import "from ansible.module_utils.network.common.utils import remove_default_spec" should be placed at the top of the module (wrong-import-position)
+C:121, 0: Import "from ansible.module_utils.network.eos.eos import get_config, load_config" should be placed at the top of the module (wrong-import-position)
+C:122, 0: Import "from ansible.module_utils.network.eos.eos import eos_argument_spec, check_args" should be placed at the top of the module (wrong-import-position)
+C:131, 0: Missing function docstring (missing-docstring)
+R:131, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:139, 0: Missing function docstring (missing-docstring)
+C:143, 8: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+R:143, 4: Too many nested blocks (6/5) (too-many-nested-blocks)
+R:139, 0: Too many branches (23/12) (too-many-branches)
+C:220, 0: Missing function docstring (missing-docstring)
+C:229, 0: Missing function docstring (missing-docstring)
+C:249, 0: Missing function docstring (missing-docstring)
+C:259, 0: Missing function docstring (missing-docstring)
+R:262, 7: Comparison to literal (literal-comparison)
+C:280, 0: Missing function docstring (missing-docstring)
+C:305, 0: Missing function docstring (missing-docstring)
+C:329, 0: Missing function docstring (missing-docstring)
+W:338,12: Access to a protected member _check_required_if of a client class (protected-access)
+C:339,12: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+R:329, 0: Too many branches (15/12) (too-many-branches)
+W:418,36: Access to a protected member _diff of a client class (protected-access)
+
+-----------------------------------
+Your code has been rated at 8.56/10
+

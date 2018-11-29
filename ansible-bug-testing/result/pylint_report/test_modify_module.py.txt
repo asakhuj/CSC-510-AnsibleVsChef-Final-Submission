@@ -1,0 +1,25 @@
+************* Module test_modify_module
+C: 41, 0: Line too long (104/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 10, 0: Unable to import 'ansible.executor.module_common' (import-error)
+E: 11, 0: Unable to import 'ansible.module_utils.six' (import-error)
+C: 23, 0: Missing function docstring (missing-docstring)
+C: 24, 4: Variable name "m" doesn't conform to snake_case naming style (invalid-name)
+W: 31,39: Redefining name 'templar' from outer scope (line 13) (redefined-outer-name)
+W: 31,17: Redefining name 'fake_old_module_open' from outer scope (line 23) (redefined-outer-name)
+C: 31, 0: Missing function docstring (missing-docstring)
+W: 32,11: Unused variable 'style' (unused-variable)
+W: 31,17: Unused argument 'fake_old_module_open' (unused-argument)
+W: 32, 5: Unused variable 'data' (unused-variable)
+W: 36,49: Redefining name 'templar' from outer scope (line 13) (redefined-outer-name)
+W: 36,27: Redefining name 'fake_old_module_open' from outer scope (line 23) (redefined-outer-name)
+C: 36, 0: Missing function docstring (missing-docstring)
+W: 41,11: Unused variable 'style' (unused-variable)
+W: 36,27: Unused argument 'fake_old_module_open' (unused-argument)
+W: 41, 5: Unused variable 'data' (unused-variable)
+W: 13, 0: Unused templar imported from test_module_common (unused-import)
+
+------------------------------------
+Your code has been rated at -4.74/10
+

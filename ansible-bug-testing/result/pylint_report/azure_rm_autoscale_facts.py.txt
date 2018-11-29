@@ -1,0 +1,27 @@
+************* Module ansible.modules.cloud.azure.azure_rm_autoscale_facts
+C:201, 0: Line too long (138/100) (line-too-long)
+C:202, 0: Line too long (146/100) (line-too-long)
+C:251, 0: Line too long (105/100) (line-too-long)
+C:252, 0: Line too long (108/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:115, 0: Import "from ansible.module_utils.azure_rm_common import AzureRMModuleBase" should be placed at the top of the module (wrong-import-position)
+C:116, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:127, 0: Missing function docstring (missing-docstring)
+C:133, 0: Missing function docstring (missing-docstring)
+C:139, 0: Missing function docstring (missing-docstring)
+C:154, 0: Missing function docstring (missing-docstring)
+C:173, 0: Missing function docstring (missing-docstring)
+C:198, 0: Missing function docstring (missing-docstring)
+C:207, 0: Missing class docstring (missing-docstring)
+C:239, 4: Missing method docstring (missing-docstring)
+W:244,15: Catching too general exception Exception (broad-except)
+C:248, 4: Missing method docstring (missing-docstring)
+W:253,15: Catching too general exception Exception (broad-except)
+C:258, 0: Missing function docstring (missing-docstring)
+W:119, 4: Unused CloudError imported from msrestazure.azure_exceptions (unused-import)
+W:120, 4: Unused Model imported from msrest.serialization (unused-import)
+
+-----------------------------------
+Your code has been rated at 7.66/10
+

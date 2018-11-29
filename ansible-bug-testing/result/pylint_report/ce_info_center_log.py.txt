@@ -1,0 +1,26 @@
+************* Module ansible.modules.network.cloudengine.ce_info_center_log
+C:144, 0: Line too long (102/100) (line-too-long)
+C:288, 0: Line too long (104/100) (line-too-long)
+C:298, 0: Line too long (108/100) (line-too-long)
+C:302, 0: Line too long (109/100) (line-too-long)
+C:360, 0: Line too long (101/100) (line-too-long)
+C:367, 0: Line too long (101/100) (line-too-long)
+C:372, 0: Line too long (102/100) (line-too-long)
+C:376, 0: Line too long (105/100) (line-too-long)
+C:521, 0: Line too long (104/100) (line-too-long)
+C:522, 0: Line too long (106/100) (line-too-long)
+C:523, 0: Line too long (111/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:142, 0: Import "from xml.etree import ElementTree" should be placed at the top of the module (wrong-import-position)
+C:143, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:144, 0: Import "from ansible.module_utils.network.cloudengine.ce import get_nc_config, set_nc_config, ce_argument_spec" should be placed at the top of the module (wrong-import-position)
+R:214, 0: Too many instance attributes (18/7) (too-many-instance-attributes)
+R:325, 8: Unnecessary "else" after "return" (no-else-return)
+R:293, 4: Too many branches (13/12) (too-many-branches)
+R:379, 8: Unnecessary "else" after "return" (no-else-return)
+R:380,12: Unnecessary "else" after "return" (no-else-return)
+R:331, 4: Too many branches (18/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 9.03/10
+

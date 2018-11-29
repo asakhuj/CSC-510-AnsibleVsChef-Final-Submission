@@ -1,0 +1,26 @@
+************* Module ansible.modules.cloud.amazon.iam_role_facts
+C:152, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:151, 0: Import "from ansible.module_utils.aws.core import AnsibleAWSModule" should be placed at the top of the module (wrong-import-position)
+C:152, 0: Import "from ansible.module_utils.ec2 import boto3_conn, get_aws_connection_info, ec2_argument_spec, AWSRetry" should be placed at the top of the module (wrong-import-position)
+C:153, 0: Import "from ansible.module_utils.ec2 import camel_dict_to_snake_dict" should be placed at the top of the module (wrong-import-position)
+C:157, 0: Missing function docstring (missing-docstring)
+C:163, 0: Function name "list_iam_role_policies_with_backoff" doesn't conform to snake_case naming style (invalid-name)
+C:163, 0: Missing function docstring (missing-docstring)
+C:169, 0: Function name "list_iam_attached_role_policies_with_backoff" doesn't conform to snake_case naming style (invalid-name)
+C:169, 0: Missing function docstring (missing-docstring)
+C:175, 0: Function name "list_iam_instance_profiles_for_role_with_backoff" doesn't conform to snake_case naming style (invalid-name)
+C:175, 0: Missing function docstring (missing-docstring)
+C:180, 0: Missing function docstring (missing-docstring)
+C:184,83: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:188,83: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:192,83: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:197, 0: Missing function docstring (missing-docstring)
+C:203,50: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:208,52: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:220,87: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 7.12/10
+

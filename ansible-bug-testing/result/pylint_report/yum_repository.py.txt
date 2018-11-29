@@ -1,0 +1,24 @@
+************* Module ansible.modules.packaging.os.yum_repository
+C:619, 0: Line too long (141/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:385, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:387, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+E:388, 0: Unable to import 'ansible.module_utils.six.moves' (import-error)
+C:388, 0: Import "from ansible.module_utils.six.moves import configparser" should be placed at the top of the module (wrong-import-position)
+C:389, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:392, 0: Missing class docstring (missing-docstring)
+C:471, 4: Missing method docstring (missing-docstring)
+C:501, 4: Missing method docstring (missing-docstring)
+C:502,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:505,16: Variable name "fd" doesn't conform to snake_case naming style (invalid-name)
+C:506,30: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:515,30: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:523,30: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:530, 4: Missing method docstring (missing-docstring)
+C:535, 4: Missing method docstring (missing-docstring)
+C:550, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.79/10
+

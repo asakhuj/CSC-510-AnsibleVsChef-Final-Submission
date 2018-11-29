@@ -1,0 +1,22 @@
+************* Module ansible.modules.network.ftd.ftd_file_upload
+C: 71, 0: Line too long (103/100) (line-too-long)
+C: 76, 0: Line too long (116/100) (line-too-long)
+C: 95, 0: Line too long (117/100) (line-too-long)
+C: 96, 0: Wrong hanging indentation (remove 4 spaces).
+                params['operation'])
+            |   ^ (bad-continuation)
+C:102, 0: Line too long (113/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 22, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 69, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 70, 0: Import "from ansible.module_utils.connection import Connection" should be placed at the top of the module (wrong-import-position)
+C: 71, 0: Import "from ansible.module_utils.network.ftd.common import construct_ansible_facts, FtdServerError, HTTPMethod" should be placed at the top of the module (wrong-import-position)
+C: 72, 0: Import "from ansible.module_utils.network.ftd.fdm_swagger_client import OperationField" should be placed at the top of the module (wrong-import-position)
+C: 75, 0: Missing function docstring (missing-docstring)
+C: 79, 0: Missing function docstring (missing-docstring)
+W: 88,28: Access to a protected member _socket_path of a client class (protected-access)
+C:103,29: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 5.16/10
+

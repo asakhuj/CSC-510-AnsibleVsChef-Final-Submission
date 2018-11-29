@@ -1,0 +1,15 @@
+************* Module lib.changes
+C: 79, 0: Line too long (102/100) (line-too-long)
+C:106, 0: Line too long (108/100) (line-too-long)
+C:111, 0: Line too long (106/100) (line-too-long)
+C:112, 0: Line too long (102/100) (line-too-long)
+C:138, 0: Line too long (103/100) (line-too-long)
+R: 45, 0: Too many instance attributes (9/7) (too-many-instance-attributes)
+R:120, 0: Too many instance attributes (12/7) (too-many-instance-attributes)
+R:120, 0: Too few public methods (1/2) (too-few-public-methods)
+W:  8, 0: Unused CommonConfig imported from lib.util (unused-import)
+W: 21, 0: Unused Git imported from lib.git (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.80/10
+

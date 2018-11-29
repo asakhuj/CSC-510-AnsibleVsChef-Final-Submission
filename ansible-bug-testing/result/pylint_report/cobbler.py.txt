@@ -1,0 +1,28 @@
+************* Module cobbler
+C:115, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:139, 0: Unnecessary parens after 'if' keyword (superfluous-parens)
+C:176, 0: Unnecessary parens after 'if' keyword (superfluous-parens)
+C:184, 0: Unnecessary parens after 'if' keyword (superfluous-parens)
+C:190, 0: Line too long (106/100) (line-too-long)
+C:191, 0: Line too long (111/100) (line-too-long)
+C:192, 0: Line too long (109/100) (line-too-long)
+C:194, 0: Line too long (127/100) (line-too-long)
+C:300, 0: Line too long (106/100) (line-too-long)
+C: 76, 0: Constant name "orderby_keyname" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 79, 0: Missing class docstring (missing-docstring)
+R: 79, 0: Too many instance attributes (14/7) (too-many-instance-attributes)
+R:218,57: Comparison to literal (literal-comparison)
+W:215,21: Unused variable 'iname' (unused-variable)
+W:211,12: Unused variable 'ksmeta' (unused-variable)
+R:197, 4: Too many branches (14/12) (too-many-branches)
+C:256,29: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+R:270, 4: Method could be a function (no-self-use)
+R:299, 4: Method could be a function (no-self-use)
+R:307, 8: Unnecessary "else" after "return" (no-else-return)
+R:304, 4: Method could be a function (no-self-use)
+W:120,12: Attribute 'token' defined outside __init__ (attribute-defined-outside-init)
+W:122,16: Attribute 'token' defined outside __init__ (attribute-defined-outside-init)
+
+------------------------------------------------------------------
+Your code has been rated at 8.46/10 (previous run: 8.46/10, +0.00)
+

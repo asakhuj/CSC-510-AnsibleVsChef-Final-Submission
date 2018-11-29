@@ -1,0 +1,15 @@
+************* Module validate-modules.module_args
+C:  1, 0: Missing module docstring (missing-docstring)
+E: 26, 0: Unable to import 'ansible.module_utils.six' (import-error)
+C: 34, 0: Missing class docstring (missing-docstring)
+C: 38, 0: Missing class docstring (missing-docstring)
+C: 43, 0: Missing function docstring (missing-docstring)
+C: 49, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+W: 43,14: Unused argument 'filename' (unused-argument)
+C: 65, 0: Missing function docstring (missing-docstring)
+W: 73,15: Catching too general exception Exception (broad-except)
+C: 73,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.50/10
+

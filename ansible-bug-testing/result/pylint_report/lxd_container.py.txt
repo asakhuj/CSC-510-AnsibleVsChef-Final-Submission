@@ -1,0 +1,28 @@
+************* Module ansible.modules.cloud.lxd.lxd_container
+C:334, 0: Line too long (104/100) (line-too-long)
+C:372, 0: Line too long (128/100) (line-too-long)
+C:459, 0: Line too long (132/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:241, 0: Import "import datetime" should be placed at the top of the module (wrong-import-position)
+C:242, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:243, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C:245, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:246, 0: Import "from ansible.module_utils.lxd import LXDClient, LXDClientException" should be placed at the top of the module (wrong-import-position)
+C:273, 0: Missing class docstring (missing-docstring)
+R:273, 0: Too many instance attributes (17/7) (too-many-instance-attributes)
+W:294,21: Access to a protected member _verbosity of a client class (protected-access)
+C:300,37: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:388,37: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:458, 8: Unnecessary "else" after "return" (no-else-return)
+C:460,19: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:488,19: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+W:513,33: Access to a protected member _verbosity of a client class (protected-access)
+C:523,37: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:273, 0: Too few public methods (1/2) (too-few-public-methods)
+W:506,12: Attribute 'old_container_json' defined outside __init__ (attribute-defined-outside-init)
+W:507,12: Attribute 'old_state' defined outside __init__ (attribute-defined-outside-init)
+
+-----------------------------------
+Your code has been rated at 8.88/10
+

@@ -1,0 +1,15 @@
+************* Module ansible.modules.network.nxos.nxos_ping
+C:  1, 0: Missing module docstring (missing-docstring)
+C:109, 0: Import "from ansible.module_utils.network.nxos.nxos import run_commands" should be placed at the top of the module (wrong-import-position)
+C:110, 0: Import "from ansible.module_utils.network.nxos.nxos import nxos_argument_spec, check_args" should be placed at the top of the module (wrong-import-position)
+C:111, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:114, 0: Missing function docstring (missing-docstring)
+C:132, 0: Missing function docstring (missing-docstring)
+C:147, 0: Missing function docstring (missing-docstring)
+C:154, 0: Missing function docstring (missing-docstring)
+C:178, 0: Missing function docstring (missing-docstring)
+W:195, 4: Unused variable 'count' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 8.55/10
+

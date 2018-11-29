@@ -1,0 +1,29 @@
+************* Module ansible.modules.cloud.smartos.imgadm
+C:143, 0: Line too long (101/100) (line-too-long)
+C:204, 0: Line too long (101/100) (line-too-long)
+C:225, 0: Line too long (101/100) (line-too-long)
+C:272, 0: Line too long (129/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:116, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:118, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:126, 0: Missing class docstring (missing-docstring)
+R:136, 8: The if statement can be replaced with 'var = bool(test)' (simplifiable-if-statement)
+C:147, 4: Missing method docstring (missing-docstring)
+R:149, 8: Unnecessary "else" after "return" (no-else-return)
+R:147, 4: Method could be a function (no-self-use)
+C:154, 4: Missing method docstring (missing-docstring)
+C:160, 9: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+W:160,13: Unused variable 'stdout' (unused-variable)
+C:170, 4: Missing method docstring (missing-docstring)
+C:182,13: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:201,13: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:214, 4: Missing method docstring (missing-docstring)
+C:222,13: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:234,13: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:253,13: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:266, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.91/10
+

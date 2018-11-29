@@ -1,0 +1,8 @@
+************* Module sns_topic_lambda
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  4, 0: Missing function docstring (missing-docstring)
+W:  4,19: Unused argument 'context' (unused-argument)
+
+-----------------------------------
+Your code has been rated at 2.50/10
+

@@ -1,0 +1,80 @@
+************* Module ansible.modules.commands.script
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.00/10
+
+************* Module ansible.plugins.action.script
+W:130, 0: FIXME: use a more public method to get the exec payload (fixme)
+C: 24, 0: Line too long (112/100) (line-too-long)
+C: 70, 0: Line too long (114/100) (line-too-long)
+C: 72, 0: Line too long (102/100) (line-too-long)
+C: 73, 0: Line too long (117/100) (line-too-long)
+C: 78, 0: Line too long (104/100) (line-too-long)
+C: 79, 0: Line too long (103/100) (line-too-long)
+C: 83, 0: Line too long (103/100) (line-too-long)
+C: 86, 0: Line too long (133/100) (line-too-long)
+C:139, 0: Line too long (121/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 18, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 30, 0: Missing class docstring (missing-docstring)
+R: 38, 4: Too many local variables (20/15) (too-many-locals)
+W: 68,19: Access to a protected member _shell of a client class (protected-access)
+W: 72,19: Access to a protected member _shell of a client class (protected-access)
+C: 87,35: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W: 95,26: Access to a protected member _shell of a client class (protected-access)
+W: 95,60: Access to a protected member _shell of a client class (protected-access)
+W:110,36: Access to a protected member _shell of a client class (protected-access)
+W:124,25: Access to a protected member _shell of a client class (protected-access)
+W:129,15: Access to a protected member _shell of a client class (protected-access)
+C:131,16: Variable name "pc" doesn't conform to snake_case naming style (invalid-name)
+W:132,28: Access to a protected member _create_powershell_wrapper of a client class (protected-access)
+C:144,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:147,34: Access to a protected member _shell of a client class (protected-access)
+R: 38, 4: Too many branches (18/12) (too-many-branches)
+R: 38, 4: Too many statements (56/50) (too-many-statements)
+R: 30, 0: Too few public methods (1/2) (too-few-public-methods)
+
+-----------------------------------
+Your code has been rated at 5.67/10
+
+************* Module ansible.plugins.inventory.script
+C:104, 0: Line too long (103/100) (line-too-long)
+C:114, 0: Line too long (105/100) (line-too-long)
+C:116, 0: Line too long (107/100) (line-too-long)
+C:120, 0: Line too long (144/100) (line-too-long)
+C:125, 0: Line too long (144/100) (line-too-long)
+C:133, 0: Line too long (146/100) (line-too-long)
+C:138, 0: Line too long (104/100) (line-too-long)
+C:157, 0: Line too long (117/100) (line-too-long)
+C:176, 0: Line too long (116/100) (line-too-long)
+C:184, 0: Line too long (112/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 42, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C: 43, 0: Import "import subprocess" should be placed at the top of the module (wrong-import-position)
+C: 45, 0: Import "from ansible.errors import AnsibleError, AnsibleParserError" should be placed at the top of the module (wrong-import-position)
+C: 46, 0: Import "from ansible.module_utils.basic import json_dict_bytes_to_unicode" should be placed at the top of the module (wrong-import-position)
+C: 47, 0: Import "from ansible.module_utils.six import iteritems" should be placed at the top of the module (wrong-import-position)
+C: 48, 0: Import "from ansible.module_utils._text import to_native, to_text" should be placed at the top of the module (wrong-import-position)
+C: 49, 0: Import "from ansible.module_utils.common._collections_compat import Mapping" should be placed at the top of the module (wrong-import-position)
+C: 50, 0: Import "from ansible.plugins.inventory import BaseInventoryPlugin, Cacheable" should be placed at the top of the module (wrong-import-position)
+W: 77,19: Catching too general exception Exception (broad-except)
+R: 85, 4: Too many local variables (19/15) (too-many-locals)
+C:102,20: Variable name "sp" doesn't conform to snake_case naming style (invalid-name)
+C:103,34: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:119,36: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:124,36: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:156,45: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:161,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R: 85, 4: Too many branches (18/12) (too-many-branches)
+R: 85, 4: Too many statements (51/50) (too-many-statements)
+C:186,19: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:199,12: Variable name "sp" doesn't conform to snake_case naming style (invalid-name)
+C:200,26: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:202,14: Unused variable 'err' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 7.04/10
+

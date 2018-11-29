@@ -1,0 +1,27 @@
+************* Module ansible.modules.storage.netapp.na_ontap_igroup
+C:135, 0: Wrong hanging indentation (remove 7 spaces).
+                       'present', 'absent'], default='present'),
+                |      ^ (bad-continuation)
+C:223, 0: Line too long (113/100) (line-too-long)
+C:246, 0: Line too long (115/100) (line-too-long)
+C:269, 0: Line too long (105/100) (line-too-long)
+C:277, 0: Line too long (129/100) (line-too-long)
+C:283, 0: Line too long (101/100) (line-too-long)
+C:291, 0: Line too long (104/100) (line-too-long)
+C:297, 0: Line too long (101/100) (line-too-long)
+C:325, 0: Line too long (111/100) (line-too-long)
+C:  9, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:119, 0: Import "import traceback" should be placed at the top of the module (wrong-import-position)
+C:121, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:122, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:123, 0: Import "import ansible.module_utils.netapp as netapp_utils" should be placed at the top of the module (wrong-import-position)
+C:128, 0: Missing class docstring (missing-docstring)
+R:128, 0: Too many instance attributes (12/7) (too-many-instance-attributes)
+C:300, 4: Missing method docstring (missing-docstring)
+W:304, 8: Unused variable 'initiator_changed' (unused-variable)
+R:300, 4: Too many branches (17/12) (too-many-branches)
+C:352, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.54/10
+

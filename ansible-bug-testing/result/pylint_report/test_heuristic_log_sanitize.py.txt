@@ -1,0 +1,17 @@
+************* Module units.module_utils.basic.test_heuristic_log_sanitize
+C: 88, 0: Line too long (122/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 24, 0: Unable to import 'ansible.module_utils.basic' (import-error)
+C: 29, 8: Attribute name "URL_SECRET" doesn't conform to snake_case naming style (invalid-name)
+C: 30, 8: Attribute name "SSH_SECRET" doesn't conform to snake_case naming style (invalid-name)
+C: 27, 0: Missing class docstring (missing-docstring)
+R: 35, 4: Method could be a function (no-self-use)
+C: 55, 4: Missing method docstring (missing-docstring)
+C: 58, 4: Missing method docstring (missing-docstring)
+C: 72, 4: Missing method docstring (missing-docstring)
+C: 87, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 5.79/10
+

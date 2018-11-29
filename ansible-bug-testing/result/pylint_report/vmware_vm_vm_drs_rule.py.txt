@@ -1,0 +1,27 @@
+************* Module ansible.modules.cloud.vmware.vmware_vm_vm_drs_rule
+C:231, 0: Line too long (104/100) (line-too-long)
+C:232, 0: Wrong continued indentation (remove 1 space).
+                    )
+                   |^ (bad-continuation)
+C:253, 0: Line too long (121/100) (line-too-long)
+C:326, 0: Wrong continued indentation (add 20 spaces).
+    )
+    ^                   | (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:141, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:142, 0: Import "from ansible.module_utils._text import to_native" should be placed at the top of the module (wrong-import-position)
+C:143, 0: Import "from ansible.module_utils.vmware import PyVmomi, vmware_argument_spec, wait_for_task, find_vm_by_id, find_cluster_by_name" should be placed at the top of the module (wrong-import-position)
+C:147, 0: Missing class docstring (missing-docstring)
+R:147, 0: Too many instance attributes (9/7) (too-many-instance-attributes)
+W:280,15: Catching too general exception Exception (broad-except)
+C:278,45: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:280,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:308,19: Catching too general exception Exception (broad-except)
+C:306,49: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:308,32: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:315, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.71/10
+

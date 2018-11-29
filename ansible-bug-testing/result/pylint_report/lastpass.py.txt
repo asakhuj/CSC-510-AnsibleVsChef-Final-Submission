@@ -1,0 +1,22 @@
+************* Module ansible.plugins.lookup.lastpass
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 38, 0: Import "from subprocess import Popen, PIPE" should be placed at the top of the module (wrong-import-position)
+C: 40, 0: Import "from ansible.errors import AnsibleError" should be placed at the top of the module (wrong-import-position)
+C: 41, 0: Import "from ansible.plugins.lookup import LookupBase" should be placed at the top of the module (wrong-import-position)
+C: 44, 0: Missing class docstring (missing-docstring)
+C: 48, 0: Missing class docstring (missing-docstring)
+C: 54, 4: Missing method docstring (missing-docstring)
+C: 58, 4: Missing method docstring (missing-docstring)
+W: 59, 8: Unused variable 'out' (unused-variable)
+C: 63, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C: 65, 8: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+R: 70, 4: Method could be a function (no-self-use)
+C: 77, 4: Missing method docstring (missing-docstring)
+W: 79,17: Unused variable 'err' (unused-variable)
+C: 85, 0: Missing class docstring (missing-docstring)
+C: 88, 8: Variable name "lp" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.30/10
+

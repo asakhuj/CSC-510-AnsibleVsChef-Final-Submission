@@ -1,0 +1,32 @@
+************* Module ansible.modules.net_tools.infinity.infinity
+C:340, 0: Line too long (103/100) (line-too-long)
+C:376, 0: Line too long (125/100) (line-too-long)
+C:377, 0: Line too long (142/100) (line-too-long)
+C:378, 0: Line too long (105/100) (line-too-long)
+C:379, 0: Line too long (108/100) (line-too-long)
+C:387, 0: Line too long (120/100) (line-too-long)
+C:424, 0: Line too long (119/100) (line-too-long)
+C:435, 0: Line too long (106/100) (line-too-long)
+C:446, 0: Line too long (108/100) (line-too-long)
+C:459, 0: Line too long (106/100) (line-too-long)
+C:460, 0: Line too long (110/100) (line-too-long)
+C:467, 0: Line too long (107/100) (line-too-long)
+C:501, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 14, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:145, 0: Import "from ansible.module_utils.basic import json" should be placed at the top of the module (wrong-import-position)
+C:146, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:147, 0: Import "from ansible.module_utils.urls import open_url" should be placed at the top of the module (wrong-import-position)
+R:161, 4: Too many arguments (6/5) (too-many-arguments)
+C:199,45: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+W:166,12: Unused argument 'params' (unused-argument)
+W:247,46: Unused argument 'network_type' (unused-argument)
+R:368, 4: Too many arguments (8/5) (too-many-arguments)
+W:416,12: Unused argument 'released_network_type' (unused-argument)
+R:454, 4: Too many arguments (7/5) (too-many-arguments)
+W:462, 8: Unused variable 'method' (unused-variable)
+C:488, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.83/10
+

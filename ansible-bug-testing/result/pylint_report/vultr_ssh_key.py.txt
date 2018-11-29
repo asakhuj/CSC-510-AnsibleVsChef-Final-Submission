@@ -1,0 +1,15 @@
+************* Module ansible.modules.cloud.vultr.vultr_ssh_key
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:108, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:109, 0: Import "from ansible.module_utils.vultr import Vultr, vultr_argument_spec" should be placed at the top of the module (wrong-import-position)
+C:115, 0: Missing class docstring (missing-docstring)
+C:127, 4: Missing method docstring (missing-docstring)
+W:130,16: Unused variable 'ssh_key_id' (unused-variable)
+C:135, 4: Missing method docstring (missing-docstring)
+C:184, 4: Missing method docstring (missing-docstring)
+C:205, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 8.53/10
+

@@ -1,0 +1,23 @@
+************* Module units.modules.system.test_iptables
+W: 58, 0: TODO ADD test flush table nat (fixme)
+W: 59, 0: TODO ADD test flush with chain (fixme)
+W: 60, 0: TODO ADD test flush with chain and table nat (fixme)
+W:154, 0: TODO ADD test policy without chain fail (fixme)
+W:155, 0: TODO ADD test policy with chain don't exists (fixme)
+W:156, 0: TODO ADD test policy with wrong choice fail (fixme)
+C:515, 0: Line too long (110/100) (line-too-long)
+C:548, 0: Line too long (110/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  2, 0: Unable to import 'ansible.module_utils' (import-error)
+E:  3, 0: Unable to import 'ansible.modules.system' (import-error)
+C:  7, 0: Missing function docstring (missing-docstring)
+W:  7, 0: Unused argument 'args' (unused-argument)
+W:  7, 0: Unused argument 'kwargs' (unused-argument)
+C: 11, 0: Missing class docstring (missing-docstring)
+C: 19, 4: Method name "test_without_required_parameters" doesn't conform to snake_case naming style (invalid-name)
+C:547, 4: Method name "test_insert_jump_reject_with_reject" doesn't conform to snake_case naming style (invalid-name)
+C:  4, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 8.40/10
+

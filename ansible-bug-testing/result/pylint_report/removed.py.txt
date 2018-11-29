@@ -1,0 +1,11 @@
+************* Module ansible.module_utils.common.removed
+C:  2, 0: Line too long (106/100) (line-too-long)
+C: 47, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:  1, 0: Missing module docstring (missing-docstring)
+W: 34,11: Catching too general exception Exception (broad-except)
+C: 34,24: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W: 34,24: Unused variable 'e' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 7.00/10
+

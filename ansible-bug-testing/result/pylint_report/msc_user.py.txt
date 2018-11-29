@@ -1,0 +1,18 @@
+************* Module ansible.modules.network.aci.msc_user
+W:123, 0: FIXME: What possible options do we have ? (fixme)
+W:147, 0: FIXME: Look up domain (fixme)
+W:149, 0: FIXME: Look up roles (fixme)
+C:135, 0: Line too long (123/100) (line-too-long)
+C:174, 0: Line too long (151/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:109, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:110, 0: Import "from ansible.module_utils.network.aci.msc import MSCModule, msc_argument_spec, issubset" should be placed at the top of the module (wrong-import-position)
+C:113, 0: Missing function docstring (missing-docstring)
+R:113, 0: Too many local variables (18/15) (too-many-locals)
+R:113, 0: Too many branches (22/12) (too-many-branches)
+R:113, 0: Too many statements (60/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 8.06/10
+

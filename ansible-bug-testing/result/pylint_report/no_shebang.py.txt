@@ -1,0 +1,6 @@
+************* Module no_shebang
+C:  1, 0: Missing module docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 5.00/10
+

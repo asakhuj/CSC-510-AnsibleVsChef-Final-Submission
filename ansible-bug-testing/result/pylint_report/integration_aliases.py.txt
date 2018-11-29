@@ -1,0 +1,24 @@
+************* Module lib.sanity.integration_aliases
+C: 46, 0: Line too long (108/100) (line-too-long)
+C:103, 0: Line too long (146/100) (line-too-long)
+C:104, 0: Line too long (104/100) (line-too-long)
+C:124, 0: Line too long (133/100) (line-too-long)
+C:127, 0: Line too long (154/100) (line-too-long)
+C:130, 0: Line too long (101/100) (line-too-long)
+C:185, 0: Line too long (123/100) (line-too-long)
+C:186, 0: Line too long (135/100) (line-too-long)
+C:196, 0: Line too long (108/100) (line-too-long)
+C:199, 0: Line too long (117/100) (line-too-long)
+C:205, 0: Line too long (131/100) (line-too-long)
+C:233, 0: Line too long (125/100) (line-too-long)
+C:234, 0: Line too long (139/100) (line-too-long)
+C:239, 0: Line too long (106/100) (line-too-long)
+C:240, 0: Line too long (112/100) (line-too-long)
+C:267, 0: Line too long (133/100) (line-too-long)
+R:252, 4: Too many local variables (18/15) (too-many-locals)
+W:  9, 0: Unused SanityTargets imported from lib.sanity (unused-import)
+W: 17, 0: Unused SanityConfig imported from lib.config (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.60/10
+

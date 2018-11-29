@@ -1,0 +1,14 @@
+************* Module ansible.modules.cloud.smartos.smartos_image_facts
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 53, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C: 54, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 57, 0: Missing class docstring (missing-docstring)
+C: 64, 4: Missing method docstring (missing-docstring)
+C: 73, 9: Variable name "rc" doesn't conform to snake_case naming style (invalid-name)
+R: 57, 0: Too few public methods (1/2) (too-few-public-methods)
+C: 91, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.43/10
+

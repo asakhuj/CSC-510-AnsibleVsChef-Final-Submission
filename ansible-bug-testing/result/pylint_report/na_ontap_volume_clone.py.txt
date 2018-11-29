@@ -1,0 +1,14 @@
+************* Module ansible.modules.storage.netapp.na_ontap_volume_clone
+C:160, 0: Line too long (111/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 77, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 78, 0: Import "import ansible.module_utils.netapp as netapp_utils" should be placed at the top of the module (wrong-import-position)
+R: 83, 0: Too many instance attributes (12/7) (too-many-instance-attributes)
+C:148, 4: Missing method docstring (missing-docstring)
+W:153, 8: No exception type(s) specified (bare-except)
+R:148, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+
+-----------------------------------
+Your code has been rated at 8.75/10
+

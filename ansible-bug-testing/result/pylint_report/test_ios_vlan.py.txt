@@ -1,0 +1,23 @@
+************* Module units.modules.network.ios.test_ios_vlan
+C: 78, 0: Line too long (142/100) (line-too-long)
+C: 93, 0: Line too long (142/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 25, 0: Unable to import 'ansible.modules.network.ios' (import-error)
+E: 26, 0: Unable to import 'ansible.modules.network.ios.ios_vlan' (import-error)
+C: 31, 0: Missing class docstring (missing-docstring)
+W: 49, 4: Parameters differ from overridden 'load_fixtures' method (arguments-differ)
+W: 49,43: Unused argument 'transport' (unused-argument)
+C: 53, 4: Missing method docstring (missing-docstring)
+C: 62, 4: Missing method docstring (missing-docstring)
+C: 68, 4: Missing method docstring (missing-docstring)
+C: 77, 4: Missing method docstring (missing-docstring)
+C: 92, 4: Method name "test_ios_vlan_with_interfaces_and_newvlan" doesn't conform to snake_case naming style (invalid-name)
+C: 92, 4: Missing method docstring (missing-docstring)
+C:107, 4: Missing method docstring (missing-docstring)
+W: 22, 0: Unused import json (unused-import)
+C: 27, 0: Imports from package units are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 5.00/10
+

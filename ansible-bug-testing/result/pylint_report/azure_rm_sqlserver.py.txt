@@ -1,0 +1,24 @@
+************* Module ansible.modules.cloud.azure.azure_rm_sqlserver
+C:246, 0: Line too long (106/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C:104, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C:105, 0: Import "from ansible.module_utils.azure_rm_common import AzureRMModuleBase" should be placed at the top of the module (wrong-import-position)
+C:117, 0: Missing class docstring (missing-docstring)
+W:117, 0: Class has no __init__ method (no-init)
+R:117, 0: Too few public methods (0/2) (too-few-public-methods)
+R:121, 0: Too many instance attributes (8/7) (too-many-instance-attributes)
+W:196, 8: Unused variable 'results' (unused-variable)
+R:176, 4: Too many branches (25/12) (too-many-branches)
+R:176, 4: Too many statements (64/50) (too-many-statements)
+C:293,29: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:291,12: Unused variable 'response' (unused-variable)
+C:313,29: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:313,29: Unused variable 'e' (unused-variable)
+W:110, 4: Unused SqlManagementClient imported from azure.mgmt.sql (unused-import)
+W:111, 4: Unused Model imported from msrest.serialization (unused-import)
+C:111, 4: Imports from package msrest are not grouped (ungrouped-imports)
+
+-----------------------------------
+Your code has been rated at 8.52/10
+

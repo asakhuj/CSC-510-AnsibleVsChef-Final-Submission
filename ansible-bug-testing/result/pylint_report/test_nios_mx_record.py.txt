@@ -1,0 +1,22 @@
+************* Module units.modules.net_tools.nios.test_nios_mx_record
+C: 63, 0: Line too long (111/100) (line-too-long)
+C: 80, 0: Line too long (119/100) (line-too-long)
+C: 81, 0: Wrong continued indentation (add 15 spaces).
+                                                   'mx': 'mailhost.ansible.com', 'preference': 0})
+                                                   ^              | (bad-continuation)
+C: 84, 0: Line too long (120/100) (line-too-long)
+C:112, 0: Line too long (119/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+E: 23, 0: Unable to import 'ansible.modules.net_tools.nios' (import-error)
+E: 24, 0: Unable to import 'ansible.module_utils.net_tools.nios' (import-error)
+C: 29, 0: Missing class docstring (missing-docstring)
+C: 61, 4: Missing method docstring (missing-docstring)
+W: 80,74: Access to a protected member _check_type_dict of a client class (protected-access)
+C: 83, 4: Method name "test_nios_mx_record_update_comment" doesn't conform to snake_case naming style (invalid-name)
+C: 83, 4: Missing method docstring (missing-docstring)
+C:111, 4: Missing method docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 5.96/10
+

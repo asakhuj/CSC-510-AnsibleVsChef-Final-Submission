@@ -1,0 +1,9 @@
+************* Module ansible.modules.windows.win_chocolatey
+W:234, 0: TODO: (fixme)
+C:237, 0: Line too long (140/100) (line-too-long)
+C:238, 0: Line too long (101/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 0.00/10
+

@@ -1,0 +1,32 @@
+************* Module ansible.modules.network.nxos.nxos_pim_interface
+C:  1, 0: Missing module docstring (missing-docstring)
+C:134, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:135, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:136, 0: Import "from ansible.module_utils.network.nxos.nxos import get_config, load_config, run_commands" should be placed at the top of the module (wrong-import-position)
+C:137, 0: Import "from ansible.module_utils.network.nxos.nxos import nxos_argument_spec, check_args" should be placed at the top of the module (wrong-import-position)
+C:138, 0: Import "from ansible.module_utils.network.nxos.nxos import get_interface_type" should be placed at the top of the module (wrong-import-position)
+C:139, 0: Import "from ansible.module_utils.six import string_types" should be placed at the top of the module (wrong-import-position)
+C:166, 0: Missing function docstring (missing-docstring)
+C:181, 0: Missing function docstring (missing-docstring)
+C:191, 0: Missing function docstring (missing-docstring)
+C:204, 0: Missing function docstring (missing-docstring)
+C:225, 0: Missing function docstring (missing-docstring)
+R:225, 0: Too many branches (16/12) (too-many-branches)
+C:282, 0: Missing function docstring (missing-docstring)
+C:290, 0: Missing function docstring (missing-docstring)
+C:305,11: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+R:290, 0: Too many branches (29/12) (too-many-branches)
+R:290, 0: Too many statements (56/50) (too-many-statements)
+C:360, 0: Missing function docstring (missing-docstring)
+C:374, 0: Missing function docstring (missing-docstring)
+R:374, 0: Too many branches (16/12) (too-many-branches)
+C:418, 0: Missing function docstring (missing-docstring)
+C:437, 0: Missing function docstring (missing-docstring)
+R:437, 0: Too many local variables (25/15) (too-many-locals)
+R:437, 0: Too many branches (17/12) (too-many-branches)
+R:437, 0: Too many statements (56/50) (too-many-statements)
+W:139, 0: Unused string_types imported from ansible.module_utils.six (unused-import)
+
+-----------------------------------
+Your code has been rated at 8.95/10
+

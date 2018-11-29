@@ -1,0 +1,24 @@
+************* Module ansible.modules.cloud.vmware.vmware_migrate_vmk
+C: 78, 0: Line too long (105/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 77, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C: 78, 0: Import "from ansible.module_utils.vmware import vmware_argument_spec, find_dvs_by_name, find_hostsystem_by_name, connect_to_api, find_dvspg_by_name" should be placed at the top of the module (wrong-import-position)
+C: 82, 0: Missing class docstring (missing-docstring)
+R: 82, 0: Too many instance attributes (9/7) (too-many-instance-attributes)
+C: 95, 4: Missing method docstring (missing-docstring)
+W:109,15: Catching too general exception Exception (broad-except)
+C:109,28: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:112, 4: Missing method docstring (missing-docstring)
+C:115, 4: Missing method docstring (missing-docstring)
+C:118, 4: Missing method docstring (missing-docstring)
+C:131, 4: Missing method docstring (missing-docstring)
+C:143, 4: Missing method docstring (missing-docstring)
+C:147, 8: Variable name "pg" doesn't conform to snake_case naming style (invalid-name)
+C:155, 4: Missing method docstring (missing-docstring)
+R:155, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:172, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.82/10
+

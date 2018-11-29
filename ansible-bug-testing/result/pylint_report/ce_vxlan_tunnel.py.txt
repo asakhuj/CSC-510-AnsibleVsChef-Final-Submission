@@ -1,0 +1,14 @@
+************* Module ansible.modules.network.cloudengine.ce_vxlan_tunnel
+C:121, 0: Line too long (114/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:119, 0: Import "from xml.etree import ElementTree" should be placed at the top of the module (wrong-import-position)
+C:120, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:121, 0: Import "from ansible.module_utils.network.cloudengine.ce import get_nc_config, set_nc_config, get_config, ce_argument_spec" should be placed at the top of the module (wrong-import-position)
+R:325, 0: Too many instance attributes (18/7) (too-many-instance-attributes)
+R:746, 4: Too many branches (13/12) (too-many-branches)
+R:835, 4: Too many branches (21/12) (too-many-branches)
+R:325, 0: Too many public methods (32/20) (too-many-public-methods)
+
+-----------------------------------
+Your code has been rated at 9.79/10
+

@@ -1,0 +1,17 @@
+************* Module ansible.parsing.ajson
+W: 46, 0: TODO: find way to integrate with the encoding modules do in module_utils (fixme)
+C: 52, 0: Line too long (107/100) (line-too-long)
+C: 56, 0: Line too long (113/100) (line-too-long)
+C: 59, 0: Line too long (102/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Class name "__metaclass__" doesn't conform to PascalCase naming style (invalid-name)
+C: 19, 0: Missing class docstring (missing-docstring)
+C: 28, 4: Missing method docstring (missing-docstring)
+C: 31, 4: Missing method docstring (missing-docstring)
+E: 31, 4: An attribute defined in json.decoder line 348 hides this method (method-hidden)
+E: 53, 4: An attribute defined in json.encoder line 162 hides this method (method-hidden)
+W: 56,48: Access to a protected member _ciphertext of a client class (protected-access)
+
+-----------------------------------
+Your code has been rated at 4.87/10
+

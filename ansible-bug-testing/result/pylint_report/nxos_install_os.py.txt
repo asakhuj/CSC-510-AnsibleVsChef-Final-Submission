@@ -1,0 +1,31 @@
+************* Module ansible.modules.network.nxos.nxos_install_os
+C:  1, 0: Missing module docstring (missing-docstring)
+C:120, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:121, 0: Import "from time import sleep" should be placed at the top of the module (wrong-import-position)
+C:122, 0: Import "from ansible.module_utils.network.nxos.nxos import load_config, run_commands" should be placed at the top of the module (wrong-import-position)
+C:123, 0: Import "from ansible.module_utils.network.nxos.nxos import nxos_argument_spec, check_args" should be placed at the top of the module (wrong-import-position)
+C:124, 0: Import "from ansible.module_utils.basic import AnsibleModule" should be placed at the top of the module (wrong-import-position)
+C:128, 0: Missing function docstring (missing-docstring)
+W:143, 8: Redefining built-in 'type' (redefined-builtin)
+C:201, 7: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:203, 4: Variable name "ud" doesn't conform to snake_case naming style (invalid-name)
+C:225, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:282, 8: Variable name "rd" doesn't conform to snake_case naming style (invalid-name)
+C:283, 8: Variable name "mo" doesn't conform to snake_case naming style (invalid-name)
+C:307, 8: Variable name "mo" doesn't conform to snake_case naming style (invalid-name)
+R:158, 0: Too many branches (27/12) (too-many-branches)
+R:158, 0: Too many statements (87/50) (too-many-statements)
+C:322, 0: Missing function docstring (missing-docstring)
+W:346,45: Redefining built-in 'type' (redefined-builtin)
+C:346, 0: Missing function docstring (missing-docstring)
+C:386, 0: Missing function docstring (missing-docstring)
+C:390, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:391, 8: Variable name "mo" doesn't conform to snake_case naming style (invalid-name)
+W:402,30: Unused argument 'issu' (unused-argument)
+C:457, 0: Missing function docstring (missing-docstring)
+W:458, 8: Unused variable 'attempt' (unused-variable)
+C:532, 0: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 9.01/10
+
