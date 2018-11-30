@@ -1,0 +1,9 @@
+This folder houses script to connecting to a created reddit application. It lets you access reddit along with setting specific subreddits and a search phrase to look for in titles and descriptions on the specified search query.
+
+Dependency:
+pandas
+praw
+
+Run:
+>>pip instal <dependency>
+
