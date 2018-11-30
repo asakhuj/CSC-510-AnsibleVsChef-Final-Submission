@@ -1,0 +1,10 @@
+
+Class:	Description
+Ansible:	This comment directly/indirectly favours the adoption of ansible.
+Chef:	This comment directly/indirectly favours the adoption of chef.
+Ambivalent:	This comment does not take a strong stance on any particular C.M. tool.
+Other:	This comment directly/indirectly favours the adoption of C.M. tools other than ansible and chef.
+Negative Ansible:	This comment expresses a negative sentiment towards the adoption of ansible.
+Negative Chef:	This comment expresses a negative sentiment towards the adoption of chef-.
+Noise:	This comment adds no value to our discussion: ansible vs chef
+
