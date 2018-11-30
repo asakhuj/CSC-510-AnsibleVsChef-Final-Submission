@@ -1,0 +1,14 @@
+This script helps study the mined dataset. 
+
+dependency:
+pandas
+pke
+matplotlib
+PIL
+wordcloud
+
+Run:
+>>pip install <dependecy>
+
+The results are explained better in the report, can check out the graphs and result.txt
+NOTE: This was developed in python 2. as pke is work in progress for python 3.
