@@ -1,0 +1,6 @@
+This folder represents scripts to the reddit forum analysis.
+The data set folder has the labelled data for comments mined.
+
+Webscraper has script to connect to reddit and search for the selected subreddit posts
+
+The opinion_miner folder has scripts to the analysis done on the data as well as a folder to graphs generated to study trends, it even has the concole output for the scripts.
